@@ -7,7 +7,12 @@ INSERT INTO DEMO_COMPJOB_TB (jobname, jobtype, jobproperty, startexname, progres
 		"table": "demo_video_tb",
 		"alias": "catalogvideosrc",
 		"where": ["idx"],
-		"select": "idx as assetid, ''video/''|| assetfilepath || ''/''|| assetfilename as filepath "
+		"select": "idx as assetid, ''video/''|| assetfilepath || ''/''|| assetfilename as filepath, volume1, volume2 "
+	},{
+		"table": "demo_video_tb",
+		"alias": "shotimages",
+		"where": ["idx"],
+		"select": "''proxyshot/'' || assetfilepath || ''/'' as filepath, volume1, volume2 "
 	}],
 	"status": [{
 		"table": "demo_video_tb",
@@ -41,12 +46,12 @@ INSERT INTO DEMO_COMPJOB_TB (jobname, jobtype, jobproperty, startexname, progres
 		"table": "demo_video_tb",
 		"alias": "convertvideosrc",
 		"where": ["idx"],
-		"select": "idx as assetid, ''MXF'' as videowrappertype, ''video/''|| assetfilepath || ''/''|| assetfilename as filepath "
+		"select": "idx as assetid, ''MXF'' as videowrappertype, ''video/''|| assetfilepath || ''/''|| assetfilename as filepath, volume1, volume2 "
 	},{
 		"table": "demo_video_tb",
 		"alias": "proxyvideos",
 		"where": ["idx"],
-		"select": "idx as idx, ''proxyvideo/'' || assetfilepath || ''/'' || objectid || ''.mp4'' as filepath, ''h264'' as mobtype "
+		"select": "idx as idx, ''proxyvideo/'' || assetfilepath || ''/'' || objectid || ''.mp4'' as filepath, ''h264'' as mobtype , volume1, volume2 "
 	}],
 	"status": [{
 		"table": "demo_video_tb",
@@ -72,18 +77,19 @@ INSERT INTO DEMO_COMPJOB_TB (jobname, jobtype, jobproperty, startexname, progres
 }');
 
 
+DELETE from DEMO_COMPJOB_TB where jobname='convert_video';
 INSERT INTO DEMO_COMPJOB_TB (jobname, jobtype, jobproperty, startexname, progressexname, endexname,  paramproperty) VALUES (
 'convert_video', 'tc_video', '{
 	"select": [{
 		"table": "demo_video_tb",
 		"alias": "convertvideosrc",
 		"where": ["idx"],
-		"select": "idx as assetid, ''MXF'' as videowrappertype, ''video/''|| assetfilepath || ''/''|| assetfilename as filepath "
+		"select": "idx as assetid, ''MXF'' as videowrappertype, ''video/''|| assetfilepath || ''/''|| assetfilename as filepath, drive1, drive2 "
 	},{
 		"table": "demo_video_tb",
 		"alias": "proxyvideos",
 		"where": ["idx"],
-		"select": "idx as idx, ''proxyvideo/'' || assetfilepath || ''/'' || objectid || ''.mp4'' as filepath, ''h264'' as mobtype "
+		"select": "idx as idx, ''proxyvideo/'' || assetfilepath || ''/'' || objectid || ''.mp4'' as filepath, ''h264'' as mobtype , drive1, drive2 "
 	}],
 	"status": [{
 		"table": "demo_video_tb",

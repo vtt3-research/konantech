@@ -188,11 +188,12 @@ public class WorkflowService {
 
         Map<String, Object> resultMap = new HashMap<>();
         for( CompJobJobPropertySelect select : jobPropertySelect ) {
-            if(select.isSingleObject()) {
-                jobInfo.put(select.getAlias(), workflowMapper.selectCustomObject(select.getSelectQuery(paramListMap)));
-            } else {
-                jobInfo.put(select.getAlias(), workflowMapper.selectCustomObjectList(select.getSelectQuery(paramListMap)));
-            }
+              jobInfo.put(select.getAlias(), workflowMapper.selectCustomObject(select.getSelectQuery(paramListMap)));
+//            if(select.isSingleObject()) {
+//                jobInfo.put(select.getAlias(), workflowMapper.selectCustomObject(select.getSelectQuery(paramListMap)));
+//            } else {
+//                jobInfo.put(select.getAlias(), workflowMapper.selectCustomObjectList(select.getSelectQuery(paramListMap)));
+//            }
         }
         return jobPropertyMap;
     }

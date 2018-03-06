@@ -61,12 +61,6 @@ public class JsonTest {
             System.out.println(width);
             System.out.println(height);
         }
-
-
-
-
     }
-
-
 
 }

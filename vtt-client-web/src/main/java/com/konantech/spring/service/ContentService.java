@@ -157,6 +157,10 @@ public class ContentService {
                 update.put("orifilename", videoFile.getOrifilename());
 
             }
+
+            update.put("volume1", "X:/darc4data/");
+            update.put("volume2", "/Volumes/konan/darc4data/");
+
             this.updateContentItem(update);
 
         } catch (IOException e) {

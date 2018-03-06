@@ -78,7 +78,6 @@ public class ContentController {
             VideoFile videoFile = new VideoFile();
             videoFile.setTitle(request.getParameter("title"));
             videoFile.setContent(request.getParameter("content"));
-            videoFile.setContent(request.getParameter("content"));
             videoFile.setFile(file);
 
             contentService.upload(videoFile);
