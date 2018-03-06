@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.konantech.spring.mapper.ContentMapper">
+
+    <select id="getContentCount" parameterType="ContentQuery" resultType="int">
+        SELECT
+          COUNT(*) AS COUNT
+        FROM
+        DEMO_VIDEO_TB
+        <where>
+
+        </where>
+    </select>
+
+    <select id="getContentList" parameterType="ContentQuery" resultType="java.util.TreeMap">
+
+        SELECT
+            idx ,title ,content
+            ,orifilename ,assetfilename,assetfilepath ,assetfilesize
+            ,transcodingendtime ,transcodingstarttime ,transcodingstatus
+            ,catalogendtime ,catalogstarttime ,catalogstatus
+            ,createtime ,createuser
+            ,mediainfo
+            ,genre
+            ,delflag
+        FROM
+            DEMO_VIDEO_TB
+        <where>
+
+        </where>
+        ORDER BY idx desc
+        <if test="limit > 0">LIMIT #{limit} </if>
+        <if test="offset > 0">OFFSET #{offset} </if>
+
+    </select>
+
+    <select id="getContentItem" parameterType="ContentQuery" resultType="ContentField">
+
+        SELECT
+             idx ,title ,content
+            ,orifilename ,assetfilename,assetfilepath ,assetfilesize
+            ,transcodingendtime ,transcodingstarttime ,transcodingstatus
+            ,catalogendtime ,catalogstarttime ,catalogstatus
+            ,createtime ,createuser
+            ,mediainfo
+            ,genre
+            ,delflag
+        FROM
+            DEMO_VIDEO_TB
+        <where>
+            idx = #{idx}
+        </where>
+
+    </select>
+
+    <insert id="putContentItem" parameterType="map" useGeneratedKeys="true" keyProperty="idx">
+        <selectKey keyProperty="idx" resultType="Integer" order="BEFORE">
+            SELECT COALESCE(max(idx),0) + 1 FROM DEMO_VIDEO_TB
+        </selectKey>
+        INSERT INTO DEMO_VIDEO_TB (
+          idx, title, content
+        ) values (
+          #{idx}, #{title}, #{content}
+        )
+    </insert>
+
+    <update id="updateContentItem" parameterType="map" >
+        UPDATE DEMO_VIDEO_TB
+        <set>
+            <if test="objectid != null and objectid != '' ">objectid = #{objectid},</if>
+            <if test="assetfilepath != null and assetfilepath != '' ">assetfilepath = #{assetfilepath},</if>
+            <if test="assetfilename != null and assetfilename != '' ">assetfilename = #{assetfilename},</if>
+            <if test="assetfilesize != null and assetfilesize != '' ">assetfilesize = #{assetfilesize},</if>
+            <if test="orifilename != null and orifilename != '' ">orifilename = #{orifilename},</if>
+            <if test="mediainfo != null and mediainfo != '' ">mediainfo = cast(#{mediainfo} as jsonb),</if>
+            <if test="catalogstatus != null and catalogstatus != '' ">catalogstatus = #{catalogstatus},</if>
+            <if test="catalogendtime != null and catalogendtime != '' ">catalogendtime = #{catalogendtime},</if>
+            <if test="volume1 != null and volume1 != '' ">volume1 = #{volume1},</if>
+            <if test="volume2 != null and volume2 != '' ">volume2 = #{volume2},</if>
+        </set>
+        <where>
+           idx = #{idx}
+        </where>
+    </update>
+
+
+</mapper>
