@@ -37,7 +37,7 @@
 
     </select>
 
-    <select id="getContentItem" parameterType="ContentQuery" resultType="java.util.TreeMap">
+    <select id="getContentItem" parameterType="ContentQuery" resultType="ContentField">
 
         SELECT
              idx ,title ,content

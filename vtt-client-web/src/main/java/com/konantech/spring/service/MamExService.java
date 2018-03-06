@@ -1,6 +1,7 @@
 package com.konantech.spring.service;
 
 import com.konantech.spring.core.RedisRepository;
+import com.konantech.spring.domain.content.ContentField;
 import com.konantech.spring.domain.content.ContentQuery;
 import com.konantech.spring.domain.mamex.MamExCnfTb;
 import com.konantech.spring.domain.storyboard.ShotTB;
@@ -75,7 +76,7 @@ public class MamExService {
         int idx = MapUtils.getIntValue(shotinfo,"assetid");
         ContentQuery query = new ContentQuery();
         query.setIdx(idx);
-        Map<String, Object> asset = contentService.getContentItem(query);
+        ContentField asset = contentService.getContentItem(query);
 
         // reset
         if(StringUtils.equals(MapUtils.getString(shotinfo,"sequencetype"),"start")) {

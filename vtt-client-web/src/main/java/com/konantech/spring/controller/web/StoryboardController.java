@@ -1,9 +1,11 @@
 package com.konantech.spring.controller.web;
 
 import com.konantech.spring.domain.content.AnalyzerSogang;
+import com.konantech.spring.domain.content.ContentField;
 import com.konantech.spring.domain.content.ContentQuery;
 import com.konantech.spring.domain.response.ItemResponse;
 import com.konantech.spring.domain.response.ListResponse;
+import com.konantech.spring.domain.storyboard.ShotTB;
 import com.konantech.spring.service.ContentService;
 import com.konantech.spring.service.StoryboardService;
 import com.konantech.spring.util.RequestUtils;
@@ -40,27 +42,28 @@ public class StoryboardController {
         ContentQuery query = new ContentQuery();
         query.setIdx(idx);
 
-        Map<String, Object> item = contentService.getContentItem(query);
+        ContentField item = contentService.getContentItem(query);
         int total = storyboardService.getShotCount(query);
-        List<Map<String, Object>> list = storyboardService.getShotList(query);
+        List<ShotTB> list = storyboardService.getShotList(query);
         Map<String,Object> shotSize = null;
         if(list != null && list.size() > 0) {
-            Map<String, Object> firstAsset = list.get(0);
+            ShotTB firstAsset = list.get(0);
             shotSize = storyboardService.getShotSize(firstAsset);
             if(shotSize != null) {
-                item.putAll(shotSize);
+                item.setShotWidth(MapUtils.getIntValue(shotSize,"shotWidth"));
+                item.setShotHeight(MapUtils.getIntValue(shotSize,"shotHeight"));
             }
-            for (Map<String, Object> asset : list) {
-                String object = MapUtils.getString(asset,"object");
+            for (ShotTB asset : list) {
+                String object = asset.getObject();
                 AnalyzerSogang analyzerSogang = new AnalyzerSogang(object);
-                asset.put("detect", analyzerSogang);
+                asset.setDetect(analyzerSogang);
             }
         }
 
-        ItemResponse<Map<String, Object>> itemResponse = new ItemResponse<>();
+        ItemResponse<ContentField> itemResponse = new ItemResponse<>();
         itemResponse.setItem(item);
 
-        ListResponse<Map<String, Object>> listResponse = new ListResponse<>();
+        ListResponse listResponse = new ListResponse<ShotTB>();
         listResponse.setTotal(total);
         listResponse.setOffset(query.getOffset());
         listResponse.setLimit(query.getLimit());
@@ -82,27 +85,29 @@ public class StoryboardController {
         ContentQuery query = new ContentQuery();
         query.setIdx(idx);
 
-        List<Map<String, Object>> list = storyboardService.getShotList(query);
-        Map<String, Object> item = contentService.getContentItem(query);
+        List<ShotTB> list = storyboardService.getShotList(query);
+        ContentField item = contentService.getContentItem(query);
 
         Map<String,Object> shotSize = null;
-        ListResponse<Map<String, Object>> listResponse = new ListResponse<>();
 
         if(list != null && list.size() > 0) {
-            Map<String, Object> firstAsset = list.get(0);
+            ShotTB firstAsset = list.get(0);
             shotSize = storyboardService.getShotSize(firstAsset);
             if(shotSize != null) {
-                item.putAll(shotSize);
+                item.setShotWidth(MapUtils.getIntValue(shotSize,"shotWidth"));
+                item.setShotHeight(MapUtils.getIntValue(shotSize,"shotHeight"));
             }
-            for (Map<String, Object> asset : list) {
-                String object = MapUtils.getString(asset,"object");
+            for (ShotTB asset : list) {
+                String object = asset.getObject();
                 AnalyzerSogang analyzerSogang = new AnalyzerSogang(object);
-                asset.put("detect", analyzerSogang);
+                asset.setDetect(analyzerSogang);
             }
         }
+
+        ListResponse listResponse = new ListResponse<ShotTB>();
         listResponse.setList(list);
 
-        ItemResponse<Map<String, Object>> itemResponse = new ItemResponse<>();
+        ItemResponse<ContentField> itemResponse = new ItemResponse<>();
         itemResponse.setItem(item);
 
         modelMap.addAttribute("itemResponse",itemResponse);

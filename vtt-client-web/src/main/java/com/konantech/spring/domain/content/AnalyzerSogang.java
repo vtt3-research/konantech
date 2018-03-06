@@ -62,7 +62,7 @@ public class AnalyzerSogang {
             for(Object obj : jsonArrayFace) {
                 JSONArray jsonArray = (JSONArray) obj;
                 Object obj1 = jsonArray.get(1);
-                if ( obj1 instanceof JSONObject ) {
+                if ( obj1 instanceof JSONObject) {
                     JSONArray rect = (JSONArray) jsonArray.get(0);
                     JSONObject name = (JSONObject) jsonArray.get(1);
                     faceData.add(getFaceInfo(rect, name));

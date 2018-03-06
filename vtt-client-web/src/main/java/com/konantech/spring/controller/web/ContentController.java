@@ -1,6 +1,7 @@
 package com.konantech.spring.controller.web;
 
 import com.konantech.spring.domain.content.ContentQuery;
+import com.konantech.spring.domain.content.VideoFile;
 import com.konantech.spring.domain.response.ListResponse;
 import com.konantech.spring.service.ContentService;
 import com.konantech.spring.util.RequestUtils;
@@ -73,7 +74,14 @@ public class ContentController {
             return "uploadStatus";
         }
         try {
-            contentService.upload(request, file);
+
+            VideoFile videoFile = new VideoFile();
+            videoFile.setTitle(request.getParameter("title"));
+            videoFile.setContent(request.getParameter("content"));
+            videoFile.setContent(request.getParameter("content"));
+            videoFile.setFile(file);
+
+            contentService.upload(videoFile);
         } catch (Exception e) {
             throw new Exception(e.getMessage(), e);
         }

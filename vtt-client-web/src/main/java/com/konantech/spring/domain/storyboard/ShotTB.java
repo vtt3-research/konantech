@@ -1,5 +1,6 @@
 package com.konantech.spring.domain.storyboard;
 
+import com.konantech.spring.domain.content.AnalyzerSogang;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -19,4 +20,6 @@ public class ShotTB implements Serializable {
     private String object;
     private boolean delflag;
 
+    //add
+    private AnalyzerSogang detect;
 }

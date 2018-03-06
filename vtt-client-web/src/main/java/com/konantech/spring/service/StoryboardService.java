@@ -32,7 +32,7 @@ public class StoryboardService {
         return storyboardMapper.getShotCount(param);
     }
 
-    public List<Map<String,Object>> getShotList(ContentQuery n) {
+    public List<ShotTB> getShotList(ContentQuery n) {
         return storyboardMapper.getShotList(n);
     }
 
@@ -47,9 +47,9 @@ public class StoryboardService {
         return storyboardMapper.deleteShotItems(videoid);
     }
 
-    public Map<String,Object> getShotSize(Map<String, Object> asset) throws Exception {
-        String assetfilepath = MapUtils.getString(asset,"assetfilepath");
-        String assetfilename = MapUtils.getString(asset,"assetfilename");
+    public Map<String,Object> getShotSize(ShotTB asset) throws Exception {
+        String assetfilepath = asset.getAssetfilepath();
+        String assetfilename = asset.getAssetfilename();
         String sourceFile = FilenameUtils.normalize(proxyShotFolder + "/" + assetfilepath + "/" + assetfilename);
         String mediainfo = fFmpegUtil.getMediaInfo(sourceFile);
         return fFmpegUtil.shotSize(mediainfo);

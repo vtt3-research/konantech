@@ -22,22 +22,22 @@ public class WorkflowInitializing {
     @Autowired
     WorkflowMapper workflowMapper;
 
-    @Scheduled(fixedDelay=3000)
-    public void workflowJob() throws Exception {
-        try {
-            // ToDo 서버간 동기화 구간 시작
-            CompJobQueueTB compJobQueueTB = workflowMapper.selectAllocJob();
-            CompServerTB compServerTB = null;
-            if (compJobQueueTB != null) {
-                compServerTB = workflowMapper.selectAllocServer(compJobQueueTB);
-            }
-            if (compJobQueueTB != null && compServerTB != null) {
-                workflowService.updateStatusProc(compJobQueueTB, compServerTB);
-            }
-            workflowService.allocJob(compJobQueueTB, compServerTB);
-        } catch (Exception e) {
-            log.error(e.getMessage(), e);
-        }
-    }
+//    @Scheduled(fixedDelay=3000)
+//    public void workflowJob() throws Exception {
+//        try {
+//            // ToDo 서버간 동기화 구간 시작
+//            CompJobQueueTB compJobQueueTB = workflowMapper.selectAllocJob();
+//            CompServerTB compServerTB = null;
+//            if (compJobQueueTB != null) {
+//                compServerTB = workflowMapper.selectAllocServer(compJobQueueTB);
+//            }
+//            if (compJobQueueTB != null && compServerTB != null) {
+//                workflowService.updateStatusProc(compJobQueueTB, compServerTB);
+//            }
+//            workflowService.allocJob(compJobQueueTB, compServerTB);
+//        } catch (Exception e) {
+//            log.error(e.getMessage(), e);
+//        }
+//    }
 
 }

@@ -12,7 +12,7 @@ import java.util.Map;
 public interface StoryboardMapper {
 
     int getShotCount(ContentQuery param);
-    List<Map<String,Object>> getShotList(ContentQuery param);
+    List<ShotTB> getShotList(ContentQuery param);
     Map<String,Object> getShotItem(ContentQuery param);
     int putShotItem(ShotTB shotTB);
     int deleteShotItems(int videoid);

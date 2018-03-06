@@ -1,7 +1,10 @@
 package com.konantech.spring.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.konantech.spring.domain.content.ContentField;
 import com.konantech.spring.domain.content.ContentQuery;
+import com.konantech.spring.domain.content.VideoFile;
+import com.konantech.spring.domain.response.ItemResponse;
 import com.konantech.spring.domain.workflow.WorkflowRequest;
 import com.konantech.spring.mapper.ContentMapper;
 import com.konantech.spring.mapper.CustomQueryMapper;
@@ -62,10 +65,10 @@ public class ContentService {
         return contentMapper.getContentList(n);
     }
 
-    public Map<String,Object> getContentItem(ContentQuery n) throws Exception {
+    public ContentField getContentItem(ContentQuery n) throws Exception {
 
-        Map<String, Object> item = contentMapper.getContentItem(n);
-        String mediainfo = MapUtils.getString(item, "mediainfo");
+        ContentField item = contentMapper.getContentItem(n);
+        String mediainfo = item.getMediainfo();
         if(mediainfo != null) {
             ObjectMapper mapper = new ObjectMapper();
             HashMap<String, Object> map = mapper.readValue(mediainfo, new HashMap<String, Object>().getClass());
@@ -74,8 +77,8 @@ public class ContentService {
                 JSONObject o1 = (JSONObject) jsonArray.get(0);
                 int width = (int) o1.get("width");
                 int height = (int) o1.get("height");
-                item.put("width", width);
-                item.put("height", height);
+                item.setWidth(width);
+                item.setHeight(height);
             }
         }
         return item;
@@ -89,7 +92,7 @@ public class ContentService {
     }
 
 
-    public void upload(HttpServletRequest request, MultipartFile file) throws Exception {
+    public ItemResponse<ContentField> upload(VideoFile videoFile) throws Exception {
 
         SimpleDateFormat yyyy = new SimpleDateFormat("yyyy");
         SimpleDateFormat yyyyMMdd = new SimpleDateFormat("yyyy/MM/dd");
@@ -101,51 +104,70 @@ public class ContentService {
                 throw new Exception("Permission denied, ( " + base.getAbsolutePath() + " )" );
             }
         }
+        String title = videoFile.getTitle();
+        String content = videoFile.getContent();
+        MultipartFile file = videoFile.getFile();
 
-        String title = request.getParameter("title");
-        String content = request.getParameter("content");
-        Map<String, Object> req = new LinkedHashMap<String, Object>();
+        Map req = new LinkedHashMap<String, Object>();
         req.put("title", title);
         req.put("content", content);
         this.putContentItem(req);
 
-        Map<String, Object> update = new LinkedHashMap<String, Object>();
+        Map update = new LinkedHashMap<String, Object>();
 
         int idx = MapUtils.getIntValue(req,"idx");
         String objectid = String.format("OV%s%08d", yyyy.format(new Date()), idx);
 
         try {
-            String ext = getExt(file.getOriginalFilename());
-            String assetfilepath = yyyyMMdd.format(new Date()) + "/" + idx;
-            String assetfilename = objectid + "." + ext;
+            if(file != null) {
+                String ext = FilenameUtils.getExtension(file.getOriginalFilename());
+                String assetfilepath = yyyyMMdd.format(new Date()) + "/" + idx;
+                String assetfilename = objectid + "." + ext;
 
-            String descFile = FilenameUtils.normalize(descFolder + "/" + assetfilepath + "/" + assetfilename);
-            File parent = new File(descFile).getParentFile();
-            if (!parent.exists()) {
-                if(!parent.mkdirs()) {
-                    throw new Exception("Permission denied, ( " + parent.getAbsolutePath() + " )" );
+                String descFile = FilenameUtils.normalize(descFolder + "/" + assetfilepath + "/" + assetfilename);
+                File parent = new File(descFile).getParentFile();
+                if (!parent.exists()) {
+                    if(!parent.mkdirs()) {
+                        throw new Exception("Permission denied, ( " + parent.getAbsolutePath() + " )" );
+                    }
                 }
+
+                byte[] bytes = file.getBytes();
+                Path path = Paths.get(descFile);
+                Files.write(path, bytes);
+
+                if(StringUtils.isEmpty(videoFile.getOrifilename())) {
+                    videoFile.setOrifilename(file.getOriginalFilename());
+                }
+                String mediainfo = fFmpegUtil.getMediaInfo(descFile);
+                update.put("idx", idx);
+                update.put("objectid", objectid);
+                update.put("assetfilepath", assetfilepath);
+                update.put("assetfilename", assetfilename);
+                update.put("assetfilesize", FileUtils.sizeOf(new File(descFile)));
+                update.put("orifilename", videoFile.getOrifilename());
+                update.put("mediainfo", mediainfo);
+
+            } else {
+
+                update.put("idx", idx);
+                update.put("objectid", objectid);
+                update.put("assetfilepath", videoFile.getFilepath());
+                update.put("genrepath", "/");
+                update.put("orifilename", videoFile.getOrifilename());
+
             }
-
-            byte[] bytes = file.getBytes();
-            Path path = Paths.get(descFile);
-            Files.write(path, bytes);
-
-            String mediainfo = fFmpegUtil.getMediaInfo(descFile);
-            update.put("idx", idx);
-            update.put("objectid", objectid);
-            update.put("assetfilepath", assetfilepath);
-            update.put("assetfilename", assetfilename);
-            update.put("assetfilesize", FileUtils.sizeOf(new File(descFile)));
-            update.put("genrepath", "/");
-            update.put("orifilename", file.getOriginalFilename());
-            update.put("mediainfo", mediainfo);
-
             this.updateContentItem(update);
 
         } catch (IOException e) {
             throw new Exception(e.getMessage(), e);
         }
+
+        ContentQuery query = new ContentQuery();
+        query.setIdx(idx);
+        ItemResponse<ContentField> itemResponse = new ItemResponse<>();
+        itemResponse.setItem(this.getContentItem(query));
+        return itemResponse;
     }
 
     public void retry(HttpServletRequest req, String cname,String ids) throws Exception {
@@ -230,14 +252,6 @@ public class ContentService {
     }
 
 
-    public String getExt(String fileName) {
-        String ext = "";
-        int index = fileName.lastIndexOf(".");
-        if (index != -1) {
-            ext = fileName.substring(index + 1);
-        }
-        return ext;
-    }
 
 
 

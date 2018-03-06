@@ -13,7 +13,7 @@
 
     </select>
 
-    <select id="getShotList" parameterType="ContentQuery" resultType="java.util.TreeMap">
+    <select id="getShotList" parameterType="ContentQuery" resultType="ShotTB">
 
         SELECT
             shotid, videoid, content, starttimecode, startframeindex,
