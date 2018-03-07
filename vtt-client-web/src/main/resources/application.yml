@@ -79,7 +79,7 @@ darc:
     proxyShotFolder: '/Volumes/konan/darc4data/proxyshot'
 
     videoServerUrl: 'http://10.10.18.12:7070/darc4/video'
-    shotServerUrl: 'http://10.10.18.12:7070/darc4/proxyshot'
+    shotServerUrl: 'http://10.10.18.12:7070/darc4'
 
 
 ---
@@ -101,18 +101,4 @@ jobs:
     schedule:
         enable: false
 
----
-spring:
-    profiles: ogq
-    datasource:
-        driverClassName: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
-        url: jdbc:log4jdbc:postgresql://10.10.18.29:32772/postgres
-
-darc:
-    tempFolder: '/Volumes/konan/darc4data/temp'
-    videoFolder: '/Volumes/konan//darc4data/video'
-    proxyShotFolder: '/Volumes/konan/darc4data/proxyshot'
-
-cmd:
-    ffprobe: 'ffprobe|-print_format|json|-show_streams|'
 
