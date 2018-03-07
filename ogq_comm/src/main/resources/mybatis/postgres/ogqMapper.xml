@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.konantech.spring.mapper.OgqMapper">
+
+    <select id="itemInfo" parameterType="int" resultType="com.konantech.spring.domain.ItemData" >
+        SELECT
+          idx, requestid, videourl, callbackurl, createdate, updatedate, status, videoId, isUsed
+        FROM
+          OGQ_JOB_TB
+        <where>
+          idx = #{idx}
+        </where>
+    </select>
+
+    <select id="itemList" parameterType="map" resultType="com.konantech.spring.domain.ItemData" >
+        SELECT
+          idx, requestid, videourl, callbackurl, createdate, updatedate, status, videoId, isUsed
+        FROM
+          OGQ_JOB_TB
+        <where>
+            <if test="idx != null">
+                AND idx = #{idx}
+            </if>
+            <if test="requestid != null">
+                AND requestid = #{requestid}
+            </if>
+            <if test="status != null">
+                AND status = #{status}
+            </if>
+            AND isUsed = 1
+        </where>
+    </select>
+
+    <insert id="itemInsert" parameterType="com.konantech.spring.domain.ItemData" useGeneratedKeys="true">
+
+        <selectKey keyProperty="idx" resultType="Integer" order="BEFORE">
+            SELECT COALESCE(max(idx),0) + 1 FROM OGQ_JOB_TB
+        </selectKey>
+
+        INSERT INTO OGQ_JOB_TB (
+          idx, requestId, videoUrl, callbackUrl, createDate, updateDate, status, videoId, isUsed
+        ) VALUES (
+          #{idx}, #{requestId}, #{videoUrl}, #{callbackUrl}, #{createDate}, #{updateDate}, #{status}, #{videoId}, 1
+        )
+    </insert>
+
+    <update id="itemUpdate" parameterType="com.konantech.spring.domain.ItemData">
+        UPDATE OGQ_JOB_TB
+        <set>
+            <if test="requestId != null"> requestId = #{requestId}, </if>
+            <if test="videoUrl != null"> videoUrl = #{videoUrl}, </if>
+            <if test="callbackUrl != null"> callbackUrl = #{callbackUrl}, </if>
+            <if test="status != null"> status = #{status}, </if>
+            <if test="videoId != null"> videoId = #{videoId}, </if>
+            updateDate = now()
+        </set>
+        <where>
+            idx = #{idx}
+            AND isUsed = 1
+        </where>
+    </update>
+
+    <update id="itemDelete" parameterType="int">
+        UPDATE OGQ_JOB_TB
+        <set>
+            isUsed = 0
+        </set>
+        <where>
+            idx = #{idx}
+        </where>
+    </update>
+
+
+</mapper>

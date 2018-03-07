@@ -1,0 +1,61 @@
+
+# ex) -Dspring.profiles.active=server|local
+
+mybatis:
+    config-location: classpath:mybatis-config.xml
+    mapper-locations: mybatis/postgres/*.xml
+
+spring:
+    application:
+        name: ogq-comm
+    aop:
+        auto: true
+        proxy-target-class: true
+
+    datasource:
+        connectionProperties: characterEncoding=UTF-8
+        driverClassName: org.postgresql.Driver
+        url: jdbc:postgresql://10.10.18.29:65432/postgres
+        type: org.apache.tomcat.jdbc.pool.DataSource
+        password: postgres
+        username: postgres
+        initSQL: select 1
+        tomcat:
+          validation-query: SELECT 1
+          test-on-borrow: true
+          validation-interval: 0
+
+    messages:
+        basename: i18n/messages
+        cache-seconds: -1
+        encoding: UTF-8
+
+    mvc:
+        view:
+            prefix: /WEB-INF/views/
+            suffix: .jsp
+
+    redis:
+        host: 10.10.18.29
+        port: 32771
+
+    test:
+        mockmvc:
+            print: default
+
+darc4:
+    restUrl: http://10.10.30.21:8080/darc4
+    token: eyJhbGciOiJIUzUxMiIsImNhbGciOiJERUYifQ.eNoszc0NwjAMhuFdfM4hoU35WQaZ1CoRqYOSVICqXpiBI6swEQyBS7m-evx5BOyIi29hB0YbUIBD64kdSbjQQYJLhIUEGKtrvW62Vb0xVkFMvvMsLESHQSBdzzOqbGNWghQMmdKy_NstRzkpnrKUFAPt8y0X6mGBjP388xQZWZI8Df_0eT3e9ydMXwAAAP__.dDfddzrCKJ5LbT4RdRgLW3ds74R62fkWHPMJX4kEBvL_zyLuve3hcyM5QOGY_Bf9s6yGg6xLl6PmP920pQnUGQ
+    tempFolder: '/Volumes/konan/darc4data/temp'
+
+---
+spring:
+    profiles: developer
+    datasource:
+        driverClassName: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+        url: jdbc:log4jdbc:postgresql://10.10.18.29:65432/postgres
+darc4:
+    restUrl: http://127.0.0.1:8080
+    token: eyJhbGciOiJIUzUxMiIsImNhbGciOiJERUYifQ.eNoszc0NwjAMhuFdfM4hoU35WQaZ1CoRqYOSVICqXpiBI6swEQyBS7m-evx5BOyIi29hB0YbUIBD64kdSbjQQYJLhIUEGKtrvW62Vb0xVkFMvvMsLESHQSBdzzOqbGNWghQMmdKy_NstRzkpnrKUFAPt8y0X6mGBjP388xQZWZI8Df_0eT3e9ydMXwAAAP__.dDfddzrCKJ5LbT4RdRgLW3ds74R62fkWHPMJX4kEBvL_zyLuve3hcyM5QOGY_Bf9s6yGg6xLl6PmP920pQnUGQ
+
+---
