@@ -32,7 +32,7 @@ public class StoryboardController {
 
 //    private String videoServerUrl = "http://10.10.18.12:7070/darc4/proxyvideo";
     private String videoServerUrl = "http://10.10.18.12:7070/darc4/video";
-    private String shotServerUrl = "http://10.10.18.12:7070/darc4/proxyshot";
+    private String shotServerUrl = "http://10.10.18.12:7070/darc4";
 
     @RequestMapping(value = "/storyboard", method = RequestMethod.GET)
     public String storyboard(ModelMap modelMap, HttpServletRequest request) throws Exception {
