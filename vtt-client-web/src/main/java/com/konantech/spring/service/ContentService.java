@@ -158,8 +158,8 @@ public class ContentService {
 
             }
 
-            update.put("volume1", "X:/darc4data/");
-            update.put("volume2", "/Volumes/konan/darc4data/");
+            update.put("volumewin", "X:/darc4data/");
+            update.put("volumeetc", "/Volumes/konan/darc4data/");
 
             this.updateContentItem(update);
 

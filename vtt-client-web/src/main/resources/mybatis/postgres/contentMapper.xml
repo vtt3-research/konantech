@@ -78,8 +78,8 @@
             <if test="mediainfo != null and mediainfo != '' ">mediainfo = cast(#{mediainfo} as jsonb),</if>
             <if test="catalogstatus != null and catalogstatus != '' ">catalogstatus = #{catalogstatus},</if>
             <if test="catalogendtime != null and catalogendtime != '' ">catalogendtime = #{catalogendtime},</if>
-            <if test="volume1 != null and volume1 != '' ">volume1 = #{volume1},</if>
-            <if test="volume2 != null and volume2 != '' ">volume2 = #{volume2},</if>
+            <if test="volumewin != null and volumewin != '' ">volumewin = #{volumewin},</if>
+            <if test="volumeetc != null and volumeetc != '' ">volumeetc = #{volumeetc},</if>
         </set>
         <where>
            idx = #{idx}

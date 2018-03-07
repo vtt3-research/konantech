@@ -57,17 +57,16 @@ permission:
 cmd:
     ffprobe: '/opt/kaltura/ffmpeg-3.2/bin/ffprobe|-print_format|json|-show_streams|'
 
+jobs:
+    schedule:
+        enable: true
 
 #log4jdbc
 logging:
     level:
-        org:
-            apache:
-                http: DEBUG
         mybatis:
-            mapper: TRACE
-        root: WARN
-    ROOT: INFO
+            mapper: DEBUG
+    ROOT: DEBUG
     com.koknantech.spring: DEBUG
 
 #darc:
@@ -98,6 +97,9 @@ darc:
 cmd:
     ffprobe: 'ffprobe|-print_format|json|-show_streams|'
 
+jobs:
+    schedule:
+        enable: false
 
 ---
 spring:

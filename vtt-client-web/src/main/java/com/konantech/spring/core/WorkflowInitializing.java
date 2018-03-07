@@ -7,6 +7,7 @@ import com.konantech.spring.service.WorkflowService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
@@ -14,7 +15,9 @@ import org.springframework.stereotype.Component;
 public class WorkflowInitializing {
 
     private static Logger log = LoggerFactory.getLogger(WorkflowInitializing.class);
-    private int delay = 3 * 1000; // 3 sec
+
+    @Value("${jobs.schedule.enable}")
+    private boolean scheduleJobEnable;
 
     @Autowired
     WorkflowService workflowService;
@@ -22,22 +25,25 @@ public class WorkflowInitializing {
     @Autowired
     WorkflowMapper workflowMapper;
 
-//    @Scheduled(fixedDelay=3000)
-//    public void workflowJob() throws Exception {
-//        try {
-//            // ToDo 서버간 동기화 구간 시작
-//            CompJobQueueTB compJobQueueTB = workflowMapper.selectAllocJob();
-//            CompServerTB compServerTB = null;
-//            if (compJobQueueTB != null) {
-//                compServerTB = workflowMapper.selectAllocServer(compJobQueueTB);
-//            }
-//            if (compJobQueueTB != null && compServerTB != null) {
-//                workflowService.updateStatusProc(compJobQueueTB, compServerTB);
-//            }
-//            workflowService.allocJob(compJobQueueTB, compServerTB);
-//        } catch (Exception e) {
-//            log.error(e.getMessage(), e);
-//        }
-//    }
+    @Scheduled(fixedDelay=3000)
+    public void workflowJob() throws Exception {
+        if(scheduleJobEnable) {
+            try {
+                System.out.print(".");
+                // ToDo 서버간 동기화 구간 시작
+                CompJobQueueTB compJobQueueTB = workflowMapper.selectAllocJob();
+                CompServerTB compServerTB = null;
+                if (compJobQueueTB != null) {
+                    compServerTB = workflowMapper.selectAllocServer(compJobQueueTB);
+                }
+                if (compJobQueueTB != null && compServerTB != null) {
+                    workflowService.updateStatusProc(compJobQueueTB, compServerTB);
+                }
+                workflowService.allocJob(compJobQueueTB, compServerTB);
+            } catch (Exception e) {
+                log.error(e.getMessage(), e);
+            }
+        }
+    }
 
 }
