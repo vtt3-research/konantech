@@ -4,10 +4,6 @@ import lombok.Data;
 import org.hibernate.validator.constraints.NotEmpty;
 import org.hibernate.validator.constraints.URL;
 
-/**
- * Created by gsm on 2017-06-15.
- */
-
 @Data
 public class AssetsRequest {
     @NotEmpty

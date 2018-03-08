@@ -208,6 +208,8 @@ public class OgqService  {
         DarcStatus status = this.getStatus(info);
         if(status.getCatalogstatus() == 3000) {
             AssetsResponse assetsResponse = this.getShotTgas(idx);
+            item.setResultString(assetsResponse.toString());
+            ogqMapper.itemUpdate(item);
             ResponseEntity responseEntity = RestUtils.callback(callbackUrl, assetsResponse);
             return responseEntity;
         } else {

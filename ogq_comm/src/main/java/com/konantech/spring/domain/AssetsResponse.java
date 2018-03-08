@@ -2,14 +2,11 @@ package com.konantech.spring.domain;
 
 import lombok.Data;
 
+import java.io.Serializable;
 import java.util.List;
 
-/**
- * Created by gsm on 2017-06-15.
- */
-
 @Data
-public class AssetsResponse {
+public class AssetsResponse implements Serializable{
     private List<String> tags;
 
     public AssetsResponse(){

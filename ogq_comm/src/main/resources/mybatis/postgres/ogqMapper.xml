@@ -55,6 +55,7 @@
             <if test="callbackUrl != null"> callbackUrl = #{callbackUrl}, </if>
             <if test="status != null"> status = #{status}, </if>
             <if test="videoId != null"> videoId = #{videoId}, </if>
+            <if test="resultstring != null"> resultstring = #{resultstring}, </if>
             updateDate = now()
         </set>
         <where>

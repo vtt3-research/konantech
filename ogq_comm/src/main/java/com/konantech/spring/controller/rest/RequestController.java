@@ -27,10 +27,6 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-/**
- * Created by gsm on 2017-06-15.
- */
-
 @RestController
 public class RequestController {
 
@@ -64,20 +60,6 @@ public class RequestController {
         if(ogqService.itemInsert( itemData ) > 0) {
             uuid = itemData.getIdx();
         }
-
-        /*
-        //1. video_url 정보를 아카이브에 전송
-        System.out.println("Go to sleep~~~~");
-
-        try {
-            ThreadUtil threadUtil = new ThreadUtil();
-            threadUtil.doArchive(vUrl, cUrl);
-            threadUtil.finish();
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-
-        */
 
         String port = (request.getServerPort() == 80) ? "" : ":" + request.getServerPort();
         String url = "http://" + request.getServerName() + port + request.getContextPath();

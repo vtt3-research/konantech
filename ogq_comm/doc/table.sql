@@ -6,6 +6,7 @@ CREATE TABLE OGQ_JOB_TB (
   requestId CHARACTER VARYING(100) NOT NULL,
   videoUrl CHARACTER VARYING(512) NOT NULL,
   callbackUrl CHARACTER VARYING(512) NOT NULL,
+  resultString TEXT,
   createDate TIMESTAMP(6) WITHOUT TIME ZONE,
   updateDate TIMESTAMP(6) WITHOUT TIME ZONE,
   status NUMERIC NOT NULL,
@@ -15,8 +16,9 @@ CREATE TABLE OGQ_JOB_TB (
 
 
 insert into ogq_job_tb values(
-1,'0234567890',
-'https://s3.ap-northeast-2.amazonaws.com/awss3free/test/using_ffmpeg_decoder_2.mp4',
-'http://183.110.246.21:8080/ogq/response',
-now(),now(),0,0,1
+11,'129_118_v2 (2).mp4',
+'https://s3.ap-northeast-2.amazonaws.com/vtt-ogq/movie_attach/129_118_v2 (2).mp4',
+'http://ec2-13-125-78-13.ap-northeast-2.compute.amazonaws.com:8080/callbackReceiver',
+'',
+now(),now(),0,9,1
 )

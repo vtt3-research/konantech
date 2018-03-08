@@ -6,10 +6,6 @@ import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by gsm on 2017-06-15.
- */
-
 @Data
 public class ShotInfo implements Serializable{
 
