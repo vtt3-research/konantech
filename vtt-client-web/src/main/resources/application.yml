@@ -79,7 +79,7 @@ darc:
     proxyShotFolder: '/Volumes/konan/darc4data/proxyshot'
 
     videoServerUrl: 'http://10.10.18.12:7070/darc4/video'
-    shotServerUrl: 'http://10.10.18.12:7070/darc4'
+    shotServerUrl: 'http://10.10.18.12:7070/darc4/proxyshot'
 
 
 ---

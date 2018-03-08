@@ -12,6 +12,7 @@ import com.konantech.spring.util.RequestUtils;
 import org.apache.commons.collections.MapUtils;
 import org.postgresql.util.PGobject;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -30,9 +31,11 @@ public class StoryboardController {
     @Autowired
     private StoryboardService storyboardService;
 
-//    private String videoServerUrl = "http://10.10.18.12:7070/darc4/proxyvideo";
-    private String videoServerUrl = "http://10.10.18.12:7070/darc4/video";
-    private String shotServerUrl = "http://10.10.18.12:7070/darc4";
+    @Value("${darc.videoServerUrl}")
+    private String videoServerUrl;
+
+    @Value("${darc.shotServerUrl}")
+    private String shotServerUrl;
 
     @RequestMapping(value = "/storyboard", method = RequestMethod.GET)
     public String storyboard(ModelMap modelMap, HttpServletRequest request) throws Exception {
