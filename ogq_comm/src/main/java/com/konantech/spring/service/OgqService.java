@@ -192,6 +192,7 @@ public class OgqService  {
             shotInfo.setObject(object);
             shotInfo.setImage(assetfilepath + assetfilename);
             shotInfo.setTags(tags);
+            shotInfo.setLocation(locations);
             shotInfos.add(shotInfo);
         }
 
@@ -207,7 +208,7 @@ public class OgqService  {
         Map<String, Object> info = this.getDarc4Info(idx);
         DarcStatus status = this.getStatus(info);
         if(status.getCatalogstatus() == 3000) {
-            AssetsResponse assetsResponse = this.getShotTgas(idx);
+            AssetsResponse assetsResponse = this.getShotTgas(item.getVideoId());
             item.setResultString(assetsResponse.toString());
             ogqMapper.itemUpdate(item);
             ResponseEntity responseEntity = RestUtils.callback(callbackUrl, assetsResponse);

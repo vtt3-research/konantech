@@ -60,7 +60,7 @@ public class OgqBatchTest extends CommonTests {
     public void callbackTest() throws Exception {
 
         Map<String, Object> param = new HashedMap();
-        param.put("status", 1);
+        param.put("status", 2);
         List<ItemData> list = ogqService.itemList(param);
         for (ItemData item : list) {
             try {
