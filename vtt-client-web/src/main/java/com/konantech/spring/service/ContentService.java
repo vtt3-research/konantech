@@ -77,8 +77,14 @@ public class ContentService {
                 JSONObject o1 = (JSONObject) jsonArray.get(0);
                 int width = (int) o1.get("width");
                 int height = (int) o1.get("height");
-                item.setWidth(width);
-                item.setHeight(height);
+                String ratate = (String) ((JSONObject) o1.get("tags")).get("rotate");
+                if(ratate != null && Integer.parseInt(ratate) == 90) {
+                    item.setWidth(height);
+                    item.setHeight(width);
+                } else {
+                    item.setWidth(width);
+                    item.setHeight(height);
+                }
             }
         }
         return item;

@@ -304,7 +304,7 @@
         var content_height = $(window).height() - 250;
         var w = content_width / 2;
         var h = content_height / 2;
-        var calcSize = calculateCover({width: w, height: h}, [1280,720]);
+        var calcSize = calculateCover({width: w, height: h}, [origin_width,origin_height]);
         $(".videobox").css("height",h);
         $(".videobox-layout").css("height",h);
         $("canvas").attr("width",calcSize.width ).attr("height",calcSize.height );
