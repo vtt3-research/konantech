@@ -7,7 +7,7 @@
 
     <select id="itemInfo" parameterType="int" resultType="com.konantech.spring.domain.ItemData" >
         SELECT
-          idx, requestid, videourl, callbackurl, createdate, updatedate, status, videoId, isUsed
+          idx, requestid, videourl, callbackurl, resultstring, createdate, updatedate, status, videoId, isUsed
         FROM
           OGQ_JOB_TB
         <where>
@@ -17,7 +17,7 @@
 
     <select id="itemList" parameterType="map" resultType="com.konantech.spring.domain.ItemData" >
         SELECT
-          idx, requestid, videourl, callbackurl, createdate, updatedate, status, videoId, isUsed
+          idx, requestid, videourl, callbackurl, resultstring, createdate, updatedate, status, videoId, isUsed
         FROM
           OGQ_JOB_TB
         <where>
@@ -41,9 +41,9 @@
         </selectKey>
 
         INSERT INTO OGQ_JOB_TB (
-          idx, requestId, videoUrl, callbackUrl, createDate, updateDate, status, videoId, isUsed
+          idx, requestId, videoUrl, callbackUrl, resultstring, createDate, updateDate, status, videoId, isUsed
         ) VALUES (
-          #{idx}, #{requestId}, #{videoUrl}, #{callbackUrl}, #{createDate}, #{updateDate}, #{status}, #{videoId}, 1
+          #{idx}, #{requestId}, #{videoUrl}, #{callbackUrl}, #{resultString}, #{createDate}, #{updateDate}, #{status}, #{videoId}, 1
         )
     </insert>
 
@@ -55,7 +55,7 @@
             <if test="callbackUrl != null"> callbackUrl = #{callbackUrl}, </if>
             <if test="status != null"> status = #{status}, </if>
             <if test="videoId != null"> videoId = #{videoId}, </if>
-            <if test="resultstring != null"> resultstring = #{resultstring}, </if>
+            <if test="resultString != null"> resultString = #{resultString}, </if>
             updateDate = now()
         </set>
         <where>

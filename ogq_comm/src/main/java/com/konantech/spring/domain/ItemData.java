@@ -13,9 +13,9 @@ public class ItemData implements Serializable {
     String requestId;
     String videoUrl;
     String callbackUrl;
+    String resultString;
     Date createDate;
     Date updateDate;
-    String resultString;
     int status;
     int videoId;
     int isUsed;
