@@ -15,7 +15,7 @@ spring:
     datasource:
         connectionProperties: characterEncoding=UTF-8
         driverClassName: org.postgresql.Driver
-        url: jdbc:postgresql://10.10.18.29:65432/postgres
+        url: jdbc:postgresql://postgres.server:65432/postgres
         type: org.apache.tomcat.jdbc.pool.DataSource
         password: postgres
         username: postgres
@@ -44,7 +44,7 @@ spring:
             print: default
 
 darc4:
-    restUrl: http://10.10.30.21:8080/darc4
+    restUrl: http://client.server:8080/darc4
     token: eyJhbGciOiJIUzUxMiIsImNhbGciOiJERUYifQ.eNoszc0NwjAMhuFdfM4hoU35WQaZ1CoRqYOSVICqXpiBI6swEQyBS7m-evx5BOyIi29hB0YbUIBD64kdSbjQQYJLhIUEGKtrvW62Vb0xVkFMvvMsLESHQSBdzzOqbGNWghQMmdKy_NstRzkpnrKUFAPt8y0X6mGBjP388xQZWZI8Df_0eT3e9ydMXwAAAP__.dDfddzrCKJ5LbT4RdRgLW3ds74R62fkWHPMJX4kEBvL_zyLuve3hcyM5QOGY_Bf9s6yGg6xLl6PmP920pQnUGQ
     tempFolder: '/Volumes/konan/darc4data/temp'
 
@@ -53,7 +53,7 @@ spring:
     profiles: developer
     datasource:
         driverClassName: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
-        url: jdbc:log4jdbc:postgresql://10.10.18.29:65432/postgres
+        url: jdbc:log4jdbc:postgresql://postgres.server:65432/postgres
 darc4:
     restUrl: http://127.0.0.1:8080
     token: eyJhbGciOiJIUzUxMiIsImNhbGciOiJERUYifQ.eNoszc0NwjAMhuFdfM4hoU35WQaZ1CoRqYOSVICqXpiBI6swEQyBS7m-evx5BOyIi29hB0YbUIBD64kdSbjQQYJLhIUEGKtrvW62Vb0xVkFMvvMsLESHQSBdzzOqbGNWghQMmdKy_NstRzkpnrKUFAPt8y0X6mGBjP388xQZWZI8Df_0eT3e9ydMXwAAAP__.dDfddzrCKJ5LbT4RdRgLW3ds74R62fkWHPMJX4kEBvL_zyLuve3hcyM5QOGY_Bf9s6yGg6xLl6PmP920pQnUGQ
