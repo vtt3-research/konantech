@@ -16,7 +16,7 @@ public class ResponseTestController {
     RedisService redisService;
 
     @ApiOperation(value = "테스트", notes = "테스트" )
-    @RequestMapping(value = "/response", method = {RequestMethod.PUT})
+    @RequestMapping(value = "/response")
     public ResponseEntity<?> response(@RequestBody String assetsResponse) throws Exception {
         String key = "responseTest";
         redisService.setObject(key, assetsResponse, 60);
