@@ -1,0 +1,84 @@
+buildscript {
+	ext {
+		springBootVersion = '1.5.7.RELEASE'
+	}
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+	}
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse-wtp'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'war'
+
+war {
+	baseName = 'vtt-management-web'
+	version = '0.1'
+}
+
+sourceCompatibility = 1.8
+
+repositories {
+	flatDir(dir: 'libs')//, name: 'Local libs'
+	mavenLocal()
+	mavenCentral()
+}
+
+configurations {
+	providedRuntime
+}
+
+dependencies {
+	compile('org.springframework.boot:spring-boot-starter-web')
+	compile("org.springframework.boot:spring-boot-starter-aop")
+	compile("org.springframework.boot:spring-boot-starter-security")
+	compile("org.springframework.boot:spring-boot-starter-mobile")
+	compile('javax.servlet:jstl')
+	compile("io.jsonwebtoken:jjwt:0.6.0")
+
+
+	//db
+	compile('org.mybatis.spring.boot:mybatis-spring-boot-starter:1.2.0')
+	compile('com.oracle:ojdbc14:jar:10.2.0.4.0')
+	compile("postgresql:postgresql:9.1-901-1.jdbc4")
+	compile("org.bgee.log4jdbc-log4j2:log4jdbc-log4j2-jdbc4:1.16")
+
+
+	//swagger2
+	compile("io.springfox:springfox-swagger2:2.6.1")
+	compile("io.springfox:springfox-swagger-ui:2.6.1")
+
+	//webjars
+	compile("org.webjars:jquery:1.12.4")
+	compile("org.webjars:jquery-ui:1.11.4")
+	compile("org.webjars:bootstrap:3.3.6")
+	compile("org.webjars:swagger-ui:3.0.5")
+
+	//konantech
+	compile group: 'commons-collections', name: 'commons-collections', version:'3.2.1'
+	compile group: 'commons-io', name: 'commons-io', version: '2.4'
+	compile group: 'org.apache.commons', name: 'commons-lang3', version:'3.1'
+
+
+	//redis
+	compile 'org.springframework.data:spring-data-redis'
+	compile 'redis.clients:jedis'
+
+	//etc
+	compile("org.projectlombok:lombok:1.16.16")
+	providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')
+	testCompile('org.springframework.boot:spring-boot-starter-test')
+	testCompile('org.springframework.restdocs:spring-restdocs-mockmvc')
+
+
+	//Jackson JSON Mapper
+	compile 'org.codehaus.jackson:jackson-mapper-asl:1.9.13'
+
+	//json
+	compile 'net.sf.json-lib:json-lib:2.4:jdk15'
+
+}
