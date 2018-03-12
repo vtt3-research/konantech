@@ -69,10 +69,6 @@ logging:
     ROOT: DEBUG
     com.koknantech.spring: DEBUG
 
-#darc:
-#    tempFolder: '\\10.10.18.28\konan\darc4data\temp'
-#    videoFolder: '\\10.10.18.28\konan\darc4data\video'
-#    proxyShotFolder: '\\10.10.18.28\konan\darc4data\proxyshot'
 darc:
     tempFolder: '/Volumes/konan/darc4data/temp'
     videoFolder: '/Volumes/konan//darc4data/video'

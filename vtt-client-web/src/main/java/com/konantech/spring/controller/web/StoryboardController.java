@@ -42,38 +42,41 @@ public class StoryboardController {
 
         int idx = RequestUtils.getParameterInt(request, "idx", 0);
 
-        ContentQuery query = new ContentQuery();
-        query.setIdx(idx);
+        if(idx > 0) {
+            ContentQuery query = new ContentQuery();
+            query.setIdx(idx);
 
-        ContentField item = contentService.getContentItem(query);
-        int total = storyboardService.getShotCount(query);
-        List<ShotTB> list = storyboardService.getShotList(query);
-        Map<String,Object> shotSize = null;
-        if(list != null && list.size() > 0) {
-            ShotTB firstAsset = list.get(0);
-            shotSize = storyboardService.getShotSize(firstAsset);
-            if(shotSize != null) {
-                item.setShotWidth(MapUtils.getIntValue(shotSize,"shotWidth"));
-                item.setShotHeight(MapUtils.getIntValue(shotSize,"shotHeight"));
+            ContentField item = contentService.getContentItem(query);
+            int total = storyboardService.getShotCount(query);
+            List<ShotTB> list = storyboardService.getShotList(query);
+            Map<String,Object> shotSize = null;
+            if(list != null && list.size() > 0) {
+                ShotTB firstAsset = list.get(0);
+                shotSize = storyboardService.getShotSize(firstAsset);
+                if(shotSize != null) {
+                    item.setShotWidth(MapUtils.getIntValue(shotSize,"shotWidth"));
+                    item.setShotHeight(MapUtils.getIntValue(shotSize,"shotHeight"));
+                }
+                for (ShotTB asset : list) {
+                    String object = asset.getObject();
+                    AnalyzerSogang analyzerSogang = new AnalyzerSogang(object);
+                    asset.setDetect(analyzerSogang);
+                }
             }
-            for (ShotTB asset : list) {
-                String object = asset.getObject();
-                AnalyzerSogang analyzerSogang = new AnalyzerSogang(object);
-                asset.setDetect(analyzerSogang);
-            }
+
+            ItemResponse<ContentField> itemResponse = new ItemResponse<>();
+            itemResponse.setItem(item);
+
+            ListResponse listResponse = new ListResponse<ShotTB>();
+            listResponse.setTotal(total);
+            listResponse.setOffset(query.getOffset());
+            listResponse.setLimit(query.getLimit());
+            listResponse.setList(list);
+
+            modelMap.addAttribute("itemResponse",itemResponse);
+            modelMap.addAttribute("listResponse",listResponse);
         }
 
-        ItemResponse<ContentField> itemResponse = new ItemResponse<>();
-        itemResponse.setItem(item);
-
-        ListResponse listResponse = new ListResponse<ShotTB>();
-        listResponse.setTotal(total);
-        listResponse.setOffset(query.getOffset());
-        listResponse.setLimit(query.getLimit());
-        listResponse.setList(list);
-
-        modelMap.addAttribute("itemResponse",itemResponse);
-        modelMap.addAttribute("listResponse",listResponse);
         modelMap.addAttribute("videoServerUrl", videoServerUrl);
         modelMap.addAttribute("shotServerUrl", shotServerUrl);
 
@@ -85,36 +88,39 @@ public class StoryboardController {
 
         int idx = RequestUtils.getParameterInt(request, "idx", 0);
 
-        ContentQuery query = new ContentQuery();
-        query.setIdx(idx);
+        if(idx > 0) {
+            ContentQuery query = new ContentQuery();
+            query.setIdx(idx);
 
-        List<ShotTB> list = storyboardService.getShotList(query);
-        ContentField item = contentService.getContentItem(query);
+            List<ShotTB> list = storyboardService.getShotList(query);
+            ContentField item = contentService.getContentItem(query);
 
-        Map<String,Object> shotSize = null;
+            Map<String,Object> shotSize = null;
 
-        if(list != null && list.size() > 0) {
-            ShotTB firstAsset = list.get(0);
-            shotSize = storyboardService.getShotSize(firstAsset);
-            if(shotSize != null) {
-                item.setShotWidth(MapUtils.getIntValue(shotSize,"shotWidth"));
-                item.setShotHeight(MapUtils.getIntValue(shotSize,"shotHeight"));
+            if(list != null && list.size() > 0) {
+                ShotTB firstAsset = list.get(0);
+                shotSize = storyboardService.getShotSize(firstAsset);
+                if(shotSize != null) {
+                    item.setShotWidth(MapUtils.getIntValue(shotSize,"shotWidth"));
+                    item.setShotHeight(MapUtils.getIntValue(shotSize,"shotHeight"));
+                }
+                for (ShotTB asset : list) {
+                    String object = asset.getObject();
+                    AnalyzerSogang analyzerSogang = new AnalyzerSogang(object);
+                    asset.setDetect(analyzerSogang);
+                }
             }
-            for (ShotTB asset : list) {
-                String object = asset.getObject();
-                AnalyzerSogang analyzerSogang = new AnalyzerSogang(object);
-                asset.setDetect(analyzerSogang);
-            }
+
+            ListResponse listResponse = new ListResponse<ShotTB>();
+            listResponse.setList(list);
+
+            ItemResponse<ContentField> itemResponse = new ItemResponse<>();
+            itemResponse.setItem(item);
+
+            modelMap.addAttribute("itemResponse",itemResponse);
+            modelMap.addAttribute("listResponse",listResponse);
         }
 
-        ListResponse listResponse = new ListResponse<ShotTB>();
-        listResponse.setList(list);
-
-        ItemResponse<ContentField> itemResponse = new ItemResponse<>();
-        itemResponse.setItem(item);
-
-        modelMap.addAttribute("itemResponse",itemResponse);
-        modelMap.addAttribute("listResponse",listResponse);
         modelMap.addAttribute("videoServerUrl", videoServerUrl);
         modelMap.addAttribute("shotServerUrl", shotServerUrl);
         return "storyboard/storyboard_play";

@@ -2,28 +2,40 @@
 <%@include file="../includes/taglib.jsp" %>
 <c:import url="../includes/header.jsp"/>
 
-<c:import url="content_left.jsp"/>
+<%--<c:import url="content_left.jsp"/>--%>
 
 <style>
     .body-content{height:100%;width:100%;}
 </style>
 
-<!-- #MAIN PANEL -->
-<div id="main" role="main">
-    <!-- RIBBON -->
-    <div id="ribbon">
-        <span class="item"></span>
-        <span class="ribbon-button-alignment pull-right" style="margin-right:25px">
+<div class="container-fluid">
+    <!-- Breadcrumbs-->
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+            <a href="#">콘텐츠</a>
+        </li>
+        <li class="breadcrumb-item active">콘텐츠 리스트</li>
+    </ol>
+    <div class="row">
+        <div class="col-12">
+            <!-- RIBBON -->
+            <span class="item"></span>
+            <span class="ribbon-button-alignment pull-right" style="margin-right:25px">
             <span id="btn_transcoding" class="btn btn-ribbon hidden-xs" data-title="add"><i class="fa fa-video-camera txt-color-yellow"></i> 트랜스코딩</span>
             <span id="btn_catalog" class="btn btn-ribbon hidden-xs" data-title="add"><i class="fa fa-file-picture-o "></i> 카탈로깅</span>
             <span id="btn_delete" class="btn btn-ribbon hidden-xs" data-title="add"><i class="fa fa-trash-o txt-color-customRed"></i> 삭제</span>
             <span id="btn_download" class="btn btn-ribbon hidden-xs" data-title="add"><i class="fa fa-download txt-color-customGreen"></i> 다운로드</span>
             <span id="btn_storyboard" class="btn btn-ribbon hidden-xs" data-title="add"><i class="fa fa-picture-o txt-color-orange"></i> 스토리보드</span>
-        </span>
+            </span>
+        </div>
+        <div class="col-12">
+            <h1>콘텐츠</h1>
+            <p>콘텐츠를 관리합니다.</p>
+        </div>
     </div>
-
     <div id="content"> </div>
 </div>
+
 
 
 <c:import url="../includes/script.jsp"/>
@@ -65,7 +77,8 @@
         });
         var idx = ids.join("|");
 
-        MSG.confirm("재시도", "재시도를 요청하겠습니까?", function () {
+        // MSG.confirm("재시도", "재시도를 요청하겠습니까?", function () {
+        MSG2.confirm("재시도를 요청하겠습니까?", function () {
             $.ajax({
                 type: "GET",
                 url: "<c:url value='/content/retry/catalog/' />" + idx,

@@ -14,7 +14,7 @@
             url: "<c:url value="/content/upload"/>",
             addRemoveLinks: true,
             acceptedFiles: ".mp4, .mp4",
-            maxFilesize: 100, //mb
+            maxFilesize: 10000, //mb
             paramName: "file",
             params: {
                 _token: "__token__"

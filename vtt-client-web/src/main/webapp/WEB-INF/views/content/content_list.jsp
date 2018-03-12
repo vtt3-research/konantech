@@ -1,23 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@include file="../includes/taglib.jsp" %>
 
-<div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <h1 class="page-title txt-color-blueDark">
-            <i class="fa fa-table fa-folder-o"></i>
-            콘텐츠
-            <span> > 콘텐츠 관리</span>
-        </h1>
-    </div>
-</div>
 
 <div class="row">
     <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="jarviswidget jarviswidget-color-blueDark" id="wid-id-0" data-widget-editbutton="false">
-            <header>
-                <span class="widget-icon"> <i class="fa fa-table"></i> </span>
-                <h2>콘텐츠 리스트</h2>
-            </header>
+        <div class="" id="wid-id-0" data-widget-editbutton="false">
             <div>
                 <div class="jarviswidget-editbox">
                 </div>
@@ -29,6 +16,7 @@
                         <table class="table table-bordered">
                             <colgroup>
                                 <col style="width:60px;">
+                                <col style="width:60px;">
                                 <col style="width:80px;">
                                 <col style="width:80px;">
                                 <col style="width:auto;">
@@ -36,6 +24,7 @@
                             <thead>
                             <tr>
                                 <th>순번</th>
+                                <th>IDX</th>
                                 <th>트랜스코딩</th>
                                 <th>카탈로깅</th>
                                 <th>제목</th>
@@ -47,6 +36,7 @@
                             <tr>
                                 <input type="hidden" name="idx" value="${ item.idx }" />
                                 <td>${ listResponse.total - index.count + 1 }</td>
+                                <td>${ item.idx }</td>
                                 <td><c:import url="content_status.jsp"><c:param name="status" value="${item.transcodingstatus}"/></c:import></td>
                                 <td><c:import url="content_status.jsp"><c:param name="status" value="${item.catalogstatus}"/></c:import></td>
                                 <td class="text" >${ fn:replace(item.title, query.keyword, highlight ) }</td>

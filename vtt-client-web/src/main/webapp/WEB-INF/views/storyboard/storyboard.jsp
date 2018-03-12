@@ -1,48 +1,47 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@include file="../includes/taglib.jsp" %>
 <c:import url="../includes/header.jsp"/>
-<c:import url="storyboard_left.jsp"/>
-<style>
-</style>
-<!-- #MAIN PANEL -->
-<div id="main" role="main">
-    <!-- RIBBON -->
-    <div id="ribbon">
-        <span class="item">
-        </span>
-        <span class="ribbon-button-alignment pull-right" style="margin-right:25px">
-            <span class="left" style="margin-top: -5px;">
-                <form class="smart-form" id="search_form" onsubmit="return false;" >
-                    <section>
-                        <label class="input">
-                            <i class="icon-append fa fa-close txt-color-customSky" id="btn_eraser"></i>
-                            <i class="icon-append fa fa-search txt-color-customSky" id="btn_search"></i>
-                            <input type="text" placeholder="Search" id="keyword" onkeypress='if(event.keyCode == 13) { $("#btn_search").click(); }'>
-                        </label>
-                    </section>
-                </form>
-            </span>
-            <div class="btn-group btn_menu" id="btn_detect" style="color:#fff;padding-left:15px;">
-                <input type="radio" name="btn_show_target" value="object"/> 사물
-                <input type="radio" name="btn_show_target" value="place"/> 장소
-                <input type="radio" name="btn_show_target" value="face"/> 인물
-                <input type="radio" name="btn_show_target" value=""/> 없음
-            </div>
-        </span>
-    </div>
 
-    <div id="content">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <h1 class="page-title txt-color-blueDark">
-                    <i class="fa fa-table fa-fw "></i>
-                    콘텐츠
-                    <span> > 스토리보드</span>
-                </h1>
+<div class="container-fluid">
+    <!-- Breadcrumbs-->
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+            <a href="#">콘텐츠</a>
+        </li>
+        <li class="breadcrumb-item active">스토리보드</li>
+    </ol>
+    <div class="row">
+
+        <div class="col-12">
+            <div id="ribbon">
+                <span class="ribbon-button-alignment pull-right" style="margin-right:25px">
+                    <span class="left" style="margin-top: -5px;">
+                    <form class="smart-form" id="search_form" onsubmit="return false;">
+                        <section>
+                            <label class="input">
+                                <i class="icon-append fa fa-close txt-color-customSky" id="btn_eraser"></i>
+                                <i class="icon-append fa fa-search txt-color-customSky" id="btn_search"></i>
+                                <input type="text" placeholder="Search" id="keyword" onkeypress='if(event.keyCode == 13) { $("#btn_search").click(); }'>
+                            </label>
+                        </section>
+                    </form>
+                    </span>
+                    <div class="btn-group btn_menu" id="btn_detect" style="color:#fff;padding-left:15px;">
+                        <input type="radio" name="btn_show_target" value="object"/> 사물
+                        <input type="radio" name="btn_show_target" value="place"/> 장소
+                        <input type="radio" name="btn_show_target" value="face"/> 인물
+                        <input type="radio" name="btn_show_target" value=""/> 없음
+                    </div>
+                </span>
             </div>
         </div>
-        <div class="row superbox" >
-            <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="col-12">
+            <h1>스토리보드</h1>
+        </div>
+    </div>
+
+    <div class="row superbox" >
+        <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <c:forEach var="shot" items="${listResponse.list}" varStatus="i">
 
                 <c:set var="thumbnail" value="${ shotServerUrl }/${ shot.assetfilepath }${ shot.assetfilename }"/>
@@ -106,14 +105,11 @@
                 </div>
 
             </c:forEach>
-            </article>
-        </div>
-
-
+        </article>
     </div>
-    <!-- END #MAIN CONTENT -->
+
 </div>
-<!-- END #MAIN PANEL -->
+
 
 <c:import url="../includes/script.jsp"/>
 <script>

@@ -28,6 +28,56 @@ function returnmsg(param) {
     }
 }
 
+var MSG2 = {
+    alert : function(message, callback, strong, closeTimout) {
+        BootstrapDialog.alert({
+            title: '확인',
+            message: message,
+            type: BootstrapDialog.TYPE_SUCCESS, // <-- Default value is BootstrapDialog.TYPE_PRIMARY
+            closable: true, // <-- Default value is false
+            draggable: true, // <-- Default value is false
+            buttonLabel: '확인', // <-- Default value is 'OK',
+            callback: function(result) {
+                if(callback) {
+                    callback.apply();
+                }
+            }
+        });
+    },
+    error : function(message, callback, strong, closeTimout) {
+        BootstrapDialog.alert({
+            title: '오류',
+            message: message,
+            type: BootstrapDialog.TYPE_DANGER, // <-- Default value is BootstrapDialog.TYPE_PRIMARY
+            buttonLabel: '확인',
+            closable: true, // <-- Default value is false
+            draggable: true // <-- Default value is false
+        });
+    },
+    confirm : function(message, callback) {
+        BootstrapDialog.confirm({
+            title:'승인',
+            message: message,
+            type: BootstrapDialog.TYPE_SUCCESS,
+            closable: true,
+            draggable: true,
+            btnCancelLabel: '취소', // <-- Default value is 'Cancel',
+            btnOKLabel: '확인', // <-- Default value is 'OK',
+            btnOKClass: 'btn-primary', // <-- If you didn't specify it, dialog type will be used,
+            callback: function(result) {
+                if (result) {
+                    if(callback) {
+                        callback.apply();
+                    }
+                } else {
+
+                }
+            }
+        });
+    }
+}
+
+
 var MSG = {
     alert: function (heading, text, icon, hideAfter) {
         $.toast({

@@ -1,13 +1,20 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@include file="../includes/taglib.jsp" %>
 <c:import url="../includes/header.jsp"/>
-<c:import url="storyboard_left.jsp"/>
-<style>
-</style>
-<!-- #MAIN PANEL -->
-<div id="main" role="main">
-    <!-- RIBBON -->
-    <div id="ribbon">
+
+
+<div class="container-fluid">
+    <!-- Breadcrumbs-->
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+            <a href="#">콘텐츠</a>
+        </li>
+        <li class="breadcrumb-item active">객체인식 재생</li>
+    </ol>
+    <div class="row">
+
+        <div class="col-12">
+            <div id="ribbon">
         <span class="pull-right" style="margin-top: 5px;">
             <span id="elapsed_time" class="btn btn-ribbon hidden-xs">Press play for HTML5</span>
             <span id="currentTime" class="btn btn-ribbon hidden-xs">currentTime</span>
@@ -22,6 +29,11 @@
                 </form>
             </span>
         </span>
+            </div>
+        </div>
+        <div class="col-12">
+            <h1>객체인식 재생</h1>
+        </div>
     </div>
 
     <div id="content">
@@ -32,7 +44,7 @@
             </div>
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 videobox" >
                 <div class="videobox-layout">
-                <canvas id="output1"></canvas>
+                    <canvas id="output1"></canvas>
                 </div>
                 <div class="select-video">얼굴</div>
             </div>
@@ -41,19 +53,21 @@
         <div class="row" style="padding-top:10px;">
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 videobox" >
                 <div class="videobox-layout">
-                <canvas id="output2"></canvas>
+                    <canvas id="output2"></canvas>
                 </div>
                 <div class="select-video">사물</div>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 videobox" >
                 <div class="videobox-layout">
-                <canvas id="output3"></canvas>
+                    <canvas id="output3"></canvas>
                 </div>
                 <div class="select-video">장소</div>
             </div>
         </div>
     </div>
+
 </div>
+
 
 <c:import url="../includes/script.jsp"/>
 <script>
