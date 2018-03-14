@@ -71,11 +71,11 @@ logging:
 
 darc:
     tempFolder: '/Volumes/konan/darc4data/temp'
-    videoFolder: '/Volumes/konan//darc4data/video'
+    videoFolder: '/Volumes/konan/darc4data/video'
     proxyShotFolder: '/Volumes/konan/darc4data/proxyshot'
 
-    videoServerUrl: 'http://10.10.18.12:7070/darc4/video'
-    shotServerUrl: 'http://10.10.18.12:7070/darc4/proxyshot'
+    videoServerUrl: 'http://183.110.246.21:7070/darc4/video'
+    shotServerUrl: 'http://183.110.246.21:7070/darc4/proxyshot'
 
 ---
 spring:
@@ -86,14 +86,14 @@ spring:
 
 darc:
     tempFolder: '/Volumes/konan/darc4data/temp'
-    videoFolder: '/Volumes/konan//darc4data/video'
+    videoFolder: '/Volumes/konan/darc4data/video'
     proxyShotFolder: '/Volumes/konan/darc4data/proxyshot'
+
+    videoServerUrl: 'http://10.10.30.21:7070/darc4/video'
+    shotServerUrl: 'http://10.10.30.21:7070/darc4/proxyshot'
+
 
 cmd:
     ffprobe: 'ffprobe|-print_format|json|-show_streams|'
-
-jobs:
-    schedule:
-        enable: false
 
 

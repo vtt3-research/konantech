@@ -28,56 +28,6 @@ function returnmsg(param) {
     }
 }
 
-var MSG2 = {
-    alert : function(message, callback, strong, closeTimout) {
-        BootstrapDialog.alert({
-            title: '확인',
-            message: message,
-            type: BootstrapDialog.TYPE_SUCCESS, // <-- Default value is BootstrapDialog.TYPE_PRIMARY
-            closable: true, // <-- Default value is false
-            draggable: true, // <-- Default value is false
-            buttonLabel: '확인', // <-- Default value is 'OK',
-            callback: function(result) {
-                if(callback) {
-                    callback.apply();
-                }
-            }
-        });
-    },
-    error : function(message, callback, strong, closeTimout) {
-        BootstrapDialog.alert({
-            title: '오류',
-            message: message,
-            type: BootstrapDialog.TYPE_DANGER, // <-- Default value is BootstrapDialog.TYPE_PRIMARY
-            buttonLabel: '확인',
-            closable: true, // <-- Default value is false
-            draggable: true // <-- Default value is false
-        });
-    },
-    confirm : function(message, callback) {
-        BootstrapDialog.confirm({
-            title:'승인',
-            message: message,
-            type: BootstrapDialog.TYPE_SUCCESS,
-            closable: true,
-            draggable: true,
-            btnCancelLabel: '취소', // <-- Default value is 'Cancel',
-            btnOKLabel: '확인', // <-- Default value is 'OK',
-            btnOKClass: 'btn-primary', // <-- If you didn't specify it, dialog type will be used,
-            callback: function(result) {
-                if (result) {
-                    if(callback) {
-                        callback.apply();
-                    }
-                } else {
-
-                }
-            }
-        });
-    }
-}
-
-
 var MSG = {
     alert: function (heading, text, icon, hideAfter) {
         $.toast({
@@ -88,88 +38,21 @@ var MSG = {
             hideAfter: hideAfter
         });
     },
-    reload: function (title, contentMSG, isReload, location) {
-        $.SmartMessageBox({
-            title: title,
-            content: contentMSG,
-            buttons: '[' + returnmsg("ok")  +']'
-        }, function (ButtonPressed) {
-            if (ButtonPressed === returnmsg("ok")) {
-                if (isReload) {
-                    if (location == '' || location == null) {
-                        window.location.reload();
-                    } else {
-                        window.location.href = location;
-                    }
+    confirm: function (contentMSG, callback) {
+        bootbox.confirm({
+            message: contentMSG,
+            buttons: {
+                confirm: {
+                    label: 'Yes',
+                    className: 'btn-success'
+                },
+                cancel: {
+                    label: 'No',
+                    className: 'btn-danger'
                 }
-            }
-        });
-    },
-    reloads: function (title, contentMSG, location1, location2) {
-        $.SmartMessageBox({
-            title: title,
-            content: contentMSG,
-            buttons: '[' + returnmsg("ok") + '][' + returnmsg("add") + ']'
-        }, function (ButtonPressed) {
-            if (ButtonPressed === returnmsg("add")) {
-                window.location.href = location1;
-            }
-
-            if (ButtonPressed === returnmsg("ok")) {
-                window.location.href = location2;
-            }
-        });
-    },
-
-    confirm: function (title, contentMSG, callback) {
-        $.SmartMessageBox({
-            title: title,
-            content: contentMSG,
-            buttons: '[' + returnmsg("cancel") + '][' + returnmsg("approve") + ']'
-        }, function (ButtonPressed) {
-            if (ButtonPressed === returnmsg("approve")) {
-                if (callback) {
-                    callback.apply();
-                }
-            }
-            if (ButtonPressed === returnmsg("cancel")) {
-                $.toast({
-                    heading: returnmsg("cancel"),
-                    text: returnmsg("cancel.msg"),
-                    icon: "info",
-                    showHideTransition: "slide",
-                    hideAfter: 5000
-                });
-            }
-        });
-    },
-
-    warning : function(contentMSG) {
-        $.SmartMessageBox({
-            title : returnmsg("caution"),
-            content : contentMSG,
-            buttons : '[' + returnmsg("ok")  +']'
-        }, function(ButtonPressed) {
-        });
-    },
-
-    error : function(contentMSG) {
-        $.SmartMessageBox({
-            title : returnmsg("error"),
-            content : contentMSG,
-            buttons : '[' + returnmsg("ok")  +']'
-        }, function(ButtonPressed) {
-        });
-    },
-
-    callback : function(heading, contentMSG, callback) {
-        $.SmartMessageBox({
-            title: heading,
-            content: contentMSG,
-            buttons: '[' + returnmsg("ok")  +']'
-        }, function (ButtonPressed) {
-            if (ButtonPressed === returnmsg("ok")) {
-                if(callback) {
+            },
+            callback: function (result) {
+                if(result && callback) {
                     callback.apply();
                 }
             }

@@ -10,12 +10,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>VTT</title>
-    <!-- jquery ui CSS-->
-    <link rel="stylesheet" type="text/css" href="<c:url value="/webjars/jquery-ui/1.12.1/jquery-ui.min.css"/>">
-    <!-- Bootstrap core CSS-->
-    <link rel="stylesheet" type="text/css" href="<c:url value="/resources/vendor/bootstrap/css/bootstrap.min.css"/>">
-    <!-- Custom fonts for this template-->
+    <link rel="stylesheet
+" type="text/css" href="<c:url value="/webjars/jquery-ui/1.12.1/jquery-ui.min.css"/>">
+    <link rel="stylesheet" type="text/css" href="<c:url value="/webjars/bootstrap/4.0.0-2/css/bootstrap.min.css"/>">
     <link rel="stylesheet" type="text/css" href="<c:url value="/webjars/font-awesome/4.7.0/css/font-awesome.min.css"/>">
+
     <!-- Custom styles for this template-->
     <link rel="stylesheet" type="text/css" href="<c:url value="/resources/css/sb-admin.css"/>">
 

@@ -4,7 +4,8 @@
 <!-- Bootstrap core JavaScript-->
 <script src="<c:url value="/webjars/jquery/1.12.4/jquery.min.js"/>"></script>
 <script src="<c:url value="/webjars/jquery-ui/1.12.1/jquery-ui.min.js"/>"></script>
-<script src="<c:url value="/resources/vendor/bootstrap/js/bootstrap.bundle.min.js"/>"></script>
+<script src="<c:url value="/webjars/bootstrap/4.0.0-2/js/bootstrap.bundle.min.js"/>"></script>
+<script src="<c:url value="/webjars/bootbox/4.4.0/bootbox.js"/>"></script>
 
 <!-- Core plugin JavaScript-->
 <script src="<c:url value="/resources/vendor/jquery-easing/jquery.easing.min.js"/>"></script>
@@ -29,7 +30,6 @@
 
 
 <script src="<c:url value="/resources/custom/js/bootpag/jquery.bootpag.min.js"/>"></script>
-<script src="<c:url value="/webjars/bootstrap3-dialog/1.35.4/dist/js/bootstrap-dialog.min.js"/>"></script>
 
 <!-- custom -->
 <script src="<c:url value="/resources/custom/js/custom.js"/>"></script>

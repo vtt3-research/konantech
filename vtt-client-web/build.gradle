@@ -54,11 +54,10 @@ dependencies {
 	//webjars
 	compile("org.webjars:jquery:1.12.4")
 	compile("org.webjars:jquery-ui:1.12.1")
-	compile("org.webjars:bootstrap:4.0.0-2")
 	compile("org.webjars:swagger-ui:3.12.1")
-	compile("org.webjars.bower:font-awesome:4.7.0")
-	compile("org.webjars.bower:bootstrap3-dialog:1.35.4")
-
+    compile("org.webjars:bootstrap:4.0.0-2")
+	compile("org.webjars:font-awesome:4.7.0")
+	compile("org.webjars:bootbox:4.4.0")
 
 	//common
 	compile("commons-collections:commons-collections:3.2.1")

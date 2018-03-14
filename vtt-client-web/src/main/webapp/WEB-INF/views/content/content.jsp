@@ -77,8 +77,7 @@
         });
         var idx = ids.join("|");
 
-        // MSG.confirm("재시도", "재시도를 요청하겠습니까?", function () {
-        MSG2.confirm("재시도를 요청하겠습니까?", function () {
+        MSG.confirm("재시도를 요청하겠습니까?", function () {
             $.ajax({
                 type: "GET",
                 url: "<c:url value='/content/retry/catalog/' />" + idx,
@@ -97,6 +96,9 @@
 
     $("#btn_delete").on("click", function() {
         //
+        MSG2.alert("재시도를 요청하겠습니까?", function () {
+
+        });
     });
 
     $("#btn_download").on("click", function() {
