@@ -6,7 +6,7 @@
     <!-- Breadcrumbs-->
     <ol class="breadcrumb">
         <li class="breadcrumb-item">
-            <a href="#">콘텐츠</a>
+            <a href="<c:url value='/content'/>">콘텐츠</a>
         </li>
         <li class="breadcrumb-item active">스토리보드</li>
     </ol>

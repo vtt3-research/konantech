@@ -11,7 +11,7 @@
     <!-- Breadcrumbs-->
     <ol class="breadcrumb">
         <li class="breadcrumb-item">
-            <a href="#">콘텐츠 등록</a>
+            <a href="<c:url value='/content/write'/>">콘텐츠 등록</a>
         </li>
         <li class="breadcrumb-item active">등록</li>
     </ol>

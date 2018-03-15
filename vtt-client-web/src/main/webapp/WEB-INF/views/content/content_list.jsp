@@ -130,7 +130,7 @@
     });
 
     $(".table tbody tr").on("dblclick", "td:gt(0)", function (e) {
-        $("#btn_storyboard").click();
+        $("#btn_play").click();
     });
 
 
