@@ -26,6 +26,7 @@
             <span id="btn_delete" class="btn btn-ribbon hidden-xs" data-title="add"><i class="fa fa-trash-o txt-color-customRed"></i> 삭제</span>
             <span id="btn_download" class="btn btn-ribbon hidden-xs" data-title="add"><i class="fa fa-download txt-color-customGreen"></i> 다운로드</span>
             <span id="btn_storyboard" class="btn btn-ribbon hidden-xs" data-title="add"><i class="fa fa-picture-o txt-color-orange"></i> 스토리보드</span>
+            <span id="btn_play" class="btn btn-ribbon hidden-xs" data-title="add"><i class="fa fa-youtube-play txt-color-orange"></i> 객체인식재생</span>
             </span>
         </div>
         <div class="col-12">
@@ -135,9 +136,6 @@
         if($T.length == 0) {
             toast("Content", "콘텐츠를 선택하세요.!", "info", 5000);
             return false;
-        } else if($T.length > 1) {
-            toast("Content", "한개만 선택해 주세요.!", "info", 5000);
-            return false;
         } else {
             var param = {};
             param.idx = $T.find("input[name=idx]").val();
@@ -145,6 +143,17 @@
         }
     });
 
+    $("#btn_play").on("click", function() {
+        var $T = $("#content_assets .ui-selectee.ui-selected");
+        if($T.length == 0) {
+            toast("Content", "콘텐츠를 선택하세요.!", "info", 5000);
+            return false;
+        } else {
+            var param = {};
+            param.idx = $T.find("input[name=idx]").val();
+            location.href = "<c:url value='/storyboard/play' />?" + $.param(param);
+        }
+    });
 
 
 
