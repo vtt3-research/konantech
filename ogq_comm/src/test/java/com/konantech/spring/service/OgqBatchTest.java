@@ -41,18 +41,24 @@ public class OgqBatchTest extends CommonTests {
         URL url;
         List<ItemData> list = ogqService.itemList(param);
         for (ItemData item : list) {
-            ResponseEntity responseEntity = RestUtils.darc4add(item);
-            if (responseEntity != null) {
-                Map<String, Object> darc4items = (Map<String,Object>) ((Map)responseEntity.getBody()).get("item");
-                int videoid = MapUtils.getIntValue(darc4items, "idx");
-                item.setVideoId(videoid);
-                item.setStatus(1);
+            try {
+                ResponseEntity responseEntity = RestUtils.darc4add(item);
+                if (responseEntity != null) {
+                    Map<String, Object> darc4items = (Map<String,Object>) ((Map)responseEntity.getBody()).get("item");
+                    int videoid = MapUtils.getIntValue(darc4items, "idx");
+                    item.setVideoId(videoid);
+                    item.setStatus(1);
 //                RestUtils.darc4workflow(videoid);
-                ogqService.itemUpdate(item);
-            } else {
-                item.setStatus(-1);
+                    ogqService.itemUpdate(item);
+                } else {
+                    item.setStatus(-2);
+                    ogqService.itemUpdate(item);
+                }
+            } catch (Exception e) {
+                item.setStatus(-5);
                 ogqService.itemUpdate(item);
             }
+
         }
     }
 
@@ -76,7 +82,7 @@ public class OgqBatchTest extends CommonTests {
                 }
             } catch (Exception ignore) {
                 //ignore
-                item.setStatus(-1);
+                item.setStatus(-3);
                 ogqService.itemUpdate(item);
             }
         }

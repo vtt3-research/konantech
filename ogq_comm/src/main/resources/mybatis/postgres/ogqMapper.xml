@@ -32,6 +32,7 @@
             </if>
             AND isUsed = 1
         </where>
+        ORDER BY IDX;
     </select>
 
     <insert id="itemInsert" parameterType="com.konantech.spring.domain.ItemData" useGeneratedKeys="true">

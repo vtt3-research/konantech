@@ -19,12 +19,10 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 import org.springframework.web.util.UriUtils;
 
-import java.io.BufferedInputStream;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.InputStream;
+import java.io.*;
 import java.net.URI;
 import java.net.URL;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -177,10 +175,10 @@ public class RestUtils {
         int idx = item.getIdx();
         Path fn = Paths.get(source);
         URL url = new URL(UriUtils.encodePath(source,"UTF-8"));
-        BufferedInputStream bis = new BufferedInputStream(url.openStream());
         String ext = FilenameUtils.getExtension(source);
-
         String target = FilenameUtils.normalize(tempFolder + "/" + idx + "." + ext);
+
+        BufferedInputStream bis = new BufferedInputStream(url.openStream());
         File fileTarget = new File(target);
         if (!fileTarget.exists()) {
             fileTarget.delete();
@@ -194,7 +192,7 @@ public class RestUtils {
         fis.close();
         bis.close();
 
-        InputStream is = url.openStream();
+        InputStream is = new FileInputStream(target);
         byte[] data = IOUtils.toByteArray(is);
         ByteArrayResource resource = new ByteArrayResource(data){
             @Override
