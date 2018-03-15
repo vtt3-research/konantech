@@ -33,7 +33,7 @@
 <script src="<c:url value="/resources/custom/js/bootpag/jquery.bootpag.min.js"/>"></script>
 
 <!-- custom -->
-<script src="<c:url value="/resources/custom/js/custom.js"/>"></script>
+<script src="<c:url value="/resources/custom/js/custom.js?_d="/>${pageContext.session.id}"/>"></script>
 
 <script>
 

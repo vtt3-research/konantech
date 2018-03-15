@@ -24,9 +24,9 @@
     <link rel="stylesheet" type="text/css" media="screen" href="<c:url value="/resources/custom/css/video-js.css"/>">
 
     <!-- Custom -->
-    <link rel="stylesheet" type="text/css" media="screen" href="<c:url value="/resources/custom/css/top_left_style.css"/>">
+    <link rel="stylesheet" type="text/css" media="screen" href="<c:url value="/resources/custom/css/top_left_style.css?_d="/>${pageContext.session.id}"/>">
     <link rel="stylesheet" type="text/css" media="screen" href="<c:url value="/resources/custom/css/style.css?_d="/>${pageContext.session.id}" />
-    <link rel="stylesheet" type="text/css" media="screen" href="<c:url value="/resources/custom/css/layout-custom.css"/>">
+    <link rel="stylesheet" type="text/css" media="screen" href="<c:url value="/resources/custom/css/layout-custom.css?_d="/>${pageContext.session.id}"/>">
 
     <!-- #FAVICONS -->
     <link rel="shortcut icon" href="<c:url value="/resources/custom/img/favicon.ico"/>" type="image/x-icon">
