@@ -181,16 +181,16 @@ public class RestUtils {
         BufferedInputStream bis = new BufferedInputStream(url.openStream());
         File fileTarget = new File(target);
         if (!fileTarget.exists()) {
-            fileTarget.delete();
+            FileOutputStream fis = new FileOutputStream(target);
+            byte[] buffer = new byte[8192];
+            int count;
+            while ((count = bis.read(buffer, 0, 8192)) != -1) {
+                fis.write(buffer, 0, count);
+            }
+            fis.close();
+            bis.close();
         }
-        FileOutputStream fis = new FileOutputStream(target);
-        byte[] buffer = new byte[1024];
-        int count;
-        while ((count = bis.read(buffer, 0, 1024)) != -1) {
-            fis.write(buffer, 0, count);
-        }
-        fis.close();
-        bis.close();
+        //fileTarget.delete();
 
         InputStream is = new FileInputStream(target);
         byte[] data = IOUtils.toByteArray(is);
@@ -220,11 +220,11 @@ public class RestUtils {
         return responseEntity;
     }
 
-    static public ResponseEntity darc4workflow(int videoid)  {
+    static public ResponseEntity darc4catalog(int videoid)  {
 
         Map<String, String> map = new HashedMap();
         try {
-            URI uri = RestUtils.makeURI("/v2/asset-retry/catalogstatus/ast_br_video/" + videoid );
+            URI uri = RestUtils.makeURI("/v2/retry/catalog/" + videoid );
             return RestUtils.makeRestTemplate(uri, HttpMethod.GET , map);
         } catch ( Exception e) {
             System.out.println(e.getMessage());

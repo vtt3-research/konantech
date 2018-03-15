@@ -6,15 +6,11 @@ import com.konantech.spring.util.JSONUtils;
 import com.konantech.spring.util.RestUtils;
 import org.apache.commons.collections.MapUtils;
 import org.apache.commons.collections.map.HashedMap;
-import org.apache.commons.io.FilenameUtils;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
-import org.springframework.transaction.annotation.Transactional;
 
-import java.net.URI;
 import java.net.URL;
 import java.util.*;
 
@@ -48,7 +44,7 @@ public class OgqBatchTest extends CommonTests {
                     int videoid = MapUtils.getIntValue(darc4items, "idx");
                     item.setVideoId(videoid);
                     item.setStatus(1);
-//                RestUtils.darc4workflow(videoid);
+                    RestUtils.darc4catalog(videoid);
                     ogqService.itemUpdate(item);
                 } else {
                     item.setStatus(-2);
@@ -58,7 +54,7 @@ public class OgqBatchTest extends CommonTests {
                 item.setStatus(-5);
                 ogqService.itemUpdate(item);
             }
-
+            break;
         }
     }
 

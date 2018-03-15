@@ -47,7 +47,6 @@ public class OgqBatch implements InitializingBean {
         param.put("status", 0);
         List<ItemData> list = ogqService.itemList(param);
         for (ItemData item : list) {
-            Map<String, String> map = new HashedMap();
             try {
                 ResponseEntity responseEntity = RestUtils.darc4add(item);
                 if (responseEntity != null) {
@@ -55,7 +54,7 @@ public class OgqBatch implements InitializingBean {
                     int videoid = MapUtils.getIntValue(darc4items, "videoid");
                     item.setVideoId(videoid);
                     item.setStatus(1);
-                    RestUtils.darc4workflow(videoid);
+                    RestUtils.darc4catalog(videoid);
                     ogqService.itemUpdate(item);
                 } else {
                     item.setStatus(-2);
