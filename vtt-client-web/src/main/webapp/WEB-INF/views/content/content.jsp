@@ -111,11 +111,14 @@
                 url: "<c:url value='/content/delete/' />" + idx,
                 dataType: "json",
                 success: function(response) {
-                    MSG.alert("재시도를 요청했습니다");
+                    MSG.alert("삭제를 했습니다",function() {
+                        location.href = "<c:url value='/content' />";
+                    });
                 },
                 error: function(xhr, opt, err) {
-                    MSG.error("오류가 발생했습니다.!" + err);
-                    return false;
+                    MSG.error("오류가 발생했습니다.!" + err, function() {
+                        location.href = "<c:url value='/content' />";
+                    });
                 }
             });
         });

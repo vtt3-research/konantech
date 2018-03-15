@@ -48,7 +48,7 @@ public class ContentRestController {
             @ApiImplicitParam(name = "orifilename", value = "원본파일명", required = false, dataType = "String", paramType = "query", defaultValue = "원본이름.mp4" ),
             @ApiImplicitParam(name = "file", value = "첨부파일", required = false, dataType = "file", paramType = "formData" )
     })
-    @RequestMapping(value = "/v2/upload", method = RequestMethod.POST)
+    @RequestMapping(value = "/v2/upload", method = RequestMethod.PUT)
     public ObjectResponse upload(
             @ApiIgnore HttpServletRequest httpServletRequest,
             @RequestParam String title,
