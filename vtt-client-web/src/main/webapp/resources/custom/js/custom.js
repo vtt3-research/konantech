@@ -29,18 +29,19 @@ function returnmsg(param) {
 }
 
 var MSG = {
-    alert: function (heading, text, icon, hideAfter) {
-        $.toast({
-            heading: heading,
-            text: text,
-            icon: icon,
-            showHideTransition: "slide",
-            hideAfter: hideAfter
-        });
+    alert: function (text, callback) {
+        bootbox.alert({
+            message: text,
+            callback: function () {
+                if(callback) {
+                    callback.apply();
+                }
+            }
+        })
     },
-    confirm: function (contentMSG, callback) {
+    confirm: function (text, callback) {
         bootbox.confirm({
-            message: contentMSG,
+            message: text,
             buttons: {
                 confirm: {
                     label: 'Yes',

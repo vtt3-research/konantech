@@ -57,6 +57,12 @@ public class ContentService {
     @Value("${darc.videoFolder}")
     public String videoFolder;
 
+    @Value("${darc.volumewin}")
+    public String volumewin;
+
+    @Value("${darc.volumeetc}")
+    public String volumeetc;
+
     public int getContentCount(ContentQuery param) {
         return contentMapper.getContentCount(param);
     }
@@ -164,8 +170,8 @@ public class ContentService {
 
             }
 
-            update.put("volumewin", "X:/darc4data/");
-            update.put("volumeetc", "/Volumes/konan/darc4data/");
+            update.put("volumewin", volumewin);
+            update.put("volumeetc", volumeetc);
 
             this.updateContentItem(update);
 
@@ -178,6 +184,16 @@ public class ContentService {
         ItemResponse<ContentField> itemResponse = new ItemResponse<>();
         itemResponse.setItem(this.getContentItem(query));
         return itemResponse;
+    }
+
+    public void deleteContent(HttpServletRequest req, String ids) throws Exception {
+
+        String[] idx_split = StringUtils.split(ids,"|");
+        int idx;
+        for (String s : idx_split) {
+            idx = Integer.parseInt(s);
+            contentMapper.deleteContentItem(idx);
+        }
     }
 
     public void retry(HttpServletRequest req, String cname,String ids) throws Exception {

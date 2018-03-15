@@ -31,8 +31,9 @@
                     console.log(file);
                 }),
                 this.on("success", function (file, response) {
-                    MSG.reload("등록", "작업이 완료되었습니다<br>'확인'버튼을 누르면 콘텐츠 페이지로 전환됩니다", true , "<c:url value='/content' />");
-                    return false;
+                    MSG.alert( "작업이 완료되었습니다<br>'확인'버튼을 누르면 콘텐츠 페이지로 전환됩니다",function() {
+                      location.href = "<c:url value='/content' />";
+                    });
                 }),
                 this.on("sending", function(file, xhr, formData) {
                     formData.append("title", $("#write_title").val());
@@ -42,7 +43,7 @@
                 }),
                 this.on("error", function(file, error, xhr) {
                     //var ficheiro = { nome: file.name, status: xhr.status, statusText: xhr.statusText, erro: error.message };
-                    MSG.alert("ERROR", error.message , "error", 10000);
+                    MSG.alert(error.message);
                 }),
                 this.on("uploadprogress", function(file, progress, bytesSent) {
                 });
@@ -52,6 +53,8 @@
 
     });
 
-
+    $(document).ready(function() {
+        $('.tooltip').tooltipster();
+    });
 
 </script>

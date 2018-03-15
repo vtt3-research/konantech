@@ -17,8 +17,8 @@
                             <colgroup>
                                 <col style="width:60px;">
                                 <col style="width:60px;">
-                                <col style="width:80px;">
-                                <col style="width:80px;">
+                                <col style="width:100px;">
+                                <col style="width:100px;">
                                 <col style="width:auto;">
                             </colgroup>
                             <thead>

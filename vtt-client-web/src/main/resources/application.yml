@@ -70,6 +70,9 @@ logging:
     com.koknantech.spring: DEBUG
 
 darc:
+    volumewin: 'X:/darc4data/'
+    volumeetc: '/Volumes/konan/darc4data/'
+
     tempFolder: '/Volumes/konan/darc4data/temp'
     videoFolder: '/Volumes/konan/darc4data/video'
     proxyShotFolder: '/Volumes/konan/darc4data/proxyshot'

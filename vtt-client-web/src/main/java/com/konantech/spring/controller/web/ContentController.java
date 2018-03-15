@@ -104,5 +104,18 @@ public class ContentController {
         return "{\"success\":true}";
     }
 
+    @RequestMapping(value = "/content/delete/{idx}", method = RequestMethod.GET)
+    public @ResponseBody Object contentDelete(HttpServletRequest request, @PathVariable String idx) throws Exception {
+        if (StringUtils.isEmpty(idx)) {
+            throw new Exception("idx를 입력하세요");
+        }
+        try {
+            contentService.deleteContent(request, idx);
+        } catch (Exception e) {
+            throw new Exception(e.getMessage(), e);
+        }
+        return "{\"success\":true}";
+    }
+
 
 }

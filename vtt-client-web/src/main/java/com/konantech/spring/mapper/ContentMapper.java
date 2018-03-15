@@ -16,5 +16,6 @@ public interface ContentMapper {
     ContentField getContentItem(ContentQuery param);
     int putContentItem(Map<String, Object> request);
     int updateContentItem(Map<String, Object> request);
+    int deleteContentItem(int idx);
 
 }

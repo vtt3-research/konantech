@@ -13,6 +13,7 @@ import com.konantech.spring.util.RequestUtils;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
@@ -55,6 +56,9 @@ public class ContentRestController {
             @RequestParam String orifilename,
             @RequestParam("file") MultipartFile file ) throws Exception {
 
+        if(StringUtils.isEmpty(title)) {
+            title = orifilename;
+        }
         VideoFile videoFile = new VideoFile();
         videoFile.setTitle(title);
         videoFile.setContent(content);

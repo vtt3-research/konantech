@@ -58,6 +58,8 @@ dependencies {
     compile("org.webjars:bootstrap:4.0.0-2")
 	compile("org.webjars:font-awesome:4.7.0")
 	compile("org.webjars:bootbox:4.4.0")
+	compile("org.webjars:jquery-validation:1.17.0")
+	compile("org.webjars:tooltipster:4.1.4-1")
 
 	//common
 	compile("commons-collections:commons-collections:3.2.1")

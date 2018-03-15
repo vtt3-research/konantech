@@ -39,7 +39,7 @@
                                         <label class="input">
                                             <i class="icon-append fa fa-list"></i>
                                             <input type="text" name="title" id="write_title" placeholder="제목을 입력하세요">
-                                            <b class="tooltip tooltip-bottom-right">제목을 입력하세요</b>
+                                            <b class="tooltip tooltip-bottom-right" title="This is my image's tooltip message!" >제목을 입력하세요</b>
                                         </label>
                                     </section>
                                     <section>

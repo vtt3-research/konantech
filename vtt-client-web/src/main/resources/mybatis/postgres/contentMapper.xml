@@ -37,6 +37,15 @@
 
     </select>
 
+
+    <delete id="deleteContentItem" parameterType="int">
+            DELETE FROM DEMO_VIDEO_TB
+            <where>
+                idx = #{idx}
+            </where>
+    </delete>
+
+
     <select id="getContentItem" parameterType="ContentQuery" resultType="ContentField">
 
         SELECT

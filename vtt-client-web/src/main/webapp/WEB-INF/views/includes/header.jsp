@@ -10,10 +10,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>VTT</title>
-    <link rel="stylesheet
-" type="text/css" href="<c:url value="/webjars/jquery-ui/1.12.1/jquery-ui.min.css"/>">
+    <link rel="stylesheet" type="text/css" href="<c:url value="/webjars/jquery-ui/1.12.1/jquery-ui.min.css"/>">
     <link rel="stylesheet" type="text/css" href="<c:url value="/webjars/bootstrap/4.0.0-2/css/bootstrap.min.css"/>">
     <link rel="stylesheet" type="text/css" href="<c:url value="/webjars/font-awesome/4.7.0/css/font-awesome.min.css"/>">
+    <link rel="stylesheet" type="text/css" href="<c:url value="/webjars/tooltipster/4.1.4-1/css/tooltipster.bundle.min.css"/>">
 
     <!-- Custom styles for this template-->
     <link rel="stylesheet" type="text/css" href="<c:url value="/resources/css/sb-admin.css"/>">
@@ -36,7 +36,6 @@
 
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
 
-
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <a class="navbar-brand" href="javascript:void(0);">
@@ -47,7 +46,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
-            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+            <li class="nav-item <c:if test="${fn:startsWith(servlet_path,'/content/write')}"> active </c:if>" data-toggle="tooltip" data-placement="right" title="Dashboard">
 
                 <%--<li class="<c:if test="${fn:startsWith(servlet_path,'/content')}"> active </c:if>">--%>
                 <%--<a href="<c:url value="/content"/>" title="blank_"><i class="fa fa-lg fa-fw fa-arrow-circle-o-right"></i>--%>
@@ -59,19 +58,19 @@
                     <span class="nav-link-text">콘텐츠 등록</span>
                 </a>
             </li>
-            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
-                <a  class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
+            <li class="nav-item " data-toggle="tooltip" data-placement="right" title="Components">
+                <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
                     <i class="fa fa-fw fa-folder-o"></i>
                     <span class="nav-link-text">콘텐츠</span>
                 </a>
-                <ul class="sidenav-second-level collapse" id="collapseComponents">
-                    <li>
+                <ul class="sidenav-second-level collapse in" id="collapseComponents">
+                    <li class="<c:if test="${(fn:startsWith(servlet_path,'/content') && !fn:startsWith(servlet_path,'/content/write'))}"> active </c:if>" >
                         <a href="<c:url value="/content"/>">콘텐츠 리스트</a>
                     </li>
-                    <li>
+                    <li class="<c:if test="${(fn:startsWith(servlet_path,'/storyboard') && !fn:startsWith(servlet_path,'/storyboard/play')) }"> active </c:if>">
                         <a href="<c:url value="/storyboard?idx=${param.idx}"/>">스토리보드</a>
                     </li>
-                    <li>
+                    <li class="<c:if test="${(fn:startsWith(servlet_path,'/storyboard/play')) }"> active </c:if>">
                         <a href="<c:url value="/storyboard/play?idx=${param.idx}"/>">객체인식재생</a>
                     </li>
                 </ul>
