@@ -14,10 +14,7 @@ import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriUtils;
 
-import java.io.BufferedInputStream;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.InputStream;
+import java.io.*;
 import java.net.URI;
 import java.net.URL;
 import java.net.URLEncoder;
@@ -105,15 +102,15 @@ public class RestfulTest {
         }
 
         FileOutputStream fis = new FileOutputStream(target);
-        byte[] buffer = new byte[1024];
+        byte[] buffer = new byte[8192];
         int count;
-        while ((count = bis.read(buffer, 0, 1024)) != -1) {
+        while ((count = bis.read(buffer, 0, 8192)) != -1) {
             fis.write(buffer, 0, count);
         }
         fis.close();
         bis.close();
 
-        InputStream is = url.openStream();
+        InputStream is = new FileInputStream(target);
         byte[] data = IOUtils.toByteArray(is);
         ByteArrayResource resource = new ByteArrayResource(data){
             @Override
