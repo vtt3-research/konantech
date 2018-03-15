@@ -129,4 +129,11 @@ public class ContentRestController {
         return new ObjectResponse<>(listResponse);
     }
 
+    @RequestMapping(value = "/v2/retry/{cname}/{idx}", method = RequestMethod.GET)
+    public ObjectResponse contentRetry(HttpServletRequest request, @PathVariable String cname, @PathVariable String idx) throws Exception {
+        contentService.retry(request, cname, idx);
+        ItemResponse itemResponse = new ItemResponse<ContentField>();
+        return new ObjectResponse<>(itemResponse);
+    }
+
 }

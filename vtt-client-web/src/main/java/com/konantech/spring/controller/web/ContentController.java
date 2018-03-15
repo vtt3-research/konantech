@@ -97,7 +97,7 @@ public class ContentController {
             throw new Exception("idx를 입력하세요");
         }
         try {
-            contentService.retry(request, cname,idx);
+            contentService.retry(request, cname, idx);
         } catch (Exception e) {
             throw new Exception(e.getMessage(), e);
         }
