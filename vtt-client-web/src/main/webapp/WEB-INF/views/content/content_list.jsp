@@ -17,7 +17,7 @@
                             <colgroup>
                                 <col style="width:60px;">
                                 <col style="width:60px;">
-                                <col style="width:100px;">
+                                <%--<col style="width:100px;">--%>
                                 <col style="width:100px;">
                                 <col style="width:auto;">
                             </colgroup>
@@ -25,7 +25,7 @@
                             <tr>
                                 <th>순번</th>
                                 <th>IDX</th>
-                                <th>트랜스코딩</th>
+                                <%--<th>트랜스코딩</th>--%>
                                 <th>카탈로깅</th>
                                 <th>제목</th>
                             </tr>
@@ -37,7 +37,7 @@
                                 <input type="hidden" name="idx" value="${ item.idx }" />
                                 <td>${ listResponse.total - index.count + 1 }</td>
                                 <td>${ item.idx }</td>
-                                <td><c:import url="content_status.jsp"><c:param name="status" value="${item.transcodingstatus}"/></c:import></td>
+                                <%--<td><c:import url="content_status.jsp"><c:param name="status" value="${item.transcodingstatus}"/></c:import></td>--%>
                                 <td><c:import url="content_status.jsp"><c:param name="status" value="${item.catalogstatus}"/></c:import></td>
                                 <td class="text" >${ fn:replace(item.title, query.keyword, highlight ) }</td>
                             </tr>

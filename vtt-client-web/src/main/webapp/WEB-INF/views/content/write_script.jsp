@@ -12,6 +12,7 @@
     $(document).ready(function() {
         $("#mydropzone").dropzone({
             url: "<c:url value="/content/upload"/>",
+            maxFiles: 2000,
             addRemoveLinks: true,
             // acceptedFiles: ".mp4, .mp4",
             maxFilesize: 100000, //mb
@@ -31,9 +32,7 @@
                     console.log(file);
                 }),
                 this.on("success", function (file, response) {
-                    MSG.alert( "작업이 완료되었습니다<br>'확인'버튼을 누르면 콘텐츠 페이지로 전환됩니다",function() {
-                      location.href = "<c:url value='/content' />";
-                    });
+                    console.log("success");
                 }),
                 this.on("sending", function(file, xhr, formData) {
                     formData.append("title", $("#write_title").val());
@@ -46,6 +45,14 @@
                     MSG.alert(error.message);
                 }),
                 this.on("uploadprogress", function(file, progress, bytesSent) {
+                }),
+                this.on("queuecomplete", function(file, progress, bytesSent) {
+                    MSG.alert( "작업이 완료되었습니다<br>'확인'버튼을 누르면 콘텐츠 페이지로 전환됩니다",function() {
+                        location.href = "<c:url value='/content' />";
+                    });
+                }),
+                this.on("processing", function() {
+                    this.options.autoProcessQueue = true;
                 });
             }
         });

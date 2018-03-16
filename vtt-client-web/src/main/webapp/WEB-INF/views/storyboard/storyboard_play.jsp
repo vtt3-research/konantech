@@ -15,7 +15,7 @@
 
         <div class="col-12">
             <div id="ribbon">
-        <span class="pull-right" style="margin-top: 5px;">
+        <span class="pull-right">
             <span id="elapsed_time" class="btn btn-ribbon hidden-xs">Press play for HTML5</span>
             <span id="currentTime" class="btn btn-ribbon hidden-xs">currentTime</span>
             <span class="left" style="padding-right:10px;">
@@ -30,9 +30,6 @@
             </span>
         </span>
             </div>
-        </div>
-        <div class="col-12">
-            <h1>객체인식 재생</h1>
         </div>
     </div>
 
@@ -95,7 +92,7 @@
     var origin_height = parseFloat("${itemResponse.item.height}");
     var shot_width = parseFloat("${itemResponse.item.shotWidth}");
 
-    $(document).resize(function() {
+    $(window).resize(function() {
         resizeVideo();
     });
 

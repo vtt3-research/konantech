@@ -80,16 +80,25 @@ public class ContentService {
             HashMap<String, Object> map = mapper.readValue(mediainfo, new HashMap<String, Object>().getClass());
             JSONArray jsonArray = JSONArray.fromObject(map.get("streams"));
             if (jsonArray != null && jsonArray.size() > 0) {
-                JSONObject o1 = (JSONObject) jsonArray.get(0);
-                int width = (int) o1.get("width");
-                int height = (int) o1.get("height");
-                String ratate = (String) ((JSONObject) o1.get("tags")).get("rotate");
-                if(ratate != null && Integer.parseInt(ratate) == 90) {
-                    item.setWidth(height);
-                    item.setHeight(width);
-                } else {
-                    item.setWidth(width);
-                    item.setHeight(height);
+                for (int pos = 0; pos < jsonArray.size(); pos++) {
+                    JSONObject o1 = (JSONObject) jsonArray.get(pos);
+                    int width = MapUtils.getIntValue(o1,"width");
+                    int height = MapUtils.getIntValue(o1,"height");
+                    if(width > 0) {
+                        JSONObject tags = (JSONObject) o1.get("tags");
+                        String ratate = null;
+                        if(tags != null) {
+                            ratate = MapUtils.getString(tags, "rotate");
+                        }
+                        if(ratate != null && Integer.parseInt(ratate) == 90) {
+                            item.setWidth(height);
+                            item.setHeight(width);
+                        } else {
+                            item.setWidth(width);
+                            item.setHeight(height);
+                        }
+                        break;
+                    }
                 }
             }
         }
@@ -182,7 +191,7 @@ public class ContentService {
         ContentQuery query = new ContentQuery();
         query.setIdx(idx);
         ItemResponse<ContentField> itemResponse = new ItemResponse<>();
-        itemResponse.setItem(this.getContentItem(query));
+//        itemResponse.setItem(this.getContentItem(query));
         return itemResponse;
     }
 

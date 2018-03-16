@@ -67,7 +67,8 @@
 
     <insert id="putContentItem" parameterType="map" useGeneratedKeys="true" keyProperty="idx">
         <selectKey keyProperty="idx" resultType="Integer" order="BEFORE">
-            SELECT COALESCE(max(idx),0) + 1 FROM DEMO_VIDEO_TB
+            SELECT NEXTVAL('SEQ_VIDEO_TB')
+--             SELECT COALESCE(max(idx),0) + 1 FROM DEMO_VIDEO_TB
         </selectKey>
         INSERT INTO DEMO_VIDEO_TB (
           idx, title, content

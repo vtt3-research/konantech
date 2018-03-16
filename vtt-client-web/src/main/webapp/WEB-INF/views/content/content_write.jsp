@@ -5,8 +5,6 @@
 <!-- dropzone style -->
 <link rel="stylesheet" type="text/css" href="<c:url value="/resources/custom/js/dropzone/dropzone.min.css"/>">
 
-
-
 <div class="container-fluid">
     <!-- Breadcrumbs-->
     <ol class="breadcrumb">
@@ -15,14 +13,6 @@
         </li>
         <li class="breadcrumb-item active">등록</li>
     </ol>
-    <div class="row">
-        <div class="col-12">
-        </div>
-        <div class="col-12">
-            <h1>콘텐츠 등록</h1>
-        </div>
-    </div>
-
     <div id="content">
         <div class="row">
 

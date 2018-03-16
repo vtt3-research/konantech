@@ -115,7 +115,6 @@ footer {
 .dropzone { min-height: 150px; }
 
 .progress-bar-title {
-    position: absolute;
     text-align: center;
     line-height: 20px; /* line-height should be equal to bar height */
     overflow: hidden;
@@ -139,4 +138,10 @@ footer {
 
 .content-wrapper {
     overflow: hidden;
+}
+
+
+#elapsed_time, #currentTime  {
+    font-size: 12px;
+    margin-top: -10px;
 }

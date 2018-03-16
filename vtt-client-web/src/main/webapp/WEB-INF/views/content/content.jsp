@@ -15,17 +15,13 @@
             <!-- RIBBON -->
             <span class="item"></span>
             <span class="ribbon-button-alignment pull-right" style="margin-right:25px">
-            <span id="btn_transcoding" class="btn btn-ribbon hidden-xs" data-title="add"><i class="fa fa-video-camera txt-color-yellow"></i> 트랜스코딩</span>
+            <%--<span id="btn_transcoding" class="btn btn-ribbon hidden-xs" data-title="add"><i class="fa fa-video-camera txt-color-yellow"></i> 트랜스코딩</span>--%>
             <span id="btn_catalog" class="btn btn-ribbon hidden-xs" data-title="add"><i class="fa fa-file-picture-o "></i> 카탈로깅</span>
             <span id="btn_delete" class="btn btn-ribbon hidden-xs" data-title="add"><i class="fa fa-trash-o txt-color-customRed"></i> 삭제</span>
             <span id="btn_download" class="btn btn-ribbon hidden-xs" data-title="add"><i class="fa fa-download txt-color-customGreen"></i> 다운로드</span>
             <span id="btn_storyboard" class="btn btn-ribbon hidden-xs" data-title="add"><i class="fa fa-picture-o txt-color-orange"></i> 스토리보드</span>
             <span id="btn_play" class="btn btn-ribbon hidden-xs" data-title="add"><i class="fa fa-youtube-play txt-color-orange"></i> 객체인식재생</span>
             </span>
-        </div>
-        <div class="col-12">
-            <h1>콘텐츠</h1>
-            <p>콘텐츠를 관리합니다.</p>
         </div>
     </div>
     <div id="content"> </div>

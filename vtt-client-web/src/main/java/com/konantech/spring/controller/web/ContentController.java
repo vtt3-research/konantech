@@ -74,10 +74,16 @@ public class ContentController {
             return "uploadStatus";
         }
         try {
+            String title = request.getParameter("title");
+            String content = request.getParameter("content");
+            String orifilename = file.getOriginalFilename();
+            if(StringUtils.isEmpty(title)) {
+                title = orifilename;
+            }
 
             VideoFile videoFile = new VideoFile();
-            videoFile.setTitle(request.getParameter("title"));
-            videoFile.setContent(request.getParameter("content"));
+            videoFile.setTitle(title);
+            videoFile.setContent(content);
             videoFile.setFile(file);
 
             contentService.upload(videoFile);

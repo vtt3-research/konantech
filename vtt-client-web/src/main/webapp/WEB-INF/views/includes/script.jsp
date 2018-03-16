@@ -33,12 +33,10 @@
 <script src="<c:url value="/resources/custom/js/bootpag/jquery.bootpag.min.js"/>"></script>
 
 <!-- custom -->
-<script src="<c:url value="/resources/custom/js/custom.js?_d="/>${pageContext.session.id}"/>"></script>
+<script src="<c:url value="/resources/custom/js/custom.js?_d=${pageContext.session.id}"/>"></script>
 
 <script>
-
     <c:if test="${(fn:startsWith(servlet_path,'/content') && !fn:startsWith(servlet_path,'/content/write')) || (fn:startsWith(servlet_path,'/storyboard'))}">
             $(".sidenav-second-level").collapse();
     </c:if>
-
 </script>

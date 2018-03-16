@@ -3,6 +3,7 @@ package com.konantech.spring.util;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
+import org.apache.commons.collections.MapUtils;
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -38,11 +39,16 @@ public class FFmpegUtil {
 			HashMap<String, Object> map = mapper.readValue(mediainfo, new HashMap<String, Object>().getClass());
 			JSONArray jsonArray = JSONArray.fromObject(map.get("streams"));
 			if(jsonArray != null && jsonArray.size() > 0) {
-				JSONObject o1 = (JSONObject) jsonArray.get(0);
-				int width = (int) o1.get("width");
-				int height = (int) o1.get("height");
-				item.put("shotWidth",width);
-				item.put("shotHeight",height);
+				for (int pos = 0; pos < jsonArray.size(); pos++) {
+					JSONObject o1 = (JSONObject) jsonArray.get(pos);
+					int width = MapUtils.getIntValue(o1,"width");
+					int height = MapUtils.getIntValue(o1,"height");
+					if(width > 0) {
+						item.put("shotWidth",width);
+						item.put("shotHeight",height);
+						break;
+					}
+				}
 			}
 		}
 		return item;

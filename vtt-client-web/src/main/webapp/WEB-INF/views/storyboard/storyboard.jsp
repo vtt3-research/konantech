@@ -26,7 +26,7 @@
                         </section>
                     </form>
                     </span>
-                    <div class="btn-group btn_menu" id="btn_detect" style="color:#fff;padding-left:15px;">
+                    <div class="btn-group btn_menu" id="btn_detect" style="padding-left:15px;font-size:12px;">
                         <input type="radio" name="btn_show_target" value="object"/> 사물
                         <input type="radio" name="btn_show_target" value="place"/> 장소
                         <input type="radio" name="btn_show_target" value="face"/> 인물
@@ -34,9 +34,6 @@
                     </div>
                 </span>
             </div>
-        </div>
-        <div class="col-12">
-            <h1>스토리보드</h1>
         </div>
     </div>
 
