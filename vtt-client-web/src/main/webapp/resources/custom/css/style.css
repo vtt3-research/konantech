@@ -145,3 +145,8 @@ footer {
     font-size: 12px;
     margin-top: -10px;
 }
+
+
+.table-responsive .row { margin: 0;}
+
+.table-responsive table td { padding:5px; }

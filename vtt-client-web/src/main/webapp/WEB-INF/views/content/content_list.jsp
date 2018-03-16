@@ -46,13 +46,14 @@
                             </tbody>
                         </table>
                         <div class="dt-toolbar-footer">
-                            <div class="col-sm-12 col-md-5">
-
-                                <div class="dataTables_info" id="dt_basic_info" role="status" aria-live="polite"></div>
-                            </div>
-                            <div class="col-sm-12 col-md-7">
-                                <div class="dataTables_paginate paging_simple_numbers" id="dt_basic_paginate">
-                                    <ul class="pagination"></ul>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-5">
+                                    <div class="dataTables_info" id="dt_basic_info" role="status" aria-live="polite"></div>
+                                </div>
+                                <div class="col-sm-12 col-md-7" style="padding-right: 0;">
+                                    <div class="dataTables_paginate paging_simple_numbers" id="dt_basic_paginate">
+                                        <ul class="pagination" style="justify-content: flex-end;"></ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
