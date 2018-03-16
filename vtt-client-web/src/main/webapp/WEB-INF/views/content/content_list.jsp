@@ -46,25 +46,18 @@
                             </tbody>
                         </table>
                         <div class="dt-toolbar-footer">
-                            <div class="col-sm-6 col-xs-12 hidden-xs">
+                            <div class="col-sm-12 col-md-5">
+
                                 <div class="dataTables_info" id="dt_basic_info" role="status" aria-live="polite"></div>
                             </div>
-                            <div class="col-xs-12 col-sm-6">
+                            <div class="col-sm-12 col-md-7">
                                 <div class="dataTables_paginate paging_simple_numbers" id="dt_basic_paginate">
-                                    <ul class="pagination">
-                                        <%--<li class="paginate_button previous disabled" id="dt_basic_previous"><a href="#" aria-controls="dt_basic" data-dt-idx="0" tabindex="0">Previous</a></li>--%>
-                                        <%--<li class="paginate_button active"><a href="#" aria-controls="dt_basic" data-dt-idx="1" tabindex="0">1</a></li>--%>
-                                        <%--<li class="paginate_button "><a href="#" aria-controls="dt_basic" data-dt-idx="2" tabindex="0">2</a></li>--%>
-                                        <%--<li class="paginate_button "><a href="#" aria-controls="dt_basic" data-dt-idx="3" tabindex="0">3</a></li>--%>
-                                        <%--<li class="paginate_button "><a href="#" aria-controls="dt_basic" data-dt-idx="4" tabindex="0">4</a></li>--%>
-                                        <%--<li class="paginate_button "><a href="#" aria-controls="dt_basic" data-dt-idx="5" tabindex="0">5</a></li>--%>
-                                        <%--<li class="paginate_button disabled" id="dt_basic_ellipsis"><a href="#" aria-controls="dt_basic" data-dt-idx="6" tabindex="0">…</a></li>--%>
-                                        <%--<li class="paginate_button "><a href="#" aria-controls="dt_basic" data-dt-idx="7" tabindex="0">10</a></li>--%>
-                                        <%--<li class="paginate_button next" id="dt_basic_next"><a href="#" aria-controls="dt_basic" data-dt-idx="8" tabindex="0">Next</a></li>--%>
-                                    </ul>
+                                    <ul class="pagination"></ul>
                                 </div>
                             </div>
                         </div>
+
+
                     </div>
 
                 </div>
@@ -80,11 +73,18 @@
 
 <script>
 
+
+
     var offset = parseInt("${listResponse.offset}");
     var limit = parseInt("${listResponse.limit}");
     var total_count = parseInt("${listResponse.total}");
     var current_page = parseInt((offset > 0 && limit > 0) ?  offset / limit : 0);
     var total_page = paginationTotalPage(total_count, limit);
+
+    var params = {};
+    params.offset = offset;
+    params.limit = limit;
+
 
     $("#dt_basic_info").text("Showing " + offset + " to " + (offset + limit) + " of " + total_count + " entrie");
     $(".pagination").bootpag({
@@ -99,7 +99,10 @@
         last: '<i class="fa fa-angle-double-right" aria-hidden="true"></i>'
     }).on("page", function(event, num) {
         params.offset = (num - 1) * params.limit;
+        location.href = "<c:url value="/content" />?" + $.param(params);
     });
+    $('.pagination li').addClass('page-item');
+    $('.pagination a').addClass('page-link');
 
 
     $(".table tbody").selectable({

@@ -7,6 +7,7 @@
 <script src="<c:url value="/webjars/bootstrap/4.0.0-2/js/bootstrap.bundle.min.js"/>"></script>
 <script src="<c:url value="/webjars/bootbox/4.4.0/bootbox.js"/>"></script>
 <script src="<c:url value="/webjars/tooltipster/4.1.4-1/js/tooltipster.bundle.min.js"/>"></script>
+<script src="<c:url value="/webjars/bootpag/1.0.7/lib/jquery.bootpag.min.js"/>"></script>
 
 <!-- Core plugin JavaScript-->
 <script src="<c:url value="/resources/vendor/jquery-easing/jquery.easing.min.js"/>"></script>
@@ -28,9 +29,6 @@
 
 <!-- superbox -->
 <script src="<c:url value="/resources/custom/js/superbox.js"/>"></script>
-
-
-<script src="<c:url value="/resources/custom/js/bootpag/jquery.bootpag.min.js"/>"></script>
 
 <!-- custom -->
 <script src="<c:url value="/resources/custom/js/custom.js?_d=${pageContext.session.id}"/>"></script>

@@ -60,6 +60,7 @@ dependencies {
 	compile("org.webjars:bootbox:4.4.0")
 	compile("org.webjars:jquery-validation:1.17.0")
 	compile("org.webjars:tooltipster:4.1.4-1")
+	compile("org.webjars.bower:bootpag:1.0.7")
 
 	//common
 	compile("commons-collections:commons-collections:3.2.1")
