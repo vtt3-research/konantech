@@ -9,16 +9,18 @@
 ## 구조
 
 ### VTT 클라이언트 
-vtt-client-web
+>vtt-client-web
 
 ### OGQ 연동 모듈 
-ogq_comm
+>ogq_comm
 
 ### VTT 비디오 메타데이터 매니지먼트 시스템 데모 
-vtt-management-web
+>vtt-management-web
+
+### 공개 데이터
+>VTT3_Metadata
 
 ### 문서
-docs
->- VTT3_Metadata
+>docs
 
 ## License
