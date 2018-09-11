@@ -1,0 +1,727 @@
+{ 
+	"file_name": "s01_ep01_tag2_QA_final",
+	"registed_name": "s01_ep01_tag2_QA_final", 
+	"qa_results": 
+	[ 
+		{ 
+		"visual_period_num": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15", 
+		"period_num": "1", 
+		"start_time": "00:00:51;00", 
+		"end_time": "00:01:16;13",
+		"description_info": 
+		[ 
+			{ "description": "Monica, Joey, Phoebe, and Chandler all are talking together. They are discussing whether Monica having a dinner with a guy is a date or not. Joey is sitting on a chair with facing the back of the chair and holding the edge of it with his hands. Chandler is sitting on the one of arms on the sofa and crouching his back. "}, 
+			{ "description": "Monica is sitting on a sofa with Pheobe."}, 
+			{ "description": "Joey is sitting on a chair and Chandler is sitting on the arms of the sofa on the opposite sides."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Will Monica have a date?", 
+				"answer": "Yes", 
+				"wrong_answer1": "No. She will be shopping.", 
+				"wrong_answer2": "No. She will buy groceries.", 
+				"wrong_answer3": "No. She will go to see the movies.", 
+				"wrong_answer4": "No. She will read books." } 
+			} ,
+			{ "qa": { 
+				"question": "What does Monica think about a guy?", 
+				"answer": "She thinks they are just eating together.", 
+				"wrong_answer1": "She thinks he loves her.", 
+				"wrong_answer2": "She thinks he is handsome.", 
+				"wrong_answer3": "She thinks he will buy her dinner.", 
+				"wrong_answer4": "She thinks he hates her." } 
+				} ,
+			{ "qa": { 
+				"question": "What does her friends think about Monica meeting a guy?", 
+				"answer": "She thinks he loves her.", 
+				"wrong_answer1": "She thinks he is handsome.", 
+				"wrong_answer2": "She thinks he will buy her dinner.", 
+				"wrong_answer3": "She thinks he hates her.", 
+				"wrong_answer4": "What does her friends think about Monica meeting a guy?" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "16,17,18,19,20,21,22,23,24,25,26,27,28", 
+		"period_num": "2", 
+		"start_time": "00:01:19;13", 
+		"end_time": "00:01:50;21",
+		"description_info": 
+		[ 
+			{ "description": "Chandler is sitting on the sofa with Monica next to him. Chandler is crossing his legs and Monica is sitting on the sofa with her legs folded and holding a blue cup on her hand. Phoebe is sitting on the floor with her arms on the table. There are books and notes scattered all over the table. The table is in the middle of four people: Phoebe, Monica, Chandler, and Joey. Joey is sitting next to Chandler holding a blue cup with both hands. Chandler is talking about his queer memories in high school. "}, 
+			{ "description": "Phoebe, Monica, Chandler, and Joey are sitting around in the cafe."}, 
+			{ "description": "Chandler is talking about his strange memories in highschool."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Chandler doing?", 
+				"answer": "He is talking about his memories in highschool.", 
+				"wrong_answer1": "He is standing on his feet.", 
+				"wrong_answer2": "He is being quiet.", 
+				"wrong_answer3": "He is talking about his job.", 
+				"wrong_answer4": "He is talking about his girlfriend." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Joey doing?", 
+				"answer": "He is listening to Chandler's story.", 
+				"wrong_answer1": "He is standing on his feet.", 
+				"wrong_answer2": "He is talking to Monica.", 
+				"wrong_answer3": "He is cooking.", 
+				"wrong_answer4": "He is drinking coffee." } 
+				} ,
+			{ "qa": { 
+				"question": "Where is Phoebe?", 
+				"answer": "She is sitting on the floor.", 
+				"wrong_answer1": "She is sitting at the bar.", 
+				"wrong_answer2": "She is sitting on the sofa.", 
+				"wrong_answer3": "She is on the street.", 
+				"wrong_answer4": "She is shopping in the mall." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53", 
+		"period_num": "3", 
+		"start_time": "00:01:54;23", 
+		"end_time": "00:03:20;02",
+		"description_info": 
+		[ 
+			{ "description": "Ross is standing behind the sofa holding a black umbrella on his hand. He looks sad and anxious. He is moving around the sofa, walking towards Chandler and talking with furious and emotional voice. In the middle of his talking, Chandler is offering him cookies with light and cheerful voice. Monica explains why he is so emotional and upset. That is because Carole left him. Monica leaves her seat to get Ross coffee and Ross is sitting on her seat. As soon as he sits there, Phoebe is moving her hands on the air around him. Ross hates her actions and stops them. Joey is sitting next to Ross and he is bullying Ross by mentioning his ex-wife is a lesbian. As soon as Ross gets angry, Chandler says that he wishes to be a lesbian pretending that he never meant to say that."}, 
+			{ "description": "Chandler, Phoebe, Monica, and Joey are sitting in the cafe around the table. Behind the sofa, Ross is standing with emotional look on his face."}, 
+			{ "description": "Ross is talking with emotional voice and sad look on his face. Monica explains why he does that to others."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why is Ross upset?", 
+				"answer": "Because Carole left him.", 
+				"wrong_answer1": "Because he got a car accident.", 
+				"wrong_answer2": "Because he got dumped by his girlfriend.", 
+				"wrong_answer3": "Because he paid too much for clothes.", 
+				"wrong_answer4": "Because he stepped on his feet." } 
+			} ,
+			{ "qa": { 
+				"question": "What did Monica do for Ross?", 
+				"answer": "She gave him coffee.", 
+				"wrong_answer1": "She bought him a car.", 
+				"wrong_answer2": "She gave him flowers.", 
+				"wrong_answer3": "She brought him a book.", 
+				"wrong_answer4": "She texted him." } 
+				} ,
+			{ "qa": { 
+				"question": "What did Chandler say?", 
+				"answer": "Sometimes, he wishes to be a lesbian.", 
+				"wrong_answer1": "Sometimes, he wishes to be a cook.", 
+				"wrong_answer2": "Sometimes, he wishes to be a driver.", 
+				"wrong_answer3": "Sometimes, he wishes to be a woman.", 
+				"wrong_answer4": "Sometimes, he wishes to be a child." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "54,55,56,57,58,59,60,61,62,63,64,65,66,67", 
+		"period_num": "4", 
+		"start_time": "00:03:29;21", 
+		"end_time": "00:04:08;13",
+		"description_info": 
+		[ 
+			{ "description": "Suddenly, Rachel rushes in the cafe with her wedding dress on. Chandler shows his surprise by saying thatI just won a million dollars, which means that it is a slim chance to see a woman in her wedding dress in a coffee shop. As Monica sees Rachel, she calls her then they hug each other. Rachel explains how she gets in the shop and expresses her emotion by holding Monica's hands and moving them up and down. The staff in the bar asks whether they want coffee and Monica orders decaf coffee for Rachel. Monica takes Rachel to her friends and she introduces Rachel. When Ross, Monica's brother, tries to shake hands with Rachel, his umbrella unexpectedly opened, so Ross just steps back and sits down on the sofa. Rachel sits on the sofa between Phoebe and Ross."}, 
+			{ "description": "Rachel rushes in the cafe with her wedding dress on."}, 
+			{ "description": "Monica orders decaf coffee for Monica and introduces her to her friends. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is Rachel looking for?", 
+				"answer": "Rachel is looking for Monica.", 
+				"wrong_answer1": "Rachel is looking for Chandler.", 
+				"wrong_answer2": "Rachel is looking for Ross.", 
+				"wrong_answer3": "Rachel is looking for Phoebe.", 
+				"wrong_answer4": "Rachel is looking for her father." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Rachel wearing?", 
+				"answer": "Rachel is wearing a wedding dress.", 
+				"wrong_answer1": "Rachel is wearing a t-shirt.", 
+				"wrong_answer2": "Rachel is wearing jeans.", 
+				"wrong_answer3": "Rachel is wearing a party dress.", 
+				"wrong_answer4": "Rachel is wearing a business suit." } 
+				} ,
+			{ "qa": { 
+				"question": "From where is Rachel running away?", 
+				"answer": "She is running away from her wedding.", 
+				"wrong_answer1": "She is running away from her house.", 
+				"wrong_answer2": "She is running away from her office.", 
+				"wrong_answer3": "She is running away from her father's funeral.", 
+				"wrong_answer4": "She is running away from her car." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83", 
+		"period_num": "5", 
+		"start_time": "00:04:12;06", 
+		"end_time": "00:05:09;21",
+		"description_info": 
+		[ 
+			{ "description": "Monica asks why Rachel comes in the cafe looking for her. Rachel explains that she was in her waiting room and suddenly realized the wedding is pointless and she starts asking herself who and what this wedding is for. In her speaking, she takes people's help for granted, getting coffee on the sofa from the staff, giving sugar to Ross and letting him make coffee for her. Rachel explains that she looks for Monica to avoid the wedding as she is the only one who she can think of. However, Monica is not happy about it as she was not invited to the wedding. "}, 
+			{ "description": "Rachel is sitting on the sofa and talking about why she ran away from her wedding."}, 
+			{ "description": "Ross is preparing coffee for Rachel by putting sugar in the coffee and stirring it for her."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why did Rachel run away from her wedding.", 
+				"answer": "She didn't know what and who the wedding is for.", 
+				"wrong_answer1": "She had another boyfriend.", 
+				"wrong_answer2": "She hated her husband to be.", 
+				"wrong_answer3": "She loved another man.", 
+				"wrong_answer4": "She didn't have money." } 
+			} ,
+			{ "qa": { 
+				"question": "Are Monica and Rachel close?", 
+				"answer": "No, Rachel didn't invite Monica to her wedding.", 
+				"wrong_answer1": "Yes, they travel together often.", 
+				"wrong_answer2": "Yes, they meet often.", 
+				"wrong_answer3": "Yes, Rachel invited Monica to her wedding.", 
+				"wrong_answer4": "Yes, they see each other once a week." } 
+				} ,
+			{ "qa": { 
+				"question": "What  is Ross doing?", 
+				"answer": "Ross is making coffee for Rachel.", 
+				"wrong_answer1": "Ross is listening to her.", 
+				"wrong_answer2": "Ross is shopping his clothes.", 
+				"wrong_answer3": "Ross is texting.", 
+				"wrong_answer4": "Ross is on the phone." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106", 
+		"period_num": "6", 
+		"start_time": "00:05:11;16", 
+		"end_time": "00:06:38;10",
+		"description_info": 
+		[ 
+			{ "description": "All friends except Rachel are sitting together and watching a TV program. They are guessing what will happen next in the show. On the other hand, Rachel is talking on the phone with her father and she is explaining why she left the wedding using metaphors. Her explanation doesn't work with her father and she goes against him by saying her financial independence from him. She says that she will Iive with Monica to do that. By listening to her speaking, everyone gets surprised."}, 
+			{ "description": "Rachel is arguing on the phone with her father."}, 
+			{ "description": "Phoebe, Chandler, Joey, Ross, and Monica are all sitting together and watching a TV show."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is Rachel talking on the phone?", 
+				"answer": "She is talking her father on the phone.", 
+				"wrong_answer1": "She is talking her brother on the phone.", 
+				"wrong_answer2": "She is talking her mother on the phone.", 
+				"wrong_answer3": "She is talking her sister on the phone.", 
+				"wrong_answer4": "She is talking her friend on the phone." } 
+			} ,
+			{ "qa": { 
+				"question": "Who is Rachel planning to stay with?", 
+				"answer": "She is planning to stay with Monica.", 
+				"wrong_answer1": "She is planning to stay with her parents.", 
+				"wrong_answer2": "She is planning to live alone.", 
+				"wrong_answer3": "She is planning to stay with her siblings.", 
+				"wrong_answer4": "She is planning to stay with her boyfriend." } 
+				} ,
+			{ "qa": { 
+				"question": "What is Rachel's emotion?", 
+				"answer": "She is angry.", 
+				"wrong_answer1": "She is happy.", 
+				"wrong_answer2": "She is excited.", 
+				"wrong_answer3": "She is anxious.", 
+				"wrong_answer4": "She is sad." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "107-144", 
+		"period_num": "7", 
+		"start_time": "00:06:55;06", 
+		"end_time": "00:08:42;07",
+		"description_info": 
+		[ 
+			{ "description": "Rachel is breathing with a paper bag and Monica is helping her. Phoebe is trying to help Rachel by singing a song. However, Rachel doesn't like her song, so she refuses by saying that she is fine. Phoebe is happy with just hearing that literally and Joey is hitting on Rachel. Monica stops it. Suddenly, the bell buzzed. Chandler went to the bell and Monica explains that she is dating the guy,Paul, today. Everyone is surprised that she dates Paul and comments on it. Monica lets Paul in and all the rest of friends lining up to say hello to Paul."}, 
+			{ "description": "Rachel and Monica are sitting together. Monica is help Rachel to breathe with a paper bag. "}, 
+			{ "description": "Joey is sitting on the back of the sofa and he is hitting on Rachel. Monica stops him."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Monica doing?", 
+				"answer": "Monica is helping Rachel breathe.", 
+				"wrong_answer1": "Monica is driving.", 
+				"wrong_answer2": "Monica is cooking.", 
+				"wrong_answer3": "Monica is watching TV.", 
+				"wrong_answer4": "Monica is talking on the phone." } 
+			} ,
+			{ "qa": { 
+				"question": "Who rings the bell?", 
+				"answer": "Paul rings the bell.", 
+				"wrong_answer1": "Monica rings the bell.", 
+				"wrong_answer2": "Rachel rings the bell.", 
+				"wrong_answer3": "Joey rings the bell.", 
+				"wrong_answer4": "Ross rings the bell." } 
+				} ,
+			{ "qa": { 
+				"question": "Why does Paul visit the house?", 
+				"answer": "Paul wants to date Monica.", 
+				"wrong_answer1": "Paul wants to date Rachel.", 
+				"wrong_answer2": "Paul wants to watch TV together.", 
+				"wrong_answer3": "Paul wants to watch hockey with guys.", 
+				"wrong_answer4": "Paul wants to talk about his business. " 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "145-157", 
+		"period_num": "8", 
+		"start_time": "00:08:44;22", 
+		"end_time": "00:09:26;22",
+		"description_info": 
+		[ 
+			{ "description": "Rachel is sitting in the kitchen table and Ross goes toward her. Ross is asking Rachel her plan for tonight and inviting her to help him put his furniture together. Chandler and Joey are standing around the kitchen table saying that they will help Ross as well. Rachel declines the offer and leaves the seat. The two guys, Chandler and Joey, are asking Phoebe to help, but she says no as well."}, 
+			{ "description": "Rachel is sitting in the kitchen table with her wedding dress on. "}, 
+			{ "description": "Joey and Chandler come toward the kitchen table as they see Ross and Rachel are talking about his furniture."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What will Ross do tonight?", 
+				"answer": "He will assembly his new furniture.", 
+				"wrong_answer1": "Hew will go shopping.", 
+				"wrong_answer2": "He will date his girlfriend.", 
+				"wrong_answer3": "He will have dinner with family.", 
+				"wrong_answer4": "He will watch movie." } 
+			} ,
+			{ "qa": { 
+				"question": "Where are Chandler and Joey?", 
+				"answer": "They are standing by the kitchen table.", 
+				"wrong_answer1": "They are sitting on the floor.", 
+				"wrong_answer2": "They are in their rooms.", 
+				"wrong_answer3": "They are in their parents' house.", 
+				"wrong_answer4": "They are in a theater." } 
+				} ,
+			{ "qa": { 
+				"question": "What is Ross asking Rachel?", 
+				"answer": "He is asking her to help him assembly his new furniture.", 
+				"wrong_answer1": "He is askiHe is asking her a date.ng her a date.", 
+				"wrong_answer2": "He is asking her coffee.", 
+				"wrong_answer3": "He is asking her a favor.", 
+				"wrong_answer4": "He is asking her favorite food." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "158-172", 
+		"period_num": "9", 
+		"start_time": "00:09:34;18", 
+		"end_time": "00:10:24;12",
+		"description_info": 
+		[ 
+			{ "description": "At Ross's home, the three guys, Ross, Chandler, and Joey, hunker down. Ross and Chandler are watching a piece of paper holding it on their hands and Joey is holding a wooden board. The house looks empty without any proper furniture in it. The three guys are trying to assembly furniture. However, all three of them are struggling with the job. Joey and Chandler are sick of the job and Ross finds Carole's, his ex-wife, favorite beer can. Joey asks what Ross has after Carole gets everything including furniture, stereo, TV. Ross answers that he has got his friends, Joey and Chandler. "}, 
+			{ "description": "Ross, Chandler and Joey hunker down and struggle for assemblying the furniture."}, 
+			{ "description": "All three of them stop assembling and get up. Joey asks Ross who feels sad about his ex-wife's favorite beer what he gets after he gives away everything to Carole."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What are Ross, Joey, and Chandler doing?", 
+				"answer": "They are assembling furniture.", 
+				"wrong_answer1": "They are watching TV.", 
+				"wrong_answer2": "They are watching hockey together.", 
+				"wrong_answer3": "They are working.", 
+				"wrong_answer4": "They are cleaning." } 
+			} ,
+			{ "qa": { 
+				"question": "Why Ross suddenly feels sad?", 
+				"answer": "He finds Carole's favorite beer on the floor.", 
+				"wrong_answer1": "He finds Carole's favorite clothes.", 
+				"wrong_answer2": "He finds Carole's favorite boots on the floor.", 
+				"wrong_answer3": "He fails to put furniture together.", 
+				"wrong_answer4": "He gets a call from work." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Ross think he has compared to his ex-wife?", 
+				"answer": "HIs friends, Joey and Chandler.", 
+				"wrong_answer1": "He has good furniture.", 
+				"wrong_answer2": "He has good TV.", 
+				"wrong_answer3": "He has a good car.", 
+				"wrong_answer4": "He has new girlfriend." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "173-179", 
+		"period_num": "10", 
+		"start_time": "00:10:29;12", 
+		"end_time": "00:11:15;20",
+		"description_info": 
+		[ 
+			{ "description": "Monica is having dinner with Paul in a restaurant. They are talking together. They are sitting next to each other and looking at each other's eyes. The scene changed. Rachel is talking on the phone anxiously at home. She is standing and walking here and there with an uneasy look on her face holding a big telephone on her hand. She is talking on the phone to her husband to be. The phone is cut off and she anxiously calls again. This time, machine takes her call and she tires to leave a message."}, 
+			{ "description": "Monica is dating Paul and they are sitting together in a restaurant."}, 
+			{ "description": "Rachel is at home, holding a phone and talking anxiously."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is Monica dating?", 
+				"answer": "She is dating Paul.", 
+				"wrong_answer1": "She is dating Joey.", 
+				"wrong_answer2": "She is dating Chandler.", 
+				"wrong_answer3": "She is dating her colleague.", 
+				"wrong_answer4": "She is dating Leonardo Dicaprio." } 
+			} ,
+			{ "qa": { 
+				"question": "Where is she dating?", 
+				"answer": "She is dating in a restaurant.", 
+				"wrong_answer1": "She is dating in a cafe.", 
+				"wrong_answer2": "She is dating in a theater.", 
+				"wrong_answer3": "She is dating at her home.", 
+				"wrong_answer4": "She is dating in her car." } 
+				} ,
+			{ "qa": { 
+				"question": "What is Rachel doing?", 
+				"answer": "She is talking on the phone.", 
+				"wrong_answer1": "She is shopping.", 
+				"wrong_answer2": "She is driving.", 
+				"wrong_answer3": "She is talking to Monica.", 
+				"wrong_answer4": "She is cooking." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "180-193", 
+		"period_num": "11", 
+		"start_time": "00:11:16;15", 
+		"end_time": "00:12:10;12",
+		"description_info": 
+		[ 
+			{ "description": "Ross holding a beer can on his hand is talking about his failed marriage that his ex-wife is lesbian to Chandler. He worries that Carole is the only woman he can meet in his life. Suddenly, Joey appears from the kitchen holding beer cans and persuades Ross about it with metaphors using an ice cream. There are a lot of women in the world just like ice cream. The three of them are standing in the living room together and talking together. Joey is trying to cheer Ross up, but Ross disagrees Joey's idea."}, 
+			{ "description": "At first, Ross is grumbling about his misfortunes to Chandler."}, 
+			{ "description": "Joey suddenly appears with beer and refuses Ross's complaints."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why is Ross grumbling?", 
+				"answer": "Because he worries that he can't meet another woman.", 
+				"wrong_answer1": "Because he is worrying Carole.", 
+				"wrong_answer2": "Because he loses money.", 
+				"wrong_answer3": "Because he is not promoted at work.", 
+				"wrong_answer4": "Because his neighbors are noisy." } 
+			} ,
+			{ "qa": { 
+				"question": "What kind of thing does Joey use to support his idea?", 
+				"answer": "He uses ice cream.", 
+				"wrong_answer1": "He uses data.", 
+				"wrong_answer2": "He uses recent research.", 
+				"wrong_answer3": "He uses his experience.", 
+				"wrong_answer4": "He uses his car." } 
+				} ,
+			{ "qa": { 
+				"question": "Who appears in the scene?", 
+				"answer": "There are Ross, Joey, and Chandler.", 
+				"wrong_answer1": "There are Ross and Monica.", 
+				"wrong_answer2": "Rachel appears in the scene.", 
+				"wrong_answer3": "There are only Ross and Joey.", 
+				"wrong_answer4": "Phoebe and Rachel appear." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "194-211", 
+		"period_num": "12", 
+		"start_time": "00:12:14;15", 
+		"end_time": "00:13:21;03",
+		"description_info": 
+		[ 
+			{ "description": "In the restaurant, Monica and Paul are dating and having dinner together. Monica gives her full attention to Paul and carefully listens to his story. He mentions his ex-girlfriend and his problem. He asks Monica their next date despite his problem. Monica is excited about him asking her out again and agrees with it. "}, 
+			{ "description": "Monica and Paul are sitting together in a restaurant."}, 
+			{ "description": "Paul is trying to pick up noodles with his chopsticks and Monica looks at him while drinking. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who are talking together?", 
+				"answer": "Monica and Paul.", 
+				"wrong_answer1": "Rachel and Ross.", 
+				"wrong_answer2": "Paul and Rachel.", 
+				"wrong_answer3": "Joey and Chandler.", 
+				"wrong_answer4": "Chandler and Monica." } 
+			} ,
+			{ "qa": { 
+				"question": "What they are talking about?", 
+				"answer": "Their next date.", 
+				"wrong_answer1": "Their honeymoon.", 
+				"wrong_answer2": "Their marriage.", 
+				"wrong_answer3": "Their baby.", 
+				"wrong_answer4": "Their house." } 
+				} ,
+			{ "qa": { 
+				"question": "Why is Paul hesitating to ask Monica out?", 
+				"answer": "Because he has problems after his girlfriend left him.", 
+				"wrong_answer1": "Because he doesn't have money.", 
+				"wrong_answer2": "Because he doesn't love Monica.", 
+				"wrong_answer3": "Because he doesn't want a date.", 
+				"wrong_answer4": "Because he doesn't have time." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "212-218", 
+		"period_num": "13", 
+		"start_time": "00:13:25;07", 
+		"end_time": "00:14:13;09",
+		"description_info": 
+		[ 
+			{ "description": "At home, Rachel is watching a TV show feeling sad about the story and sniffling with her wedding dress in her hands . She puts her situation into the story. Scene changed. The three guys, Ross, Chandler, and Joey, are in the living room. They are talking about new woman. Ross is still grumbling about it and worries that he might not be interested in any woman. Joey and Chandler are listening to Ross with tired look on their faces. Scene changed. Rachel is sitting by the window looking sad and gloomy. "}, 
+			{ "description": "Rachel is sniffling and watching TV on the sofa."}, 
+			{ "description": "Ross is grumbling about his grim future relationship with women."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where is Rachel?", 
+				"answer": "She is at home.", 
+				"wrong_answer1": "She is in a shopping mall.", 
+				"wrong_answer2": "She is in a car.", 
+				"wrong_answer3": "She is on the street.", 
+				"wrong_answer4": "She is in a theater." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Rachel doing?", 
+				"answer": "She is watching TV.", 
+				"wrong_answer1": "She is cleaning the room.", 
+				"wrong_answer2": "She is dating.", 
+				"wrong_answer3": "She is reading a book.", 
+				"wrong_answer4": "She is cooking." } 
+				} ,
+			{ "qa": { 
+				"question": "Who are listening to Ross's complaints?", 
+				"answer": "Joey and Chandler.", 
+				"wrong_answer1": "Monica and Rachel.", 
+				"wrong_answer2": "Joey and Phoebe.", 
+				"wrong_answer3": "Carole and Paul.", 
+				"wrong_answer4": "Paul and Monica." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "219-250", 
+		"period_num": "14", 
+		"start_time": "00:14:16;05", 
+		"end_time": "00:16:01;03",
+		"description_info": 
+		[ 
+			{ "description": "Rachel is busying herself by making and serving coffee to Joey and Chandler who are sitting in the kitchen table. They are pouring the coffee in the pot on the table showing that the coffee is not delicious. Monica and Paul are coming out of the same room showing that they spend the night together. Monica kisses Paul and lets him out. All friend are making fuss about it. She goes to the kitchen and  Chandler gets up to get to work. Rachel is surprised that everyone has jobs."}, 
+			{ "description": "Rachel is making coffee for Joey and Chandler."}, 
+			{ "description": "Rachel, Joey, and Chandler curiously look at Monica kissing Paul."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who prepares coffee?", 
+				"answer": "Rachel.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Joey.", 
+				"wrong_answer3": "Chandler.", 
+				"wrong_answer4": "Phoebe." } 
+			} ,
+			{ "qa": { 
+				"question": "Why does Monica come out of the room with Paul?", 
+				"answer": "Because they spend night together.", 
+				"wrong_answer1": "Because they watch TV.", 
+				"wrong_answer2": "Because they play game together.", 
+				"wrong_answer3": "Because they clean the room together.", 
+				"wrong_answer4": "Because they moved furniture." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Monica do before Paul leaves?", 
+				"answer": "She kisses him.", 
+				"wrong_answer1": "She hugs him.", 
+				"wrong_answer2": "She gives him notes.", 
+				"wrong_answer3": "She shakes hands.", 
+				"wrong_answer4": "She waves her hands." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "251-283", 
+		"period_num": "15", 
+		"start_time": "00:16:04;13", 
+		"end_time": "00:18:03;09",
+		"description_info": 
+		[ 
+			{ "description": "Monica sits in the kitchen table with Rachel and goes out to work. Rachel tells her that she will go for interviews later today. In Monica's work, she talks to her colleague and her colleague finds out that Monica had sex. Monica asks how she knows that. When Monica tells her that Paul is her partner, Monica finds out that something is wrong as she knows Paul and his problem. In Central Perk cafe, Joey, Phoebe, Ross, and Monica surround the sofa. Joey is sitting on the arms of the sofa and saying that Paul's lying is obvious. Monica is upset and cannot believe that Paul lied to her. Phoebe is sitting on the floor writing something on notes. Ross is sitting on the sofa listening to Monica. Phoebe tries to help her by massaging her foot, and Joey makes fun of her."}, 
+			{ "description": "Monica is upset and standing behind the sofa."}, 
+			{ "description": "Joey, Phoebe, Ross, and Monica are all gathered around to talk about Paul."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is Monica upset about?", 
+				"answer": "Paul.", 
+				"wrong_answer1": "Chandler.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Phoebe.", 
+				"wrong_answer4": "Her parents." } 
+			} ,
+			{ "qa": { 
+				"question": "How does Monica know Paul lied to her.", 
+				"answer": "Her colleague told her.", 
+				"wrong_answer1": "Rachel told Monica.", 
+				"wrong_answer2": "Chandler told Monica.", 
+				"wrong_answer3": "Ross told Monica.", 
+				"wrong_answer4": "Monica's friends told her." } 
+				} ,
+			{ "qa": { 
+				"question": "Is Rachel working?", 
+				"answer": "No, she isn't.", 
+				"wrong_answer1": "Yes, she is working as a waitress.", 
+				"wrong_answer2": "Yes, she is working as a lawyer.", 
+				"wrong_answer3": "Yes, she is working as a shop manager.", 
+				"wrong_answer4": "Yes, she is working as a cook." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "284-324", 
+		"period_num": "16", 
+		"start_time": "00:18:08;17", 
+		"end_time": "00:19:57;15",
+		"description_info": 
+		[ 
+			{ "description": "Fiends are sitting in the Central Perk cafe. Suddenly, Rachel happily comes in with a shopping box. She confesses that she can't get a job, but she can buy boots at a discounted price, which makes her happy. Monica seriously asks who pays the credit card to pay for the boots. Rachel answers with guilty look. At home, Rachel is sitting in the table and cards in front of her. She is surrounded by all friends. Rachel cuts her cards with scissors with the help of her friends.  "}, 
+			{ "description": "Rachel happily comes in the cafe with her shopping bags."}, 
+			{ "description": "In the cafe, Monica interrogates Rachel how she bought the expensive boots. Rachel answers her father with guilty look on her face admitting that she can't be independent from him by doing this."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who pays Rachel's credit card?", 
+				"answer": "Her father.", 
+				"wrong_answer1": "Rachel herself.", 
+				"wrong_answer2": "Monica pays for her.", 
+				"wrong_answer3": "Phoebe pays for her.", 
+				"wrong_answer4": "Her boyfriend pays for her." } 
+			} ,
+			{ "qa": { 
+				"question": "What did Rachel buy?", 
+				"answer": "She bought boots.", 
+				"wrong_answer1": "She bought books.", 
+				"wrong_answer2": "She bought clothes.", 
+				"wrong_answer3": "She bought a car.", 
+				"wrong_answer4": "She bought bags." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Rachel do to be independent from her father?", 
+				"answer": "She cuts her credit cards.", 
+				"wrong_answer1": "She buys a house.", 
+				"wrong_answer2": "She gets married. ", 
+				"wrong_answer3": "She rents a house.", 
+				"wrong_answer4": "She goes traveling." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "325-352", 
+		"period_num": "17", 
+		"start_time": "00:20:01;04", 
+		"end_time": "00:21:41;01",
+		"description_info": 
+		[ 
+			{ "description": "At home, Ross and Monica are sitting together on the sofa and Rachel on the other side sitting. They finish watching TV and give each other a good night kiss. Rachel finds Paul's watch and Monica breaks it with her foot as she goes into her room. There, the two, Ross and Rachel, are left alone in the living room. Both of them try to get a cookie and decide to split it and eat together. Ross carefully confesses his mind to her. Rachel does not refuse it and goes to her bed."}, 
+			{ "description": "Monica, Ross, and Rachel are watching TV. Monica goes to bed."}, 
+			{ "description": "Rachel and Ross are talking. Ross confesses his interests to her."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who are sitting together?", 
+				"answer": "Monica, Ross, and Rachel.", 
+				"wrong_answer1": "Joey and Chandler.", 
+				"wrong_answer2": "Phoebe and Joey.", 
+				"wrong_answer3": "Rachel, Monica, and Joey.", 
+				"wrong_answer4": "Joey, Phoebe, and Monica." } 
+			} ,
+			{ "qa": { 
+				"question": "What does Rachel find from the floor?", 
+				"answer": "Paul's watch.", 
+				"wrong_answer1": "Shoes.", 
+				"wrong_answer2": "Paul's shirts.", 
+				"wrong_answer3": "Coins.", 
+				"wrong_answer4": "Paul's suitcase." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Ross suggest to eat a cookie?", 
+				"answer": "Ross suggests to split it up.", 
+				"wrong_answer1": "Ross give it up for Rachel.", 
+				"wrong_answer2": "Ross suggests to throw it away.", 
+				"wrong_answer3": "Ross suggests to eat himself.", 
+				"wrong_answer4": "Ross suggests to buy another one." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "353-384", 
+		"period_num": "18", 
+		"start_time": "00:21:46;13", 
+		"end_time": "00:22:48;17",
+		"description_info": 
+		[ 
+			{ "description": "After Rachel went into her bed, Ross eats his side of the cookie with a grin on his face and leaves the house. Monica finds that and asks why he is being so happy. In the cafe, all friends get together and are sitting around the table in the middle. Rachel comes in with coffee in her hand and serves it to all. When they know Rachel is only serving, they are eager to have it. "}, 
+			{ "description": "Rachel appears with coffee in her hand and stares at her friends standing and asking if anyone wants coffee. "}, 
+			{ "description": "All friends are sitting on the sofa around the table."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What does Ross do right after Rachel left?", 
+				"answer": "", 
+				"wrong_answer1": "", 
+				"wrong_answer2": "", 
+				"wrong_answer3": "", 
+				"wrong_answer4": "" } 
+			} ,
+			{ "qa": { 
+				"question": "Who serves coffee in the cafe?", 
+				"answer": "Rachel.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Paul.", 
+				"wrong_answer3": "Ross.", 
+				"wrong_answer4": "Phoebe." } 
+				} ,
+			{ "qa": { 
+				"question": "Why does Chandler ask Rachel whether she makes coffee?", 
+				"answer": "Because Rachel's coffee is not good.", 
+				"wrong_answer1": "Because Chandler wants to drink Rachel's coffee.", 
+				"wrong_answer2": "Because Chandler wants to drink tea.", 
+				"wrong_answer3": "Because Chandler was bored.", 
+				"wrong_answer4": "Because Chandler wants to ask for no reason." 
+				} 
+			} 
+		] 
+	}
+	]
+}

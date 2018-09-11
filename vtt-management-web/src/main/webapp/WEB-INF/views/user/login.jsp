@@ -5,166 +5,80 @@
 <html lang="en-us" id="extr-page">
 <head>
     <meta charset="utf-8">
-    <title> VTT</title>
+    <title>DEMO</title>
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <!-- #CSS Links -->
-    <!-- Basic Styles -->
-    <link rel="stylesheet" type="text/css" media="screen" href="<c:url value="/resources/css/bootstrap.min.css" />"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="<c:url value="/resources/css/font-awesome.min.css" />"/>
+    <link rel="stylesheet" type="text/css" href="<c:url value="/webjars/jquery-ui/1.12.1/jquery-ui.min.css"/>">
+    <link rel="stylesheet" type="text/css" href="<c:url value="/webjars/bootstrap/3.3.6/css/bootstrap.min.css"/>">
+    <link rel="stylesheet" type="text/css" href="<c:url value="/webjars/font-awesome/4.7.0/css/font-awesome.min.css"/>">
 
-    <!-- SmartAdmin Styles : Caution! DO NOT change the order -->
-    <link rel="stylesheet" type="text/css" media="screen"
-          href="<c:url value="/resources/css/smartadmin-production-plugins.min.css" />"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="<c:url value="/resources/css/smartadmin-production.min.css" />"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="<c:url value="/resources/css/smartadmin-skins.min.css" />"/>
-
-    <!-- SmartAdmin RTL Support -->
-    <link rel="stylesheet" type="text/css" media="screen" href="<c:url value="/resources/css/smartadmin-rtl.min.css" />"/>
-
-    <!-- We recommend you use "your_style.css" to override SmartAdmin
-         specific styles this will also ensure you retrain your customization with each SmartAdmin update.
-    <link rel="stylesheet" type="text/css" media="screen" href="css/your_style.css"> -->
-
-    <!-- Demo purpose only: goes with demo.js, you can delete this css when designing your own WebApp -->
-    <link rel="stylesheet" type="text/css" media="screen" href="<c:url value="/resources/css/demo.min.css" />"/>
+    <!-- Custom styles for this template-->
+    <link rel="stylesheet" type="text/css" href="<c:url value="/resources/css/sb-admin.css"/>">
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" type="text/css" media="screen" href="<c:url value="/resources/custom/css/style.css" />"/>
-
     <!-- #FAVICONS -->
     <link rel="shortcut icon" type="image/ico" href="<c:url value="/resources/custom/img/favicon.ico" />"/>
     <link rel="icon" href="<c:url value="/resources/custom/img/favicon.ico" />" type="image/x-icon">
 
-    <!-- #GOOGLE FONT -->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,300,400,700">
-
-    <!-- #APP SCREEN / ICONS -->
-    <!-- Specifying a Webpage Icon for Web Clip
-         Ref: https://developer.apple.com/library/ios/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html -->
-    <link rel="apple-touch-icon" href="<c:url value="/resources/img/splash/sptouch-icon-iphone.png"/>">
-    <link rel="apple-touch-icon" sizes="76x76" href="<c:url value="/resources/img/splash/touch-icon-ipad.png"/>">
-    <link rel="apple-touch-icon" sizes="120x120" href="<c:url value="/resources/img/splash/touch-icon-iphone-retina.png"/>">
-    <link rel="apple-touch-icon" sizes="152x152" href="<c:url value="/resources/img/splash/touch-icon-ipad-retina.png"/>">
-
-    <!-- iOS web-app metas : hides Safari UI Components and Changes Status Bar Appearance -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
-    <!-- Startup image for web apps -->
-    <link rel="apple-touch-startup-image" href="<c:url value="/resources/img/splash/ipad-landscape.png"/>"
-          media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)">
-    <link rel="apple-touch-startup-image" href="<c:url value="/resources/img/splash/ipad-portrait.png"/>"
-          media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)">
-    <link rel="apple-touch-startup-image" href="<c:url value="/resources/img/splash/iphone.png"/>"
-          media="screen and (max-device-width: 320px)">
-
 </head>
 
-<body class="animated fadeInDown">
-<header id="header">
-    <div id="logo-group" style="display: block; vertical-align: middle; float: none;">
-        <span id="logo" style="text-align: center; width: 100%; font-weight: bold; font-size: 17px;">VTT DEMO</span>
-    </div>
-</header>
 
-<div id="main" role="main">
-    <!-- MAIN CONTENT -->
-    <div id="content" class="container">
-        <div class="row">
-            <div class="well no-padding login">
-                <form id="login-form" class="smart-form client-form" method="post">
-                    <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
-                    <header>
-                        VTT DEMO
-                    </header>
+<body class="bg-dark">
 
-                    <fieldset>
-                        <section>
-                            <label class="label"><spring:message code="ID" text="ID"/></label>
-                            <label class="input"> <i class="icon-append fa fa-user"></i>
-                                <input type="text" name="username" value="konan">
-                                <b class="tooltip tooltip-top-right"><i class="fa fa-user txt-color-teal"></i>
-                                    <spring:message code="ID" text="ID"/></b>
-                            </label>
-                        </section>
+<div class="container">
+    <div class="card card-login mx-auto mt-5">
+        <div class="card-header">Login</div>
+        <div class="card-body">
+            <form id="login-form" class="smart-form client-form" method="post">
+                <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">ID</label>
+                    <input class="form-control" id="exampleInputEmail1" name="username" value="konan" type="text" aria-describedby="emailHelp" placeholder="Enter ID">
 
-                        <section>
-                            <label class="label"><spring:message code="password" text="패스워드"/></label>
-                            <label class="input"> <i class="icon-append fa fa-lock"></i>
-                                <input type="password" name="password" value="konan1">
-                                <b class="tooltip tooltip-top-right"><i class="fa fa-lock txt-color-teal"></i>
-                                    <spring:message code="password" text="패스워드"/></b>
-                            </label>
-                        </section>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input class="form-control" id="exampleInputPassword1" type="password" placeholder="Password" name="password" value="konan1">
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="remember" checked=""> Remember Password</label>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-block" >
+                    <spring:message code="login" text="로그인"/>
+                </button>
+            </form>
+            <div class="text-center">
 
-                        <section>
-                            <label class="checkbox">
-                                <input type="checkbox" name="remember" checked="">
-                                <i></i><spring:message code="login.save.id" text="아이디 저장"/></label>
-                        </section>
+                <div class="error" id="err_common" style="display:none;color:red;">
+                    <p>
+                        <spring:message code="login.check" text="ID 또는 비밀번호를 다시 확인하세요."></spring:message><br>
+                        <spring:message code="login.wrong" text="등록되지 않은 ID이거나, 아이디 또는 비밀번호를 잘못 입력하셨습니다."/>
+                    </p>
+                </div>
 
-                        <section>
-                            <div class="error" id="err_common" style="display:none;color:red;">
-                                <p>
-                                    <spring:message code="login.check" text="ID 또는 비밀번호를 다시 확인하세요."></spring:message><br>
-                                    <spring:message code="login.wrong" text="등록되지 않은 ID이거나, 아이디 또는 비밀번호를 잘못 입력하셨습니다."/></p>
-                            </div>
+                <div class="error" id="logout_common" style="display:none;color:red;">
+                    <p><spring:message code="logout.completed" text="로그아웃 되었습니다."/></p>
+                </div>
 
-                            <div class="error" id="logout_common" style="display:none;color:red;">
-                                <p><spring:message code="logout.completed" text="로그아웃 되었습니다."/></p>
-                            </div>
-                        </section>
-                    </fieldset>
-
-                    <footer>
-                        <button class="btn btn-primary" style="text-align: center; float: none; font-family: 'Custom1 Gothic'; min-width: 140px;">
-                            <spring:message code="login" text="로그인"/>
-                        </button>
-                    </footer>
-                </form>
             </div>
         </div>
     </div>
 </div>
 
-<!--================================================== -->
-
-<!-- PACE LOADER - turn this on if you want ajax loading to show (caution: uses lots of memory on iDevices)-->
-<script src="<c:url value="/resources/js/plugin/pace/pace.min.js" />"></script>
-
-<!-- Link to Google CDN's jQuery + jQueryUI; fall back to local -->
-<script src="<c:url value="/resources/js/libs/jquery-1.11.2.js" />"></script>
-<script src="<c:url value="/resources/js/libs/jquery-ui-1.10.3.min.js" />"></script>
-
-<!-- IMPORTANT: APP CONFIG -->
-<script src="<c:url value="/resources/js/app.config.js" />"></script>
-
-<!-- JS TOUCH : include this plugin for mobile drag / drop touch events
-<script src="js/plugin/jquery-touch/jquery.ui.touch-punch.min.js"></script> -->
-
-<!-- BOOTSTRAP JS -->
-<script src="<c:url value="/resources/js/bootstrap/bootstrap.min.js"/>"></script>
-
-<!-- JQUERY VALIDATE -->
-<script src="<c:url value="/resources/js/plugin/jquery-validate/jquery.validate.min.js"/>"></script>
-
-<!-- JQUERY MASKED INPUT -->
-<script src="<c:url value="/resources/js/plugin/masked-input/jquery.maskedinput.min.js"/>"></script>
-
-<!--[if IE 8]>
-
-<h1>Your browser is out of date, please update your browser by going to www.microsoft.com/download</h1>
-
-<![endif]-->
-
-<!-- MAIN APP JS FILE -->
-<script src="<c:url value="/resources/js/app.min.js" />"></script>
+<!-- Bootstrap core JavaScript-->
+<script src="<c:url value="/webjars/jquery/2.2.4/jquery.min.js"/>"></script>
+<script src="<c:url value="/webjars/jquery-ui/1.12.1/jquery-ui.min.js"/>"></script>
+<script src="<c:url value="/webjars/bootstrap/3.3.6/js/bootstrap.min.js"/>"></script>
+<script src="<c:url value="/webjars/bootbox/4.4.0/bootbox.js"/>"></script>
+<script src="<c:url value="/webjars/jquery-validation/1.17.0/jquery.validate.min.js"/>"></script>
 
 <script type="text/javascript">
-    runAllForms();
 
     $(function () {
 
@@ -234,6 +148,7 @@
             }, 2000)
         }
     });
+
 </script>
 </body>
 </html>

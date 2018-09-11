@@ -1,6 +1,7 @@
 package com.konantech.spring.service;
 
 import com.konantech.spring.domain.user.SecurityUser;
+import com.konantech.spring.domain.user.User;
 import com.konantech.spring.mapper.AuthMapper;
 import com.konantech.spring.security.SHAPasswordEncoder;
 import org.apache.commons.collections.MapUtils;
@@ -18,10 +19,6 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
-
-/**
- * Created by Violet on 2017-01-17.
- */
 
 @Service
 @Transactional(propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
@@ -66,5 +63,13 @@ public class AuthService implements UserDetailsService {
 
     public List<Map<String, Object>> getUserList() {
         return authMapper.getUserList();
+    }
+
+    public List<Map<String,Object>> getDuplUserChk(User user) throws Exception {
+        return authMapper.getDuplUserChk(user);
+    }
+
+    public int getPutUser(Map map) throws  Exception {
+        return authMapper.getPutUser(map);
     }
 }

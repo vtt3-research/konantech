@@ -15,9 +15,9 @@ public class GlobalExceptionController {
         return new ObjectResponse<>(ex, HttpStatus.BAD_REQUEST);
     }
 
-    @ExceptionHandler(value = KonantechException.class)
+    @ExceptionHandler(value = ApiException.class)
     @ResponseBody
-    public ObjectResponse<KonantechException> handleKonanException(KonantechException ex) {
+    public ObjectResponse<ApiException> handleKonanException(ApiException ex) {
         return new ObjectResponse<>(ex, HttpStatus.INTERNAL_SERVER_ERROR);
     }
 

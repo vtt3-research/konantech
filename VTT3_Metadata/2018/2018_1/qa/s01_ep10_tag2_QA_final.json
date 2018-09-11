@@ -1,0 +1,607 @@
+{ 
+	"file_name": "s01_ep10_tag2_QA_final",
+	"registed_name": "s01_ep10_tag2_QA_final", 
+	"qa_results": 
+	[ 
+		{ 
+		"visual_period_num": "1, 2, 3, 4, 5-19", 
+		"period_num": "1", 
+		"start_time": "00:00:06;02", 
+		"end_time": "00:01:00;23",
+		"description_info": 
+		[ 
+			{ "description": "At home, Ross peeps in and comes with a monkey. The monkey jumps on his shoulder. All is surprised with smiles on face except Monica. Monica tries to stop Ross or avoid the monkey by walking away from the monkey. Phoebe, Rachel, Monica, and Joey are around the kitchen table. Joey is sitting at the table. The three women stand by the table. Chandler appears behind Monica and comments on the moneky on Ross's shoulder. Monica is concerned with the monkey living with Ross. "}, 
+			{ "description": "Phoebe, Rachel, Monica, and Joey are around the kitchen table."}, 
+			{ "description": "Monica is concerned with the monkey and walks away from it."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What does Ross bring to the house?", 
+				"answer": "A monkey.", 
+				"wrong_answer1": "A cat.", 
+				"wrong_answer2": "A dog.", 
+				"wrong_answer3": "An iguana.", 
+				"wrong_answer4": "A gold fish." } 
+			} ,
+			{ "qa": { 
+				"question": "Does Monica like the monkey?", 
+				"answer": "No, Monica doesn't like the monkey.", 
+				"wrong_answer1": "Yes, Monica likes monkeys.", 
+				"wrong_answer2": "Yes, Monica loves animals.", 
+				"wrong_answer3": "Yes, Monica already raises a monkey in her house.", 
+				"wrong_answer4": "Yes, Monica reads a book about how to live with a monkey." } 
+				} ,
+			{ "qa": { 
+				"question": "Who is sitting at the kitchen table?", 
+				"answer": "Joey.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Phoebe.", 
+				"wrong_answer3": "Rachel.", 
+				"wrong_answer4": "Ross." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "20-40", 
+		"period_num": "2", 
+		"start_time": "00:01:50;12", 
+		"end_time": "00:03:28;10",
+		"description_info": 
+		[ 
+			{ "description": "Phoebe is in the café holding a guitar and preparing to sing on the armrest of sofa. On the sofa, Ross and Monica sit together. Chandler is sitting alone on the sofa. Joey comes into the café. He swings the chair and puts it the back at the front. He sits on the chair with holding the back of it. Rachel comes around to talk. Chandler stands up and goes to Rachel to talk. For New year's, Chandler proposes a dinner with friends only. Rachel goes to the stage and announces Phoebe's performance to the customers in the cafe. She claps her hands and leaves. Phoebe excitedly goes to the stage."}, 
+			{ "description": "Monica and Ross are sitting together on the sofa. Next to them, Phoebe is sitting on the armrest of it."}, 
+			{ "description": "Joey comes in with sad look on his face and goes straight to the chair."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who comes in suddenly?", 
+				"answer": "Joey.", 
+				"wrong_answer1": "Phoebe.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Ross.", 
+				"wrong_answer4": "Monica." } 
+			} ,
+			{ "qa": { 
+				"question": "What instrument does Phoebe play?", 
+				"answer": "A guitar.", 
+				"wrong_answer1": "A piano.", 
+				"wrong_answer2": "A violin.", 
+				"wrong_answer3": "A flute.", 
+				"wrong_answer4": "A cello." } 
+				} ,
+			{ "qa": { 
+				"question": "How does Phoebe feel about singing on the stage?", 
+				"answer": "Phoebe is excited.", 
+				"wrong_answer1": "Phoebe is worried.", 
+				"wrong_answer2": "Phoebe is sad.", 
+				"wrong_answer3": "Phoebe is angry.", 
+				"wrong_answer4": "Phoebe is nervous." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "41-55", 
+		"period_num": "3", 
+		"start_time": "00:03:28;10", 
+		"end_time": "00:04:45;20",
+		"description_info": 
+		[ 
+			{ "description": "Phoebe sits on a stool and starts her performance with a guitar and bell. Phoebe explains the song. As time passes, people look depressed with her performance.  Rachel sitting with her head pillowed on her arms. Joey rests his chin on his hand with a puzzled frown on his face. Chandler is sitting on the armrest, looking down with blank look on his face. Slumping down on the sofa, Monica and Ross look blank. Over Phoebe's singing, voices of two scientists resonate. Phoebe abruptly stops and looks at them to ask why they are so loud when she plays. They stop talking and look up to see Phoebe. "}, 
+			{ "description": "Phoebe sings and makes the audience feel depressed."}, 
+			{ "description": "Two men sitting at the tabl are talking loudly. Phoebe points at them, disappointed that they are not listening to her song."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What instruments does Phoebe use?", 
+				"answer": "A guitar and bell.", 
+				"wrong_answer1": "A piano.", 
+				"wrong_answer2": "A violin and viola.", 
+				"wrong_answer3": "A guitar and piano.", 
+				"wrong_answer4": "A flute and piano." } 
+			} ,
+			{ "qa": { 
+				"question": "How does the audience feel about Phoebe's singing?", 
+				"answer": "The audience feels depressed.", 
+				"wrong_answer1": "The audience feels happy.", 
+				"wrong_answer2": "The audience feels excited.", 
+				"wrong_answer3": "The audience feels angry.", 
+				"wrong_answer4": "The audience feels nervous." } 
+				} ,
+			{ "qa": { 
+				"question": "Who speaks over Phoebe;'s performance?", 
+				"answer": "Two men, scientists.", 
+				"wrong_answer1": "Joey.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Chandler.", 
+				"wrong_answer4": "Monica." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "56-70", 
+		"period_num": "4", 
+		"start_time": "00:04:50;17", 
+		"end_time": "00:06:24;09",
+		"description_info": 
+		[ 
+			{ "description": "David, one of the scientists, stands up and speaks more loudly to explain what they are talking about. He explains that he is interested in her because he thinks Phoebe is beautiful. Phoebe carefully listens to him on her seat. David sits down with Max at the table. Excited, Phoebe suddenly announces the finish of her performance to the audience and walks to Daivd. They start talking. At home, the monkey walks across Rachel and Ross who are sitting and preparing ornaments together on the table in the livingroom. Behind them, Phoebe, Chandler, and Monica are decorating a Christmas tree. Rachel passes the ornaments to Monica. Ross leaves. All talks with Phoebe about her new boyfriend, David. Phoebe talks to the friends about him and sits down on the sofa with a happy face. "}, 
+			{ "description": "Phoebe listens to David's speaking and walks to him to talk with him. "}, 
+			{ "description": "Phoebe, Chandler, and Monica are standing around a  Christmas tree and decorating it."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why does David talk over Phoebe's performance?", 
+				"answer": "Because David wants to talk about Phoebe's beauty to Max, his friend.", 
+				"wrong_answer1": "Because David doesn't want to hear Phoebe's performance.", 
+				"wrong_answer2": "Because Phoebe's singing is too loud. ", 
+				"wrong_answer3": "Because David has important business to talk with Max.", 
+				"wrong_answer4": "Because David wants to cover up Phoebe's singing with his voice." } 
+			} ,
+			{ "qa": { 
+				"question": "What does Phoebe do after listening to David's explanation?", 
+				"answer": "Phoebe walks to David to talk.", 
+				"wrong_answer1": "Phoebe shouts at David.", 
+				"wrong_answer2": "Phoebe asks David to pay money for ruining her performance.", 
+				"wrong_answer3": "Phoebe calls a police.", 
+				"wrong_answer4": "Phoebe ignores David and keeps singing." } 
+				} ,
+			{ "qa": { 
+				"question": "Who is Phoebe talking about to her friends?", 
+				"answer": "David, her new boyfriend.", 
+				"wrong_answer1": "Joey.", 
+				"wrong_answer2": "Chandler.", 
+				"wrong_answer3": "Max.", 
+				"wrong_answer4": "Ross." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "71-91", 
+		"period_num": "5", 
+		"start_time": "00:06:24;09", 
+		"end_time": "00:07:37;22",
+		"description_info": 
+		[ 
+			{ "description": "Phoebe talks about David. Chandler, Rachel, and Monica listen to her. Rachel and Monica keep on decorating the Christmas tree. Ross sits on the edge of sofa with a bottle of water. Chandler reminds Phoebe of the friend's night on New Year's Day. Phoebe pretends that she will spend with the friends and quickly changes her attitude that she wants to be with her boyfriend. Suddenly, Chandler agrees with her that he invites his ex-girlfriend, Janice. The friends can't understand him that he brings someone that he dumped. Joey walks in and removes his coat to reveal an elf costume. Chandler appeals his headache to all for the costume. "}, 
+			{ "description": "The friends listen to Phoebe sitting on the sofa."}, 
+			{ "description": "Joey walks in and takes off his coat. He is standing with an elf costume in front of his friends."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Monica doing?", 
+				"answer": "Monica is decorating a Christmas tree.", 
+				"wrong_answer1": "Monica is cooking.", 
+				"wrong_answer2": "Monica is cleaing the house.", 
+				"wrong_answer3": "Monica is walking on the street.", 
+				"wrong_answer4": "Monica is picking up clothes." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Chandler's plan for New Year's Day?", 
+				"answer": "Chandler plans to bring his ex-girlfriend, Janice.", 
+				"wrong_answer1": "Chandler plans to bring Rachel.", 
+				"wrong_answer2": "Chandler plans to watch a movie.", 
+				"wrong_answer3": "Chandler plans to visit his parents.", 
+				"wrong_answer4": "Chandler plans to go to a zoo." } 
+				} ,
+			{ "qa": { 
+				"question": "What is Joey wearing?", 
+				"answer": "An elf costume.", 
+				"wrong_answer1": "A swimsuit.", 
+				"wrong_answer2": "Tranditional clothes.", 
+				"wrong_answer3": "Japanese traditional clothes.", 
+				"wrong_answer4": "A business suit." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "92-100", 
+		"period_num": "6", 
+		"start_time": "00:07:39;15", 
+		"end_time": "00:08:29;11",
+		"description_info": 
+		[ 
+			{ "description": "Chandler runs out with hands on his head. The monkey knocks away utensils in the kitchen. Annoyed, Monica takes anger out on Ross. Ross holding a bottle of water stands in front of Monica in the kitchen and calms her down. Chandler comes from the fridge with water and  comments on the situation. Three of them, Chandler, Ross, and Monica, are talking. "}, 
+			{ "description": "Ross is standing in the. Kitchen and holding a bottle of water in his one hand."}, 
+			{ "description": "Chandler is coming from the fridge with water and joins the conversation between Ross and Monica."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How does Monica feel about the monkey?", 
+				"answer": "Monica is angry.", 
+				"wrong_answer1": "Monica is sad.", 
+				"wrong_answer2": "Monica is happy.", 
+				"wrong_answer3": "Monica is nervous.", 
+				"wrong_answer4": "Monica is worried." } 
+			} ,
+			{ "qa": { 
+				"question": "What makes Monica angry?", 
+				"answer": "The moneky knocks away kitchen utensils.", 
+				"wrong_answer1": "The monkey hits Monica.", 
+				"wrong_answer2": "The monkey is being loud.", 
+				"wrong_answer3": "The monkey doesn't eat foof.", 
+				"wrong_answer4": "The monkey goes to the toilet." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Monica to when she gets angry for the moneky.", 
+				"answer": "Monica goes to Ross and takes anger out on him.", 
+				"wrong_answer1": "Monica kicks the monkey out.", 
+				"wrong_answer2": "Monica bans the monkey from coming into the house.", 
+				"wrong_answer3": "Monica doesn't give the monkey food.", 
+				"wrong_answer4": "Monica takes away monkey's clothes." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "101-117", 
+		"period_num": "7", 
+		"start_time": "00:08:29;11", 
+		"end_time": "00:10:22;06",
+		"description_info": 
+		[ 
+			{ "description": "David and Phoebe are in David's lab. David is stadnig by the whiteboard and writes with a marker and Phoebe listens to him with nodding. He is passionate about explaining his research to Phoebe. Phoebe is not interested in his research, so she asks him to have more intimate relationships. David logically talks, but Phoebe teaches him about the relationship. As taught by Phoebe, David moves some expensive devices and sweeps the desk and grabs Phoebe. Phoebe hops onto the table and they kiss. "}, 
+			{ "description": "David and Phoebe are in David's lab. Phoebe listens to David with nodding."}, 
+			{ "description": "David stand in front of Phoebe to explain what he does and what he finds out."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where are Phoebe and David, Phoebe's boyfriend?", 
+				"answer": "They are in David's lab.", 
+				"wrong_answer1": "They are at home.", 
+				"wrong_answer2": "They are in a theater.", 
+				"wrong_answer3": "They are in a car.", 
+				"wrong_answer4": "They are walking on the street." } 
+			} ,
+			{ "qa": { 
+				"question": "What is David doing?", 
+				"answer": "David is explaining something to Phoebe.", 
+				"wrong_answer1": "David is watching TV.", 
+				"wrong_answer2": "David is talking on the phone.", 
+				"wrong_answer3": "David is cleaing the lab.", 
+				"wrong_answer4": "David is arguing with Phoebe." } 
+				} ,
+			{ "qa": { 
+				"question": "What does David do after listening to Phoebe?", 
+				"answer": "He sweeps the desk and grabs Phoebe.", 
+				"wrong_answer1": "He mops the floor.", 
+				"wrong_answer2": "He shouts at Phoebe.", 
+				"wrong_answer3": "He kisses Phoebe.", 
+				"wrong_answer4": "He calls Phoebe." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "118-146", 
+		"period_num": "8", 
+		"start_time": "00:10:22;06", 
+		"end_time": "00:12:00;04",
+		"description_info": 
+		[ 
+			{ "description": "In the café, Phoebe is talking with Chandler and Joey. Both of them are sitting next to Phoebe. Soon, Monica and Ross are walking in with taking off their coat. They are talking together. Rachel comes around the sofa to give coffee to Joey. Joey and Rachel sit down together at the table. Chandler moves and sits down on the sofa next to Phoebe. "}, 
+			{ "description": "Chandler, Joey, and Phoebe are talking together in the café."}, 
+			{ "description": "Ross and Monica come in with taking off their coats and sit down on the sofa."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who comes into the café?", 
+				"answer": "Ross and Monica.", 
+				"wrong_answer1": "Monica and Joey.", 
+				"wrong_answer2": "Joey and Rachel.", 
+				"wrong_answer3": "Rachel and Ross.", 
+				"wrong_answer4": "Rachel and Phoebe." } 
+			} ,
+			{ "qa": { 
+				"question": "What are Ross and Monica doing while sitting on the sofa?", 
+				"answer": "Ross and Monica are taking off their coat.", 
+				"wrong_answer1": "Ross and Monica are taking water into the café.", 
+				"wrong_answer2": "Ross and Monica are drinking water.", 
+				"wrong_answer3": "Ross and Monica are singing.", 
+				"wrong_answer4": "Ross and Monica are calling on the phone." } 
+				} ,
+			{ "qa": { 
+				"question": "Where is Chandler moving to?", 
+				"answer": "Chandler is moving to the sofa.", 
+				"wrong_answer1": "Chandler is going to the toilet.", 
+				"wrong_answer2": "Chandler is going to home.", 
+				"wrong_answer3": "Chandler is moving to Ross.", 
+				"wrong_answer4": "Chandler is moving to the bar." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "147-168", 
+		"period_num": "9", 
+		"start_time": "00:12:00;04", 
+		"end_time": "00:13:56;22",
+		"description_info": 
+		[ 
+			{ "description": "Max comes in with an excited look on his face. Phoebe and Max talk and Phoebe listens to his talking and realizes that David might have to leave for his work. Max speaks proudly that they can go to Minsk because of their reaerch. This means that David has to leave Phoebe and they have to break up. Rachel, Joey, and Monica look at Phoebe with worried looks. In the lab, David and Max are together. Max is working on the desk with his laptop and a bunch of papers. David working on the whiteboard looking at Phoebe who comes in just now. Phoebe goes to David and they talk. Max stand by the desk and talk by himself as if they can hear him and leaves the lab in order to criticize David's decision. David and Phoebe are talking together. Their talking goes well and David sweeps the desk. Just as before, Phoebe hops onto the desk and they kiss."}, 
+			{ "description": "David and Max are working on their project, standing apart."}, 
+			{ "description": "Phoebe carefully comes in to talks with David."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is in the lab when Phoebe comes in?", 
+				"answer": "David and Max.", 
+				"wrong_answer1": "Phoebe and Man", 
+				"wrong_answer2": "Rachel and Monica.", 
+				"wrong_answer3": "Phoebe and Rachel.", 
+				"wrong_answer4": "Monica and Ross." } 
+			} ,
+			{ "qa": { 
+				"question": "How is Max feeling?", 
+				"answer": "Max feels unfair and aunnnoyed.       ", 
+				"wrong_answer1": "Max is feeling angry.", 
+				"wrong_answer2": "Max is sad.", 
+				"wrong_answer3": "Max is nervous.", 
+				"wrong_answer4": "Max is worried." } 
+				} ,
+			{ "qa": { 
+				"question": "What is David's decision?", 
+				"answer": "David decides to stay in New York with Phoebe.", 
+				"wrong_answer1": "David decides to leave New York.", 
+				"wrong_answer2": "David decides to go to Russia.", 
+				"wrong_answer3": "David decides to go to home.", 
+				"wrong_answer4": "David decides to go to China." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "169-189", 
+		"period_num": "10", 
+		"start_time": "00:13:56;22", 
+		"end_time": "00:15:23;07",
+		"description_info": 
+		[ 
+			{ "description": "At home, people are enjoying party on New Year's Day. Monica prepares drink for Janice and Chandler takes Janice away. The doorbell rings and Monica opens the door. Joey comes to geet his visitor, Sandy, but her children, a boy and girl, appear behind her. Joey's  emotion is shown on his face, from expectation to disappointment. Joey and Monca look at each other and shrug. Ross enters with his monkey, Marcel, on his shoulder. Monica doesn't allow Ross to come in with the monkey. Monica and Ross are talking in the doorway. Monica is angry for the monkey, but Ross persuades her. Persuaded by Ross, Monica turns back and lets him in. "}, 
+			{ "description": "Janice and Chandler are together. Janice is enjoying the party and the time with Chandler. "}, 
+			{ "description": "Monica opens the door when she hears the bell rings. Joey come around to see his visitor."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is the party for?", 
+				"answer": "The party is for New Year's Day.", 
+				"wrong_answer1": "The party is for Ross's birthday.", 
+				"wrong_answer2": "The party is for Thanksgiving.", 
+				"wrong_answer3": "The party is for Monica's birthday.", 
+				"wrong_answer4": "The party is for wedding." } 
+			} ,
+			{ "qa": { 
+				"question": "Who does Chandler invite?", 
+				"answer": "Chandler invites Janice, his ex-girlfriend.", 
+				"wrong_answer1": "Chandler invites Monica.", 
+				"wrong_answer2": "Chandler invites his parents.", 
+				"wrong_answer3": "Chandler invites Ross.", 
+				"wrong_answer4": "Chandler invites his highschool friends." } 
+				} ,
+			{ "qa": { 
+				"question": "Can children enter the party?", 
+				"answer": "Yes, Sandy's children are allowed to come in.", 
+				"wrong_answer1": "No, children are not allowed to come in.", 
+				"wrong_answer2": "No, the party is only for adults.", 
+				"wrong_answer3": "No, animals and children are not allowed to the party.", 
+				"wrong_answer4": "No, children are out of control so they can't come in." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "190-212", 
+		"period_num": "11", 
+		"start_time": "00:15:23;07", 
+		"end_time": "00:17:01;23",
+		"description_info": 
+		[ 
+			{ "description": "The door opens and Rachel is standing. Her coat is muddy and torn, her hair is dishevelled and her face is bruised. Everyone turns to look. Surprised, Monica hurriedly goes to Rachel and helps her sit on a chair at the kitchen table. Rachel explains what happened. Then, Rachel realizes that there is a party at home and a lot of people are around. She checks the situation with Monica sitting next to her with silk dress on. As time passes, Monica and Rachel, fixed up somewhat, emerge from a bedroom. Joey and Sandy talking in the livingroom almost kiss and then Joey stops for her kids staing at them.   "}, 
+			{ "description": "Rachel is standing in the doorway with torn and muddy clothes on. "}, 
+			{ "description": "At the kitchen table, Monica and Rachel are sitting together."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "When the door opens, who appears?", 
+				"answer": "Rachel appears.", 
+				"wrong_answer1": "Ross appears.", 
+				"wrong_answer2": "Monica appears.", 
+				"wrong_answer3": "Chandler appears.", 
+				"wrong_answer4": "Phoebe appears." } 
+			} ,
+			{ "qa": { 
+				"question": "Why is everyone surprised when Rachel appears?", 
+				"answer": "Because Rachel's face is bruised and her clothes are torn.", 
+				"wrong_answer1": "Because Rachel is beautiful.", 
+				"wrong_answer2": "Because Rachel has bandages on her face.", 
+				"wrong_answer3": "Because Rachel brings a big TV screen with her.", 
+				"wrong_answer4": "Because Rachel shouts at everyone." } 
+				} ,
+			{ "qa": { 
+				"question": "What stops Joey from kissing Sandy?", 
+				"answer": "Sandy's children.", 
+				"wrong_answer1": "Banging sound from the neighbor.", 
+				"wrong_answer2": "Rachel stops Joey.", 
+				"wrong_answer3": "The door bell rings.", 
+				"wrong_answer4": "Joey's phone rings." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "213-230", 
+		"period_num": "12", 
+		"start_time": "00:17:01;23", 
+		"end_time": "00:18:35;20",
+		"description_info": 
+		[ 
+			{ "description": "By the window, Ross and Chandler are sitting and talking together. Ross is leaning against the table with his arm on the table. Janice startles them. Chandleer talks back to her with awkward face. Janice asks Ross to take pictures of them, so Ross stands up with a camera. Ross starts snapping. Janice poses for pictures with putting her hands on Chandler's shoulders. Someone knocks on the door. Monica looks through the spyhole. She introduces Fun Bobby to everyone. Everyone cheers. Monica opens the door, but Bobby looks depressed. He explains why, but Joey cheerfully starts talking. To stop Joey, Monica gestures wildly behind Fun Bobby's back. As time passes, all is around the livingroom and listens to Bobby. Janice and Chandler are posing for pictures around the corner and Ross is taking pictures. Chandler tells Janice the truth that he invites her for no special reason. Janice pokes him with fingers and storms out. Chandler snatches the camera from Ross. "}, 
+			{ "description": "Ross and Chandler are sitting by the window and talking."}, 
+			{ "description": "Monica hears knocking on th door and checks that it is Fun Bobby. She opens the door for him. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What does Janice ask to Ross?", 
+				"answer": "Janice asks Ross to take pictures.", 
+				"wrong_answer1": "Janice asks Ross to be kind to her.", 
+				"wrong_answer2": "Janice asks Ross to prepare some coffee for her.", 
+				"wrong_answer3": "Janice asks Ross to call her later.", 
+				"wrong_answer4": "Janice asks Ross to persuade Chandler." } 
+			} ,
+			{ "qa": { 
+				"question": "Does Chandler love Janice?", 
+				"answer": "No, Chandler doesn't love Janice.", 
+				"wrong_answer1": "Yes, Chandler is thinking of marrying her.", 
+				"wrong_answer2": "Yes, Chandler loves Janice.", 
+				"wrong_answer3": "Yes, Chandler cannot forget Janice.", 
+				"wrong_answer4": "Yes, Chandler falls in love with Janice again." } 
+				} ,
+			{ "qa": { 
+				"question": "Who knocks on the door?", 
+				"answer": "Fun Bobby.", 
+				"wrong_answer1": "Joey.", 
+				"wrong_answer2": "Chandler.", 
+				"wrong_answer3": "Ross.", 
+				"wrong_answer4": "Rachel." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "231-251", 
+		"period_num": "13", 
+		"start_time": "00:18:35;20", 
+		"end_time": "00:20:30;13",
+		"description_info": 
+		[ 
+			{ "description": "In one corner of the livingroom, David and Phoebe are together, spending time. David is feeding Phoebe. Max comes around and speaks what he will do. David stops feeding with his hand stopped in the air and listens to Max with his mouth widely opened. Looking at him, Phoebe leads David into a bedroom. In the room, there are only two people, Phoebe and David. Phoebe tells him to leave with Max and tells him how to say goodbye between lovers like acting monolog. David grabs her. "}, 
+			{ "description": "Phoebe and David are spending time together. Max comes and talks to David about his plan."}, 
+			{ "description": "In a bedroom, Phoebe and David are together, saying goodbye to each other."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What will Max do?", 
+				"answer": "Max will go to Minsk alone.", 
+				"wrong_answer1": "Max will stay with David.", 
+				"wrong_answer2": "Max will take David and Phoebe.", 
+				"wrong_answer3": "Max will contact Minsk for help.", 
+				"wrong_answer4": "Max will go to Minsk and come back later." } 
+			} ,
+			{ "qa": { 
+				"question": "What does Phoebe tell to David?", 
+				"answer": "Phoebe tells David to go to Minsk with Max.", 
+				"wrong_answer1": "Phoebe tells David to stay with her.", 
+				"wrong_answer2": "Phoebe tells David to come back in a year.", 
+				"wrong_answer3": "Phoebe tells David to call her often from Minsk.", 
+				"wrong_answer4": "Phoebe tells David to get married." } 
+				} ,
+			{ "qa": { 
+				"question": "Where are Phoebe and David saying goodbye?", 
+				"answer": "In a bedroom.", 
+				"wrong_answer1": "In a toilet.", 
+				"wrong_answer2": "In a livingroom.", 
+				"wrong_answer3": "In a bathroom.", 
+				"wrong_answer4": "In a kitchen." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "252-261", 
+		"period_num": "14", 
+		"start_time": "00:20:37;14", 
+		"end_time": "00:21:25;21",
+		"description_info": 
+		[ 
+			{ "description": "TV shows scenes on New Year's Day. A crowd of people gather in Times Square. Joey puts a blanket over children sleeping on the sofa. Chandler is talking to a girl sitting on the floor and holding a cup. She leaves when Chandler asks for a kiss. Joey calls Chandler and asks where Sandy is. All the friends gather in the kitchen sharing what happens on New Year's Day gloomily and comforting each other. All the visitors gather in the livingroom."}, 
+			{ "description": "Chandler is hitting on a girl sitting next to him, but she is not interested in him."}, 
+			{ "description": "Visitors for the party gather in the livingroom "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Chandler looking for?", 
+				"answer": "Chandler is looking for a kiss at midnight.", 
+				"wrong_answer1": "Chandler is looking for a cup.", 
+				"wrong_answer2": "Chandler is looking for a book.", 
+				"wrong_answer3": "Chandler is looking for a computer.", 
+				"wrong_answer4": "Chandler is looking for a hug." } 
+			} ,
+			{ "qa": { 
+				"question": "Who is Joey looking for?", 
+				"answer": "Joey is looking for Sandy.", 
+				"wrong_answer1": "Joey is looking for Rachel.", 
+				"wrong_answer2": "Joey is looking for Monica.", 
+				"wrong_answer3": "Joey is looking for Ross.", 
+				"wrong_answer4": "Joey is looking for Sandy's children." } 
+				} ,
+			{ "qa": { 
+				"question": "Is Phoebe happy on New Year's Day?", 
+				"answer": "No, Phoebe is not happy.", 
+				"wrong_answer1": "Yes, Phoebe is happy.", 
+				"wrong_answer2": "Yes, Phoebe is excited.", 
+				"wrong_answer3": "Yes, Phoebe is enjoying New Year's Day.", 
+				"wrong_answer4": "Yes, Phoebe is spending time with her boyfriend." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "262-272", 
+		"period_num": "15", 
+		"start_time": "00:21:33;11", 
+		"end_time": "00:22:38;08",
+		"description_info": 
+		[ 
+			{ "description": " Fun Bobby is crying on the sofa. Chandler suggests kisses because it is New Year's Day. Others refuse his suggestion. However, Chandler insists on kisses on New Year's Day by jumping up and down and stamping his feet, so Joey kisses him. Ross and Rachel are sitting together on the sofa. Ross talks to Rachel, looking at the monkey playing with a stranger not with him. Rachel pretends listening to Ross, but she actually speaks about herself with her head resting on her hand.  "}, 
+			{ "description": "Chandler keeps wanting kisses on New Year's Day, so Joey kisses him."}, 
+			{ "description": "Ross and Rachel are talking together on the sofa."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How is Fun Bobby feeling?", 
+				"answer": "Fun Bobby is sad.", 
+				"wrong_answer1": "Fun Bobby is angry.", 
+				"wrong_answer2": "Fun Bobby is happy.", 
+				"wrong_answer3": "Fun Bobby is excited. ", 
+				"wrong_answer4": "Fun Bobby is nervous." } 
+			} ,
+			{ "qa": { 
+				"question": "Who is sitting with Ross?", 
+				"answer": "Rachel.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Chandler.", 
+				"wrong_answer3": "Phoebe.", 
+				"wrong_answer4": "Joey." } 
+				} ,
+			{ "qa": { 
+				"question": "Why is Ross depressed?", 
+				"answer": "Because the monkey prefers a stranger to Ross.", 
+				"wrong_answer1": "Because Rachel doesn't love Ross.", 
+				"wrong_answer2": "Because Ross doesn't get paid.", 
+				"wrong_answer3": "Because Ross has to start working on Monday.", 
+				"wrong_answer4": "Because Ross misses his ex-wife." 
+				} 
+			} 
+		] 
+	}
+	]
+}

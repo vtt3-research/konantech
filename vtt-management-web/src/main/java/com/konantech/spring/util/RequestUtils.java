@@ -275,8 +275,8 @@ public class RequestUtils {
         return queryString;
     }
 
-    public static Map getParameterMap(HttpServletRequest request) {
-        Map map = new HashMap();
+    public static HashMap getParameterMap(HttpServletRequest request) {
+        HashMap map = new HashMap();
         Enumeration enums = request.getParameterNames();
         while (enums.hasMoreElements()) {
             String paramName = (String) enums.nextElement();

@@ -1,0 +1,607 @@
+{ 
+	"file_name": "s01_ep05_tag2_QA_final",
+	"registed_name": "s01_ep05_tag2_QA_final", 
+	"qa_results": 
+	[ 
+		{ 
+		"visual_period_num": "1, 2-19", 
+		"period_num": "1", 
+		"start_time": "00:00:02;13", 
+		"end_time": "00:00:56;23",
+		"description_info": 
+		[ 
+			{ "description": "All friends gathered in the café. Joey is sitting on the stool. Chandler, Phoebe, and Monica are sitting together on the sofa. Ross next to Monica is sitting alone with his legs crossed. Rachel stands behind the sofa and puts her hands on the edge of it. Monica speaks and everyone listens to her. Ross is against her remarks with gestures. Joey moves his seat closer from the stool to the chair holding the backrest. Chandler and Joey agree with Ross. Rachel stands between Monica and Ross and is against his saying.  Chandler comments on her and points at Joey. Joey gives his opinion. He almost argues to the point that the talking feels like an argument between men and women. Phoebe steps in and argues. Ross thinks, finds another  opinion and asks for agreement from the two guys."}, 
+			{ "description": "Rachel is standing behind the sofa, and all other friends are sitting around the table."}, 
+			{ "description": "Everyone is listening to Monica's speaking."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "", 
+				"answer": "Who is sitting on the stool?", 
+				"wrong_answer1": "Joey.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Ross." } 
+			} ,
+			{ "qa": { 
+				"question": "Where is Rachel standing?", 
+				"answer": "She is standing behind the sofa.", 
+				"wrong_answer1": "She is standing in the middle.", 
+				"wrong_answer2": "She is standing at home.", 
+				"wrong_answer3": "She is standing on the table.", 
+				"wrong_answer4": "No, she is not standing." } 
+				} ,
+			{ "qa": { 
+				"question": "How does the talking transform?", 
+				"answer": "The talking transforms into an argument.", 
+				"wrong_answer1": "The talking transforms into singing.", 
+				"wrong_answer2": "The talking transforms into a speech.", 
+				"wrong_answer3": "The talking transforms into a presentation.", 
+				"wrong_answer4": "The talking transforms into fighting." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "20-42", 
+		"period_num": "2", 
+		"start_time": "00:01:48;14", 
+		"end_time": "00:02:59;19",
+		"description_info": 
+		[ 
+			{ "description": "In the café, Chandler is making a fuss, banging the bar and singing. He moves from the bar to the chair and slumps down in it. Everyone makes comments about he feeling nervous and anxious about his breaking up with girlfriend. Joey holding a cup and Ross reading a magazine are sitting on the sofa. Inbetween them, Phoebe is sitting on the floor. Monica holding a diary is sitting alone on the sofa. Phoebe suggests help to Chandler and reaches her hand towards him. However, he refuses it. Rachel comes around and stands by the sofa. she is holding pen and paper and asking for orders. Ross orders in a difficult and confusing manner and stops ordering as he sees her annoyed face.  "}, 
+			{ "description": "Chandler is walking around feeling anxious. "}, 
+			{ "description": "Rachel comes around the sofa to take orders."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How does Chandler feel?", 
+				"answer": "He feels nervous. ", 
+				"wrong_answer1": "He feels happy.", 
+				"wrong_answer2": "He is angry.", 
+				"wrong_answer3": "He is sad.", 
+				"wrong_answer4": "He is upbeat." } 
+			} ,
+			{ "qa": { 
+				"question": "What makes Chandler feels bad?", 
+				"answer": "He breaks up with girlfriend.", 
+				"wrong_answer1": "He had a car accident.", 
+				"wrong_answer2": "He fought Ross.", 
+				"wrong_answer3": "Rachel doesn't take Chandler's order.", 
+				"wrong_answer4": "Phoebe ignores Chandler." } 
+				} ,
+			{ "qa": { 
+				"question": "Who suggests help to Chandler?", 
+				"answer": "Phoebe.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Ross.", 
+				"wrong_answer4": "Joey." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "43-62", 
+		"period_num": "3", 
+		"start_time": "00:02:59;20", 
+		"end_time": "00:04:23;23",
+		"description_info": 
+		[ 
+			{ "description": "Rachel looks annoyed, and Phoebe asks the reason. Rachel sits on the armrest of sofa and talks. Chandler looks at her and listens to her speaking. Rachel complains about her father, and Chandler makes fun of her attitude. A beautiful woman, Angela, with blond hair and red dress comes into the cafe.  She draws everyone's attention. Joey is eager to talk to her, but he is impatient and goes to the bar where she is sitting. Angela is sitting on the stool and talking to Joey. Joey is standing behind her to talk. "}, 
+			{ "description": "Angela with blond hair and red dress comes into the café and draws people's attention."}, 
+			{ "description": "Agela sits on the stool by the bar and Joey goes to her to talk."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Rachel talking about?", 
+				"answer": "Her father.", 
+				"wrong_answer1": "Her friends.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Her exam results." } 
+			} ,
+			{ "qa": { 
+				"question": "Who comes into the café?", 
+				"answer": "Angela.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Joey." } 
+				} ,
+			{ "qa": { 
+				"question": "Who is interested in Angela?", 
+				"answer": "Joey.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Rachel.", 
+				"wrong_answer4": "Chandler." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "63-82", 
+		"period_num": "4", 
+		"start_time": "00:04:24;01", 
+		"end_time": "00:06:08;10",
+		"description_info": 
+		[ 
+			{ "description": "In the middle of the cafe, Rachel is cleaning the table, and Ross approaches her to talk. They promise to do laundry together. With Angela, Joey is hitting on her, but Angela refuses him with his shortcomings. She stands up from the seat and tries to leave, but Joey hurriedly stops her with an offer. Joey offers her dinner together with double date. She agrees on that."}, 
+			{ "description": "Angela sits on the stool, and Joey stands right beside her to talk. "}, 
+			{ "description": "Angela leaves the seat, and Joey stops her. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is sitting on the stool?", 
+				"answer": "Angela.", 
+				"wrong_answer1": "Ross. ", 
+				"wrong_answer2": "Joey.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Rachel." } 
+			} ,
+			{ "qa": { 
+				"question": "What does Joey offer Angela?", 
+				"answer": "Double date dinner.", 
+				"wrong_answer1": "A car.", 
+				"wrong_answer2": "Expensive accessories.", 
+				"wrong_answer3": "A smartphone.", 
+				"wrong_answer4": "A job offer." } 
+				} ,
+			{ "qa": { 
+				"question": "How does Angela react to Jeoy's offer?", 
+				"answer": "She agrees on the offer.", 
+				"wrong_answer1": "She declines the offer.", 
+				"wrong_answer2": "She postpones her decision.", 
+				"wrong_answer3": "She is surprised.", 
+				"wrong_answer4": "She gets angry." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "83-99", 
+		"period_num": "5", 
+		"start_time": "00:06:09;16", 
+		"end_time": "00:07:32;04",
+		"description_info": 
+		[ 
+			{ "description": "Joey lies to Angela and persuades Monica to join the dinner to make it work. Monica is at the kitchen putting towels in the basket. She goes to the sofa table to pick up the towel and accidentally sees the neighbor through the window. Both of them goes to the windown and feels disgusted. Monica goes round the living room to collect all the towels, and Joey follows her to persuade. Joey disappointedly sits on the table in the living room, and Monica sits next to him. In Ross's room, Ross just finished his call and puts the phone back. He takes the laundry basket and tries to leave the room. Chandler stops Ross to remind him Rachel. Ross listens to Chandler with a dumb face and is persuaded by him. "}, 
+			{ "description": "Monica is collecting towels from the living room, and Joey is following her."}, 
+			{ "description": "Ross is sitting on the bed with a laundry basket in his room, and Chandler is standing in front of him."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Monica doing?", 
+				"answer": "Monica is collecting towels.", 
+				"wrong_answer1": "Monica is talking on the phone.", 
+				"wrong_answer2": "Monica is having a bath.", 
+				"wrong_answer3": "Monica is cleaning on the floor.", 
+				"wrong_answer4": "Monica is brushing her teeth." } 
+			} ,
+			{ "qa": { 
+				"question": "Where is Ross going?", 
+				"answer": "A laundrette.", 
+				"wrong_answer1": "A theater.", 
+				"wrong_answer2": "His parents' house.", 
+				"wrong_answer3": "Shopping mall.", 
+				"wrong_answer4": "A sports  stadium." } 
+				} ,
+			{ "qa": { 
+				"question": "Who is Ross going to meet in the laundrette?", 
+				"answer": "Rachel.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Phoebe.", 
+				"wrong_answer3": "Chandler.", 
+				"wrong_answer4": "Joey." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "100-123", 
+		"period_num": "6", 
+		"start_time": "00:07:32;05", 
+		"end_time": "00:09:02;07",
+		"description_info": 
+		[ 
+			{ "description": "Chandler and Joey are standing and talking in the room. Chandler persuades Ross with certainty about his softner. Ross leaves is on his bed and takes the basket with him. Rachel and Joey are sitting and drinking at the bar. Monica asks questions about the new guy and gets upset that Joey doesn't know about him. When the new guy, Bob, comes in with Angela, her anger subsides quickly. She stands up from the seat and goes to Angela and the man with Joey."}, 
+			{ "description": "Chandler and Ross are stainding in the room."}, 
+			{ "description": "Monica and Joey are sitting at the bar."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is together with Ross?", 
+				"answer": "Chandler.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Joey.", 
+				"wrong_answer4": "Phoebe." } 
+			} ,
+			{ "qa": { 
+				"question": "Where are Joey and Monica sitting?", 
+				"answer": "They are sitting at the bar.", 
+				"wrong_answer1": "They are sitting on the sofa.", 
+				"wrong_answer2": "They are sitting on the table.", 
+				"wrong_answer3": "They are sitting on TV.", 
+				"wrong_answer4": "They are sitting on the bed." } 
+				} ,
+			{ "qa": { 
+				"question": "Why is Monica upset?", 
+				"answer": "Because Joey doesn't know Bob.", 
+				"wrong_answer1": "Because Joey hates Monica.", 
+				"wrong_answer2": "Because she had a car accident on the way.", 
+				"wrong_answer3": "Because Bob ignores Monica.", 
+				"wrong_answer4": "" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "124-135", 
+		"period_num": "7", 
+		"start_time": "00:09:02;08", 
+		"end_time": "00:10:31;16",
+		"description_info": 
+		[ 
+			{ "description": "In the café, Chandler is nervously walking around. Phoebe goes to him and has a small talk. Chandler's girlfriend, Janice, comes into the café with a lot of shopping bags and sits on the sofa. She talks to Chandler and shows him socks. Chandler looks for help from Phoebe, but she looks busy with another guy. He doesn't know what to do with Janice and manages to stick with the conversation. He drinks coffee quickly and goes to Phoebe pretending to bring the cup and saucer back to the bar. Chandler and Phoebe has an argument."}, 
+			{ "description": "Chandler and Phoebe are talking in the café."}, 
+			{ "description": "Janice comes into the café and sits on the sofa with a lot of shopping bags."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is supposed to help Chandler?", 
+				"answer": "Phoebe.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Joey." } 
+			} ,
+			{ "qa": { 
+				"question": "Who comes into the café?", 
+				"answer": "Janice.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Joey." } 
+				} ,
+			{ "qa": { 
+				"question": "How does Chandler feel about Phoebe?", 
+				"answer": "He feels angry.", 
+				"wrong_answer1": "He feels sad.", 
+				"wrong_answer2": "He feels worried.", 
+				"wrong_answer3": "He feels great.", 
+				"wrong_answer4": "He feels excited." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "136-151", 
+		"period_num": "8", 
+		"start_time": "00:10:31;17", 
+		"end_time": "00:11:48;22",
+		"description_info": 
+		[ 
+			{ "description": "In the laundrette, Rachel leaves the basket on the washing machine. While she goes for the coin changer, a woman takes her place. She fails to win her over and moves her basket. Ross comes in and helps her understanding the situation. The woman gives in to him and takes out all her clothes from the machine.. "}, 
+			{ "description": "Rachel is putting her basket on the washing machine."}, 
+			{ "description": "A woman moves Rachel's basket and puts her clothes in the machine."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What happens to Rachel?", 
+				"answer": "A woman takes her place.", 
+				"wrong_answer1": "A thief steals her purse.", 
+				"wrong_answer2": "She has an accident.", 
+				"wrong_answer3": "Someoe is shouting at her.", 
+				"wrong_answer4": "She can't cook." } 
+			} ,
+			{ "qa": { 
+				"question": "Who helps Rachel?", 
+				"answer": "Ross.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Joey.", 
+				"wrong_answer3": "Chandler.", 
+				"wrong_answer4": "Phoebe." } 
+				} ,
+			{ "qa": { 
+				"question": "What does the woman do as she gives in to Ross?", 
+				"answer": "The woman takes out all her clothes.", 
+				"wrong_answer1": "The woman talks to Ross.", 
+				"wrong_answer2": "The woman sings a song for Ross.", 
+				"wrong_answer3": "The woman calls Ross.", 
+				"wrong_answer4": "The woman cooks for Ross." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "152-169", 
+		"period_num": "9", 
+		"start_time": "00:11:48;23", 
+		"end_time": "00:13:33;18",
+		"description_info": 
+		[ 
+			{ "description": "The woman leaves the place, and Rachel puts her clothes in the machine. Ross shows her his laundry and softner expecting her to think that he is masculine and attractive. He drops his basket and softner beacause he is too nervous about her. They talk in front of the machines, and Rachel asks Ross for help. Ross confidently explains how to do laundry, but he gets embarrassed when he finds Rachel's underwear.  "}, 
+			{ "description": "Rachel is putting her clothes in the washing machine."}, 
+			{ "description": "Ross stands in front of the machine and sorts out clothes for laundry."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What does Rachel put in the washing machine?", 
+				"answer": "Her clothes.", 
+				"wrong_answer1": "Her books. ", 
+				"wrong_answer2": "She puts nothing in the machine.", 
+				"wrong_answer3": "Her boots.", 
+				"wrong_answer4": "Her cups. " } 
+			} ,
+			{ "qa": { 
+				"question": "What does Ross show to Rachel?", 
+				"answer": "His softner.", 
+				"wrong_answer1": "His clothes. ", 
+				"wrong_answer2": "His shoes.", 
+				"wrong_answer3": "His smartphone.", 
+				"wrong_answer4": "His books." } 
+				} ,
+			{ "qa": { 
+				"question": "How does Ross feel when he finds Rachel's underwear?", 
+				"answer": "He feels embarrassed.", 
+				"wrong_answer1": "He feels sad.", 
+				"wrong_answer2": "He feels excited.", 
+				"wrong_answer3": "He feels great.", 
+				"wrong_answer4": "He feels great." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "170-193", 
+		"period_num": "10", 
+		"start_time": "00:13:33;19", 
+		"end_time": "00:15:19;18",
+		"description_info": 
+		[ 
+			{ "description": "Monica and Jeoy are sitting together at the bar and talking to Angela and Bob. Angela is sitting at the bar, and Bob is standing next to her. Joey tries to cover up his lying, so he draws people's attention with a big shout. Joey and Bob are standing and drinking beer together. Joey gives bad impression to Bob about Angela. In the toilet, Monica and Angela are talking and fixing their make up. Monica finds something strange from Angela's speaking."}, 
+			{ "description": "Joey and Bob are drinking beer and standing by the bar."}, 
+			{ "description": "Monica and Angela are talking and fixing their make up in the toilet."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is Joey talking to?", 
+				"answer": "Bob.", 
+				"wrong_answer1": "Rachel. ", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Phoebe.", 
+				"wrong_answer4": "Chandler." } 
+			} ,
+			{ "qa": { 
+				"question": "What are Joey and Bob doing?", 
+				"answer": "Joey and Bob are drinking beer.", 
+				"wrong_answer1": "Joey and Bob are dancing.", 
+				"wrong_answer2": "Joey and Bob are cooking.", 
+				"wrong_answer3": "Joey and Bob are singing.", 
+				"wrong_answer4": "Joey and Bob are shouting." } 
+				} ,
+			{ "qa": { 
+				"question": "Where are Monica and Angela?", 
+				"answer": "Monica and Angela are in the toilet.", 
+				"wrong_answer1": "Monica and Angela are at home.", 
+				"wrong_answer2": "Monica and Angela are in a car.", 
+				"wrong_answer3": "Monica and Angela are in the kitchen.", 
+				"wrong_answer4": "Monica and Angela are on the table." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "194-213", 
+		"period_num": "11", 
+		"start_time": "00:15:19;19", 
+		"end_time": "00:17:01;22",
+		"description_info": 
+		[ 
+			{ "description": "In the café, Chandler and Phoebe are talking. Phoebe gives him her advice about breaking up. Chandler goes to Janice and sits on the sofa next to her. In front of Chandler, there aer a lot of cups on the table to show how much coffee Chandler's drunk. As soon as he says that he wants to break up with her, Janice shifts her position and gulps down tears. She fans eyes with her hands and lifts her head to gulp down tears. In the laundrette, Rachel is sitting on the washing machine and talking to Ross in front of her. Ross agrees with her by nodding. Ross checks the machine and quickly closes it.   "}, 
+			{ "description": "Chandler and Janice are sitting on the sofa together. "}, 
+			{ "description": "Rachel is sitting on the washing machine and talking to Ross. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is Chandler breaking up with?", 
+				"answer": "Janice.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Joey.", 
+				"wrong_answer4": "Phoebe." } 
+			} ,
+			{ "qa": { 
+				"question": "How does Janice feel?", 
+				"answer": "She feels sad.", 
+				"wrong_answer1": "She feels excited.", 
+				"wrong_answer2": "She feels happy. ", 
+				"wrong_answer3": "She feels angry.", 
+				"wrong_answer4": "She feels hopeful. " } 
+				} ,
+			{ "qa": { 
+				"question": "Where is Rachel sitting on?", 
+				"answer": "Rachel is sitting on the washing machine. ", 
+				"wrong_answer1": "Rachel is sitting on the table.", 
+				"wrong_answer2": "Rachel is sitting on the chair.", 
+				"wrong_answer3": "Rachel is sitting on the sofa.", 
+				"wrong_answer4": "Rachel is sitting on the cabinet." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "214-236", 
+		"period_num": "12", 
+		"start_time": "00:17:01;23", 
+		"end_time": "00:18:41;23",
+		"description_info": 
+		[ 
+			{ "description": "Rachel forcefully opens the washing machine and finds that all he clothes go pink. She checks clothes disappointedly. Ross consoles her, but she is angry at her. By them, the woman who was sent away by Ross comes around and laughs at them and leaves. In double dating,  Bob and Janice are sitting together, and Angela shows her intimacy by touching Bob's body. On the opposite side, Monica and Joey are sitting. Monica is upset and can't understand Bob and Angela's relationship. She calls Joey away from the table and realizes that Joey lies to her about their relationship. Monica and Joey are standing and talking. "}, 
+			{ "description": "Ross consoles Rachel in the laundrette."}, 
+			{ "description": "Around the table, there are Bob and Angela, Joey and Monica sitting together. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How do Rachel's clothes change?", 
+				"answer": "Rachel's clothes go pink.", 
+				"wrong_answer1": "Rachel's clothes are worn out.", 
+				"wrong_answer2": "Rachel's clothes are torn off.", 
+				"wrong_answer3": "Rachel's clothes are thrown away.", 
+				"wrong_answer4": "Rachel's clothes go blue. " } 
+			} ,
+			{ "qa": { 
+				"question": "Who is sitting next to Angela?", 
+				"answer": "Bob is sitting next to Angela.", 
+				"wrong_answer1": "Rachel is sitting next to Angela.", 
+				"wrong_answer2": "Chandler is sitting next to Angela.", 
+				"wrong_answer3": "Ross is sitting next to Angela.", 
+				"wrong_answer4": "Phoebe is sitting next to Angela." } 
+				} ,
+			{ "qa": { 
+				"question": "How does Monica feel about Joey's lying?", 
+				"answer": "She is upset.", 
+				"wrong_answer1": "She is happy.", 
+				"wrong_answer2": "She is sad.", 
+				"wrong_answer3": "She enjoyed.", 
+				"wrong_answer4": "she is worried. " 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "237-250", 
+		"period_num": "13", 
+		"start_time": "00:18:42;00", 
+		"end_time": "00:20:15;02",
+		"description_info": 
+		[ 
+			{ "description": "As she finds out the truth, she tries to leave, but Joey stops her. She is persuaded by him and joins dinner again. Monica and Ross are hitting on Bob and Angela each. Monica is wiping Bob's shirt with tissues to clean it up. Joey orders food for Angela. In the cafe again, Chandler is sitting with Janice on the sofa. He is banging on the table and moving up and down to talk to Janice. As he moves around, he hits Janice's eyes with his hand. Janice leaves the seat, and Chandler falls to the corner of the sofa. Then, he jumps over the sofa and goes to Phoebe who is sitting on the stool by the bar. Chandler talks to Phoebe aggressively about the situation. Phoebe stands up and calms him down. "}, 
+			{ "description": "Chandler and Janice are sitting on the sofa together. "}, 
+			{ "description": "Chandler hits Janice's eyee with his hands while he moves up and down. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is Joey hitting on?", 
+				"answer": "Angela.", 
+				"wrong_answer1": "Bob.", 
+				"wrong_answer2": "Janice.", 
+				"wrong_answer3": "Ross.", 
+				"wrong_answer4": "Rachel." } 
+			} ,
+			{ "qa": { 
+				"question": "What happens to Janice?", 
+				"answer": "Chandler hits her eyes.", 
+				"wrong_answer1": "Chandler hits her body.", 
+				"wrong_answer2": "She has a car accident.", 
+				"wrong_answer3": "Her phone suddenly rings.", 
+				"wrong_answer4": "Phoebe shouts at her." } 
+				} ,
+			{ "qa": { 
+				"question": "Where is Chandler?", 
+				"answer": "In the café.", 
+				"wrong_answer1": "In the toilet.", 
+				"wrong_answer2": "In his office.", 
+				"wrong_answer3": "At home.", 
+				"wrong_answer4": "In his car." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "251-271", 
+		"period_num": "14", 
+		"start_time": "00:20:15;03", 
+		"end_time": "00:21:54;06",
+		"description_info": 
+		[ 
+			{ "description": "Phoebe is talking with Janice and hugging. Janice happily left the café. Chandler looks at the scene and get so surprised. In the laundrette, Rachel and Ross are looking at the pink clothes. A woman suddenly appears and tries to take the cart, Rachel stops her. She fights for the cart and the both are circling with the cart. In the end, Rachel goes into the cart, and the woman give up. Rachel and Ross are so happy about it that Rachel kisses Ross. Ross is panicked. He runs into the opened washing machine door and falls down.  "}, 
+			{ "description": "Phoebe and Janice are talking in the café."}, 
+			{ "description": "Rachel is so excited about her success that she kisses Ross."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who sends Janice away?", 
+				"answer": "Phoebe.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Chandler.", 
+				"wrong_answer3": "Ross.", 
+				"wrong_answer4": "Joey." } 
+			} ,
+			{ "qa": { 
+				"question": "What does the woman try to take away in the laundrette?", 
+				"answer": "A cart.", 
+				"wrong_answer1": "Rachel's clothes.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Rachel's watch.", 
+				"wrong_answer4": "Rachel's cup." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Rachel do to Ross?", 
+				"answer": "Rachel kisses Ross.", 
+				"wrong_answer1": "Rachel shouts at Ross.", 
+				"wrong_answer2": "Rachel bullies Ross.", 
+				"wrong_answer3": "Rachel laughs at Ross.", 
+				"wrong_answer4": "Rachel buys him a dinner." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "272-285", 
+		"period_num": "15", 
+		"start_time": "00:21:55;16", 
+		"end_time": "00:22:37;16",
+		"description_info": 
+		[ 
+			{ "description": "In the café, Rachel is caring Ross with an ice pack. Rachel, Ross, and Phoebe are sitting together on the sofa. Joey and Monica come in and talk about their double dating and success. Joey sits on the stool and Monica sitson the chair. When Rachel is wonder where Chandler is, he just passes the cafe shouting. "}, 
+			{ "description": "Rachel, Ross, and Phoebe are sitting together on the sofa. "}, 
+			{ "description": "Outside the café, Chandler is running around and shouting."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who comes into the café?", 
+				"answer": "Joey and Monica.", 
+				"wrong_answer1": "Joey and Ross.", 
+				"wrong_answer2": "Rachel and Ross.", 
+				"wrong_answer3": "Monica and Chandler.", 
+				"wrong_answer4": "Chandler and Phoebe." } 
+			} ,
+			{ "qa": { 
+				"question": "What are Monica and Joey talking about?", 
+				"answer": "Their double dating.", 
+				"wrong_answer1": "Monica's parents.", 
+				"wrong_answer2": "Monica's boyfriend.", 
+				"wrong_answer3": "Joey's fighting.", 
+				"wrong_answer4": "Monica's job." } 
+				} ,
+			{ "qa": { 
+				"question": "Who is not in the café?", 
+				"answer": "Chandler.", 
+				"wrong_answer1": "Phoebe.", 
+				"wrong_answer2": "Ross. ", 
+				"wrong_answer3": "Rachel.", 
+				"wrong_answer4": "Monica." 
+				} 
+			} 
+		] 
+	}
+	]
+}

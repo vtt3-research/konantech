@@ -1,0 +1,647 @@
+{ 
+	"file_name": "s01_ep09_tag2_QA_final",
+	"registed_name": "s01_ep09_tag2_QA_final", 
+	"qa_results": 
+	[ 
+		{ 
+		"visual_period_num": "1, 2, 3, 4, 5-10", 
+		"period_num": "1", 
+		"start_time": "00:00:08;05", 
+		"end_time": "00:01:10;06",
+		"description_info": 
+		[ 
+			{ "description": "In Central Perk, Rachel comforting her boss, Terry. She wants money in advance for Thanksgiving. Terry refuses it. Rachel and Terry are talking with the bar inbetween them. Rachel walks backwards asking customers for coffee to prove her ability. All people raise their hands."}, 
+			{ "description": "Rachel stands by the bar facing Terry."}, 
+			{ "description": "Terry holds Rachel's hands and explains why he refuses her ask."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where is Rachel?", 
+				"answer": "In Central Perk.", 
+				"wrong_answer1": "In a theater.", 
+				"wrong_answer2": "In a car.", 
+				"wrong_answer3": "At home.", 
+				"wrong_answer4": "In Chandler's office." } 
+			} ,
+			{ "qa": { 
+				"question": "Who is talking with Rachel?", 
+				"answer": "Terry, Rachel's boss.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Chandler.", 
+				"wrong_answer3": "Phoebe.", 
+				"wrong_answer4": "Monica." } 
+				} ,
+			{ "qa": { 
+				"question": "What is Rachel asking for?", 
+				"answer": "Rachel is asking if she can get paid in advance.", 
+				"wrong_answer1": "Rachel is asking Terry's phone number.", 
+				"wrong_answer2": "Rachel is aksing for more work.", 
+				"wrong_answer3": "Rachel is asking for more information about work.", 
+				"wrong_answer4": "Rachel is asking for how to make coffee. " 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "11-38", 
+		"period_num": "2", 
+		"start_time": "00:01:58;11", 
+		"end_time": "00:03:25;04",
+		"description_info": 
+		[ 
+			{ "description": "In Central Perk, Rachel is approaching one of regular customers for asking his tips in advance. He leaves with hearing Rachel saying sorry to him. Rachel picks up the tips on the table and leaves. Monica enters with a bag. Monica takes off her coat and sits down on the edge of sofa. Monica lets Ross know about their parents absent on Thanksgiving. Ross goes to the back to call his mother to check news from Monica. Joey eners ands sits on the chair. Phoebe and Chandler are sitting on the sofa, all four Joey, Monica, and Phoebe are talking together. Joey has a make-up on. Rachel joins and sits on the other edge of sofa. "}, 
+			{ "description": "In Central Perk, Rachel is approaching one of regular customers for asking his tips in advance."}, 
+			{ "description": "Monica takes off her coat and sits down on the edge of sofa. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who enters the café for the first time?", 
+				"answer": "Monica.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Chandler.", 
+				"wrong_answer4": "Joey." } 
+			} ,
+			{ "qa": { 
+				"question": "What does Monica tell Ross?", 
+				"answer": "Their parents leave for Thanksgiving.", 
+				"wrong_answer1": "Monica is away for Thanksgiving.", 
+				"wrong_answer2": "Monica will marry.", 
+				"wrong_answer3": "Rachel hates Ross.", 
+				"wrong_answer4": "Monica doesn't have money." } 
+				} ,
+			{ "qa": { 
+				"question": "Why Ross leave his seat?", 
+				"answer": "Because he wants to check that their parents leave for Thanksgiving.", 
+				"wrong_answer1": "Because he wants to go to the toilet.", 
+				"wrong_answer2": "Because he doesn't want to talk with friends.", 
+				"wrong_answer3": "Because he wants to drink water.", 
+				"wrong_answer4": "Because he wants to order food." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "39-60", 
+		"period_num": "3", 
+		"start_time": "00:03:25;04", 
+		"end_time": "00:05:00;16",
+		"description_info": 
+		[ 
+			{ "description": "Joey on a chair, Rachel and Monica on the edge of sofa, Chandler and Phoebe on the sofa. All friends are talking together. Ross disappointedly comes back and sits on the sofa alone. All friends are talking. Monica is thinking to have Thanksgiving with friends and inviting them. Ross leaves to go to his ex-wife's house. At Carole's house, Susan opens the door and greets Ross. "}, 
+			{ "description": "Chandler and Phoebe are sitting on the sofa. On the edge of both sides of it, Monica and Rachel are sitting down."}, 
+			{ "description": "Susan, Ross's ex-wife's girlfriend, greets Ross at home and lets him inside. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What does feel about phone call?", 
+				"answer": "Ross is disappointed.", 
+				"wrong_answer1": "Ross is angry.", 
+				"wrong_answer2": "Ross is annoyed.", 
+				"wrong_answer3": "Ross is helpless.", 
+				"wrong_answer4": "Ross is happy." } 
+			} ,
+			{ "qa": { 
+				"question": "Why is Ross disappointed?", 
+				"answer": "Because Ross ckecked his parents leave for Thanksgiving.", 
+				"wrong_answer1": "Becausee Joey bullies him.", 
+				"wrong_answer2": "Because Ross has to work for Thanksgiving.", 
+				"wrong_answer3": "Because Ross misses Carole.", 
+				"wrong_answer4": "Because Ross doesn't have enough money." } 
+				} ,
+			{ "qa": { 
+				"question": "Who opens the door for Ross?", 
+				"answer": "Susan, Ross's ex-wife's girlfriend.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Phoebe.", 
+				"wrong_answer4": "Chandler." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "61-72", 
+		"period_num": "4", 
+		"start_time": "00:05:01;16", 
+		"end_time": "00:06:25;04",
+		"description_info": 
+		[ 
+			{ "description": "Ross comes in and explains that he visits for the skull that Carole borrowed from him. Both of them browse the apartment and talk together. Ross walks towards the bookcase and looks around. Susan goes to the TV and looks around. Ross walks around and picks up a book, finding that Susan reads a book to the baby. "}, 
+			{ "description": "Ross comes in the house and finds that Carole is not at home."}, 
+			{ "description": "Susan and Ross are talking together and trying to find out a skull."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why does Ross visit Carole's house?", 
+				"answer": "Because Ross gets back a skull.", 
+				"wrong_answer1": "Bcause Ross wants to see Susan.", 
+				"wrong_answer2": "Because Ross wants to give Carole a present.", 
+				"wrong_answer3": "Because Ross wants to give Susan a present.", 
+				"wrong_answer4": "Because Ross wants to look around the house." } 
+			} ,
+			{ "qa": { 
+				"question": "Who greets Ross?", 
+				"answer": "Susan.", 
+				"wrong_answer1": "Carole.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Phoebe.", 
+				"wrong_answer4": "Monica." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Ross find out that Susan does for the baby?", 
+				"answer": "Susan reads a book for the baby.", 
+				"wrong_answer1": "Susan cooks for the baby.", 
+				"wrong_answer2": "Susan cleans the house for the baby.", 
+				"wrong_answer3": "Susan comes back home early.", 
+				"wrong_answer4": "Susan prepares tea instead of coffee for the baby." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "73-84", 
+		"period_num": "5", 
+		"start_time": "00:06:30;21", 
+		"end_time": "00:07:58;06",
+		"description_info": 
+		[ 
+			{ "description": "At home, Ross talks to his friends about his ideas, sitting at the kitchen table. Monica and Phoebe are sorting out food and preparing food for Thanksgiving. Monica moves the shopping bag. Phoebe listens to Ross's opinion and talks about her ideas with turkey. Chandler sitting. on the sofa stands up and approaches the table. Rachel enters and sits on the sofa disappointedly. Monica, Chandler, and Phoebe stand behind her. Monica gives Rachel her mail and makes her open them up. Rachel reluctatnly opens and finds that it is money for her flight. Rachel is so excited because now she can go skiing with her family.   She hugs Monica and goes to the table where Ross is sitting. "}, 
+			{ "description": "Chandler is sitting on the back of sofa looking at the kitchen."}, 
+			{ "description": "Rachel comes into the house disappointedly. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What are Monica and Phoebe preparing?", 
+				"answer": "Monica and Phoebe are preparing food for Thanksgiving.", 
+				"wrong_answer1": "Monica and Phoebe are preparing tea.", 
+				"wrong_answer2": "Monica and Phoebe are preparing a party for their parents.", 
+				"wrong_answer3": "Monica and Phoebe are preparing reports for their company.", 
+				"wrong_answer4": "Monica and Phoebe are preparing good clothes for weekends." } 
+			} ,
+			{ "qa": { 
+				"question": "", 
+				"answer": "Why is Rachel coming in disappointedly?", 
+				"wrong_answer1": "Because Rachel doesn't have enough money to spend with her family for Thanksgiving.", 
+				"wrong_answer2": "Because Rachel breaks up with her boyfriend.", 
+				"wrong_answer3": "Because Rachel misses Ross.", 
+				"wrong_answer4": "Because Rachel hates Thanksgiving." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Monica give to Rachel?", 
+				"answer": "Money that all gathered for Rachel.", 
+				"wrong_answer1": "Printed emails for Rachel.", 
+				"wrong_answer2": "A cup of coffee for Rachel.", 
+				"wrong_answer3": "A cup of tea for Rachel.", 
+				"wrong_answer4": "A bundle of fashion magazines." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "85-98", 
+		"period_num": "6", 
+		"start_time": "00:08:00;22", 
+		"end_time": "00:09:14;04",
+		"description_info": 
+		[ 
+			{ "description": "Monica gives a bag of food to Chandler. All is talking in the livingroom. When Rachel asks why he gets such food, not tranditional food, Chandler tells her his story. Others are bored with it, but Rachel carefully listens to him. In the subway station, Joey finds a beautiful woman that he met before in a studio. He sits down with her and starts talking."}, 
+			{ "description": "Monica gives food to Chandler which makes him happy."}, 
+			{ "description": "Chandler explains why he get to hate Thanksgiving to Rachel."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What does Monica give to Chandler?", 
+				"answer": "A bag of food.", 
+				"wrong_answer1": "A bundle of books.", 
+				"wrong_answer2": "A bag of cups.", 
+				"wrong_answer3": "A box of shoes.", 
+				"wrong_answer4": "A bag of old clothes." } 
+			} ,
+			{ "qa": { 
+				"question": "How does Chandler feel about Thanksgiving?", 
+				"answer": "Chandler hates Thanksgiving.", 
+				"wrong_answer1": "Chandler loves Thanksgiving.", 
+				"wrong_answer2": "Chandler is excited about Thanksgiving.", 
+				"wrong_answer3": "Chandler is not interested in Thanksgiving.", 
+				"wrong_answer4": "Chandler wants to spread Thanksgiving to other countries." } 
+				} ,
+			{ "qa": { 
+				"question": "What happened to nine-year-old Chandler on Thanksgiving?", 
+				"answer": "Chandler's parents told Chandler about their divorce.", 
+				"wrong_answer1": "Chandler's parents fought.", 
+				"wrong_answer2": "Chandler had a car accident.", 
+				"wrong_answer3": "Chandler had food poisoning.", 
+				"wrong_answer4": "Chandler didn't get a present." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "99-106", 
+		"period_num": "7", 
+		"start_time": "00:09:16;00", 
+		"end_time": "00:10:32;08",
+		"description_info": 
+		[ 
+			{ "description": "In the subway station, Joey and a beautiful woman are talking together, sitting on the bench. The talking goes well and the both stands up. The woman suddenly leaves hurriedly, looking over Joey's shoulders. Joey turns around and sees a poster on the wall saying that he has VD, a sexually transmitted disease. Shocked, Joey goes up the stairs and looks at it closely. Discouraged, Joey leans against the wall on his back. A variety of scenes are shown with the poster displayed all over New York City. "}, 
+			{ "description": "Joey and a beautiful woman that he is hitting on are sitting on the bench together."}, 
+			{ "description": "Joey finds that a poster with his face is displayed in New York City."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where is Joey?", 
+				"answer": "Joey is in subway.", 
+				"wrong_answer1": "Joey is at home.", 
+				"wrong_answer2": "Joey is in a theater.", 
+				"wrong_answer3": "Joey is in a café.", 
+				"wrong_answer4": "Joey is in a car." } 
+			} ,
+			{ "qa": { 
+				"question": "What does Joey feel about the woman he meets in the subway?", 
+				"answer": "Joey is interested in the woman.", 
+				"wrong_answer1": "Joey hates the woman.", 
+				"wrong_answer2": "Joey is disgusted by the woman.", 
+				"wrong_answer3": "Joey misses the woman.", 
+				"wrong_answer4": "Joey is panicked by the woman." } 
+				} ,
+			{ "qa": { 
+				"question": "Why does the woman leave Joey suddenly?", 
+				"answer": "Because the woman finds the poster saying that Joey has VD.", 
+				"wrong_answer1": "Because the woman is bored with Joey.", 
+				"wrong_answer2": "Because the woman finds Joey stoopid.", 
+				"wrong_answer3": "Because the woman has a phone call.", 
+				"wrong_answer4": "Because the woman has a boyfriend." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "107-129", 
+		"period_num": "8", 
+		"start_time": "00:10:32;08", 
+		"end_time": "00:12:02;11",
+		"description_info": 
+		[ 
+			{ "description": "Joey comes into the café and finds that his friends all gather around the sofa and laughs at his poster. Joey stands and looks at his friends. A varitey of scenes are shown that Joey's poster is display all over the city. Joey is upset and comes back home. Monica and Phoebe are preparing food together; Monica is chopping parsely and Phoebe is chopping carrots on the board. The scenes show Underdog, a cartoon character, in an inflatable balloon with a group of people marching. Chandler is in the doorway. Monica is busy around the kitchen preparing food and Phoebe is helping her. Rachel comes in with motion of skiing."}, 
+			{ "description": "Joey comes into the café, finds that his friends all see the poster and laughs at it."}, 
+			{ "description": "Scenes are shown with inflatable dog marching down the street."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why friends are laughing in the café?", 
+				"answer": "The friends are laughing at Joey's poster.", 
+				"wrong_answer1": "The friends are laughing at each other.", 
+				"wrong_answer2": "The friends are laughing at Joey's face.", 
+				"wrong_answer3": "The friends are laughing at TV program.", 
+				"wrong_answer4": "The friends are laughing at Rachel for her funny clothes." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Monica doing?", 
+				"answer": "Monica is preparing food for Thanksgiving.", 
+				"wrong_answer1": "Monica is washing the dishes.", 
+				"wrong_answer2": "Monica is talking on the phone.", 
+				"wrong_answer3": "Monica is dating.", 
+				"wrong_answer4": "Monica is cleaning the house." } 
+				} ,
+			{ "qa": { 
+				"question": "Who is excited about skiing?", 
+				"answer": "Rachel.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Chandler.", 
+				"wrong_answer4": "Phoebe." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "130-149", 
+		"period_num": "9", 
+		"start_time": "00:12:02;11", 
+		"end_time": "00:13:35;18",
+		"description_info": 
+		[ 
+			{ "description": "Chandler is in the doorway and Phoebe approaches him with a pumpkin pie to tease him. Joey is right behind Phoebe. Annoyed by her, Chandler leaves the house. Joey is sitting down and whining up for his faviorite food in Thanksgiving, tater tots, so Monica decides to make it for him. Ross leaves with a coat to go to his ex-wife. Ross reaches food and Monica slaps his hand away. After Ross left, Monica by the kitchen table tastes food and goes to Phoebe to check potatoes. She checks them and realizes that Phoebe stirred them, which is not made as planned. Phoebe and Monica are standing and talking in the kitchen. With Phoebe's whining, Monica kicks her out from the kitchen and decides to make three types of potatoes. "}, 
+			{ "description": "Joey is in the kitchen and talking to Monica. Joey is whining up for his favorite food, tater tots."}, 
+			{ "description": "Phoebe is helping Monica in the kitchen. Monica is staning by the kitchen table to prepare food for Thanksgiving."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What does Joey want for Thanksgiving?", 
+				"answer": "Joey wants tater tots.", 
+				"wrong_answer1": "Joey wants turkey.", 
+				"wrong_answer2": "Joey wants a computer game.", 
+				"wrong_answer3": "Joey wants chocolates that his mom used to make.", 
+				"wrong_answer4": "Joey wants to go a sushi restaurant. " } 
+			} ,
+			{ "qa": { 
+				"question": "Where does Ross go?", 
+				"answer": "Ross goes to his ex-wife's house.", 
+				"wrong_answer1": "Ross goes to work.", 
+				"wrong_answer2": "Ross goes to a café.", 
+				"wrong_answer3": "Ross goes to a theater.", 
+				"wrong_answer4": "Ross goes for a date." } 
+				} ,
+			{ "qa": { 
+				"question": "How many different types of poatoes is Monica preparing for Thanksgiving?", 
+				"answer": "Three different types of potatoes.", 
+				"wrong_answer1": "Monica doesn't cook potatoes.", 
+				"wrong_answer2": "Monica makes only one type of potatoes.", 
+				"wrong_answer3": "Monica makes endless types of potatoes.", 
+				"wrong_answer4": "Monica makes five different types of potatoes." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "150-167", 
+		"period_num": "10", 
+		"start_time": "00:13:35;18", 
+		"end_time": "00:15:10;18",
+		"description_info": 
+		[ 
+			{ "description": "Rachel comes out of the room with her ski equipment. Carelessly, Rachel walks around the livingroom and hits things. She drops ornaments in the livingroom and hits Joey, turning around. Monica is in sink. Phoebe is standing by the kitchen table. Suddenly, Chandler runs into the house delivering the event about an inflatable dog marching on the street. All leaves the house without keys and Monica mentions keys. Rachel shuts the door, thinking Monica has them. In Carole's house, Ross is looking at Carole's belly and trying to talk to it, expecting that the baby can hear him. Carole is comfortably leaning on the sofa and Ross is sitting next to her. Ross is not comfortable with the idea of talking to the belly. He makes his position comfortable on the sofa. Carole tries to stop him by mentioning Susan, but she encourages him instead. Ross talks to her belly straightaway."}, 
+			{ "description": "Rachel comes out of her room and walks to the door through the livingroom with her ski equipment."}, 
+			{ "description": "Ross is at Carole's house and tries to talk to the baby by talking to her baby."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is carrying ski equipment?", 
+				"answer": "Rachel.", 
+				"wrong_answer1": "Joey.", 
+				"wrong_answer2": "Chandler.", 
+				"wrong_answer3": "Ross.", 
+				"wrong_answer4": "Phoebe." } 
+			} ,
+			{ "qa": { 
+				"question": "What news does Chandler deliver?", 
+				"answer": "An inflatabe dog marching on the street.", 
+				"wrong_answer1": "A big discount on expensive shoes.", 
+				"wrong_answer2": "The president coming down the street.", 
+				"wrong_answer3": "Snowing in the summer.", 
+				"wrong_answer4": "Heavy raining all over the city." } 
+				} ,
+			{ "qa": { 
+				"question": "What is Ross doingin in Carole's house?", 
+				"answer": "Ross is talking over Carole's belly to talk to the baby.", 
+				"wrong_answer1": "Ross is talking to Carole to make up their relationship.", 
+				"wrong_answer2": "Ross is enjoying time with Susan.", 
+				"wrong_answer3": "Ross is listening to music in Carole's house.", 
+				"wrong_answer4": "Ross is dancing on the floor with Carole." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "168-183", 
+		"period_num": "11", 
+		"start_time": "00:15:10;18", 
+		"end_time": "00:16:05;14",
+		"description_info": 
+		[ 
+			{ "description": "On the hallway, Joey, Chandler, Rachel, Monica, and Phoebe coming together from the roof. They are talking and walking towards the door. All stands up in front of the door and sees each other. Monica stands and asks who has keys. Rachel and Monica start arguing about why nobody has keys. She is panicked as the oven is on. Chandler and Joey have spare keys, so Joey goes into their house to get them.   "}, 
+			{ "description": "On the hallway, Phoebe and Rachel stand in front of the door and Joey and Chandler stand facing the door. "}, 
+			{ "description": "Rachel and Monica are arguing in front of the door who should've picked keys."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who has keys?", 
+				"answer": "Nobody has keys.", 
+				"wrong_answer1": "Monica has keys.", 
+				"wrong_answer2": "Rachel has keys.", 
+				"wrong_answer3": "Phoebe has keys.", 
+				"wrong_answer4": "Ross has keys." } 
+			} ,
+			{ "qa": { 
+				"question": "Why is Monica panicked?", 
+				"answer": "Because Oven is on.", 
+				"wrong_answer1": "Because flight ticket is in the house.", 
+				"wrong_answer2": "Because Monica might miss a TV programme.", 
+				"wrong_answer3": "Because Monica feels bad when she is outside the house. ", 
+				"wrong_answer4": "Because Monica is late for work." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Joey offer to open the door?", 
+				"answer": "Joey tells that he has spare keys in his house.", 
+				"wrong_answer1": "Joey tells that he can break the door,", 
+				"wrong_answer2": "Joey tells that he can open the door without keys.", 
+				"wrong_answer3": "Joey tells that he has a master key.", 
+				"wrong_answer4": "Joey tells that he can open the door with supernatural powers." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "184-190", 
+		"period_num": "12", 
+		"start_time": "00:16:05;14", 
+		"end_time": "00:17:14;01",
+		"description_info": 
+		[ 
+			{ "description": "In Carole's house, Ross is talking to the baby and Carole is sitting on the sofa, reading a book. Susan comes into the house which makes Ross start singing. As he sings, suddenly Carole and Ross feel the baby's movement. They are surprised and stopped for a moment, seeing each other. With expectation, Carole, Ross, and Susan all touch Carole's stomach to feel the movement and Ross sings. Just then, they feel the movement and scream for enjoyment.   "}, 
+			{ "description": "Ross is talking to the baby over Carole's stomach."}, 
+			{ "description": "Ross, Susan, and Carole all expect the baby's movement by touching Carole's stomach. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What makes the baby move?", 
+				"answer": "Ross's singing.", 
+				"wrong_answer1": "Ross's talking.", 
+				"wrong_answer2": "Susan's singing.", 
+				"wrong_answer3": "Susan's talking.", 
+				"wrong_answer4": "Carole's walking." } 
+			} ,
+			{ "qa": { 
+				"question": "Why does Ross decide to sing although he thinks it is stupid?", 
+				"answer": "Because Ross sees Susan coming into the house.", 
+				"wrong_answer1": "Because Ross finds his favorite song.", 
+				"wrong_answer2": "Because Ross goes to a singing contest. ", 
+				"wrong_answer3": "Because Ross gets a mike from Carole.", 
+				"wrong_answer4": "Because Ross enjoys singing in front of many people." } 
+				} ,
+			{ "qa": { 
+				"question": "What do Ross, Susan, and Carole do to feel the baby's movement?", 
+				"answer": "They touch Carole's stomach.", 
+				"wrong_answer1": "They sing together.", 
+				"wrong_answer2": "They talk over Carole's stomach together.", 
+				"wrong_answer3": "They walk around the livingroom. ", 
+				"wrong_answer4": "They dance and sing together." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "191-204", 
+		"period_num": "13", 
+		"start_time": "00:17:14;01", 
+		"end_time": "00:18:44;09",
+		"description_info": 
+		[ 
+			{ "description": "Joey is hunkering down in front of the door and Chandler is holding a tray full of keys. Phoebe, Rachel, and Monica are in the hallway waiting for Joey to open up the door. Joey keeps changing the keys from the tray and trying on every one of them. Monica is impatient and runs to him. Rachel goes to Chandler and grabs him by the shirt. Rachel puts anger out on Chandler. Monica and Rachel argue again and Phoebe steps in to stop them. Monica is furious as she feels like doing everything from cooking to picking up keys and nobody cares her. Just then, Joey opens the door and everyone dashes into the house."}, 
+			{ "description": "Monica, Phoebe, and Rachel are standing in the hallway."}, 
+			{ "description": "Joey and Chandler are trying to open the door with spare keys."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is holding the tray full of keys?", 
+				"answer": "Chandler.", 
+				"wrong_answer1": "Joey.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Ross.", 
+				"wrong_answer4": "Phoebe." } 
+			} ,
+			{ "qa": { 
+				"question": "What does Rachel do to Chandler for anger?", 
+				"answer": "Rachel grabs him by the shirt.", 
+				"wrong_answer1": "Rachel sings a song for Chandler.", 
+				"wrong_answer2": "Rachel calls Chandler.", 
+				"wrong_answer3": "Rachel pushes Chandler over.", 
+				"wrong_answer4": "Rachel hits Chandler." } 
+				} ,
+			{ "qa": { 
+				"question": "How does Monica feel about the situation?", 
+				"answer": "Monica thinks that the situation is unfair and feels angry at people.", 
+				"wrong_answer1": "Monica is excited that everyone loves her food.", 
+				"wrong_answer2": "Monica is sad that all goes to meet their family.", 
+				"wrong_answer3": "Monica is nervous if people might hate the food.", 
+				"wrong_answer4": "Monica is panicked as people shout at each other." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "205-224", 
+		"period_num": "14", 
+		"start_time": "00:18:44;09", 
+		"end_time": "00:20:01;19",
+		"description_info": 
+		[ 
+			{ "description": "The apartment is full of smoke. In the kitchen, Monica takes the turkey from the oven and checks the pots. She finds that all food is no use. Ross comes in, singing. Monica takes anger out on Ross by picking up the pan of badly burnt potatoes.  In the livingroom, Rachel just hangs up the phone and shouts at the friends. Joey starts shouting at each other. By looking at the friends fighting, Chandler talks to himself. As time passes, all becomes lethargic and sits down around the livingroom. Phoebe suddenly draws attention by talking to the friends about the neighbor, walking to the windows.   "}, 
+			{ "description": "Smoke fills the apartment. Monica hurriedly enters the kitchen and checks food."}, 
+			{ "description": "Rachel hangs up the phone and shouts at the friends that her plane already left."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Is Monica's food edible?", 
+				"answer": "No, Monica's food is all burnt.", 
+				"wrong_answer1": "Yes, the food is perfectly cooked.", 
+				"wrong_answer2": "Yes, Monica prepares more than the friends expected.", 
+				"wrong_answer3": "Yes, Monica prepares three different types of potato food.", 
+				"wrong_answer4": "Yes, Monica's food is the best in the world." } 
+			} ,
+			{ "qa": { 
+				"question": "Why is Rachel angry?", 
+				"answer": "Because Rachel missed the flight.", 
+				"wrong_answer1": "Because Rachel missed Monica's food.", 
+				"wrong_answer2": "Because Rachel had a car accident.", 
+				"wrong_answer3": "Because Rachel didn't get paid.", 
+				"wrong_answer4": "Because Rachel was fired." } 
+				} ,
+			{ "qa": { 
+				"question": "Who is Phoebe talking about?", 
+				"answer": "Neighbor.", 
+				"wrong_answer1": "Chandler.", 
+				"wrong_answer2": "Joey.", 
+				"wrong_answer3": "Ross.", 
+				"wrong_answer4": "Joey." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "225-243", 
+		"period_num": "15", 
+		"start_time": "00:20:04;21", 
+		"end_time": "00:21:11;17",
+		"description_info": 
+		[ 
+			{ "description": "All friends go to the windows to see the new person with the neighbor. As they see them, they see and grin at each other. At the dining table, all sits around and Chandler stands up like a host. He passes aroound grilled cheese sandwiches, not so traditional food for Thanksgiving. Monica and Joey split the sandwich together. "}, 
+			{ "description": "All looks at the neighbor's house and grins at each other. "}, 
+			{ "description": "All sits at the dining table and enjoys Thanksgiving together."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who makes the friends feel better?", 
+				"answer": "The neighbor.", 
+				"wrong_answer1": "Joey.", 
+				"wrong_answer2": "Chandler.", 
+				"wrong_answer3": "Rachel.", 
+				"wrong_answer4": "Monica." } 
+			} ,
+			{ "qa": { 
+				"question": "What food do the friends eat?", 
+				"answer": "The friends eat grilled cheese sandwiches.", 
+				"wrong_answer1": "The friends eat turkey.", 
+				"wrong_answer2": "The friends eat pumpkin pie.", 
+				"wrong_answer3": "The friends eat tarts.", 
+				"wrong_answer4": "The friends eat hamburgers." } 
+				} ,
+			{ "qa": { 
+				"question": "How do Monica and Joey make a wish?", 
+				"answer": "Monica and Joey split the sandwich.", 
+				"wrong_answer1": "Monica and Joey blow candles.", 
+				"wrong_answer2": "Monica and Joey pull a cracker together.", 
+				"wrong_answer3": "Monica and Joey sing a song.", 
+				"wrong_answer4": "Monica and Joey dance." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "244-257", 
+		"period_num": "16", 
+		"start_time": "00:21:11;17", 
+		"end_time": "00:22:38;14",
+		"description_info": 
+		[ 
+			{ "description": "Chandler raises his glass to give a toast with a short speech. All enjoys Thanksgiving although it isn't as planned. Rachel and Ross comment. All raises their glasses. In the subway, Joey is facing his poster. He looks all around and peels off the caption on his poster until he finds captions that he likes. "}, 
+			{ "description": "All enjoys Thanksgiving by giving a toast in their seats."}, 
+			{ "description": "Joey is in the subway, looking at his poster on the wall."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who gives a toast?", 
+				"answer": "Chandler.", 
+				"wrong_answer1": "Joey.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Rachel.", 
+				"wrong_answer4": "Phoebe." } 
+			} ,
+			{ "qa": { 
+				"question": "Where is Joey?", 
+				"answer": "Joey is in the subway.", 
+				"wrong_answer1": "Joey is at home.", 
+				"wrong_answer2": "Joey is in a theater.", 
+				"wrong_answer3": "Joey is in a library.", 
+				"wrong_answer4": "Joey is in a restaurant." } 
+				} ,
+			{ "qa": { 
+				"question": "On Joey's poster, what does Joey peel off?", 
+				"answer": "Joey peels off the caption.", 
+				"wrong_answer1": "Joey peels off his face.", 
+				"wrong_answer2": "Joey peels off the edges of poster.", 
+				"wrong_answer3": "Joey peels off his mouch only.", 
+				"wrong_answer4": "Joey peels off the middle of poster." 
+				} 
+			} 
+		] 
+	}
+	]
+}

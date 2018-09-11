@@ -1,4 +1,4 @@
-package com.konantech.spring.etc;
+package com.konantech.spring.core;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

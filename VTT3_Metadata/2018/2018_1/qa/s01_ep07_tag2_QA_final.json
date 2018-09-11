@@ -1,0 +1,687 @@
+{ 
+	"file_name": "s01_ep07_tag2_QA_final",
+	"registed_name": "s01_ep07_tag2_QA_final", 
+	"qa_results": 
+	[ 
+		{ 
+		"visual_period_num": "1, 2, 3, 4, 5-26", 
+		"period_num": "1", 
+		"start_time": "00:00:00;00", 
+		"end_time": "00:01:31;11",
+		"description_info": 
+		[ 
+			{ "description": "Phoebe is ready to sing a song. Next to her, Rachel is introducing her performance to the audience in the café. The audience gives applause to Phoebe. As soon as Phoebe tunes the guitar, the lights suddenly go off. Chandler is in ATM, and suddenly the lights go off finding that he is stuck in the building. He feels annoyed, but soon he is excited that he is wtith a beautiful woman, Jill Goodacare. "}, 
+			{ "description": "Phoebe is in the café being ready to sing a song."}, 
+			{ "description": "Chandler is stuck in ATM with a beautiful woman."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is performing in the café?", 
+				"answer": "Phoebe.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Joey." } 
+			} ,
+			{ "qa": { 
+				"question": "What happens suddenly to the performance?", 
+				"answer": "The lights turns off.", 
+				"wrong_answer1": "Rachel shouts.", 
+				"wrong_answer2": "Ross cries.", 
+				"wrong_answer3": "Monica stops Phoebe.", 
+				"wrong_answer4": "The chair breaks." } 
+				} ,
+			{ "qa": { 
+				"question": "Why is Chandler's emotion changed?", 
+				"answer": "Because he is stuck in the building with a beautiful woman. ", 
+				"wrong_answer1": "Because he finds money on the floor.", 
+				"wrong_answer2": "Because he can't control his emotion.", 
+				"wrong_answer3": "Because he is in unstable state.", 
+				"wrong_answer4": "Because he can't understand his situation." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "27-39", 
+		"period_num": "2", 
+		"start_time": "00:01:42;00", 
+		"end_time": "00:03:11;06",
+		"description_info": 
+		[ 
+			{ "description": "Rachel looks thrrough the window and finds the blackout of the city. Behind her, Monica passes news from her mother around to others with the phone in her hand. In the kitchen, Monica is talking on the phone with her mother and hangs up the phone as she gets angry because of her mother. Ross is behind her lighting candles. Phoebe goes to Monica asking for the phone to call her grandmother. Monica is talking on the phone aggressively. Monica passes the phone to Phoebe. Ross is looking at Phoebe because of her absurd saying that she doesn't know her phone number and asks Monica. In the ATM vestibule, Jill is calling, and Chandler is glancing at her in the corner of the ATM.  Chandler is leaning against the wall and thinking to himself. Jill is opposite of Chandler leaning against the one side of the board attached to the wall. Chandler listens to her calling carefully and approaches her thinking hard. "}, 
+			{ "description": "Monica is talking on the phone in the kitchen."}, 
+			{ "description": "Jill and Chandler are stuck in the builing together."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is talking on the phone?", 
+				"answer": "Monica.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Chandler.", 
+				"wrong_answer4": "Joey." } 
+			} ,
+			{ "qa": { 
+				"question": "Where is Chandler?", 
+				"answer": "He is in ATM vestibule.", 
+				"wrong_answer1": "He is at home.", 
+				"wrong_answer2": "He is in a theater.", 
+				"wrong_answer3": "He is in his car.", 
+				"wrong_answer4": "He is in a bus." } 
+				} ,
+			{ "qa": { 
+				"question": "Who is Chandler with?", 
+				"answer": "Chandler is with a beautiful woman, Jill.", 
+				"wrong_answer1": "Chandler is with Rachel.", 
+				"wrong_answer2": "Chandler is with Ross.", 
+				"wrong_answer3": "Chandler is with Monica.", 
+				"wrong_answer4": "Chandler is with Phoebe." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "40-44", 
+		"period_num": "3", 
+		"start_time": "00:03:11;06", 
+		"end_time": "00:03:53;21",
+		"description_info": 
+		[ 
+			{ "description": " Joey comes in the house and walks gingerly with a candle tree in his hand. All the candles are lit and Joey puts the candle tree on the mantelboard. Ross and Monica stading in the kitchen find Joey and think that a candle tree is too many for a peson and makes jokes about it. Joey explains why he has to take the candle tree and shrugs his shoulders. Phoebe approaches the window and calls all by telling them what the neighbor is doing. By the window, all is looking at the neighbor. They all make disgusted faces. All but Phoebe turns around and scatters away.  "}, 
+			{ "description": "Joey walks gingerly with a candle tree. "}, 
+			{ "description": "All is by the window looking at the neighbor."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who comes in the house?", 
+				"answer": "Joey.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Chandler." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Joey holding in his hand?", 
+				"answer": "He is holding a candle tree.", 
+				"wrong_answer1": "He is holding a smartphone.", 
+				"wrong_answer2": "He is holding a cup.", 
+				"wrong_answer3": "He is holding a book.", 
+				"wrong_answer4": "He is holding a bag." } 
+				} ,
+			{ "qa": { 
+				"question": "What do Monica and Ross think about Joey holding a candle tree?", 
+				"answer": "They think he is funny.", 
+				"wrong_answer1": "They think he is crazy.", 
+				"wrong_answer2": "They think he is exercising.", 
+				"wrong_answer3": "They think he is hungry.", 
+				"wrong_answer4": "They think he is romantic." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "45-66", 
+		"period_num": "4", 
+		"start_time": "00:03:53;21", 
+		"end_time": "00:05:31;10",
+		"description_info": 
+		[ 
+			{ "description": "Chandler is still in the ATM with Jill staring at her. They face each other, Jill leaning against the board smiles at him, and Chandler standing smiles back at her. Jill offers Chandler her phone for calling, and he takes it. Chandler calls his friends, and Monica takes his call. He explains his situation with mumbling, but Monica can't understand. She passes the phone to Joey. Joey understands Chandler's mumbling at once and passes the message to others. Funnily enough, Joey and Chandler can communicate with mumbling that others can't understand.   "}, 
+			{ "description": "Monica in in the kitchen and takes Chandler's call."}, 
+			{ "description": "Joey is on the phone talking to Chandler with mumbling."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What does Jill offer Chandler?", 
+				"answer": "She offers him her phone for calling.", 
+				"wrong_answer1": "She offers him a discount.", 
+				"wrong_answer2": "She offers him a free ticket.", 
+				"wrong_answer3": "She offers him going for a drive.", 
+				"wrong_answer4": "She offer him a dinner." } 
+			} ,
+			{ "qa": { 
+				"question": "Who does Chandler call?", 
+				"answer": "His friends.", 
+				"wrong_answer1": "His parents.", 
+				"wrong_answer2": "His girlfriend.", 
+				"wrong_answer3": "His neighbor.", 
+				"wrong_answer4": "His phone company." } 
+				} ,
+			{ "qa": { 
+				"question": "Who takes Chandler's call?", 
+				"answer": "Monica.", 
+				"wrong_answer1": "Phoebe.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Rachel.", 
+				"wrong_answer4": "Joey." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "67-87", 
+		"period_num": "5", 
+		"start_time": "00:05:31;10", 
+		"end_time": "00:06:52;14",
+		"description_info": 
+		[ 
+			{ "description": "At home, all friends except Chandler gather around the table in the livingroom. Joey and Rachel are sitting together on the sofa. Monica is sitting alone on the chair embracing knees. Ross is sitting on the sofa between Rachel and Monica. In front of Ross, Phoebe is sitting on the floor. They are talking together. "}, 
+			{ "description": "Joey and Rachel are sitting together. Rachel has a cushion on her laps."}, 
+			{ "description": "Monica is sitting alone on the chair opposite of Rachel and Joey."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where are the friends except Chandler?", 
+				"answer": "They are in the livingroom.", 
+				"wrong_answer1": "They are in the toilet.", 
+				"wrong_answer2": "They are in a museum.", 
+				"wrong_answer3": "They are in a theater.", 
+				"wrong_answer4": "They are in a school." } 
+			} ,
+			{ "qa": { 
+				"question": "Who is sitting with Rachel?", 
+				"answer": "Joey.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Phoebe.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Chandler." } 
+				} ,
+			{ "qa": { 
+				"question": "Where is Phoebe sitting on?", 
+				"answer": "Phoebe is sitting on the floor.", 
+				"wrong_answer1": "Phoebe is sitting on the chair.", 
+				"wrong_answer2": "Phoebe is sitting on the sofa.", 
+				"wrong_answer3": "Phoebe is not sitting.", 
+				"wrong_answer4": "Phoebe is sitting on the table." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "88-111", 
+		"period_num": "6", 
+		"start_time": "00:06:53;15", 
+		"end_time": "00:08:23;21",
+		"description_info": 
+		[ 
+			{ "description": "At home, Ross is nodding and listening to Rachel's talking with a cup in his hand. Both of them are sitting on the floor together. They are talking together. Rachel looks comfortable with his talking. She sighs and tries to leave the seat. Ross tries to stop her, but she leaves with stroking his head."}, 
+			{ "description": "Ross and Rachel are sitting on the floor and talking together."}, 
+			{ "description": "Ross is listening to Rachel's talking and giving her his ideas. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is talking with Rachel?", 
+				"answer": "Ross.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Chandler.", 
+				"wrong_answer3": "Joey.", 
+				"wrong_answer4": "Phoebe." } 
+			} ,
+			{ "qa": { 
+				"question": "What are Ross and Rachel doing?", 
+				"answer": "Ross and Rachel are talking.", 
+				"wrong_answer1": "Ross and Rachel are singing.", 
+				"wrong_answer2": "Ross and Rachel are dancing.", 
+				"wrong_answer3": "Ross and Rachel are eating dinner together.", 
+				"wrong_answer4": "Ross and Rachel are walking." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Ross do as Rachel tries to leave the seat?", 
+				"answer": "Ross tries to stop Rachel.", 
+				"wrong_answer1": "Ross tries to smack Rachel.", 
+				"wrong_answer2": "Ross tries to pinch Rachel.", 
+				"wrong_answer3": "Ross tries to run to Rachel.", 
+				"wrong_answer4": "Ross tries to give her coffee." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "112-125", 
+		"period_num": "7", 
+		"start_time": "00:08:23;21", 
+		"end_time": "00:10:10;06",
+		"description_info": 
+		[ 
+			{ "description": "Ross stands up from the floor and passes Joey resting his feet on the armrest and leaning back in the other one. Joey comments on Ross, so Ross stares at Joey for a moment and asks him the reason. Ross standing and Joey sitting on the sofa are talking together. Ross steps back to the kitchen, and Joey preparing his drink persuades Ross a need to approach Rachel. When Joey starts talking, Rachel joins the conversation. Ross and Joey try to change the topic.    "}, 
+			{ "description": "Ross and Joey are standing in the kitchen and talking."}, 
+			{ "description": "Rachel goes to Ross and Joey in the kitchen."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who talks to Ross?", 
+				"answer": "Joey.", 
+				"wrong_answer1": "Chandler.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Rachel.", 
+				"wrong_answer4": "Phoebe." } 
+			} ,
+			{ "qa": { 
+				"question": "What does Joey do in the kitchen?", 
+				"answer": "Joey prepares his drink.", 
+				"wrong_answer1": "Joey enjoys dancing.", 
+				"wrong_answer2": "Joey cooks food.", 
+				"wrong_answer3": "Joey dances.", 
+				"wrong_answer4": "Joey sits on the chair." } 
+				} ,
+			{ "qa": { 
+				"question": "Who joins conversation between Joey and Ross?", 
+				"answer": "Rachel.", 
+				"wrong_answer1": "Phoebe.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Chandler.", 
+				"wrong_answer4": "Rachel's father." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "126-134", 
+		"period_num": "8", 
+		"start_time": "00:10:12;14", 
+		"end_time": "00:11:47;10",
+		"description_info": 
+		[ 
+			{ "description": "In the ATM, Chandler is nervous about being stuck in vestibule with Jill. At home again, the lights are still out, and candles are lit all over the livingroom. Phoebe is playing the guitar and singing a song. In the veranda, Rachel and Monica are talking together. Joey sitting on the chair by the dinner table and Ross standing next to Joey are listening to Phoebe's singing. Monica leaves Rachel and goes into her room. As Ross and Joey see it,, Ross approaches Rachel. To help him, Jeoy stops Monica from getting ouside with lies. "}, 
+			{ "description": "Joey is with Ross listening to Phoebe's singing."}, 
+			{ "description": "Monica walks to her room and tries to go outside, but Joey stops her."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How does Chandler feel?", 
+				"answer": "Chandler feels nervous.", 
+				"wrong_answer1": "Chandler feels happy.", 
+				"wrong_answer2": "Chandler feels sad.", 
+				"wrong_answer3": "Chandler feels anxious.", 
+				"wrong_answer4": "Chandler feels angry." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Phoebe doing?", 
+				"answer": "Phoebe is playing the guitar and singing a song.", 
+				"wrong_answer1": "Phoebe is dancing.", 
+				"wrong_answer2": "Phoebe is cooking.", 
+				"wrong_answer3": "Phoebe is making a cup of tea.", 
+				"wrong_answer4": "Phoebe is drinking water." } 
+				} ,
+			{ "qa": { 
+				"question": "Why does Joey stop Monica from getting out?", 
+				"answer": "Because Joey wants to give Ross some time with Rachel.", 
+				"wrong_answer1": "Because Joey wants to talk to her.", 
+				"wrong_answer2": "Because Joey wants to give her money.", 
+				"wrong_answer3": "Because Joey wants to get a copy of Monica's recipes for cakes.", 
+				"wrong_answer4": "Because Joey wants to help Monica move the furniture." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "135-147", 
+		"period_num": "9", 
+		"start_time": "00:11:47;10", 
+		"end_time": "00:13:02;04",
+		"description_info": 
+		[ 
+			{ "description": "Phoebe goes into the kitchen and listens to the surprise birthday party that Joey tells to Monica. Phoebe is annoyed by the fact that Ross hasn't told her before. Phoebe walks to the livingroom, stands next to the sofa, and talks angrily to Joey and Monica. She is furious and tells a secret to Joey. Behind him, Monica standing in the kitchen waving her hands to stop Phoebe. As Phoebe finds out that Joey doesn't know about the secret, she feels better. In the veranda, only two, Ross and Rachel, are leaning on the railing of veranda and talking together. Ross stands straight and asks a question to Rachel. Rachel  steps back from the railing and looks at Ross with her arms crossed. When Ross starts talking, Rachel points at something. Suddenly, a cat jumps on Ross's shoulders. Ross gets so surprised that he screams."}, 
+			{ "description": "Phoebe, Monica, and Joey are talking together in the kitchen."}, 
+			{ "description": "In the veranda, Ross and Rachel are standing together. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why is Phoebe annoyed?", 
+				"answer": "Because Phoebe doesn't know surprise party.", 
+				"wrong_answer1": "Because Phoebe doesn't have money.", 
+				"wrong_answer2": "Because Phoebe has a car accident.", 
+				"wrong_answer3": "Because Phoebe is bullied by Joey.", 
+				"wrong_answer4": "Because Phoebe doesn't has clothes." } 
+			} ,
+			{ "qa": { 
+				"question": "Who is in the veranda?", 
+				"answer": "Ross and Rachel.", 
+				"wrong_answer1": "Ross and Monica.", 
+				"wrong_answer2": "Monica and Joey.", 
+				"wrong_answer3": "Joey and Phoebe.", 
+				"wrong_answer4": "Phoebe and Joey." } 
+				} ,
+			{ "qa": { 
+				"question": "What makes Ross surprised?", 
+				"answer": "A cat.", 
+				"wrong_answer1": "A dog.", 
+				"wrong_answer2": "A car.", 
+				"wrong_answer3": "A computer.", 
+				"wrong_answer4": "Coffee." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "148-155", 
+		"period_num": "10", 
+		"start_time": "00:13:02;04", 
+		"end_time": "00:14:05;16",
+		"description_info": 
+		[ 
+			{ "description": "In the livingroom, Joey, Phoebe, and Monica are singing together. Phoebe is playing the guitar on the sofa. Behind them, Ross with a cat on his shoulders are running around the veranda. Because of singing and playing, the friends in the livingroom cannot notice what happens in the veranda. Ross is sitting at the kitchen table with Rachel and Phoebe on the opposite. Joey and Monica are behind Ross spraying and looking at his back. Rachel is holding the cat and patting the cat with Phoebe. Ross and Rachel is arguing about the cat. In the ATM, Chandler is talking to Jill and thinking to himself."}, 
+			{ "description": "Ross and Rachel are sitting at the kitchen table on the opposite side. "}, 
+			{ "description": "Behind Ross, Monica is spraying his back, and Joey is looking at it with holding a candle tree."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is playing the guitar?", 
+				"answer": "Phoebe.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Ross.", 
+				"wrong_answer4": "Chandler." } 
+			} ,
+			{ "qa": { 
+				"question": "Why can't people in the livingroom notice Ross screaming?", 
+				"answer": "Because they are singing together inside the house.", 
+				"wrong_answer1": "Because they hate Ross.", 
+				"wrong_answer2": "Because they are deaf.", 
+				"wrong_answer3": "Because music from the radio is too loud.", 
+				"wrong_answer4": "Because they are not listening to others." } 
+				} ,
+			{ "qa": { 
+				"question": "How does Ross feel about the cat?", 
+				"answer": "He feels inhospitable to the cat.", 
+				"wrong_answer1": "He likes the cat.", 
+				"wrong_answer2": "He loves the cat. ", 
+				"wrong_answer3": "He wants to raise the cat.", 
+				"wrong_answer4": "He adores the cat." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "156-157", 
+		"period_num": "11", 
+		"start_time": "00:14:05;16", 
+		"end_time": "00:15:09;15",
+		"description_info": 
+		[ 
+			{ "description": "Rachel is holding a candle in her hand and walks the dark corridor. She stops in front of a house and knocks on the door with Phoebe. An old man comes out of the house. When they are talking about the cat on the doorway, the cat struggles and jumps out of Phoebe's holding. Because of the man's attitude, Rachel and Phoebe are leaving. Rachel walks the corridor with her back bended over and a candle in her hand and fiinds a handsome guy with the cat. She stands straight and faces him.   "}, 
+			{ "description": "Rachel walks the dark corridor with a candle in her hand."}, 
+			{ "description": "Rachel meets a handsome guy as she looks for a cat. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Rachel holding in her hand?", 
+				"answer": "A candle.", 
+				"wrong_answer1": "A cup.", 
+				"wrong_answer2": "A phone.", 
+				"wrong_answer3": "A book.", 
+				"wrong_answer4": "A laptop." } 
+			} ,
+			{ "qa": { 
+				"question": "Who do Rachel and Phoebe find first as a cat owner?", 
+				"answer": "An old man.", 
+				"wrong_answer1": "A girl. ", 
+				"wrong_answer2": "A boy.", 
+				"wrong_answer3": "An old lady.", 
+				"wrong_answer4": "A handsome guy." } 
+				} ,
+			{ "qa": { 
+				"question": "Who does Rachel find next to an old man as a catowner?", 
+				"answer": "A handsome guy.", 
+				"wrong_answer1": "A boy.", 
+				"wrong_answer2": "A girl.", 
+				"wrong_answer3": "An old lady.", 
+				"wrong_answer4": "An old man." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "158-173", 
+		"period_num": "12", 
+		"start_time": "00:15:09;15", 
+		"end_time": "00:16:40;11",
+		"description_info": 
+		[ 
+			{ "description": "Rachel and the handsome guy from Italy, Paolo, come to the house together. Rachel takes his arms and leans on him. She introduces him to others, Monica, Ross, and Joey. In the livingroom, Rachel and Paolo are standing together, and Rachel keeps touching him. All stand around the table. Ross. Phoebe tiredly comes in the house and feels disappointed that she doesn't know that Rachel's already found the cat. However, she feels better when Paolo greets her.  "}, 
+			{ "description": "Rachel comes in the house and introduces him to others."}, 
+			{ "description": "She keeps touching Paolo and shows her interests in him."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who does Rachel bring to the house?", 
+				"answer": "Paolo, a handsome Italian guy.", 
+				"wrong_answer1": "Chandler.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Rachel's parents.", 
+				"wrong_answer4": "An old man." } 
+			} ,
+			{ "qa": { 
+				"question": "How does Rachel feel about Paolo?", 
+				"answer": "Rachel is interested in Paolo.", 
+				"wrong_answer1": "Rachel is inhospitable to Paolo.", 
+				"wrong_answer2": "Rachel is angry at Paolo.", 
+				"wrong_answer3": "Rachel is sick of Paolo.", 
+				"wrong_answer4": "Rachel hates Paolo." } 
+				} ,
+			{ "qa": { 
+				"question": "How does Phoebe feel when she knows that Rachel's already found the cat?", 
+				"answer": "Phoebe is disappointed.", 
+				"wrong_answer1": "Phoebe is sad.", 
+				"wrong_answer2": "Phoebe is happy.", 
+				"wrong_answer3": "Phoebe is excited.", 
+				"wrong_answer4": "Phoebe is satisfied." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "174-186", 
+		"period_num": "13", 
+		"start_time": "00:16:40;11", 
+		"end_time": "00:17:59;19",
+		"description_info": 
+		[ 
+			{ "description": "In the ATM, Chandler is standing and glancing at Jill. He tries to blow the gum to draw Jill's attention. Jill is sitting on the floor and leaning against the wall. However, he fails to blow and spits the gum out on the wall. Then, he pretends to chew the dropped gum again feeling embarrassed. He faces her thinking to himself, but suddenly he is choking on the gum. She notices his state, gives him Heimlich Maneuver, and saves him. They start talking after this event."}, 
+			{ "description": "In the ATM, Chandler and Jill are together. "}, 
+			{ "description": "Chandler chews a gum and spits it at the wall. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is in the ATM vestibule?", 
+				"answer": "Chandler and Jill.", 
+				"wrong_answer1": "Chandler and Monica.", 
+				"wrong_answer2": "Monica and Ross.", 
+				"wrong_answer3": "Ross and Rachel.", 
+				"wrong_answer4": "Rachel and Joey." } 
+			} ,
+			{ "qa": { 
+				"question": "What does Chandler do to draw Jill's attention?", 
+				"answer": "Chandler tries to blow the gum. ", 
+				"wrong_answer1": "Chandler starts talking to Jill. ", 
+				"wrong_answer2": "Chandler gives money to Jill.", 
+				"wrong_answer3": "Chandler jumps up and down.", 
+				"wrong_answer4": "Chandler starts singing." } 
+				} ,
+			{ "qa": { 
+				"question": "What happens to Chandler?", 
+				"answer": "Chandler is choking on the gum.", 
+				"wrong_answer1": "Chandler's car breaks down.", 
+				"wrong_answer2": "Chandler lost his wallet.", 
+				"wrong_answer3": "Chandler looses his mind.", 
+				"wrong_answer4": "Chandler finds a cat." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "187-190", 
+		"period_num": "14", 
+		"start_time": "00:17:59;19", 
+		"end_time": "00:19:09;23",
+		"description_info": 
+		[ 
+			{ "description": "At home, Rachel and Paolo are talking to each other by the window. She happily turns around and comes back to others  in the kitchen. Monica and Phoebe are sitting at the kitchen table. All of the three women have intesrests in Paolo. Joey and Ross standing by the fridge. After they exchange eye contact, Ross approaches Paolo."}, 
+			{ "description": "Rachel and Paolo are talking together by the window."}, 
+			{ "description": "Joey and Ross are standing in the kitchen together."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Can Rachel understand Paolo?", 
+				"answer": "No, Rachel can't understand Paolo.", 
+				"wrong_answer1": "Yes, Rachel can speak Italian.", 
+				"wrong_answer2": "Yes, Rachel exchanges telepathy.", 
+				"wrong_answer3": "Yes, Rachel and Paolo use bodylanguage.", 
+				"wrong_answer4": "Yes, Rachel can read paolo's mind." } 
+			} ,
+			{ "qa": { 
+				"question": "Who is sitting at the table?", 
+				"answer": "Phoebe and Monica.", 
+				"wrong_answer1": "Chandler and Joey.", 
+				"wrong_answer2": "Joey and Ross.", 
+				"wrong_answer3": "Ross and Chandler.", 
+				"wrong_answer4": "Chandler and Monica." } 
+				} ,
+			{ "qa": { 
+				"question": "What is Ross doing after he talked to Joey?", 
+				"answer": "Ross is approaching Paolo.", 
+				"wrong_answer1": "Ross is cooking dinner.", 
+				"wrong_answer2": "Ross is singing.", 
+				"wrong_answer3": "Ross is talking on the phone.", 
+				"wrong_answer4": "Ross is drinking water." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "191-196", 
+		"period_num": "15", 
+		"start_time": "00:19:09;23", 
+		"end_time": "00:20:20;10",
+		"description_info": 
+		[ 
+			{ "description": "Ross approaches Paolo and greets him. Ross starts talking to Paolo as much as he can. He speaks English slolwy and uses a lot of body language considering that Paolo can't speak English much. Ross puts his arms around Paolo's shoulders and induces Paolo to go with him away from where Rachel is, the kitchen. Ross persuades Paolo that he is interested in Rachel and asks him to step away from Rachel. Ross feels that Paolo understands him with his nodding, and they finishes talking with smiles and hugs. "}, 
+			{ "description": "Ross greets Paolo and talks with him about Rachel. "}, 
+			{ "description": "Ross and Paolo walk away from the kitchen and talk. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Does Ross speak Italian to Paolo?", 
+				"answer": "NO, Ross speaks English slowly and uses body language.", 
+				"wrong_answer1": "Yes, Ross can understand Paolo.", 
+				"wrong_answer2": "Yes, Ross can Italian and French.", 
+				"wrong_answer3": "Yes, Ross can read Paolo's mind in Italian.", 
+				"wrong_answer4": "Yes, Ross can speak Italian." } 
+			} ,
+			{ "qa": { 
+				"question": "About what is Ross talking to Paolo?", 
+				"answer": "Ross is talking to Paolo about Rachel.", 
+				"wrong_answer1": "Ross is talking to Paolo about the cat.", 
+				"wrong_answer2": "Ross is talking to Paolo about his computer.", 
+				"wrong_answer3": "Ross is talking to Paolo about his car.", 
+				"wrong_answer4": "Ross is talking to Paolo about his job." } 
+				} ,
+			{ "qa": { 
+				"question": "Why does Ross induce Paolo to walk away from the kitchen?", 
+				"answer": "Because Ross doesn't want Rachel to listen to talking between Ross and Paolo.", 
+				"wrong_answer1": "Because Ross hates Rachel.", 
+				"wrong_answer2": "Because Ross talks behind Rachel's back.", 
+				"wrong_answer3": "Because Ross wants to sit on the sofa in the livingroom.", 
+				"wrong_answer4": "Because Ross likes walking around the house." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "197-206", 
+		"period_num": "16", 
+		"start_time": "00:20:24;16", 
+		"end_time": "00:21:42;08",
+		"description_info": 
+		[ 
+			{ "description": "In the ATM, Jill and Chandler are sitting together on the floor under the shelves. They are playing with a pen attached to the shelves. Jill throws the pen in the air and circles around with the pen. Chandler is not good at throwing the pen and tumbles with Jill. "}, 
+			{ "description": "Jill and Chandler are sitting together under the shelves."}, 
+			{ "description": "Jill is throwing the pen in the air and circles around with it."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where are Chandler and Jill?", 
+				"answer": "Chandler and Jill are in the ATM.", 
+				"wrong_answer1": "Chandler and Jill are in the toilet.", 
+				"wrong_answer2": "Chandler and Jill are in the kitchen.", 
+				"wrong_answer3": "Chandler and Jill are in the office.", 
+				"wrong_answer4": "Chandler and Jill are in a restaurant." } 
+			} ,
+			{ "qa": { 
+				"question": "What are Jill and Chandler doing?", 
+				"answer": "Jill and Chandler are playing with the  pen.", 
+				"wrong_answer1": "Jill and Chandler are cooking.", 
+				"wrong_answer2": "Jill and Chandler are drinking water.", 
+				"wrong_answer3": "Jill and Chandler are playing a computer game.", 
+				"wrong_answer4": "Jill and Chandler are having dinner together." } 
+				} ,
+			{ "qa": { 
+				"question": "Is Chandler good at throwing a pen?", 
+				"answer": "No, he is not.", 
+				"wrong_answer1": "Yes, he is better than Jill.", 
+				"wrong_answer2": "Yes, he is good at throwing anything.", 
+				"wrong_answer3": "Yes, he is good at sports.", 
+				"wrong_answer4": "Yes, he is good at throwing a ball." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "207-213", 
+		"period_num": "17", 
+		"start_time": "00:21:42;08", 
+		"end_time": "00:22:26;10",
+		"description_info": 
+		[ 
+			{ "description": "At home, Phoebe and Monica are sitting on the floor together. Rachel is sitting on the armrest of sofa. Joey and Ross are sitting together on the sofa. Paolo is opposite of Joey and Ross. All sits around the table. Phoebe talks, and all is bored with her talking. When the lights are back on, Ross finds that Rachel is kissing Paolo and shocked. Joey stands up from a shock. Monica and Phoebe can't close their mouth. Joey consoles Ross. In the ATM, Jill gives a goodbye kiss to Chandler. Chandler misses her by sticking to the door and talking to the CCTV camera in the building for a copy of the video. "}, 
+			{ "description": "Rachel is kissing Paolo, and Ross is shocked by the scene."}, 
+			{ "description": "Jill gives a goodbye kiss to Chandler before she leaves."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Rachel doing?", 
+				"answer": "Rachel is kissing Paolo.", 
+				"wrong_answer1": "Rachel is kissing Ross.", 
+				"wrong_answer2": "Rachel is cooking dinner.", 
+				"wrong_answer3": "Rachel is drinking water.", 
+				"wrong_answer4": "Rachel is sleeping." } 
+			} ,
+			{ "qa": { 
+				"question": "How does Ross feel about Rachel kissing Paolo?", 
+				"answer": "Ross is shocked.", 
+				"wrong_answer1": "Ross is sad.", 
+				"wrong_answer2": "Ross is happy.", 
+				"wrong_answer3": "Ross is excited.", 
+				"wrong_answer4": "Ross is angry." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Jill do to Chandler?", 
+				"answer": "Jill gives a goodbye kiss to Chandler.", 
+				"wrong_answer1": "Jill gives money to him.", 
+				"wrong_answer2": "Jill gives a present to Chandler.", 
+				"wrong_answer3": "Jill prepares coffee for Chandler.", 
+				"wrong_answer4": "Jill treats Chandler a dinner." 
+				} 
+			} 
+		] 
+	}
+	]
+}

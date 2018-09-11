@@ -1,0 +1,1052 @@
+{
+	"file_name": "s01_ep07_tag2_sound_final",
+	"registed_name": "s01_ep07_tag2_sound_final",
+	"sound_results": 
+	[
+		{ 
+		"start_time": "1899-12-30 00:00:00", 
+		"end_time": "00:00:09", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:00:09", 
+		"end_time": "00:00:13", 
+		"sound_type": "clapping" 
+		},
+		{ 
+		"start_time": "00:00:12", 
+		"end_time": "00:00:23", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:00:27", 
+		"end_time": "00:00:28", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:00:28", 
+		"end_time": "00:00:29", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:00:29", 
+		"end_time": "00:00:33", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:00:36", 
+		"end_time": "00:00:36", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:00:39", 
+		"end_time": "00:00:42", 
+		"sound_type": "crashing" 
+		},
+		{ 
+		"start_time": "00:00:41", 
+		"end_time": "00:00:42", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:00:42", 
+		"end_time": "00:00:45", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:00:48", 
+		"end_time": "00:00:51", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:00:50", 
+		"end_time": "00:01:36", 
+		"sound_type": "background music" 
+		},
+		{ 
+		"start_time": "00:01:37", 
+		"end_time": "00:01:43", 
+		"sound_type": "background music" 
+		},
+		{ 
+		"start_time": "00:01:42", 
+		"end_time": "00:01:57", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:01:57", 
+		"end_time": "00:01:59", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:01:59", 
+		"end_time": "00:02:15", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:02:01", 
+		"end_time": "00:02:02", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:02:05", 
+		"end_time": "00:02:05", 
+		"sound_type": "crashing" 
+		},
+		{ 
+		"start_time": "00:02:12", 
+		"end_time": "00:02:14", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:02:15", 
+		"end_time": "00:02:17", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:02:17", 
+		"end_time": "00:03:07", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:02:25", 
+		"end_time": "00:02:27", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:02:35", 
+		"end_time": "00:02:38", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:02:40", 
+		"end_time": "00:02:43", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:02:48", 
+		"end_time": "00:02:52", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:02:59", 
+		"end_time": "00:03:01", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:03:07", 
+		"end_time": "00:03:14", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:03:15", 
+		"end_time": "00:03:16", 
+		"sound_type": "opening/closing doors" 
+		},
+		{ 
+		"start_time": "00:03:15", 
+		"end_time": "00:03:25", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:03:17", 
+		"end_time": "00:03:18", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:03:25", 
+		"end_time": "00:03:28", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:03:28", 
+		"end_time": "00:03:33", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:03:32", 
+		"end_time": "00:03:38", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:03:38", 
+		"end_time": "00:03:40", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:03:40", 
+		"end_time": "00:03:42", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:03:43", 
+		"end_time": "00:03:47", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:03:46", 
+		"end_time": "00:03:53", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:03:49", 
+		"end_time": "00:03:54", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:03:54", 
+		"end_time": "00:04:04", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:04:04", 
+		"end_time": "00:04:09", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:04:08", 
+		"end_time": "00:04:09", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:04:11", 
+		"end_time": "00:04:14", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:04:13", 
+		"end_time": "00:04:14", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:04:15", 
+		"end_time": "00:04:17", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:04:16", 
+		"end_time": "00:04:21", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:04:21", 
+		"end_time": "00:04:28", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:04:28", 
+		"end_time": "00:04:29", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:04:33", 
+		"end_time": "00:05:30", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:04:41", 
+		"end_time": "00:04:44", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:04:46", 
+		"end_time": "00:04:48", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:04:50", 
+		"end_time": "00:04:58", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:05:01", 
+		"end_time": "00:05:05", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:05:07", 
+		"end_time": "00:05:12", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:05:14", 
+		"end_time": "00:05:16", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:05:20", 
+		"end_time": "00:05:28", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:05:29", 
+		"end_time": "00:05:33", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:05:31", 
+		"end_time": "00:05:36", 
+		"sound_type": "background music" 
+		},
+		{ 
+		"start_time": "00:05:34", 
+		"end_time": "00:06:03", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:05:45", 
+		"end_time": "00:05:48", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:05:55", 
+		"end_time": "00:05:56", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:05:58", 
+		"end_time": "00:06:02", 
+		"sound_type": "laughing" 
+		},
+		{ 
+		"start_time": "00:05:58", 
+		"end_time": "00:06:00", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:06:04", 
+		"end_time": "00:06:09", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:06:08", 
+		"end_time": "00:06:51", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:06:16", 
+		"end_time": "00:06:20", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:06:24", 
+		"end_time": "00:06:28", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:06:30", 
+		"end_time": "00:06:33", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:06:47", 
+		"end_time": "00:06:54", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:06:54", 
+		"end_time": "00:07:02", 
+		"sound_type": "background music" 
+		},
+		{ 
+		"start_time": "00:06:59", 
+		"end_time": "00:08:22", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:07:07", 
+		"end_time": "00:07:10", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:07:12", 
+		"end_time": "00:07:15", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:07:23", 
+		"end_time": "00:07:25", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:07:26", 
+		"end_time": "00:07:28", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:07:51", 
+		"end_time": "00:07:58", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:08:22", 
+		"end_time": "00:08:27", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:08:30", 
+		"end_time": "00:08:41", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:08:32", 
+		"end_time": "00:08:33", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:08:41", 
+		"end_time": "00:08:43", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:08:44", 
+		"end_time": "00:08:46", 
+		"sound_type": "laughing" 
+		},
+		{ 
+		"start_time": "00:08:45", 
+		"end_time": "00:08:48", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:08:48", 
+		"end_time": "00:09:32", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:08:51", 
+		"end_time": "00:08:56", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:09:00", 
+		"end_time": "00:09:03", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:09:06", 
+		"end_time": "00:09:10", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:09:17", 
+		"end_time": "00:09:21", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:09:34", 
+		"end_time": "00:09:36", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:09:34", 
+		"end_time": "00:10:06", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:09:38", 
+		"end_time": "00:09:40", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:09:48", 
+		"end_time": "00:09:48", 
+		"sound_type": "opening/closing doors" 
+		},
+		{ 
+		"start_time": "00:09:49", 
+		"end_time": "00:09:53", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:10:03", 
+		"end_time": "00:10:05", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:10:07", 
+		"end_time": "00:10:11", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:10:11", 
+		"end_time": "00:10:30", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:10:14", 
+		"end_time": "00:10:17", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:10:20", 
+		"end_time": "00:10:23", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:10:30", 
+		"end_time": "00:10:33", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:10:40", 
+		"end_time": "00:10:41", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:10:48", 
+		"end_time": "00:10:50", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:10:52", 
+		"end_time": "00:10:58", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:10:57", 
+		"end_time": "00:11:01", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:11:02", 
+		"end_time": "00:11:04", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:11:06", 
+		"end_time": "00:11:08", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:11:07", 
+		"end_time": "00:11:12", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:11:13", 
+		"end_time": "00:11:14", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:11:13", 
+		"end_time": "00:11:16", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:11:18", 
+		"end_time": "00:12:18", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:11:25", 
+		"end_time": "00:11:27", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:11:41", 
+		"end_time": "00:11:43", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:11:52", 
+		"end_time": "00:11:54", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:11:58", 
+		"end_time": "00:11:59", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:12:05", 
+		"end_time": "00:12:08", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:12:09", 
+		"end_time": "00:12:11", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:12:14", 
+		"end_time": "00:12:17", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:12:18", 
+		"end_time": "00:12:22", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:12:24", 
+		"end_time": "00:13:00", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:12:41", 
+		"end_time": "00:12:43", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:12:44", 
+		"end_time": "00:12:45", 
+		"sound_type": "laughing" 
+		},
+		{ 
+		"start_time": "00:12:57", 
+		"end_time": "00:13:02", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:13:01", 
+		"end_time": "00:13:01", 
+		"sound_type": "shouting" 
+		},
+		{ 
+		"start_time": "00:13:07", 
+		"end_time": "00:13:17", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:13:18", 
+		"end_time": "00:13:22", 
+		"sound_type": "background music" 
+		},
+		{ 
+		"start_time": "00:13:19", 
+		"end_time": "00:13:40", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:13:26", 
+		"end_time": "00:13:30", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:13:35", 
+		"end_time": "00:13:37", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:13:40", 
+		"end_time": "00:13:44", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:13:44", 
+		"end_time": "00:14:04", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:13:46", 
+		"end_time": "00:13:48", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:13:49", 
+		"end_time": "00:13:51", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:13:59", 
+		"end_time": "00:14:01", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:14:03", 
+		"end_time": "00:14:08", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:14:04", 
+		"end_time": "00:14:04", 
+		"sound_type": "crashing" 
+		},
+		{ 
+		"start_time": "00:14:07", 
+		"end_time": "00:14:09", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:14:10", 
+		"end_time": "00:14:12", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:14:12", 
+		"end_time": "00:14:14", 
+		"sound_type": "knocking" 
+		},
+		{ 
+		"start_time": "00:14:14", 
+		"end_time": "00:14:15", 
+		"sound_type": "opening/closing doors" 
+		},
+		{ 
+		"start_time": "00:14:15", 
+		"end_time": "00:14:46", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:14:23", 
+		"end_time": "00:14:25", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:14:29", 
+		"end_time": "00:14:31", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:14:33", 
+		"end_time": "00:14:35", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:14:37", 
+		"end_time": "00:14:40", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:14:46", 
+		"end_time": "00:14:50", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:14:49", 
+		"end_time": "00:14:50", 
+		"sound_type": "opening/closing doors" 
+		},
+		{ 
+		"start_time": "00:14:51", 
+		"end_time": "00:15:11", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:15:11", 
+		"end_time": "00:15:15", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:15:13", 
+		"end_time": "00:15:17", 
+		"sound_type": "background music" 
+		},
+		{ 
+		"start_time": "00:15:15", 
+		"end_time": "00:16:36", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:15:16", 
+		"end_time": "00:15:19", 
+		"sound_type": "opening/closing doors" 
+		},
+		{ 
+		"start_time": "00:15:28", 
+		"end_time": "00:15:29", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:15:31", 
+		"end_time": "00:15:33", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:15:37", 
+		"end_time": "00:15:38", 
+		"sound_type": "laughing" 
+		},
+		{ 
+		"start_time": "00:15:40", 
+		"end_time": "00:15:42", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:15:43", 
+		"end_time": "00:15:50", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:15:43", 
+		"end_time": "00:15:45", 
+		"sound_type": "laughing" 
+		},
+		{ 
+		"start_time": "00:15:43", 
+		"end_time": "00:15:46", 
+		"sound_type": "clapping" 
+		},
+		{ 
+		"start_time": "00:15:54", 
+		"end_time": "00:15:55", 
+		"sound_type": "laughing" 
+		},
+		{ 
+		"start_time": "00:15:58", 
+		"end_time": "00:16:00", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:16:03", 
+		"end_time": "00:16:06", 
+		"sound_type": "laughing" 
+		},
+		{ 
+		"start_time": "00:16:08", 
+		"end_time": "00:16:12", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:16:13", 
+		"end_time": "00:16:13", 
+		"sound_type": "opening/closing doors" 
+		},
+		{ 
+		"start_time": "00:16:21", 
+		"end_time": "00:16:23", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:16:36", 
+		"end_time": "00:16:40", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:16:38", 
+		"end_time": "00:16:43", 
+		"sound_type": "background music" 
+		},
+		{ 
+		"start_time": "00:16:40", 
+		"end_time": "00:17:49", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:16:54", 
+		"end_time": "00:17:03", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:17:04", 
+		"end_time": "00:17:05", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:17:20", 
+		"end_time": "00:17:23", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:17:28", 
+		"end_time": "00:17:35", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:17:37", 
+		"end_time": "00:17:39", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:17:50", 
+		"end_time": "00:17:55", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:17:53", 
+		"end_time": "00:20:20", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:18:02", 
+		"end_time": "00:18:09", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:18:08", 
+		"end_time": "00:18:11", 
+		"sound_type": "laughing" 
+		},
+		{ 
+		"start_time": "00:18:16", 
+		"end_time": "00:18:17", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:18:19", 
+		"end_time": "00:18:20", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:18:25", 
+		"end_time": "00:18:27", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:18:32", 
+		"end_time": "00:18:33", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:18:42", 
+		"end_time": "00:18:46", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:18:47", 
+		"end_time": "00:18:49", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:18:56", 
+		"end_time": "00:19:01", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:19:08", 
+		"end_time": "00:19:09", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:19:25", 
+		"end_time": "00:19:26", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:19:31", 
+		"end_time": "00:19:33", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:19:47", 
+		"end_time": "00:19:49", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:19:51", 
+		"end_time": "00:19:52", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:19:59", 
+		"end_time": "00:20:03", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:20:04", 
+		"end_time": "00:20:09", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:20:15", 
+		"end_time": "00:20:18", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:20:19", 
+		"end_time": "00:20:25", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:20:25", 
+		"end_time": "00:20:39", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:20:32", 
+		"end_time": "00:20:35", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:20:37", 
+		"end_time": "00:20:43", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:20:44", 
+		"end_time": "00:21:05", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:20:55", 
+		"end_time": "00:20:58", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:20:59", 
+		"end_time": "00:21:03", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:21:06", 
+		"end_time": "00:21:17", 
+		"sound_type": "shouting" 
+		},
+		{ 
+		"start_time": "00:21:07", 
+		"end_time": "00:21:09", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:21:18", 
+		"end_time": "00:21:28", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:21:27", 
+		"end_time": "00:21:33", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:21:33", 
+		"end_time": "00:21:36", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:21:34", 
+		"end_time": "00:21:37", 
+		"sound_type": "background music" 
+		},
+		{ 
+		"start_time": "00:21:38", 
+		"end_time": "00:21:44", 
+		"sound_type": "background music" 
+		},
+		{ 
+		"start_time": "00:21:42", 
+		"end_time": "00:21:57", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:21:50", 
+		"end_time": "00:21:51", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:22:00", 
+		"end_time": "00:22:04", 
+		"sound_type": "opening/closing doors" 
+		},
+		{ 
+		"start_time": "00:22:07", 
+		"end_time": "00:22:12", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:22:13", 
+		"end_time": "00:22:22", 
+		"sound_type": "speaking" 
+		},
+		{ 
+		"start_time": "00:22:22", 
+		"end_time": "00:22:31", 
+		"sound_type": "background laughing" 
+		},
+		{ 
+		"start_time": "00:22:23", 
+		"end_time": "00:22:31", 
+		"sound_type": "background music" 
+		}
+	]
+}

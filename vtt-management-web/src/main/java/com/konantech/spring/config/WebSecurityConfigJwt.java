@@ -44,8 +44,7 @@ public class WebSecurityConfigJwt extends WebSecurityConfigurerAdapter {
 
 	@Override
 	public void configure(WebSecurity web) throws Exception {
-    	// resources
-		web.ignoring().antMatchers("/resources/**", "/js/**", "/custom/**", "/css/**", "/img/**", "/fonts/**", "/*", "/");
+		web.ignoring().antMatchers("/resources/**", "/docs/**", "/*", "/");
 	}
 
 	@Override
@@ -56,6 +55,9 @@ public class WebSecurityConfigJwt extends WebSecurityConfigurerAdapter {
 				.csrf().disable()
 				.authorizeRequests()
 
+				// 개발임시
+				.antMatchers("/v2/**").permitAll()
+
 				// web
 				.antMatchers("/user/**").permitAll()
 
@@ -64,10 +66,7 @@ public class WebSecurityConfigJwt extends WebSecurityConfigurerAdapter {
 				.antMatchers("/v2/api-docs").permitAll()
 				.antMatchers("/webjars/**").permitAll()
 				.antMatchers("/swagger*/**").permitAll()
-//				.antMatchers("/docs*/**").permitAll()
-
-				// 개발임시
-				.antMatchers("/v2/**").permitAll()
+				.antMatchers("/docs/**").permitAll()
 
 				.anyRequest().authenticated()
 				.and()
@@ -81,7 +80,6 @@ public class WebSecurityConfigJwt extends WebSecurityConfigurerAdapter {
 				.logout()
 				.logoutRequestMatcher(new AntPathRequestMatcher("/user/logout"))
 				.logoutSuccessUrl("/user/login?logout");
-
 
 		http.addFilterBefore(authenticationTokenFilterBean(), UsernamePasswordAuthenticationFilter.class);
 	}

@@ -9,100 +9,51 @@ function toast(heading, text, icon, hideAfter) {
     });
 }
 
+
+function returnmsg(param) {
+    if (param == "cancel") {
+        return "취소";
+    } else if (param == "cancel.msg") {
+        return "취소 되었습니다";
+    } else if (param == "approve") {
+        return "승인";
+    } else if (param == "ok") {
+        return "확인";
+    } else if (param == "add") {
+        return "등록";
+    } else if (param == "caution") {
+        return "주의";
+    } else if (param == "error") {
+        return "오류";
+    }
+}
+
 var MSG = {
-    alert: function (heading, text, icon, hideAfter) {
-        $.toast({
-            heading: heading,
-            text: text,
-            icon: icon,
-            showHideTransition: "slide",
-            hideAfter: hideAfter
-        });
-    },
-
-    reload: function (title, contentMSG, isReload, location) {
-        $.SmartMessageBox({
-            title: title,
-            content: contentMSG,
-            buttons: '[' + returnmsg("ok")  +']'
-        }, function (ButtonPressed) {
-            if (ButtonPressed === returnmsg("ok")) {
-                if (isReload) {
-                    if (location == '' || location == null) {
-                        window.location.reload();
-                    } else {
-                        window.location.href = location;
-                    }
-                }
-            }
-        });
-    },
-
-    reloads: function (title, contentMSG, location1, location2) {
-        $.SmartMessageBox({
-            title: title,
-            content: contentMSG,
-            buttons: '[' + returnmsg("ok") + '][' + returnmsg("add") + ']'
-        }, function (ButtonPressed) {
-            if (ButtonPressed === returnmsg("add")) {
-                window.location.href = location1;
-            }
-
-            if (ButtonPressed === returnmsg("ok")) {
-                window.location.href = location2;
-            }
-        });
-    },
-
-    confirm: function (title, contentMSG, callback) {
-        $.SmartMessageBox({
-            title: title,
-            content: contentMSG,
-            buttons: '[' + returnmsg("cancel") + '][' + returnmsg("approve") + ']'
-        }, function (ButtonPressed) {
-            if (ButtonPressed === returnmsg("approve")) {
-                if (callback) {
+    alert: function (text, callback) {
+        bootbox.alert({
+            message: text,
+            callback: function () {
+                if(callback) {
                     callback.apply();
                 }
             }
-            if (ButtonPressed === returnmsg("cancel")) {
-                $.toast({
-                    heading: returnmsg("cancel"),
-                    text: returnmsg("cancel.msg"),
-                    icon: "info",
-                    showHideTransition: "slide",
-                    hideAfter: 5000
-                });
-            }
-        });
+        })
     },
-
-    warning : function(contentMSG) {
-        $.SmartMessageBox({
-            title : returnmsg("caution"),
-            content : contentMSG,
-            buttons : '[' + returnmsg("ok")  +']'
-        }, function(ButtonPressed) {
-        });
-    },
-
-    error : function(contentMSG) {
-        $.SmartMessageBox({
-            title : returnmsg("error"),
-            content : contentMSG,
-            buttons : '[' + returnmsg("ok")  +']'
-        }, function(ButtonPressed) {
-        });
-    },
-
-    callback : function(heading, contentMSG, callback) {
-        $.SmartMessageBox({
-            title: heading,
-            content: contentMSG,
-            buttons: '[' + returnmsg("ok")  +']'
-        }, function (ButtonPressed) {
-            if (ButtonPressed === returnmsg("ok")) {
-                if(callback) {
+    confirm: function (text, callback) {
+        bootbox.confirm({
+            message: text,
+            buttons: {
+                confirm: {
+                    label: 'Yes',
+                    className: 'btn-success'
+                },
+                cancel: {
+                    label: 'No',
+                    className: 'btn-danger'
+                }
+            },
+            callback: function (result) {
+                if(result && callback) {
                     callback.apply();
                 }
             }
@@ -113,7 +64,6 @@ var MSG = {
 
 
 var myPlayer1 = null;
-// videojs.options.flash.swf = "/custom/js/plugins/video-js/video-js.swf";
 var player = {
     init: function(id, type, streamUrl, imageUrl) {
         if (myPlayer1 != null) {
@@ -136,6 +86,14 @@ var player = {
                     $("#" + id + " audio").attr("poster", imageUrl);
                 }
             });
+
+            jsplayer.on('timeupdate', function(){
+                // var currentTime = $("#" + id + " .vjs-duration").text(time2Code("video", jsplayer.currentTime(), 29.97));
+                // $("#currentTime").text(currentTime.text());
+                $("#currentTime").text(jsplayer.currentTime());
+            });
+
+
         } catch(e) {};
     }
 }

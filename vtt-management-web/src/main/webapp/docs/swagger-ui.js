@@ -3133,13 +3133,6 @@ Handlebars.registerHelper('renderTextParam', function(param) {
         result += ' name=\'' + name +'\' placeholder=\'' + (param.required ? '(required)' : '') + '\'' + idAtt + dataVendorExtensions;
         result += ' type=\'' + type + '\' value=\'' + defaultValue + '\'/>';
     }
-
-    if (param.type == 'string') {
-        result = '<textarea class=\'body-textarea' + (param.required ? ' required' : '') + '\' name=\'' + name + '\'' + idAtt + dataVendorExtensions;
-        result += ' placeholder=\'Provide multiple values in new lines' + (param.required ? ' (at least one required).' : '.') + '\'>';
-        result += defaultValue + '</textarea>';
-    }
-
     return new Handlebars.SafeString(result);
 });
 

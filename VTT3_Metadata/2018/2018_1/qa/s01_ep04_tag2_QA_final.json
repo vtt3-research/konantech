@@ -1,0 +1,607 @@
+{ 
+	"file_name": "s01_ep04_tag2_QA_final",
+	"registed_name": "s01_ep04_tag2_QA_final", 
+	"qa_results": 
+	[ 
+		{ 
+		"visual_period_num": "1, 2, 3, 4, 5-56", 
+		"period_num": "1", 
+		"start_time": "00:00:05;07", 
+		"end_time": "00:01:41;06",
+		"description_info": 
+		[ 
+			{ "description": "In the café, Ross, Chandler, Phoebe, and Monica are sitting around the table. They are sitting on the sofa each. Phoebe is sitting on the floor. Monica putting a magazine on her laps and Ross holding a blue cup in his hand are sitting opposite. Rachel is serving food. They are talking about what they would do if they were omnipotent. Pboebe is talking, and everyone is listening to her. Rachel is standing, talking, and walking towards the bar. Joey comes into the cafe and sits on the stool. He doesn't understand the word and offends Ross. The opening song starts with Friends title showing the picture of New York City. All six friends gather around the sofa in front of fountain. They are holding umbrellas in various colors. In the cafe, Rachel is sitting on the arm of sofa. Monica and Phoebe are sitting together on the sofa. At home, Ross, Joey, and Chandler are standing in a row and lining up to say hello. Outside, all of them are dancing together. Ross and Monica are dancing in front of the fountain. Ross greets Joey and holds Joey's shoulder with his hand. On the sofa, Monica is plyaing cards with others including Phoebe next to her. In a theater, all friends except Joey gives applause. At home, a man and Phoebe are hugging. Monica is sitting behind them. In the cafe, Rachel is posturing with holding the tray in her hand. Rachel comes into the cafe with a shopping bag happily.  Chandler and Rachel are dancing together. Monica is sitting and talking. At home, Monica is walking around and talking enthusiastically. Chandler and Monica dances. Phoebe is making motions with waving her hand up and down. She is sitting down on the floor and pointing at somebody. Phoebe, Monica, and Rachel all gather around the window. In the cafe, Joey, Ross, and Chandler are sitting together. Joey is holding the back of the chain with his hands. Chandler shows his emotions such as happiness and frustration. At work, Ross is waving his hand around the mummy. Rachel and Monica highfive. Ross and Chandler highfive. Ross hugs Monica. All friends are sitting on the sofa together watching the fountain in front of them. There is a floor lamp next to the sofa."}, 
+			{ "description": "Ross, Chandler, Phoebe, and Monica are sitting around the table. "}, 
+			{ "description": "Phoebe is sitting on the floor inbetween Chandler and Monica."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is sitting on the floor?", 
+				"answer": "Phoebe.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Joey.", 
+				"wrong_answer3": "Rachel.", 
+				"wrong_answer4": "Chandler." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Rachel doing?", 
+				"answer": "She is serviing food.", 
+				"wrong_answer1": "She is dancing.", 
+				"wrong_answer2": "She is singing.", 
+				"wrong_answer3": "She is cooking.", 
+				"wrong_answer4": "She is shopping." } 
+				} ,
+			{ "qa": { 
+				"question": "What is Ross holding?", 
+				"answer": "He is holding a cup.", 
+				"wrong_answer1": "He is holding a book.", 
+				"wrong_answer2": "He is holding a phone.", 
+				"wrong_answer3": "He is holding Rachel's hand.", 
+				"wrong_answer4": "He is holding a pen. " 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "57-75", 
+		"period_num": "2", 
+		"start_time": "00:01:44;01", 
+		"end_time": "00:02:50;23",
+		"description_info": 
+		[ 
+			{ "description": "In the café, Phoebe is sitting down on the same sofa with Ross. She leans back into the chair and sleeps peacfully. Monica and Ross appreciate her posture, but Phoebe wakes up suddenly. That makes Monica get surprised. She explains that she can't sleep because of her grandmother. Joey comes in with Chandler talking.  Both of them go to Ross. Joey walks around the sofa and puts his hand on the sofa. Joey jumps over the sofa and sits next to Ross. They show Ross the tickets for hockey game and persuade Ross to join them. "}, 
+			{ "description": "Phoebe sleeps peacefully on the sofa and suddenly wakes up."}, 
+			{ "description": "Joey jumps over the sofa and sits next to Ross. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is sleeping?", 
+				"answer": "Phoebe.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Ross. ", 
+				"wrong_answer4": "Joey." } 
+			} ,
+			{ "qa": { 
+				"question": "Why is Phoebe so tired?", 
+				"answer": "Because of her grandmother.", 
+				"wrong_answer1": "Because of her work.", 
+				"wrong_answer2": "Because of neighbors.", 
+				"wrong_answer3": "Because of traffic jam.", 
+				"wrong_answer4": "Because of her mother." } 
+				} ,
+			{ "qa": { 
+				"question": "What do Chandler and Joey do?", 
+				"answer": "They persuade Ross to go to watch hockey together.", 
+				"wrong_answer1": "They listen to Ross.", 
+				"wrong_answer2": "They listen to Phoebe's talking.", 
+				"wrong_answer3": "They are sleeping.", 
+				"wrong_answer4": "They enjoy playing games." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "76-96", 
+		"period_num": "3", 
+		"start_time": "00:03:02;23", 
+		"end_time": "00:04:29;03",
+		"description_info": 
+		[ 
+			{ "description": "Chandler and Ross overact and pretend to be friendly with Ross. Ross feels wonders why they do that and figures out the reason. It is that they have extra ticket and can't find another person to go with. Suddenly, Ross realizes what date it is and tries to leave the seat. Chandler and Joey follow and stop him to persuade. He agreed to go with them. Rachel waves a piece of paper in her hand and makes a fuss about it. It is her paycheck. Everyone praises her. Phoebe is sitting at one end of sofa and looking at Rachel. She mentions her first paycheck."}, 
+			{ "description": "Ross, Chandler, and Joey are standing behind the sofa."}, 
+			{ "description": "Rachel makes fuss about her first paycheck and runs towards the sofa where Monica and Phoebe are sitting."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What do Chandler and Joey do?", 
+				"answer": "They pretend to be friendly with Ross.", 
+				"wrong_answer1": "They pretend to hate Ross.", 
+				"wrong_answer2": "They go to hockey game.", 
+				"wrong_answer3": "They enjoy watching TV.", 
+				"wrong_answer4": "They talk to a lady." } 
+			} ,
+			{ "qa": { 
+				"question": "Does Ross agree to go hockey game?", 
+				"answer": "Yes, he agrees.", 
+				"wrong_answer1": "No, he disagrees.", 
+				"wrong_answer2": "No, he goes to market.", 
+				"wrong_answer3": "No, he goes to office.", 
+				"wrong_answer4": "No, he is busy." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Rachel bring with her?", 
+				"answer": "Her paycheck.", 
+				"wrong_answer1": "Coffee.", 
+				"wrong_answer2": "Cookies and sandwitch.", 
+				"wrong_answer3": "Cups and saucers.", 
+				"wrong_answer4": "Umbrella." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "97-121", 
+		"period_num": "4", 
+		"start_time": "00:04:42;12", 
+		"end_time": "00:05:58;02",
+		"description_info": 
+		[ 
+			{ "description": "Rachel sits on the stool and opens up her paycheck. As she check it, she feels frustrated and complains about it. She gives it to Chandler and three men, Chandler, Joey, and Ross, check it. They all pass it around and gather money for Rachel. After that, the three men go for hockey. They encounter three women who don't look fit the cafe. They are holding a lot of shopping bags and wearing luxurious clothes and accessories. The three men leave the cafe and the three women look for Rachel. Rachel and the three shout and hug. "}, 
+			{ "description": "All friends pass around Rachel's paycheck and gather money for her."}, 
+			{ "description": "Three women with luxurious clothes and accessories come into the café."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How does Rachel feel about her paycheck?", 
+				"answer": "She feels frustrated.", 
+				"wrong_answer1": "She feels anxious.", 
+				"wrong_answer2": "She feels great.", 
+				"wrong_answer3": "She feels anger.", 
+				"wrong_answer4": "She feels excited." } 
+			} ,
+			{ "qa": { 
+				"question": "What do friends do after they see Rachel's paycheck?", 
+				"answer": "They gather money for her.", 
+				"wrong_answer1": "They ask her for a treat.", 
+				"wrong_answer2": "They look down on her.", 
+				"wrong_answer3": "They bullies her.", 
+				"wrong_answer4": "They speak ill of her boss." } 
+				} ,
+			{ "qa": { 
+				"question": "Who do Ross, Chandler, and Joey enter as they leave the café?", 
+				"answer": "Three women with luxurious clothes and accessories.", 
+				"wrong_answer1": "", 
+				"wrong_answer2": "Rachel's parents.", 
+				"wrong_answer3": "Ross and Monica.", 
+				"wrong_answer4": "Rachel and Phoebe." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "122-147", 
+		"period_num": "5", 
+		"start_time": "00:06:00;22", 
+		"end_time": "00:07:31;10",
+		"description_info": 
+		[ 
+			{ "description": "Rachel is holding hands of one of the women and greeting others. They are all standing behind the sofa in the cafe. As they break their news to her one by one, all four of them, Rachel and her three friends, are shouting and stamping their feet. Phoebe and Monica are watching them and mocking their actions in their seats on the sofa. On the road, Chandler, Ross, and Joey are walking together. Joey and Chandler are excited while Ross is emotional about objects on the street thinking about his ex-wife, Carole. "}, 
+			{ "description": "Rachel and her three friends are greeting and sharing news to each other."}, 
+			{ "description": "Phoebe and Monica are mocking Rachel and her three friends talking and shouting together."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who are sitting on the sofa?", 
+				"answer": "Monica and Phoebe.", 
+				"wrong_answer1": "Rachel and her three friends.", 
+				"wrong_answer2": "Joey and Ross.", 
+				"wrong_answer3": "Ross and Monica.", 
+				"wrong_answer4": "Chandler and Monica." } 
+			} ,
+			{ "qa": { 
+				"question": "What do Monica and Phoebe do after they see Rachel and her three friends?", 
+				"answer": "Monica and Phoebe mock their actions.", 
+				"wrong_answer1": "Monica and Phoebe envy them.", 
+				"wrong_answer2": "Monica and Phoebe enjoy watching it.", 
+				"wrong_answer3": "Monica and Phoebe talk about their work.", 
+				"wrong_answer4": "Monica and Phoebe are being jealous. " } 
+				} ,
+			{ "qa": { 
+				"question": "Where is Ross being emotional?", 
+				"answer": "On the street.", 
+				"wrong_answer1": "In a theater.", 
+				"wrong_answer2": "In a sports stadium.", 
+				"wrong_answer3": "At a hotel.", 
+				"wrong_answer4": "At home." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "148-169", 
+		"period_num": "6", 
+		"start_time": "00:07:34;22", 
+		"end_time": "00:09:09;02",
+		"description_info": 
+		[ 
+			{ "description": "In the café, Rachel is sitting inbetween her friends. One of her friends is sitting alone apart on a chair. On the sofa, two friends are sitting with Rachel. In front of them, there is a small round table with cups and vases scattered around. The three women, Rachel and her two friends, are talking seriously. Rache, tired,  comes back home.  Monica and Phoebe are waiting for her. Monica prepares drink for her. Rachel takes it in the blender and go to the sofa. Phoebe brings a board game to her. "}, 
+			{ "description": "Rachel comes back home and feels tired."}, 
+			{ "description": "Monica prepares drink for Rachel, and Phoebe prepares a board game. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who comes back home?", 
+				"answer": "Rachel.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Joey.", 
+				"wrong_answer4": "Chandler." } 
+			} ,
+			{ "qa": { 
+				"question": "How does Rachel feel now?", 
+				"answer": "She feels tired.", 
+				"wrong_answer1": "She feels anxious.", 
+				"wrong_answer2": "She feels terrible.", 
+				"wrong_answer3": "She feels excited.", 
+				"wrong_answer4": "She feels great." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Phoebe prepare for Rachel?", 
+				"answer": "A board game.", 
+				"wrong_answer1": "A computer game.", 
+				"wrong_answer2": "A video game.", 
+				"wrong_answer3": "A cup of coffee.", 
+				"wrong_answer4": "An ice cream." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "170-184", 
+		"period_num": "7", 
+		"start_time": "00:09:13;22", 
+		"end_time": "00:10:39;11",
+		"description_info": 
+		[ 
+			{ "description": "Rachel is sitting on the sofa alone. Monica goes to her and takes a call instead of her. Monica stands by the sofa passes the message to Rachel. They are talking about the message and Rachel turns her head and stands up from the sofa thinking that the message is absurd. She faces Monica again and explains why she gets so angry. She is almost crying and opening up the plastic mat for Twister. In the hockey stadium, Ross, Chandler, and Joey try to find their seats in the stands. Finding his seat, Chandler goes over the line behind and Ross and Joey sit together."}, 
+			{ "description": "Rachel is sitting on the sofa alone, and Monica takes a phone call for her."}, 
+			{ "description": "Rachel gets angry about the phone call and gets emotinal."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Whose phone call does Monica take?", 
+				"answer": "Rachel's.", 
+				"wrong_answer1": "Phoebe's.", 
+				"wrong_answer2": "Chandler's.", 
+				"wrong_answer3": "Neighbor's", 
+				"wrong_answer4": "Monica's parents'." } 
+			} ,
+			{ "qa": { 
+				"question": "How does Rachel feel about the phone call?", 
+				"answer": "She feels upset and emotional.", 
+				"wrong_answer1": "She feels excited.", 
+				"wrong_answer2": "She feels nervous.", 
+				"wrong_answer3": "She feels embarrassed.", 
+				"wrong_answer4": "She feels great." } 
+				} ,
+			{ "qa": { 
+				"question": "Do Chandler,Ross, and Joey sit together?", 
+				"answer": "No, Chandler goes over the line to find his seat.", 
+				"wrong_answer1": "Yes, they sit in a row.", 
+				"wrong_answer2": "Yes, they sit next to each other.", 
+				"wrong_answer3": "Yes, Phoebe and Monica also sit next to them.", 
+				"wrong_answer4": "Yes, they sit all together." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "185-206", 
+		"period_num": "8", 
+		"start_time": "00:10:43;06", 
+		"end_time": "00:12:03;23",
+		"description_info": 
+		[ 
+			{ "description": "Rachel and Monica are sitting together on the sofa. On the opposite side, Phoebe is hunching her back and sitting on the table. Rachel is with frustrated look on her face and Monica is comforting her. Rachel is complaining about her situation. The three are talking to each other. Monica persuades Rachel with glass cup in her hand. Phoebe takes her drink from the table. "}, 
+			{ "description": "Rachel, Monica, and Phoebe, the three women, are sitting around."}, 
+			{ "description": "Rachel and Monica are sitting together on the sofa."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is sitting on the table?", 
+				"answer": "Phoebe.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Rahcel.", 
+				"wrong_answer3": "Ross. ", 
+				"wrong_answer4": "Chandler." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Rachel doing?", 
+				"answer": "She is complaining.", 
+				"wrong_answer1": "She is shouting.", 
+				"wrong_answer2": "She is singing.", 
+				"wrong_answer3": "She is cooking.", 
+				"wrong_answer4": "She is shopping." } 
+				} ,
+			{ "qa": { 
+				"question": "What is Monica doing?", 
+				"answer": "She is comforting Rachel.", 
+				"wrong_answer1": "She is cleaning the house.", 
+				"wrong_answer2": "She is writing a report.", 
+				"wrong_answer3": "She is cooking.", 
+				"wrong_answer4": "She is talking to Ross." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "207-237", 
+		"period_num": "9", 
+		"start_time": "00:12:16;03", 
+		"end_time": "00:13:41;22",
+		"description_info": 
+		[ 
+			{ "description": "In the hockey stadium, Chandler, Ross, and Joey are watching the game together. They are excited about it, but suddenly the puck flies to Ross and hits his face. Behind Ross, Chandler and Joey are sitting together. Joey tries to get the puck without caring Ross. Chandler and Joey are so excited about being on the screen that they wave at it. Ross covers his face with his hands and sees the screen. The three come into the hospital. Chandler and Joey check into the ER, but the staff is not helpful. Ross comes to the reception as well, the three are stading to talk to the staff. In fact, she is busy with her phone call and scare them away with a stare."}, 
+			{ "description": "In the hockey stadium, Ross is sitting alone. Chandler and Joey are sitting together behind him. They are cheering for the team."}, 
+			{ "description": "The puck flies and hits Ross right into his face."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What happens to Ross?", 
+				"answer": "The puck hits him.", 
+				"wrong_answer1": "A stranger hits him.", 
+				"wrong_answer2": "Someone steals his wallet.", 
+				"wrong_answer3": "Chandler hits him.", 
+				"wrong_answer4": "His phone rings." } 
+			} ,
+			{ "qa": { 
+				"question": "Where do Ross, Chandler, and Joey go after the hockey game?", 
+				"answer": "They go to the hospital.", 
+				"wrong_answer1": "They go to a shopping mall.", 
+				"wrong_answer2": "They go to a market.", 
+				"wrong_answer3": "They go to a clothes shop.", 
+				"wrong_answer4": "They go to home." } 
+				} ,
+			{ "qa": { 
+				"question": "How is staff's attitude in the hospital?", 
+				"answer": "She is unkind.", 
+				"wrong_answer1": "She is helpful.", 
+				"wrong_answer2": "She is welcoming.", 
+				"wrong_answer3": "She is offensive.", 
+				"wrong_answer4": "She is violent." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "238-265", 
+		"period_num": "10", 
+		"start_time": "00:13:56;09", 
+		"end_time": "00:15:39;17",
+		"description_info": 
+		[ 
+			{ "description": "At home, Rachel and Monica each are lying down on the sofa. Rachel is holding a drinking glass. A big bowl is on Monica's stomach, and she stirs it weakly.Phoebe is lying on the floor. Phoebe covers her face with her hairs over. They feel miserable about the reality. Suddenly, someone knocks on the door. Rachel opens the door, but a delivery man comes with wrong pizza. He cheerfuly announces the menu, but Rachel points out that the menu is wrong. Monica realizes that the pizza is ordered by the man who she likes and lives across the road. Monica just takes the pizza. Monica and Phoebe go to the windows to see him with binoculars."}, 
+			{ "description": "Monica and Rachel are lying on the sofa."}, 
+			{ "description": "A delivery man knocks on the door, and Rachel opens the door."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where are Monica and Rachel lying on?", 
+				"answer": "On the sofa?", 
+				"wrong_answer1": "On the chair.", 
+				"wrong_answer2": "On the table.", 
+				"wrong_answer3": "On the bed.", 
+				"wrong_answer4": "On the floor." } 
+			} ,
+			{ "qa": { 
+				"question": "What does a delivery man bring?", 
+				"answer": "He brings pizza.", 
+				"wrong_answer1": "He brings cookies.", 
+				"wrong_answer2": "He brings a cake.", 
+				"wrong_answer3": "He brings a computer.", 
+				"wrong_answer4": "He brings a cup. " } 
+				} ,
+			{ "qa": { 
+				"question": "Does Monica take the wrong pizza?", 
+				"answer": "Yes, she takes it.", 
+				"wrong_answer1": "No, she wants another pizza.", 
+				"wrong_answer2": "No, she wants what she's ordered.", 
+				"wrong_answer3": "No, she wants to eat a cake.", 
+				"wrong_answer4": "No, she wants a refund." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "266-283", 
+		"period_num": "11", 
+		"start_time": "00:15:57;01", 
+		"end_time": "00:17:13;18",
+		"description_info": 
+		[ 
+			{ "description": "In the hospital, Ross and Joey are sitting. Ross covering his nose with tissues sits on the chair and stares at Joey. Joey sits on a wheelchair, plays with a piece of paper. Chandler sits next to Ross, gets impatient, goes to the staff, and complains. The staff just closes the frosted glass to show that she doesn't want to listen to him. In front of the glass, Chandler persuades her. When he turns his back, the staff opens the glass. As he finds it out, he jumps off from a shock. At home, Rachel, Monica, and Phoebe are in the veranda. Rachel is seeing through the binoculars, and Phoebe is drinking. Monica is standing and holding the blender to serve. As Monica serves drinks, she sits on her chair. Candles are lit around them and dim lights shine them."}, 
+			{ "description": "Ross and Joey are sitting. Next to them, Chandler is sitting as well."}, 
+			{ "description": "Joey is sitting on a wheelchair and playing alone."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who goes to the staff to complain?", 
+				"answer": "Chandler.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Joey.", 
+				"wrong_answer3": "Rachel.", 
+				"wrong_answer4": "Monica." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Rachel using to see the neighbors?", 
+				"answer": "Binoculars.", 
+				"wrong_answer1": "A camera.", 
+				"wrong_answer2": "A smartphone.", 
+				"wrong_answer3": "Candles.", 
+				"wrong_answer4": "A microscope." } 
+				} ,
+			{ "qa": { 
+				"question": "What is Monica holding?", 
+				"answer": "A blender.", 
+				"wrong_answer1": "A laptop.", 
+				"wrong_answer2": "A cup.", 
+				"wrong_answer3": "A book.", 
+				"wrong_answer4": "A magazine." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "284-300", 
+		"period_num": "12", 
+		"start_time": "00:17:19;06", 
+		"end_time": "00:18:36;01",
+		"description_info": 
+		[ 
+			{ "description": "In the hospital, Chandler and Ross are still waiting for their order. Ross keeps grumbling and Chandler is sick of listening to him. Ross is sitting with one foot on the chair and another foot on the floor and leaning against the armrest of chair. Chandler is sitting on the chair and seeing the same direction with Ross. Joey is sitting on a wheelchair next to Ross and agreeing with him. As Chandler is tired of listening to Ross's grumbling, Chandler stands up and snaps at Ross. He sits again and understands why Ross grumbles. Chandler pats Ross's back to console him."}, 
+			{ "description": "Ross and Chandler are sitting together with the back of chair inbetween them."}, 
+			{ "description": "Chandler gets angry and stands up from his seat."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where are Joey, Chandler, and Ross now?", 
+				"answer": "They are in the hospital.", 
+				"wrong_answer1": "They are at home.", 
+				"wrong_answer2": "They are in a restaurant.", 
+				"wrong_answer3": "They are in a café.", 
+				"wrong_answer4": "They are in the toilet." } 
+			} ,
+			{ "qa": { 
+				"question": "Why is Chandler angry?", 
+				"answer": "Because he is tired of listening to Ross.", 
+				"wrong_answer1": "Because of his boss at work.", 
+				"wrong_answer2": "Because he is dumped by his girlfriend.", 
+				"wrong_answer3": "Because he gets fired. ", 
+				"wrong_answer4": "Because he doesn't have enough money." } 
+				} ,
+			{ "qa": { 
+				"question": "", 
+				"answer": "", 
+				"wrong_answer1": "", 
+				"wrong_answer2": "", 
+				"wrong_answer3": "", 
+				"wrong_answer4": "" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "301-320", 
+		"period_num": "13", 
+		"start_time": "00:18:46;07", 
+		"end_time": "00:19:56;18",
+		"description_info": 
+		[ 
+			{ "description": "At home, Rachel, Monica, and Phoebe are talking together in the veranda. Rachel is sitting on the balustrade and holding the handrails of ladder. As time goes by, their talking gets aggressive. Suddenly, Phoebe spots the neighbor across the road. All goes to the balustrade and leans against it to see the neighbor. "}, 
+			{ "description": "Rachel, Monica, and Phoebe are talking together in the veranda."}, 
+			{ "description": "Phoebe suddenly spots the neighbor and all gathers to see him."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who are in the veranda?", 
+				"answer": "Phoebe, Monica, and Rachel.", 
+				"wrong_answer1": "Rachel, Joey, and Ross.", 
+				"wrong_answer2": "Ross, Monica, and Joey.", 
+				"wrong_answer3": "Joey, Ross, and Chandler.", 
+				"wrong_answer4": "Chandler, Ross, and Rachel." } 
+			} ,
+			{ "qa": { 
+				"question": "Who spots something and draws attention?", 
+				"answer": "Phoebe.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Chandler.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Joey." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Phoebe spot?", 
+				"answer": "Phoebe spots the neighbor.", 
+				"wrong_answer1": "Phoebe spots a car.", 
+				"wrong_answer2": "Phoebe spots a thief.", 
+				"wrong_answer3": "Phoebe spots an apartment.", 
+				"wrong_answer4": "Phoebe spots a policeman." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "321-332", 
+		"period_num": "14", 
+		"start_time": "00:20:20;14", 
+		"end_time": "00:21:24;00",
+		"description_info": 
+		[ 
+			{ "description": "In the hospital, Ross throws charts confidently, but the staff laughs at him as he bandages his nose in a funny way. Chandler and Joey make fun of him. They stand and talk in front of the admission in the hospital. Ross looks for the puck and finds that a boy plays with it. He claims to have it back, but the boy refuses it and bullies him. His friends provoke him to get it back. He tussles over the puck with the boy physically. In the end, the puck flies and hits the staff. "}, 
+			{ "description": "In the hospital, Ross, Chandler, and Joey are standing in front of the admission."}, 
+			{ "description": "A boy plays with the puck and Ross claims to have it back."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who are in the hospital?", 
+				"answer": "Ross, Chandler, and Joey.", 
+				"wrong_answer1": "Rachel, Monica, and Phoebe.", 
+				"wrong_answer2": "Phoebe, Ross, and Chandler.", 
+				"wrong_answer3": "Chandler, Joey, and Rachel.", 
+				"wrong_answer4": "Monica, Rachel, and Ross." } 
+			} ,
+			{ "qa": { 
+				"question": "What is a boy playing with?", 
+				"answer": "A puck.", 
+				"wrong_answer1": "A computer game.", 
+				"wrong_answer2": "A camera.", 
+				"wrong_answer3": "A smartphone.", 
+				"wrong_answer4": "pieces of papers." } 
+				} ,
+			{ "qa": { 
+				"question": "Where does the puck fly over?", 
+				"answer": "The puck flies to the hospital staff.", 
+				"wrong_answer1": "The puck flies to Chandler.", 
+				"wrong_answer2": "The puck flies to Rachel.", 
+				"wrong_answer3": "The puck flies to Monica.", 
+				"wrong_answer4": "The puck flies to Phoebe." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "333-357", 
+		"period_num": "15", 
+		"start_time": "00:21:24;13", 
+		"end_time": "00:22:44;04",
+		"description_info": 
+		[ 
+			{ "description": "Rachel and Monica are playing Twister. Phoe and Joey are lining up to wait. Ross is giving orders to all as he turns the spinner. Chandler is in the kitchen and opens the door when he hears knocks on the door. The peson gives Chandler a cushion. The phone rings and Chandler take it. It is for Rachel. She gets out of the game and take the call. She talks on the phone happily. As she hangs up, all friends on the Twister mat collapses. Rachel sighs big with relieved face. "}, 
+			{ "description": "Chandler is in the kitchen and opens the door when he hears knocks on the door. "}, 
+			{ "description": "Rachel takes a call from her card company."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who takes the call?", 
+				"answer": "Chandler.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Joey. " } 
+			} ,
+			{ "qa": { 
+				"question": "Who calls Rachel?", 
+				"answer": "Her card company.", 
+				"wrong_answer1": "Her parents.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Her classmates.", 
+				"wrong_answer4": "Her brother." } 
+				} ,
+			{ "qa": { 
+				"question": "How does Rachel feel after the call?", 
+				"answer": "She feels relieved. ", 
+				"wrong_answer1": "She feels anxious.", 
+				"wrong_answer2": "She feels terrible.", 
+				"wrong_answer3": "She feels sad.", 
+				"wrong_answer4": "She feels worried." 
+				} 
+			} 
+		] 
+	}
+	]
+}

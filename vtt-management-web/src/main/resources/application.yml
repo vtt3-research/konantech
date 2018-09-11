@@ -1,17 +1,20 @@
 # ex) -Dspring.profiles.active=server|local
+
 mybatis:
-    config-location: classpath:mybatis-config.xml
+    config-location: classpath:mybatis/mybatis-config.xml
     mapper-locations: mybatis/postgres/*.xml
 
 spring:
+    application:
+        name: vtt-slim-darc
     aop:
         auto: true
         proxy-target-class: true
     datasource:
         connectionProperties: characterEncoding=UTF-8
-        driverClassName: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+        driverClassName: org.postgresql.Driver
+        url: jdbc:postgresql://postgres.server:65432/postgres?stringtype=unspecified
         type: org.apache.tomcat.jdbc.pool.DataSource
-        url: jdbc:log4jdbc:postgresql://postgres.server:65432/postgres
         password: postgres
         username: postgres
         initSQL: select 1
@@ -30,13 +33,16 @@ spring:
             prefix: /WEB-INF/views/
             suffix: .jsp
     redis:
-        host: redis.server
+        host: 10.10.18.29
         port: 32771
 
+    http:
+        multipart:
+            max-file-size: 10000MB
+            max-request-size: 10000MB
     test:
         mockmvc:
             print: default
-
 
 jwt:
     token:
@@ -48,22 +54,79 @@ jwt:
 permission:
     action: VTT_LOGIN
 
+cmd:
+    ffprobe: '/opt/kaltura/ffmpeg-3.2/bin/ffprobe|-print_format|json|-show_streams|'
+
+jobs:
+    schedule:
+        enable: true
+
+#log4jdbc
 logging:
     level:
         mybatis:
-            mapper: TRACE
-        root: WARN
-    ROOT: INFO
+            mapper: DEBUG
+    ROOT: DEBUG
     com.koknantech.spring: DEBUG
 
+darc:
+    volumewin: 'X:/darc4data/'
+    volumeetc: '/Volumes/konan/darc4data/'
 
-key:
-  file: developer.jks
+    tempFolder: '/Volumes/konan/darc4data/temp'
+    videoFolder: '/Volumes/konan/darc4data/video'
+    proxyShotFolder: '/Volumes/konan/darc4data/proxyshot'
 
-
-
+    videoServerUrl: 'http://183.110.246.21:7070/darc4/video'
+    shotServerUrl: 'http://183.110.246.21:7070/darc4/proxyshot'
 
 ---
 spring:
     profiles: developer
+    datasource:
+        driverClassName: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+        url: jdbc:log4jdbc:postgresql://postgres.server:65432/postgres?stringtype=unspecified
+
+darc:
+    tempFolder: '/Volumes/konan/darc4data/temp'
+    videoFolder: '/Volumes/konan/darc4data/video'
+    proxyShotFolder: '/Volumes/konan/darc4data/proxyshot'
+
+    videoServerUrl: 'http://10.10.30.21:7070/darc4/video'
+    shotServerUrl: 'http://10.10.30.21:7070/darc4/proxyshot'
+
+
+cmd:
+    ffprobe: 'ffprobe|-print_format|json|-show_streams|'
+
+
+jobs:
+    schedule:
+        enable: false
+
+---
+spring:
+    profiles: moon
+    datasource:
+        driverClassName: org.postgresql.Driver
+        url: jdbc:postgresql://10.10.18.29:65432/postgres?stringtype=unspecified
+
+darc:
+    tempFolder: 'Z:/temp'
+    videoFolder: 'Z:/video'
+    proxyShotFolder: 'Z:/proxyshot'
+
+    videoServerUrl: 'http://10.10.30.21:7070/darc4/video'
+    shotServerUrl: 'http://10.10.30.21:7070/darc4/proxyshot'
+
+cmd:
+    ffprobe: 'C:\opt\ffmpeg\bin\ffprobe|-print_format|json|-show_streams|'
+
+jobs:
+    schedule:
+        enable: false
+
+
+
+
 

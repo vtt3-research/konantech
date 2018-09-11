@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.konantech.spring.mapper.StoryboardMapper">
+
+    <select id="getShotCount" parameterType="ContentQuery" resultType="int">
+        SELECT
+        COUNT(*) AS COUNT
+        FROM
+        VTTM_SHOT_TB
+        <where>
+            videoid = #{idx}
+        </where>
+
+    </select>
+
+    <select id="getShotList" parameterType="ContentQuery" resultType="ShotTB">
+
+        SELECT
+            shotid, videoid, content, starttimecode, startframeindex,
+            endtimecode, endframeindex, assetfilename, assetfilepath, object, delflag
+        FROM
+          VTTM_SHOT_TB
+        <where>
+            videoid = #{idx}
+        </where>
+        ORDER BY shotid asc
+        <if test="limit > 0">LIMIT #{limit} </if>
+        <if test="offset > 0">OFFSET #{offset} </if>
+
+    </select>
+
+    <select id="getShotItem" parameterType="ContentQuery" resultType="java.util.TreeMap">
+
+        SELECT
+            shotid, videoid, content, starttimecode, startframeindex,
+            endtimecode, endframeindex, assetfilename, assetfilepath, object, delflag
+        FROM
+        VTTM_SHOT_TB
+        <where>
+            videoid = #{idx}
+        </where>
+
+    </select>
+
+    <insert id="putShotItem" parameterType="shotTB" useGeneratedKeys="true" keyProperty="shotid">
+        <selectKey keyProperty="shotid" resultType="Integer" order="BEFORE">
+            SELECT COALESCE(max(shotid),0) + 1 FROM VTTM_SHOT_TB
+        </selectKey>
+        INSERT INTO VTTM_SHOT_TB (
+          shotid, videoid, content, starttimecode, startframeindex,
+          endtimecode, endframeindex, assetfilename, assetfilepath, object, delflag
+        ) values (
+          #{shotid}, #{videoid}, #{content}, #{starttimecode}, #{startframeindex},
+          #{endtimecode}, #{endframeindex}, #{assetfilename}, #{assetfilepath}, cast(#{object} as jsonb), true
+        )
+    </insert>
+
+    <delete id="deleteShotItems">
+        DELETE FROM VTTM_SHOT_TB
+        <where>
+            videoid = #{videoid}
+        </where>
+    </delete>
+
+
+
+</mapper>
