@@ -118,23 +118,23 @@ USAGE (Web)
 3. Proxy Server Registration (Optional)
 
 4. Schedule registration (스케줄 등록)
-  - Enter schedule name
-    - Enter an identifiable schedule name
-  - Enter Collection URL
-    - URL of the searched list in youtube
-      - Use when you want to collect multiple videos
-      - ex. [ https://www.youtube.com/results?search_query=%EC%BD%94%EB%82%9C%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80 ]
-    - URL of video play status
-      - Use when you want to collect only videos that are playing
-      - ex. [ https://www.youtube.com/watch?v=unwYxR7HF3Y ]
-  - Edit maximum size (최대 크기)
-    - If the size of the video to be collected is expected to be large, it should be edited.
+    - Enter schedule name
+      - Enter an identifiable schedule name
+    - Enter Collection URL
+      - URL of the searched list in youtube
+        - Use when you want to collect multiple videos
+        - ex. [ https://www.youtube.com/results?search_query=%EC%BD%94%EB%82%9C%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80 ]
+      - URL of video play status
+        - Use when you want to collect only videos that are playing
+        - ex. [ https://www.youtube.com/watch?v=unwYxR7HF3Y ]
+    - Edit maximum size (최대 크기)
+      - If the size of the video to be collected is expected to be large, it should be edited.
 
 
 5. Schedule inquiry (스케줄 조회)
-  - Error information
-    - E0 : Failed to get file ID
-    - E3 : The file is larger than the capacity defined at acquisition.
+    - Error information
+      - E0 : Failed to get file ID
+      - E3 : The file is larger than the capacity defined at acquisition.
 
 * * *
 
