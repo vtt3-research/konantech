@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.cmsoft.konan.dao.MemberInfoDAO">	
-	<insert id="insertMemberInfo" parameterType="com.cmsoft.konan.vo.MemberInfoVO">
+<mapper namespace="com.konan.dao.MemberInfoDAO">	
+	<insert id="insertMemberInfo" parameterType="com.konan.vo.MemberInfoVO">
 		INSERT INTO member
 		          (ID, PASSWORD, ISADMIN, INPUT_DATE, INPUT_ID) 
 		VALUES (#{ID}, #{PASSWORD}, #{ISADMIN},  now(), #{INPUT_ID});		
 	</insert>
 	
-	<update id="updateMemberInfo"  parameterType="com.cmsoft.konan.vo.MemberInfoVO">
+	<update id="updateMemberInfo"  parameterType="com.konan.vo.MemberInfoVO">
 	UPDATE member 
 	   SET PASSWORD  = #{PASSWORD}, 
 	       ISADMIN   = #{ISADMIN}
 	 WHERE ID = #{ID};
 	</update>
 
-	<select id="selectMemberInfoListCount" parameterType="com.cmsoft.konan.vo.CommonSearchVO" resultType="Integer">
+	<select id="selectMemberInfoListCount" parameterType="com.konan.vo.CommonSearchVO" resultType="Integer">
 		SELECT COUNT(T.ID)
 		  FROM member T
 		 WHERE 1=1 
@@ -25,7 +25,7 @@
 	</select>
 	
 
-	<select id="selectMemberInfoList" parameterType="com.cmsoft.konan.vo.CommonSearchVO" resultType="com.cmsoft.konan.vo.MemberInfoVO">
+	<select id="selectMemberInfoList" parameterType="com.konan.vo.CommonSearchVO" resultType="com.konan.vo.MemberInfoVO">
 		SELECT 
 			T.ID, T.PASSWORD, T.ISADMIN, DATE_FORMAT(T.INPUT_DATE, '%Y-%m-%d') INPUT_DATE, INPUT_ID,
 			@ROWNUM := @ROWNUM + 1 AS ROWNUM
@@ -37,7 +37,7 @@
 		 </if>		
 	</select>
 
-	<select id="selectMemberInfo" parameterType="com.cmsoft.konan.vo.MemberInfoVO" resultType="com.cmsoft.konan.vo.MemberInfoVO">	
+	<select id="selectMemberInfo" parameterType="com.konan.vo.MemberInfoVO" resultType="com.konan.vo.MemberInfoVO">	
 		SELECT
 			T.ID, T.PASSWORD, T.ISADMIN, DATE_FORMAT(T.INPUT_DATE, '%Y-%m-%d') INPUT_DATE, INPUT_ID  
 		  FROM member T
@@ -45,7 +45,7 @@
 			AND T.ID = #{ID}	   
 	</select>
 	
-	<delete id="deleteMemberInfo" parameterType="com.cmsoft.konan.vo.MemberInfoVO">
+	<delete id="deleteMemberInfo" parameterType="com.konan.vo.MemberInfoVO">
 		DELETE FROM member 
 		 WHERE ID = #{ID}
 	</delete>

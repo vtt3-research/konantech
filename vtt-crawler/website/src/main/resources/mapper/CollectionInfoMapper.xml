@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.cmsoft.konan.dao.CollectionInfoDAO">	
-	<insert id="insertCollectionInfo" parameterType="com.cmsoft.konan.vo.CollectionInfoVO">
+<mapper namespace="com.konan.dao.CollectionInfoDAO">	
+	<insert id="insertCollectionInfo" parameterType="com.konan.vo.CollectionInfoVO">
 		INSERT INTO schedule_info
 		          (SC_NAME, SC_SITE, SC_URL, SC_TYPE, SC_EXT, 
 		          SC_MAXSIZE, SC_STATE, SC_COUNT, SC_COUNT_E, USER_ID, INPUT_DATE) 
@@ -10,13 +10,13 @@
 		        #{SC_MAXSIZE}, 0, 0,0,#{USER_ID},now());		
 	</insert>
 	
-	<update id="updateCollectionInfo"  parameterType="com.cmsoft.konan.vo.CollectionInfoVO">
+	<update id="updateCollectionInfo"  parameterType="com.konan.vo.CollectionInfoVO">
 	UPDATE schedule_info 
 	   SET S_NAME          = #{SC_NAME}
 	 WHERE SID = #{SID};
 	</update>
 
-	<select id="selectCollectionInfoListCount" parameterType="com.cmsoft.konan.vo.CommonSearchVO" resultType="Integer">
+	<select id="selectCollectionInfoListCount" parameterType="com.konan.vo.CommonSearchVO" resultType="Integer">
 		SELECT COUNT(T.SID)
 		  FROM schedule_info T
 		 WHERE 1=1 
@@ -38,7 +38,7 @@
 	</select>
 	
 
-	<select id="selectCollectionInfoList" parameterType="com.cmsoft.konan.vo.CommonSearchVO" resultType="com.cmsoft.konan.vo.CollectionInfoVO">
+	<select id="selectCollectionInfoList" parameterType="com.konan.vo.CommonSearchVO" resultType="com.konan.vo.CollectionInfoVO">
 		SELECT 
 			T.SID, T.SC_NAME, T.SC_SITE, T.SC_URL, T.SC_TYPE, T.SC_EXT, T.SC_MAXSIZE, 
 			CASE WHEN T.SC_STATE = 0 THEN '대기' 
@@ -73,7 +73,7 @@
 	   </if>		   			   
 	</select>
 
-	<select id="selectCollectionInfo" parameterType="com.cmsoft.konan.vo.CollectionInfoVO" resultType="com.cmsoft.konan.vo.CollectionInfoVO">	
+	<select id="selectCollectionInfo" parameterType="com.konan.vo.CollectionInfoVO" resultType="com.konan.vo.CollectionInfoVO">	
 		SELECT
 			T.SID, T.SC_NAME, T.SC_SITE, T.SC_URL, T.SC_TYPE, T.SC_EXT, T.SC_MAXSIZE, 
 			CASE WHEN T.SC_STATE = 0 THEN '대기' 
@@ -88,12 +88,12 @@
 			AND T.SID = #{SID}	   
 	</select>
 	
-	<delete id="deleteCollectionInfo" parameterType="com.cmsoft.konan.vo.CollectionInfoVO">
+	<delete id="deleteCollectionInfo" parameterType="com.konan.vo.CollectionInfoVO">
 		DELETE FROM schedule_info 
 		 WHERE SID = #{SID}
 	</delete>
 	
-	<delete id="cancelCollectionInfo" parameterType="com.cmsoft.konan.vo.CollectionInfoVO">
+	<delete id="cancelCollectionInfo" parameterType="com.konan.vo.CollectionInfoVO">
 		UPDATE schedule_info 
 		   SET SC_STATE = 3
 		 WHERE SID = #{SID}

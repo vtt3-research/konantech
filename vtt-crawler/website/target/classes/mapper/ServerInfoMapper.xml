@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.cmsoft.konan.dao.ServerInfoDAO">	
-		<select id="selectServerInfoList" parameterType="com.cmsoft.konan.vo.CommonSearchVO" resultType="com.cmsoft.konan.vo.ServerInfoVO">
+<mapper namespace="com.konan.dao.ServerInfoDAO">	
+		<select id="selectServerInfoList" parameterType="com.konan.vo.CommonSearchVO" resultType="com.konan.vo.ServerInfoVO">
 		SELECT 
 			T.SID, T.SERVER_NAME, T.SERVER_IP, T.LOCAL_IP, T.SERVER_ACTIVE, T.USE_PROXY,
 			@ROWNUM := @ROWNUM + 1 AS ROWNUM
@@ -10,25 +10,25 @@
 		    (SELECT @ROWNUM := 0) R 
 	</select>
 
-	<select id="selectServerInfo" parameterType="com.cmsoft.konan.vo.ServerInfoVO" resultType="com.cmsoft.konan.vo.ServerInfoVO">	
+	<select id="selectServerInfo" parameterType="com.konan.vo.ServerInfoVO" resultType="com.konan.vo.ServerInfoVO">	
 		SELECT
 			T.SID, T.SERVER_NAME, T.SERVER_IP, T.LOCAL_IP, T.SERVER_ACTIVE, T.USE_PROXY
 		  FROM server_info T
 		 WHERE T.SID = #{SID}	   
 	</select>
 	
-	<select id="updateServerUnActive" parameterType="com.cmsoft.konan.vo.ServerInfoVO" resultType="com.cmsoft.konan.vo.ServerInfoVO">
+	<select id="updateServerUnActive" parameterType="com.konan.vo.ServerInfoVO" resultType="com.konan.vo.ServerInfoVO">
 		UPDATE server_info 
 		   SET SERVER_ACTIVE    = "N";
 	</select>
 	
-	<select id="updateServerActive" parameterType="com.cmsoft.konan.vo.ServerInfoVO" resultType="com.cmsoft.konan.vo.ServerInfoVO">
+	<select id="updateServerActive" parameterType="com.konan.vo.ServerInfoVO" resultType="com.konan.vo.ServerInfoVO">
 		UPDATE server_info 
 		   SET SERVER_ACTIVE    = "Y"
 		 WHERE SID = #{SID};		
 	</select>	
 
-	<select id="updateServerProxy" parameterType="com.cmsoft.konan.vo.ServerInfoVO" resultType="com.cmsoft.konan.vo.ServerInfoVO">
+	<select id="updateServerProxy" parameterType="com.konan.vo.ServerInfoVO" resultType="com.konan.vo.ServerInfoVO">
 		UPDATE server_info 
 		   SET USE_PROXY    = #{USE_PROXY}
 		 WHERE SID = #{SID};		

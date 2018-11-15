@@ -21,7 +21,7 @@
 	http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd
 	http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring-1.2.xsd">
 	
-	<context:component-scan base-package="com.cmsoft.konan" />
+	<context:component-scan base-package="com.konan" />
 	
 	<task:annotation-driven /> 
     
@@ -45,7 +45,7 @@
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />
 		<property name="configLocation" value="classpath:/mybatis/mybatis-config.xml" />
-		<property name="typeAliasesPackage" value="com.cmsoft.micobiomed.vo" />
+		<property name="typeAliasesPackage" value="com.micobiomed.vo" />
 		<property name="mapperLocations" value="classpath:/mapper/*.xml" />
 	</bean>
 	
@@ -54,7 +54,7 @@
  	</bean>
  	
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="com.cmsoft.konan.dao" />
+		<property name="basePackage" value="com.konan.dao" />
 	</bean>
 
 	<!-- 리로딩가능한  messageSource -->	
@@ -76,7 +76,7 @@
     </bean>
     
     <!-- messageUtil Bean -->
-    <bean id="messageUtil" class="com.cmsoft.konan.utility.MessageUtil">
+    <bean id="messageUtil" class="com.konan.utility.MessageUtil">
         <property name="messageSourceAccessor" ref="messageSourceAccessor"/>
     </bean>
     

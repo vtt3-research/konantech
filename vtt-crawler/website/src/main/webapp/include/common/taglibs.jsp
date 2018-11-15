@@ -8,7 +8,7 @@
 <%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 
-<jsp:useBean id="Roles" class="com.cmsoft.konan.constants.RolesForEL" scope="request" />
+<jsp:useBean id="Roles" class="com.konan.constants.RolesForEL" scope="request" />
 
 <% pageContext.setAttribute("enter", "\n"); %>
 
