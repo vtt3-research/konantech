@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.konan.dao.MemberInfoDAO">	
+	<insert id="insertMemberInfo" parameterType="com.konan.vo.MemberInfoVO">
+		INSERT INTO member
+		          (ID, PASSWORD, ISADMIN, INPUT_DATE, INPUT_ID) 
+		VALUES (#{ID}, #{PASSWORD}, #{ISADMIN},  now(), #{INPUT_ID});		
+	</insert>
+	
+	<update id="updateMemberInfo"  parameterType="com.konan.vo.MemberInfoVO">
+	UPDATE member 
+	   SET PASSWORD  = #{PASSWORD}, 
+	       ISADMIN   = #{ISADMIN}
+	 WHERE ID = #{ID};
+	</update>
+
+	<select id="selectMemberInfoListCount" parameterType="com.konan.vo.CommonSearchVO" resultType="Integer">
+		SELECT COUNT(T.ID)
+		  FROM member T
+		 WHERE 1=1 
+		 <if test=" searchValue2 != null and searchValue2 != '' ">
+		   AND T.ID LIKE CONCAT('%',#{searchValue2},'%')			
+		 </if>
+	</select>
+	
+
+	<select id="selectMemberInfoList" parameterType="com.konan.vo.CommonSearchVO" resultType="com.konan.vo.MemberInfoVO">
+		SELECT 
+			T.ID, T.PASSWORD, T.ISADMIN, DATE_FORMAT(T.INPUT_DATE, '%Y-%m-%d') INPUT_DATE, INPUT_ID,
+			@ROWNUM := @ROWNUM + 1 AS ROWNUM
+		FROM member T ,
+		    (SELECT @ROWNUM := 0) R 
+		 WHERE 1=1 
+		 <if test=" searchValue2 != null and searchValue2 != '' ">
+		   AND T.ID LIKE CONCAT('%',#{searchValue2},'%')
+		 </if>		
+	</select>
+
+	<select id="selectMemberInfo" parameterType="com.konan.vo.MemberInfoVO" resultType="com.konan.vo.MemberInfoVO">	
+		SELECT
+			T.ID, T.PASSWORD, T.ISADMIN, DATE_FORMAT(T.INPUT_DATE, '%Y-%m-%d') INPUT_DATE, INPUT_ID  
+		  FROM member T
+		 WHERE 1=1
+			AND T.ID = #{ID}	   
+	</select>
+	
+	<delete id="deleteMemberInfo" parameterType="com.konan.vo.MemberInfoVO">
+		DELETE FROM member 
+		 WHERE ID = #{ID}
+	</delete>
+</mapper>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xmlns:mybatis-spring="http://mybatis.org/schema/mybatis-spring"
+	xsi:schemaLocation=
+	"http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc.xsd
+	http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+	http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+	http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd
+	http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring-1.2.xsd">
+	
+	<context:component-scan base-package="com.konan" />
+	
+	<task:annotation-driven /> 
+    
+	<context:annotation-config />
+	
+	<context:property-placeholder location="classpath:/properties/dev/db.properties"/>
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="${jdbc.driverClassName}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+		<property name="validationQuery" value="${jdbc.validationQuery}" />
+    </bean>
+    
+    <bean id="transactionManager"  class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	<tx:annotation-driven />
+	
+	<!-- mybatis설정 -->
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="configLocation" value="classpath:/mybatis/mybatis-config.xml" />
+		<property name="typeAliasesPackage" value="com.micobiomed.vo" />
+		<property name="mapperLocations" value="classpath:/mapper/*.xml" />
+	</bean>
+	
+	<bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
+  		<constructor-arg index="0" ref="sqlSessionFactory" />
+ 	</bean>
+ 	
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name="basePackage" value="com.konan.dao" />
+	</bean>
+
+	<!-- 리로딩가능한  messageSource -->	
+	<bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+		<property name="basenames">
+			<list>
+				<value>classpath:/properties/message</value>
+			</list>
+		</property>
+		<!-- property 파일 인코딩 -->
+		<property name="defaultEncoding" value="UTF-8" />
+		<!-- 설정된 시간마다 리로딩하여 캐쉬화 , 실시간을 위해 주석처리-->
+		<!-- <property name="cacheSeconds" value="100" /> -->			
+	</bean>
+	
+	<!-- constructor-arg 태그를 통해 전달된 값의 타입과 가장 근접한 파라미터를 갖는 생성자를 이용하여 객체를 생성-->
+    <bean id="messageSourceAccessor" class="org.springframework.context.support.MessageSourceAccessor">
+       <constructor-arg ref="messageSource"/>
+    </bean>
+    
+    <!-- messageUtil Bean -->
+    <bean id="messageUtil" class="com.konan.utility.MessageUtil">
+        <property name="messageSourceAccessor" ref="messageSourceAccessor"/>
+    </bean>
+    
+</beans>

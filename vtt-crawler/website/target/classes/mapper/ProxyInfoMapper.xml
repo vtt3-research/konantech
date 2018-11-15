@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.konan.dao.ProxyInfoDAO">	
+	<insert id="insertProxyInfo" parameterType="com.konan.vo.ProxyInfoVO">
+		INSERT INTO proxy_list
+		          (PROXY) 
+		VALUES (#{PROXY});		
+	</insert>
+	
+	<update id="updateProxyInfo"  parameterType="com.konan.vo.ProxyInfoVO">
+	UPDATE proxy_list 
+	   SET PROXY  = #{PROXY}
+	 WHERE PID = #{PID};
+	</update>
+
+	<select id="selectProxyInfoList" parameterType="com.konan.vo.CommonSearchVO" resultType="com.konan.vo.ProxyInfoVO">
+		SELECT 
+			T.PID, T.PROXY, T.FAIL,
+			@ROWNUM := @ROWNUM + 1 AS ROWNUM
+		FROM proxy_list T ,
+		    (SELECT @ROWNUM := 0) R 
+		 WHERE 1=1 
+		 <if test=" searchValue2 != null and searchValue2 != '' ">
+		   AND T.PROXY LIKE CONCAT('%',#{searchValue2},'%')
+		 </if>		
+	</select>
+
+	<select id="selectProxyInfo" parameterType="com.konan.vo.ProxyInfoVO" resultType="com.konan.vo.ProxyInfoVO">	
+		SELECT
+			T.PID, T.PROXY, T.FAIL  
+		  FROM proxy_list T
+		 WHERE 1=1
+			AND T.PID = #{PID}	   
+	</select>
+	
+	<delete id="deleteProxyInfo" parameterType="com.konan.vo.ProxyInfoVO">
+		DELETE FROM proxy_list 
+		 WHERE PID = #{PID}
+	</delete>
+</mapper>
