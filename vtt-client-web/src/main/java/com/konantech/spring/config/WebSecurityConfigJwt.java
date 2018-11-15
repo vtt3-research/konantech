@@ -44,7 +44,7 @@ public class WebSecurityConfigJwt extends WebSecurityConfigurerAdapter {
 
 	@Override
 	public void configure(WebSecurity web) throws Exception {
-		web.ignoring().antMatchers("/resources/**", "/docs/**", "/*", "/");
+		web.ignoring().antMatchers("/resources/**", "/docs/**", "/");
 	}
 
 	@Override

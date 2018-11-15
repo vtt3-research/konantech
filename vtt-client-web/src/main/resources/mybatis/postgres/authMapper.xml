@@ -29,7 +29,7 @@
           realname,
           password
         FROM
-          DEMO_USER_TB
+          VTTM_USER_TB
         WHERE
           username = #{username}
     </select>
@@ -38,9 +38,9 @@
         SELECT
           B.rolename
         FROM
-          DEMO_RELUSERROLE_TB A
-          LEFT JOIN DEMO_ROLE_TB B ON A.roleid = B.roleid
-          LEFT JOIN DEMO_USER_TB C ON C.userid = A.userid
+          VTTM_RELUSERROLE_TB A
+          LEFT JOIN VTTM_ROLE_TB B ON A.roleid = B.roleid
+          LEFT JOIN VTTM_USER_TB C ON C.userid = A.userid
         WHERE
           C.username = #{username}
     </select>
@@ -48,10 +48,10 @@
     <insert id="insertCurrentUser" parameterType="map" useGeneratedKeys="true">
 
         <selectKey keyProperty="agentid" resultType="Integer" order="BEFORE">
-            SELECT COALESCE(max(agentid),0) + 1 FROM DEMO_CURRUSER_TB
+            SELECT COALESCE(max(agentid),0) + 1 FROM VTTM_CURRUSER_TB
         </selectKey>
 
-        INSERT INTO DEMO_CURRUSER_TB (
+        INSERT INTO VTTM_CURRUSER_TB (
             agentid,
             userid,
             logintime,
@@ -68,7 +68,43 @@
         SELECT
           userid, username, trim(realname) as realname
         FROM
-          DEMO_USER_TB
+          VTTM_USER_TB
     </select>
 
+    <select id="getDuplUserChk" resultType="java.util.TreeMap">
+        SELECT
+          userid,
+          username,
+          trim(realname) as realname
+        FROM
+        VTTM_USER_TB
+        <where>
+            <if test="userName != null and userName != '' ">
+                username =#{userName}
+            </if>
+        </where>
+    </select>
+
+    <insert id="getPutUser" parameterType="java.util.TreeMap" useGeneratedKeys="true" keyProperty="userid">
+
+        <selectKey keyProperty="userid" resultType="Integer" order="BEFORE">
+            SELECT COALESCE(max(userid),0) + 1 FROM vttm_user_tb
+        </selectKey>
+
+        INSERT INTO vttm_user_tb(
+          userid,
+          username,
+          realname,
+          password,
+          createtime,
+          modifytime,
+          delflag)
+        VALUES( #{userid}, #{username},#{realname}, #{password},  now(), now(), false);
+
+        INSERT INTO vttm_reluserrole_tb(
+          userid,
+          roleid,
+          isheadrole)
+        VALUES( #{userid}, #{userAuth}, false);
+    </insert>
 </mapper>

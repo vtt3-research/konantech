@@ -7,21 +7,23 @@ import com.konantech.spring.domain.mamex.MamExCnfTb;
 import com.konantech.spring.domain.storyboard.ShotTB;
 import com.konantech.spring.mapper.MamExMapper;
 import com.konantech.spring.util.JSONUtils;
-import com.konantech.spring.util.RequestUtils;
 import com.konantech.spring.util.RestApiUtil;
 import org.apache.commons.collections.MapUtils;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.io.File;
 import java.text.Normalizer;
-import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 
 @Service
 @Transactional(propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
@@ -45,6 +47,9 @@ public class MamExService {
 
     @Autowired
     private MamExMapper mamExMapper;
+
+
+    private static Logger logger = LoggerFactory.getLogger(MamExService.class);
 
     // 임시!
     public String ex_update_jobresult(String trName, int pool, String request) throws Exception {
@@ -95,9 +100,6 @@ public class MamExService {
             shotTB.setAssetfilepath(FilenameUtils.getPath(filepath));
             shotTB.setAssetfilename(FilenameUtils.getName(filepath));
             Object object = shotinfo.get("object");
-            if(object != null) {
-                shotTB.setObject(JSONUtils.jsonStringFromObject(object));
-            }
             storyboardService.putShotItem(shotTB);
         }
 
@@ -106,7 +108,6 @@ public class MamExService {
             LinkedHashMap<String, Object> param = new LinkedHashMap<>();
             param.put("idx", idx);
             param.put("catalogstatus", 3000);
-//            param.put("catalogendtime", new Date());
             contentService.updateContentItem(param);
         }
         return "success";

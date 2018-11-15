@@ -1,19 +1,41 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@include file="../includes/taglib.jsp" %>
 <c:import url="../includes/header.jsp"/>
+<!-- top navigation -->
+<div class="top_nav">
+    <div class="nav_menu nav_menu-j">
+        <nav>
+            <div class="col-md-5 col-8 align-self-center">
+                <div class="title-txt text-themecolor">
+                    CONTENT
+                </div>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="javascript:void(0)"> 콘텐츠</a>
+                    </li>
+                    <li class="breadcrumb-item active">
 
-<div class="container-fluid">
-    <!-- Breadcrumbs-->
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-            <a href="<c:url value='/content'/>">콘텐츠</a>
-        </li>
-        <li class="breadcrumb-item active">스토리보드</li>
-    </ol>
+                        스토리 보드
+                    </li>
+
+                </ol>
+            </div>
+            <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+            </div>
+        </nav>
+    </div>
+</div>
+<!-- /top navigation -->
+
+
+<!-- page content -->
+<div class="right_col" role="main">
     <div class="row">
-
-        <div class="col-12">
-            <div id="ribbon">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="x_panel">
+                <div class="col-12">
+                    <div id="ribbon">
                 <span class="ribbon-button-alignment pull-right" style="margin-right:25px">
                     <span class="left" style="margin-top: -5px;">
                     <form class="smart-form" id="search_form" onsubmit="return false;">
@@ -33,80 +55,86 @@
                         <input type="radio" name="btn_show_target" value=""/> 없음
                     </div>
                 </span>
+                    </div>
+                </div>
+
+                <div class="x_content superbox">
+                    <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <c:forEach var="shot" items="${listResponse.list}" varStatus="i">
+
+                            <c:set var="thumbnail" value="${ shotServerUrl }/${ shot.assetfilepath }${ shot.assetfilename }"/>
+
+                            <div class="storyboard_data superbox-list">
+                                <input type="hidden" name="sequence" value="${ i.count }" />
+                                <input type="hidden" name="shotid" value="${ shot.shotid }" />
+                                <input type="hidden" name="videoid" value="${ shot.videoid }" />
+                                <input type="hidden" name="starttimecode" value="${ shot.starttimecode }" />
+                                <input type="hidden" name="thumbnail" value="${ thumbnail }" />
+                                <input type="hidden" name="content" value="<c:out value="${ shot.content }" escapeXml="true" />" />
+                                <input type="hidden" name="object" value="<c:out value="${ shot.object }" escapeXml="true" />" />
+                                <img src="${ thumbnail }" data-img="${thumbnail}" class="superbox-img center">
+                                <span class="timecode"><c:out value="${ shot.starttimecode }"/></span>
+
+                                <c:set var="detectLocation1" value=""/>
+                                <c:set var="detectAccuracy1" value=""/>
+                                <c:set var="detectObject1" value=""/>
+
+                                <c:set var="detectLocation2" value=""/>
+                                <c:set var="detectAccuracy2" value=""/>
+                                <c:set var="detectObject2" value=""/>
+
+                                <c:set var="detectLocation3" value=""/>
+                                <c:set var="detectAccuracy3" value=""/>
+                                <c:set var="detectObject3" value=""/>
+
+                                <c:set var="detectInfo" value="${shot.detect.objectData}"/>
+                                <c:forEach var="detect" items="${detectInfo}" varStatus="j">
+                                    <c:set var="detectLocation1" value="${j.first ? '' : detectLocation1}${j.first ? '' : ','}${detect.location}" />
+                                    <c:set var="detectAccuracy1" value="${j.first ? '' : detectAccuracy1}${j.first ? '' : ','}${detect.info.accuracy}" />
+                                    <c:set var="detectObject1" value="${j.first ? '' : detectObject1}${j.first ? '' : ','}${detect.info.objectName}" />
+                                </c:forEach>
+                                <input type="hidden" name="oLocation" value="${ detectLocation1 }"/>
+                                <input type="hidden" name="oAccuracy" value="${ detectAccuracy1 }"/>
+                                <input type="hidden" name="oObject" value="${ detectObject1 }"/>
+
+
+                                <c:set var="detectInfo" value="${shot.detect.placeData}"/>
+                                <c:forEach var="detect" items="${detectInfo}" varStatus="j">
+                                    <c:set var="detectLocation2" value="${j.first ? '' : detectLocation2}${j.first ? '' : ','}${detect.location}" />
+                                    <c:set var="detectAccuracy2" value="${j.first ? '' : detectAccuracy2}${j.first ? '' : ','}${detect.info.accuracy}" />
+                                    <c:set var="detectObject2" value="${j.first ? '' : detectObject2}${j.first ? '' : ','}${detect.info.objectName}" />
+                                </c:forEach>
+                                <input type="hidden" name="pLocation" value="${ detectLocation2 }"/>
+                                <input type="hidden" name="pAccuracy" value="${ detectAccuracy2 }"/>
+                                <input type="hidden" name="pObject" value="${ detectObject2 }"/>
+
+
+                                <c:set var="detectInfo" value="${shot.detect.faceData}"/>
+                                <c:forEach var="detect" items="${detectInfo}" varStatus="j">
+                                    <c:set var="detectLocation3" value="${j.first ? '' : detectLocation3}${j.first ? '' : ','}${detect.location}" />
+                                    <c:set var="detectAccuracy3" value="${j.first ? '' : detectAccuracy3}${j.first ? '' : ','}${detect.info.accuracy}" />
+                                    <c:set var="detectObject3" value="${j.first ? '' : detectObject3}${j.first ? '' : ','}${detect.info.objectName}" />
+                                </c:forEach>
+                                <input type="hidden" name="fLocation" value="${ detectLocation3 }"/>
+                                <input type="hidden" name="fAccuracy" value="${ detectAccuracy3 }"/>
+                                <input type="hidden" name="fObject" value="${ detectObject3 }"/>
+
+
+                            </div>
+
+                        </c:forEach>
+                    </article>
+                </div>
             </div>
         </div>
     </div>
-
-    <div class="row superbox" >
-        <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <c:forEach var="shot" items="${listResponse.list}" varStatus="i">
-
-                <c:set var="thumbnail" value="${ shotServerUrl }/${ shot.assetfilepath }${ shot.assetfilename }"/>
-
-                <div class="storyboard_data superbox-list">
-                    <input type="hidden" name="sequence" value="${ i.count }" />
-                    <input type="hidden" name="shotid" value="${ shot.shotid }" />
-                    <input type="hidden" name="videoid" value="${ shot.videoid }" />
-                    <input type="hidden" name="starttimecode" value="${ shot.starttimecode }" />
-                    <input type="hidden" name="thumbnail" value="${ thumbnail }" />
-                    <input type="hidden" name="content" value="<c:out value="${ shot.content }" escapeXml="true" />" />
-                    <input type="hidden" name="object" value="<c:out value="${ shot.object }" escapeXml="true" />" />
-                    <img src="${ thumbnail }" data-img="${thumbnail}" class="superbox-img center">
-                    <span class="timecode"><c:out value="${ shot.starttimecode }"/></span>
-
-                    <c:set var="detectLocation1" value=""/>
-                    <c:set var="detectAccuracy1" value=""/>
-                    <c:set var="detectObject1" value=""/>
-
-                    <c:set var="detectLocation2" value=""/>
-                    <c:set var="detectAccuracy2" value=""/>
-                    <c:set var="detectObject2" value=""/>
-
-                    <c:set var="detectLocation3" value=""/>
-                    <c:set var="detectAccuracy3" value=""/>
-                    <c:set var="detectObject3" value=""/>
-
-                    <c:set var="detectInfo" value="${shot.detect.objectData}"/>
-                    <c:forEach var="detect" items="${detectInfo}" varStatus="j">
-                        <c:set var="detectLocation1" value="${j.first ? '' : detectLocation1}${j.first ? '' : ','}${detect.location}" />
-                        <c:set var="detectAccuracy1" value="${j.first ? '' : detectAccuracy1}${j.first ? '' : ','}${detect.info.accuracy}" />
-                        <c:set var="detectObject1" value="${j.first ? '' : detectObject1}${j.first ? '' : ','}${detect.info.objectName}" />
-                    </c:forEach>
-                    <input type="hidden" name="oLocation" value="${ detectLocation1 }"/>
-                    <input type="hidden" name="oAccuracy" value="${ detectAccuracy1 }"/>
-                    <input type="hidden" name="oObject" value="${ detectObject1 }"/>
-
-
-                    <c:set var="detectInfo" value="${shot.detect.placeData}"/>
-                    <c:forEach var="detect" items="${detectInfo}" varStatus="j">
-                        <c:set var="detectLocation2" value="${j.first ? '' : detectLocation2}${j.first ? '' : ','}${detect.location}" />
-                        <c:set var="detectAccuracy2" value="${j.first ? '' : detectAccuracy2}${j.first ? '' : ','}${detect.info.accuracy}" />
-                        <c:set var="detectObject2" value="${j.first ? '' : detectObject2}${j.first ? '' : ','}${detect.info.objectName}" />
-                    </c:forEach>
-                    <input type="hidden" name="pLocation" value="${ detectLocation2 }"/>
-                    <input type="hidden" name="pAccuracy" value="${ detectAccuracy2 }"/>
-                    <input type="hidden" name="pObject" value="${ detectObject2 }"/>
-
-
-                    <c:set var="detectInfo" value="${shot.detect.faceData}"/>
-                    <c:forEach var="detect" items="${detectInfo}" varStatus="j">
-                        <c:set var="detectLocation3" value="${j.first ? '' : detectLocation3}${j.first ? '' : ','}${detect.location}" />
-                        <c:set var="detectAccuracy3" value="${j.first ? '' : detectAccuracy3}${j.first ? '' : ','}${detect.info.accuracy}" />
-                        <c:set var="detectObject3" value="${j.first ? '' : detectObject3}${j.first ? '' : ','}${detect.info.objectName}" />
-                    </c:forEach>
-                    <input type="hidden" name="fLocation" value="${ detectLocation3 }"/>
-                    <input type="hidden" name="fAccuracy" value="${ detectAccuracy3 }"/>
-                    <input type="hidden" name="fObject" value="${ detectObject3 }"/>
-
-
-                </div>
-
-            </c:forEach>
-        </article>
-    </div>
+</div>
+<!-- /page content -->
 
 </div>
-
+<!--/main_container  -->
+</div>
+<!--/container body  -->
 
 <c:import url="../includes/script.jsp"/>
 <script>

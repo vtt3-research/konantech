@@ -5,17 +5,20 @@
 <!-- dropzonejs -->
 <script src="<c:url value="/resources/custom/js/dropzone/dropzone.min.js"/>"></script>
 
-
 <script>
 
     Dropzone.autoDiscover = false;
     $(document).ready(function() {
         $("#mydropzone").dropzone({
             url: "<c:url value="/content/upload"/>",
+            uploadMultiple: false,
             maxFiles: 2000,
+            chunking: true,
+            forceChunking: true,
+            chunkSize: 20971520,  /* chunk size (~20MB) */
             addRemoveLinks: true,
-            // acceptedFiles: ".mp4, .mp4",
-            maxFilesize: 100000, //mb
+            acceptedFiles: ".ts, .mp4",
+            maxFilesize: 10000000, /* mb , (~10TB) */
             paramName: "file",
             params: {
                 _token: "__token__"
@@ -31,25 +34,41 @@
                 this.on("addedfile", function (file) {
                     console.log(file);
                 }),
-                this.on("success", function (file, response) {
+                this.on("success", function ( file) {
                     console.log("success");
                 }),
                 this.on("sending", function(file, xhr, formData) {
                     formData.append("title", $("#write_title").val());
                     formData.append("content", $("#write_content").val());
+                    console.log("sending");
+                    if (file.upload.chunked) {
+                        var chunk = 0;
+                        for (var i = 0; i < file.upload.totalChunkCount; i++) {
+                            if (file.upload.chunks[i] !== undefined) {
+                                if (file.upload.chunks[i].status !== Dropzone.SUCCESS) {
+                                    chunk = i;
+                                    break;
+                                }
+                            }
+                        }
+                        formData.append("chunks", file.upload.totalChunkCount);
+                        formData.append("chunk", chunk);
+                    }
+                    formData.append("size", file.size );
+                    formData.append("uuid", file.upload.uuid );
                 }),
                 this.on("thumbnail", function(file, dataUrl) {
+                }),
+                this.on("queuecomplete", function(file, progress, bytesSent) {
+                    MSG.alert( "작업이 완료되었습니다<br>'확인'버튼을 누르면 콘텐츠 페이지로 전환됩니다",function() {
+                        location.href = "<c:url value='/content' />";
+                    });
                 }),
                 this.on("error", function(file, error, xhr) {
                     //var ficheiro = { nome: file.name, status: xhr.status, statusText: xhr.statusText, erro: error.message };
                     MSG.alert(error.message);
                 }),
                 this.on("uploadprogress", function(file, progress, bytesSent) {
-                }),
-                this.on("queuecomplete", function(file, progress, bytesSent) {
-                    MSG.alert( "작업이 완료되었습니다<br>'확인'버튼을 누르면 콘텐츠 페이지로 전환됩니다",function() {
-                        location.href = "<c:url value='/content' />";
-                    });
                 }),
                 this.on("processing", function() {
                     this.options.autoProcessQueue = true;
@@ -59,7 +78,6 @@
 
 
     });
-
     $(document).ready(function() {
         $('.tooltip').tooltipster();
     });

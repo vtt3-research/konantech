@@ -5,7 +5,7 @@
         var c = a('<div class="superbox-show"></div>'),
             g = a('<div class="superbox_image" ></div>'),
             i = a('<div class="superbox_image_div" ></div>'),
-            h = a('<img src="" class="thumbnail img-responsive">'),
+            h = a('<img src="" class="img-responsive">'),
             d = a('<div id="imgInfoBox" class="superbox-imageinfo inline-block"> <textarea class="shot_description" onkeyup="setTextShotDescription($(this))"></textarea> </div>'),
             e = a('');
         c.append(g.append(i.append(h))).append(d).append(e);

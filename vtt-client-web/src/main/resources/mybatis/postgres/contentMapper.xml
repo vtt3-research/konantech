@@ -9,7 +9,7 @@
         SELECT
           COUNT(*) AS COUNT
         FROM
-        DEMO_VIDEO_TB
+        VTTM_VIDEO_TB
         <where>
 
         </where>
@@ -27,7 +27,7 @@
             ,genre
             ,delflag
         FROM
-            DEMO_VIDEO_TB
+            VTTM_VIDEO_TB
         <where>
 
         </where>
@@ -38,13 +38,36 @@
     </select>
 
 
-    <delete id="deleteContentItem" parameterType="int">
-            DELETE FROM DEMO_VIDEO_TB
-            <where>
-                idx = #{idx}
-            </where>
+    <delete id="deleteMetaInfo" parameterType="int">
+        DELETE FROM VTTM_META_INFO_TB
+        <where>
+            idx = #{idx}
+        </where>
     </delete>
 
+
+    <delete id="deleteSectionInfo" parameterType="int">
+        DELETE FROM VTTM_SECTION_INFO_TB
+        <where>
+            videoid = #{idx}
+        </where>
+    </delete>
+
+
+    <delete id="deleteRepImg" parameterType="int">
+        DELETE FROM VTTM_REP_IMG_TB
+        <where>
+            video_idx = #{idx}
+        </where>
+    </delete>
+
+
+    <delete id="deleteContentItem" parameterType="int">
+        DELETE FROM VTTM_VIDEO_TB
+        <where>
+            idx = #{idx}
+        </where>
+    </delete>
 
     <select id="getContentItem" parameterType="ContentQuery" resultType="ContentField">
 
@@ -58,7 +81,7 @@
             ,genre
             ,delflag
         FROM
-            DEMO_VIDEO_TB
+            VTTM_VIDEO_TB
         <where>
             idx = #{idx}
         </where>
@@ -67,10 +90,10 @@
 
     <insert id="putContentItem" parameterType="map" useGeneratedKeys="true" keyProperty="idx">
         <selectKey keyProperty="idx" resultType="Integer" order="BEFORE">
-            SELECT NEXTVAL('SEQ_VIDEO_TB')
---             SELECT COALESCE(max(idx),0) + 1 FROM DEMO_VIDEO_TB
+            SELECT NEXTVAL('SEQ_VTTM_VIDEO_TB')
+--             SELECT COALESCE(max(idx),0) + 1 FROM VTTM_VIDEO_TB
         </selectKey>
-        INSERT INTO DEMO_VIDEO_TB (
+        INSERT INTO VTTM_VIDEO_TB (
           idx, title, content
         ) values (
           #{idx}, #{title}, #{content}
@@ -78,7 +101,7 @@
     </insert>
 
     <update id="updateContentItem" parameterType="map" >
-        UPDATE DEMO_VIDEO_TB
+        UPDATE VTTM_VIDEO_TB
         <set>
             <if test="objectid != null and objectid != '' ">objectid = #{objectid},</if>
             <if test="assetfilepath != null and assetfilepath != '' ">assetfilepath = #{assetfilepath},</if>
@@ -96,5 +119,29 @@
         </where>
     </update>
 
-
+    <insert id="insertRepImg" parameterType="int">
+        insert into vttm_rep_img_tb
+        select
+          (select max(represent_img_idx) from vttm_rep_img_tb) + row_number() over() as represent_img_idx
+          ,row_number() over(partition by a.represent_img_seq )  as represent_img_seq
+          ,trim(both '.jpg' from a.image) as image_file_id
+          ,'{}' as represent_img_json
+          ,now() as registed_time
+          ,a.idx as video_idx
+          ,'http://10.10.30.21:7070/darc4/proxyshot/'||b.assetfilepath|| trim(both '.jpg' from b.assetfilename) || '/' ||a.image as img_url
+          ,trim(both '.jpg' from b.assetfilename) as section_idx
+          ,a.shotid as shot_id
+        from
+          (select
+            x.*
+            ,json_array_elements(x.vtt_meta_json) ->>'period_num' as represent_img_seq
+             ,json_array_elements(x.vtt_meta_json) ->>'image' as image
+            from
+          vttm_meta_info_tb x)a
+          inner join VTTM_SHOT_TB b
+            on a.idx = b.videoid
+               and a.shotid = b.shotid
+          where a.idx = #{idx}
+          order by a.idx,a.shotid
+    </insert>
 </mapper>

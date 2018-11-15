@@ -1,44 +1,41 @@
 package com.konantech.spring.controller.web;
 
+import com.konantech.spring.domain.content.ContentField;
 import com.konantech.spring.domain.content.ContentQuery;
 import com.konantech.spring.domain.content.VideoFile;
+import com.konantech.spring.domain.response.ItemResponse;
 import com.konantech.spring.domain.response.ListResponse;
+import com.konantech.spring.response.BasicResponse;
 import com.konantech.spring.service.ContentService;
+import com.konantech.spring.service.WorkflowService;
 import com.konantech.spring.util.RequestUtils;
-import net.sf.json.JSONObject;
-import org.apache.commons.collections.MapUtils;
-import org.apache.commons.io.FileUtils;
-import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.text.SimpleDateFormat;
-import java.util.*;
+import javax.servlet.http.HttpSession;
+import java.text.Normalizer;
+import java.util.List;
+import java.util.Map;
 
 @Controller
 public class ContentController {
 
     @Autowired
     private ContentService contentService;
+    @Autowired
+    private WorkflowService workflowService;
 
-    @RequestMapping(value = "/content/write", method = RequestMethod.GET)
-    public String contentWrite(ModelMap modelMap, HttpServletRequest request) throws Exception {
-        return "content/content_write";
-    }
 
     @RequestMapping(value = "/content", method = RequestMethod.GET)
-    public String content(ModelMap modelMap, HttpServletRequest request) throws Exception {
+    public String content(ModelMap modelMap, HttpServletRequest request, Authentication authentication) throws Exception {
         Map<String, Object> queryMap = RequestUtils.getParameterMap(request);
         modelMap.addAttribute("queryMap", queryMap);
         return "content/content";
@@ -68,15 +65,20 @@ public class ContentController {
     }
 
     @RequestMapping(value = "/content/upload", method = RequestMethod.POST)
-    public @ResponseBody Object contentUpload(ModelMap modelMap, HttpServletRequest request, @RequestParam("file") MultipartFile file) throws Exception {
+    public Object contentUpload(ModelMap modelMap, HttpServletRequest request, @RequestParam("file") MultipartFile file, HttpSession httpSession) throws Exception {
         if (file.isEmpty()) {
-            request.setAttribute("message", "Please select a file to upload");
-            return "uploadStatus";
+            return new ResponseEntity<>("Please select a file to upload", HttpStatus.BAD_REQUEST);
         }
         try {
+            int chunks = RequestUtils.getParameterInt(request, "chunks", 0);
+            int chunk = RequestUtils.getParameterInt(request, "chunk", 0);
+            int size = RequestUtils.getParameterInt(request, "size", 0);
+            String uuid = RequestUtils.getParameter(request, "uuid");
+            String videotype = RequestUtils.getParameter(request, "videotype");
             String title = request.getParameter("title");
             String content = request.getParameter("content");
-            String orifilename = file.getOriginalFilename();
+            String orifilename = Normalizer.normalize(file.getOriginalFilename(), Normalizer.Form.NFC); /* mac 한글 */
+
             if(StringUtils.isEmpty(title)) {
                 title = orifilename;
             }
@@ -85,12 +87,24 @@ public class ContentController {
             videoFile.setTitle(title);
             videoFile.setContent(content);
             videoFile.setFile(file);
+            videoFile.setChunks(chunks);
+            videoFile.setChunk(chunk);
+            videoFile.setUuid(uuid);
 
-            contentService.upload(videoFile);
+            ItemResponse<ContentField> itemResponse = contentService.upload(videoFile, httpSession);
+
+            BasicResponse response = new BasicResponse();
+            if(itemResponse.getItem()!=null) {
+                response.setStatus(itemResponse.getItem().getIdx());
+            }
+            response.setResult("SUCCESS");
+            response.setData("비디오를 등록했습니다");
+            response.setTimestamp(System.currentTimeMillis());
+
+            return new ResponseEntity<>(response, HttpStatus.OK);
         } catch (Exception e) {
-            throw new Exception(e.getMessage(), e);
+            return new ResponseEntity<>(e, HttpStatus.BAD_REQUEST);
         }
-        return "{\"success\":true}";
     }
 
 

@@ -20,6 +20,7 @@ import org.springframework.web.multipart.MultipartFile;
 import springfox.documentation.annotations.ApiIgnore;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -54,7 +55,8 @@ public class ContentRestController {
             @RequestParam String title,
             @RequestParam String content,
             @RequestParam String orifilename,
-            @RequestParam("file") MultipartFile file ) throws Exception {
+            @RequestParam("file") MultipartFile file,
+            HttpSession httpSession ) throws Exception {
 
         if(StringUtils.isEmpty(title)) {
             title = orifilename;
@@ -65,7 +67,7 @@ public class ContentRestController {
         videoFile.setOrifilename(orifilename);
         videoFile.setFile(file);
         videoFile.setRemoteAddr(RequestUtils.getRemoteAddr(httpServletRequest));
-        return new ObjectResponse<>(contentService.upload(videoFile));
+        return new ObjectResponse<>(contentService.upload(videoFile, httpSession));
     }
 
 
@@ -88,7 +90,8 @@ public class ContentRestController {
             @RequestParam String title,
             @RequestParam String content,
             @RequestParam String orifilename,
-            @RequestParam String filepath ) throws Exception {
+            @RequestParam String filepath,
+            HttpSession httpSession) throws Exception {
 
         VideoFile videoFile = new VideoFile();
         videoFile.setTitle(title);
@@ -96,7 +99,7 @@ public class ContentRestController {
         videoFile.setOrifilename(orifilename);
         videoFile.setFilepath(filepath);
         videoFile.setRemoteAddr(RequestUtils.getRemoteAddr(httpServletRequest));
-        return new ObjectResponse<>(contentService.upload(videoFile));
+        return new ObjectResponse<>(contentService.upload(videoFile,httpSession));
     }
 
 
