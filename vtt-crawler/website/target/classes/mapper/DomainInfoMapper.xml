@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.cmsoft.konan.dao.DomainInfoDAO">	
+	<insert id="insertDomainInfo" parameterType="com.cmsoft.konan.vo.DomainInfoVO">
+		INSERT INTO domain_info
+		          (DOMAIN, USER_ID, USER_PASS, INPUT_DATE, INPUT_ID) 
+		VALUES (#{DOMAIN}, #{USER_ID}, #{USER_PASS},  now(), #{INPUT_ID});		
+	</insert>
+	
+	<update id="updateDomainInfo"  parameterType="com.cmsoft.konan.vo.DomainInfoVO">
+	UPDATE domain_info 
+	   SET USER_ID          = #{USER_ID}, 
+	       USER_PASS        = #{USER_PASS}
+	 WHERE DOMAIN = #{DOMAIN};
+	</update>
+
+	<select id="selectDomainInfoListCount" parameterType="com.cmsoft.konan.vo.CommonSearchVO" resultType="Integer">
+		SELECT COUNT(T.DOMAIN)
+		  FROM domain_info T
+		 WHERE 1=1 
+		 <if test=" searchValue2 != null and searchValue2 != '' ">
+		   AND T.DOMAIN LIKE CONCAT('%',#{searchValue2},'%')		
+		 </if>	
+	</select>
+	
+
+	<select id="selectDomainInfoList" parameterType="com.cmsoft.konan.vo.CommonSearchVO" resultType="com.cmsoft.konan.vo.DomainInfoVO">
+		SELECT 
+			T.DOMAIN, T.USER_ID, T.USER_PASS, DATE_FORMAT(T.INPUT_DATE, '%Y-%m-%d') INPUT_DATE, INPUT_ID,
+			@ROWNUM := @ROWNUM + 1 AS ROWNUM
+		FROM domain_info T ,
+		    (SELECT @ROWNUM := 0) R 
+		 WHERE 1=1 
+		 <if test=" searchValue2 != null and searchValue2 != '' ">
+		   AND T.DOMAIN LIKE CONCAT('%',#{searchValue2},'%')		
+		 </if>
+	</select>
+
+	<select id="selectDomainInfo" parameterType="com.cmsoft.konan.vo.DomainInfoVO" resultType="com.cmsoft.konan.vo.DomainInfoVO">	
+		SELECT
+			T.DOMAIN, T.USER_ID, T.USER_PASS, DATE_FORMAT(T.INPUT_DATE, '%Y-%m-%d') INPUT_DATE, INPUT_ID  
+		  FROM domain_info T
+		 WHERE 1=1
+			AND T.DOMAIN = #{DOMAIN}	   
+	</select>
+	
+	<delete id="deleteDomainInfo" parameterType="com.cmsoft.konan.vo.DomainInfoVO">
+		DELETE FROM domain_info 
+		 WHERE DOMAIN = #{DOMAIN}
+	</delete>
+</mapper>

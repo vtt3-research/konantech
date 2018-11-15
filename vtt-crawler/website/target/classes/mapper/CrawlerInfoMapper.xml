@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.cmsoft.konan.dao.CrawlerInfoDAO">	
+
+	<select id="selectCrawlerInfoList" parameterType="com.cmsoft.konan.vo.CollectionInfoVO" resultType="com.cmsoft.konan.vo.CrawlerInfoVO">
+		SELECT 
+			T.TITLE, T.CATEGORY, T.LICENSE, T.CONTENTS, T.ISSUCCESS, T.FILENAME, T.FILE_URL, T.SERVER_IP,
+			DATE_FORMAT(T.INPUT_DATE, '%Y-%m-%d') INPUT_DATE,   
+			@ROWNUM := @ROWNUM + 1 AS ROWNUM
+		FROM crawler_info T ,
+		    (SELECT @ROWNUM := 0) R
+		 WHERE SID = #{SID}
+		 ORDER BY ISSUCCESS DESC, SEQ
+	</select>
+</mapper>
