@@ -25,7 +25,16 @@ Installation (Ubuntu)
 
 - Crawler installation  
   - Copy the files in the folder(named 'python') to the desired path (A).
+  - Edit script file(crawler_start).
+
+``` bash
+vi crawler_start
+
+> nohup python (A)/Konan_Crawler.py &
+> # desired path (A)
+```
   - Register script execution in '/etc/rc.local' file.
+
 ``` bash
 sudo vi /etc/rc.local
 
@@ -98,7 +107,7 @@ Run (Ubuntu)
 
 - Run crawler
 ``` bash
-cd /etc/rc.d
+cd /etc/
 ./rc.local
 ```
   - If you have more than one crawling server, each crawling server should have a crawler running. You also need to enter additional server information in the database.
