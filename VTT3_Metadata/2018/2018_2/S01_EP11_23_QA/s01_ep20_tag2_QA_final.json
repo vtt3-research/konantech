@@ -1,0 +1,637 @@
+{ 
+	"file_name": "s01_ep20_tag2_QA_final.json",
+	"registed_name": "s01_ep20_tag2_QA_final.json", 
+	"qa_results": 
+	[ 
+		{ 
+		"visual_period_num": "1-9", 
+		"period_num": "q1", 
+		"start_time": "00:00:00;00", 
+		"end_time": "00:00:51;01",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Chandler, Ross, Rachel, Pheobe, and Joey are in the living room having a snack time, while Monica is in the kitchen pouring coffee. Joey and Chandler are arguing who they would choose to be between Mr.Penuts and Mr.Salty. Monica finds a creep with a telescope across the building. Everyone moves over to the window to take a look in disgust. Phoebe calls everyone over to show the others the ugly naked guy with gravity boots."}, 
+			{ "description": "The whole group is having a snack and some coffee in their living room."}, 
+			{ "description": "They find a creep who was looking at them through a telescope"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Ross holding in his hand?", 
+				"question_type": "Visual detail", 
+				"answer": "A bagel", 
+				"wrong_answer1": "A donut", 
+				"wrong_answer2": "A lollipop", 
+				"wrong_answer3": "A cotton candy", 
+				"wrong_answer4": "A bread" } 
+			} ,
+			{ "qa": { 
+				"question": "What do the group find out about?", 
+				"question_type": "Action", 
+				"answer": "There's a creep looking in to their apartment", 
+				"wrong_answer1": "There's no more food", 
+				"wrong_answer2": "The rent is overdue", 
+				"wrong_answer3": "There's a leak in the house", 
+				"wrong_answer4": "There's going to be a construction" } 
+				} ,
+			{ "qa": { 
+				"question": "Who calls up the group to check out on the ugly naked guy's new gravity boots?", 
+				"question_type": "Person", 
+				"answer": "Pheobe", 
+				"wrong_answer1": "Ross", 
+				"wrong_answer2": "Joey", 
+				"wrong_answer3": "Pheobe", 
+				"wrong_answer4": "Monica" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "30-54", 
+		"period_num": "q2", 
+		"start_time": "00:01:42;19", 
+		"end_time": "00:03:42;05",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Monica, Pheobe, Chandler, Ross, and Joey are at the café. Chandler is talking about how well his last date went and the girls ask him if he had called her yet in fear of being seen as needy. Ross approves of Chandler's decision but the girls don't. Pheobe hands the phone to Chandler and he makes the call. The call goes straight to the answering machine. Rachel is standing outside the cafe door with Barry. Rachel comes back from a date with Barry and tells her friends that she had fun."}, 
+			{ "description": "The group with the exception of Rachel are at the café, drinking coffee. Chandler really likes his date but refuses to call her first."}, 
+			{ "description": "Rachel comes back unusually happy after spending some time with Barry"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why won't Chandler call first?", 
+				"question_type": "Reason", 
+				"answer": "He didn't want to seem too needy", 
+				"wrong_answer1": "He didn't want to seem creepy", 
+				"wrong_answer2": "He didn't like the date", 
+				"wrong_answer3": "He doesn't know her number", 
+				"wrong_answer4": "He doesn't have the time to call her" } 
+			} ,
+			{ "qa": { 
+				"question": "What is Ross doing?", 
+				"question_type": "Action", 
+				"answer": "He's drinknig coffee", 
+				"wrong_answer1": "He's calling someone", 
+				"wrong_answer2": "He's looking for Rachel", 
+				"wrong_answer3": "He's searching for his monkey", 
+				"wrong_answer4": "He's eating a donut" } 
+				} ,
+			{ "qa": { 
+				"question": "Who did Rachel meet?", 
+				"question_type": "Person", 
+				"answer": "Barry", 
+				"wrong_answer1": "Mindy", 
+				"wrong_answer2": "Ross", 
+				"wrong_answer3": "Joey", 
+				"wrong_answer4": "Monica" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "55-67", 
+		"period_num": "q3", 
+		"start_time": "00:03:42;05", 
+		"end_time": "00:05:09;05",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Rachel is telling everyone how Barry has changed at that she enjoyed her time together. She shows off the girt she got from Barry. However, her friends push her to put an end to this affair as Barry is engaged with Mindy already. Rachel agrees to do so but ends up having sex with Barry at his workplace."}, 
+			{ "description": "Rachel and the gang are at the café talking about her date with Barry."}, 
+			{ "description": "Rachel ends up sleeping with Barry"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why is Ross so keen on Rachel's relationship with Barry?", 
+				"question_type": "Reason", 
+				"answer": "He has feeling for her", 
+				"wrong_answer1": "He hates Rachel", 
+				"wrong_answer2": "He is bored", 
+				"wrong_answer3": "He has interests in other people's romance", 
+				"wrong_answer4": "He likes Barry" } 
+			} ,
+			{ "qa": { 
+				"question": "What did Rachel get for a gift?", 
+				"question_type": "Visual detail", 
+				"answer": "A perfume", 
+				"wrong_answer1": "A mascara", 
+				"wrong_answer2": "A postcard", 
+				"wrong_answer3": "A movie ticket", 
+				"wrong_answer4": "A pair of heels" } 
+				} ,
+			{ "qa": { 
+				"question": "What does Rachel end up doing?", 
+				"question_type": "Action", 
+				"answer": "She sleeps with Barry", 
+				"wrong_answer1": "She slaps Barry", 
+				"wrong_answer2": "She says goodbye to Barry", 
+				"wrong_answer3": "She dumps Barry", 
+				"wrong_answer4": "She hugs Barry" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "68-85", 
+		"period_num": "q4", 
+		"start_time": "00:05:09;05", 
+		"end_time": "00:06:29;18",
+		"related_period": "q3", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Chandler, Ross, Monica, Pheobe, and Joey are at Monica's apartment. Chandler is calling his date over the phone but is put through to an answering machine. Meanwhile, Monica finds the creep looking at through his window again. Pheobe walks towards the waves to ward him off but ends up getting a wave back from him. Joey complains that his house is being watched and that someone should go tell the man to stop."}, 
+			{ "description": "Chandler, Ross, Monica, Pheobe, and Joey are at Monica's apartment hanging around the living room and the kitchen area. Chandler makes a phone call to his date but it doesn't go through."}, 
+			{ "description": "They find the creep again"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why does Chandler make noises with the coin while he was on the phone?", 
+				"question_type": "Reason", 
+				"answer": "To sound like he is busy", 
+				"wrong_answer1": "To make it sound noisy", 
+				"wrong_answer2": "To make it harder for her to understand him", 
+				"wrong_answer3": "To have her wonder what he is doing", 
+				"wrong_answer4": "To irritate his date" } 
+			} ,
+			{ "qa": { 
+				"question": "How does Joey cook?", 
+				"question_type": "Person", 
+				"answer": "Naked", 
+				"wrong_answer1": "Fully clothed", 
+				"wrong_answer2": "Partially naked", 
+				"wrong_answer3": "Topless", 
+				"wrong_answer4": "Pantsless" } 
+				} ,
+			{ "qa": { 
+				"question": "What does Pheobe do to try and stop the creep from looking into their place?", 
+				"question_type": "Action", 
+				"answer": "Waves at him", 
+				"wrong_answer1": "Threatens him", 
+				"wrong_answer2": "Points a gun at him", 
+				"wrong_answer3": "Calls the police", 
+				"wrong_answer4": "She sens kisses to him" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "86-101", 
+		"period_num": "q5", 
+		"start_time": "00:06:29;18", 
+		"end_time": "00:07:52;00",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Rachel is putting her clothes back on and talking to Barry at his office. Rachel is concerned about what she just did but does not want Barry to break up with Mindy. Barry suggests to her about going to Aruba. Barry's patient comes into the office just as Barry and Rachel start to kiss."}, 
+			{ "description": "Rachel is at Barry's office, talking about what to do with the affair."}, 
+			{ "description": "The young patient catches them kissing"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How does Rachel feel about what she's done?", 
+				"question_type": "Emotion", 
+				"answer": "She feels sorry for Mindy", 
+				"wrong_answer1": "She feels glad", 
+				"wrong_answer2": "She feels proud", 
+				"wrong_answer3": "She feels happy", 
+				"wrong_answer4": "She feels excited" } 
+			} ,
+			{ "qa": { 
+				"question": "Where did Barry go by himself?", 
+				"question_type": "Person", 
+				"answer": "Aruba", 
+				"wrong_answer1": "Tokyo", 
+				"wrong_answer2": "San Francisco", 
+				"wrong_answer3": "Seoul", 
+				"wrong_answer4": "Mexico City" } 
+				} ,
+			{ "qa": { 
+				"question": "Where is Rachel?", 
+				"question_type": "Location", 
+				"answer": "At Barry's office", 
+				"wrong_answer1": "At Ross' office", 
+				"wrong_answer2": "At Monica's apartment", 
+				"wrong_answer3": "At Pheobe's apartment", 
+				"wrong_answer4": "At the café" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "102-117", 
+		"period_num": "q6", 
+		"start_time": "00:07:52;00", 
+		"end_time": "00:08:49;12",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Monica, Ross, Joey, and Phoebe are in the living room, sitting around the sofa. Chandler runs into Monica's apartment to ask to borrow her phone. He uses the phone to call his number to see if his phone is working okay. Pheobe suggests calling her to see if she'd receive his voice mail."}, 
+			{ "description": "Chandler calls and she answers."}, 
+			{ "description": "Chandler is in shock after getting rejected by Daniela."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why does Chandler ask to borrow Monica's phone?", 
+				"question_type": "Reason", 
+				"answer": "To use it to call his phone to check if it is working", 
+				"wrong_answer1": "To swap with his phone", 
+				"wrong_answer2": "To steal her phone", 
+				"wrong_answer3": "To take it to his house", 
+				"wrong_answer4": "To gift it to Daniela" } 
+			} ,
+			{ "qa": { 
+				"question": "What is Monica having as her drink?", 
+				"question_type": "Visual detail", 
+				"answer": "An orange juice", 
+				"wrong_answer1": "A cup of coffee", 
+				"wrong_answer2": "A bottle of beer", 
+				"wrong_answer3": "A cup of tea", 
+				"wrong_answer4": "A glass of milk" } 
+				} ,
+			{ "qa": { 
+				"question": "What does Chandler state himself as?", 
+				"question_type": "Statement", 
+				"answer": "Needy and Snubbed", 
+				"wrong_answer1": "Needy and Persistant", 
+				"wrong_answer2": "Desperate and Snubbed", 
+				"wrong_answer3": "Creepy and desperate", 
+				"wrong_answer4": "Sad and lonely" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "118-149", 
+		"period_num": "q7", 
+		"start_time": "00:08:49;12", 
+		"end_time": "00:11:33;18",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Rachel comes back to the apartment. She tells Monica that she slept with Barry. Monica's over the top reaction leads to the whole group knowing the truth. Ross is particularly disappointed and angry about the outcome of Rachel and Barry's meeting. Ross leaves the apartment in a grumpy manner. Mindy calls Rachel to ask to meet her and Rachel is extremely nervous about it."}, 
+			{ "description": "Ross is angry with that fact that Rachel slept with Barry and rushes out of the house."}, 
+			{ "description": "Mindy calls Rachel to ask her to come out for some coffee"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What does Pheobe do by repeating what Monica said?", 
+				"question_type": "Action", 
+				"answer": "To clarfy the sentence to Ross", 
+				"wrong_answer1": "To make fun of Ross", 
+				"wrong_answer2": "To hurt Ross' feelings", 
+				"wrong_answer3": "To make it easier for Ross to understand", 
+				"wrong_answer4": "To help out Ross" } 
+			} ,
+			{ "qa": { 
+				"question": "How is Ross feeling?", 
+				"question_type": "Emotion", 
+				"answer": "Angry", 
+				"wrong_answer1": "Happy", 
+				"wrong_answer2": "Glad", 
+				"wrong_answer3": "Excited", 
+				"wrong_answer4": "Sleepy" } 
+				} ,
+			{ "qa": { 
+				"question": "From who does Rachel get a phone call from?", 
+				"question_type": "Person", 
+				"answer": "Mindy", 
+				"wrong_answer1": "Ross", 
+				"wrong_answer2": "Barry", 
+				"wrong_answer3": "Monica", 
+				"wrong_answer4": "Chandler" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "150-175", 
+		"period_num": "q8", 
+		"start_time": "00:11:33;18", 
+		"end_time": "00:13:35;23",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Chandler is sitting in the kitchen by himself, waiting for Daniela's phone call. Monica comes into the kitchen to make a ringing noise to trick Chandler. Joey walks into the apartment and tells his friends about how the peeper is back. Rachel is getting ready to go out for work and is worried about how Mindy would react to her telling the truth. Monica tells Chandler to call Daniel again and this time, she picks up."}, 
+			{ "description": "Chandler, Joey, Monica are in the kitchen while Rachel is getting ready to go to work."}, 
+			{ "description": "Rachel is scared she might get her eyes scratched"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where is Chandler?", 
+				"question_type": "Location", 
+				"answer": "In the kitchen at Monica's apartment", 
+				"wrong_answer1": "In his apartment", 
+				"wrong_answer2": "At Ross' apartment", 
+				"wrong_answer3": "At the café", 
+				"wrong_answer4": "At his office" } 
+			} ,
+			{ "qa": { 
+				"question": "What does Rachel think Mindy is going to do to her?", 
+				"question_type": "Action", 
+				"answer": "Scratch her eyes", 
+				"wrong_answer1": "Kick her", 
+				"wrong_answer2": "Slap her", 
+				"wrong_answer3": "Cry with her", 
+				"wrong_answer4": "Hug her" } 
+				} ,
+			{ "qa": { 
+				"question": "What is Monica holding?", 
+				"question_type": "Action", 
+				"answer": "A water bottle", 
+				"wrong_answer1": "A glowstick", 
+				"wrong_answer2": "A lipstick", 
+				"wrong_answer3": "A coffe mug", 
+				"wrong_answer4": "A cup of tea" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "176-193", 
+		"period_num": "q9", 
+		"start_time": "00:13:38;03", 
+		"end_time": "00:15:35;17",
+		"related_period": "q3", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Mindy comes into the café while Rachel is inside, waiting for her. Mindy asks if Rachel could be her maid of honor. Rachel is relieved, however, soon is told that Barry might be seeing someone. Unexpectedly, Mindy confesses that when Rachel was engaged with Barry, Mindy had an affair with him."}, 
+			{ "description": "Rachel and Mindy are in the café talking about Rachel being the maid of honor for Mindy."}, 
+			{ "description": "Mindy tells Rachel about her affair with Barry when Rachel was engaged to him."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What does Mindy ask Rachel to be?", 
+				"question_type": "Person", 
+				"answer": "Her maid of honor", 
+				"wrong_answer1": "Her partner", 
+				"wrong_answer2": "Her business partner", 
+				"wrong_answer3": "Her wifew", 
+				"wrong_answer4": "Her bestfriend" } 
+			} ,
+			{ "qa": { 
+				"question": "What color is Mindy's jacket?", 
+				"question_type": "VIsual detail", 
+				"answer": "Pink", 
+				"wrong_answer1": "Blue", 
+				"wrong_answer2": "Black", 
+				"wrong_answer3": "Red", 
+				"wrong_answer4": "Navy" } 
+				} ,
+			{ "qa": { 
+				"question": "How does Rachel feel after she hears the truth from Mindy?", 
+				"question_type": "Emotion", 
+				"answer": "Shocked", 
+				"wrong_answer1": "Calm", 
+				"wrong_answer2": "Depressed", 
+				"wrong_answer3": "Devastated", 
+				"wrong_answer4": "Sad" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "194-200", 
+		"period_num": "q10", 
+		"start_time": "00:15:43;14", 
+		"end_time": "00:16:27;12",
+		"related_period": "q3", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Rachel tells Mindy that she has been sleeping with Barry. She lets Mindy smell the Chanel perfume. They both apologize to each other and starts hugging. Joey walks into the café to enjoy the scene."}, 
+			{ "description": "Rachel tells Mindy about the truth at the café."}, 
+			{ "description": "They both apologize to each other"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How does Rachel let Mindy know about the affair?", 
+				"question_type": "Action", 
+				"answer": "She let Mindy smell the scent on her wrist", 
+				"wrong_answer1": "She showed her the text message between her and Barry", 
+				"wrong_answer2": "She called Barry", 
+				"wrong_answer3": "She brought Barry over to talk", 
+				"wrong_answer4": "She showed Mindy the gift she got from Barry" } 
+			} ,
+			{ "qa": { 
+				"question": "What do both girls do in the end?", 
+				"question_type": "Action", 
+				"answer": "They forgive eachother", 
+				"wrong_answer1": "They start a fight", 
+				"wrong_answer2": "They swear at eachother", 
+				"wrong_answer3": "They talk it out", 
+				"wrong_answer4": "They try to inuslt eachother" } 
+				} ,
+			{ "qa": { 
+				"question": "What color is Rachel's jacket?", 
+				"question_type": "Visual detail", 
+				"answer": "Blue", 
+				"wrong_answer1": "Red", 
+				"wrong_answer2": "Yellow", 
+				"wrong_answer3": "White", 
+				"wrong_answer4": "Brown" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "201-231", 
+		"period_num": "q11", 
+		"start_time": "00:16:27;12", 
+		"end_time": "00:18:19;20",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross and Pheobe are in the living room playing crossword puzzles. Chandler is in the kitchen waiting for the call while Monica is making a sandwich for herself. Joey walks in, letting Chandler know that Chandler's phone is not working. Joey went across the street to find out the name of the creeper and he tries calling the person. Joey finds out that the person is actually a woman. The peep on the other side of the phone starts complementing Joey and Monica on their looks."}, 
+			{ "description": "Pheobe, Ross, Chandler, Monica, and Joey are at home."}, 
+			{ "description": "Joey calls the creep who's been peeping at their apartment"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Monica making?", 
+				"question_type": "Action", 
+				"answer": "A sandwich", 
+				"wrong_answer1": "A lasgna", 
+				"wrong_answer2": "A chicken stew", 
+				"wrong_answer3": "An apple pie", 
+				"wrong_answer4": "A Nacho dip" } 
+			} ,
+			{ "qa": { 
+				"question": "Why didn't Chandler get a callback?", 
+				"question_type": "Reason", 
+				"answer": "Because he turned the phone off", 
+				"wrong_answer1": "Because the girl didn't like him", 
+				"wrong_answer2": "Because he's date was too busy", 
+				"wrong_answer3": "Because he's date is seeing another man", 
+				"wrong_answer4": "Because he's date doesn't have a phone" } 
+				} ,
+			{ "qa": { 
+				"question": "How does Monica feel when she hears what the peeper had to say about her?", 
+				"question_type": "Emotion", 
+				"answer": "Pleasant", 
+				"wrong_answer1": "Sad", 
+				"wrong_answer2": "Angry", 
+				"wrong_answer3": "Annoyed", 
+				"wrong_answer4": "Bothered" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "232-250", 
+		"period_num": "q12", 
+		"start_time": "00:18:19;20", 
+		"end_time": "00:20:53;17",
+		"related_period": "q10", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Mindy and Rachel go to Barry's office. Both of them express their anger towards Barry. Barry apologizes to Mindy and promises that it will never happen. He talks about going back to Aruba for a trip. Barry goes out to help out a patient. Mindy tells Rachel that she still wants to get married to Barry and wishes Rachel be happy for the couple."}, 
+			{ "description": "Mindy and Rachel are at Barry's office to break up with him."}, 
+			{ "description": "Mindy accepts Barry's apology"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who does the doctor choose?", 
+				"question_type": "Action", 
+				"answer": "Mindy", 
+				"wrong_answer1": "Rachel", 
+				"wrong_answer2": "Pheobe", 
+				"wrong_answer3": "Monica", 
+				"wrong_answer4": "Nina" } 
+			} ,
+			{ "qa": { 
+				"question": "Why does the doctor rush out of the office?", 
+				"question_type": "Reason", 
+				"answer": "He needs to help a patient", 
+				"wrong_answer1": "He is too embarrassed", 
+				"wrong_answer2": "He needs to go to the washroom", 
+				"wrong_answer3": "He wants to grab something to eat", 
+				"wrong_answer4": "He has an appointment" } 
+				} ,
+			{ "qa": { 
+				"question": "How does Mindy react?", 
+				"question_type": "Emotion", 
+				"answer": "She accept his apology", 
+				"wrong_answer1": "She wants to find a new man", 
+				"wrong_answer2": "She wants to break up with him", 
+				"wrong_answer3": "She wants to be single", 
+				"wrong_answer4": "She wants to be alone" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "251-253", 
+		"period_num": "q13", 
+		"start_time": "00:20:53;17", 
+		"end_time": "00:21:20;20",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Rachel and Monica are at their apartment having a glass of wine. Rachel finally realizes that she had made the right choice not to marry Barry. Monica hugs her and consoles her. Joey walks in to enjoy the scene again."}, 
+			{ "description": "Rachel and Monica are drinking wine at home."}, 
+			{ "description": "Rachel is glad she made the choice to dump Barry"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is drinking wine in the scene?", 
+				"question_type": "Person", 
+				"answer": "Rachel and Monica", 
+				"wrong_answer1": "Pheobe and Monica", 
+				"wrong_answer2": "Monica and Joey", 
+				"wrong_answer3": "Joey and Ross", 
+				"wrong_answer4": "Ross and Monica" } 
+			} ,
+			{ "qa": { 
+				"question": "How does Rachel feel?", 
+				"question_type": "Emotion", 
+				"answer": "She's glad she gave up the wedding", 
+				"wrong_answer1": "She's sore and bitter that Mindy gets to take Barry", 
+				"wrong_answer2": "She misses Barry even more", 
+				"wrong_answer3": "She's wants to marry Barry", 
+				"wrong_answer4": "She wants to be with Ross" } 
+				} ,
+			{ "qa": { 
+				"question": "Who walks into the scene later?", 
+				"question_type": "Person", 
+				"answer": "Joey", 
+				"wrong_answer1": "Ross", 
+				"wrong_answer2": "Chandler", 
+				"wrong_answer3": "Mindy", 
+				"wrong_answer4": "Rachel" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "254-265", 
+		"period_num": "q14", 
+		"start_time": "00:21:20;20", 
+		"end_time": "00:22:36;15",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Everyone is at the café sitting around the sofa. Daniel walks in to find Chandler. She didn't have the right number for Chandler and couldn't contact him. Daniel and Chandler talk about setting up some time for a second date. Chandler loses interest in her because he feels she is being needy and too desperate to come down all the way to central perk."}, 
+			{ "description": "Everyone is at the café, chatting with each other."}, 
+			{ "description": "Chandler loses interest in Daniel because he felt she was needy"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why couldn't Daniel contact Chandler?", 
+				"question_type": "Reason", 
+				"answer": "She had the wrong number", 
+				"wrong_answer1": "She was too lazy", 
+				"wrong_answer2": "She was away", 
+				"wrong_answer3": "Her phone broke down", 
+				"wrong_answer4": "She was too sick" } 
+			} ,
+			{ "qa": { 
+				"question": "What did Daniel ask Chandler to do?", 
+				"question_type": "Action", 
+				"answer": "Asked him out again", 
+				"wrong_answer1": "Told him to buy her a new phone", 
+				"wrong_answer2": "Asked him to come to her house", 
+				"wrong_answer3": "Asked him to marry her", 
+				"wrong_answer4": "Asekd him to settle down with her" } 
+				} ,
+			{ "qa": { 
+				"question": "How does Chandler feel about Daniel?", 
+				"question_type": "Emotion", 
+				"answer": "He loses his interest", 
+				"wrong_answer1": "He is still madly in love", 
+				"wrong_answer2": "He's into her", 
+				"wrong_answer3": "He loves her", 
+				"wrong_answer4": "He forgets about her" 
+				} 
+			} 
+		] 
+	}
+	]
+}

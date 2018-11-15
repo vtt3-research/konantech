@@ -1,0 +1,2221 @@
+{ 
+	"file_name": "s01_ep14_subtitle_final.json",
+	"registed_name": "s01_ep14_subtitle_final.json", 
+	"subtitle_results": 
+	[ 
+		{ 
+		"start_time": "3.488", 
+		"end_time": "5.531", 
+		"speaker": "Joey", 
+		"subtitle": "I'm telling you, Ross, she wants you." 
+		},
+		{ 
+		"start_time": "5.782", 
+		"end_time": "8.534", 
+		"speaker": "Ross", 
+		"subtitle": "She barely knows me. We just live in the same building." 
+		},
+		{ 
+		"start_time": "8.785", 
+		"end_time": "11.12", 
+		"speaker": "Chandler", 
+		"subtitle": "Any contact?" 
+		},
+		{ 
+		"start_time": "8.785", 
+		"end_time": "11.12", 
+		"speaker": "Ross", 
+		"subtitle": "She lent me an egg once." 
+		},
+		{ 
+		"start_time": "11.329", 
+		"end_time": "12.538", 
+		"speaker": "Joey", 
+		"subtitle": "You're in." 
+		},
+		{ 
+		"start_time": "13.623", 
+		"end_time": "15.166", 
+		"speaker": "Ross", 
+		"subtitle": "Oh, right." 
+		},
+		{ 
+		"start_time": "15.917", 
+		"end_time": "17.668", 
+		"speaker": "None", 
+		"subtitle": "Hey, Ross." 
+		},
+		{ 
+		"start_time": "15.917", 
+		"end_time": "17.668", 
+		"speaker": "Ross", 
+		"subtitle": "Hey." 
+		},
+		{ 
+		"start_time": "23.3", 
+		"end_time": "25.968", 
+		"speaker": "Chandler", 
+		"subtitle": "Come on, Ross. You gotta get back in the game here." 
+		},
+		{ 
+		"start_time": "26.219", 
+		"end_time": "30.347", 
+		"speaker": "Chandler", 
+		"subtitle": "The Rachel thing's not happening, your ex-wife's a lesbian, you...." 
+		},
+		{ 
+		"start_time": "31.308", 
+		"end_time": "33.184", 
+		"speaker": "Chandler", 
+		"subtitle": "I don't think we need a third." 
+		},
+		{ 
+		"start_time": "33.435", 
+		"end_time": "36.645", 
+		"speaker": "Joey", 
+		"subtitle": "Excuse me. Could we get an egg over here, still in the shell?" 
+		},
+		{ 
+		"start_time": "36.855", 
+		"end_time": "37.897", 
+		"speaker": "Ross", 
+		"subtitle": "An egg?" 
+		},
+		{ 
+		"start_time": "38.148", 
+		"end_time": "43.027", 
+		"speaker": "Joey", 
+		"subtitle": "Yeah. Go up to her and say, \"Here's your egg back. I'm returning your egg.\"" 
+		},
+		{ 
+		"start_time": "43.612", 
+		"end_time": "45.237", 
+		"speaker": "Chandler", 
+		"subtitle": "I think it's winning." 
+		},
+		{ 
+		"start_time": "46.156", 
+		"end_time": "48.324", 
+		"speaker": "Ross", 
+		"subtitle": "I think it's insane." 
+		},
+		{ 
+		"start_time": "46.156", 
+		"end_time": "48.324", 
+		"speaker": "Chandler", 
+		"subtitle": "She'll love it." 
+		},
+		{ 
+		"start_time": "49.785", 
+		"end_time": "52.495", 
+		"speaker": "Joey", 
+		"subtitle": "Thank you." 
+		},
+		{ 
+		"start_time": "49.785", 
+		"end_time": "52.495", 
+		"speaker": "Chandler", 
+		"subtitle": "Thank you. Here." 
+		},
+		{ 
+		"start_time": "55.707", 
+		"end_time": "57.583", 
+		"speaker": "Chandler", 
+		"subtitle": "Go with the egg, my friend." 
+		},
+		{ 
+		"start_time": "60.003", 
+		"end_time": "62.379", 
+		"speaker": "Joey", 
+		"subtitle": "Go, go, go." 
+		},
+		{ 
+		"start_time": "60.003", 
+		"end_time": "62.379", 
+		"speaker": "Chandler", 
+		"subtitle": "Go, go, go." 
+		},
+		{ 
+		"start_time": "64.382", 
+		"end_time": "67.635", 
+		"speaker": "Joey", 
+		"subtitle": "Think it'll work?" 
+		},
+		{ 
+		"start_time": "64.382", 
+		"end_time": "67.635", 
+		"speaker": "Chandler", 
+		"subtitle": "It's suicide. The man's got an egg." 
+		},
+		{ 
+		"start_time": "118.103", 
+		"end_time": "120.187", 
+		"speaker": "Monica", 
+		"subtitle": "You cannot do this." 
+		},
+		{ 
+		"start_time": "118.103", 
+		"end_time": "120.187", 
+		"speaker": "Rachel", 
+		"subtitle": "What? Do what?" 
+		},
+		{ 
+		"start_time": "120.438", 
+		"end_time": "121.981", 
+		"speaker": "Monica", 
+		"subtitle": "Roger wants to take her out." 
+		},
+		{ 
+		"start_time": "122.19", 
+		"end_time": "125.234", 
+		"speaker": "Rachel", 
+		"subtitle": "No. Pheebs. Don't you remember why you dumped the guy?" 
+		},
+		{ 
+		"start_time": "125.902", 
+		"end_time": "127.403", 
+		"speaker": "Phoebe", 
+		"subtitle": "Because he was creepy." 
+		},
+		{ 
+		"start_time": "128.405", 
+		"end_time": "130.322", 
+		"speaker": "Phoebe", 
+		"subtitle": "And mean. And a little frightening." 
+		},
+		{ 
+		"start_time": "130.574", 
+		"end_time": "133.117", 
+		"speaker": "Phoebe", 
+		"subtitle": "Still, it's nice to have a date on Valentine's Day." 
+		},
+		{ 
+		"start_time": "134.244", 
+		"end_time": "135.327", 
+		"speaker": "Phoebe", 
+		"subtitle": "Hi." 
+		},
+		{ 
+		"start_time": "134.244", 
+		"end_time": "135.327", 
+		"speaker": "Joey", 
+		"subtitle": "Hi." 
+		},
+		{ 
+		"start_time": "134.244", 
+		"end_time": "135.327", 
+		"speaker": "Chandler", 
+		"subtitle": "Hi." 
+		},
+		{ 
+		"start_time": "135.579", 
+		"end_time": "138.205", 
+		"speaker": "Monica", 
+		"subtitle": "You can go out with a creep any night of the year." 
+		},
+		{ 
+		"start_time": "138.874", 
+		"end_time": "140.165", 
+		"speaker": "Monica", 
+		"subtitle": "I know I do." 
+		},
+		{ 
+		"start_time": "141.334", 
+		"end_time": "142.668", 
+		"speaker": "Monica", 
+		"subtitle": "Hi." 
+		},
+		{ 
+		"start_time": "141.334", 
+		"end_time": "142.668", 
+		"speaker": "Joey", 
+		"subtitle": "Hi." 
+		},
+		{ 
+		"start_time": "141.334", 
+		"end_time": "142.668", 
+		"speaker": "Chandler", 
+		"subtitle": "Hi." 
+		},
+		{ 
+		"start_time": "143.712", 
+		"end_time": "145.337", 
+		"speaker": "Rachel", 
+		"subtitle": "What are you doing tomorrow night?" 
+		},
+		{ 
+		"start_time": "145.547", 
+		"end_time": "147.882", 
+		"speaker": "Joey", 
+		"subtitle": "Actually, tomorrow night depends on how tonight goes." 
+		},
+		{ 
+		"start_time": "148.049", 
+		"end_time": "152.261", 
+		"speaker": "Chandler", 
+		"subtitle": "Oh. Uh, listen, about tonight…" 
+		},
+		{ 
+		"start_time": "148.049", 
+		"end_time": "152.261", 
+		"speaker": "Joey", 
+		"subtitle": "No, no, don't you dare bail on me." 
+		},
+		{ 
+		"start_time": "152.512", 
+		"end_time": "155.973", 
+		"speaker": "Joey", 
+		"subtitle": "She's only going out with me because I'm bringing a friend for her friend." 
+		},
+		{ 
+		"start_time": "156.182", 
+		"end_time": "158.058", 
+		"speaker": "Chandler", 
+		"subtitle": "But her friend sounds like such a..." 
+		},
+		{ 
+		"start_time": "158.31", 
+		"end_time": "160.519", 
+		"speaker": "Joey", 
+		"subtitle": "Pathetic mess. I know, but...." 
+		},
+		{ 
+		"start_time": "161.062", 
+		"end_time": "164.315", 
+		"speaker": "Joey", 
+		"subtitle": "Come on, man, she's needy, she's vulnerable. I'm thinking" 
+		},
+		{ 
+		"start_time": "170.28", 
+		"end_time": "171.322", 
+		"speaker": "Joey", 
+		"subtitle": "Thanks." 
+		},
+		{ 
+		"start_time": "172.324", 
+		"end_time": "176.076", 
+		"speaker": "Joey", 
+		"subtitle": "You haven't been out with a woman since Janice. You're doing this." 
+		},
+		{ 
+		"start_time": "176.745", 
+		"end_time": "178.203", 
+		"speaker": "Ross", 
+		"subtitle": "Hi." 
+		},
+		{ 
+		"start_time": "176.745", 
+		"end_time": "178.203", 
+		"speaker": "Monica", 
+		"subtitle": "Hi." 
+		},
+		{ 
+		"start_time": "176.745", 
+		"end_time": "178.203", 
+		"speaker": "Phoebe", 
+		"subtitle": "Hi." 
+		},
+		{ 
+		"start_time": "179.164", 
+		"end_time": "180.372", 
+		"speaker": "Ross", 
+		"subtitle": "She said yes." 
+		},
+		{ 
+		"start_time": "179.164", 
+		"end_time": "180.372", 
+		"speaker": "Joey", 
+		"subtitle": "Ahem." 
+		},
+		{ 
+		"start_time": "179.164", 
+		"end_time": "180.372", 
+		"speaker": "Chandler", 
+		"subtitle": "Ahem." 
+		},
+		{ 
+		"start_time": "180.624", 
+		"end_time": "181.957", 
+		"speaker": "Chandler", 
+		"subtitle": "Yes! Way to go, man." 
+		},
+		{ 
+		"start_time": "184.21", 
+		"end_time": "186.211", 
+		"speaker": "Chandler", 
+		"subtitle": "Still got the egg, huh?" 
+		},
+		{ 
+		"start_time": "184.21", 
+		"end_time": "186.211", 
+		"speaker": "Ross", 
+		"subtitle": "Yeah." 
+		},
+		{ 
+		"start_time": "199.726", 
+		"end_time": "201.977", 
+		"speaker": "Joey", 
+		"subtitle": "How do I look?" 
+		},
+		{ 
+		"start_time": "199.726", 
+		"end_time": "201.977", 
+		"speaker": "Chandler", 
+		"subtitle": "Oh, um..." 
+		},
+		{ 
+		"start_time": "202.145", 
+		"end_time": "203.52", 
+		"speaker": "Chandler", 
+		"subtitle": "...I don't care." 
+		},
+		{ 
+		"start_time": "207.567", 
+		"end_time": "208.651", 
+		"speaker": "Joey", 
+		"subtitle": "There's Lorraine." 
+		},
+		{ 
+		"start_time": "208.902", 
+		"end_time": "210.653", 
+		"speaker": "Chandler", 
+		"subtitle": "Now, remember, no trading." 
+		},
+		{ 
+		"start_time": "210.904", 
+		"end_time": "213.197", 
+		"speaker": "Chandler", 
+		"subtitle": "You get the pretty one. I get the mess." 
+		},
+		{ 
+		"start_time": "213.782", 
+		"end_time": "215.95", 
+		"speaker": "None", 
+		"subtitle": "Hi, Joey." 
+		},
+		{ 
+		"start_time": "213.782", 
+		"end_time": "215.95", 
+		"speaker": "Joey", 
+		"subtitle": "Hey." 
+		},
+		{ 
+		"start_time": "218.203", 
+		"end_time": "219.745", 
+		"speaker": "None", 
+		"subtitle": "Well, well." 
+		},
+		{ 
+		"start_time": "219.955", 
+		"end_time": "221.58", 
+		"speaker": "None", 
+		"subtitle": "Look what you brought." 
+		},
+		{ 
+		"start_time": "221.831", 
+		"end_time": "223.29", 
+		"speaker": "None", 
+		"subtitle": "Very nice." 
+		},
+		{ 
+		"start_time": "224.376", 
+		"end_time": "226.293", 
+		"speaker": "Chandler", 
+		"subtitle": "And what did you bring?" 
+		},
+		{ 
+		"start_time": "228.004", 
+		"end_time": "229.713", 
+		"speaker": "None", 
+		"subtitle": "She's checking her coat." 
+		},
+		{ 
+		"start_time": "229.965", 
+		"end_time": "233.258", 
+		"speaker": "None", 
+		"subtitle": "Joey, I'm gonna go wash the cab smell off of my hands." 
+		},
+		{ 
+		"start_time": "233.51", 
+		"end_time": "237.304", 
+		"speaker": "None", 
+		"subtitle": "Will you get me a white zinfandel and a glass of red for Janice?" 
+		},
+		{ 
+		"start_time": "242.018", 
+		"end_time": "242.518", 
+		"speaker": "Chandler", 
+		"subtitle": "Janice?" 
+		},
+		{ 
+		"start_time": "247.816", 
+		"end_time": "249.024", 
+		"speaker": "None", 
+		"subtitle": "Oh..." 
+		},
+		{ 
+		"start_time": "249.275", 
+		"end_time": "250.484", 
+		"speaker": "None", 
+		"subtitle": "...my..." 
+		},
+		{ 
+		"start_time": "250.735", 
+		"end_time": "251.944", 
+		"speaker": "None", 
+		"subtitle": "...God." 
+		},
+		{ 
+		"start_time": "255.949", 
+		"end_time": "258.242", 
+		"speaker": "Chandler", 
+		"subtitle": "Hey, it's Janice." 
+		},
+		{ 
+		"start_time": "264.29", 
+		"end_time": "266.834", 
+		"speaker": "Chandler", 
+		"subtitle": "Okay, l'm making a break for it. I'm going out the window." 
+		},
+		{ 
+		"start_time": "267.085", 
+		"end_time": "271.714", 
+		"speaker": "Joey", 
+		"subtitle": "No, don't, please. I've been waiting for forever to go out with Lorraine." 
+		},
+		{ 
+		"start_time": "271.923", 
+		"end_time": "274.133", 
+		"speaker": "Joey", 
+		"subtitle": "Just calm down." 
+		},
+		{ 
+		"start_time": "271.923", 
+		"end_time": "274.133", 
+		"speaker": "Chandler", 
+		"subtitle": "Calm down? Calm down?" 
+		},
+		{ 
+		"start_time": "274.384", 
+		"end_time": "277.177", 
+		"speaker": "Chandler", 
+		"subtitle": "You set me up with a woman l've dumped twice in the last five months." 
+		},
+		{ 
+		"start_time": "277.345", 
+		"end_time": "278.762", 
+		"speaker": "Joey", 
+		"subtitle": "Hey." 
+		},
+		{ 
+		"start_time": "279.681", 
+		"end_time": "283.225", 
+		"speaker": "Joey", 
+		"subtitle": "Can you stop yelling? You're making me nervous..." 
+		},
+		{ 
+		"start_time": "286.604", 
+		"end_time": "288.814", 
+		"speaker": "Joey", 
+		"subtitle": "...and I can't go when I'm nervous." 
+		},
+		{ 
+		"start_time": "289.399", 
+		"end_time": "291.525", 
+		"speaker": "Chandler", 
+		"subtitle": "I'm sorry. l'm sorry. You're right." 
+		},
+		{ 
+		"start_time": "295.363", 
+		"end_time": "298.615", 
+		"speaker": "Chandler", 
+		"subtitle": "Come on! Do it, do it, do it! Come on!" 
+		},
+		{ 
+		"start_time": "300.326", 
+		"end_time": "304.038", 
+		"speaker": "Rachel", 
+		"subtitle": "Okay, Roger was creepy, but he was nothing compared to Pete Carney." 
+		},
+		{ 
+		"start_time": "304.289", 
+		"end_time": "306.165", 
+		"speaker": "Monica", 
+		"subtitle": "Which one was he?" 
+		},
+		{ 
+		"start_time": "304.289", 
+		"end_time": "306.165", 
+		"speaker": "Rachel", 
+		"subtitle": "Pete the Weeper?" 
+		},
+		{ 
+		"start_time": "306.416", 
+		"end_time": "310.085", 
+		"speaker": "Rachel", 
+		"subtitle": "Remember the guy that used to cry every time we had sex?" 
+		},
+		{ 
+		"start_time": "310.587", 
+		"end_time": "313.088", 
+		"speaker": "Rachel", 
+		"subtitle": "Oh, was it good for you?" 
+		},
+		{ 
+		"start_time": "315.216", 
+		"end_time": "319.47", 
+		"speaker": "Monica", 
+		"subtitle": "Well, I'd take a little crying any day over Howard, the \"I win\" guy." 
+		},
+		{ 
+		"start_time": "319.679", 
+		"end_time": "321.764", 
+		"speaker": "Monica", 
+		"subtitle": "I win. I win." 
+		},
+		{ 
+		"start_time": "323.183", 
+		"end_time": "326.56", 
+		"speaker": "Monica", 
+		"subtitle": "I went out with him for two months. I didn't get to win once." 
+		},
+		{ 
+		"start_time": "327.187", 
+		"end_time": "330.564", 
+		"speaker": "Rachel", 
+		"subtitle": "How do we end up with these jerks? We're good people." 
+		},
+		{ 
+		"start_time": "330.815", 
+		"end_time": "333.65", 
+		"speaker": "Monica", 
+		"subtitle": "I don't know. I think we're like some kind of magnets." 
+		},
+		{ 
+		"start_time": "333.902", 
+		"end_time": "337.404", 
+		"speaker": "Phoebe", 
+		"subtitle": "I know I am. That's why I can't wear a digital watch." 
+		},
+		{ 
+		"start_time": "340.408", 
+		"end_time": "342.284", 
+		"speaker": "Monica", 
+		"subtitle": "There's more beer, right?" 
+		},
+		{ 
+		"start_time": "344.37", 
+		"end_time": "347.539", 
+		"speaker": "Phoebe", 
+		"subtitle": "Oh. You know my friend Abby who shaves her head?" 
+		},
+		{ 
+		"start_time": "349.125", 
+		"end_time": "351.835", 
+		"speaker": "Phoebe", 
+		"subtitle": "She says to break the bad-boyfriend cycle..." 
+		},
+		{ 
+		"start_time": "352.087", 
+		"end_time": "354.379", 
+		"speaker": "Phoebe", 
+		"subtitle": "...you can do a cleansing ritual." 
+		},
+		{ 
+		"start_time": "357.092", 
+		"end_time": "360.719", 
+		"speaker": "Rachel", 
+		"subtitle": "Pheebs, this woman is voluntarily bald." 
+		},
+		{ 
+		"start_time": "362.138", 
+		"end_time": "363.597", 
+		"speaker": "Phoebe", 
+		"subtitle": "Yeah." 
+		},
+		{ 
+		"start_time": "364.182", 
+		"end_time": "366.809", 
+		"speaker": "Phoebe", 
+		"subtitle": "So we can do it tomorrow night, you guys." 
+		},
+		{ 
+		"start_time": "367.06", 
+		"end_time": "368.894", 
+		"speaker": "Phoebe", 
+		"subtitle": "It's Valentine's Day. It's perfect." 
+		},
+		{ 
+		"start_time": "369.395", 
+		"end_time": "371.522", 
+		"speaker": "Monica", 
+		"subtitle": "Okay, well, what kind of ritual?" 
+		},
+		{ 
+		"start_time": "371.773", 
+		"end_time": "375.818", 
+		"speaker": "Phoebe", 
+		"subtitle": "Okay, we can, um, burn the stuff they gave us." 
+		},
+		{ 
+		"start_time": "376.903", 
+		"end_time": "378.362", 
+		"speaker": "Rachel", 
+		"subtitle": "Or...?" 
+		},
+		{ 
+		"start_time": "378.613", 
+		"end_time": "383.408", 
+		"speaker": "Phoebe", 
+		"subtitle": "Or we can chant and dance around naked, you know, with sticks." 
+		},
+		{ 
+		"start_time": "386.496", 
+		"end_time": "387.857", 
+		"speaker": "Monica", 
+		"subtitle": "Burning's good." 
+		},
+		{ 
+		"start_time": "386.496", 
+		"end_time": "387.857", 
+		"speaker": "Rachel", 
+		"subtitle": "Burning's good." 
+		},
+		{ 
+		"start_time": "387.997", 
+		"end_time": "389.54", 
+		"speaker": "Rachel", 
+		"subtitle": "I've got stuff to burn." 
+		},
+		{ 
+		"start_time": "398.091", 
+		"end_time": "399.633", 
+		"speaker": "None", 
+		"subtitle": "You know..." 
+		},
+		{ 
+		"start_time": "399.801", 
+		"end_time": "404.263", 
+		"speaker": "None", 
+		"subtitle": "...ever since I was little, I've been able to pick up quarters with my toes." 
+		},
+		{ 
+		"start_time": "404.514", 
+		"end_time": "407.141", 
+		"speaker": "Joey", 
+		"subtitle": "Yeah? Good for you." 
+		},
+		{ 
+		"start_time": "409.394", 
+		"end_time": "413.188", 
+		"speaker": "Joey", 
+		"subtitle": "Uh, quarters or rolls of quarters?" 
+		},
+		{ 
+		"start_time": "418.695", 
+		"end_time": "422.489", 
+		"speaker": "None", 
+		"subtitle": "By the way, Chandler, I cut you out of all of my pictures." 
+		},
+		{ 
+		"start_time": "422.74", 
+		"end_time": "426.201", 
+		"speaker": "None", 
+		"subtitle": "So if you want, l have a bag with just your heads." 
+		},
+		{ 
+		"start_time": "427.954", 
+		"end_time": "429.246", 
+		"speaker": "Chandler", 
+		"subtitle": "That's okay." 
+		},
+		{ 
+		"start_time": "430.039", 
+		"end_time": "433.667", 
+		"speaker": "None", 
+		"subtitle": "Are you sure? Because you could make little puppets out of them." 
+		},
+		{ 
+		"start_time": "433.918", 
+		"end_time": "437.421", 
+		"speaker": "None", 
+		"subtitle": "And you could use them in your Theater of Cruelty." 
+		},
+		{ 
+		"start_time": "440.216", 
+		"end_time": "441.675", 
+		"speaker": "Joey", 
+		"subtitle": "We can't do that." 
+		},
+		{ 
+		"start_time": "442.802", 
+		"end_time": "444.928", 
+		"speaker": "Chandler", 
+		"subtitle": "What? What can't you do?" 
+		},
+		{ 
+		"start_time": "447.223", 
+		"end_time": "450.392", 
+		"speaker": "Joey", 
+		"subtitle": "Uh, can l talk to you for a second? Over there?" 
+		},
+		{ 
+		"start_time": "456.357", 
+		"end_time": "459.651", 
+		"speaker": "Joey", 
+		"subtitle": "Uh, we might be leaving now." 
+		},
+		{ 
+		"start_time": "460.82", 
+		"end_time": "462.446", 
+		"speaker": "Chandler", 
+		"subtitle": "Tell me it's you and me \"we.\"" 
+		},
+		{ 
+		"start_time": "463.948", 
+		"end_time": "467.951", 
+		"speaker": "Joey", 
+		"subtitle": "She said she wants to slather my body with stuff and then lick it off." 
+		},
+		{ 
+		"start_time": "468.203", 
+		"end_time": "470.871", 
+		"speaker": "Joey", 
+		"subtitle": "I'm not even sure what slathering is." 
+		},
+		{ 
+		"start_time": "471.456", 
+		"end_time": "473.999", 
+		"speaker": "Joey", 
+		"subtitle": "But I definitely want to be a part of it." 
+		},
+		{ 
+		"start_time": "475.46", 
+		"end_time": "478.086", 
+		"speaker": "Chandler", 
+		"subtitle": "Okay, you cannot do this to me." 
+		},
+		{ 
+		"start_time": "479.505", 
+		"end_time": "481.798", 
+		"speaker": "Joey", 
+		"subtitle": "You're right. l'm sorry. You're right." 
+		},
+		{ 
+		"start_time": "482.008", 
+		"end_time": "486.303", 
+		"speaker": "None", 
+		"subtitle": "Uh, can we have three chocolate mousses to go, please?" 
+		},
+		{ 
+		"start_time": "487.096", 
+		"end_time": "488.472", 
+		"speaker": "Joey", 
+		"subtitle": "I'm out of here." 
+		},
+		{ 
+		"start_time": "490.433", 
+		"end_time": "493.602", 
+		"speaker": "Joey", 
+		"subtitle": "Here's my credit card. Dinner's on me. I'm sorry, Chandler." 
+		},
+		{ 
+		"start_time": "494.187", 
+		"end_time": "496.438", 
+		"speaker": "Chandler", 
+		"subtitle": "I hope she throws up on you." 
+		},
+		{ 
+		"start_time": "498.9", 
+		"end_time": "499.942", 
+		"speaker": "Joey", 
+		"subtitle": "Thanks." 
+		},
+		{ 
+		"start_time": "502.237", 
+		"end_time": "505.03", 
+		"speaker": "Chandler", 
+		"subtitle": "So...." 
+		},
+		{ 
+		"start_time": "502.237", 
+		"end_time": "505.03", 
+		"speaker": "None", 
+		"subtitle": "Just us." 
+		},
+		{ 
+		"start_time": "505.448", 
+		"end_time": "507.699", 
+		"speaker": "Chandler", 
+		"subtitle": "Ugh, what a crappy night." 
+		},
+		{ 
+		"start_time": "508.034", 
+		"end_time": "512.162", 
+		"speaker": "None", 
+		"subtitle": "Although l have enjoyed the fact that your shirt's been sticking out..." 
+		},
+		{ 
+		"start_time": "512.413", 
+		"end_time": "515.29", 
+		"speaker": "None", 
+		"subtitle": "...of your zipper since you came back from the bathroom." 
+		},
+		{ 
+		"start_time": "520.505", 
+		"end_time": "521.546", 
+		"speaker": "Chandler", 
+		"subtitle": "Excuse me." 
+		},
+		{ 
+		"start_time": "525.051", 
+		"end_time": "526.343", 
+		"speaker": "Chandler", 
+		"subtitle": "How you doing?" 
+		},
+		{ 
+		"start_time": "531.599", 
+		"end_time": "535.185", 
+		"speaker": "None", 
+		"subtitle": "So do we have the best friends, or what?" 
+		},
+		{ 
+		"start_time": "535.436", 
+		"end_time": "537.771", 
+		"speaker": "Chandler", 
+		"subtitle": "Joey's not a friend. He's..." 
+		},
+		{ 
+		"start_time": "539.732", 
+		"end_time": "543.026", 
+		"speaker": "Chandler", 
+		"subtitle": "...a stupid man who left us his credit card." 
+		},
+		{ 
+		"start_time": "544.737", 
+		"end_time": "548.156", 
+		"speaker": "Chandler", 
+		"subtitle": "Another drink? Some dessert? A big-screen TV?" 
+		},
+		{ 
+		"start_time": "548.491", 
+		"end_time": "549.992", 
+		"speaker": "None", 
+		"subtitle": "I will go for that drink." 
+		},
+		{ 
+		"start_time": "550.243", 
+		"end_time": "551.785", 
+		"speaker": "Chandler", 
+		"subtitle": "You got it. Good woman." 
+		},
+		{ 
+		"start_time": "557.25", 
+		"end_time": "559.71", 
+		"speaker": "Chandler", 
+		"subtitle": "A bottle of your most overpriced champagne." 
+		},
+		{ 
+		"start_time": "559.919", 
+		"end_time": "561.586", 
+		"speaker": "None", 
+		"subtitle": "Each." 
+		},
+		{ 
+		"start_time": "559.919", 
+		"end_time": "561.586", 
+		"speaker": "Chandler", 
+		"subtitle": "That's right. Each." 
+		},
+		{ 
+		"start_time": "561.754", 
+		"end_time": "563.755", 
+		"speaker": "Chandler", 
+		"subtitle": "Oh. And a, uh, Rob Roy." 
+		},
+		{ 
+		"start_time": "564.882", 
+		"end_time": "566.591", 
+		"speaker": "Chandler", 
+		"subtitle": "I've always wanted to know." 
+		},
+		{ 
+		"start_time": "584.819", 
+		"end_time": "588.572", 
+		"speaker": "None", 
+		"subtitle": "Happy Valentine's Day." 
+		},
+		{ 
+		"start_time": "596.122", 
+		"end_time": "598.957", 
+		"speaker": "None", 
+		"subtitle": "Oh, l miss you already." 
+		},
+		{ 
+		"start_time": "600.335", 
+		"end_time": "602.044", 
+		"speaker": "None", 
+		"subtitle": "Can you believe this happened?" 
+		},
+		{ 
+		"start_time": "602.295", 
+		"end_time": "603.754", 
+		"speaker": "Chandler", 
+		"subtitle": "No, no." 
+		},
+		{ 
+		"start_time": "605.131", 
+		"end_time": "606.673", 
+		"speaker": "Chandler", 
+		"subtitle": "And yet it did." 
+		},
+		{ 
+		"start_time": "607.592", 
+		"end_time": "609.843", 
+		"speaker": "Chandler", 
+		"subtitle": "Goodbye, Janice." 
+		},
+		{ 
+		"start_time": "607.592", 
+		"end_time": "609.843", 
+		"speaker": "None", 
+		"subtitle": "Kiss me." 
+		},
+		{ 
+		"start_time": "612.722", 
+		"end_time": "617.601", 
+		"speaker": "Monica", 
+		"subtitle": "Oh, Chandler. Sorry." 
+		},
+		{ 
+		"start_time": "619.729", 
+		"end_time": "621.938", 
+		"speaker": "None", 
+		"subtitle": "Hey, Janice." 
+		},
+		{ 
+		"start_time": "619.729", 
+		"end_time": "621.938", 
+		"speaker": "None", 
+		"subtitle": "Hi, Monica." 
+		},
+		{ 
+		"start_time": "622.148", 
+		"end_time": "625.067", 
+		"speaker": "Chandler", 
+		"subtitle": "Okay. Well, this was very special." 
+		},
+		{ 
+		"start_time": "626.277", 
+		"end_time": "629.196", 
+		"speaker": "Monica", 
+		"subtitle": "Rach, come see who's out here." 
+		},
+		{ 
+		"start_time": "629.697", 
+		"end_time": "632.574", 
+		"speaker": "Rachel", 
+		"subtitle": "What's going on...? Oh, my God." 
+		},
+		{ 
+		"start_time": "632.784", 
+		"end_time": "634.951", 
+		"speaker": "Rachel", 
+		"subtitle": "Janice. Hi." 
+		},
+		{ 
+		"start_time": "635.453", 
+		"end_time": "638.121", 
+		"speaker": "Chandler", 
+		"subtitle": "Janice is gonna go away now." 
+		},
+		{ 
+		"start_time": "640.041", 
+		"end_time": "641.124", 
+		"speaker": "Monica", 
+		"subtitle": "I'll be right back." 
+		},
+		{ 
+		"start_time": "641.542", 
+		"end_time": "645.337", 
+		"speaker": "Rachel", 
+		"subtitle": "Oh. Joey. Look who it is." 
+		},
+		{ 
+		"start_time": "645.922", 
+		"end_time": "647.172", 
+		"speaker": "Joey", 
+		"subtitle": "Whoa." 
+		},
+		{ 
+		"start_time": "649.509", 
+		"end_time": "651.051", 
+		"speaker": "Chandler", 
+		"subtitle": "Oh, good. Joey's home now." 
+		},
+		{ 
+		"start_time": "651.302", 
+		"end_time": "653.637", 
+		"speaker": "None", 
+		"subtitle": "This is so much fun." 
+		},
+		{ 
+		"start_time": "653.888", 
+		"end_time": "656.223", 
+		"speaker": "None", 
+		"subtitle": "This is like a reunion in the hall." 
+		},
+		{ 
+		"start_time": "659.018", 
+		"end_time": "662.104", 
+		"speaker": "Monica", 
+		"subtitle": "Hi, Ross. There's someone I want you to say hi to." 
+		},
+		{ 
+		"start_time": "664.482", 
+		"end_time": "665.816", 
+		"speaker": "Monica", 
+		"subtitle": "He just happened to call." 
+		},
+		{ 
+		"start_time": "666.067", 
+		"end_time": "669.486", 
+		"speaker": "None", 
+		"subtitle": "Hello, Ross. Yes, that's right. It's me. How did you know?" 
+		},
+		{ 
+		"start_time": "676.661", 
+		"end_time": "680.372", 
+		"speaker": "Ross", 
+		"subtitle": "I'm just saying if dogs do experience jet lag, then..." 
+		},
+		{ 
+		"start_time": "680.623", 
+		"end_time": "684.918", 
+		"speaker": "Ross", 
+		"subtitle": "...because of the whole seven-dog-years-to-one-human-year thing..." 
+		},
+		{ 
+		"start_time": "685.169", 
+		"end_time": "688.463", 
+		"speaker": "Ross", 
+		"subtitle": "...that when a dog flies from New York to Los Angeles..." 
+		},
+		{ 
+		"start_time": "688.673", 
+		"end_time": "692.843", 
+		"speaker": "Ross", 
+		"subtitle": "...he doesn't just lose three hours,he loses, like, a week and a half." 
+		},
+		{ 
+		"start_time": "696.222", 
+		"end_time": "698.849", 
+		"speaker": "None", 
+		"subtitle": "That's funny." 
+		},
+		{ 
+		"start_time": "696.222", 
+		"end_time": "698.849", 
+		"speaker": "Ross", 
+		"subtitle": "Yeah." 
+		},
+		{ 
+		"start_time": "710.57", 
+		"end_time": "711.778", 
+		"speaker": "None", 
+		"subtitle": "What?" 
+		},
+		{ 
+		"start_time": "715.199", 
+		"end_time": "716.324", 
+		"speaker": "None", 
+		"subtitle": "Who are they?" 
+		},
+		{ 
+		"start_time": "716.659", 
+		"end_time": "718.827", 
+		"speaker": "Ross", 
+		"subtitle": "The, uh, blond is my ex-wife." 
+		},
+		{ 
+		"start_time": "719.078", 
+		"end_time": "722.122", 
+		"speaker": "Ross", 
+		"subtitle": "And the woman touching her is her..." 
+		},
+		{ 
+		"start_time": "722.54", 
+		"end_time": "724.541", 
+		"speaker": "Ross", 
+		"subtitle": "...close personal friend." 
+		},
+		{ 
+		"start_time": "727.128", 
+		"end_time": "728.837", 
+		"speaker": "None", 
+		"subtitle": "You mean they're lovers?" 
+		},
+		{ 
+		"start_time": "729.088", 
+		"end_time": "731.173", 
+		"speaker": "Ross", 
+		"subtitle": "If you want to put a label on it." 
+		},
+		{ 
+		"start_time": "732.425", 
+		"end_time": "734.468", 
+		"speaker": "None", 
+		"subtitle": "Wow. Heh." 
+		},
+		{ 
+		"start_time": "734.635", 
+		"end_time": "737.554", 
+		"speaker": "None", 
+		"subtitle": "Anything else I should know?" 
+		},
+		{ 
+		"start_time": "734.635", 
+		"end_time": "737.554", 
+		"speaker": "Ross", 
+		"subtitle": "Nope. That's it." 
+		},
+		{ 
+		"start_time": "739.098", 
+		"end_time": "741.433", 
+		"speaker": "Ross", 
+		"subtitle": "Oh, and she's pregnant with my baby." 
+		},
+		{ 
+		"start_time": "745.396", 
+		"end_time": "747.481", 
+		"speaker": "Ross", 
+		"subtitle": "I always forget that part." 
+		},
+		{ 
+		"start_time": "749.65", 
+		"end_time": "750.692", 
+		"speaker": "Ross", 
+		"subtitle": "Hello." 
+		},
+		{ 
+		"start_time": "757.241", 
+		"end_time": "762.162", 
+		"speaker": "Phoebe", 
+		"subtitle": "Okay. So now we need, um, sage branches and the sacramental wine." 
+		},
+		{ 
+		"start_time": "764.248", 
+		"end_time": "766.541", 
+		"speaker": "Monica", 
+		"subtitle": "All I had is oregano and a Fresca." 
+		},
+		{ 
+		"start_time": "766.959", 
+		"end_time": "768.585", 
+		"speaker": "Phoebe", 
+		"subtitle": "Um, that's okay." 
+		},
+		{ 
+		"start_time": "771.13", 
+		"end_time": "773.048", 
+		"speaker": "Phoebe", 
+		"subtitle": "Ooh. Okay." 
+		},
+		{ 
+		"start_time": "773.716", 
+		"end_time": "777.01", 
+		"speaker": "Phoebe", 
+		"subtitle": "All right. Now we need the semen of a righteous man." 
+		},
+		{ 
+		"start_time": "782.808", 
+		"end_time": "784.851", 
+		"speaker": "Rachel", 
+		"subtitle": "Huh. Okay, Pheebs, if we had that..." 
+		},
+		{ 
+		"start_time": "785.019", 
+		"end_time": "787.229", 
+		"speaker": "Rachel", 
+		"subtitle": "...we wouldn't be doing the ritual in the first place." 
+		},
+		{ 
+		"start_time": "788.94", 
+		"end_time": "792.4", 
+		"speaker": "Monica", 
+		"subtitle": "Can we start throwing things in?" 
+		},
+		{ 
+		"start_time": "788.94", 
+		"end_time": "792.4", 
+		"speaker": "Phoebe", 
+		"subtitle": "Um, yeah, okay." 
+		},
+		{ 
+		"start_time": "792.568", 
+		"end_time": "795.278", 
+		"speaker": "Monica", 
+		"subtitle": "Oh. Okay. Um...." 
+		},
+		{ 
+		"start_time": "792.568", 
+		"end_time": "795.278", 
+		"speaker": "Rachel", 
+		"subtitle": "Oh. Okay. Um...." 
+		},
+		{ 
+		"start_time": "796.072", 
+		"end_time": "797.656", 
+		"speaker": "Rachel", 
+		"subtitle": "Okay. Barry's letters." 
+		},
+		{ 
+		"start_time": "799.075", 
+		"end_time": "801.701", 
+		"speaker": "Rachel", 
+		"subtitle": "Adam Ritter's boxer shorts." 
+		},
+		{ 
+		"start_time": "801.953", 
+		"end_time": "804.204", 
+		"speaker": "Phoebe", 
+		"subtitle": "And l have the receipt from my dinner with" 
+		},
+		{ 
+		"start_time": "810.127", 
+		"end_time": "813.421", 
+		"speaker": "Monica", 
+		"subtitle": "A picture of Scotty Jared, naked." 
+		},
+		{ 
+		"start_time": "810.127", 
+		"end_time": "813.421", 
+		"speaker": "Rachel", 
+		"subtitle": "Let me see." 
+		},
+		{ 
+		"start_time": "813.798", 
+		"end_time": "815.257", 
+		"speaker": "Rachel", 
+		"subtitle": "He's wearing a sweater." 
+		},
+		{ 
+		"start_time": "815.466", 
+		"end_time": "817.467", 
+		"speaker": "Monica", 
+		"subtitle": "No." 
+		},
+		{ 
+		"start_time": "815.466", 
+		"end_time": "817.467", 
+		"speaker": "Rachel", 
+		"subtitle": "Ew!" 
+		},
+		{ 
+		"start_time": "815.466", 
+		"end_time": "817.467", 
+		"speaker": "Phoebe", 
+		"subtitle": "Ew!" 
+		},
+		{ 
+		"start_time": "821.18", 
+		"end_time": "824.975", 
+		"speaker": "Rachel", 
+		"subtitle": "Okay, and here we have the last of Paolo's grappa." 
+		},
+		{ 
+		"start_time": "825.226", 
+		"end_time": "826.726", 
+		"speaker": "Monica", 
+		"subtitle": "Wait. Isn't it almost pure...?" 
+		},
+		{ 
+		"start_time": "832.024", 
+		"end_time": "834.776", 
+		"speaker": "Chandler", 
+		"subtitle": "How can I dump this woman on Valentine's Day?" 
+		},
+		{ 
+		"start_time": "835.903", 
+		"end_time": "837.988", 
+		"speaker": "Chandler", 
+		"subtitle": "I don't know. You dumped her on New Year's." 
+		},
+		{ 
+		"start_time": "840.157", 
+		"end_time": "844.035", 
+		"speaker": "Chandler", 
+		"subtitle": "Oh, man. ln my next life I'm coming back as a toilet brush." 
+		},
+		{ 
+		"start_time": "845.871", 
+		"end_time": "848.373", 
+		"speaker": "None", 
+		"subtitle": "Hello, funny valentine." 
+		},
+		{ 
+		"start_time": "849.333", 
+		"end_time": "851.126", 
+		"speaker": "Chandler", 
+		"subtitle": "Hi, just Janice." 
+		},
+		{ 
+		"start_time": "852.128", 
+		"end_time": "854.588", 
+		"speaker": "None", 
+		"subtitle": "Hello, Joey, our little matchmaker." 
+		},
+		{ 
+		"start_time": "854.839", 
+		"end_time": "857.674", 
+		"speaker": "None", 
+		"subtitle": "I could just kiss you all over and I'm gonna." 
+		},
+		{ 
+		"start_time": "857.842", 
+		"end_time": "861.97", 
+		"speaker": "Joey", 
+		"subtitle": "Oh. Okay, heh. Ha, ha, okay." 
+		},
+		{ 
+		"start_time": "863.598", 
+		"end_time": "865.39", 
+		"speaker": "Joey", 
+		"subtitle": "If you don't do it, l will." 
+		},
+		{ 
+		"start_time": "878.237", 
+		"end_time": "881.448", 
+		"speaker": "Ross", 
+		"subtitle": "So, um, what do you do for a living?" 
+		},
+		{ 
+		"start_time": "881.657", 
+		"end_time": "883.018", 
+		"speaker": "None", 
+		"subtitle": "Well, um for the past few years..." 
+		},
+		{ 
+		"start_time": "884.577", 
+		"end_time": "887.245", 
+		"speaker": "None", 
+		"subtitle": "Oh, no. You said they could shoot the spot without you." 
+		},
+		{ 
+		"start_time": "887.455", 
+		"end_time": "888.536", 
+		"speaker": "None", 
+		"subtitle": "I thought they could." 
+		},
+		{ 
+		"start_time": "888.664", 
+		"end_time": "892", 
+		"speaker": "None", 
+		"subtitle": "...working with children, which is really fulfilling." 
+		},
+		{ 
+		"start_time": "892.251", 
+		"end_time": "895.462", 
+		"speaker": "None", 
+		"subtitle": "I'll try to get back as soon as I can. l'm sorry." 
+		},
+		{ 
+		"start_time": "895.713", 
+		"end_time": "899.007", 
+		"speaker": "None", 
+		"subtitle": "So l'm spending most of my time teaching science, heh..." 
+		},
+		{ 
+		"start_time": "899.258", 
+		"end_time": "903.011", 
+		"speaker": "None", 
+		"subtitle": "...which is funny because that wasn't even my major." 
+		},
+		{ 
+		"start_time": "915.232", 
+		"end_time": "917.025", 
+		"speaker": "Ross", 
+		"subtitle": "Now, that is funny." 
+		},
+		{ 
+		"start_time": "920.446", 
+		"end_time": "921.571", 
+		"speaker": "Ross", 
+		"subtitle": "Hey, do you think...?" 
+		},
+		{ 
+		"start_time": "921.989", 
+		"end_time": "925.784", 
+		"speaker": "Ross", 
+		"subtitle": "Would it be too weird if I invited Carol over to join us?" 
+		},
+		{ 
+		"start_time": "926.035", 
+		"end_time": "928.119", 
+		"speaker": "Ross", 
+		"subtitle": "Because she's alone now." 
+		},
+		{ 
+		"start_time": "928.663", 
+		"end_time": "930.455", 
+		"speaker": "Ross", 
+		"subtitle": "And pregnant. And sad." 
+		},
+		{ 
+		"start_time": "931.707", 
+		"end_time": "933.083", 
+		"speaker": "None", 
+		"subtitle": "I guess." 
+		},
+		{ 
+		"start_time": "931.707", 
+		"end_time": "933.083", 
+		"speaker": "Ross", 
+		"subtitle": "Are you sure?" 
+		},
+		{ 
+		"start_time": "933.334", 
+		"end_time": "934.751", 
+		"speaker": "Ross", 
+		"subtitle": "Thanks. Carol." 
+		},
+		{ 
+		"start_time": "935.67", 
+		"end_time": "937.253", 
+		"speaker": "Ross", 
+		"subtitle": "Wanna come over and join us?" 
+		},
+		{ 
+		"start_time": "937.463", 
+		"end_time": "938.713", 
+		"speaker": "None", 
+		"subtitle": "Oh, no. l'm fine." 
+		},
+		{ 
+		"start_time": "938.964", 
+		"end_time": "942.05", 
+		"speaker": "Ross", 
+		"subtitle": "Come on, stand up. These people will scooch down. Come on." 
+		},
+		{ 
+		"start_time": "942.426", 
+		"end_time": "945.47", 
+		"speaker": "Ross", 
+		"subtitle": "Come over here. You guys will scooch, won't you?" 
+		},
+		{ 
+		"start_time": "945.805", 
+		"end_time": "948.723", 
+		"speaker": "Ross", 
+		"subtitle": "Let's try scooching. Come on." 
+		},
+		{ 
+		"start_time": "948.933", 
+		"end_time": "951.059", 
+		"speaker": "Ross", 
+		"subtitle": "Come on." 
+		},
+		{ 
+		"start_time": "948.933", 
+		"end_time": "951.059", 
+		"speaker": "None", 
+		"subtitle": "Thank you." 
+		},
+		{ 
+		"start_time": "953.187", 
+		"end_time": "956.272", 
+		"speaker": "Ross", 
+		"subtitle": "Uh, Kristen Riggs, this is Carol Willet." 
+		},
+		{ 
+		"start_time": "956.524", 
+		"end_time": "958.983", 
+		"speaker": "Ross", 
+		"subtitle": "Carol, Kristen." 
+		},
+		{ 
+		"start_time": "956.524", 
+		"end_time": "958.983", 
+		"speaker": "None", 
+		"subtitle": "How do you do?" 
+		},
+		{ 
+		"start_time": "959.151", 
+		"end_time": "961.486", 
+		"speaker": "Ross", 
+		"subtitle": "Um... Oh, uh, Carol teaches sixth grade." 
+		},
+		{ 
+		"start_time": "961.904", 
+		"end_time": "964.239", 
+		"speaker": "Ross", 
+		"subtitle": "And, uh, Kristen...." 
+		},
+		{ 
+		"start_time": "967.576", 
+		"end_time": "969.911", 
+		"speaker": "Ross", 
+		"subtitle": "Kristen does something..." 
+		},
+		{ 
+		"start_time": "971.455", 
+		"end_time": "973.164", 
+		"speaker": "Ross", 
+		"subtitle": "...that, funnily enough..." 
+		},
+		{ 
+		"start_time": "975", 
+		"end_time": "976.459", 
+		"speaker": "Ross", 
+		"subtitle": "...wasn't even her major." 
+		},
+		{ 
+		"start_time": "980.798", 
+		"end_time": "982.257", 
+		"speaker": "None", 
+		"subtitle": "What do we got there?" 
+		},
+		{ 
+		"start_time": "983.426", 
+		"end_time": "985.51", 
+		"speaker": "None", 
+		"subtitle": "A piece of silk boxer shorts..." 
+		},
+		{ 
+		"start_time": "986.137", 
+		"end_time": "987.762", 
+		"speaker": "None", 
+		"subtitle": "...some greeting cards..." 
+		},
+		{ 
+		"start_time": "988.431", 
+		"end_time": "991.433", 
+		"speaker": "None", 
+		"subtitle": "...what looks like a half-charred picture of...." 
+		},
+		{ 
+		"start_time": "992.101", 
+		"end_time": "994.602", 
+		"speaker": "None", 
+		"subtitle": "Wow, that guy's hairier than the chief." 
+		},
+		{ 
+		"start_time": "998.232", 
+		"end_time": "1001.568", 
+		"speaker": "Monica", 
+		"subtitle": "You know, it's a really funny story how this happened." 
+		},
+		{ 
+		"start_time": "1001.819", 
+		"end_time": "1003.57", 
+		"speaker": "None", 
+		"subtitle": "It's all right. Don't explain." 
+		},
+		{ 
+		"start_time": "1003.779", 
+		"end_time": "1006.906", 
+		"speaker": "None", 
+		"subtitle": "It's not the first boyfriend bonfire we've seen get out of control." 
+		},
+		{ 
+		"start_time": "1009.618", 
+		"end_time": "1011.911", 
+		"speaker": "None", 
+		"subtitle": "You're our third call tonight." 
+		},
+		{ 
+		"start_time": "1009.618", 
+		"end_time": "1011.911", 
+		"speaker": "Phoebe", 
+		"subtitle": "Really?" 
+		},
+		{ 
+		"start_time": "1012.163", 
+		"end_time": "1015.248", 
+		"speaker": "None", 
+		"subtitle": "Sure. Valentine's is our busiest night of the year." 
+		},
+		{ 
+		"start_time": "1018.753", 
+		"end_time": "1020.295", 
+		"speaker": "None", 
+		"subtitle": "I brought you something." 
+		},
+		{ 
+		"start_time": "1020.504", 
+		"end_time": "1022.005", 
+		"speaker": "Chandler", 
+		"subtitle": "Is it loaded?" 
+		},
+		{ 
+		"start_time": "1026.135", 
+		"end_time": "1028.303", 
+		"speaker": "Chandler", 
+		"subtitle": "Oh, little candy hearts." 
+		},
+		{ 
+		"start_time": "1029.722", 
+		"end_time": "1032.348", 
+		"speaker": "Chandler", 
+		"subtitle": "Chan and Jan forever." 
+		},
+		{ 
+		"start_time": "1032.767", 
+		"end_time": "1034.893", 
+		"speaker": "None", 
+		"subtitle": "I had them made special." 
+		},
+		{ 
+		"start_time": "1038.689", 
+		"end_time": "1039.939", 
+		"speaker": "Chandler", 
+		"subtitle": "Okay, Janice." 
+		},
+		{ 
+		"start_time": "1041.025", 
+		"end_time": "1042.066", 
+		"speaker": "Chandler", 
+		"subtitle": "Janice." 
+		},
+		{ 
+		"start_time": "1043.694", 
+		"end_time": "1044.819", 
+		"speaker": "Chandler", 
+		"subtitle": "Hey, Janice." 
+		},
+		{ 
+		"start_time": "1048.073", 
+		"end_time": "1050.283", 
+		"speaker": "Chandler", 
+		"subtitle": "Look, there's no way for me to tell you this." 
+		},
+		{ 
+		"start_time": "1050.534", 
+		"end_time": "1053.077", 
+		"speaker": "Chandler", 
+		"subtitle": "At least, there's no new way for me to tell you this." 
+		},
+		{ 
+		"start_time": "1056.207", 
+		"end_time": "1059", 
+		"speaker": "Chandler", 
+		"subtitle": "I just don't think things are gonna work out." 
+		},
+		{ 
+		"start_time": "1061.712", 
+		"end_time": "1062.921", 
+		"speaker": "None", 
+		"subtitle": "That's fine." 
+		},
+		{ 
+		"start_time": "1066.842", 
+		"end_time": "1068.426", 
+		"speaker": "Chandler", 
+		"subtitle": "It is?" 
+		},
+		{ 
+		"start_time": "1066.842", 
+		"end_time": "1068.426", 
+		"speaker": "None", 
+		"subtitle": "Mm-hm." 
+		},
+		{ 
+		"start_time": "1068.677", 
+		"end_time": "1072.263", 
+		"speaker": "None", 
+		"subtitle": "Because I know that this isn't the end." 
+		},
+		{ 
+		"start_time": "1074.35", 
+		"end_time": "1076.81", 
+		"speaker": "Chandler", 
+		"subtitle": "Oh, no. You see, actually, it is." 
+		},
+		{ 
+		"start_time": "1077.061", 
+		"end_time": "1079.896", 
+		"speaker": "None", 
+		"subtitle": "No, it isn't. Because you won't let that happen." 
+		},
+		{ 
+		"start_time": "1080.147", 
+		"end_time": "1081.606", 
+		"speaker": "None", 
+		"subtitle": "Don't you know it yet?" 
+		},
+		{ 
+		"start_time": "1081.857", 
+		"end_time": "1085.026", 
+		"speaker": "None", 
+		"subtitle": "You love me, Chandler Bing." 
+		},
+		{ 
+		"start_time": "1089.24", 
+		"end_time": "1090.824", 
+		"speaker": "Chandler", 
+		"subtitle": "Oh, no, l don't." 
+		},
+		{ 
+		"start_time": "1091.575", 
+		"end_time": "1094.327", 
+		"speaker": "None", 
+		"subtitle": "Then why do you think we keep ending up together?" 
+		},
+		{ 
+		"start_time": "1094.578", 
+		"end_time": "1096.412", 
+		"speaker": "None", 
+		"subtitle": "New Year's, who invited who?" 
+		},
+		{ 
+		"start_time": "1096.664", 
+		"end_time": "1099.541", 
+		"speaker": "None", 
+		"subtitle": "Valentine's, who asked who into whose bed?" 
+		},
+		{ 
+		"start_time": "1099.792", 
+		"end_time": "1102.21", 
+		"speaker": "Chandler", 
+		"subtitle": "I did, but..." 
+		},
+		{ 
+		"start_time": "1099.792", 
+		"end_time": "1102.21", 
+		"speaker": "None", 
+		"subtitle": "You seek me out." 
+		},
+		{ 
+		"start_time": "1102.461", 
+		"end_time": "1107.59", 
+		"speaker": "None", 
+		"subtitle": "Something deep in your soul calls out to me like a foghorn." 
+		},
+		{ 
+		"start_time": "1107.925", 
+		"end_time": "1111.719", 
+		"speaker": "None", 
+		"subtitle": "Janice. Janice." 
+		},
+		{ 
+		"start_time": "1112.012", 
+		"end_time": "1114.305", 
+		"speaker": "None", 
+		"subtitle": "You want me. You need me." 
+		},
+		{ 
+		"start_time": "1114.598", 
+		"end_time": "1117.767", 
+		"speaker": "None", 
+		"subtitle": "You can't live without me." 
+		},
+		{ 
+		"start_time": "1118.102", 
+		"end_time": "1119.644", 
+		"speaker": "None", 
+		"subtitle": "And you know it." 
+		},
+		{ 
+		"start_time": "1120.02", 
+		"end_time": "1123.898", 
+		"speaker": "None", 
+		"subtitle": "You just don't know you know it." 
+		},
+		{ 
+		"start_time": "1128.32", 
+		"end_time": "1129.404", 
+		"speaker": "None", 
+		"subtitle": "See you." 
+		},
+		{ 
+		"start_time": "1136.37", 
+		"end_time": "1137.579", 
+		"speaker": "Chandler", 
+		"subtitle": "Call me." 
+		},
+		{ 
+		"start_time": "1146.171", 
+		"end_time": "1150.174", 
+		"speaker": "None", 
+		"subtitle": "It's not true. l never called your mother a wolverine." 
+		},
+		{ 
+		"start_time": "1150.384", 
+		"end_time": "1152.927", 
+		"speaker": "Ross", 
+		"subtitle": "You did so. I swear. I swear to..." 
+		},
+		{ 
+		"start_time": "1156.849", 
+		"end_time": "1159.225", 
+		"speaker": "Ross", 
+		"subtitle": "How long has she been in the bathroom?" 
+		},
+		{ 
+		"start_time": "1159.435", 
+		"end_time": "1163.313", 
+		"speaker": "None", 
+		"subtitle": "Uh, I don't think she's in the bathroom. Her coat is gone." 
+		},
+		{ 
+		"start_time": "1163.647", 
+		"end_time": "1165.648", 
+		"speaker": "Ross", 
+		"subtitle": "Well, maybe it's cold in there." 
+		},
+		{ 
+		"start_time": "1168.068", 
+		"end_time": "1171.237", 
+		"speaker": "Ross", 
+		"subtitle": "Maybe I screwed up the first date I had in nine years." 
+		},
+		{ 
+		"start_time": "1171.488", 
+		"end_time": "1173.99", 
+		"speaker": "None", 
+		"subtitle": "That could be it." 
+		},
+		{ 
+		"start_time": "1171.488", 
+		"end_time": "1173.99", 
+		"speaker": "Ross", 
+		"subtitle": "Oh, God." 
+		},
+		{ 
+		"start_time": "1175.284", 
+		"end_time": "1177.702", 
+		"speaker": "Ross", 
+		"subtitle": "You know, this is still pretty hot." 
+		},
+		{ 
+		"start_time": "1182.458", 
+		"end_time": "1183.541", 
+		"speaker": "None", 
+		"subtitle": "Mushroom." 
+		},
+		{ 
+		"start_time": "1185.002", 
+		"end_time": "1186.085", 
+		"speaker": "None", 
+		"subtitle": "Smile." 
+		},
+		{ 
+		"start_time": "1187.129", 
+		"end_time": "1191.049", 
+		"speaker": "None", 
+		"subtitle": "They won't all be like this. Some might even stay through dinner." 
+		},
+		{ 
+		"start_time": "1191.884", 
+		"end_time": "1194.552", 
+		"speaker": "None", 
+		"subtitle": "I'm sorry. That's not funny." 
+		},
+		{ 
+		"start_time": "1191.884", 
+		"end_time": "1194.552", 
+		"speaker": "Ross", 
+		"subtitle": "No, it's just...." 
+		},
+		{ 
+		"start_time": "1195.304", 
+		"end_time": "1198.806", 
+		"speaker": "Ross", 
+		"subtitle": "Well, you know the whole getting-on-with-your-life thing?" 
+		},
+		{ 
+		"start_time": "1199.058", 
+		"end_time": "1201.1", 
+		"speaker": "Ross", 
+		"subtitle": "Well, do l have to?" 
+		},
+		{ 
+		"start_time": "1201.56", 
+		"end_time": "1206.397", 
+		"speaker": "Ross", 
+		"subtitle": "I mean, well, l'm sitting here with this cute woman..." 
+		},
+		{ 
+		"start_time": "1206.649", 
+		"end_time": "1208.691", 
+		"speaker": "Ross", 
+		"subtitle": "...and she's perfectly nice, you know?" 
+		},
+		{ 
+		"start_time": "1208.943", 
+		"end_time": "1210.818", 
+		"speaker": "Ross", 
+		"subtitle": "But there's...." 
+		},
+		{ 
+		"start_time": "1212.112", 
+		"end_time": "1213.237", 
+		"speaker": "Ross", 
+		"subtitle": "That's it." 
+		},
+		{ 
+		"start_time": "1214.281", 
+		"end_time": "1219.202", 
+		"speaker": "Ross", 
+		"subtitle": "And, uh, then I'm here talking to you, and it's easy and it's fun." 
+		},
+		{ 
+		"start_time": "1219.453", 
+		"end_time": "1221.913", 
+		"speaker": "Ross", 
+		"subtitle": "And l don't have to...." 
+		},
+		{ 
+		"start_time": "1222.331", 
+		"end_time": "1223.915", 
+		"speaker": "None", 
+		"subtitle": "I know." 
+		},
+		{ 
+		"start_time": "1222.331", 
+		"end_time": "1223.915", 
+		"speaker": "Ross", 
+		"subtitle": "You know?" 
+		},
+		{ 
+		"start_time": "1228.045", 
+		"end_time": "1231.214", 
+		"speaker": "Ross", 
+		"subtitle": "Here's a wacky thought. Um, ahem." 
+		},
+		{ 
+		"start_time": "1231.382", 
+		"end_time": "1235.176", 
+		"speaker": "Ross", 
+		"subtitle": "Let's say you and I give it another shot." 
+		},
+		{ 
+		"start_time": "1231.382", 
+		"end_time": "1235.176", 
+		"speaker": "None", 
+		"subtitle": "Ross." 
+		},
+		{ 
+		"start_time": "1235.344", 
+		"end_time": "1237.637", 
+		"speaker": "Ross", 
+		"subtitle": "No, no, I know what you're gonna say. You're a lesbian." 
+		},
+		{ 
+		"start_time": "1239.848", 
+		"end_time": "1244.644", 
+		"speaker": "Ross", 
+		"subtitle": "But what do you say we just put that aside for now, you know?" 
+		},
+		{ 
+		"start_time": "1244.895", 
+		"end_time": "1247.397", 
+		"speaker": "Ross", 
+		"subtitle": "Let's just stick a pin in it, okay?" 
+		},
+		{ 
+		"start_time": "1247.648", 
+		"end_time": "1250.525", 
+		"speaker": "Ross", 
+		"subtitle": "Because we're great together, you know?" 
+		},
+		{ 
+		"start_time": "1250.776", 
+		"end_time": "1252.819", 
+		"speaker": "Ross", 
+		"subtitle": "You can't deny it." 
+		},
+		{ 
+		"start_time": "1253.862", 
+		"end_time": "1256.239", 
+		"speaker": "Ross", 
+		"subtitle": "And besides, you're carrying my baby." 
+		},
+		{ 
+		"start_time": "1256.49", 
+		"end_time": "1259.242", 
+		"speaker": "Ross", 
+		"subtitle": "I mean, how perfect is that?" 
+		},
+		{ 
+		"start_time": "1256.49", 
+		"end_time": "1259.242", 
+		"speaker": "None", 
+		"subtitle": "Ross...." 
+		},
+		{ 
+		"start_time": "1259.493", 
+		"end_time": "1262.412", 
+		"speaker": "Ross", 
+		"subtitle": "You keep saying that, but there's something right here." 
+		},
+		{ 
+		"start_time": "1262.579", 
+		"end_time": "1263.621", 
+		"speaker": "Ross", 
+		"subtitle": "I love you." 
+		},
+		{ 
+		"start_time": "1271.922", 
+		"end_time": "1273.673", 
+		"speaker": "None", 
+		"subtitle": "I love you too." 
+		},
+		{ 
+		"start_time": "1275.3", 
+		"end_time": "1277.01", 
+		"speaker": "None", 
+		"subtitle": "But…" 
+		},
+		{ 
+		"start_time": "1275.3", 
+		"end_time": "1277.01", 
+		"speaker": "Ross", 
+		"subtitle": "No \"but.\" No \"but.\"" 
+		},
+		{ 
+		"start_time": "1279.013", 
+		"end_time": "1282.181", 
+		"speaker": "None", 
+		"subtitle": "You know that thing we put over here with the pin in it?" 
+		},
+		{ 
+		"start_time": "1285.102", 
+		"end_time": "1287.687", 
+		"speaker": "None", 
+		"subtitle": "It's time to take the pin out." 
+		},
+		{ 
+		"start_time": "1292.484", 
+		"end_time": "1293.526", 
+		"speaker": "Ross", 
+		"subtitle": "Yeah." 
+		},
+		{ 
+		"start_time": "1294.153", 
+		"end_time": "1298.072", 
+		"speaker": "None", 
+		"subtitle": "You'll find someone. l know you will. The right woman is waiting for you." 
+		},
+		{ 
+		"start_time": "1298.323", 
+		"end_time": "1301.159", 
+		"speaker": "Ross", 
+		"subtitle": "It's easy for you to say. You found one already." 
+		},
+		{ 
+		"start_time": "1303.662", 
+		"end_time": "1306.539", 
+		"speaker": "None", 
+		"subtitle": "All you need is a woman who likes men and you'll be set." 
+		},
+		{ 
+		"start_time": "1310.794", 
+		"end_time": "1312.003", 
+		"speaker": "None", 
+		"subtitle": "Not her." 
+		},
+		{ 
+		"start_time": "1323.223", 
+		"end_time": "1325.558", 
+		"speaker": "None", 
+		"subtitle": "We get off around midnight. Why don't we pick you up then?" 
+		},
+		{ 
+		"start_time": "1325.726", 
+		"end_time": "1327.435", 
+		"speaker": "Rachel", 
+		"subtitle": "Okay. Great." 
+		},
+		{ 
+		"start_time": "1328.145", 
+		"end_time": "1330.772", 
+		"speaker": "Monica", 
+		"subtitle": "So, um, will you bring the truck?" 
+		},
+		{ 
+		"start_time": "1333.275", 
+		"end_time": "1335.777", 
+		"speaker": "None", 
+		"subtitle": "I'll even let you ring the bell." 
+		},
+		{ 
+		"start_time": "1333.275", 
+		"end_time": "1335.777", 
+		"speaker": "Rachel", 
+		"subtitle": "Wohoo!" 
+		},
+		{ 
+		"start_time": "1335.944", 
+		"end_time": "1338.905", 
+		"speaker": "None", 
+		"subtitle": "We'll see you later." 
+		},
+		{ 
+		"start_time": "1335.944", 
+		"end_time": "1338.905", 
+		"speaker": "Rachel", 
+		"subtitle": "Bye. See you later." 
+		},
+		{ 
+		"start_time": "1339.114", 
+		"end_time": "1340.823", 
+		"speaker": "Monica", 
+		"subtitle": "Thanks. See you." 
+		},
+		{ 
+		"start_time": "1341.075", 
+		"end_time": "1342.325", 
+		"speaker": "Rachel", 
+		"subtitle": "Oh, my God." 
+		},
+		{ 
+		"start_time": "1343.452", 
+		"end_time": "1345.161", 
+		"speaker": "Phoebe", 
+		"subtitle": "See, there you go." 
+		},
+		{ 
+		"start_time": "1345.412", 
+		"end_time": "1347.789", 
+		"speaker": "Phoebe", 
+		"subtitle": "The cleansing worked." 
+		},
+		{ 
+		"start_time": "1345.412", 
+		"end_time": "1347.789", 
+		"speaker": "Monica", 
+		"subtitle": "You're right." 
+		},
+		{ 
+		"start_time": "1348.04", 
+		"end_time": "1349.499", 
+		"speaker": "Monica", 
+		"subtitle": "They're nice guys." 
+		},
+		{ 
+		"start_time": "1349.917", 
+		"end_time": "1352.126", 
+		"speaker": "Rachel", 
+		"subtitle": "They're firemen guys." 
+		},
+		{ 
+		"start_time": "1353.754", 
+		"end_time": "1356.114", 
+		"speaker": "None", 
+		"subtitle": "You tell them you're married?" 
+		},
+		{ 
+		"start_time": "1353.754", 
+		"end_time": "1356.114", 
+		"speaker": "None", 
+		"subtitle": "No way." 
+		},
+		{ 
+		"start_time": "1356.256", 
+		"end_time": "1358.508", 
+		"speaker": "None", 
+		"subtitle": "My girlfriend doesn't know. I'm not gonna tell them." 
+		}
+	]
+}

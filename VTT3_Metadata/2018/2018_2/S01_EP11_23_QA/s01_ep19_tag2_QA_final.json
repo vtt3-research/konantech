@@ -1,0 +1,682 @@
+{ 
+	"file_name": "s01_ep19_tag2_QA_final.json",
+	"registed_name": "s01_ep19_tag2_QA_final.json", 
+	"qa_results": 
+	[ 
+		{ 
+		"visual_period_num": "1-25", 
+		"period_num": "q1", 
+		"start_time": "00:00:00;00", 
+		"end_time": "00:00:20;01",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Rachel is on her shift at the café, reciting the different kinds of teas to a customer. However, she is not speaking to the right customer"}, 
+			{ "description": "Rachel is working at the café"}, 
+			{ "description": "She is telling a wrong customer about the different types of teas"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where is Rachel?", 
+				"question_type": "Location", 
+				"answer": "At the café", 
+				"wrong_answer1": "At a tea party", 
+				"wrong_answer2": "At Monica's", 
+				"wrong_answer3": "At Ross'", 
+				"wrong_answer4": "At Joey's" } 
+			} ,
+			{ "qa": { 
+				"question": "What is she doing?", 
+				"question_type": "Action", 
+				"answer": "She is telling a customer the kinds of tea that they offer", 
+				"wrong_answer1": "She is getting tested on the names of the tea", 
+				"wrong_answer2": "She is educating a student on kinds of tea", 
+				"wrong_answer3": "None", 
+				"wrong_answer4": "She is saying hello to someone" } 
+				} ,
+			{ "qa": { 
+				"question": "Which tea is not served at the café?", 
+				"question_type": "Statement", 
+				"answer": "Bubble tea", 
+				"wrong_answer1": "Earl Grey", 
+				"wrong_answer2": "English Breakfast", 
+				"wrong_answer3": "Cinamon Stick", 
+				"wrong_answer4": "Camomile" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "26-35", 
+		"period_num": "q2", 
+		"start_time": "00:01:13;22", 
+		"end_time": "00:02:07;19",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Rachel is at her café's counter. Monica walks in with emails for Rachel. Rachel reads through the country club newsletter and finds a news on Barry getting married to another woman."}, 
+			{ "description": "Rachel is on her shift at the café. She is at the bar side. Monica comes in to hand her some mail."}, 
+			{ "description": "Rachel finds out that Barry is getting married to Mindy"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who delivers the mail to Rachel?", 
+				"question_type": "Person", 
+				"answer": "Monica", 
+				"wrong_answer1": "Ross", 
+				"wrong_answer2": "Joey", 
+				"wrong_answer3": "Chandler", 
+				"wrong_answer4": "Pheobe" } 
+			} ,
+			{ "qa": { 
+				"question": "Why would Rachel's mother send country club newsletter to Rachel?", 
+				"question_type": "Abstract", 
+				"answer": "To motivate her to get married", 
+				"wrong_answer1": "To get her to read some news", 
+				"wrong_answer2": "To have her fancy other people's lives", 
+				"wrong_answer3": "To let Rachel know about how she is doing", 
+				"wrong_answer4": "To get her to read about her town" } 
+				} ,
+			{ "qa": { 
+				"question": "What did Rachel get from her mail besides the country club newsletter?", 
+				"question_type": "Visual detail", 
+				"answer": "A sample of coffee", 
+				"wrong_answer1": "A sample of cosmetic products", 
+				"wrong_answer2": "A free coupon", 
+				"wrong_answer3": "A brochure", 
+				"wrong_answer4": "A post card" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "36-73", 
+		"period_num": "q3", 
+		"start_time": "00:02:09;14", 
+		"end_time": "00:04:53;11",
+		"related_period": "q2", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Ross and Rachel are having dinner at Rachel's apartment. Ross orders the monkey to bring him the rice. He's happy that the monkey finally understands his instructions. On the other hand, Rachel seems bothered by the news that Barry and Mindy are getting married. Rachel confesses to Ross that she is feeling uneasy about the marriage and that she would feel better if there was someone for her. The two hold hands and talk about the relationship. Chandler, Joey, Pheobe, and Monica come back from the movies. Monica and Pheobe seem to like the movie whereas Joey and Chandler seem to dislike it. Ross lets Monica know that Rachel will be looking after the monkey tomorrow."}, 
+			{ "description": "Rachel is still bothered by the news that Barry is getting married. Pheobe, Monica, Chandler, and Joey are back at home after watching a movie"}, 
+			{ "description": "They are around the kitchen area talking about the movie"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How is Rachel feeling in the scene?", 
+				"question_type": "Emotion", 
+				"answer": "Bothered", 
+				"wrong_answer1": "Angry", 
+				"wrong_answer2": "Happy", 
+				"wrong_answer3": "Relaxed", 
+				"wrong_answer4": "Grateful" } 
+			} ,
+			{ "qa": { 
+				"question": "Why is she feeling bothered?", 
+				"question_type": "Reason", 
+				"answer": "She found out that Billy is getting married to her friend", 
+				"wrong_answer1": "She didn't get to go to the movies", 
+				"wrong_answer2": "She doesn't like the Chinese food", 
+				"wrong_answer3": "She is not feeling well", 
+				"wrong_answer4": "She doesn't want to be with Ross" } 
+				} ,
+			{ "qa": { 
+				"question": "Who is looking after Marcel for tomorrow?", 
+				"question_type": "Person", 
+				"answer": "Rachel", 
+				"wrong_answer1": "Pheobe", 
+				"wrong_answer2": "Monica", 
+				"wrong_answer3": "Ross", 
+				"wrong_answer4": "Joey" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "74-91", 
+		"period_num": "q4", 
+		"start_time": "00:04:55;06", 
+		"end_time": "00:06:03;07",
+		"related_period": "q4", 
+		"causation&intention": "Causation",
+		"description_info": 
+		[ 
+			{ "description": "Ross, Chandler, and Joey are at Joe-G Pizza to have some Pizza. Ross is telling them about the conversation he and Rachel had. Ross feels that the right man to be with Rachel is him. He tells he plans to bring a bottle of wine and spend some time with Rachel."}, 
+			{ "description": "Ross, Chandler, and Joey are a pizza place having a discussion about Rachel"}, 
+			{ "description": "Ross is excited to spends some time with Rachel with a bottle of wine"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where are Ross, Chandler, and Joey?", 
+				"question_type": "Location", 
+				"answer": "Joe-G's pizza", 
+				"wrong_answer1": "Pizzahut", 
+				"wrong_answer2": "Dominoes", 
+				"wrong_answer3": "Mr.Pizza", 
+				"wrong_answer4": "Pizza Planet" } 
+			} ,
+			{ "qa": { 
+				"question": "What is Rachel doing for the whole day?", 
+				"question_type": "Person", 
+				"answer": "She is going to take care of the monkey for the whole day", 
+				"wrong_answer1": "She will be doing house chores", 
+				"wrong_answer2": "She will be going out for shopping", 
+				"wrong_answer3": "She will be adopting a cat", 
+				"wrong_answer4": "She will be driving out to her paren't place" } 
+				} ,
+			{ "qa": { 
+				"question": "What does Ross think about Rachel?", 
+				"question_type": "Relationship", 
+				"answer": "He has a crush on her", 
+				"wrong_answer1": "He hates her", 
+				"wrong_answer2": "He doesn't like her", 
+				"wrong_answer3": "He sees her as just a friend", 
+				"wrong_answer4": "He's disdainful towards her" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "92-122", 
+		"period_num": "q5", 
+		"start_time": "00:06:03;07", 
+		"end_time": "00:08:31;22",
+		"related_period": "q5", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Rachel is at home with Marcel, watching tv. Marcel pops into Monica's shoe and Monica scrapes the mess off with the country club newsletter. When she goes out to throw out the dirt, she leaves the door open and the monkey lets loose. Chandler, Joey, and Monica are back the apartments, all very concerned about the missing monkey. Pheobe comes in later to find out about the news. The group decides to split up to look for the monkey."}, 
+			{ "description": "Rachel and the monkey are at home watching tv"}, 
+			{ "description": "Rachel loses the monkey"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What did the monkey do to Monica's shoe?", 
+				"question_type": "Action", 
+				"answer": "It pooped inside the shoe", 
+				"wrong_answer1": "It chewed the shoe", 
+				"wrong_answer2": "It hid the shoe", 
+				"wrong_answer3": "It ate the shoe", 
+				"wrong_answer4": "It peed in the shoe" } 
+			} ,
+			{ "qa": { 
+				"question": "How did the monkey get away?", 
+				"question_type": "Reason", 
+				"answer": "She left the door open", 
+				"wrong_answer1": "She sent it outside", 
+				"wrong_answer2": "She left the window open", 
+				"wrong_answer3": "She didn't have the leash on", 
+				"wrong_answer4": "She left the sewer open" } 
+				} ,
+			{ "qa": { 
+				"question": "Which floor are Joey and Chandler going to be looking at?", 
+				"question_type": "Person", 
+				"answer": "1st and 2nd floor", 
+				"wrong_answer1": "1st and 3rd floor", 
+				"wrong_answer2": "2nd and 4th floor", 
+				"wrong_answer3": "3rd and 4th floor", 
+				"wrong_answer4": "1st and 4th floor" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "123-128", 
+		"period_num": "q6", 
+		"start_time": "00:08:31;22", 
+		"end_time": "00:08:58;23",
+		"related_period": "q5", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Pheobe and Monica reluctantly knock on Mr.Heckles door to ask if he had seen the monkey. Mr.Heckles doesn't answer the question and asks about his missing Belgian waffles. Pheobe and Monica decide to leave unrewarded."}, 
+			{ "description": "Pheobe and Monica knocks on Mr.Heckles door"}, 
+			{ "description": "Mr.Heckles has no idea where the monkey went"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why are Pheobe and Monica at Mr.Heckle's door?", 
+				"question_type": "Reason", 
+				"answer": "To ask if he had seen any monkey", 
+				"wrong_answer1": "To see if he needs anything", 
+				"wrong_answer2": "To say hellow", 
+				"wrong_answer3": "To see if he is doing okay by himself", 
+				"wrong_answer4": "To invite him to a party" } 
+			} ,
+			{ "qa": { 
+				"question": "What is Mr.Heckles missing?", 
+				"question_type": "Person", 
+				"answer": "A Belgian waffle", 
+				"wrong_answer1": "A phone", 
+				"wrong_answer2": "A monkey", 
+				"wrong_answer3": "A shoe", 
+				"wrong_answer4": "A cookie" } 
+				} ,
+			{ "qa": { 
+				"question": "What is Mr.Heckles wearing?", 
+				"question_type": "Visual detail", 
+				"answer": "A robe", 
+				"wrong_answer1": "A leather jacket", 
+				"wrong_answer2": "A bomber", 
+				"wrong_answer3": "A puffy vest", 
+				"wrong_answer4": "A jumper" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "129-141", 
+		"period_num": "q7", 
+		"start_time": "00:09:02;20", 
+		"end_time": "00:10:42;17",
+		"related_period": "q4", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Rachel is at her apartment calling someone on the phone to look for Marcel. A moment later, Ross comes in with a bottle of wine. Ross wants to have a conversation about starting a relationship with Rachel but her mind is totally out. She confesses that she had lost the monkey. As clearly shocked and angry Ross and Rachel are arguing, Marcel the monkey is sitting on the balcony, eating the Belgian waffle."}, 
+			{ "description": "Ross comes back to the house to see Rachel. She tells Ross that she had lost the monkey"}, 
+			{ "description": "Ross finds out that Marcel is gone"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What does Ross bring in his hand?", 
+				"question_type": "Action", 
+				"answer": "A bottle of wine", 
+				"wrong_answer1": "A gift for Rachel", 
+				"wrong_answer2": "A toy for Marcel", 
+				"wrong_answer3": "Some delivery food", 
+				"wrong_answer4": "A pack of beer" } 
+			} ,
+			{ "qa": { 
+				"question": "How does Rachel feel?", 
+				"question_type": "Emotion", 
+				"answer": "Anxious", 
+				"wrong_answer1": "Angry", 
+				"wrong_answer2": "Miserable", 
+				"wrong_answer3": "Depressed", 
+				"wrong_answer4": "Happy" } 
+				} ,
+			{ "qa": { 
+				"question": "What does Ross mean when he says \"Quick and Painful\"", 
+				"question_type": "Abstract", 
+				"answer": "He thinks he got rejected", 
+				"wrong_answer1": "He feels pain", 
+				"wrong_answer2": "He is asking where the monkey is", 
+				"wrong_answer3": "He thinks she is seeing someone", 
+				"wrong_answer4": "He thinks she is rude" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "142-162", 
+		"period_num": "q8", 
+		"start_time": "00:10:42;17", 
+		"end_time": "00:12:44;19",
+		"related_period": "q5", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "While Ross is letting it out on Rachel, an office from Animal Control knocks on the apartment door. At first, Rachel and Ross try to hide the fact that they own a monkey and that the call was a mistake. But when Pheobe and Monica come back to the apartment, Pheobe blows the cover by mentioning the monkey. Monica tries to ease the tension by inviting the officer to have a sit down at her kitchen table."}, 
+			{ "description": "Ross is angry at Rachel for failing to take care of the monkey."}, 
+			{ "description": "Animal control comes to the house and lays out the possible penalties Ross could face"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who shows up at the door?", 
+				"question_type": "Person", 
+				"answer": "An officer from Animal Control", 
+				"wrong_answer1": "A Police office", 
+				"wrong_answer2": "A fire fighter", 
+				"wrong_answer3": "A nurse", 
+				"wrong_answer4": "A soldier" } 
+			} ,
+			{ "qa": { 
+				"question": "Why do Ross and Rachel try to lie to the officer?", 
+				"question_type": "Reason", 
+				"answer": "Because it is illegal to own a monkey in New York", 
+				"wrong_answer1": "Because the officer looks intimidating", 
+				"wrong_answer2": "Because Ross doesn't want to search for the monkey", 
+				"wrong_answer3": "Because Rachel is scared she might get in trouble", 
+				"wrong_answer4": "Because the officer is nice" } 
+				} ,
+			{ "qa": { 
+				"question": "What is the penalty for owning a monkey in NY?", 
+				"question_type": "Statement", 
+				"answer": "Up to 2 years in prison", 
+				"wrong_answer1": "Up to a year in prison", 
+				"wrong_answer2": "Up to 4 years in prison", 
+				"wrong_answer3": "Up to 3 years in prison", 
+				"wrong_answer4": "Up to 5 years in prison" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "163-176", 
+		"period_num": "q9", 
+		"start_time": "00:12:49;03", 
+		"end_time": "00:14:02;00",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Monica, Pheobe, Rachel, Ross, and the officer are around the table. Monica introduces herself to the officer and finds out that she is a friend from high school. However, Louisa the officer disliked Rachel since the high school days. The officer leaves with a warning that if she finds the monkey, she will take it."}, 
+			{ "description": "Monica, Pheobe, Rachel, Ross, and the officer are sitting around the table, wondering how to deal with the monkey situation."}, 
+			{ "description": "The officer graduated from the same high school but Monica and Rachel have no recollection of her"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is the name of the officer?", 
+				"question_type": "Person", 
+				"answer": "Louisa", 
+				"wrong_answer1": "Louise", 
+				"wrong_answer2": "Lauren", 
+				"wrong_answer3": "Langley", 
+				"wrong_answer4": "Luna" } 
+			} ,
+			{ "qa": { 
+				"question": "How does Louisa feel about Rachel?", 
+				"question_type": "Emotion", 
+				"answer": "She hates her", 
+				"wrong_answer1": "She loves her", 
+				"wrong_answer2": "She fancies her", 
+				"wrong_answer3": "She's jealous of her", 
+				"wrong_answer4": "She's tired of her" } 
+				} ,
+			{ "qa": { 
+				"question": "Why does Louisa decide not to help them?", 
+				"question_type": "Reason", 
+				"answer": "She weren't friends with them back when they were in highschool", 
+				"wrong_answer1": "She cannot ignore a possible felony", 
+				"wrong_answer2": "She wants to be professional", 
+				"wrong_answer3": "She is committed to her job", 
+				"wrong_answer4": "She wants to keep the monkey" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "177-192", 
+		"period_num": "q10", 
+		"start_time": "00:14:02;00", 
+		"end_time": "00:15:45;04",
+		"related_period": "q5", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Joey and Chandler are looking for Marcel on a hallway of a different floor level. When they knock on their neighbor's door, a pretty girl comes out to answer. Chandler asks her if she's seen any monkey and she replies. The girl asks if they can fix her radiator but Chandler and Joey decline as they have no expert knowledge on it. Joey asks for a picture of them and the girls shut the door after giving them a weird look."}, 
+			{ "description": "Chandler and Joey are looking for the monkey on a different floor"}, 
+			{ "description": "They meet two pretty looking girls who need help fixing their radiator"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why does Chandler stutter when he is speaking to the girls?", 
+				"question_type": "Reason", 
+				"answer": "He finds them attractive", 
+				"wrong_answer1": "He is scared of them", 
+				"wrong_answer2": "He is very cold", 
+				"wrong_answer3": "He is angry at them", 
+				"wrong_answer4": "He does not want to be around them" } 
+			} ,
+			{ "qa": { 
+				"question": "What problem does the woman have?", 
+				"question_type": "Person", 
+				"answer": "Her radiator is broken", 
+				"wrong_answer1": "Her pajamas gone missing", 
+				"wrong_answer2": "Her body is feeling too hot", 
+				"wrong_answer3": "She is sweating too much", 
+				"wrong_answer4": "She wants to find a partner" } 
+				} ,
+			{ "qa": { 
+				"question": "What does Joey ask for?", 
+				"question_type": "Person", 
+				"answer": "Pictures of the girls", 
+				"wrong_answer1": "The monkey", 
+				"wrong_answer2": "Marcel", 
+				"wrong_answer3": "A phone", 
+				"wrong_answer4": "Their numbers" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "193-203", 
+		"period_num": "q11", 
+		"start_time": "00:15:45;04", 
+		"end_time": "00:16:43;17",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Monica and Pheobe are outside the apartment looking for Marcel. They find it near the sewage pipeline. The officer loads her gun with a tranquilizer. Just as she tries shooting it to the monkey, Pheobe jumps in between to protect Marcel. As a result, Pheobe is shot in her butt with a tranquilizer. She is feeling drowsy and Marcel runs away with the officer chasing it down. Marcel is back in the building in the hallway. A mysterious man leaves a half-eaten banana on the floor to lure the monkey and grabs indoor when Marcel comes close."}, 
+			{ "description": "Monica and Pheobe find Marcel but it runs away as the officer tries to tranquilize it."}, 
+			{ "description": "Pheobe is shot with an animal tranquilizer"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where arePheobe and Monica?", 
+				"question_type": "Location", 
+				"answer": "Near the dumpster", 
+				"wrong_answer1": "At Pheobe's apartment", 
+				"wrong_answer2": "At Joey's apartment", 
+				"wrong_answer3": "At Ross' apartment", 
+				"wrong_answer4": "At Monica's apartment" } 
+			} ,
+			{ "qa": { 
+				"question": "What happens to Pheobe?", 
+				"question_type": "Person", 
+				"answer": "She gets shot with a tranquilizer", 
+				"wrong_answer1": "She gets hit by the officer", 
+				"wrong_answer2": "She grabs the monkey", 
+				"wrong_answer3": "She fights the officer", 
+				"wrong_answer4": "She bites the monkey" } 
+				} ,
+			{ "qa": { 
+				"question": "What does the mysterious man lure the monkey with?", 
+				"question_type": "Action", 
+				"answer": "A banana", 
+				"wrong_answer1": "An apple", 
+				"wrong_answer2": "A. box of chocolate", 
+				"wrong_answer3": "A melon", 
+				"wrong_answer4": "An orange" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "204-214", 
+		"period_num": "q12", 
+		"start_time": "00:16:52;14", 
+		"end_time": "00:18:05;00",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross and Rachel are out on the streets to find Marcel but are unsuccessful in doing so. They get into an argument and to let out his anger, Ross kicks his foot on a sign and ends up hurting his foot. To make it even for Ross, Rachel kicks the sign with her foot too. As they are arguing, they see a man with a basket full of banana."}, 
+			{ "description": "Ross and Rachel are outside the building to look for the monkey"}, 
+			{ "description": "They end up hurting their foot."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why does Rachel kick the sign?", 
+				"question_type": "Reason", 
+				"answer": "To make it even for Ross", 
+				"wrong_answer1": "To express her anger", 
+				"wrong_answer2": "To remove the sign", 
+				"wrong_answer3": "To exert pain on herself", 
+				"wrong_answer4": "To see how strong her foot is" } 
+			} ,
+			{ "qa": { 
+				"question": "How does Ross feel about the whole situation?", 
+				"question_type": "Emotion", 
+				"answer": "Very angry", 
+				"wrong_answer1": "Very sorry", 
+				"wrong_answer2": "Very happy", 
+				"wrong_answer3": "Very excited", 
+				"wrong_answer4": "Very positive" } 
+				} ,
+			{ "qa": { 
+				"question": "What does the random man carry with him?", 
+				"question_type": "Person", 
+				"answer": "A box full of banana", 
+				"wrong_answer1": "A box full of ramen", 
+				"wrong_answer2": "An empty box", 
+				"wrong_answer3": "A box full of strawberry", 
+				"wrong_answer4": "A box full of watermelon" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "215-238", 
+		"period_num": "q13", 
+		"start_time": "00:18:05;00", 
+		"end_time": "00:20:04;11",
+		"related_period": "q12", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "The whole gang goes to Mr.Heckle's house to knock on his door with a box full bananas. When he answers the door, Ross demand that Mr.Heckle give up his monkey. Marcel is dressed in a ballerina dress and the group is horrified. Mr.Heckle insists that the monkey is his and that the name is Patty. In the midst of the confrontation, Marcel gets in to the cage held by the officer. Rachel asks the officer to forgive her and let the monkey go. She declines but Rachel threatens her to let her supervisor know that she shot her friend Phoebe with a tranquilizer."}, 
+			{ "description": "Mr.Heckle was the mysterious man who took in Marcel. Ross and the co goes up to Mr.Heckle's house to demand that he gives up the monkey"}, 
+			{ "description": "Rachel is successful in threatening Louisa to give up Marcel."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where was Marcel?", 
+				"question_type": "Location", 
+				"answer": "He was at Mr.Heckle's house", 
+				"wrong_answer1": "He was at the officer's house", 
+				"wrong_answer2": "He was out on the street", 
+				"wrong_answer3": "He was at Monica's apartment", 
+				"wrong_answer4": "He was at Joey's apartment" } 
+			} ,
+			{ "qa": { 
+				"question": "What did Mr.Heckle name the monkey as?", 
+				"question_type": "Action", 
+				"answer": "Patty", 
+				"wrong_answer1": "Patterson", 
+				"wrong_answer2": "Pheobe", 
+				"wrong_answer3": "Polly", 
+				"wrong_answer4": "Pugmal" } 
+				} ,
+			{ "qa": { 
+				"question": "How does Rachel threaten the officer?", 
+				"question_type": "Method", 
+				"answer": "She threatens to let her supervisor that she shot Pheobe", 
+				"wrong_answer1": "She told her that she will report her for being not nice", 
+				"wrong_answer2": "She threatens to sue her", 
+				"wrong_answer3": "She tries to exert force", 
+				"wrong_answer4": "She threatens her physically" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "239-249", 
+		"period_num": "q14", 
+		"start_time": "00:20:04;11", 
+		"end_time": "00:22:02;17",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Rachel and Ross are back in their apartment to talk about the whole incident. They apologize to each other and agree to drink the wine Ross brought. All of a sudden, Barry kicks the apartment door open and tells Rachel that he still love her."}, 
+			{ "description": "Ross and Rachel are at her apartment to drink wine"}, 
+			{ "description": "Barry comes into the house to tell her about his feelings."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What does Ross do to set the mood?", 
+				"question_type": "Action", 
+				"answer": "He dims the light", 
+				"wrong_answer1": "He turns the light off", 
+				"wrong_answer2": "He plays a guitar", 
+				"wrong_answer3": "He turns the stereo on", 
+				"wrong_answer4": "He dances" } 
+			} ,
+			{ "qa": { 
+				"question": "Who comes into the house later?", 
+				"question_type": "Person", 
+				"answer": "Barry", 
+				"wrong_answer1": "Billy", 
+				"wrong_answer2": "Butler", 
+				"wrong_answer3": "Belly", 
+				"wrong_answer4": "Bally" } 
+				} ,
+			{ "qa": { 
+				"question": "What color is Barry's jacket?", 
+				"question_type": "Visual detail", 
+				"answer": "Yellow", 
+				"wrong_answer1": "Black", 
+				"wrong_answer2": "Red", 
+				"wrong_answer3": "Grey", 
+				"wrong_answer4": "Blue" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "250-254", 
+		"period_num": "q15", 
+		"start_time": "00:22:02;17", 
+		"end_time": "00:22:33;19",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Pheobe, Monica, Chandler, and Joey are at the café, looking at Monica's Yearbook. They are reminiscing about their high school days. Joey tells that he enjoyed his time in high school while Chandler went to a boy's high school. Pheobe jumps in joy to let another know that her butt was waking up."}, 
+			{ "description": "Pheobe, Monica, Joey, and Chandler are at the café, talking about their high school times"}, 
+			{ "description": "Pheobe's butt was waking up from the tranquilizer."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What are the group doing?", 
+				"question_type": "Action", 
+				"answer": "They are talking about their highschool years", 
+				"wrong_answer1": "They are talking about Mercel", 
+				"wrong_answer2": "They are talking about Ross", 
+				"wrong_answer3": "They are talking about Pheobe's butt", 
+				"wrong_answer4": "They are talking about Barry" } 
+			} ,
+			{ "qa": { 
+				"question": "What does Joey feel about his high school times?", 
+				"question_type": "Statement", 
+				"answer": "He loved it", 
+				"wrong_answer1": "He hated it", 
+				"wrong_answer2": "He doesn't have good memories of it", 
+				"wrong_answer3": "He is not too fond of it", 
+				"wrong_answer4": "He disliked it" } 
+				} ,
+			{ "qa": { 
+				"question": "Why does Pheobe start screaming with joy?", 
+				"question_type": "Reason", 
+				"answer": "Her butt woke up", 
+				"wrong_answer1": "She found her highschool grad book", 
+				"wrong_answer2": "She got a new job", 
+				"wrong_answer3": "She hurt her foot", 
+				"wrong_answer4": "She wants to dance" 
+				} 
+			} 
+		] 
+	}
+	]
+}

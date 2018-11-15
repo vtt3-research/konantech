@@ -1,0 +1,682 @@
+{ 
+	"file_name": "s01_ep12_tag2_QA_final.json",
+	"registed_name": "s01_ep12_tag2_QA_final.json", 
+	"qa_results": 
+	[ 
+		{ 
+		"visual_period_num": "1-42", 
+		"period_num": "q1", 
+		"start_time": "00:00:08;18", 
+		"end_time": "00:01:42;05",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross is holding some papers on the sofa. Ross starts singing and others follow the rhythm. On the sofa, Monica and Ross are sitting together. Behind the sofa, Rachel is sitting on the stool. Next, Rachel, Chandler, and Joey are sitting at the table. Chandler is reading a newspaper. Opposite of Joey and Chandler, Phoebe is sitting on the floor."}, 
+			{ "description": "Monica and Ross are sitting together on the sofa."}, 
+			{ "description": "Ross starts singing and others follow the rhythm."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is sitting with Ross?", 
+				"question_type": "Person", 
+				"answer": "Monica.", 
+				"wrong_answer1": "Chandler.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Joey.", 
+				"wrong_answer4": "Phoebe." } 
+			} ,
+			{ "qa": { 
+				"question": "What does Ross start?", 
+				"question_type": "Person", 
+				"answer": "Ross starts singing.", 
+				"wrong_answer1": "Ross starts dancing.", 
+				"wrong_answer2": "Ross starts reading a book.", 
+				"wrong_answer3": "Ross starts calling.", 
+				"wrong_answer4": "Ross starts listening to music." } 
+				} ,
+			{ "qa": { 
+				"question": "Who is sitting with Joey?", 
+				"question_type": "Person", 
+				"answer": "Chandler.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Phoebe.", 
+				"wrong_answer4": "Rachel." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "43-61", 
+		"period_num": "q2", 
+		"start_time": "00:01:42;05", 
+		"end_time": "00:03:09;17",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Monica is taking out lasagne from the oven with a phone in her hand. Ross, Joey, and Phoebe are talking together. Phoebe is reading a book. Joey is sitting on the sofa. Opposite of them, Chandler is sitting on the sofa. Chandler just finished eating yogurt. In the kitchen, Rachel is talking on the phone. In the living room, Ross and Joey are talking."}, 
+			{ "description": "Ross is sitting with Joey and talking about books."}, 
+			{ "description": "Phoebe is sitting on the floor next to Ross."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Monica doing?", 
+				"question_type": "Action", 
+				"answer": "Monica is talking on the phone.", 
+				"wrong_answer1": "Monica is dancing.", 
+				"wrong_answer2": "Monica is singing.", 
+				"wrong_answer3": "Monica is eating food.", 
+				"wrong_answer4": "Monica is talking to Ross." } 
+			} ,
+			{ "qa": { 
+				"question": "Who is talking with Ross?", 
+				"question_type": "Person", 
+				"answer": "Joey.", 
+				"wrong_answer1": "Chandler.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Rachel.", 
+				"wrong_answer4": "Phoebe." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Chandler just finish?", 
+				"question_type": "Person", 
+				"answer": "Chandler just finishes eating yogurt.", 
+				"wrong_answer1": "Chandler just finishes watching TV.", 
+				"wrong_answer2": "Chandler just finishes reading a book.", 
+				"wrong_answer3": "Chandler just finishes calling on the phone.", 
+				"wrong_answer4": "Chandler just finishes cooking." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "62-73", 
+		"period_num": "q3", 
+		"start_time": "00:03:09;17", 
+		"end_time": "00:04:11;16",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Rachel comes in with Paolo. They kiss in front of the door. The three men, Chandler, Joey, and Ross mimic Paolo and Rachel. The three women, Monica, Rachel, and Phoebe are talking together in the kitchen. Ross looks uncomfortable about Rachel in love with Paolo."}, 
+			{ "description": "Chandler, Ross, and Joey are sitting in the living room."}, 
+			{ "description": "Monica, Rachel, and Phoebe are talking together in the kitchen."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What does Rachel do after coming in?", 
+				"question_type": "Action", 
+				"answer": "Rachel kisses Paolo.", 
+				"wrong_answer1": "Rachel sings a song.", 
+				"wrong_answer2": "Rachel starts cooking.", 
+				"wrong_answer3": "Rachel calls on the phone.", 
+				"wrong_answer4": "Rachel goes to Monica." } 
+			} ,
+			{ "qa": { 
+				"question": "How does Ross feel about Rachel kissing Paolo?", 
+				"question_type": "Emotion", 
+				"answer": "Ross feels jealous.", 
+				"wrong_answer1": "Ross feels happy.", 
+				"wrong_answer2": "Ross is sad.", 
+				"wrong_answer3": "Ross is angry.", 
+				"wrong_answer4": "Ross is tired." } 
+				} ,
+			{ "qa": { 
+				"question": "Where are Monica, Phoebe, and Rachel?", 
+				"question_type": "Location", 
+				"answer": "Monica, Phoebe, and Rachel in the kitchen.", 
+				"wrong_answer1": "Monica, Phoebe, and Rachel are in the toilet.", 
+				"wrong_answer2": "Monica, Phoebe, and Rachel are in their rooms.", 
+				"wrong_answer3": "Monica, Phoebe, and Rachel are in a car.", 
+				"wrong_answer4": "Monica, Phoebe, and Rachel are outside the house." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "74-87", 
+		"period_num": "q4", 
+		"start_time": "00:04:16;23", 
+		"end_time": "00:06:05;18",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Joey and Chandler come out of Monica and Rachel's house and go back to Joey and Chandler's house. Chandler looks annoyed by Joey fussing over Ross's baby. Chandler is carrying food in his hand. Ross visits Carole's house. He knocks on the door. Carole opens the door. They greet. Ross gives her food. Ross is picking up a picture and asks questions. Ross and Carole talk for a while. Ross is putting the picture down on the table. Ross and Carole stand in the living room and talk."}, 
+			{ "description": "Joey and Chandler are talking in the hallway. Chandler looks annoyed by Joey fussing over Ross's baby."}, 
+			{ "description": "Ross and Carole are talking together in Carole's house."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is talking with Chandler?", 
+				"question_type": "Person", 
+				"answer": "Joey.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Phoebe.", 
+				"wrong_answer4": "Monica." } 
+			} ,
+			{ "qa": { 
+				"question": "What Joey talking about in the hallway?", 
+				"question_type": "Person", 
+				"answer": "Joey is talking about Ross's baby.", 
+				"wrong_answer1": "Joey is talking about his job.", 
+				"wrong_answer2": "Joey is talking about girlfriend.", 
+				"wrong_answer3": "Joey is talking about food.", 
+				"wrong_answer4": "Joey is talking about marriage." } 
+				} ,
+			{ "qa": { 
+				"question": "Whose baby is Carole carrying?", 
+				"question_type": "Person", 
+				"answer": "Ross.", 
+				"wrong_answer1": "Joey.", 
+				"wrong_answer2": "Chandler.", 
+				"wrong_answer3": "Paolo.", 
+				"wrong_answer4": "Susan." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "88-97", 
+		"period_num": "q5", 
+		"start_time": "00:06:05;18", 
+		"end_time": "00:07:16;09",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross leads Carole to the sofa. Ross and Carole sit down on the sofa together. Carole pats her stomach. Susan suddenly comes in the house. Susan and Ross stand up to greet her. Susan hugs Carole as they know about the baby's sex. Ross is surprised by their fuss and steps back and leaves the house."}, 
+			{ "description": "Ross and Carole sit on the sofa together and talk."}, 
+			{ "description": "Susan comes into the house suddenly and carries a big bag."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where is Ross?", 
+				"question_type": "Location", 
+				"answer": "Ross is in Carole's house.", 
+				"wrong_answer1": "Ross is at Monica's house.", 
+				"wrong_answer2": "Ross is in his apartment.", 
+				"wrong_answer3": "Ross is in his parents' house.", 
+				"wrong_answer4": "Ross is in the museum." } 
+			} ,
+			{ "qa": { 
+				"question": "Who comes in suddenly?", 
+				"question_type": "Person", 
+				"answer": "Susan.", 
+				"wrong_answer1": "Chandler.", 
+				"wrong_answer2": "Joey.", 
+				"wrong_answer3": "Rachel.", 
+				"wrong_answer4": "Monica." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Ross do after talking with Carole?", 
+				"question_type": "Action", 
+				"answer": "Ross leaves the house.", 
+				"wrong_answer1": "Ross cooks dinner.", 
+				"wrong_answer2": "Ross starts singing.", 
+				"wrong_answer3": "Ross calls on the phone.", 
+				"wrong_answer4": "Ross talks to Susan." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "98-116", 
+		"period_num": "q6", 
+		"start_time": "00:07:31;09", 
+		"end_time": "00:08:30;17",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Susan sits on the sofa. Carole checks the intercom. It is Ross. In Chandler and Joey's apartment, they use their knees as a table to support the lasagna. Chandler and Joey are sitting on chairs and talking together. Joey is surprised and stands up from the seat. Chandler follows him."}, 
+			{ "description": "Joey and Chandler are sitting on chair and talking together."}, 
+			{ "description": "Joey and Chandler are eating food together."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Joey doing?", 
+				"question_type": "Action", 
+				"answer": "Joey is eating food.", 
+				"wrong_answer1": "Joey is playing the guitar.", 
+				"wrong_answer2": "Joey is cooking dinner.", 
+				"wrong_answer3": "Joey is dancing.", 
+				"wrong_answer4": "Joey is acting." } 
+			} ,
+			{ "qa": { 
+				"question": "Who is eating with Chandler?", 
+				"question_type": "Person", 
+				"answer": "Joey.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Ross.", 
+				"wrong_answer4": "Phoebe." } 
+				} ,
+			{ "qa": { 
+				"question": "Why is Joey surprised?", 
+				"question_type": "Reason", 
+				"answer": "Because Joey thinks that Chandler moves out.", 
+				"wrong_answer1": "Because Joey thinks that he doesn't get paid for work.", 
+				"wrong_answer2": "Because Joey doesn't know Chandler's marriage.", 
+				"wrong_answer3": "Because Joey has bugs on his back.", 
+				"wrong_answer4": "Because Joey's girlfriend is cheating on him." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "117-136", 
+		"period_num": "q7", 
+		"start_time": "00:08:59;05", 
+		"end_time": "00:10:43;20",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Phoebe is making the bed for massage. Phoebe's assistant tells her what to do for the service and leaves the place. Paolo, Rachel's boyfriend, comes in. Phoebe and Paolo are talking. Paolo takes off the robe and Phoebe covers him with a cloth. In the café, Rachel is serving coffee to people. Rachel walks around the sofa with a coffee pot and sits next to Ross on the sofa. Monica is sitting at the table with a cup in her hand. Next to Monica, Joey, and Chandler are sitting together. They are talking about the baby's sex. Suddenly, Phoebe comes in and sits on the sofa next to Chandler. Phoebe looks angry. Some customers ask for coffee and Rachel leaves the sofa. Joey and Chandler leave. Monica moves to sit next to Phoebe and Phoebe starts to talk about why she gets so angry. As she starts, Joey and Chandler come back and sit around to hear the story."}, 
+			{ "description": "Monica is sitting at the table. Joey and Chandler are sitting next to Monica."}, 
+			{ "description": "Rachel is holding a coffee pot and walking to Ross to sit next to him."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Phoebe preparing for?", 
+				"question_type": "Person", 
+				"answer": "Phoebe is preparing for massage.", 
+				"wrong_answer1": "Phoebe is preparing for a shower.", 
+				"wrong_answer2": "Phoebe is preparing for dinner.", 
+				"wrong_answer3": "Phoebe is preparing for singing.", 
+				"wrong_answer4": "Phoebe is preparing for acting." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Rachel doing in the café?", 
+				"question_type": "Person", 
+				"answer": "Rachel is serving coffee.", 
+				"wrong_answer1": "Rachel is singing.", 
+				"wrong_answer2": "Rachel is running the shop.", 
+				"wrong_answer3": "Rachel is drinking coffee.", 
+				"wrong_answer4": "Rachel is dating." } 
+				} ,
+			{ "qa": { 
+				"question": "How is Phoebe feeling now?", 
+				"question_type": "Emotion", 
+				"answer": "Phoebe is angry.", 
+				"wrong_answer1": "Phoebe is sad.", 
+				"wrong_answer2": "Phoebe is worried.", 
+				"wrong_answer3": "Phoebe is cheerful.", 
+				"wrong_answer4": "Phoebe is happy." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "137-161", 
+		"period_num": "q8", 
+		"start_time": "00:10:43;20", 
+		"end_time": "00:12:37;22",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Phoebe starts talking and the screen overlaps with the present and the past. At the present time, Monica, Ross, Chandler, and Joey are listening to Phoebe. Monica and Ross are sitting both sides of Phoebe. Next, to Ross, Chandler and Joey are sitting. In the past, Phoebe is massaging Paolo, but Paolo touches Phoebe's body with his hand. When Phoebe is talking, Rachel suddenly comes around and everyone pretends that they are talking celebrities. As Rachel leaves, Chandler takes Rachel's place and Ross enthusiastically persuades Phoebe to tell Rachel what happened with Paolo. In a furniture shop, Chandler and Joey are standing and shopping. They are arguing about which dining table they are going to get."}, 
+			{ "description": "As Rachel comes around the sofa, Phoebe and other people pretend that they are talking about celebrities."}, 
+			{ "description": "Chandler and Joey are standing in a shop and arguing about the dining table."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why is Phoebe angry?", 
+				"question_type": "Reason", 
+				"answer": "Because Paolo touches Phoebe' body without permission.", 
+				"wrong_answer1": "Because Paolo doesn't pay Phoebe.", 
+				"wrong_answer2": "Because coffee tastes bad.", 
+				"wrong_answer3": "Because Rachel gets angry at Phoebe.", 
+				"wrong_answer4": "Because Ross doesn't know his baby's sex." } 
+			} ,
+			{ "qa": { 
+				"question": "Who misses Phoebe's story?", 
+				"question_type": "Person", 
+				"answer": "Rachel.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Joey.", 
+				"wrong_answer4": "Chandler." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Ross suggest Phoebe do?", 
+				"question_type": "Person", 
+				"answer": "Ross suggests Phoebe to tell Rachel about what Paolo did to Phoebe.", 
+				"wrong_answer1": "Ross suggests filing a lawsuit.", 
+				"wrong_answer2": "Ross suggests keeping a secret.", 
+				"wrong_answer3": "Ross suggests forgetting what happened.", 
+				"wrong_answer4": "Ross suggests calling the police." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "162-187", 
+		"period_num": "q9", 
+		"start_time": "00:12:37;22", 
+		"end_time": "00:14:11;09",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Rachel is organizing her clothes in the living room. Phoebe comes in. Phoebe suggests talking for a moment. They sit on the sofa. Phoebe starts talking and Rachel carefully listens to Phoebe. Phoebe gives some cookies to Rachel. Rachel eats them. Phoebe tells Rachel what Paolo did to her."}, 
+			{ "description": "Rachel is standing and organizing her clothes in the living room."}, 
+			{ "description": "Rachel and Phoebe sit on the sofa and start talking."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who comes into the house?", 
+				"question_type": "Person", 
+				"answer": "Phoebe.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Ross.", 
+				"wrong_answer4": "Chandler." } 
+			} ,
+			{ "qa": { 
+				"question": "What does Phoebe want to do with Rachel.", 
+				"question_type": "Person", 
+				"answer": "Phoebe wants to talk to Rachel.", 
+				"wrong_answer1": "Phoebe wants to sing to Rachel.", 
+				"wrong_answer2": "Phoebe wants to dance with Rachel.", 
+				"wrong_answer3": "Phoebe wants to call Rachel.", 
+				"wrong_answer4": "Phoebe wants to cook for Rachel." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Phoebe offer Rachel?", 
+				"question_type": "Person", 
+				"answer": "Phoebe offers coockies to Rachel.", 
+				"wrong_answer1": "Phoebe offers bread to Rachel.", 
+				"wrong_answer2": "Phoebe offers a computer to Rachel.", 
+				"wrong_answer3": "Phoebe offers a car to Rachel.", 
+				"wrong_answer4": "Phoebe offers a lottery to Rachel." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "188-213", 
+		"period_num": "q10", 
+		"start_time": "00:14:11;09", 
+		"end_time": "00:16:00;21",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Monica, Ross, Chandler, and Joey are standing in a row and looking at the table. It is a football table. Soon, all of them play it. Monica and Ross stand and play together. Joey and Chandler play on the opposite. Phoebe and Rachel are sitting together. Rachel looks so shocked. Phoebe gives her some water. Rachel angrily goes to the kitchen and gets kitchens towel and drag it to Phoebe. They say sorry to each other at the same time. Disappointed, Rachel goes to the kitchen table and sits at the table with the towel in her hand."}, 
+			{ "description": "Monica, Ross, Chandler, and Joey are standing in a row and looking at the table."}, 
+			{ "description": "Phoebe and Rachel are sitting together."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What did Chandler and Joey buy?", 
+				"question_type": "Person", 
+				"answer": "Chandler and Joey bought a football table.", 
+				"wrong_answer1": "Chandler and Joey bought a round dinner table.", 
+				"wrong_answer2": "Chandler and Joey bought a table with bird images.", 
+				"wrong_answer3": "Chandler and Joey bought a square table.", 
+				"wrong_answer4": "Chandler and Joey didn't buy a table." } 
+			} ,
+			{ "qa": { 
+				"question": "How is Rachel feeling?", 
+				"question_type": "Emotion", 
+				"answer": "Rachel is shocked and embarrassed.", 
+				"wrong_answer1": "Rachel is happy.", 
+				"wrong_answer2": "Rachel is excited.", 
+				"wrong_answer3": "Rachel is cheerful.", 
+				"wrong_answer4": "Rachel is worried." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Rachel tell to Phoebe?", 
+				"question_type": "Statement", 
+				"answer": "Rachel says sorry to Phoebe.", 
+				"wrong_answer1": "Rachel shouts at Phoebe.", 
+				"wrong_answer2": "Rachel blames Phoebe.", 
+				"wrong_answer3": "Rachel doesn't tell Phoebe.", 
+				"wrong_answer4": "Rachel tells that Phoebe is a liar." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "214-236", 
+		"period_num": "q11", 
+		"start_time": "00:16:00;21", 
+		"end_time": "00:17:48;02",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Rachel sits at the table and Phoebe approaches Rachel. Phoebe sits at the table with Rachel. They talk together. Rachel looks sad. In boy's apartment, Phoebe is standing in the middle of the football table and talking about Rachel. Monica is playing and talking next to Ross. Monica and Ross win the game. Monica and Rachel leave the house. Chandler and Joey talk with Ross."}, 
+			{ "description": "Phoebe sits at the table with Rachel."}, 
+			{ "description": "Phoebe is standing in the middle of the football table and talking about Rachel."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is sitting with Rachel?", 
+				"question_type": "Person", 
+				"answer": "Phoebe.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Chandler.", 
+				"wrong_answer4": "Joey." } 
+			} ,
+			{ "qa": { 
+				"question": "What does Monica play with?", 
+				"question_type": "Visual detail", 
+				"answer": "A football table.", 
+				"wrong_answer1": "A computer.", 
+				"wrong_answer2": "A plastic ball.", 
+				"wrong_answer3": "A jigsaw.", 
+				"wrong_answer4": "A phone." } 
+				} ,
+			{ "qa": { 
+				"question": "What is the game result?", 
+				"question_type": "Event", 
+				"answer": "Monica and Ross win.", 
+				"wrong_answer1": "Chandler and Joey win.", 
+				"wrong_answer2": "Chandler and Monica win.", 
+				"wrong_answer3": "Chandler and Ross win.", 
+				"wrong_answer4": "Joey and Ross win." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "237-247", 
+		"period_num": "q12", 
+		"start_time": "00:17:48;02", 
+		"end_time": "00:19:10;00",
+		"related_period": "q8", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Outside the building, Rachel is throwing away clothes. Paolo is talking to Rachel. In the living room, Monica, Phoebe, Ross are talking. Paolo leaves with food. Ross opens the door for him and closes the door."}, 
+			{ "description": "Rachel is standing outside the house."}, 
+			{ "description": "Monica and Phoebe are sitting together on the sofa."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What does Rachel do with Paolo?", 
+				"question_type": "Action", 
+				"answer": "Rachel breaks up with Paolo.", 
+				"wrong_answer1": "Rachel dates Paolo.", 
+				"wrong_answer2": "Rachel calls Paolo.", 
+				"wrong_answer3": "Rachel cooks dinner for Paolo.", 
+				"wrong_answer4": "Rachel sings for Paolo." } 
+			} ,
+			{ "qa": { 
+				"question": "What does Monica give to Paolo?", 
+				"question_type": "Visual detail", 
+				"answer": "Lasagna.", 
+				"wrong_answer1": "Cup cake.", 
+				"wrong_answer2": "Cheesecake.", 
+				"wrong_answer3": "Pudding.", 
+				"wrong_answer4": "Coffee." } 
+				} ,
+			{ "qa": { 
+				"question": "What is Ross doing?", 
+				"question_type": "Action", 
+				"answer": "Ross opens the door for Paolo.", 
+				"wrong_answer1": "Ross cooks dinner.", 
+				"wrong_answer2": "Ross starts singing.", 
+				"wrong_answer3": "Ross sits with Paolo.", 
+				"wrong_answer4": "Ross calls Paolo." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "248-250", 
+		"period_num": "q13", 
+		"start_time": "00:19:10;00", 
+		"end_time": "00:20:40;21",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross, Monica, and Phoebe are talking for a while. Ross goes to Rachel who is sadly standing outside alone. Ross is talking and Rachel goes to Ross. Ross hugs Rachel. Rachel tells Ross about her feeling. They hug each other, but Ross looks sad. Rachel and Ross come into the house. Monica and Phoebe hug Rachel. Ross is talking to the girls."}, 
+			{ "description": "Outside, Ross and Rachel are talking together."}, 
+			{ "description": "Rachel and Ross come into the house. Monica and Phoebe hug Rachel."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How does Rachel feel?", 
+				"question_type": "Emotion", 
+				"answer": "Rachel is sad.", 
+				"wrong_answer1": "Rachel is happy.", 
+				"wrong_answer2": "Rachel is excited.", 
+				"wrong_answer3": "Rachel is angry.", 
+				"wrong_answer4": "Rachel is upbeat." } 
+			} ,
+			{ "qa": { 
+				"question": "What does Rachel feel about men?", 
+				"question_type": "Emotion", 
+				"answer": "Rachel is sick of men.", 
+				"wrong_answer1": "Rachel loves men.", 
+				"wrong_answer2": "Rachel wants to date another guy.", 
+				"wrong_answer3": "Rachel wants to go out for dating.", 
+				"wrong_answer4": "Rachel loves dating men." } 
+				} ,
+			{ "qa": { 
+				"question": "How does Ross feel about Rachel's talking?", 
+				"question_type": "Emotion", 
+				"answer": "Ross is disappointed.", 
+				"wrong_answer1": "Ross is happy.", 
+				"wrong_answer2": "Ross is excited.", 
+				"wrong_answer3": "Ross is angry.", 
+				"wrong_answer4": "Ross is tired." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "251-266", 
+		"period_num": "q14", 
+		"start_time": "00:20:40;21", 
+		"end_time": "00:21:46;20",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross is talking in front of women. With Rachel's slip of the tongue, Ross finds that the baby is a boy. Ross is opening the fridge and putting his hand on the door. Ross takes the beer out of the fridge. Rachel is panicked and stands up. All three women, Rachel, Monica, and Phoebe stand up and shout to celebrate Ross. Monica goes to Ross and hugs him. For shouting, Chandler and Joey come into the house together and celebrate."}, 
+			{ "description": "Ross is talking in front of women."}, 
+			{ "description": "All three women, Rachel, Monica, and Phoebe stand up and shout to celebrate Ross. Monica goes to Ross and hugs him."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is Ross talking to?", 
+				"question_type": "Person", 
+				"answer": "Rachel.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Phoebe.", 
+				"wrong_answer3": "Joey.", 
+				"wrong_answer4": "Chandler." } 
+			} ,
+			{ "qa": { 
+				"question": "What is the baby's sex?", 
+				"question_type": "Visual detail", 
+				"answer": "The baby is a boy.", 
+				"wrong_answer1": "The baby is a girl.", 
+				"wrong_answer2": "Still don't know.", 
+				"wrong_answer3": "Only Monica knows.", 
+				"wrong_answer4": "Only Joey knows." } 
+				} ,
+			{ "qa": { 
+				"question": "How does Ross find the baby's sex?", 
+				"question_type": "Method", 
+				"answer": "Rachel tells it for the slip of the tongue.", 
+				"wrong_answer1": "Monica tells Ross.", 
+				"wrong_answer2": "Carole tells Ross.", 
+				"wrong_answer3": "Phoebe tells Ross.", 
+				"wrong_answer4": "Ross overhears what Monica says." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "267-276", 
+		"period_num": "q15", 
+		"start_time": "00:21:46;20", 
+		"end_time": "00:22:39;04",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Chandler and Joey hug each other. Ross looks having mixed feeling. Monica is playing a table football with Chandler and Joey. Monica wins again and makes Chandler and Joey get angry. Chandler and Joey leave the game to go to bed, but Monica still wants to play. Chandler and Joey pick her up and throw her out of the house. They close the door and play the game only between the two."}, 
+			{ "description": "Ross looks having mixed feeling."}, 
+			{ "description": "Chandler and Joey leave the game to go to bed, but Monica still wants to play."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How does Ross feel?", 
+				"question_type": "Person", 
+				"answer": "Ross has mixed feeling.", 
+				"wrong_answer1": "Ross is sad.", 
+				"wrong_answer2": "Ross is angry.", 
+				"wrong_answer3": "Ross is disappointed.", 
+				"wrong_answer4": "Ross is depressed." } 
+			} ,
+			{ "qa": { 
+				"question": "Who is plyaing table football with Chandler and Joey?", 
+				"question_type": "Person", 
+				"answer": "Monica.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Phoebe.", 
+				"wrong_answer4": "No one." } 
+				} ,
+			{ "qa": { 
+				"question": "What do Chandler and Joey do to Monica?", 
+				"question_type": "Action", 
+				"answer": "Chandler and Joey pick her up and throw her out.", 
+				"wrong_answer1": "Chandler and Joey keep playing the game.", 
+				"wrong_answer2": "Chandler and Joey change the game.", 
+				"wrong_answer3": "Chandler and Joey give a penalty to Monica.", 
+				"wrong_answer4": "Chandler and Joey goes to bed, leaving Monica behind alone." 
+				} 
+			} 
+		] 
+	}
+	]
+}

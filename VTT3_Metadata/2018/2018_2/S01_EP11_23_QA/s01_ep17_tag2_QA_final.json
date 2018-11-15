@@ -1,0 +1,637 @@
+{ 
+	"file_name": "s01_ep17_tag2_QA_final.json",
+	"registed_name": "s01_ep17_tag2_QA_final.json", 
+	"qa_results": 
+	[ 
+		{ 
+		"visual_period_num": "8-23", 
+		"period_num": "q1", 
+		"start_time": "00:00:21;00", 
+		"end_time": "00:01:29;16",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Rachel is with Monica at the hospital to check up on her ankle. They're filling up the sign-up form. After finding out that Rachel doesn't have an insurance, Monica agrees to let Rachel use her insurance. In order to get a new sign up sheet, Monica walks up to the nurse."}, 
+			{ "description": "Monica and Rachel are at a hospital to check if Rachel's ankles are okay."}, 
+			{ "description": "Monica secretly agrees to let Rachel use her insurance."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where are Rachel and Monica?", 
+				"question_type": "Location", 
+				"answer": "At a hospital", 
+				"wrong_answer1": "At a night club", 
+				"wrong_answer2": "At a bar", 
+				"wrong_answer3": "At a restaurant", 
+				"wrong_answer4": "At a café" } 
+			} ,
+			{ "qa": { 
+				"question": "What seems to be the problem with Rachel?", 
+				"question_type": "Abstract", 
+				"answer": "She hurt her ankle", 
+				"wrong_answer1": "She has a stomach", 
+				"wrong_answer2": "She needs money for travelling", 
+				"wrong_answer3": "She wants to pee", 
+				"wrong_answer4": "She wants to go home" } 
+				} ,
+			{ "qa": { 
+				"question": "What is Rachel missing?", 
+				"question_type": "Statement", 
+				"answer": "Insurance", 
+				"wrong_answer1": "Driver's license", 
+				"wrong_answer2": "Work permit", 
+				"wrong_answer3": "An ID card", 
+				"wrong_answer4": "A resume" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "24~52", 
+		"period_num": "q2", 
+		"start_time": "00:01:29;16", 
+		"end_time": "00:03:24;17",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross, Chandler, and Joey are sitting around the sofa in the café. Ross is talking about a dream he had and is worried that It might be sign that he is not ready for parenthood. Chandler and Joey try to comfort him. Joey is taking Ursula for her birthday dinner on the same day as Pheobe's birthday."}, 
+			{ "description": "Ross, Chandler, and Joey are talking about a dream that Ross had last night."}, 
+			{ "description": "Joey forgot about Pheobe's birthday and decided to go out with Ursula instead."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is wearing a sweater?", 
+				"question_type": "Visual detail", 
+				"answer": "Joey", 
+				"wrong_answer1": "Chandler", 
+				"wrong_answer2": "Ross", 
+				"wrong_answer3": "Rachel", 
+				"wrong_answer4": "Monica" } 
+			} ,
+			{ "qa": { 
+				"question": "Which football team is mentioned in the dialogue?", 
+				"question_type": "Statement", 
+				"answer": "Tampa Bay Buccaneers", 
+				"wrong_answer1": "BC Lions", 
+				"wrong_answer2": "Miami Dolphins", 
+				"wrong_answer3": "Los Angeles Rams", 
+				"wrong_answer4": "Carolina Panthers" } 
+				} ,
+			{ "qa": { 
+				"question": "Who is Joey going out with?", 
+				"question_type": "Person", 
+				"answer": "Ursula", 
+				"wrong_answer1": "Rachel", 
+				"wrong_answer2": "Monica", 
+				"wrong_answer3": "Pheobe", 
+				"wrong_answer4": "Nina" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "53-58", 
+		"period_num": "q3", 
+		"start_time": "00:03:24;17", 
+		"end_time": "00:03:55;23",
+		"related_period": "q1", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Monica and Rachel are at the hospital waiting for the doctors to come in. Dr.Mitchell and Dr.Rosen come into the room. Rachel and Monica are instantly attracted to both doctors."}, 
+			{ "description": "Rachel and Monica are in the hospital waiting to do a check up on Rachel's ankle."}, 
+			{ "description": "Rachel and Monica are pretending to be each other."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who came into the room?", 
+				"question_type": "Action", 
+				"answer": "Two doctors", 
+				"wrong_answer1": "Two priests", 
+				"wrong_answer2": "Two dancers", 
+				"wrong_answer3": "Two soldiers", 
+				"wrong_answer4": "Two policemen" } 
+			} ,
+			{ "qa": { 
+				"question": "Why do Rachel and Monica pretend to be each other?", 
+				"question_type": "Reason", 
+				"answer": "Rachel needs to use Monica's insurane", 
+				"wrong_answer1": "Rachel is ashamed of herself", 
+				"wrong_answer2": "Monica and Rachel wants to have fun", 
+				"wrong_answer3": "Rachel is afraid of herself", 
+				"wrong_answer4": "Rachel is trying to hid herself" } 
+				} ,
+			{ "qa": { 
+				"question": "What is the color of the doctor's gown?", 
+				"question_type": "Visual detail", 
+				"answer": "Blue", 
+				"wrong_answer1": "Black", 
+				"wrong_answer2": "White", 
+				"wrong_answer3": "Yellow", 
+				"wrong_answer4": "Red" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "59-79", 
+		"period_num": "q4", 
+		"start_time": "00:03:55;23", 
+		"end_time": "00:05:08;18",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Rachel, Monica, Chandler and a handful of guests are at Monica's apartment preparing for a surprise birthday party for Pheobe. When Ross knocks on the door, the group, assuming him as Pheobe, surprises him. Ross drops the cake on the floor. Everyone is gathered around the living room area to check if the cake is still okay. They find that the cake is badly damaged. While everyone is contemplating what to do with the cake, Pheobe walks into the scene. Everyone shouts surprise to her. Pheobe is disappointed that Joey is not at the party."}, 
+			{ "description": "Chandler, Ross, Monica, and Rachel are at Monica's apartment preparing for Pheobe's birthday party."}, 
+			{ "description": "Pheobe looks for Joey but soon realizes that he is not present"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why are there so many people in Monica's apartment?", 
+				"question_type": "Reason", 
+				"answer": "For Pheobe's birthday party", 
+				"wrong_answer1": "For a book club meeting", 
+				"wrong_answer2": "For Rachel's birthday party", 
+				"wrong_answer3": "For Monica's bridal shower", 
+				"wrong_answer4": "For Chandler's birthday party" } 
+			} ,
+			{ "qa": { 
+				"question": "What happened to the cake?", 
+				"question_type": "Action", 
+				"answer": "Ross dropped it", 
+				"wrong_answer1": "Rachel ate it", 
+				"wrong_answer2": "Monica sold it", 
+				"wrong_answer3": "Chandler stepped on it", 
+				"wrong_answer4": "Ross ate it" } 
+				} ,
+			{ "qa": { 
+				"question": "Who is missing from the scene?", 
+				"question_type": "Visual detail", 
+				"answer": "Joey", 
+				"wrong_answer1": "Ross", 
+				"wrong_answer2": "Chandler", 
+				"wrong_answer3": "Rachel", 
+				"wrong_answer4": "Pheobe" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "80-100", 
+		"period_num": "q5", 
+		"start_time": "00:05:13;16", 
+		"end_time": "00:06:54;00",
+		"related_period": "q2", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Ross is dining out with his dad at a restaurant. Ross is asking for some advice from his father. Ross' father tells him about the day Ross was born and when he truly realized he was a parent."}, 
+			{ "description": "Ross and his dad are having dinner at a restaurant."}, 
+			{ "description": "Ross wants some wisdom from his dad on becoming a father."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where does Ross' dad suggest to go?", 
+				"question_type": "Statement", 
+				"answer": "Colonial Williamsburg", 
+				"wrong_answer1": "Disneyland", 
+				"wrong_answer2": "Universal Studios", 
+				"wrong_answer3": "The empire state building", 
+				"wrong_answer4": "Statue of Liberty" } 
+			} ,
+			{ "qa": { 
+				"question": "Which baby is dad talking about?", 
+				"question_type": "Person", 
+				"answer": "Baby Ross", 
+				"wrong_answer1": "Baby Joey", 
+				"wrong_answer2": "Baby Nina", 
+				"wrong_answer3": "Baby Rachel", 
+				"wrong_answer4": "Baby Monica" } 
+				} ,
+			{ "qa": { 
+				"question": "What is Ross eating in the scene?", 
+				"question_type": "Visual detail", 
+				"answer": "Fish", 
+				"wrong_answer1": "Beef", 
+				"wrong_answer2": "Pork", 
+				"wrong_answer3": "Chicken", 
+				"wrong_answer4": "Lamb" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "101-131", 
+		"period_num": "q6", 
+		"start_time": "00:06:54;00", 
+		"end_time": "00:10:43;11",
+		"related_period": "q3", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Monica and Rachel are at their apartment waiting for the two doctors. The two doctors come in with bottles of wine. Monica and Rachel go to the kitchen to discuss whether they should reveal their true identity but end up getting into an argument. The four of them sit around the sofa in the living room to drink wine. Then Rachel and Monica start to reveal secrets about each other. Monica pretends to be Rachel and answers a phone call from Rachel's dad to reveal more secrets."}, 
+			{ "description": "The two doctors, Rachel and Monica are at home to drink wine."}, 
+			{ "description": "Being angry at each other, Monica and Rachel starts telling their embarrassing secrets to the doctors"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What did the two doctors bring with them?", 
+				"question_type": "Visual detail", 
+				"answer": "A bottle of wine", 
+				"wrong_answer1": "A cucumber", 
+				"wrong_answer2": "A box pizza", 
+				"wrong_answer3": "A fruity loop", 
+				"wrong_answer4": "French fries" } 
+			} ,
+			{ "qa": { 
+				"question": "What food are they eating?", 
+				"question_type": "Visual detail", 
+				"answer": "Hummus", 
+				"wrong_answer1": "Chick pea", 
+				"wrong_answer2": "Salmon", 
+				"wrong_answer3": "Roasted steak", 
+				"wrong_answer4": "Salad" } 
+				} ,
+			{ "qa": { 
+				"question": "What is the color of the wine glasses?", 
+				"question_type": "Visual detail", 
+				"answer": "Blue", 
+				"wrong_answer1": "Black", 
+				"wrong_answer2": "Red", 
+				"wrong_answer3": "Yellow", 
+				"wrong_answer4": "White" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "132-155", 
+		"period_num": "q7", 
+		"start_time": "00:10:43;11", 
+		"end_time": "00:12:30;17",
+		"related_period": "q6", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Rachel is on the phone explaining herself to her dad in regards to the phone call last night. Ross, Monica, Chandler and Pheobe are in the living room playing Scribbles. Suddenly a phone call from the hospital's administrative office gets picked up be Rachel. Monica and Rachel decide to go down to the hospital as they have forgotten to sign one of the forms. Joey walks into the apartment with a sad look. He tells everyone that Ursula has been ignoring him for the past two days."}, 
+			{ "description": "Rachel, Monica, Ross, Chandler, and Pheobe are chilling at Monica's apartment. Rachel and Monica decide to head down to the hospital."}, 
+			{ "description": "Joey is devastated by Ursula's rejection."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why do Rachel and Monica have to go back to the hospital?", 
+				"question_type": "Causality", 
+				"answer": "Because they forgot to sign a form", 
+				"wrong_answer1": "Because they were caught with identity fraud", 
+				"wrong_answer2": "Because they got sick again", 
+				"wrong_answer3": "Because they got their test results back", 
+				"wrong_answer4": "Because they wanted to meet the doctors again" } 
+			} ,
+			{ "qa": { 
+				"question": "What are Ross, Chandler, and Pheobe doing in the living room?", 
+				"question_type": "Action", 
+				"answer": "Playing a game of Scribbles", 
+				"wrong_answer1": "Watching a movie", 
+				"wrong_answer2": "Eating breakfast", 
+				"wrong_answer3": "Playing poker", 
+				"wrong_answer4": "Playing video games" } 
+				} ,
+			{ "qa": { 
+				"question": "What is Joey's mood like in the scene?", 
+				"question_type": "Emotion", 
+				"answer": "Sad", 
+				"wrong_answer1": "Happy", 
+				"wrong_answer2": "Lively", 
+				"wrong_answer3": "Bouncy", 
+				"wrong_answer4": "Joyous" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "156-174", 
+		"period_num": "q8", 
+		"start_time": "00:12:30;17", 
+		"end_time": "00:13:50;04",
+		"related_period": "q2", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Pheobe visits the Riff's to talk to Ursula. Pheobe gifts her a thermos for a birthday gift while Ursula gifts Pheobe the sweater that Joey gave to her. Pheobe asks what happened with Joey but Ursula is kept in clear that it is over."}, 
+			{ "description": "Pheobe heads to the Riff's to meet Ursula"}, 
+			{ "description": "Ursula tells Pheobe that he doesn't like Joey anymore."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What did Pheobe gift Ursula", 
+				"question_type": "Visual detail", 
+				"answer": "A thermos", 
+				"wrong_answer1": "A pair of shoes", 
+				"wrong_answer2": "A car", 
+				"wrong_answer3": "An apple", 
+				"wrong_answer4": "A laptop" } 
+			} ,
+			{ "qa": { 
+				"question": "What did Ursula gift Pheobe?", 
+				"question_type": "Visual detail", 
+				"answer": "The sweater from Joey", 
+				"wrong_answer1": "A thermos", 
+				"wrong_answer2": "A video game console", 
+				"wrong_answer3": "A makeup kit", 
+				"wrong_answer4": "A pet dog" } 
+				} ,
+			{ "qa": { 
+				"question": "What is Ursula eating in the scene?", 
+				"question_type": "Visual detail", 
+				"answer": "Chicken", 
+				"wrong_answer1": "Beef", 
+				"wrong_answer2": "Pork", 
+				"wrong_answer3": "Lamb", 
+				"wrong_answer4": "Horse" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "175-177", 
+		"period_num": "q9", 
+		"start_time": "00:13:50;04", 
+		"end_time": "00:13:59;08",
+		"related_period": "q1", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Rachel and Monica are back at the hospital to fill out a whole new form. The nurse gives out a suspicious look but lets them have it in the end."}, 
+			{ "description": "Rachel and Monica went back to sign a new form."}, 
+			{ "description": "The nurse agrees to give them the new forms"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Monica's excuse to get a new form?", 
+				"question_type": "Reason", 
+				"answer": "She put the wrong name", 
+				"wrong_answer1": "She lost the copy of it", 
+				"wrong_answer2": "She didn't like the old form", 
+				"wrong_answer3": "She wanted to get a discount", 
+				"wrong_answer4": "She felt like it" } 
+			} ,
+			{ "qa": { 
+				"question": "What color is Monica's jacket?", 
+				"question_type": "Visual detail", 
+				"answer": "Black", 
+				"wrong_answer1": "White", 
+				"wrong_answer2": "Red", 
+				"wrong_answer3": "Yellow", 
+				"wrong_answer4": "White" } 
+				} ,
+			{ "qa": { 
+				"question": "What did Monica and Rachel fail to do?", 
+				"question_type": "Causality", 
+				"answer": "They missed signing the admissions form", 
+				"wrong_answer1": "They failed to pay the hospital bill", 
+				"wrong_answer2": "They forgot to return their calls", 
+				"wrong_answer3": "They didn't bring back the signed forms", 
+				"wrong_answer4": "They forgot to leave their contact number" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "178-186", 
+		"period_num": "q10", 
+		"start_time": "00:13:59;08", 
+		"end_time": "00:14:34;13",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross and Chandler are talking about the topic of Ross becoming a father. While they are talking, Marcel the monkey swallowed one of the Scrabble letters and is chocking on it."}, 
+			{ "description": "Ross and Chandler are sitting on the sofa"}, 
+			{ "description": "Marcel swallowed the letter \"K\""} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What are Ross and Chandler doing in the living room?", 
+				"question_type": "Action", 
+				"answer": "Playing Scrabbles", 
+				"wrong_answer1": "Watching TV", 
+				"wrong_answer2": "Eating Pizza", 
+				"wrong_answer3": "Playing twister", 
+				"wrong_answer4": "Taking a nap" } 
+			} ,
+			{ "qa": { 
+				"question": "What happened to the monkey?", 
+				"question_type": "Causality", 
+				"answer": "It swallowed a scrabble letter", 
+				"wrong_answer1": "It is bored", 
+				"wrong_answer2": "It is thirsty", 
+				"wrong_answer3": "It is angry", 
+				"wrong_answer4": "It is happy" } 
+				} ,
+			{ "qa": { 
+				"question": "How many points did Ross get on Scrabbles for the word 'Kidney'?", 
+				"question_type": "Statement", 
+				"answer": "43", 
+				"wrong_answer1": "42", 
+				"wrong_answer2": "41", 
+				"wrong_answer3": "40", 
+				"wrong_answer4": "39" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "187-196", 
+		"period_num": "q11", 
+		"start_time": "00:14:34;13", 
+		"end_time": "00:15:23;09",
+		"related_period": "q10", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Ross and Chandler run down to the hospital but the nurse refuses to help the monkey as the hospital is not intended for animals. Ross argues that his monkey is just like other human beings. The two meets Rachel and Monica writing out their new forms. Upon hearing Ross' desperate call for help, Dr. Mitchell agrees to examine the monkey."}, 
+			{ "description": "Ross and Chandler rush the monkey to the hospital."}, 
+			{ "description": "Ross and Chandler meet Rachel and Monica at the hospital."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why did the nurse refuse to help at first?", 
+				"question_type": "Reason", 
+				"answer": "Because the place was not vetenary", 
+				"wrong_answer1": "Because she didn't like animal", 
+				"wrong_answer2": "Because she was not a nice lady", 
+				"wrong_answer3": "Because she was hungry", 
+				"wrong_answer4": "Because she needed some rest" } 
+			} ,
+			{ "qa": { 
+				"question": "What show does the monkey watch?", 
+				"question_type": "Action", 
+				"answer": "Jeopardy", 
+				"wrong_answer1": "Friends", 
+				"wrong_answer2": "Orange is the new black", 
+				"wrong_answer3": "Game of Thrones", 
+				"wrong_answer4": "Everybody loves Raymond" } 
+				} ,
+			{ "qa": { 
+				"question": "Who agrees to help the monkey?", 
+				"question_type": "Person", 
+				"answer": "Dr.Mitchell", 
+				"wrong_answer1": "Dr.Rosen", 
+				"wrong_answer2": "Pheobe", 
+				"wrong_answer3": "The nurse", 
+				"wrong_answer4": "Rachel" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "197- 224", 
+		"period_num": "q12", 
+		"start_time": "00:15:24;17", 
+		"end_time": "00:17:59;04",
+		"related_period": "q8", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Pheobe walks into the café where Joey is sitting alone. She is wearing the sweater that Joey gave to Ursula to pretend being Ursula. She asks Joey to choose between friendship or love but Joey decides to stick with Pheobe. The two share a goodbye kiss. After the kiss, Pheobe tells Joey that it was her not Ursula."}, 
+			{ "description": "Pheobe and Joey are at the café together"}, 
+			{ "description": "Joey chooses friendship over love in front of Pheobe."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who did Joey mistaken Pheobe for?", 
+				"question_type": "Action", 
+				"answer": "Ursula", 
+				"wrong_answer1": "Ross", 
+				"wrong_answer2": "Rachel", 
+				"wrong_answer3": "Pheobe", 
+				"wrong_answer4": "Nina" } 
+			} ,
+			{ "qa": { 
+				"question": "What does Joey do to Pheobe?", 
+				"question_type": "Action", 
+				"answer": "He kisses her", 
+				"wrong_answer1": "He hits her", 
+				"wrong_answer2": "He hugs her", 
+				"wrong_answer3": "He holds her hand", 
+				"wrong_answer4": "He grabs her" } 
+				} ,
+			{ "qa": { 
+				"question": "Who does Joey choose in the end?", 
+				"question_type": "Statement", 
+				"answer": "Pheobe", 
+				"wrong_answer1": "Ursula", 
+				"wrong_answer2": "Rachel", 
+				"wrong_answer3": "Nina", 
+				"wrong_answer4": "Ross" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "225-238", 
+		"period_num": "q13", 
+		"start_time": "00:17:59;04", 
+		"end_time": "00:19:07;02",
+		"related_period": "q10", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Ross, Monica, Rachel and Chandler are waiting anxiously for the monkey to regain its strength. Joey and Pheobe run in late as they've just heard the news. Chandler cheers Ross up for fulfilling his duties. While they are talking, the monkey wakes up and grabs Ross' finger."}, 
+			{ "description": "The whole group is waiting by the bedside for the monkey to get better."}, 
+			{ "description": "The monkey wakes up and grabs Ross' finger"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is lying on the bed?", 
+				"question_type": "Action", 
+				"answer": "Monkey", 
+				"wrong_answer1": "Ross", 
+				"wrong_answer2": "Pheobe", 
+				"wrong_answer3": "Rachel", 
+				"wrong_answer4": "Chandler" } 
+			} ,
+			{ "qa": { 
+				"question": "Who runs into the room late?", 
+				"question_type": "Action", 
+				"answer": "Joey and Pheobe", 
+				"wrong_answer1": "Ross and Chandler", 
+				"wrong_answer2": "Joey and Rachel", 
+				"wrong_answer3": "Rachel and Monica", 
+				"wrong_answer4": "Monica and Chandler" } 
+				} ,
+			{ "qa": { 
+				"question": "What does the monkey do as soon as it wakes up", 
+				"question_type": "Action", 
+				"answer": "Grabs Ross' finger", 
+				"wrong_answer1": "Growls", 
+				"wrong_answer2": "Jumps around", 
+				"wrong_answer3": "Cries", 
+				"wrong_answer4": "Eats something" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "239~239", 
+		"period_num": "q14", 
+		"start_time": "00:21:55;05", 
+		"end_time": "00:22:23;08",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "The whole scene is dubbed in Spanish. Monica, Ross, Chandler, and Pheobe are eating Chinese takeout food while Rachel is looking over the window. Joey comes in to say hello to the gang. The whole group sits around the living room for some tv time but the monkey grabs hold of the remote again."}, 
+			{ "description": "Everyone is around the house speaking Spanish."}, 
+			{ "description": "The monkey grabs the remote again"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is looking over the window?", 
+				"question_type": "Action", 
+				"answer": "Rachel", 
+				"wrong_answer1": "Ross", 
+				"wrong_answer2": "Pheobe", 
+				"wrong_answer3": "Chandler", 
+				"wrong_answer4": "Joey" } 
+			} ,
+			{ "qa": { 
+				"question": "What language is the group speaking?", 
+				"question_type": "Person", 
+				"answer": "Spanish", 
+				"wrong_answer1": "English", 
+				"wrong_answer2": "Chinese", 
+				"wrong_answer3": "Japanese", 
+				"wrong_answer4": "Russian" } 
+				} ,
+			{ "qa": { 
+				"question": "Who came in late?", 
+				"question_type": "Action", 
+				"answer": "Joey", 
+				"wrong_answer1": "Ross", 
+				"wrong_answer2": "Chandler", 
+				"wrong_answer3": "Rachel", 
+				"wrong_answer4": "Pheobe" 
+				} 
+			} 
+		] 
+	}
+	]
+}

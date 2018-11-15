@@ -1,0 +1,772 @@
+{ 
+	"file_name": "s01_ep23_tag2_QA_final.json",
+	"registed_name": "s01_ep23_tag2_QA_final.json", 
+	"qa_results": 
+	[ 
+		{ 
+		"visual_period_num": "1-22", 
+		"period_num": "q1", 
+		"start_time": "00:00:06;10", 
+		"end_time": "00:01:19;23",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross runs into the hospital lobby where Chandler, Rachel, Joey, and Monica are sitting around. He is panicking over the fact that his ex-wife is not showing up to the hospital. He worries that Carol might give birth to the baby in a cab. Rachel makes a joke but nobody laughs. Chandler tells her to pick the right moment for a joke. Pheobe runs in with a guitar. Soon after, Carol and Susan come into the hospital. They tell Ross that they were at the gift shop."}, 
+			{ "description": "Everyone is at the hospital waiting for Carol to show up."}, 
+			{ "description": "Ross is very anxious and worried that Carol hadn't shown up yet"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How is Ross feeling right now?", 
+				"question_type": "Emotion", 
+				"answer": "Anxious", 
+				"wrong_answer1": "Jealous", 
+				"wrong_answer2": "Glad", 
+				"wrong_answer3": "Angry", 
+				"wrong_answer4": "Calm" } 
+			} ,
+			{ "qa": { 
+				"question": "Why were Carol and Susan late?", 
+				"question_type": "Reason", 
+				"answer": "They had to stop at the gift shop", 
+				"wrong_answer1": "They were stuck at the traffic", 
+				"wrong_answer2": "They forgot to turn the stove off", 
+				"wrong_answer3": "They couldn't get a cab", 
+				"wrong_answer4": "They were being held at the security check" } 
+				} ,
+			{ "qa": { 
+				"question": "What is Carol holding?", 
+				"question_type": "Stuffed animal", 
+				"answer": "Doll", 
+				"wrong_answer1": "Toy", 
+				"wrong_answer2": "Cell phone", 
+				"wrong_answer3": "Guitar", 
+				"wrong_answer4": "Drum stick" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "46-57", 
+		"period_num": "q2", 
+		"start_time": "00:02:12;03", 
+		"end_time": "00:03:30;21",
+		"related_period": "q1", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Ross is still angry with the fact that Carol and Susan stopped by at the gift shop to get Chunkies. Dr.Franzblau walks into the room to see how Carol is doing. Ross and Susan race to the nurse station to get ice chips for Carol. As soon as the two runs out of the room, Rachel walks in with a cup full of ice chips for Carol. She sees Dr. Franzblau and is instantly attracted to him. The two introduce each other and share a joke."}, 
+			{ "description": "Carol is on the hospital bed getting ready for her labor while Ross and Susan are by her bedside. Rache meets the doctor and flirts with him."}, 
+			{ "description": "Rachel is interested in the doctor."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why do the two race to the nurse station?", 
+				"question_type": "Reason", 
+				"answer": "To get ice chips for Carol", 
+				"wrong_answer1": "To buy Chunkies", 
+				"wrong_answer2": "To go to the washroom", 
+				"wrong_answer3": "To buy stuffed animals", 
+				"wrong_answer4": "To call for another doctor" } 
+			} ,
+			{ "qa": { 
+				"question": "What is Dr.Franzblau's occupation?", 
+				"question_type": "Person Detail", 
+				"answer": "Obstetrician", 
+				"wrong_answer1": "Dieterian", 
+				"wrong_answer2": "Chyropractor", 
+				"wrong_answer3": "Physician", 
+				"wrong_answer4": "Pharmicist" } 
+				} ,
+			{ "qa": { 
+				"question": "What does Rachel come into the room with?", 
+				"question_type": "Cup full of Ice chips", 
+				"answer": "Cup full of water", 
+				"wrong_answer1": "Cup full of soda", 
+				"wrong_answer2": "Cup full of beer", 
+				"wrong_answer3": "Cup full of beer", 
+				"wrong_answer4": "Cup full of yogurt" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "58-67", 
+		"period_num": "q3", 
+		"start_time": "00:03:30;21", 
+		"end_time": "00:04:41;05",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Monica is waiting outside with Chandler leaning on her. The two walks out of the scene to grab a coffee. Meanwhile, Joey is watching a basketball game and a lady comes up from behind and starts to criticize Joey's favorite basketball team; The New York Knicks. Joey gets into a conversation with a woman about basketball. All of sudden, the lady starts to feel a pain in her abdomen area. Joey shouts to get her husband but she tells him that she is a single mother. Then Joey helps her get to a labor room."}, 
+			{ "description": "Chandler, Monica, and Joey are sitting outside, waiting for Carol and Ross"}, 
+			{ "description": "Joey helps out a woman who is about to have a baby"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Joey doing?", 
+				"question_type": "Action", 
+				"answer": "He is watching a sports game", 
+				"wrong_answer1": "He is watching the news", 
+				"wrong_answer2": "He is falling a sleep on a sofa", 
+				"wrong_answer3": "He is on a call with someone", 
+				"wrong_answer4": "He is watching Discovery channel" } 
+			} ,
+			{ "qa": { 
+				"question": "Where is Joey now?", 
+				"question_type": "Location", 
+				"answer": "He is at the hospital waiting room", 
+				"wrong_answer1": "He is at an audition", 
+				"wrong_answer2": "He is at a nursery", 
+				"wrong_answer3": "He is at a cafeteria", 
+				"wrong_answer4": "He is at his apartment" } 
+				} ,
+			{ "qa": { 
+				"question": "What team do the women support?", 
+				"question_type": "Statement", 
+				"answer": "The Celtics", 
+				"wrong_answer1": "The Raptors", 
+				"wrong_answer2": "The Grizzlies", 
+				"wrong_answer3": "The Lakers", 
+				"wrong_answer4": "The Warriors" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "68-95", 
+		"period_num": "q4", 
+		"start_time": "00:04:41;05", 
+		"end_time": "00:06:19;13",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Pheobe is playing her guitar in the waiting room. Monica and Ross are standing next to her watching her perform while Chandler is sitting on a sofa nearby. Ross pays Pheobe to stop her singing and leaves. Monica's desire to have a baby grows even stronger as she sees other women with their newborn babies. Chandler suggests that if neither of them is married by 40, they should have a child. Monica takes the suggestion as an insult. Rachel walks into the scene all dressed up after she went back home to do fix her makeup and outfit."}, 
+			{ "description": "Pheobe, Monica, and Ross are at the waiting room. Pheobe is playing the guitar."}, 
+			{ "description": "Rachel comes back from her apartment to look good for Dr. Franzblau"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Pheobe doing in the scene?", 
+				"question_type": "Action", 
+				"answer": "She is playing her guitar while singing a song", 
+				"wrong_answer1": "She is dancing", 
+				"wrong_answer2": "She is talking to Ross", 
+				"wrong_answer3": "She is collecting money from the audience", 
+				"wrong_answer4": "She is sitting down on a sofa" } 
+			} ,
+			{ "qa": { 
+				"question": "What color is Chandler's sweatshirt?", 
+				"question_type": "Visual detail", 
+				"answer": "Purple", 
+				"wrong_answer1": "Black", 
+				"wrong_answer2": "Red", 
+				"wrong_answer3": "White", 
+				"wrong_answer4": "Navy" } 
+				} ,
+			{ "qa": { 
+				"question": "Why did Rachel go back to her apartment?", 
+				"question_type": "Reason", 
+				"answer": "She wanted to look good because of the doctor", 
+				"wrong_answer1": "She left something at her apartment", 
+				"wrong_answer2": "She had spare time", 
+				"wrong_answer3": "She needed to take a nap", 
+				"wrong_answer4": "She was tired" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "96-105", 
+		"period_num": "q5", 
+		"start_time": "00:06:19;13", 
+		"end_time": "00:07:47;19",
+		"related_period": "q3", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Joey is in another room with the pregnant women who he just met. The women are on the phone with her mom and want Joey to pick up the phone. After a brief conversation with the woman's mom, Joey asks her what happened with the baby's father. The women react in a negative manner. Joey leaves the room but comes back to argue what the problem is with the Celtics."}, 
+			{ "description": "Joey is in a stranger who is about to give birth."}, 
+			{ "description": "The woman does not want to be asked about her husband"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What do the women ask Joey to do?", 
+				"question_type": "Action", 
+				"answer": "Talk to her mother on the phone", 
+				"wrong_answer1": "Talk to her daughter on the phone", 
+				"wrong_answer2": "Talk to her ex-husband on the phone", 
+				"wrong_answer3": "Talk to her fiancee on the phone", 
+				"wrong_answer4": "Talk to her on the phone" } 
+			} ,
+			{ "qa": { 
+				"question": "How old is Joey?", 
+				"question_type": "Person Detail", 
+				"answer": "25", 
+				"wrong_answer1": "24", 
+				"wrong_answer2": "23", 
+				"wrong_answer3": "21", 
+				"wrong_answer4": "22" } 
+				} ,
+			{ "qa": { 
+				"question": "How do the women feel when she is asked about her husband?", 
+				"question_type": "Emotion", 
+				"answer": "Angry", 
+				"wrong_answer1": "Joyful", 
+				"wrong_answer2": "Pityful", 
+				"wrong_answer3": "Happy", 
+				"wrong_answer4": "Sad" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "106-112", 
+		"period_num": "q6", 
+		"start_time": "00:07:47;19", 
+		"end_time": "00:08:51;04",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross and Susan are trying to calm Susan down as she is nearing her birth labor. In the midst of everything, Susan mentions the name \"Jordy\" with Carol. Ross instantly reacts as he feels his been left out of the naming process of his son. As the two become too competitive, Carol tells both of them to leave the room."}, 
+			{ "description": "Ross and Susan are in the labor room with Carol."}, 
+			{ "description": "The two are kicked out of the room by Carol"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is the baby's name?", 
+				"question_type": "Statement", 
+				"answer": "Jordy", 
+				"wrong_answer1": "Jordan", 
+				"wrong_answer2": "Jamie", 
+				"wrong_answer3": "James", 
+				"wrong_answer4": "Julian" } 
+			} ,
+			{ "qa": { 
+				"question": "Why did they decide to change the baby's name from Jamie to Jordy?", 
+				"question_type": "Reason", 
+				"answer": "Because Susan's first girlfriend's name was Jordy", 
+				"wrong_answer1": "Because Carol didn't like the name Jamie", 
+				"wrong_answer2": "Because Jamie didn't sound right for Susan", 
+				"wrong_answer3": "Because they are having a girl", 
+				"wrong_answer4": "Because they didn't like Ross' idea" } 
+				} ,
+			{ "qa": { 
+				"question": "What does Carol do in the end?", 
+				"question_type": "Action", 
+				"answer": "She kicks Ross and Susan out", 
+				"wrong_answer1": "She asks them to hold her hands", 
+				"wrong_answer2": "She tells them to bring her food", 
+				"wrong_answer3": "She wants them to cuddle her", 
+				"wrong_answer4": "She wants them to pay her" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "113-117", 
+		"period_num": "q7", 
+		"start_time": "00:08:51;04", 
+		"end_time": "00:09:14;16",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Joey is still in the room with the soon to be a mother. Her water just broke and Joey is freaking out by the sight of such thing. The nurse explains to him that it is nothing too serious and tells him to calm down."}, 
+			{ "description": "Joey is still assisting a woman who is about to give birth"}, 
+			{ "description": "Joey is scared to see the woman's water break"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why is Joey freaked out?", 
+				"question_type": "Reason", 
+				"answer": "He's seen her water break", 
+				"wrong_answer1": "He G10:K10sees the baby's head", 
+				"wrong_answer2": "He is worried about the woman", 
+				"wrong_answer3": "He is not certain by what he is seeing", 
+				"wrong_answer4": "He doesn't understand what his seeing" } 
+			} ,
+			{ "qa": { 
+				"question": "What does the nurse make Joey do?", 
+				"question_type": "Action", 
+				"answer": "Breathing exercise", 
+				"wrong_answer1": "Go for a run", 
+				"wrong_answer2": "Think about other stuff", 
+				"wrong_answer3": "Focus on his woman", 
+				"wrong_answer4": "Close his eyes" } 
+				} ,
+			{ "qa": { 
+				"question": "What does Joey do to calm himself?", 
+				"question_type": "Action", 
+				"answer": "He holds the woman's hand", 
+				"wrong_answer1": "He goes out of the room", 
+				"wrong_answer2": "He says a bad joke", 
+				"wrong_answer3": "He brings his friends", 
+				"wrong_answer4": "He goes under the blanket" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "118-126", 
+		"period_num": "q8", 
+		"start_time": "00:09:14;16", 
+		"end_time": "00:10:03;18",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Susan and Ross are arguing in the hospital hallway and Pheobe moves them into a supply room. She raises her voice to stop their argument. When everything is settled, she opens the door but the door is locked."}, 
+			{ "description": "Ross and Susan are arguing in the hallway. Pheobe gets them into a supply room where they get themselves locked."}, 
+			{ "description": "The three are locked in a room"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is the emotional state of Ross and Susan?", 
+				"question_type": "Emotion", 
+				"answer": "They are angry", 
+				"wrong_answer1": "They are sad", 
+				"wrong_answer2": "They are resentful", 
+				"wrong_answer3": "They are happy", 
+				"wrong_answer4": "They are satisfied" } 
+			} ,
+			{ "qa": { 
+				"question": "Who is yelling at them?", 
+				"question_type": "Action", 
+				"answer": "Pheobe", 
+				"wrong_answer1": "Joey", 
+				"wrong_answer2": "Chandler", 
+				"wrong_answer3": "Monica", 
+				"wrong_answer4": "Rachel" } 
+				} ,
+			{ "qa": { 
+				"question": "Where are they locked up in the scene?", 
+				"question_type": "Location", 
+				"answer": "In a supply room", 
+				"wrong_answer1": "In a computer room", 
+				"wrong_answer2": "In a staff room", 
+				"wrong_answer3": "In an office", 
+				"wrong_answer4": "In a washroom" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "127-149", 
+		"period_num": "q9", 
+		"start_time": "00:10:03;18", 
+		"end_time": "00:12:11;05",
+		"related_period": "q8", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Ross, Susan, and Pheobe are trying to break the door open but it stands still. Meanwhile, the pain is getting too much for Carol as she asks others about the whereabouts of Ross and Susan. Rachel is with Carol, however, she is more focused on socializing with Dr. Franzblau. In the other room, Joey is helping out the woman who is almost about to give the last push to give birth to her child. In the supply room, as Ross and Susan are running out of options, Pheobe starts to sing a gloomy song. In the midst of all the action, Monica is on the phone with her mother, trying to comfort her."}, 
+			{ "description": "Ross and Susan are running out options and time are running out for them. Joey is still helping out the woman give birth. Monica is on the phone with her mom."}, 
+			{ "description": "Ross, Pheobe, and Susan are stuck in the supply room. Joey is helping the Celtic's fan with her labor while Monica is talking to her mother on the phone."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What do the doctor and Rachel talk about?", 
+				"question_type": "Statement", 
+				"answer": "A pastry shop in Paris", 
+				"wrong_answer1": "The Eiffel tower", 
+				"wrong_answer2": "The Versailis palace", 
+				"wrong_answer3": "Rachel's trip to New York", 
+				"wrong_answer4": "The doctors experience with working at the hospital" } 
+			} ,
+			{ "qa": { 
+				"question": "What is Monica doing in the scene?", 
+				"question_type": "Action", 
+				"answer": "She's on the phone", 
+				"wrong_answer1": "She's looking for Ross and Chandler", 
+				"wrong_answer2": "She's looking for Rachel", 
+				"wrong_answer3": "She's helping Carol with her labor", 
+				"wrong_answer4": "She's talking to the doctor" } 
+				} ,
+			{ "qa": { 
+				"question": "Why does her mom tell Monica that \"probably going to be her only chance\"?", 
+				"question_type": "Abstract", 
+				"answer": "She thinks Monica would never have a baby", 
+				"wrong_answer1": "She thinks she might not live long enough to see Monica have a baby", 
+				"wrong_answer2": "She thinks Ross will have another baby", 
+				"wrong_answer3": "She thinks Monica will have a baby", 
+				"wrong_answer4": "She thinks she will have other chances to see the birth of her grandchildren" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "150-155", 
+		"period_num": "q10", 
+		"start_time": "00:12:11;05", 
+		"end_time": "00:13:20;08",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Rachel and Dr.Franzblau are coming out to grab a coffee. The doctor asks Rachel about her relationship status and Rachel asks the same. The doctor explains his concerns in regards to dating women and it ultimately turns Rachel off."}, 
+			{ "description": "The doctor and Rachel are in the waiting area for some coffee."}, 
+			{ "description": "Rachel loses interest in the doctor"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What color is Rachel's dress?", 
+				"question_type": "Visual detail", 
+				"answer": "Black", 
+				"wrong_answer1": "White", 
+				"wrong_answer2": "Red", 
+				"wrong_answer3": "Yellow", 
+				"wrong_answer4": "Blue" } 
+			} ,
+			{ "qa": { 
+				"question": "What is the doctor doing?", 
+				"question_type": "Action", 
+				"answer": "He's pouring coffee for Rachel", 
+				"wrong_answer1": "He's buying her a gift", 
+				"wrong_answer2": "He's checking up on her", 
+				"wrong_answer3": "He's asking her out", 
+				"wrong_answer4": "He's taking his jacket off" } 
+				} ,
+			{ "qa": { 
+				"question": "What does it imply about Rachel taking off her earpieces?", 
+				"question_type": "Abstract", 
+				"answer": "She loses interest in the doctor", 
+				"wrong_answer1": "Her ears are sour", 
+				"wrong_answer2": "She wants to change her earrings", 
+				"wrong_answer3": "She wants the doctor to buy her new earrings", 
+				"wrong_answer4": "She wants to hide the earrings" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "156-160", 
+		"period_num": "q11", 
+		"start_time": "00:13:20;08", 
+		"end_time": "00:14:15;10",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Joey comes back to the woman's room with balloons in both of his hands. As he tries to walk into the room, he sees that the woman's husband is with her. The husband apologizes to the woman about not being with her during the birth of their child. Joey decides it's best to give the couple some alone time and shuts the door gently. He leaves a balloon tied to the door handle and takes the other one with him."}, 
+			{ "description": "Joey brings the balloon to the room but when he sees that the mother is with her husband, leaves without interrupting them"}, 
+			{ "description": "The woman is accompanied by her husband."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Joey doing?", 
+				"question_type": "Action", 
+				"answer": "He brings balloons", 
+				"wrong_answer1": "He brings flowers", 
+				"wrong_answer2": "He brings donuts", 
+				"wrong_answer3": "He brings potato chips", 
+				"wrong_answer4": "He watches the game with her" } 
+			} ,
+			{ "qa": { 
+				"question": "How did the husband know about the baby mother's whereabouts?", 
+				"question_type": "Statement", 
+				"answer": "Her mother called him", 
+				"wrong_answer1": "He called her friends", 
+				"wrong_answer2": "He called her mother", 
+				"wrong_answer3": "He called Joey", 
+				"wrong_answer4": "Joey told him" } 
+				} ,
+			{ "qa": { 
+				"question": "Why doesn't Joey enter the room?", 
+				"question_type": "Reason", 
+				"answer": "He wants to give the couple some space", 
+				"wrong_answer1": "He is too tired", 
+				"wrong_answer2": "He lost interest in their affairs", 
+				"wrong_answer3": "He has other things to do", 
+				"wrong_answer4": "He wants to use the washroom" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "161-173", 
+		"period_num": "q12", 
+		"start_time": "00:14:17;20", 
+		"end_time": "00:15:37;10",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross tries to open the door with his credit card but is unsuccessful. He starts arguing with Susan, blaming her for getting stuck in a closet. Pheobe tells them about her story and how lucky the baby is. Ross and Susan are moved by the story and silences."}, 
+			{ "description": "Ross, Susan, and Pheobe are still stuck in the closet"}, 
+			{ "description": "Pheobe's personal story gets Ross and Susan to stop fighting"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Does Ross like Susan?", 
+				"question_type": "Relationship", 
+				"answer": "No, he dislikes her", 
+				"wrong_answer1": "Yes, he is in love with her", 
+				"wrong_answer2": "No, but he thinks highly of her", 
+				"wrong_answer3": "Yes, he wants her to be his wife", 
+				"wrong_answer4": "Yes, he likes being with her" } 
+			} ,
+			{ "qa": { 
+				"question": "What does Ross do with his card?", 
+				"question_type": "Action", 
+				"answer": "He tries to open the door", 
+				"wrong_answer1": "He tries to pay for a gift", 
+				"wrong_answer2": "He threatens Susan", 
+				"wrong_answer3": "He snaps it in to half", 
+				"wrong_answer4": "He scratches it" } 
+				} ,
+			{ "qa": { 
+				"question": "Where are Ross, Susan, and Pheobe?", 
+				"question_type": "Location", 
+				"answer": "Locked in a closet", 
+				"wrong_answer1": "On a vacation", 
+				"wrong_answer2": "At Carol's apartment", 
+				"wrong_answer3": "At the labor room", 
+				"wrong_answer4": "At Monica's apartment" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "174-180", 
+		"period_num": "q13", 
+		"start_time": "00:15:42;05", 
+		"end_time": "00:16:15;20",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Carol has started her labor and is desperately calling for Ross and Susan. Chandler, Monica, Rachel and Joey are alongside the bed to support her. Dr.Franzblau and the nurse cheers Carol to give another push."}, 
+			{ "description": "Rachel, Monica, Joey and Chandler are with Carol, supporting her for the birth of her child. Dr.Franzblau and the nurse is in the room to help Carol with the process."}, 
+			{ "description": "Carol fears that Susan and Ross might miss the moment."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What does Carol do to Chandler?", 
+				"question_type": "Action", 
+				"answer": "She grabs his shirt", 
+				"wrong_answer1": "She kisses him", 
+				"wrong_answer2": "She strangles him", 
+				"wrong_answer3": "She pushes him", 
+				"wrong_answer4": "She slaps him" } 
+			} ,
+			{ "qa": { 
+				"question": "How much of the baby has she pushed out?", 
+				"question_type": "Statement", 
+				"answer": "9cm", 
+				"wrong_answer1": "5cm", 
+				"wrong_answer2": "14cm", 
+				"wrong_answer3": "10cm", 
+				"wrong_answer4": "3cm" } 
+				} ,
+			{ "qa": { 
+				"question": "How does the group feel in the scene?", 
+				"question_type": "Emotion", 
+				"answer": "Anxious but excited", 
+				"wrong_answer1": "Angry and resentful", 
+				"wrong_answer2": "Dissappointed but glad", 
+				"wrong_answer3": "Indifferent but appreciative", 
+				"wrong_answer4": "Sad and regretful" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "181-187", 
+		"period_num": "q14", 
+		"start_time": "00:16:15;20", 
+		"end_time": "00:16:57;00",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Pheobe wears a janitor's uniform with the name Ben. Ross helps Pheobe get up the ventilation system. Susan watches anxiously. As soon as Pheobe is up on the vent, a hospital staff opens the door. Ross and Susan run out of the closet, without taking Pheobe down."}, 
+			{ "description": "Pheobe, Ross, and Susan are still stuck in the closet. Pheobe goes up the vent."}, 
+			{ "description": "As the door is opened by another Janitor, Ross and Susan rushes out, leaving Pheobe behind"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What name is on the uniform?", 
+				"question_type": "VIsual detail", 
+				"answer": "Ben", 
+				"wrong_answer1": "Romeo", 
+				"wrong_answer2": "Tim", 
+				"wrong_answer3": "Susan", 
+				"wrong_answer4": "Ross" } 
+			} ,
+			{ "qa": { 
+				"question": "Why is Pheobe trying to get up the vent?", 
+				"question_type": "Reason", 
+				"answer": "To get help", 
+				"wrong_answer1": "She is interested in the hospital's structure", 
+				"wrong_answer2": "She wants to get out of the room by herself", 
+				"wrong_answer3": "She wants to play hide and seek", 
+				"wrong_answer4": "She is searching for the key" } 
+				} ,
+			{ "qa": { 
+				"question": "What is the janitor holding in his hands?", 
+				"question_type": "Action", 
+				"answer": "A broomstick", 
+				"wrong_answer1": "A handsoap", 
+				"wrong_answer2": "A liquid purifier", 
+				"wrong_answer3": "A spray", 
+				"wrong_answer4": "A key" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "188-202", 
+		"period_num": "q15", 
+		"start_time": "00:17:05;20", 
+		"end_time": "00:18:36;03",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross and Susan run into Carol's room while Monica, Chandler, Joey, Rachel, Dr.Franzblau and the nurse are all supporting Carol. Everyone is glad that Ross and Susan have finally arrived. Distracted by the number of people in the room, the nurse asks everyone but Ross and Susan to leave the room. Ross is humbled by the sight of his child being born. Pheobe congratulates them from the vent ceiling."}, 
+			{ "description": "Ross and Susan finally join everyone who is anxiously watching Carol give birth."}, 
+			{ "description": "Pheobe is still up in the vent, looking down upon the whole process"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is happening in the scene?", 
+				"question_type": "Event", 
+				"answer": "Carol is about to give birth to a bay", 
+				"wrong_answer1": "Carol is inviting everyone for a party", 
+				"wrong_answer2": "Ross is throwing a birthday part for his baby", 
+				"wrong_answer3": "Carol is doing her medical checkup", 
+				"wrong_answer4": "Everyone is having a get together at a hospital" } 
+			} ,
+			{ "qa": { 
+				"question": "What does the nurse do?", 
+				"question_type": "Action", 
+				"answer": "She tells everyone to leave the room except for Ross and Susan", 
+				"wrong_answer1": "She kicks everyone out", 
+				"wrong_answer2": "She tells the doctor to stop operating", 
+				"wrong_answer3": "She pulls the baby out herself", 
+				"wrong_answer4": "She tells others to find Pheobe" } 
+				} ,
+			{ "qa": { 
+				"question": "Where is Phoebe?", 
+				"question_type": "Location", 
+				"answer": "She is up on the vent ceiling", 
+				"wrong_answer1": "She is in another room", 
+				"wrong_answer2": "She is at her apartment", 
+				"wrong_answer3": "She is outside", 
+				"wrong_answer4": "She is at Monica's apartment" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "203-217", 
+		"period_num": "q16", 
+		"start_time": "00:18:38;03", 
+		"end_time": "00:20:23;04",
+		"related_period": "q14", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Ross, Susan, and Carol are taking a rest on the bed. The three agree upon that the baby's name is 'Ben'. Ross finally lets in everyone else into the room. Ross lets Monica hold the baby and she is moved."}, 
+			{ "description": "Carol, Ross, and Susan are enjoying their time with Carol having the baby in her arms. Everyone comes into the room to see the baby"}, 
+			{ "description": "They decide to name the baby 'Ben'"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How is Monica feeling?", 
+				"question_type": "Emotion", 
+				"answer": "Moved", 
+				"wrong_answer1": "Sad", 
+				"wrong_answer2": "Nervous", 
+				"wrong_answer3": "Uneasy", 
+				"wrong_answer4": "Sorrowful" } 
+			} ,
+			{ "qa": { 
+				"question": "What do they decide the name of the baby to be?", 
+				"question_type": "Statement", 
+				"answer": "Ben", 
+				"wrong_answer1": "Bucky", 
+				"wrong_answer2": "Billie", 
+				"wrong_answer3": "Bob", 
+				"wrong_answer4": "Boston" } 
+				} ,
+			{ "qa": { 
+				"question": "What is Monica doing?", 
+				"question_type": "Action", 
+				"answer": "She is holding the baby", 
+				"wrong_answer1": "She is talking to Ross", 
+				"wrong_answer2": "She is waiting for her boyfriend", 
+				"wrong_answer3": "She is crying infront of everyone", 
+				"wrong_answer4": "She is looking for a baby" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "218-218", 
+		"period_num": "q17", 
+		"start_time": "00:20:23;04", 
+		"end_time": "00:22:35;16",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross, Chandler, Monica, Rachel, and Pheobe are looking down on the baby. They are in awe of the baby."}, 
+			{ "description": "Everyone is looking at the cute Ben"}, 
+			{ "description": "Everyone is appreciative of Ben"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What does Joey do with his mouth?", 
+				"question_type": "Action", 
+				"answer": "He makes funny noises", 
+				"wrong_answer1": "He closes them", 
+				"wrong_answer2": "He makes a kissing noise", 
+				"wrong_answer3": "He kisses Monica", 
+				"wrong_answer4": "He drools" } 
+			} ,
+			{ "qa": { 
+				"question": "What does Rachel suggest the group do?", 
+				"question_type": "Statement", 
+				"answer": "Go get coffee", 
+				"wrong_answer1": "Go for a run", 
+				"wrong_answer2": "Go out to party", 
+				"wrong_answer3": "Go out for dinner", 
+				"wrong_answer4": "Go out to get presents for the baby" } 
+				} ,
+			{ "qa": { 
+				"question": "What color is Monica's lipstick?", 
+				"question_type": "Visual detail", 
+				"answer": "Red", 
+				"wrong_answer1": "White", 
+				"wrong_answer2": "Black", 
+				"wrong_answer3": "Yellow", 
+				"wrong_answer4": "Neon" 
+				} 
+			} 
+		] 
+	}
+	]
+}

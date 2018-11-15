@@ -1,0 +1,637 @@
+{ 
+	"file_name": "s01_ep18_tag2_QA_final.json",
+	"registed_name": "s01_ep18_tag2_QA_final.json", 
+	"qa_results": 
+	[ 
+		{ 
+		"visual_period_num": "1-16", 
+		"period_num": "q1", 
+		"start_time": "00:00:00;00", 
+		"end_time": "00:00:58;01",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross, Chandler, Pheobe, Rachel, Monica, and Joey are in the apartment sealing the envelopes for Rachel's resumes while whistling. All of a sudden, Ross finds a typo in the resume and Rachel is devastated."}, 
+			{ "description": "The whole group is helping Rachel prepare her resume."}, 
+			{ "description": "Ross lets Rachel know about the typo in her resume."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What are the whole group doing?", 
+				"question_type": "Action", 
+				"answer": "Preparing Rachels resume to be sent", 
+				"wrong_answer1": "Sending letters to people", 
+				"wrong_answer2": "Writing letters to their parents", 
+				"wrong_answer3": "Folding papers", 
+				"wrong_answer4": "Ripping papers" } 
+			} ,
+			{ "qa": { 
+				"question": "What does Rachel want?", 
+				"question_type": "Statement", 
+				"answer": "She wants to get a new job", 
+				"wrong_answer1": "She wants to move to somewhere else", 
+				"wrong_answer2": "She wants to retire", 
+				"wrong_answer3": "She wants to get fired", 
+				"wrong_answer4": "She wants to move to a new city" } 
+				} ,
+			{ "qa": { 
+				"question": "Who's sitting on the table", 
+				"question_type": "Person detail", 
+				"answer": "Chandler and Monica", 
+				"wrong_answer1": "Phobe and Ross", 
+				"wrong_answer2": "Ross and Rachel", 
+				"wrong_answer3": "Monica and Joey", 
+				"wrong_answer4": "Rachel and Joey" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "42-74", 
+		"period_num": "q2", 
+		"start_time": "00:01:58;02", 
+		"end_time": "00:04:18;12",
+		"related_period": "q1", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Rachel is on her shift at the café while Ross and Chandler are sitting near her at a table. Monica and Pheobe walk in with a pile of responses Rachel received from all the job applications she sent. As soon as Joey comes into the café, Chandler and Ross make fun of him for crying over a poker game. The group gathers around the sofa in the cafe. The ladies question why Men don't want women as their poker opponent."}, 
+			{ "description": "Monica and Pheobe are back with all the replies Rachel got for her job applications."}, 
+			{ "description": "The girls want to play poker with the boys"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who came in with all the emails?", 
+				"question_type": "Person", 
+				"answer": "Phoebe and Monica", 
+				"wrong_answer1": "Joey and Chandler", 
+				"wrong_answer2": "Chandler and Ross", 
+				"wrong_answer3": "Monica and Joey", 
+				"wrong_answer4": "Ross and Monica" } 
+			} ,
+			{ "qa": { 
+				"question": "What color is Ross' jacket?", 
+				"question_type": "Visual detail", 
+				"answer": "Red", 
+				"wrong_answer1": "White", 
+				"wrong_answer2": "Black", 
+				"wrong_answer3": "Yellow", 
+				"wrong_answer4": "Green" } 
+				} ,
+			{ "qa": { 
+				"question": "Why are Ross and Chandler making fun of Joey?", 
+				"question_type": "Reason", 
+				"answer": "Because Joey cried over a poker game", 
+				"wrong_answer1": "Because Joey was being silly", 
+				"wrong_answer2": "Because Joey was so dirty", 
+				"wrong_answer3": "Because Joey is so dumb", 
+				"wrong_answer4": "Because the two were bored" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "75-92", 
+		"period_num": "q3", 
+		"start_time": "00:04:18;12", 
+		"end_time": "00:05:55;20",
+		"related_period": "q2", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "The whole group is back at Monica's apartment readying themselves for a game of poker. The girls are being taught by the boys on how to play poker. The girls don't seem ready but they are impatient and wants to start playing with the boys."}, 
+			{ "description": "Everyone is sitting around the table in the kitchen in Monica's apartment"}, 
+			{ "description": "The girls are practicing how to play poker"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is the group doing in the scene?", 
+				"question_type": "Action", 
+				"answer": "Playing poker", 
+				"wrong_answer1": "Playing hide and seek", 
+				"wrong_answer2": "Watching tv", 
+				"wrong_answer3": "Cooking food", 
+				"wrong_answer4": "Eating dinner" } 
+			} ,
+			{ "qa": { 
+				"question": "Where is the group?", 
+				"question_type": "Location", 
+				"answer": "Monica's apartment", 
+				"wrong_answer1": "Ross' apartment", 
+				"wrong_answer2": "Joey's apartment", 
+				"wrong_answer3": "Phobe's apartment", 
+				"wrong_answer4": "The café" } 
+				} ,
+			{ "qa": { 
+				"question": "What can you imply about girls switching cards with each other?", 
+				"question_type": "Abstract", 
+				"answer": "They are not farmiliar with the rules", 
+				"wrong_answer1": "They are very nice", 
+				"wrong_answer2": "They care about each other very much", 
+				"wrong_answer3": "They like trading cards", 
+				"wrong_answer4": "They are enjoying this game" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "93-120", 
+		"period_num": "q4", 
+		"start_time": "00:05:55;20", 
+		"end_time": "00:07:38;14",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "After a game of poker, the girls are clearly frustrated. Pheobe doesn't understand the concept of bluffing. Rachel too is not used to the rules of poker and is asked to settle when she tries to leave the table. Joey suggests that the boys forget about the money since it's the girls the first time. However, Rachel and Monica insist that they pay. Ross tells Rachel that the game of poker is a very competitive game and that he is no longer a nice guy once the cards are dealt."}, 
+			{ "description": "The group finished playing poker at Monica's apartment"}, 
+			{ "description": "The girls are disappointed with the result"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How is Monica feeling in the scene?", 
+				"question_type": "Emotion", 
+				"answer": "Frustrated", 
+				"wrong_answer1": "Happy", 
+				"wrong_answer2": "Joyful", 
+				"wrong_answer3": "Grateful", 
+				"wrong_answer4": "Sad" } 
+			} ,
+			{ "qa": { 
+				"question": "Why does Rachel try to leave after the game?", 
+				"question_type": "Reason", 
+				"answer": "She needs to fax resumes", 
+				"wrong_answer1": "She needs to go to bed", 
+				"wrong_answer2": "She needs to get more money", 
+				"wrong_answer3": "She wants some alone time", 
+				"wrong_answer4": "She is hungry" } 
+				} ,
+			{ "qa": { 
+				"question": "Who suggests to absolve the money that the girls owe?", 
+				"question_type": "Statement", 
+				"answer": "Joey", 
+				"wrong_answer1": "Ross", 
+				"wrong_answer2": "Chandler", 
+				"wrong_answer3": "Pheobe", 
+				"wrong_answer4": "Monica" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "121-132", 
+		"period_num": "q5", 
+		"start_time": "00:07:38;14", 
+		"end_time": "00:08:38;12",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross, Chandler, and Joey are at Ross' apartment for a pizza party. Chandler and Joey tell Ross that he was being too obvious with his feelings towards Rachel. Ross denies it. Despite Ross telling it not to, Marcel puts on the \"Lion sleeps tonight\" song on the CD player."}, 
+			{ "description": "Chandler, Ross, and Joey are at Ross' apartment to have pizza"}, 
+			{ "description": "Marcel plays the CD player."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where are Chandler, Ross, and Joey?", 
+				"question_type": "Location", 
+				"answer": "Ross' apartment", 
+				"wrong_answer1": "Joey's apartment", 
+				"wrong_answer2": "Monica's apartment", 
+				"wrong_answer3": "Chandler's apartment", 
+				"wrong_answer4": "Rachel's apartment" } 
+			} ,
+			{ "qa": { 
+				"question": "What did Ross bring?", 
+				"question_type": "Action", 
+				"answer": "Pizza", 
+				"wrong_answer1": "Hamburger", 
+				"wrong_answer2": "Spaghetti", 
+				"wrong_answer3": "Meatball", 
+				"wrong_answer4": "Diet Coke" } 
+				} ,
+			{ "qa": { 
+				"question": "What is the name of the pizza place?", 
+				"question_type": "Visual detail", 
+				"answer": "Ray Bari Pizza", 
+				"wrong_answer1": "Boston Pizza", 
+				"wrong_answer2": "Dominoes", 
+				"wrong_answer3": "Pizza Hut", 
+				"wrong_answer4": "Mr.Pizza" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "133-147", 
+		"period_num": "q6", 
+		"start_time": "00:08:38;12", 
+		"end_time": "00:10:24;16",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Rachel, Pheobe and Monica are at in the living room in their apartment. Rachel is still upset about Ross' speech on poker. Rachel opens up a letter and finds a job invitation from Saks Fifth Avenue as an Assistant Buyer. Monica invites aunt Iris, who is a poker expert, to come over and teach them about playing the game."}, 
+			{ "description": "Monica and Pheobe are sitting down on a sofa in their living room. Rachel is standing beside them, going through her letters"}, 
+			{ "description": "Rachel gets a job interview from Saks Fifth Avenue"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where does Rachel get her interview?", 
+				"question_type": "Statement", 
+				"answer": "Saks Fifth Avenue", 
+				"wrong_answer1": "H&M", 
+				"wrong_answer2": "Levis", 
+				"wrong_answer3": "Nike", 
+				"wrong_answer4": "Adidas" } 
+			} ,
+			{ "qa": { 
+				"question": "Who is invited to their apartment?", 
+				"question_type": "Person", 
+				"answer": "Aunt Iris", 
+				"wrong_answer1": "Ross", 
+				"wrong_answer2": "Joey", 
+				"wrong_answer3": "Nicky", 
+				"wrong_answer4": "Francis" } 
+				} ,
+			{ "qa": { 
+				"question": "Why is aunt Iris invited over?", 
+				"question_type": "Reason", 
+				"answer": "To teach ther girls how to play poker", 
+				"wrong_answer1": "To have a tea with the girls", 
+				"wrong_answer2": "To watch tv with the girls", 
+				"wrong_answer3": "To go shopping with the girls", 
+				"wrong_answer4": "To go dancing with the girls" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "148-172", 
+		"period_num": "q7", 
+		"start_time": "00:10:24;16", 
+		"end_time": "00:12:06;12",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross, Chandler, Joey, Monica, Pheobe are at Ross' apartment for another night of Poker game. Marcel is still playing the song on the CD player. Pheobe asks Ross to turn it off. As Ross turns the song off, Marcel displays its displeasure by going into its room and banging the door shut. Rachel runs into the apartment with a big smile, having completed her interview. She feels that she is clearly liked by the manager of the store and that she is likely to get hired."}, 
+			{ "description": "Everyone is gathered at Ross apartment for a game of poker"}, 
+			{ "description": "Rachel is happy with how her interview went"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why is Rachel so excited?", 
+				"question_type": "Reason", 
+				"answer": "Her interview went well", 
+				"wrong_answer1": "She won a poker match", 
+				"wrong_answer2": "She is happy to see her friends", 
+				"wrong_answer3": "She had too much coffee", 
+				"wrong_answer4": "She wants to play poker" } 
+			} ,
+			{ "qa": { 
+				"question": "What are the whole group doing at the Ross' apartment?", 
+				"question_type": "Event", 
+				"answer": "Having a Poker night", 
+				"wrong_answer1": "Having a dinner party", 
+				"wrong_answer2": "Having a disco party", 
+				"wrong_answer3": "Having a night out", 
+				"wrong_answer4": "Having a tea party" } 
+				} ,
+			{ "qa": { 
+				"question": "What does Rachel think of the interview she had?", 
+				"question_type": "Abstract", 
+				"answer": "She thinks she is likely to get hired", 
+				"wrong_answer1": "She doesn't think she will get the job", 
+				"wrong_answer2": "She thinks it went horrible", 
+				"wrong_answer3": "She doesn't want to work at the job", 
+				"wrong_answer4": "The manager doesn't like her" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "173-184", 
+		"period_num": "q8", 
+		"start_time": "00:12:06;12", 
+		"end_time": "00:13:19;08",
+		"related_period": "q4", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "After another round of Poker game, Monica, Rachel, and Pheobe all owe money to the boys. The girls are annoyed that they've lost again. Pheobe tells the boys that her money is cursed but Chandler takes them anyway. Rachel owes the most amount and she is not happy about it. Monica warns that this is not the end and that they will continue to challenge the boys"}, 
+			{ "description": "Another game of Poker and the girls have lost again."}, 
+			{ "description": "Monica insists that they will keep trying"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How much does Monica owe?", 
+				"question_type": "Statement", 
+				"answer": "10", 
+				"wrong_answer1": "15", 
+				"wrong_answer2": "12", 
+				"wrong_answer3": "17", 
+				"wrong_answer4": "20" } 
+			} ,
+			{ "qa": { 
+				"question": "What did Pheobe do to her money?", 
+				"question_type": "Action", 
+				"answer": "She cursed it", 
+				"wrong_answer1": "She spat on it", 
+				"wrong_answer2": "She ripped it apart", 
+				"wrong_answer3": "She stole it from someone", 
+				"wrong_answer4": "She hid it" } 
+				} ,
+			{ "qa": { 
+				"question": "What color is Monica's sweatshirt?", 
+				"question_type": "Visual detail", 
+				"answer": "Red", 
+				"wrong_answer1": "Yellow", 
+				"wrong_answer2": "Black", 
+				"wrong_answer3": "White", 
+				"wrong_answer4": "Green" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "185-202", 
+		"period_num": "q9", 
+		"start_time": "00:13:19;08", 
+		"end_time": "00:14:31;08",
+		"related_period": "q8", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "On another night, the whole gang gets together at Monica's apartment this time for a Poker night. Ross jokes to the girls about handing over their money first and the joke sets up a competitive atmosphere. Rachel stops Joey from ordering pizza because she is waiting to hear from Saks Fifth Avenue. Ross comes back from the bathroom and the game resumes."}, 
+			{ "description": "Ross, Chandler, Joey, Pheobe, Rachel, and Monica are at Monica's apartment, having another night of Poker game."}, 
+			{ "description": "Rachel is anxiously waiting to hear from her interview"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What are they drinking in the scene?", 
+				"question_type": "Visual detail", 
+				"answer": "Beer", 
+				"wrong_answer1": "Soda", 
+				"wrong_answer2": "Coke", 
+				"wrong_answer3": "Sprite", 
+				"wrong_answer4": "Ginger ale" } 
+			} ,
+			{ "qa": { 
+				"question": "Where does Ross go during the conversation?", 
+				"question_type": "Action", 
+				"answer": "Bathroom", 
+				"wrong_answer1": "To his apartment", 
+				"wrong_answer2": "To the living room", 
+				"wrong_answer3": "To Monica's bedroom", 
+				"wrong_answer4": "To Rachel's bedroom" } 
+				} ,
+			{ "qa": { 
+				"question": "What can you infer from the scene in regards to Rachel's personality?", 
+				"question_type": "Person detail", 
+				"answer": "Competitive", 
+				"wrong_answer1": "Easy-going", 
+				"wrong_answer2": "Relaxed", 
+				"wrong_answer3": "Calm", 
+				"wrong_answer4": "Indirect" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "203-222", 
+		"period_num": "q10", 
+		"start_time": "00:14:31;08", 
+		"end_time": "00:15:43;01",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Everyone is still playing poker. Rachel is getting better at the game and now she has won for the first time. She brags about it by poking fun at Ross."}, 
+			{ "description": "The group is still playing Poker."}, 
+			{ "description": "Rachel wins for the first time"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What hand does Ross have?", 
+				"question_type": "Person", 
+				"answer": "A flush", 
+				"wrong_answer1": "A full house", 
+				"wrong_answer2": "Two pairs", 
+				"wrong_answer3": "A Royal Flush", 
+				"wrong_answer4": "A Pair" } 
+			} ,
+			{ "qa": { 
+				"question": "Who wins the first round?", 
+				"question_type": "Person", 
+				"answer": "Rachel", 
+				"wrong_answer1": "Ross", 
+				"wrong_answer2": "Joey", 
+				"wrong_answer3": "Chandler", 
+				"wrong_answer4": "Pheobe" } 
+				} ,
+			{ "qa": { 
+				"question": "What does Ross mean by \"hop out of the shower\"?", 
+				"question_type": "Abstract", 
+				"answer": "To pull out of the game", 
+				"wrong_answer1": "To finish shower", 
+				"wrong_answer2": "To get ready to go out", 
+				"wrong_answer3": "To start drying", 
+				"wrong_answer4": "To stop wasting water" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "223-252", 
+		"period_num": "q11", 
+		"start_time": "00:15:43;01", 
+		"end_time": "00:17:47;03",
+		"related_period": "q6", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Monica is frustrated that she keeps losing. Joey removes the plate on her side to Chandler. Rachel beats Ross to become the winner again. Ross is clearly annoyed. Rachel answers the phone call that she's been waiting for, but it is not the news that she was waiting to hear. She is saddened by the fact that someone else has been hired."}, 
+			{ "description": "Rachel beats Ross again in poker."}, 
+			{ "description": "Rachel gets the phone call that she has not been chosen for the job"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why does Joey remove the plate from Monica?", 
+				"question_type": "Reason", 
+				"answer": "She has a history of becoming violent when losing", 
+				"wrong_answer1": "She likes to throw plates", 
+				"wrong_answer2": "She doesn't like the plate", 
+				"wrong_answer3": "She doesn't like sandwiches", 
+				"wrong_answer4": "She doesn't like the color of the plate" } 
+			} ,
+			{ "qa": { 
+				"question": "What is the name of the manager?", 
+				"question_type": "Person", 
+				"answer": "Barbara", 
+				"wrong_answer1": "Susan", 
+				"wrong_answer2": "Jill", 
+				"wrong_answer3": "Jackson", 
+				"wrong_answer4": "Monique" } 
+				} ,
+			{ "qa": { 
+				"question": "How does she feel after hearing the phone call?", 
+				"question_type": "Emotion", 
+				"answer": "Dissappointed", 
+				"wrong_answer1": "Glad", 
+				"wrong_answer2": "Joyful", 
+				"wrong_answer3": "Exstatic", 
+				"wrong_answer4": "Playful" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "253-286", 
+		"period_num": "q12", 
+		"start_time": "00:17:47;03", 
+		"end_time": "00:19:48;18",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Rachel hangs up the phone but insists that she wants to keep playing the game. After everyone bets 50cents, Rachel raises the stakes by $5, causing everyone to fold. However, Rachel stirs up Ross' competitiveness and Ross decides to stay in. Rachel raises the stake by $20."}, 
+			{ "description": "Rachel wants to keep playing poker"}, 
+			{ "description": "She gets Ross to stay in the game to have a duel"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is still playing the game in the scene?", 
+				"question_type": "Person", 
+				"answer": "Ross and Rachel", 
+				"wrong_answer1": "Joey and Chandler", 
+				"wrong_answer2": "Chandler and Pheobe", 
+				"wrong_answer3": "Ross and Pheobe", 
+				"wrong_answer4": "Monica and Rachel" } 
+			} ,
+			{ "qa": { 
+				"question": "Why does Rachel want to raise the stakes so high?", 
+				"question_type": "Reason", 
+				"answer": "She's stressed out because she lost a job", 
+				"wrong_answer1": "She wants to win a big sum", 
+				"wrong_answer2": "She needs to get more money", 
+				"wrong_answer3": "She wants to scare others", 
+				"wrong_answer4": "She wants to bluff" } 
+				} ,
+			{ "qa": { 
+				"question": "What non-alcohol drink is Ross having?", 
+				"question_type": "Visual detail", 
+				"answer": "Snapple", 
+				"wrong_answer1": "Sprite", 
+				"wrong_answer2": "Coke", 
+				"wrong_answer3": "Orange Juice", 
+				"wrong_answer4": "Apple Juice" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "287-309", 
+		"period_num": "q13", 
+		"start_time": "00:19:48;18", 
+		"end_time": "00:21:56;08",
+		"related_period": "q12", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Ross and Rachel continue their heated poker dual. The stakes are very high and each of them is playing to see who folds first. As the stakes are getting high, Monica and Pheobe chip in their cash for Rachel to win while Chandler and Joey chip in for Ross. In the end, Rachel reveals her card and it is a full house. Ross folds and Rachel is the winner. The girls celebrate their win with wine."}, 
+			{ "description": "Ross and Rachel's dual is still going hot in the scene"}, 
+			{ "description": "Rachel finally defeats Ross"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How did Monica and Pheobe react to Rachel beating Ross?", 
+				"question_type": "Emotion", 
+				"answer": "Very happy", 
+				"wrong_answer1": "Very sad", 
+				"wrong_answer2": "Very gloomy", 
+				"wrong_answer3": "Very calm", 
+				"wrong_answer4": "Very critical" } 
+			} ,
+			{ "qa": { 
+				"question": "What hand is Rachel dealt with?", 
+				"question_type": "Person", 
+				"answer": "A full house", 
+				"wrong_answer1": "A flush", 
+				"wrong_answer2": "A pair", 
+				"wrong_answer3": "A royal flush", 
+				"wrong_answer4": "Two pairs" } 
+				} ,
+			{ "qa": { 
+				"question": "What does Ross mean by \"I'm a little shy\"?", 
+				"question_type": "Abstract", 
+				"answer": "I'm short of money", 
+				"wrong_answer1": "I'm an introvert", 
+				"wrong_answer2": "I'm a shy person", 
+				"wrong_answer3": "I'm a quiet person", 
+				"wrong_answer4": "I don't need money" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "310-324", 
+		"period_num": "q14", 
+		"start_time": "00:21:56;08", 
+		"end_time": "00:22:37;10",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Joey, Chandler, Ross, Pheobe, Monica, and Rachel are in the living room, by the sofa, playing Pictogram. Monica gives an explanation but nobody is able to guess it right. After her, on Rachel's turn, Joey gets the answer. Monica is annoyed that her friends not get what she explains, and grabs a glass up in the air."}, 
+			{ "description": "The group is playing Pictogram."}, 
+			{ "description": "Monica is annoyed that no one is able to understand her drawings"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is not sitting on the sofa?", 
+				"question_type": "Person", 
+				"answer": "Pheobe", 
+				"wrong_answer1": "Ross", 
+				"wrong_answer2": "Joey", 
+				"wrong_answer3": "Rachel", 
+				"wrong_answer4": "Chandler" } 
+			} ,
+			{ "qa": { 
+				"question": "Who is able to answer Rachel's question right?", 
+				"question_type": "Person", 
+				"answer": "Joey", 
+				"wrong_answer1": "Ross", 
+				"wrong_answer2": "Monica", 
+				"wrong_answer3": "Pheobe", 
+				"wrong_answer4": "Chandler" } 
+				} ,
+			{ "qa": { 
+				"question": "What color is the glass in the scene?", 
+				"question_type": "VIsual detail", 
+				"answer": "Blue", 
+				"wrong_answer1": "Red", 
+				"wrong_answer2": "Yellow", 
+				"wrong_answer3": "Black", 
+				"wrong_answer4": "White" 
+				} 
+			} 
+		] 
+	}
+	]
+}
