@@ -20,7 +20,10 @@
 ### 공개 데이터
 > [VTT3_Metadata](https://github.com/vtt3-research/konantech/tree/master/VTT3_Metadata)
 
-### 크롤러
+### 크라우드 소싱 시스템
+> [vtt_crowdsourcing](https://github.com/vtt3-research/konantech/tree/master/vtt-crowdsourcing)
+
+### 크롤러 시스템
 > [vtt_crawler](https://github.com/vtt3-research/konantech/tree/master/vtt-crawler)
 
 ### 문서
