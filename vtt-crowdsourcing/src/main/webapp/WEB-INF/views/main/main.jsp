@@ -45,3 +45,12 @@
 </article>
 <c:import url="../includes/script.jsp"/>
 <c:import url="../includes/footer.jsp"/>
+<script>
+    window.addEventListener("message",function(event){
+        alert(event.data);
+        callback();
+    });
+    function callback(){
+        alert("callback test");
+    }
+</script>

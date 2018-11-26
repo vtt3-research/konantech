@@ -76,27 +76,7 @@
                 MSG.alert("Please drag and drop all image to the matching area.");
                 return;
             }
-
-            $.ajax({
-                url: "<c:url value='/setCrowdData/drag' />",
-                async: false,
-                type: "POST",
-                data: $("#answerFrom").serialize(),
-                dataType: "json",
-                success: function (response) {
-                    if (response.status == "SUCCESS") {
-                        MSG.alert(response.data.message,reload);
-                    } else if (response.status == "ERROR") {
-                        MSG.alert(response.data.message,reload);
-                    } else {
-                        MSG.alert("오류");
-                        return false;
-                    }
-                },
-                error: function (xhr, opt, err) {
-                    MSG.alert(xhr.responseText);
-                }
-            });
+            setCrowdData("drag",$("#answerFrom").serialize());
         });
 
     });

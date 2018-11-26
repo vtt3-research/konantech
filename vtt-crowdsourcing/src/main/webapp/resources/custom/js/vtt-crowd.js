@@ -71,7 +71,9 @@ function toast(heading, text, icon, hideAfter) {
         hideAfter: hideAfter
     });
 }
-
 var reload = function(){
  location.reload();
+}
+var callback = function(){
+    parent.postMessage("callback","*");
 }

@@ -65,26 +65,7 @@
         });
         $("#setCrowdData").on("click", function(){
             $("input[name=objectcode]").val('${objectcode}');
-           $.ajax({
-               url: "<c:url value='/setCrowdData/background' />",
-               async: false,
-               type: "POST",
-               data: $("form").serializeArray(),
-               dataType: "json",
-               success: function (response) {
-                   if (response.status == "SUCCESS") {
-                       MSG.alert(response.data.message,reload);
-                   } else if (response.status == "ERROR") {
-                       MSG.alert(response.data.message,reload);
-                   } else {
-                       MSG.alert("오류");
-                       return false;
-                   }
-               },
-               error: function (xhr, opt, err) {
-                   MSG.alert(xhr.responseText);
-               }
-           });
+            setCrowdData("background",$("form").serializeArray());
         });
 
     });
