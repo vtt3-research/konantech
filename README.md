@@ -1,6 +1,6 @@
 # VTT3세부 코난테크놀로지
 ## 주요 연구
-  1. 메타데이터 태깅 시스템 연구 개발
+  1. 메타데이터 태깅 도구 고도화 개발
   2. 대용량 크롤링 시스템 연구 개발
   3. VTT통합 연구용 메타데이터 구축
   4. 크라우드 소싱 시스템 연구 개발
@@ -20,7 +20,10 @@
 ### 공개 데이터
 > [VTT3_Metadata](https://github.com/vtt3-research/konantech/tree/master/VTT3_Metadata)
 
-### 크롤러
+### 크라우드 소싱 시스템
+> [vtt_crowdsourcing](https://github.com/vtt3-research/konantech/tree/master/vtt-crowdsourcing)
+
+### 크롤러 시스템
 > [vtt_crawler](https://github.com/vtt3-research/konantech/tree/master/vtt-crawler)
 
 ### 문서
