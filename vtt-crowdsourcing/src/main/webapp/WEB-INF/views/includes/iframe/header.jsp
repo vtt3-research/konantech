@@ -9,35 +9,19 @@
 <head>
     <meta charset="utf-8">
     <title><spring:message code="common.title.crowd" text="VTT-Crowd!" /></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0"/>
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link rel="stylesheet" type="text/css" href="<c:url value="/webjars/jquery-ui/1.12.1/jquery-ui.min.css"/>">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500"  />
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" type="text/css" href="<c:url value="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css"/>">
-    <link rel="stylesheet" type="text/css" href="<c:url value="/webjars/font-awesome/5.1.0/css/all.css"/>">
-    <link rel="stylesheet" type="text/css" href="<c:url value="/webjars/font-awesome/4.7.0/css/font-awesome.min.css"/>">
-    <link rel="stylesheet" type="text/css" href="<c:url value="/webjars/tooltipster/4.1.4-1/css/tooltipster.bundle.min.css"/>">
     <link rel="stylesheet" type="text/css" href="<c:url value="/webjars/bootstrap-duallistbox/3.0.6/dist/bootstrap-duallistbox.min.css"/>">
-    <link rel="stylesheet" type="text/css" href="<c:url value="/webjars/bootstrap-daterangepicker/2.1.27/daterangepicker.css"/>">
-    <link rel="stylesheet" type="text/css" href="<c:url value="/webjars/font-awesome-animation/0.1.0/dist/font-awesome-animation.min.css"/>">
-    <link rel="stylesheet" type="text/css" href="<c:url value="/webjars/jstree/3.3.5/dist/themes/default/style.min.css"/>">
-
-    <link rel="stylesheet" type="text/css" href="<c:url value="/webjars/ion.rangeSlider/2.2.0/css/ion.rangeSlider.skinFlat.css"/>">
-    <link rel="stylesheet" type="text/css" href="<c:url value="/webjars/nouislider/11.0.0/distribute/nouislider.min.css"/>">
-
-    <link rel="stylesheet" type="text/css" href="<c:url value="/resources/custom/css/vtt-crowd.css?_d="/>${pageContext.session.id}" />
+    <link rel="stylesheet" href="<c:url value="/resources/custom/css/style.css?v1.0&_d="/>${pageContext.session.id}" />
 
 </head>
-<body class="menu-on-top fixed-page-footer" id="crowd-iframe">
-    <!-- #HEADER -->
-    <header id="header">
-        <div id="logo-group">
-            <!-- PLACE YOUR LOGO HERE -->
-            <span id="logo"><img src="<c:url value="/resources/custom/img/konan_ci.png" />"></span>
-            <!-- END LOGO PLACEHOLDER -->
-        </div>
-        <div class="pull-right"></div>
-    </header>
-    <!-- END HEADER -->
-    <div >
-        <section id="widget-grid" class="">
+<body>
+<header>
+    <h3>SELECT PICTURE</h3>
+    <span class="btn_close" onclick="parent.modalClose();"></span>
+</header>

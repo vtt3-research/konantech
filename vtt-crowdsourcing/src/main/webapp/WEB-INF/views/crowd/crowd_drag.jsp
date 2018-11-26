@@ -8,21 +8,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@include file="../includes/taglib.jsp" %>
 <c:import url="../includes/iframe/header.jsp"/>
-<article>
-    <div class="shot-list-wrap">
-        <form id="answerFrom">
-            <input type="hidden" name="userid" value="${param.userid}" />
-            <input type="hidden" name="site" value="${param.site}" />
-
-        <c:forEach var="obj" items="${objectList}" varStatus="i">
-            <div class="col-xs-6 objectarea"  name="selShotImgLi">
-                <div id="${obj.objectcode}">
-                    ${obj.codename}
-                </div>
-            </div>
-        </c:forEach>
+<div class="container container-multiple">
+    <form id="answerFrom">
+    <ul class="top connectedSortable" id="sortable1">
+        <input type="hidden" name="userid" value="${param.userid}" />
+        <input type="hidden" name="site" value="${param.site}" />
         <c:forEach var="result" items="${imageList}" varStatus="i">
-            <div class="col-xs-2 exImg"  name="selShotImgLi" style="display:none;">
+        <li>
+            <div class="image-box">
                 <c:set var="img_path" value="${ result.filepath }"/>
                 <div id="${result.targetid}">
                     <img src="${img_path}" prop_x="${result.x}" prop_y="${result.y}" prop_width="${result.width}" prop_height="${result.height}"/>
@@ -35,23 +28,29 @@
                     <input type="hidden" name="targetcode" value="${result.targetcode}"/>
                 </div>
             </div>
+        </li>
         </c:forEach>
-        </form>
-    </div>
-    <div class="qa">Please drag and drop image to the matching area.</div>
-    <div class="buttonarea">
-        <button class="btn btn-success" id="setCrowdData">제출</button>
-    </div>
-</article>
+    </ul>
+    <ul class="drag-area">
+        <c:forEach var="obj" items="${objectList}" varStatus="i">
+        <li class="objectarea" >
+            <p>${obj.codename}</p>
+            <ul class="connectedSortable" id="${obj.objectcode}"></ul>
+        </li>
+        </c:forEach>
+    </ul>
+    </form>
+</div>
+<c:import url="../includes/iframe/footer.jsp"/>
 <c:import url="../includes/iframe/script.jsp"/>
 <script>
     var _maxHeight=0;
     var _maxWidth=0;
     var _param={};
     $(document).ready(function(){
-        _maxWidth = $(".exImg").width();
-        _maxHeight = $(".exImg").height();
-        $(".exImg img").on("load", function(){
+        _maxWidth = $(".image-box").width();
+        _maxHeight = $(".image-box").height();
+        $(".image-box img").on("load", function(){
             setImg($(this));
             setParent($(this));
         }).each(function() {
@@ -59,54 +58,18 @@
                 $(this).load();
             }
         });
-        $(".exImg").show();
+        $(".image-box").show();
 
-        $(".exImg>div" ).draggable({
-            snap: ".objectarea", //drop 영역
-            snapMode: "inner",  //drop 라인
-            revert: "invalid", // when not dropped, the item will revert back to its initial position
-            cursor: "move",//마우스 모양
-            stack: ".exImg>div",
-            start:function(){
-                $(this).addClass("moveImg");
-            },
-            stop:function(){
-                $(this).removeClass("moveImg");
+        $( ".connectedSortable" ).sortable({
+            connectWith: ".connectedSortable",
+            placeholder: "portlet-placeholder ui-corner-all",
+            rever:true,
+            update:function(event,ui){
+                $(ui.item).find("input[name=targetcode]").val( $(ui.item).parent().attr("id"));
+                _param[$(ui.item).find("input[name=targetid]").val()]=$(ui.item).parent().attr("id");
             }
-        });
+        }).disableSelection();
 
-        $(".objectarea").height(_maxHeight+"px");
-        $(".objectarea").droppable({
-            accept: ".exImg > div",
-            classes: {
-                "ui-droppable-active": "ui-state-highlight"
-            },
-            drop: function( event, ui ) {
-                var $area = $(this);
-                var $parent = $(".moveImg").parent();
-                var top = $(".moveImg").position().top;
-                var left = $(".moveImg").position().left;
-                var bottom = $(".moveImg").position().top+$(".moveImg").height();
-                var right = $(".moveImg").position().left+$(".moveImg").width();
-
-                if($area.position().top - $parent.position().top>top) {
-                    top = $area.position().top - $parent.position().top;
-                }
-                if($area.position().left - $parent.position().left>left){
-                    left = $area.position().left - $parent.position().left;
-                }
-                if($area.position().top+$area.height() - $parent.position().top<bottom) {
-                    top = $area.position().top - $parent.position().top;
-                }
-                if($area.position().left+$area.width() - $parent.position().left<right){
-                    left = $area.position().left - $parent.position().left;
-                }
-                $(".moveImg").animate({top:top+'px', left:left+'px'});
-                $(".moveImg").find("input[name=targetcode]").val( $(this).find("div").attr("id"));
-
-                _param[$(".moveImg").find("input[name=targetid]").val()]=$(this).find("div").attr("id");
-            }
-        });
 
         $("#setCrowdData").on("click", function(){
             if(Object.keys(_param).length!=6){
@@ -122,9 +85,9 @@
                 dataType: "json",
                 success: function (response) {
                     if (response.status == "SUCCESS") {
-                        MSG.alert(response.data.message);
+                        MSG.alert(response.data.message,reload);
                     } else if (response.status == "ERROR") {
-                        MSG.alert(response.data.message);
+                        MSG.alert(response.data.message,reload);
                     } else {
                         MSG.alert("오류");
                         return false;
@@ -140,26 +103,26 @@
 
     function setImg ($img){
         var ratio;
-        ratio = _maxHeight/$($img).attr("prop_height");
-        if(ratio>_maxWidth/$($img).attr("prop_width"))
-            ratio = _maxWidth/$($img).attr("prop_width");
-        $($img).height($($img).prop("naturalHeight") * ratio + "px");
-        $($img).width($($img).prop("naturalWidth")*ratio+"px");
+        ratio = _maxHeight/$img.attr("prop_height");
+        if(ratio>_maxWidth/$img.attr("prop_width"))
+            ratio = _maxWidth/$img.attr("prop_width");
+        $img.height($img.prop("naturalHeight") * ratio + "px");
+        $img.width($img.prop("naturalWidth")*ratio+"px");
 
-        var setX = $($img).attr("prop_x")*ratio;
-        $($img).css("margin-left","-"+setX+"px");
-        var setY = $($img).attr("prop_y")*ratio;
-        $($img).css("margin-top","-"+setY+"px");
-        $($img).attr("prop_ratio",ratio);
+        var setX = $img.attr("prop_x")*ratio*-1;
+        $img.css("left",setX+"px");
+        var setY = $img.attr("prop_y")*ratio*-1;
+        $img.css("top",setY+"px");
+        $img.attr("prop_ratio",ratio);
     }
 
     function setParent ($img){
-        var imgRatio = $($img).attr("prop_ratio");
-        $($img).parent().width($($img).attr("prop_width")*imgRatio+"px");
-        $($img).parent().height($($img).attr("prop_height")*imgRatio+"px");
-        if(_maxHeight>$($img).parent().height()){
-            $($img).parent().height(_maxHeight+"px");
+        var imgRatio = $img.attr("prop_ratio");
+        $img.parent().width($img.attr("prop_width")*imgRatio+"px");
+        $img.parent().height($img.attr("prop_height")*imgRatio+"px");
+        if(_maxHeight>$img.parent().height()){
+            var marginTop = _maxHeight - $img.parent().height();
+            $img.parent().css("margin-top",marginTop/2+"px");
         }
     }
 </script>
-<c:import url="../includes/iframe/footer.jsp"/>

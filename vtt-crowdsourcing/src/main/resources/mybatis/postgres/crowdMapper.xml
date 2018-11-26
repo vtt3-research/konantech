@@ -294,8 +294,14 @@
 
     <select id="getDragTarget" parameterType="map" resultType="map">
         select
-          *
-        ,#{target}::varchar as target
+          targetid
+          ,videoid
+          ,shotid
+          ,objectcode
+          ,imgurl
+          ,rect
+          ,score
+          ,#{target}::varchar as target
         from crowd_target_tb
         where objectcode in (${objectcode})
         <if test="target=='answer'">
@@ -325,7 +331,7 @@
         insert into crowd_user_trust_tb
         (trustid, allcnt, chkcnt, sitecode, userip) VALUES
         (
-          (select userid from vttm_user_tb where username = #{trustid})
+          #{trustid}
           ,#{allcnt}
           ,#{chkcnt}
           ,#{sitecode}
@@ -336,20 +342,12 @@
           SET allcnt = (
                         select allcnt
                         from crowd_user_trust_tb
-                        where trustid=(
-                                        select userid
-                                        from vttm_user_tb
-                                        where username = #{trustid}
-                                      )
+                        where trustid=#{trustid}
                         )+ ${allcnt}
           , chkcnt = (
                       select chkcnt
                       from crowd_user_trust_tb
-                      where trustid=(
-                                      select userid
-                                      from vttm_user_tb
-                                      where username = #{trustid}
-                                    )
+                      where trustid=#{trustid}
                       ) + ${chkcnt}
     </insert>
 
@@ -367,7 +365,7 @@
             constraint pk_crowd_log_${date}_tb
             primary key,
           sitecode  varchar(30),
-          trustid numeric not null,
+          trustid varchar(30) not null,
           objectcode   varchar(30),
           targetid       numeric not null,
           userip      varchar(30),
@@ -411,7 +409,7 @@
         values(
            COALESCE((select max(logid) from crowd_log_${date}_tb),0)+1
           ,#{sitecode}
-          ,(select userid from vttm_user_tb where username = #{trustid})
+          ,#{trustid}
           ,#{objectcode}
           ,#{targetid}
           ,#{userip}
