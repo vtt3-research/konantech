@@ -75,5 +75,5 @@ var reload = function(){
  location.reload();
 }
 var callback = function(){
-    parent.postMessage("callback","*");
+    parent.postMessage("vtt_callback","*");
 }
