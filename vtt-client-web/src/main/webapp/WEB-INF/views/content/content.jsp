@@ -49,6 +49,12 @@
                                     </a>
                                 </li>
                                 <li>
+                                    <a class="table-btn" id="btn_vtt_sound_edit">
+                                        <i class="fa fa-file-code-o " ></i>
+                                        &nbsp; VTT 소리정보 편집
+                                    </a>
+                                </li>
+                                <li>
                                     <a class="table-btn" id="btn_catalog">
                                         <i class="fa fa-file-code-o " ></i>
                                         &nbsp; 카탈로깅
@@ -181,9 +187,22 @@
             var param = {};
             param.idx = $T.find("input[name=idx]").val();
             param.viewChk = 'section';
-            location.href = "<c:url value='/visual/getSecInfoMain' />?" + $.param(param);
+            location.href = "<c:url value='/section/info' />?" + $.param(param);
 
         });
+
+        $("#btn_vtt_sound_edit").on("click", function() {
+            var $T = $("#content_assets .ui-selectee.ui-selected");
+            if($T.length == 0) {
+                toast("Content", "콘텐츠를 선택하세요.!", "info", 5000);
+                return false;
+            }
+            var param = {};
+            param.idx = $T.find("input[name=idx]").val();
+            location.href = "<c:url value='/sound/edit' />?" + $.param(param);
+
+        });
+
 
         $("#btn_catalog").on("click", function() {
             var $T = $("#content_assets .ui-selectee.ui-selected");
@@ -256,7 +275,7 @@
             } else {
                 var param = {};
                 param.idx = $T.find("input[name=idx]").val();
-                param.userId = '${user.username}';
+                param.userid = '${user.username}';
                 location.href = "<c:url value='/jsonFileDown' />?" + $.param(param);
             }
         });

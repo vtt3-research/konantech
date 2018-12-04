@@ -1,8 +1,10 @@
 package com.konantech.spring.controller.web;
 
+import com.konantech.spring.service.SectionService;
+import com.konantech.spring.service.SoundService;
 import com.konantech.spring.service.VisualService;
+import com.konantech.spring.service.FileService;
 import com.konantech.spring.util.RequestUtils;
-import net.sf.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,7 +15,6 @@ import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
-import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.xml.parsers.DocumentBuilder;
@@ -23,8 +24,8 @@ import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import java.io.*;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 @Controller
@@ -32,6 +33,15 @@ public class FileController {
 
     @Autowired
     VisualService visualService;
+
+    @Autowired
+    SectionService sectionService;
+
+    @Autowired
+    SoundService soundService;
+
+    @Autowired
+    FileService fileService;
 
     @RequestMapping(value = "/xmlFileDown", method = RequestMethod.GET)
     public void xmlFileDown(@RequestParam(value = "fileId", defaultValue = "file.xml") String fileId, HttpServletRequest request, HttpServletResponse response) throws Exception {
@@ -161,27 +171,16 @@ public class FileController {
 
     @ResponseBody
     @RequestMapping(value = "/jsonFileDown", method = RequestMethod.GET)
-    public String jsonFileDown(HttpServletRequest request, HttpServletResponse response) throws Exception {
+    public void jsonFileDown(HttpServletRequest request, HttpServletResponse response) throws Exception {
         Map paramMap = RequestUtils.getParameterMap(request);
-        String json = visualService.getJsonData(paramMap);
+        String visualJson = visualService.getJsonData(paramMap);
+        String qaJson = sectionService.getJsonData(paramMap);
+        String soundJson = soundService.getJsonData(paramMap);
+        List<Map> fileList = new ArrayList<>();
+        fileList.add(fileService.createJsonFileStream(paramMap,"visual",visualJson));
+        fileList.add(fileService.createJsonFileStream(paramMap,"qa",qaJson));
+        fileList.add(fileService.createJsonFileStream(paramMap,"sound",soundJson));
 
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd_HHmm");
-        String today = simpleDateFormat.format(new Date());
-        String fileName =paramMap.get("userId") + "_" + paramMap.get("idx") + "_" + today + ".json";
-
-        String headerResponse = "attachment;filename=";
-        headerResponse = headerResponse.concat(fileName);
-        response.setContentType("application/json");
-        response.setHeader("Set-Cookie", "fileDownload=true; path=/");
-        response.addHeader("Content-disposition", headerResponse);
-        JSONObject jsonObject = JSONObject.fromObject(json);
-        json = jsonObject.toString(4);
-        ServletOutputStream out = response.getOutputStream();
-
-        byte[] contentByte = json.getBytes();
-        out.write(contentByte);
-        out.flush();
-        out.close();
-        return json;
+        fileService.downloadZip(response, fileList);
     }
 }

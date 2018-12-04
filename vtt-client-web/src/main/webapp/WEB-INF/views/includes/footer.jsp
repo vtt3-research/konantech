@@ -131,7 +131,12 @@
         </div>
     </div>
 </div>
-
+<!-- Contents add Modal-->
+<div class="modal fade" id="videoHotkeyModal" tabindex="-1" role="dialog" aria-labelledby="addContentsModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content"></div>
+    </div>
+</div>
 <!-- footer content -->
 <footer>
     <div class="pull-right">

@@ -41,6 +41,8 @@ table tbody tr.ui-selected { background-color: #666 !important; color: #fff; }
 table tbody tr.ui-selected.ui-selectee:hover { background-color: #666; color: #fff; }
 table tbody tr td { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align: center; padding: 10px; }
 table tbody tr td.text { text-align: left; }
+table tbody tr.ui-selected.delete { background-color: #a00 !important; color: #fff; }
+table tbody tr.delete { background-color: #f00 !important; color: #fff; }
 
 /* SHOT LIST */
 .superbox { padding: 10px 12px; }
@@ -212,3 +214,31 @@ footer {
 div[name='formBody'].selected{
     background: #aaa;
 }
+
+.input-group{
+    width:100%;
+}
+
+.btn-group{
+    padding-left : 0;
+    padding-right : 32px;
+}
+
+.btn-group button{
+    padding:2px 7px;
+    margin-left:6px;
+}
+.h-line-gray{
+    float:left;
+    width:100%;
+    border-bottom:2px solid #ddd;
+    margin-bottom:10px;
+}
+
+.form-select{
+    width:200px;
+}
+
+#relationList{
+    overflow-y:scroll;
+ }

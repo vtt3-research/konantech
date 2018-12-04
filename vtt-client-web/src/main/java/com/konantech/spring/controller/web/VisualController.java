@@ -3,8 +3,6 @@ package com.konantech.spring.controller.web;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.konantech.spring.domain.content.ContentField;
 import com.konantech.spring.domain.content.ContentQuery;
-import com.konantech.spring.domain.section.QaResult;
-import com.konantech.spring.domain.section.Section;
 import com.konantech.spring.domain.storyboard.ShotTB;
 import com.konantech.spring.domain.visual.Visual;
 import com.konantech.spring.domain.vtt.RepImgVo;
@@ -97,51 +95,7 @@ public class VisualController {
         modelMap.addAttribute("contentField", contentField);
 
 
-        return "vtt/visual_info_edit";
-    }
-
-    @RequestMapping(value = "/visual/getSecInfoMain", method = RequestMethod.GET)
-    public String getSecInfoMain(ModelMap modelMap, HttpServletRequest request, Principal principal) throws Exception {
-
-        int idx = RequestUtils.getParameterInt(request, "idx", 0);
-        //TODO idx 를 통한 폴더 검색
-        //파일 생성 후 idx 정보 획득 경로 협의 필요.
-
-        //TODO JSON 파일 load 및 파일내역 파싱
-        // json 파일 생성 방식 협의 필요.
-
-        List<Map<String, Object>> codeMap01 = codeService.getCodeMap("V0103");
-        List<Map<String, Object>> codeMap02 = codeService.getCodeMap("V0102");
-        List<Map<String, Object>> codeMap03 = codeService.getCodeMap("V0105");
-        List<Map<String, Object>> codeMap04 = codeService.getCodeMap("V0108");
-        List<Map<String, Object>> codeMap05 = codeService.getCodeMap("V0106");
-        List<Map<String, Object>> codeMap06 = codeService.getCodeMap("O0101");
-        List<Map<String, Object>> codeMap07 = codeService.getCodeMap("D0101");
-
-        ContentQuery contentQuery = new ContentQuery();
-        contentQuery.setIdx(idx);
-        ContentField contentField =contentService.getContentItem(contentQuery);
-
-        modelMap.addAttribute("codeMap01", codeMap01);
-        modelMap.addAttribute("codeMap02", codeMap02);
-        modelMap.addAttribute("codeMap03", codeMap03);
-        modelMap.addAttribute("codeMap04", codeMap04);
-        modelMap.addAttribute("codeMap05", codeMap05);
-        modelMap.addAttribute("codeMap06", codeMap06);
-        modelMap.addAttribute("codeMap07", codeMap07);
-        modelMap.addAttribute("shotServerUrl", shotServerUrl);
-        modelMap.addAttribute("idx", idx);
-        modelMap.addAttribute("videoServerUrl", videoServerUrl);
-        modelMap.addAttribute("contentField", contentField);
-
-        Map pramMap= new LinkedHashMap();
-        pramMap.put("videoId",idx);
-        pramMap.put("userId",  principal.getName());;
-
-        List<LinkedHashMap<String,Object>> rtnMap = visualService.getSecInfo(pramMap);
-        modelMap.addAttribute("rtnMap", rtnMap);
-
-        return "vtt/section_info_edit";
+        return "visual/visual_info_edit";
     }
 
     /*
@@ -150,12 +104,14 @@ public class VisualController {
     @RequestMapping(value = "/visual/getSectionList")
     public String getSectionList(Model model, HttpServletRequest request) throws Exception {
         int idx = RequestUtils.getParameterInt(request, "idx", 0);
+        Map param = RequestUtils.getParameterMap(request);
         ContentQuery query = new ContentQuery();
         query.setIdx(idx);
         List<ShotTB> list = storyboardService.getShotList(query);
         model.addAttribute("sectionList", list);
+        model.addAttribute("param", param);
 
-        return "vtt/visual_section_list";
+        return "visual/visual_section_list";
     }
 
     /*
@@ -221,7 +177,7 @@ public class VisualController {
         model.addAttribute("sectionShotList", sectionShotList);
         model.addAttribute("shotServerUrl", shotServerUrl);
 
-        return "vtt/visual_section_shot_list";
+        return "visual/visual_section_shot_list";
     }
 
     /*
@@ -253,7 +209,7 @@ public class VisualController {
             model.addAttribute("userList",userList);
         }
 
-        return "vtt/visual_repre_img_list";
+        return "visual/visual_repre_img_list";
     }
 
     /*
@@ -261,7 +217,7 @@ public class VisualController {
      */
     @RequestMapping(value = "/visual/getMetaEdit")
     public String getMetaEdit(Model model, @RequestParam(value = "idx", defaultValue = "") String idx) throws Exception {
-        return "vtt/visual_meta_edit_list";
+        return "visual/visual_meta_edit_list";
     }
 
     /*
@@ -549,7 +505,7 @@ public class VisualController {
             model.addAttribute("resultMap",resultMap);
             model.addAttribute("metaJsonMap",null);
         }
-        return "vtt/visual_meta_info_list";
+        return "visual/visual_meta_info_list";
     }
 
     /*
@@ -579,7 +535,7 @@ public class VisualController {
             model.addAttribute("resultMap",resultMap);
             model.addAttribute("metaJsonMap",null);
         }
-        return "vtt/visual_meta_info_list";
+        return "visual/visual_meta_info_list";
     }
 
     /*
@@ -598,52 +554,7 @@ public class VisualController {
             metaJsonMap = mapper.readValue(jsonString, ArrayList.class);
         }
         model.addAttribute("metaJsonMap",metaJsonMap);
-        return "vtt/visual_meta_info_list";
-    }
-
-    /*
-     *  구간정보 저장
-     */
-    @RequestMapping(value = "/visual/getPutSecInfo")
-    public String  getPutSecInfo(Model model,@RequestParam(value = "arrPrm[]") List arrPrm,
-                                 @RequestParam(value = "videoId") String videoId,
-                                 @RequestParam(value = "secSeq") String secSeq,
-                                 @RequestParam(value = "startTime") String startTime,
-                                 @RequestParam(value = "endTime") String endTime,
-                                 Principal principal) throws Exception {
-        Map<String, Object> pramMap = new LinkedHashMap<>();
-        QaResult qaResult = new QaResult();
-        qaResult.setVisualPeriodNum(arrPrm);
-        qaResult.setStartTime(startTime);
-        qaResult.setEndTime(endTime);
-        qaResult.setPeriodNum(secSeq);
-        List<QaResult> qaResultList = new ArrayList<>();
-        qaResultList.add(qaResult);
-
-        ContentQuery contentQuery = new ContentQuery();
-        contentQuery.setIdx(Integer.parseInt(videoId));
-        ContentField contentField =contentService.getContentItem(contentQuery);
-        Section section = new Section();
-        section.setRegistedName(contentField.getTitle());
-        section.setFileName(contentField.getAssetfilename());
-        section.setQaResults(qaResultList);
-
-        ObjectMapper mapper = new ObjectMapper();
-        String jsonString = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(section);
-
-        pramMap.put("json", jsonString);
-        pramMap.put("videoId", videoId);
-        pramMap.put("userId", principal.getName());
-        int resultCnt = visualService.getPutSecInfo(pramMap);
-
-        if(resultCnt >0){
-            List<LinkedHashMap<String,Object>> rtnMap = visualService.getSecInfo(pramMap);
-            model.addAttribute("rtnMap",rtnMap);
-            model.addAttribute("success",true);
-        }else{
-            model.addAttribute("success",false);
-        }
-        return "vtt/visual_section_shot_list";
+        return "visual/visual_meta_info_list";
     }
 
     @RequestMapping(value = "/visual/updateShot")

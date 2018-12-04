@@ -1,6 +1,9 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@include file="../includes/taglib.jsp" %>
 
+<script>
+    var _home = "<c:url value="/"/>";
+</script>
 
 <!-- Bootstrap core JavaScript-->
 <script src="<c:url value="/webjars/jquery/2.2.4/jquery.min.js"/>"></script>
@@ -63,6 +66,10 @@
 
 <!-- Videojs -->
 <script src="<c:url value="/resources/custom/js/videojs/video.js"/>"></script>
+
+<!-- HotKeys -->
+<script src="<c:url value="/resources/custom/js/jquery.hotkeys.konan.js"/>"></script>
+
 
 <!-- SVG -->
 <script src="<c:url value="/resources/custom/js/jquery-svg/jquery.svg.js" />"></script>
