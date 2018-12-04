@@ -28,7 +28,7 @@ enum EAudioQCErrorType
 	eAudioSilenceShot = 1,
 };
 
-class CKShot
+class CKShot 
 {
 public:
 	CKShot(EShotKind eShot = eUnknownShot)
