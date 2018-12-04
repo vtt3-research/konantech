@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>모달샘플</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet" />
+    <link href="../custom/css/style.css?v1.0" rel="stylesheet" />
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+<header>
+    <h3>SELECT PICTURE</h3>
+    <span class="btn_close" onclick="parent.modalClose();"></span>
+</header>
+<div class="container background">
+    <ul class="box-list">
+        <li>
+            <div class="image-box">
+                <div>
+                    <img src="https://www.billboard.com/files/styles/article_main_image/public/media/IU-Palatte-vid-2017-billboard-1548.jpg"/>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="image-box">
+                <div>
+                    <img src="https://www.billboard.com/files/styles/article_main_image/public/media/IU-Palatte-vid-2017-billboard-1548.jpg"/>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="image-box">
+                <div>
+                    <img src="https://www.billboard.com/files/styles/article_main_image/public/media/IU-Palatte-vid-2017-billboard-1548.jpg"/>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="image-box">
+                <div>
+                    <img src="https://www.billboard.com/files/styles/article_main_image/public/media/IU-Palatte-vid-2017-billboard-1548.jpg" />
+                </div>
+            </div>
+        </li>
+    </ul>
+    <p>Please select handbag in the picture.</p>
+</div>
+<footer>
+    제출
+</footer>
+<script type="text/javascript">
+    $(function(){
+        $(".image-box").on("click",function(){
+            $(this).toggleClass("active");
+        });
+    });
+</script>
+</body>
+</html>

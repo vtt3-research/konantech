@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>모달샘플</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <link href="../custom/css/style.css?v1.0" rel="stylesheet" />
+</head>
+<body class="multiple">
+<header>
+    <h3>SELECT PICTURE</h3>
+    <p>Please drag and drop image to the matching area.</p>
+    <span class="btn_close" onclick="parent.modalClose();"></span>
+</header>
+<div class="container container-multiple">
+    <ul class="top connectedSortable" id="sortable1">
+        <li>
+            <div class="image-box">
+                <div>
+                    <img src="https://www.billboard.com/files/styles/article_main_image/public/media/IU-Palatte-vid-2017-billboard-1548.jpg"
+                         style="left:-157px;top:-169px;width:362px;"
+                    />
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="image-box">
+                <div>
+                    <img src="https://0.soompi.io/wp-content/uploads/2018/03/20004239/IU3.jpg?s=900x600&e=t"
+                         style="left:-160px;top:-72px;width:500px;"
+                    />
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="image-box">
+                <div></div>
+            </div>
+        </li>
+        <li>
+            <div class="image-box">
+                <div></div>
+            </div>
+        </li>
+        <li>
+            <div class="image-box">
+                <div></div>
+            </div>
+        </li>
+    </ul>
+    <ul class="drag-area">
+        <li>
+            <p>MOUSE</p>
+            <ul class="connectedSortable" id="sortable2"></ul>
+        </li>
+        <li>
+            <p>CAP</p>
+            <ul class="connectedSortable"></ul>
+        </li>
+        <li>
+            <p>CUP</p>
+            <ul class="connectedSortable"></ul>
+        </li>
+        <li>
+            <p>MOUSE</p>
+            <ul class="connectedSortable"></ul>
+        </li>
+    </ul>
+</div>
+<footer>
+    제출
+</footer>
+<style type="text/css">
+</style>
+<script type="text/javascript">
+    $(function(){
+    });
+</script>
+</body>
+</html>
