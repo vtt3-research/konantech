@@ -25,7 +25,7 @@ public class CrowdController {
     @RequestMapping(value = "/crowd/{type}", method = RequestMethod.GET)
     public String crowd(ModelMap modelMap, HttpServletRequest request, @PathVariable String type) throws Exception{
         Map param = RequestUtils.getParameterMap(request);
-        if(!param.get("site").equals("sugang")||!param.get("userid").equals("konan")){
+        if(param.get("site")==null||param.get("userid")==null){
             return "main/main";
         }
         List<Map> imageList = null;

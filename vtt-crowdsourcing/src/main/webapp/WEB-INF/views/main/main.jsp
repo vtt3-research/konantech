@@ -15,13 +15,13 @@
             <header>Iframe Sample</header>
             <div>
             <c:if test = "${type=='object'}">
-                <iframe src="<c:url value="/crowd/object?site=sugang&userid=konan"/>" style="width:600px; height:500px;" scrolling="no" ></iframe>
+                <iframe src="<c:url value="/crowd/object?site=sugang&userid=konan"/>" style="width:600px; height:650px;" scrolling="no" ></iframe>
             </c:if>
             <c:if test = "${type=='background'}">
-                <iframe src="<c:url value="/crowd/background?site=sugang&userid=konan"/>" style="width:600px; height:500px;" scrolling="no" ></iframe>
+                <iframe src="<c:url value="/crowd/background?site=sugang&userid=konan"/>" style="width:600px; height:530px;" scrolling="no" ></iframe>
             </c:if>
             <c:if test = "${type=='drag'}">
-                <iframe src="<c:url value="/crowd/drag?site=sugang&userid=konan"/>" style="width:808px; height:630px;" scrolling="no" ></iframe>
+                <iframe src="<c:url value="/crowd/drag?site=sugang&userid=konan"/>" style="width:600px; height:820px;" scrolling="no" ></iframe>
             </c:if>
             </div>
         </div>
@@ -31,13 +31,13 @@
             <header>Iframe Tag</header>
             <div>
             <c:if test = "${type=='object'}">
-                <xmp><iframe src="http://10.10.30.21:8082/crowd/object?site=sugang&userid=konan" style="width:600px; height:500px;" scrolling="no" ></iframe></xmp>
+                <xmp><iframe src="http://10.10.30.21:8082/crowd/object?site=sugang&userid=konan" style="width:600px; height:650px;" scrolling="no" ></iframe></xmp>
             </c:if>
             <c:if test = "${type=='background'}">
-                <xmp><iframe src="http://10.10.30.21:8082/crowd/background?site=sugang&userid=konan" style="width:600px; height:500px;" scrolling="no" ></iframe></xmp>
+                <xmp><iframe src="http://10.10.30.21:8082/crowd/background?site=sugang&userid=konan" style="width:600px; height:530px;" scrolling="no" ></iframe></xmp>
             </c:if>
             <c:if test = "${type=='drag'}">
-                <xmp><iframe src="http://10.10.30.21:8082/crowd/drag?site=sugang&userid=konan" style="width:808px; height:630px;" scrolling="no" ></iframe></xmp>
+                <xmp><iframe src="http://10.10.30.21:8082/crowd/drag?site=sugang&userid=konan" style="width:600px; height:820px;" scrolling="no" ></iframe></xmp>
             </c:if>
             </div>
         </div>
@@ -45,3 +45,12 @@
 </article>
 <c:import url="../includes/script.jsp"/>
 <c:import url="../includes/footer.jsp"/>
+<script>
+    window.addEventListener("message",function(event){
+        alert(event.data);
+        callback();
+    });
+    function callback(){
+        alert("callback test");
+    }
+</script>

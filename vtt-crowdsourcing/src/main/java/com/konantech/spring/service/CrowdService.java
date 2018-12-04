@@ -236,9 +236,10 @@ public class CrowdService{
                 }
                 answerList.add(answer);
             }else if(target.equals("answer")){
+                allcnt++;
                 //오답
                 if(!objectcode.equals(targetcode)){
-                    wrong+=1;
+                    wrong++;
                 }
             }
             //선택로그 등록
