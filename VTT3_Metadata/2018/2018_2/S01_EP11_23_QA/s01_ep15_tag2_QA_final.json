@@ -1,0 +1,637 @@
+{ 
+	"file_name": "s01_ep15_tag2_QA_final.json",
+	"registed_name": "s01_ep15_tag2_QA_final.json", 
+	"qa_results": 
+	[ 
+		{ 
+		"visual_period_num": "1-26", 
+		"period_num": "q1", 
+		"start_time": "00:00:00;00", 
+		"end_time": "00:00:28;02",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Rachel is serving drinks to Joey, Ross, and Monica. Monica finds a pencil inside her drink and asks about it to Rachel. Rachel apologizes to Monica about her mistake and exchanges the pencil with a cinnamon stick."}, 
+			{ "description": "Joey, Ross, and Monica are being served by Rachel"}, 
+			{ "description": "Monica is bemused by what is in her drink"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What drink did Ross order?", 
+				"question_type": "Visual detail", 
+				"answer": "Cappuccino", 
+				"wrong_answer1": "Coffee", 
+				"wrong_answer2": "Cider", 
+				"wrong_answer3": "Americano", 
+				"wrong_answer4": "Latte" } 
+			} ,
+			{ "qa": { 
+				"question": "What was in Monica's Cider?", 
+				"question_type": "Visual detail", 
+				"answer": "A pencil", 
+				"wrong_answer1": "A cinnamon stick", 
+				"wrong_answer2": "A flower", 
+				"wrong_answer3": "Water", 
+				"wrong_answer4": "Dust" } 
+				} ,
+			{ "qa": { 
+				"question": "Who is serving the drinks?", 
+				"question_type": "Person", 
+				"answer": "Rachel", 
+				"wrong_answer1": "Ross", 
+				"wrong_answer2": "Monica", 
+				"wrong_answer3": "Matt", 
+				"wrong_answer4": "Chandler" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "27,28,29", 
+		"period_num": "q2", 
+		"start_time": "00:01:17;23", 
+		"end_time": "00:01:33;12",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Chandler is at work inputting data into his computer in his work cubicle. Mrs.Tedlock approaches him to inform him of something. Chandler complements Mrs.Tedlock's outfit and on the length of her sleeves. Mrs.Tedlock passes along a meeting request from Mr.Kostelic to Chandler. Chandler is tidying away the prank toys and insists his innocence in regards to the past pranks."}, 
+			{ "description": "Chandler and Mrs.Tedlock is having a conversation at the office"}, 
+			{ "description": "Mrs.Tedlock lets Chandler know about a meeting request from Mr.Kostelic"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What kind of animal is Chandler hiding?", 
+				"question_type": "Visual detail", 
+				"answer": "A chicken", 
+				"wrong_answer1": "A goose", 
+				"wrong_answer2": "A monkey", 
+				"wrong_answer3": "A dog", 
+				"wrong_answer4": "A duck" } 
+			} ,
+			{ "qa": { 
+				"question": "What color is Mrs.Tedlock's cardigan?", 
+				"question_type": "Visual detail", 
+				"answer": "Blue", 
+				"wrong_answer1": "Red", 
+				"wrong_answer2": "Black", 
+				"wrong_answer3": "Yellow", 
+				"wrong_answer4": "White" } 
+				} ,
+			{ "qa": { 
+				"question": "Why did Mrs.Tedlock approach Chandler's cubicle?", 
+				"question_type": "Reason", 
+				"answer": "To inform him of a meeting request from Mr.Kostelic", 
+				"wrong_answer1": "To complement Chandler", 
+				"wrong_answer2": "To say hello", 
+				"wrong_answer3": "To ask Chandler out for dinner", 
+				"wrong_answer4": "To fire Chandler" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "30-58", 
+		"period_num": "q3", 
+		"start_time": "00:01:46;07", 
+		"end_time": "00:03:57;18",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Pheobe runs into the café with Joey, Ross, Rachel, Monica all sitting down around the sofa. She talks about a big news regarding Chandler and asks the group to look surprised when Chandler breaks the news. Chandler walks into the café and shares the news about the promotion offer he got from his boss at work. Then the gang congratulates him. Chandler breaks the news that he quit his job since he was unsure whether his job was what he wanted to do in the long run. Pheobe asks Chandler whether he would like to work at her client's restaurant as a head chef. Chandler declines but Monica is willing."}, 
+			{ "description": "Chandler, Joey, Ross, Rachel, Monica, and Pheobe are at the café sitting around the sofa talking."}, 
+			{ "description": "Chandler breaks the news in regards to him being offered a promotion at work and the reason why he quit his job to the gang."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "For how long have Chandler been working at his job?", 
+				"question_type": "Person", 
+				"answer": "5 years", 
+				"wrong_answer1": "1 year", 
+				"wrong_answer2": "2 years", 
+				"wrong_answer3": "3 years", 
+				"wrong_answer4": "4 years" } 
+			} ,
+			{ "qa": { 
+				"question": "What is the name of Pheobe's new client?", 
+				"question_type": "Person", 
+				"answer": "Steve", 
+				"wrong_answer1": "Jack", 
+				"wrong_answer2": "Joey", 
+				"wrong_answer3": "John", 
+				"wrong_answer4": "Luke" } 
+				} ,
+			{ "qa": { 
+				"question": "What is Monica's occupation?", 
+				"question_type": "Person", 
+				"answer": "A chef", 
+				"wrong_answer1": "A police", 
+				"wrong_answer2": "A waitress", 
+				"wrong_answer3": "A priest", 
+				"wrong_answer4": "A teacher" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "59-102", 
+		"period_num": "q4", 
+		"start_time": "00:03:57;18", 
+		"end_time": "00:06:45;19",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Chandler runs into the apartment kitchen where he is greeted by Rachel. Joey, Ross, and Pheobe are sitting on the sofa in the living room. Chandler tells them about his appointment with a career counselor. Monica runs in excitedly to break the news about the meeting she had with her potential new boss: Steve. She tells the group that she will be inviting Steve to her place for a dinner and suggests Pheobe be there to accompany her. Ross asks the group where he should take Celia for their date night and says that he will bring her back to his apartment to introduce her to his monkey. Joey reckons that Celia will find the monkey very cute."}, 
+			{ "description": "Monica shares how her meeting went with her new boss."}, 
+			{ "description": "Ross plans on introducing Celia to his monkey."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is the name of the career counselor?", 
+				"question_type": "Person", 
+				"answer": "Robert Pillman", 
+				"wrong_answer1": "Robert Pires", 
+				"wrong_answer2": "Robert Geller", 
+				"wrong_answer3": "Robert Green", 
+				"wrong_answer4": "Robert Seaman" } 
+			} ,
+			{ "qa": { 
+				"question": "On which day is Monica cooking dinner for her boss?", 
+				"question_type": "Statement", 
+				"answer": "Monday", 
+				"wrong_answer1": "Tuesday", 
+				"wrong_answer2": "Wednesday", 
+				"wrong_answer3": "Thursday", 
+				"wrong_answer4": "Friday" } 
+				} ,
+			{ "qa": { 
+				"question": "What is Celia's job title?", 
+				"question_type": "Person", 
+				"answer": "Curator of Insects", 
+				"wrong_answer1": "Manager", 
+				"wrong_answer2": "Head chef", 
+				"wrong_answer3": "Deputy Manager", 
+				"wrong_answer4": "Senior Manager" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "103104", 
+		"period_num": "q5", 
+		"start_time": "00:06:45;19", 
+		"end_time": "00:06:57;10",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross and Celia are at Ross' apartment. Marcel the monkey is hanging on to Celia's hair. Celia is screaming in fear. Ross is trying to calm her down and uses a banana to draw the monkey's attention away from Celia's hair. The monkey hops on to Ross' shoulders."}, 
+			{ "description": "Marcel the monkey clings on to Celia's hair"}, 
+			{ "description": "Ross panics but manages to get the monkey hop back on to his shoulders."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is the name of the monkey?", 
+				"question_type": "Statement", 
+				"answer": "Marcel", 
+				"wrong_answer1": "Marco", 
+				"wrong_answer2": "Mick", 
+				"wrong_answer3": "Michael", 
+				"wrong_answer4": "Mindy" } 
+			} ,
+			{ "qa": { 
+				"question": "What color is Celia's necklace?", 
+				"question_type": "Visual detail", 
+				"answer": "Gold", 
+				"wrong_answer1": "White", 
+				"wrong_answer2": "Yellow", 
+				"wrong_answer3": "Red", 
+				"wrong_answer4": "Blue" } 
+				} ,
+			{ "qa": { 
+				"question": "On which side of Ross' hand does he wear his watch?", 
+				"question_type": "Visual detail", 
+				"answer": "Left side", 
+				"wrong_answer1": "Right side", 
+				"wrong_answer2": "Both sides", 
+				"wrong_answer3": "None, he's not wearing one", 
+				"wrong_answer4": "On his neck" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "105-136", 
+		"period_num": "q6", 
+		"start_time": "00:07:04;20", 
+		"end_time": "00:09:56;09",
+		"related_period": "q3", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Monica has cooked a batch of Salmon Mousse. Joey and Rachel are sitting around the kitchen table. Joey tastes a bit of the Salmon Mousse and shares his remarks. Chandler walks into the house with a hand full of test results after his career counseling appointment. Chandler is not pleased with the test results which suggests that he should pursue the same career field that he had just quit from. Monica offers her homemade pre-appetizer to Chandler. Monica talks over the phone with Wendy to discuss the wage for her planned dinner night on Monday. Rachel feels upset that Monica had asked someone else to do the waitressing."}, 
+			{ "description": "Chandler is talking about the test result he got back from his counselor to Joey, Rachel, and Monica."}, 
+			{ "description": "Rachel is not impressed by the fact that Monica does not appreciate her waitressing skills."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is scheduled to come over for waitressing for the Monday night dinner at Monica's?", 
+				"question_type": "Person", 
+				"answer": "Wendy", 
+				"wrong_answer1": "Rachel", 
+				"wrong_answer2": "Ross", 
+				"wrong_answer3": "Pheobe", 
+				"wrong_answer4": "Joey" } 
+			} ,
+			{ "qa": { 
+				"question": "What fish is used in Monica's Mousse?", 
+				"question_type": "Visual detail", 
+				"answer": "Salmon", 
+				"wrong_answer1": "Tuna", 
+				"wrong_answer2": "Halibut", 
+				"wrong_answer3": "Snapper", 
+				"wrong_answer4": "Piranha" } 
+				} ,
+			{ "qa": { 
+				"question": "What job did the test results indicate for Chandler?", 
+				"question_type": "Person", 
+				"answer": "He should pursue a career in Data Processing Management", 
+				"wrong_answer1": "He should pursue a career in sports", 
+				"wrong_answer2": "He should pursue a career in arts", 
+				"wrong_answer3": "None", 
+				"wrong_answer4": "He should be a super hero" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "137-139", 
+		"period_num": "q7", 
+		"start_time": "00:09:59;15", 
+		"end_time": "00:10:20;09",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Celia and Ross are kissing each other at Ross' apartment. Celia insists Ross talk in a nasty manner. Ross, unfamiliar with such action, hesitantly says the word \"Vulva\"."}, 
+			{ "description": "Celia and Ross are on the sofa, making out."}, 
+			{ "description": "Ross inexperience in such situations leads to him saying a weird word."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What color is Ross' shirt", 
+				"question_type": "Visual detail", 
+				"answer": "Blue", 
+				"wrong_answer1": "Black", 
+				"wrong_answer2": "White", 
+				"wrong_answer3": "Yellow", 
+				"wrong_answer4": "Green" } 
+			} ,
+			{ "qa": { 
+				"question": "What does Celia want Ross to do?", 
+				"question_type": "Person", 
+				"answer": "Talk dirty to her", 
+				"wrong_answer1": "Talk nicely to her", 
+				"wrong_answer2": "Talk politely to her", 
+				"wrong_answer3": "Be honest with her", 
+				"wrong_answer4": "Ignore her" } 
+				} ,
+			{ "qa": { 
+				"question": "Why does Ross seem confused?", 
+				"question_type": "Reason", 
+				"answer": "He is inexeperienced in arousal talks", 
+				"wrong_answer1": "He is angry", 
+				"wrong_answer2": "He is tired", 
+				"wrong_answer3": "He is sad", 
+				"wrong_answer4": "He is relieved" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "140-178", 
+		"period_num": "q8", 
+		"start_time": "00:10:41;11", 
+		"end_time": "00:14:46;17",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross and Joey are in Joey's apartment kitchen, discussing Ross' last date night. Ross is munching on a bit of bread. They move to the living room with Joey suggesting Ross familiarize dirty talking by saying some to him as a practice. Joey stars off by saying making some dirty comments on Ross. Ross, finally convinced by the idea, engages in the activity by closing his eyes. Suddenly, Chandler comes out of a room to watch. Chandler makes fun of both Ross and Joey. Joey lets Chandler know that Mr.Kostelik has been constantly calling. Another phone call rings and Chandler finally answers it. Chandler's comment over the phone suggests that he is being offered an irresistable offer and decides to go back to work on Monday."}, 
+			{ "description": "Ross and Joey practice dirty talking to each other."}, 
+			{ "description": "Chandler decides to go back to his work."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How many characters are in involved in the scene?", 
+				"question_type": "Person", 
+				"answer": "3", 
+				"wrong_answer1": "2", 
+				"wrong_answer2": "1", 
+				"wrong_answer3": "4", 
+				"wrong_answer4": "5" } 
+			} ,
+			{ "qa": { 
+				"question": "Who is the phone call intended for?", 
+				"question_type": "Person", 
+				"answer": "Chandler", 
+				"wrong_answer1": "Pheobe", 
+				"wrong_answer2": "Ross", 
+				"wrong_answer3": "Joey", 
+				"wrong_answer4": "Rachel" } 
+				} ,
+			{ "qa": { 
+				"question": "What is Chandler holding on to while he is on the phone?", 
+				"question_type": "Action", 
+				"answer": "A hockey stick", 
+				"wrong_answer1": "A guitar", 
+				"wrong_answer2": "A broom stick", 
+				"wrong_answer3": "A spear", 
+				"wrong_answer4": "A sword" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "179-187", 
+		"period_num": "q9", 
+		"start_time": "00:14:53;21", 
+		"end_time": "00:15:46;21",
+		"related_period": "q8", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Chandler and Pheobe walk into Chandler's new office. Chandler shows off the view from his office to Pheobe. They both sit on the office chairs. Chandler calls his assistant, 'Helen', without any purpose other than to show off to Pheobe. Helen walks in half-heartedly. Chandler sends Helen away."}, 
+			{ "description": "Chandler is showing his new office to Pheobe"}, 
+			{ "description": "Chandler calls Helen over to impress Pheobe."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is the name of Chandler's assistant?", 
+				"question_type": "Person", 
+				"answer": "Helen", 
+				"wrong_answer1": "Mark", 
+				"wrong_answer2": "Mendy", 
+				"wrong_answer3": "Milly", 
+				"wrong_answer4": "Rachel" } 
+			} ,
+			{ "qa": { 
+				"question": "What word does Pheobe use to describe Chandler's new office?", 
+				"question_type": "Statement", 
+				"answer": "Cube", 
+				"wrong_answer1": "Cubicle", 
+				"wrong_answer2": "Vestibule", 
+				"wrong_answer3": "Room", 
+				"wrong_answer4": "Office" } 
+				} ,
+			{ "qa": { 
+				"question": "What does Helen's facial expression suggest?", 
+				"question_type": "Emotion", 
+				"answer": "Annoyed", 
+				"wrong_answer1": "Glad", 
+				"wrong_answer2": "Happy", 
+				"wrong_answer3": "Surprised", 
+				"wrong_answer4": "Excited" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "188-197", 
+		"period_num": "q10", 
+		"start_time": "00:15:51;17", 
+		"end_time": "00:16:50;21",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Monica is on the phone with Wendy in the kitchen. Monica is angry because Wendy bailed on her. Rachel is getting ready to go out. She is unwilling to help Monica out. Monica proposes to pay her 20 dollars an hour and Rachel finally agrees to help her. Rachel takes her coats off."}, 
+			{ "description": "Monica receives the news that Wendy won't be able to make it to the dinner over the phone."}, 
+			{ "description": "After hard negotiation, Rachel agrees to help Monica."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is Monica on the phone with?", 
+				"question_type": "Person", 
+				"answer": "Wendy", 
+				"wrong_answer1": "Willy", 
+				"wrong_answer2": "Wallace", 
+				"wrong_answer3": "Woody", 
+				"wrong_answer4": "Wanda" } 
+			} ,
+			{ "qa": { 
+				"question": "Why was Rachel unwilling to help Monica out?", 
+				"question_type": "Reason", 
+				"answer": "She was upset because Monica had asked Wendy to help her", 
+				"wrong_answer1": "Because Monica asked her to cook", 
+				"wrong_answer2": "Because she had other plans", 
+				"wrong_answer3": "Because she didn't like Steve", 
+				"wrong_answer4": "Because she wanted to go out for a walk around" } 
+				} ,
+			{ "qa": { 
+				"question": "How much did Monica agree to pay Rachel per hour?", 
+				"question_type": "Statement", 
+				"answer": "$20", 
+				"wrong_answer1": "$10", 
+				"wrong_answer2": "$15", 
+				"wrong_answer3": "$5", 
+				"wrong_answer4": "$25" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "198-238", 
+		"period_num": "q11", 
+		"start_time": "00:16:50;21", 
+		"end_time": "00:20:28;14",
+		"related_period": "q10", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Steve and Pheobe are greeted by Rachel at the door. Pheobe plays her part by complementing the smell in the kitchen in an exaggerated manner. Monica gives Steve a tour of the house. Meanwhile, Pheobe confesses to Rachel in the kitchen that Steve is high on Marijuana. They gather at the living room. Monica offers her dish for Steve to try. Steve gobbles the food and without listening to Monica's explanation. Steve shows signs of being high on Marijuana by repeatedly saying the same word. He then wanders into the kitchen. Rachel rushes to ask if he needs any help. Rachel signals to Monica that Steve is in an abnormal state. Steve goes through the food in the cabinet but Monica tries her best to get him to wait for the main dish. Steve takes a bag of gummy bears into his jacket and refuses to return it. Steve and Monica both grab hold of the gummy bear packet and eventually, the packet gets ripped apart, splattering all over the dining table. Monica angrily informs Steve that the dinner is over."}, 
+			{ "description": "Steve and Pheobe are invited over to Monica's house for a dinner and Rachel is the waitress for the night."}, 
+			{ "description": "Steve's abnormal behavior leads to the dinner ending abruptly."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why was Steve acting strange?", 
+				"question_type": "Reason", 
+				"answer": "Because he had smoked Marijuana", 
+				"wrong_answer1": "Because he didn't want to be at Monica's house", 
+				"wrong_answer2": "Because he was tired", 
+				"wrong_answer3": "Because he liked Monica", 
+				"wrong_answer4": "Because he was distracted by all the food" } 
+			} ,
+			{ "qa": { 
+				"question": "What was Rachel's role for the dinner?", 
+				"question_type": "Person", 
+				"answer": "She is the waitress", 
+				"wrong_answer1": "She is the gate keeper", 
+				"wrong_answer2": "She is the guard", 
+				"wrong_answer3": "She is the bouncer", 
+				"wrong_answer4": "She is the DJ" } 
+				} ,
+			{ "qa": { 
+				"question": "How many people are involved in the scene?", 
+				"question_type": "Person", 
+				"answer": "4", 
+				"wrong_answer1": "2", 
+				"wrong_answer2": "3", 
+				"wrong_answer3": "1", 
+				"wrong_answer4": "6" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "239-253", 
+		"period_num": "q12", 
+		"start_time": "00:20:39;05", 
+		"end_time": "00:21:45;18",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross, Joey, Monica, Rachel, and Pheobe are all sitting around the sofa at the café. The group tries to comfort Monica for what happened on the monday dinner with Steve. Ross goes over to the bar to get some more coffee. Joey follows him to the bar and the two start to talk about Ross' date night with Celia. Ross expresses his confidence in how he finally mastered the art of dirty talk. Pheobe suggests to the group for a late movie night. Rachel suggests waiting for Chandler. Ross wonders where Chandler is."}, 
+			{ "description": "The whole group except for Chandler are at the café."}, 
+			{ "description": "The group is chatting about the horrible dinner night with Steve."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who was not present at the get together in the café scene?", 
+				"question_type": "Person", 
+				"answer": "Chandler", 
+				"wrong_answer1": "Pheobe", 
+				"wrong_answer2": "Ross", 
+				"wrong_answer3": "Rachel", 
+				"wrong_answer4": "Monica" } 
+			} ,
+			{ "qa": { 
+				"question": "What did Ross end up doing with Celia at the end of the night?", 
+				"question_type": "Event", 
+				"answer": "Cuddle", 
+				"wrong_answer1": "Sex", 
+				"wrong_answer2": "Video Games", 
+				"wrong_answer3": "Exercise", 
+				"wrong_answer4": "BBQ" } 
+				} ,
+			{ "qa": { 
+				"question": "What does Pheobe suggest to the group?", 
+				"question_type": "Statement", 
+				"answer": "That they go see a movie", 
+				"wrong_answer1": "That they go play ping pong", 
+				"wrong_answer2": "That they go out for a nice dinner", 
+				"wrong_answer3": "That they go driving", 
+				"wrong_answer4": "That they go drink at a bar" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "254-255", 
+		"period_num": "q13", 
+		"start_time": "00:21:45;18", 
+		"end_time": "00:22:22;17",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Chandler is still at the office at late hours, shouting over the phone to an employee. He expresses his displeasure and angrily hangs up the phone. Then he realizes himself becoming someone he had hoped not to become and gets frightened."}, 
+			{ "description": "Chandler is still in his office at late hours."}, 
+			{ "description": "He is in a heated argument with someone over the phone in regards to the numbers in his reports being unsatisfactory."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where is Chandler at?", 
+				"question_type": "Location", 
+				"answer": "In his office", 
+				"wrong_answer1": "In School", 
+				"wrong_answer2": "In Monica's apartment", 
+				"wrong_answer3": "In a swimming pool", 
+				"wrong_answer4": "In the café" } 
+			} ,
+			{ "qa": { 
+				"question": "What mood is Chandler in while on the phone?", 
+				"question_type": "Emotion", 
+				"answer": "Angry", 
+				"wrong_answer1": "Sad", 
+				"wrong_answer2": "Happy", 
+				"wrong_answer3": "Excited", 
+				"wrong_answer4": "Calm" } 
+				} ,
+			{ "qa": { 
+				"question": "Why did Chandler look surprised at the end?", 
+				"question_type": "Reason", 
+				"answer": "He realized he had become what he had hoped not to become.", 
+				"wrong_answer1": "He found out the time", 
+				"wrong_answer2": "He was very hungry", 
+				"wrong_answer3": "He needed to use the washroom", 
+				"wrong_answer4": "He realized he could miss the movie night" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "256-257", 
+		"period_num": "q14", 
+		"start_time": "00:22:24;17", 
+		"end_time": "00:22:38;23",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Pheobe is massaging Steve at her workplace. Steve is lying down. Pheobe purposefully inflicts pain on to his back."}, 
+			{ "description": "Pheobe and Steve are at her massage shop."}, 
+			{ "description": "Pheobe massages him very hard on purpose for what he's done at Monica's dinner"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How many characters are in involved in the scene?", 
+				"question_type": "Person", 
+				"answer": "2", 
+				"wrong_answer1": "3", 
+				"wrong_answer2": "4", 
+				"wrong_answer3": "5", 
+				"wrong_answer4": "6" } 
+			} ,
+			{ "qa": { 
+				"question": "Why was Pheobe purposefully inflicting pain to Steve?", 
+				"question_type": "Reason", 
+				"answer": "Because of he's rudeness at Monica's dinner", 
+				"wrong_answer1": "Because of her affection towards him", 
+				"wrong_answer2": "Because of her stress", 
+				"wrong_answer3": "Because she didn't like his smell", 
+				"wrong_answer4": "Because she wanted to go out with him" } 
+				} ,
+			{ "qa": { 
+				"question": "What color is the bed sheet?", 
+				"question_type": "Visual detail", 
+				"answer": "Blue", 
+				"wrong_answer1": "Red", 
+				"wrong_answer2": "Yellow", 
+				"wrong_answer3": "Black", 
+				"wrong_answer4": "White" 
+				} 
+			} 
+		] 
+	}
+	]
+}

@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <link rel="stylesheet" type="text/css" href="<c:url value="/webjars/jquery-ui/1.12.1/jquery-ui.min.css"/>">
-    <link rel="stylesheet" type="text/css" href="<c:url value="/webjars/bootstrap/4.0.0-2/css/bootstrap.min.css"/>">
+    <link rel="stylesheet" type="text/css" href="<c:url value="/webjars/bootstrap/3.3.6/css/bootstrap.min.css"/>">
     <link rel="stylesheet" type="text/css" href="<c:url value="/webjars/font-awesome/4.7.0/css/font-awesome.min.css"/>">
 
     <!-- Custom styles for this template-->
@@ -29,7 +29,7 @@
 <body class="bg-dark">
 
 <div class="container">
-    <div class="card card-login mx-auto mt-5">
+    <div class="card card-login mx-auto mt-5" style="margin: 8% auto;">
         <div class="card-header">Login</div>
         <div class="card-body">
             <form id="login-form" class="smart-form client-form" method="post">
@@ -72,9 +72,9 @@
 </div>
 
 <!-- Bootstrap core JavaScript-->
-<script src="<c:url value="/webjars/jquery/1.12.4/jquery.min.js"/>"></script>
+<script src="<c:url value="/webjars/jquery/2.2.4/jquery.min.js"/>"></script>
 <script src="<c:url value="/webjars/jquery-ui/1.12.1/jquery-ui.min.js"/>"></script>
-<script src="<c:url value="/webjars/bootstrap/4.0.0-2/js/bootstrap.bundle.min.js"/>"></script>
+<script src="<c:url value="/webjars/bootstrap/3.3.6/js/bootstrap.min.js"/>"></script>
 <script src="<c:url value="/webjars/bootbox/4.4.0/bootbox.js"/>"></script>
 <script src="<c:url value="/webjars/jquery-validation/1.17.0/jquery.validate.min.js"/>"></script>
 

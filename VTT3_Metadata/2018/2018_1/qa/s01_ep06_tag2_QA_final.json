@@ -1,0 +1,567 @@
+{ 
+	"file_name": "s01_ep06_tag2_QA_final",
+	"registed_name": "s01_ep06_tag2_QA_final", 
+	"qa_results": 
+	[ 
+		{ 
+		"visual_period_num": "1, 2, 3, 4, 5-9", 
+		"period_num": "1", 
+		"start_time": "00:00:06;11", 
+		"end_time": "00:00:52;22",
+		"description_info": 
+		[ 
+			{ "description": "In a theater, all six friends except Joey are sitting together. They are holding a blue pamphlet in their hands. Rachel finds  Joey from it and shows it to others. Rachel, and Monica are sitting together on the front row. Ross, Chandler, and Phoebe are sitting on the back row. The lights are turned off, Joey is acting on the stage. A woman is lying in front of him, and he is looking at her in his chair with legs crossed. When a song starts, he stands up and sings with motions. All the friends keep a straight face "}, 
+			{ "description": "All friends except Joey are sitting together in the audience."}, 
+			{ "description": "Joey is sitting in his chair on the stage."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where are the friends?", 
+				"answer": "They are in a theater.", 
+				"wrong_answer1": "Thye are at home.", 
+				"wrong_answer2": "They are in their office.", 
+				"wrong_answer3": "They are in the toilet.", 
+				"wrong_answer4": "They are in the kitchen." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Joey doing?", 
+				"answer": "Joey is acting.", 
+				"wrong_answer1": "Joey is sleeping.", 
+				"wrong_answer2": "Joey is eating.", 
+				"wrong_answer3": "Joey is cooking.", 
+				"wrong_answer4": "Joey is shopping." } 
+				} ,
+			{ "qa": { 
+				"question": "Who is not sitting in the audience?", 
+				"answer": "Joey.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Chandler.", 
+				"wrong_answer3": "Ross.", 
+				"wrong_answer4": "Phoebe." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "10,11,12-24", 
+		"period_num": "2", 
+		"start_time": "00:01:33;22", 
+		"end_time": "00:02:57;23",
+		"description_info": 
+		[ 
+			{ "description": "In the theater, actors are bowing, and the audience gives them applause. The actors leave, and the five friends without Joey are sitting down with tired faces. Rachel and Monica are complaining. Chandler is looking at a woman and signaling Ross sitting next to him.  They all watch the woman who is holding a mirror and looking at it. Rachel stands next to Monica. The friends around him encourage him to approach her."}, 
+			{ "description": "Ross and Chandler are sitting together."}, 
+			{ "description": "Chandler stares at a beautiful woman sitting over the stage.  "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How is the play?", 
+				"answer": "It is boring.", 
+				"wrong_answer1": "It is interesting.", 
+				"wrong_answer2": "It is exciting.", 
+				"wrong_answer3": "It is enjoyable.", 
+				"wrong_answer4": "It is touching." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Chandler doing?", 
+				"answer": "He is looking at a beautiful woman.", 
+				"wrong_answer1": "He is singing.", 
+				"wrong_answer2": "He is dancing.", 
+				"wrong_answer3": "He is running around the stage.", 
+				"wrong_answer4": "He is crying. " } 
+				} ,
+			{ "qa": { 
+				"question": "Who is standing next to Monica?", 
+				"answer": "Rachel.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Joey.", 
+				"wrong_answer3": "Phoebe.", 
+				"wrong_answer4": "Actors." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "25-51", 
+		"period_num": "3", 
+		"start_time": "00:02:58;01", 
+		"end_time": "00:04:25;15",
+		"description_info": 
+		[ 
+			{ "description": " With their encouragement, Chandler goes to the beautiful woman who is putting shawl around her. Ross starts talking to her nervously. The woman, Aurora, and Chandler are standing and talking. When Chandler is excited about her reaction, she calls him again to ask. While they are talking, Joey comes back to the friends with light steps. All friends greet him. Joey is disappointed because of their bad reactions about the play. While they are talking, Chandler runs to them with arms widely opened. He gives a short and direct comment to Joey. Chandler is showing off his success to others by passing her name card around."}, 
+			{ "description": "Chandler is talking to the woman and happily going back to his friens with light step."}, 
+			{ "description": "Chandler shows off his success by passing the woman's name card around his friends."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who approaches the beautiful woman in the theater?", 
+				"answer": "Chandler.", 
+				"wrong_answer1": "Phoebe.", 
+				"wrong_answer2": "Joey.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Ross." } 
+			} ,
+			{ "qa": { 
+				"question": "Is he successful to date the beautiful woman?", 
+				"answer": "Yes, he gets her name card.", 
+				"wrong_answer1": "No, he is not successful.", 
+				"wrong_answer2": "No, she refuses her.", 
+				"wrong_answer3": "No, she has a boyfriend.", 
+				"wrong_answer4": "No, she is busy." } 
+				} ,
+			{ "qa": { 
+				"question": "How does Jeoy feel about his friends' reaction?", 
+				"answer": "He is disappointed. ", 
+				"wrong_answer1": "He is upset.", 
+				"wrong_answer2": "He is annoyed. ", 
+				"wrong_answer3": "He is excited.", 
+				"wrong_answer4": "He is sad." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "52-75", 
+		"period_num": "4", 
+		"start_time": "00:04:25;16", 
+		"end_time": "00:05:59;17",
+		"description_info": 
+		[ 
+			{ "description": "Phoebe is looking at Monica's hand on the sofa. Next to them, Ross is holding a cup in his hands. Chandler hurriedly comes in and sits on the sofa alone. When the three ask him about his date, he stands up and tells them the story dramatically. In his date, he is sitting with Aurora with the table inbetween them. His date scene, the past, and the scene with him being with friends, the present, are crossing. From his story, he and all his friends realize that Aurora is actually married with the past and present scenes crossed over.  "}, 
+			{ "description": "Phoebe, Monica, and Ross are sitting together on the sofa.  Chandler comes in and sits alone. "}, 
+			{ "description": "Chandler and Aurora are talking together with the table intween them. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Ross holding?", 
+				"answer": "Ross is holding a cup.", 
+				"wrong_answer1": "Ross is holding a book.", 
+				"wrong_answer2": "Ross is holding a computuer.", 
+				"wrong_answer3": "Ross is holding an apple.", 
+				"wrong_answer4": "Ross is holding a magazine. " } 
+			} ,
+			{ "qa": { 
+				"question": "What is Chandler talking about?", 
+				"answer": "Chandler is talking about his date.", 
+				"wrong_answer1": "Chandler is talking about his computer. ", 
+				"wrong_answer2": "Chandler is talking about his car.", 
+				"wrong_answer3": "Chandler is talking about his work.", 
+				"wrong_answer4": "Chandler is talking about his parents. " } 
+				} ,
+			{ "qa": { 
+				"question": "Why are Chandler and his friends surprised?", 
+				"answer": "Because Aurora is married and accepts his asking her out. ", 
+				"wrong_answer1": "Because Aurora has kids. ", 
+				"wrong_answer2": "Because Aurora has cancer and a terminally ill patien.t", 
+				"wrong_answer3": "Because Aurora doesn't have money.", 
+				"wrong_answer4": "Because Aurora is born in the US and doesn't know English." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "76-98", 
+		"period_num": "5", 
+		"start_time": "00:05:59;18", 
+		"end_time": "00:07:23;13",
+		"description_info": 
+		[ 
+			{ "description": "As the story goes on, they realize that she has not only husband but also boyfriend. Chandler stands in front of his friends and talk about his date. Phoebe, Monica, and Ross are listening to his story on the sofa. Joey is crouching and sitting on the chair with the back of it on the front. Monica and Phoebe can't understand Chandler's idea, but Ross and Joey agree with him. "}, 
+			{ "description": "Phoebe, Monica, and Ross are sitting on the sofa together listening to Chandler."}, 
+			{ "description": "Chandler is standing in front of his friends and talking about his date."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is talking about dating?", 
+				"answer": "Chandler.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Joey.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Phoebe." } 
+			} ,
+			{ "qa": { 
+				"question": "Who are sitting together on the sofa?", 
+				"answer": "Phoebe, Monica, and Ross.", 
+				"wrong_answer1": "Chandler, Rachel, and Ross", 
+				"wrong_answer2": "Rachel, Monica, and Phoebe.", 
+				"wrong_answer3": "Phoebe, Joey, and Ross.", 
+				"wrong_answer4": "Chandler, Ross, and Joey." } 
+				} ,
+			{ "qa": { 
+				"question": "Who is sitting on the chair?", 
+				"answer": "Joey.", 
+				"wrong_answer1": "Chandler. ", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Rachel." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "99-123", 
+		"period_num": "6", 
+		"start_time": "00:07:23;14", 
+		"end_time": "00:08:57;19",
+		"description_info": 
+		[ 
+			{ "description": "As soon as Ross starts talking with quotations, others pretend to sleep. They make fun of him, and he shows a sulky face. At home again, Monica, Chandler, Phoebe, and Ross are coming in the house. Rachel welcomes them with her arms widely opened and big smiles on her face in the livingroom. Rachel is proud of herself that she cleaned the house and shows that off to her friends. She goes round the table and approaches her friend to talk. All her friends like it. Monica walks around the room slowly and finds that furniture's arrangement is changed. She is annoyed by the arrangement and moves the ornament back to its original place. Ross is sitting on the sofa alone. Chandler is standing behind the sofa. Phoebe is sitting on another one, and Rachel is sitting on the armrest of it with Phoebe. Phoebe and Chandler comment on her attitudes.  "}, 
+			{ "description": "Rachel is waiting for her friends. She expects her friends' compliments. "}, 
+			{ "description": "Monica slowly walks around and finds that the furniture is moved."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who cleaned the house?", 
+				"answer": "Rachel.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Phoebe.", 
+				"wrong_answer3": "Ross.", 
+				"wrong_answer4": "Joey." } 
+			} ,
+			{ "qa": { 
+				"question": "How does Rachel feel about her cleaning up?", 
+				"answer": "She is proud of herself.", 
+				"wrong_answer1": "She is annoyed.", 
+				"wrong_answer2": "She is sad.", 
+				"wrong_answer3": "She is worried.", 
+				"wrong_answer4": "She is tired." } 
+				} ,
+			{ "qa": { 
+				"question": "Who doesn't like Rachel's cleaning?", 
+				"answer": "Monica.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Chandler.", 
+				"wrong_answer3": "Phoebe.", 
+				"wrong_answer4": "Joey." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "124-159", 
+		"period_num": "7", 
+		"start_time": "00:08:57;20", 
+		"end_time": "00:10:39;19",
+		"description_info": 
+		[ 
+			{ "description": "Monica puts the furniture back to its original place. Phoebe and Chandler's comments stop her. She is upset by her friends and Ross's criticism and shows her emotion with body language. Monica sits on the sofa alone opposite of others with the table inbetween them. Ross stands up from the sofa and sits on the table to talk to Monica, and Rachel goes to Monica and sits next to Ross. Chandler goes in front of Monica and hunkers down. Phoebe is standing right behind Ross and Rachel. Joey talking to the phone comes in the house with an excited face. He hangs up the phone, and Ross takes juice from the fridge and drinks looking at Joey. Joey is excited about the phone call shares good news with his friends.   "}, 
+			{ "description": "Monica is sitting alone on the sofa, and her friends are walking to her one by one. "}, 
+			{ "description": "Rachel and Ross are sitting together on the talbe facing Monica."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is obsessed with cleaning?", 
+				"answer": "Monica.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Phoebe.", 
+				"wrong_answer4": "Chandler." } 
+			} ,
+			{ "qa": { 
+				"question": "Who comes in suddenly?", 
+				"answer": "Joey.", 
+				"wrong_answer1": "Phoebe.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Rachel." } 
+				} ,
+			{ "qa": { 
+				"question": "Whis is Joey's phone call about?", 
+				"answer": "The phone call is about his work.", 
+				"wrong_answer1": "The phone call is about his girlfriend.", 
+				"wrong_answer2": "The phone call is about his car.", 
+				"wrong_answer3": "The phone call is about his clothes.", 
+				"wrong_answer4": "The phone call is about his computer." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "160-185", 
+		"period_num": "8", 
+		"start_time": "00:10:39;20", 
+		"end_time": "00:12:05;00",
+		"description_info": 
+		[ 
+			{ "description": "Joey expresses his emotion with his arms hitting the air. Joey and Ross are standing in the kitchen area. Phoebe is sitting on the sofa, and Chandler is standing right behind her. Rachel and Monica crossing their arms and standing in the livingroom together. All friends make fun of Joey about his new job."}, 
+			{ "description": "Joey and Ross are standing in the kitchen. Ross is drinking juice next to Joey. "}, 
+			{ "description": "Rachel and Monica are standing together."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is standing in the kitchen?", 
+				"answer": "Joey and Ross.", 
+				"wrong_answer1": "Ross and Monica.", 
+				"wrong_answer2": "Monica and Phoebe.", 
+				"wrong_answer3": "Phoebe and Rachel.", 
+				"wrong_answer4": "Rachel and Monica." } 
+			} ,
+			{ "qa": { 
+				"question": "How do the friends feel about Joey's new job?", 
+				"answer": "It is funny. ", 
+				"wrong_answer1": "It is amazing.", 
+				"wrong_answer2": "It is a big busines.", 
+				"wrong_answer3": "It is horrible.", 
+				"wrong_answer4": "It is fantastic." } 
+				} ,
+			{ "qa": { 
+				"question": "Who is crossing their arms in the livingroom?", 
+				"answer": "Monica and Rachel.", 
+				"wrong_answer1": "Ross and Joey. ", 
+				"wrong_answer2": "Chandler and Ross.", 
+				"wrong_answer3": "Chandler and Monica.", 
+				"wrong_answer4": "Monica and Phoebe." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "186-196", 
+		"period_num": "9", 
+		"start_time": "00:12:09;20", 
+		"end_time": "00:13:34;18",
+		"description_info": 
+		[ 
+			{ "description": "At home, Joey knocks on the door, and Monica opens the door for him. He brings a newspaper with him to ask Monica for bodycream. Monica lets him in and lets him go to the toilet. Chandler comes in after Joey with a phone in his hand and looks for Joey. Chandler tries to go into the toilet and comes out of the toilet straight away shoutiing and covering his eyes as he finds Joey. Because of his shouting, Rachel comes out of her room. Chandler wants to leave the home with ingredients in his hand for a breakfast. Monica tries to stop him and explains how to cook perfectly. "}, 
+			{ "description": "Joey comes home for bodycream, and Chandler follows him. "}, 
+			{ "description": "Chandler leaves the house with food ingredients in his hand."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is in the toilet?", 
+				"answer": "Joey.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Chandler.", 
+				"wrong_answer3": "Phoebe.", 
+				"wrong_answer4": "Monica." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Joey doing in the toilet?", 
+				"answer": "He is putting bodycream on his body.", 
+				"wrong_answer1": "He is singing.", 
+				"wrong_answer2": "He is reading a book.", 
+				"wrong_answer3": "He is running around the toilet.", 
+				"wrong_answer4": "He is crying. " } 
+				} ,
+			{ "qa": { 
+				"question": "Who comes into the toilet?", 
+				"answer": "Chandler.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Phoebe." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "197-218", 
+		"period_num": "10", 
+		"start_time": "00:13:34;19", 
+		"end_time": "00:14:51;13",
+		"description_info": 
+		[ 
+			{ "description": "In the studio, Joey is ready for shooting. He gets in the shower, and the director, who is sitting on his chair next to a cameraman, gives hime direction. Joey looses his robe to be naked and has a shower. The director stops shooting as Joey  moves his hip in the way that doesn't fit his intentions.    "}, 
+			{ "description": "Joey is in the shower to get his hip shot for his new job."}, 
+			{ "description": "Director give Joey directions about how to move his hips, but Joey refuses obeying him."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is in the shower?", 
+				"answer": "Joey.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Phoebe.", 
+				"wrong_answer4": "Monica." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Joey doing for acting?", 
+				"answer": "He is having a shower.", 
+				"wrong_answer1": "He is cooking.", 
+				"wrong_answer2": "He is reading a book.", 
+				"wrong_answer3": "He is going to a theater.", 
+				"wrong_answer4": "He is crying. " } 
+				} ,
+			{ "qa": { 
+				"question": "Does the director like Joey's acting?", 
+				"answer": "No, Joey's hips doesn't move as the director's intentions.", 
+				"wrong_answer1": "Yes, he loves Joey's acting.", 
+				"wrong_answer2": "Yes, he enjoyes Joey's good acting.", 
+				"wrong_answer3": "Yes, the director praised Joey.", 
+				"wrong_answer4": "Yes, the director asked Joey for more acting." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "219-236", 
+		"period_num": "11", 
+		"start_time": "00:14:51;14", 
+		"end_time": "00:16:33;23",
+		"description_info": 
+		[ 
+			{ "description": "At home, Chandler and Aurora are lying down on the bed. Aurora tries to leave, but Chandler stops her by holding her shoulders lightly with his hands. She refuses to stay longer, and Chandler looks at her on the bed putting on her clothes. As Chandler and Aurora start talking, Chandler stands up and argues her about their relationships. He complains about her attitudes towards their relationships with a serious look on his face. They are standing, arguing, then slumping down on the bed together.  "}, 
+			{ "description": "Aurora puts on her clothes, and Chandler looks at her on the bed."}, 
+			{ "description": "Chandler and Aurora are talking and arguing for a moment."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who tries to leave?", 
+				"answer": "Aurora.", 
+				"wrong_answer1": "Chandler.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Rachel.", 
+				"wrong_answer4": "Monica." } 
+			} ,
+			{ "qa": { 
+				"question": "What does Chandler do to Aurora leaving the house?", 
+				"answer": "He stops her.", 
+				"wrong_answer1": "He lets her go without problems.", 
+				"wrong_answer2": "He wants her to go away.", 
+				"wrong_answer3": "He doesn't want to see her.", 
+				"wrong_answer4": "He is pleased with her leaving." } 
+				} ,
+			{ "qa": { 
+				"question": "How does Chandler feel about Aurora's complicated relationships?", 
+				"answer": "He is discontented with her relationships.", 
+				"wrong_answer1": "He is satisfied with her relationships.", 
+				"wrong_answer2": "He doesn't know her relationships.", 
+				"wrong_answer3": "He is worried about her relationships.", 
+				"wrong_answer4": "He is happy with her relationships." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "237-243", 
+		"period_num": "12", 
+		"start_time": "00:16:35;01", 
+		"end_time": "00:17:34;17",
+		"description_info": 
+		[ 
+			{ "description": "Chandler and Aurora are sitting together on the bed. He is talking to her about his emotion honestly, and she is listening to him. Aurora asks him to make his mind up. As he chooses one, she accepts his decision and stands up from the bed and takes shoes. Chandler and Aurora are standing in the room. Aurora kisses Chandler, and he kisses her back with holding her head.   "}, 
+			{ "description": "Aurora and Chandler are stading in the room. "}, 
+			{ "description": "Aurora takes shoes and leaves the room. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is sitting on the bed?", 
+				"answer": "Chandler and Aurora.", 
+				"wrong_answer1": "Chandler and Monica.", 
+				"wrong_answer2": "Monica and Ross.", 
+				"wrong_answer3": "Ross and Rachel.", 
+				"wrong_answer4": "Rachel and Phoebe." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Chandler talking about?", 
+				"answer": "Chandler is talking about his emotion.", 
+				"wrong_answer1": "Chandler is talking about his computer. ", 
+				"wrong_answer2": "Chandler is talking about his car.", 
+				"wrong_answer3": "Chandler is talking about his work.", 
+				"wrong_answer4": "Chandler is talking about his parents. " } 
+				} ,
+			{ "qa": { 
+				"question": "What does Aurora do after she hears Chandler's decision?", 
+				"answer": "She leaves the room.", 
+				"wrong_answer1": "She brings shoes to Chandler.", 
+				"wrong_answer2": "She eats dinner with Chandler.", 
+				"wrong_answer3": "She marries Chandler.", 
+				"wrong_answer4": "She goes to bed with Chandler." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "244-262", 
+		"period_num": "13", 
+		"start_time": "00:17:39;20", 
+		"end_time": "00:18:56;19",
+		"description_info": 
+		[ 
+			{ "description": "At home, Rachel and Phoebe are sitting together on the sofa. Next to them, Chandler and Ross are sitting on the sofa. They are squeezed into the small sofa. Monica is sitting on the floor in front of the table. Joey comes in and sits next to Phoebe. He complains about what happened in the job."}, 
+			{ "description": "At home, Rachel and Phoebe are sitting together. "}, 
+			{ "description": "Monica is sitting on the floor in front of the table. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is sitting with Rachel?", 
+				"answer": "Phoebe.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Chandler.", 
+				"wrong_answer3": "Ross.", 
+				"wrong_answer4": "Joey." } 
+			} ,
+			{ "qa": { 
+				"question": "Who comes in?", 
+				"answer": "Joey.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Chandler.", 
+				"wrong_answer4": "Ross." } 
+				} ,
+			{ "qa": { 
+				"question": "What is Joey talking about?", 
+				"answer": "Joey is talking about his job.", 
+				"wrong_answer1": "Joey is talking about his girlfriend.", 
+				"wrong_answer2": "Joey is talking about his house.", 
+				"wrong_answer3": "Joey is talking about his report.", 
+				"wrong_answer4": "Joey is talking about his salary." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "263-280", 
+		"period_num": "14", 
+		"start_time": "00:18:56;20", 
+		"end_time": "00:20:38;07",
+		"description_info": 
+		[ 
+			{ "description": "All friends are giving him their own comments. Phoebe sitting next to him talks passionately. Joey is persuaded by her and happily hugs her. Chandler and Ross hug together as well. Monica stands up and gives Ross a goodnight kiss She wants to move the furniture, footstool, but goes to bed by ignoring it. However, she can't help thinking about the stool on her bed. She is thinking to herself and can't sleep easily.   "}, 
+			{ "description": "All friends are sitting around the table and giving their comments to Joey."}, 
+			{ "description": "Monica can't sleep easily because of the furniture."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who does Joey hug?", 
+				"answer": "Phoebe.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Chandler.", 
+				"wrong_answer4": "Monica." } 
+			} ,
+			{ "qa": { 
+				"question": "Why does Joey hug Phoebe?", 
+				"answer": "Because she consoles him with helpful words.", 
+				"wrong_answer1": "Because she gives him a lot of money.", 
+				"wrong_answer2": "Because he loves her.", 
+				"wrong_answer3": "Because he is interested in her.", 
+				"wrong_answer4": "Because she gives him a new opportunity." } 
+				} ,
+			{ "qa": { 
+				"question": "Why can't Monica sleep?", 
+				"answer": "Because she thinks about the furniture.", 
+				"wrong_answer1": "Because she has insomnica.", 
+				"wrong_answer2": "Because she slept a lot yesterday.", 
+				"wrong_answer3": "Because she doesn't like to sleep at night.", 
+				"wrong_answer4": "Because she hates sleeping." 
+				} 
+			} 
+		] 
+	}
+	]
+}

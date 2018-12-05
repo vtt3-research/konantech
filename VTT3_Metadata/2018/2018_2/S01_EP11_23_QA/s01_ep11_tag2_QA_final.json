@@ -1,0 +1,772 @@
+{ 
+	"file_name": "s01_ep11_tag2_QA_final.json",
+	"registed_name": "s01_ep11_tag2_QA_final.json", 
+	"qa_results": 
+	[ 
+		{ 
+		"visual_period_num": "1-6", 
+		"period_num": "q1", 
+		"start_time": "00:00:10;07", 
+		"end_time": "00:00:42;01",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Phoebe and Monica are walking along the street together. They stop by the newsstand and find a handsome guy. Monica lets Phoebe know about him and Phoebe turns around to look at him. The man passes them, saying hello. They see and smile at him. As the man walks on, Phoebe encourages Monica to call him with whistling. Monica makes a noisy sound to call him. Turning around, he gets hit by a car. Monica and Phoebe are surprised and look at each other."}, 
+			{ "description": "Monica and Phoebe are standing by the newsstand."}, 
+			{ "description": "There is a handsome guy walking on the street."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What do Monica and Phoebe find?", 
+				"question_type": "Person", 
+				"answer": "A handsome guy.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Monica's parents.", 
+				"wrong_answer3": "A supermodel.", 
+				"wrong_answer4": "An actor." } 
+			} ,
+			{ "qa": { 
+				"question": "How does Monica make a handsome guy turn around?", 
+				"question_type": "Method", 
+				"answer": "Monica makes noisy sound.", 
+				"wrong_answer1": "Monica calls a handsome guy by name.", 
+				"wrong_answer2": "Monica runs to a handsome guy.", 
+				"wrong_answer3": "Monica throws a snowball to a handsome guy.", 
+				"wrong_answer4": "Monica shouts at Phoebe." } 
+				} ,
+			{ "qa": { 
+				"question": "What happens to a handsome guy when Monica calls him?", 
+				"question_type": "Person", 
+				"answer": "The guy is hit by a car.", 
+				"wrong_answer1": "Monica asks him a phone number.", 
+				"wrong_answer2": "Phoebe runs to him.", 
+				"wrong_answer3": "The guy's phone rings.", 
+				"wrong_answer4": "Monica's phone rings." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "7-23", 
+		"period_num": "q2", 
+		"start_time": "00:01:31;09", 
+		"end_time": "00:03:03;16",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "In the hospital, the man is lying on the bed, sleeping. Monica and Phoebe are talking by the bed. Phoebe talks and shouts at him in case that he might be able to wake up. With sad looks, Monica and Phoebe look at him on the bed and they console each other. At home, Phoebe and Monica are talking about what happened to them to their friends. Phoebe, Monica, and Ross are in the kitchen, preparing food to eat. Joey sitting on the sofa makes a joke of them and the situation. Rachel turns on the TV and calls everyone. On TV, the presenter shows a book and introduces the writer, Chandler's mom. All sit down on the sofa except Chandler and Phoebe. Chandler standing by the sofa tries to change the channel."}, 
+			{ "description": "Monica is preparing some food. She pours cereals in the bowl."}, 
+			{ "description": "Sitting on the sofa, Rachel turns on the TV and calls everyone."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is a handsome guy doing?", 
+				"question_type": "Action", 
+				"answer": "The guy is lying on the bed.", 
+				"wrong_answer1": "The guy is sitting on the bench.", 
+				"wrong_answer2": "The guy is calling on the phone.", 
+				"wrong_answer3": "The guy is walking on the street.", 
+				"wrong_answer4": "The guy is talking with Phoebe and Monica." } 
+			} ,
+			{ "qa": { 
+				"question": "What do Phoebe and Monica decide to do about the handsome guy?", 
+				"question_type": "Action", 
+				"answer": "Phoebe and Monica decide to take care of the handsome guy.", 
+				"wrong_answer1": "Phoebe and Monica decide to call the man's family.", 
+				"wrong_answer2": "Phoebe and Monica decide to call the police.", 
+				"wrong_answer3": "Phoebe and Monica decide to ignore the man.", 
+				"wrong_answer4": "Phoebe and Monica decide to give some money to him for compensation." } 
+				} ,
+			{ "qa": { 
+				"question": "On TV, who does the presenter introduce?", 
+				"question_type": "Person", 
+				"answer": "A book writer.", 
+				"wrong_answer1": "An editor.", 
+				"wrong_answer2": "An actor.", 
+				"wrong_answer3": "A singer.", 
+				"wrong_answer4": "A cook." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "24-34", 
+		"period_num": "q3", 
+		"start_time": "00:03:03;16", 
+		"end_time": "00:03:57;16",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "When Chandler tries to change the channel, Rachel hits his hand and makes him drop the remote. Disappointedly, Chandler goes to the kitchen not to look at the TV. Rachel follows him to appeal how much she loves his mother's book and how much she admires her. Ross comments as well. The door opens and Paolo, Rachel's boyfriends, comes in and they both kiss. Ross is being grumpy about him. Phoebe draws all's attention as the writer appears on TV. Even Paolo knows her."}, 
+			{ "description": "Chandler walks away from all that he has to avoid the TV program."}, 
+			{ "description": "Paolo comes in and Rachel kisses him in the doorway."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is the relationship between Chandler and the book writer?", 
+				"question_type": "Relationship", 
+				"answer": "The book writer is Chandler's mother.", 
+				"wrong_answer1": "They have no relationship.", 
+				"wrong_answer2": "The writer is Chandler's friend.", 
+				"wrong_answer3": "Chandler used to date the writer.", 
+				"wrong_answer4": "The writer is Chandler's aunt." } 
+			} ,
+			{ "qa": { 
+				"question": "Does Chandler want to watch the TV program?", 
+				"question_type": "Person", 
+				"answer": "No, Chandler wants to watch the TV program.", 
+				"wrong_answer1": "Yes, Chandler likes novels.", 
+				"wrong_answer2": "Yes, Chandler is in good relationship with her mother.", 
+				"wrong_answer3": "Yes, Chandler loves watching TV.", 
+				"wrong_answer4": "Yes, Chandler wants to learn how to write a book." } 
+				} ,
+			{ "qa": { 
+				"question": "How does Ross feel about Paolo?", 
+				"question_type": "Emotion", 
+				"answer": "Ross feels jealous.", 
+				"wrong_answer1": "Ross likes Paolo.", 
+				"wrong_answer2": "Ross respects Paolo.", 
+				"wrong_answer3": "Ross enjoys talking with Paolo.", 
+				"wrong_answer4": "Ross is angry at Paolo." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "35-44", 
+		"period_num": "q4", 
+		"start_time": "00:04:02;10", 
+		"end_time": "00:05:01;06",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "On TV, the presenter, Jay Leno, and the writer, Nora Bing are talking together with a desk between them. Mrs. Bing is sitting on a chair with her legs crossed. All are watching TV in the living room. Chandler is watching with an ice cream. Mrs. Bing talks about her personal life, which makes Chandler shout at the TV. When she mentions Chandler, everyone looks at him."}, 
+			{ "description": "Chandler is watching TV with eating an ice cream."}, 
+			{ "description": "TV shows that the writer and the presenter are sitting down and talking together."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is everyone is watching?", 
+				"question_type": "Action", 
+				"answer": "TV.", 
+				"wrong_answer1": "Chandler's shouting.", 
+				"wrong_answer2": "Phoebe's singing.", 
+				"wrong_answer3": "Rachel's novel.", 
+				"wrong_answer4": "Ross's research." } 
+			} ,
+			{ "qa": { 
+				"question": "Who is the presenter, Jay Leno, talking with?", 
+				"question_type": "Visual detail", 
+				"answer": "Jay Leno is talking with the book writer, Nora Bing.", 
+				"wrong_answer1": "The presenter is talking with Chandler.", 
+				"wrong_answer2": "The presenter is talking with Ross.", 
+				"wrong_answer3": "Jay Leno is talking with Joey.", 
+				"wrong_answer4": "Jay Leno isn't talking at the moment." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Chandler do when he sees that his mother talks about her personal life?", 
+				"question_type": "Action", 
+				"answer": "Chandler shouts at TV.", 
+				"wrong_answer1": "Chandler throws a ball to TV.", 
+				"wrong_answer2": "Chandler calls his mother.", 
+				"wrong_answer3": "Chandler turns off TV.", 
+				"wrong_answer4": "Chandler refuses her answer." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "45-58", 
+		"period_num": "q5", 
+		"start_time": "00:05:01;06", 
+		"end_time": "00:06:35;00",
+		"related_period": "q1", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "In the hospital, the man is still lying on the bed. Monica reads a newspaper for him, sitting next to the bed. Phoebe brings flowers and cards. They are dragging an enormous plant into the room, then Monica knitting a sweater, then Phoebe singing, then Phoebe shaving him and chatting to Monica. In a restaurant, Nora, Chandler, Joey, Phoebe, and Monica are sitting together at the table. When Nora, Chandler's mother, and Chandler are talking, Ross comes in and hugs Nora. Ross sits down next to Chandler."}, 
+			{ "description": "Monica and Phoebe are taking care of the man day and night."}, 
+			{ "description": "Monica sits next to him and reads a newspaper when Phoebe brings a flower basket."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What are Phoebe and Monica doing in the hospital?", 
+				"question_type": "Action", 
+				"answer": "Phoebe and Monica are taking care of the man.", 
+				"wrong_answer1": "Phoebe and Monica are helping the elderly.", 
+				"wrong_answer2": "Phoebe and Monica are eating food.", 
+				"wrong_answer3": "Phoebe and Monica are cleaning the hospital.", 
+				"wrong_answer4": "Phoebe and Monica are working in the hospital." } 
+			} ,
+			{ "qa": { 
+				"question": "Where are Nora, Chandler, Joey, Phoebe, and Monica?", 
+				"question_type": "Location", 
+				"answer": "They are in a restaurant.", 
+				"wrong_answer1": "They are in a theater.", 
+				"wrong_answer2": "They are in a café.", 
+				"wrong_answer3": "They are at home.", 
+				"wrong_answer4": "They are in a car." } 
+				} ,
+			{ "qa": { 
+				"question": "How Ross greets Nora?", 
+				"question_type": "Method", 
+				"answer": "Ross hugs Nora for greeting.", 
+				"wrong_answer1": "Ross kisses Nora.", 
+				"wrong_answer2": "Ross says hello and sits down.", 
+				"wrong_answer3": "Ross sends a text message to Nora.", 
+				"wrong_answer4": "Ross gives Nora a present." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "59-75", 
+		"period_num": "q6", 
+		"start_time": "00:06:35;00", 
+		"end_time": "00:08:07;14",
+		"related_period": "q7", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "All are sitting down around the table and Nora asks for a drink. Paolo and Rachel come in late. By looking at them, Ross changes his mind and decides to drink tequila. Ross is clearly drunk. He is holding up a shot glass to his eye like a jeweler's eye. Rachel feeds something to Paolo. He eats it and licks her hand. All are talking together. Nora is talking on the telephone. Ross emerges from a toilet marked 'Chicas'. A woman emerges from the toilet behind him and he tries to pretend he was in the other one."}, 
+			{ "description": "Ross decides to drink for Rachel and Paolo."}, 
+			{ "description": "Sitting at the table, Ross looks clearly drunk. He even goes to women's toilet."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Is Ross drinking alcohol?", 
+				"question_type": "Person", 
+				"answer": "Yes, Ross is drinking tequila.", 
+				"wrong_answer1": "No, Ross is not drinking alcohol.", 
+				"wrong_answer2": "No, Ross is drinking a coke.", 
+				"wrong_answer3": "No, Ross is drinking tea.", 
+				"wrong_answer4": "No, Ross isn't drinking." } 
+			} ,
+			{ "qa": { 
+				"question": "Why does Ross change his mind from not drinking to drinking?", 
+				"question_type": "Reason", 
+				"answer": "Because Rachel who he loves comes with Paolo.", 
+				"wrong_answer1": "Because Rachel shouts at him.", 
+				"wrong_answer2": "Because he was not promoted.", 
+				"wrong_answer3": "Because his parents get sick.", 
+				"wrong_answer4": "Because he misses his ex-wife." } 
+				} ,
+			{ "qa": { 
+				"question": "Is Ross drunk?", 
+				"question_type": "Person", 
+				"answer": "Yes, Ross is drunk that he even mistakes toilet.", 
+				"wrong_answer1": "No, he is alright.", 
+				"wrong_answer2": "No, he is sober.", 
+				"wrong_answer3": "No, he is awake.", 
+				"wrong_answer4": "No, he doesn't make any mistakes." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "76-94", 
+		"period_num": "q7", 
+		"start_time": "00:08:07;14", 
+		"end_time": "00:09:29;19",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross walks staggering and perches on next to the telephone. Looking at Ross, Nora hangs up the phone and goes to Ross. As they talk, she kisses him on the cheek, then on the mouth. Joey on the way to the toilet sees the scene and gets surprised. Joey hurriedly goes out."}, 
+			{ "description": "Ross walks out of the toilet and gets surprised that he was in women's toilet."}, 
+			{ "description": "Nora kisses Ross's cheeks then to his lips."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who kisses Ross?", 
+				"question_type": "Person", 
+				"answer": "Nora, Chandler's mother.", 
+				"wrong_answer1": "Phoebe.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Rachel.", 
+				"wrong_answer4": "Carole,Ross's ex-wife." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Ross doing at the moment?", 
+				"question_type": "Action", 
+				"answer": "Ross is kissing Nora.", 
+				"wrong_answer1": "Ross is walking on the street.", 
+				"wrong_answer2": "Ross is calling on the phone.", 
+				"wrong_answer3": "Ross is shouting at somebody.", 
+				"wrong_answer4": "Ross is reading a book." } 
+				} ,
+			{ "qa": { 
+				"question": "Who sees Ross and Nora kissing?", 
+				"question_type": "Person", 
+				"answer": "Joey.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Monica's parents.", 
+				"wrong_answer4": "Nobody sees them kissing." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "95-119", 
+		"period_num": "q8", 
+		"start_time": "00:09:38;08", 
+		"end_time": "00:11:16;13",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Joey is getting the door in his dressing gown. It's Ross. Ross drags Joey into the hall and slams the door. They are talking about Ross kissing Nora. Chandler opens the door and startles them. He picks up the paper and goes back inside and shuts the door. Ross and Joey keep talking in the hall."}, 
+			{ "description": "Ross and Joey are talking in the hallway about what happened yesterday."}, 
+			{ "description": "Chandler opens the door and startles Ross and Joey."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who visits Joey?", 
+				"question_type": "Person", 
+				"answer": "Ross.", 
+				"wrong_answer1": "Chandler.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Rachel.", 
+				"wrong_answer4": "Phoebe." } 
+			} ,
+			{ "qa": { 
+				"question": "What are Ross and Joey talking about?", 
+				"question_type": "Person", 
+				"answer": "Ross kissing Nora, Chandler's mother.", 
+				"wrong_answer1": "Ross calling Nora at night.", 
+				"wrong_answer2": "Ross not being promoted at work.", 
+				"wrong_answer3": "Ross being fired at work.", 
+				"wrong_answer4": "Ross dumped by Rachel." } 
+				} ,
+			{ "qa": { 
+				"question": "How do Ross and Joey feel when Chandler opens the door?", 
+				"question_type": "Method", 
+				"answer": "Ross and Joey are surprised.", 
+				"wrong_answer1": "Ross and Joey are sad.", 
+				"wrong_answer2": "Ross and Joey are terrified.", 
+				"wrong_answer3": "Ross and Joey are excited.", 
+				"wrong_answer4": "Ross and Joey are angry." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "120-134", 
+		"period_num": "q9", 
+		"start_time": "00:11:16;13", 
+		"end_time": "00:12:04;05",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross and Joey go inside Monica and Rachel's house together. Ross takes a drink out from the fridge and Monica comes out of her room. Surprised by Monica's appearance, Ross and Joey change the topic and pretend to talk about silly things. As she walks towards them, they say random words to her."}, 
+			{ "description": "Ross and Joey are talking at home."}, 
+			{ "description": "Monica comes out of her room and surprised them."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where are Ross and Joey?", 
+				"question_type": "Location", 
+				"answer": "They are at Rachel and Monica's house.", 
+				"wrong_answer1": "They are in a theater.", 
+				"wrong_answer2": "They are in a restaurant.", 
+				"wrong_answer3": "They are in a car.", 
+				"wrong_answer4": "They are in a café." } 
+			} ,
+			{ "qa": { 
+				"question": "Who comes out of the room?", 
+				"question_type": "Person", 
+				"answer": "Monica.", 
+				"wrong_answer1": "Joey.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Ross.", 
+				"wrong_answer4": "Chandler." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Monica think about Ross and Joey talking to her?", 
+				"question_type": "Person", 
+				"answer": "Monica thinks that Ross and Joey are stupid.", 
+				"wrong_answer1": "Monica thinks that they are busy.", 
+				"wrong_answer2": "Monica thinks that they make jokes.", 
+				"wrong_answer3": "Monica thinks that they loose their mind.", 
+				"wrong_answer4": "Monica thinks that they are" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "135-164", 
+		"period_num": "q10", 
+		"start_time": "00:12:04;05", 
+		"end_time": "00:13:44;12",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "In the hospital, the man, Coma Guy, is lying on the bed and Phoebe is stroking Coma Guy's hair. When Monica enters with a bunch of balloons, she goes to him to brush his hair in the other direction, finding Phoebe. They are almost fighting for jealousy. Phoebe whips back the sheet to show the proof that the man's clothes are changed. At home, Chandler is sitting on a chair and Ross stands in front of him facing Joey in the kitchen. He has caught sight of Joey scowling at him, so he confesses that he kissed Nora."}, 
+			{ "description": "In the hospital, Phoebe and Monica are standing next to Coma Guy."}, 
+			{ "description": "Ross is standing in front of Chandler sitting on a chair."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What does Monica find when she enters the hospital?", 
+				"question_type": "Person", 
+				"answer": "Monica finds that Phoebe is looking after Coma Guy.", 
+				"wrong_answer1": "Monica finds that Coma Guy wakes up.", 
+				"wrong_answer2": "Monica finds that Phoebe hates her.", 
+				"wrong_answer3": "Monica finds that Phoebe is busy.", 
+				"wrong_answer4": "Monica finds that Ross and Rachel are dating." } 
+			} ,
+			{ "qa": { 
+				"question": "How does Phoebe know that Monica visits the hospital in the morning?", 
+				"question_type": "Method", 
+				"answer": "Phoebe finds that Coma Guy's clothes are changed.", 
+				"wrong_answer1": "Phoebe finds Monica's clothes on a chair.", 
+				"wrong_answer2": "Phoebe saw that Monica left home early.", 
+				"wrong_answer3": "Phoebe finds that Monica calls the hospital for morning opening hours.", 
+				"wrong_answer4": "Phoebe finds Monica getting prepared in the morning." } 
+				} ,
+			{ "qa": { 
+				"question": "How does Phoebe feel about Monica?", 
+				"question_type": "Emotion", 
+				"answer": "Phoebe is jealous.", 
+				"wrong_answer1": "Phoebe is sad.", 
+				"wrong_answer2": "Phoebe is happy.", 
+				"wrong_answer3": "Phoebe is nervous.", 
+				"wrong_answer4": "Phoebe is angry." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "165-189", 
+		"period_num": "q11", 
+		"start_time": "00:13:44;12", 
+		"end_time": "00:15:20;02",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Surprised, Chandler stands up from the chair. He asks Joey and gets angry at Ross, walking around the living room here and there. Chandler leaves and slams the door. Joey shouts after him. Ross tries to give excuses, but they don't listen to him. In the cafe, Rachel is sitting at the bar and writing a novel. Monica walks up, looks over her shoulder and they chat about Rachel's novel. Phoebe walks up with her guitar and they talk. Phoebe is ready for her performance and Rachel goes to the stage to introduce her to the audience."}, 
+			{ "description": "Rachel is sitting at the bar, writing a novel."}, 
+			{ "description": "Phoebe walks up with her guitar and talks with Monica."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How does Chandler feel about Ross?", 
+				"question_type": "Emotion", 
+				"answer": "Chandler is angry.", 
+				"wrong_answer1": "Chandler is worried about Ross.", 
+				"wrong_answer2": "Chandler is nervous about Ross.", 
+				"wrong_answer3": "Chandler is excited about Ross.", 
+				"wrong_answer4": "Chandler is anxious about Ross." } 
+			} ,
+			{ "qa": { 
+				"question": "Whose side does Joey take?", 
+				"question_type": "Person", 
+				"answer": "Joey takes Chandler's side.", 
+				"wrong_answer1": "Joey takes Ross's side.", 
+				"wrong_answer2": "Joey takes Rachel's side.", 
+				"wrong_answer3": "Joey takes Monica's side.", 
+				"wrong_answer4": "Joey take's Phoebe's side." } 
+				} ,
+			{ "qa": { 
+				"question": "What is Rachel doing?", 
+				"question_type": "Action", 
+				"answer": "Rachel is writing a novel.", 
+				"wrong_answer1": "Rachel is calling on the phone.", 
+				"wrong_answer2": "Rachel is shopping on the street.", 
+				"wrong_answer3": "Rachel is writing an email.", 
+				"wrong_answer4": "Rachel is cooking dinner." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "190-204", 
+		"period_num": "q12", 
+		"start_time": "00:15:20;02", 
+		"end_time": "00:16:27;10",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Joey and Ross are sitting on the sofa together and chatting. Rachel introduces Phoebe. She sits on the stool and plays a few chords. Monica gives her a look and leaves the café. Phoebe sees Monica sneaking out, finishes her performance and runs out, knocking over the mike stand. Rachel speaks into the mike and announces the finish of performance. Chandler comes in."}, 
+			{ "description": "Joey and Ross are sitting together and talking on the sofa."}, 
+			{ "description": "Phoebe follows Monica when she sees her leaving the café."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who introduces Phoebe's performance?", 
+				"question_type": "Person", 
+				"answer": "Rachel.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Phoebe.", 
+				"wrong_answer3": "Ross.", 
+				"wrong_answer4": "Chandler." } 
+			} ,
+			{ "qa": { 
+				"question": "What does Monica do when Phoebe starts singing?", 
+				"question_type": "Action", 
+				"answer": "Monica sneaks out.", 
+				"wrong_answer1": "Monica listens to her singing.", 
+				"wrong_answer2": "Monica shouts at Phoebe.", 
+				"wrong_answer3": "Monica calls on the phone.", 
+				"wrong_answer4": "Monica starts eating dinner." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Phoebe do as she sees Monica leaving the café?", 
+				"question_type": "Action", 
+				"answer": "Phoebe stops singing and follows Monica.", 
+				"wrong_answer1": "Phoebe keeps singing.", 
+				"wrong_answer2": "Phoebe calls the hospital.", 
+				"wrong_answer3": "Phoebe stops Monica.", 
+				"wrong_answer4": "Phoebe calls the police." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "205-218", 
+		"period_num": "q13", 
+		"start_time": "00:16:27;10", 
+		"end_time": "00:17:35;14",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "As Chandler comes in, he asks a question. Ross answers, but Chandler is still angry at him. Joey laughs at them and sees Ross's look. He stops laughing. Ross stands up from the seat and walks to Chandler to talk to him. Chandler gets angry at him and talks with a loud voice. With his shocking statements, people in the cafe look at Ross and Chandler. They keep on talking. Ross doesn't give good excuses to Chandler, so Chandler grabs his finger and twists it. Ross goes down on his knees, faking practicing a play."}, 
+			{ "description": "Chandler comes in and asks questions to all, but refuses Ross's answers."}, 
+			{ "description": "Ross goes down on his knees as Chandler grabs and twists his fingers."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Is Chandler's feeling to Ross changed?", 
+				"question_type": "Emotion", 
+				"answer": "No, Chandler is still angry at Ross.", 
+				"wrong_answer1": "Yes, Chandler feels better.", 
+				"wrong_answer2": "Yes, Chandler likes Ross.", 
+				"wrong_answer3": "Yes, Chandler prefers Ross to Joey.", 
+				"wrong_answer4": "Yes, Chandler make up with Ross." } 
+			} ,
+			{ "qa": { 
+				"question": "What does Chandler call Ross for his wrongdoing?", 
+				"question_type": "Statement", 
+				"answer": "A motherkisser.", 
+				"wrong_answer1": "A geek.", 
+				"wrong_answer2": "A nerd.", 
+				"wrong_answer3": "Fun Bobby.", 
+				"wrong_answer4": "Baby Boo." } 
+				} ,
+			{ "qa": { 
+				"question": "What excuse does Ross tell to people in the café when people look at Ross and Chandler?", 
+				"question_type": "Person", 
+				"answer": "They are practicing a play.", 
+				"wrong_answer1": "Chandler thinks of a storyline for his novel.", 
+				"wrong_answer2": "Chandler is out of his mind.", 
+				"wrong_answer3": "They are actors.", 
+				"wrong_answer4": "They are shooting a film." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "219-235", 
+		"period_num": "q14", 
+		"start_time": "00:17:35;14", 
+		"end_time": "00:19:20;07",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "In the hospital, Monica comes in, followed by Phoebe. Coma Guy comes out of the toilet. The three greet together. Monica and Phoebe appeal what they have done to take care of him, but he says goodbye to them. Monica and Phoebe think that he is careless and thoughtless and feel angry at him. Suddenly, they put their strength together and tell him that he is being selfish and leave the hospital."}, 
+			{ "description": "Monica and Phoebe come into the hospital and meet Coma Guy."}, 
+			{ "description": "Coma Guy lies on the bed and thanks them to say goodbye."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where do Phoebe and Monica arrive?", 
+				"question_type": "Location", 
+				"answer": "They arrive at the hospital.", 
+				"wrong_answer1": "They arrive at home.", 
+				"wrong_answer2": "They arrive at a theater.", 
+				"wrong_answer3": "They arrive at school.", 
+				"wrong_answer4": "They arrive at bus station." } 
+			} ,
+			{ "qa": { 
+				"question": "How do Phoebe and Monica feel about Coma Guy?", 
+				"question_type": "Emotion", 
+				"answer": "They feel angry at him.", 
+				"wrong_answer1": "They feel worried.", 
+				"wrong_answer2": "They feel excited about him.", 
+				"wrong_answer3": "They feel sad.", 
+				"wrong_answer4": "They feel nervous about him." } 
+				} ,
+			{ "qa": { 
+				"question": "Does Coma Guy plan on meeting Monica and Phoebe later?", 
+				"question_type": "Person", 
+				"answer": "No, he doesn't plan on meeting them later.", 
+				"wrong_answer1": "Yes, Coma Guy will call them later.", 
+				"wrong_answer2": "Yes, Coma Guy will buy a dinner for them.", 
+				"wrong_answer3": "Yes, Coma Guy wants to get a phone number of them.", 
+				"wrong_answer4": "Yes, Coma Guy gives them his phone number." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "236-251", 
+		"period_num": "q15", 
+		"start_time": "00:19:22;10", 
+		"end_time": "00:21:06;05",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "At home, Chandler and Nora are talking. When Nora tries to leave, Chandler shouts at her about Ross. Nora comes back by shutting the door behind her. They are talking and reconciling. Outside, Joey is listening at the door. Ross walks up and Joey explains to him what's happening inside. Joey hurriedly goes back to the door and looks through the spyhole. He finds out that Nora and Chandler are soon coming out."}, 
+			{ "description": "Chandler and his mom talk at home and Chandler stops her by mentioning Ross."}, 
+			{ "description": "Joey is listening to them outside the house at the door."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is talking with Chandler?", 
+				"question_type": "Person", 
+				"answer": "Nora, Chandler's mother.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Joey." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Joey doing?", 
+				"question_type": "Action", 
+				"answer": "Joey is listening to Chandler's talking at the door.", 
+				"wrong_answer1": "Joey is calling on the phone.", 
+				"wrong_answer2": "Joey is listening to Ross's talking.", 
+				"wrong_answer3": "Joey is looking at the neighbor.", 
+				"wrong_answer4": "Joey is cooking." } 
+				} ,
+			{ "qa": { 
+				"question": "Where does Ross try to hide?", 
+				"question_type": "Location", 
+				"answer": "Ross tries Monica and Rachel's apartment.", 
+				"wrong_answer1": "Ross tries to leaves the building.", 
+				"wrong_answer2": "Ross tries to hide upstairs.", 
+				"wrong_answer3": "Ross tries to hide Chandler's house.", 
+				"wrong_answer4": "Ross tries to walk down." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "252-266", 
+		"period_num": "q16", 
+		"start_time": "00:21:06;05", 
+		"end_time": "00:21:53;21",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Joey runs off down the hall. Ross tries Monica and Rachel's apartment, but it is locked so he has to stand in the hall and pretend he wasn't listening. Chandler and Nora, his mom, come out. Nora greets all. She kisses Chandler and says goodbye. Then, Nora sees Ross. Both bows each other politely. She leaves the place. In the hallway, there are only two people, Ross and Chandler. Chandler starts talking and shakes hands with Ross to make up with him."}, 
+			{ "description": "Ross stands in the hall and pretends not listening to Chandler."}, 
+			{ "description": "In the hall, Chandler makes up with Ross by shaking hands."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where is Joey?", 
+				"question_type": "Location", 
+				"answer": "Joey runs off down, out of the hall.", 
+				"wrong_answer1": "Joey goes to Monica and Rachel's house.", 
+				"wrong_answer2": "Joey goes to the toilet.", 
+				"wrong_answer3": "Joey goes to a theater.", 
+				"wrong_answer4": "Joey goes to his car." } 
+			} ,
+			{ "qa": { 
+				"question": "Does Ross love Mrs. Bing?", 
+				"question_type": "Person", 
+				"answer": "No, Ross doesn't love Mra. Bing.", 
+				"wrong_answer1": "Yes, Ross loves Mrs. Bing.", 
+				"wrong_answer2": "Yes, they've been meeting for many years.", 
+				"wrong_answer3": "Yes, Ross will meet Nora often.", 
+				"wrong_answer4": "Yes, Ross will date Nora soon." } 
+				} ,
+			{ "qa": { 
+				"question": "What gesture does Chandler use to make up with Ross?", 
+				"question_type": "Action", 
+				"answer": "Chandler shakes hands with Ross.", 
+				"wrong_answer1": "Chandler hugs Ross.", 
+				"wrong_answer2": "Chandler shouts at Ross.", 
+				"wrong_answer3": "Chandler calls Ross.", 
+				"wrong_answer4": "Chandler gives food to Ross." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "267-275", 
+		"period_num": "q17", 
+		"start_time": "00:21:53;21", 
+		"end_time": "00:22:38;04",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross and Chandler reconcile. Ross talks with wagging his finger at Chandler then put it down quickly by seeing Chandler's face. At home, Rachel is handing out copies of her book to the friends. They are all sitting around the living room on the sofa. As they read, they comment on the novel. Annoyed by their comments, Rachel tries to take the copies from them."}, 
+			{ "description": "Chandler puts arms around Ross to make up."}, 
+			{ "description": "Everyone is sitting down on the sofa and Rachel hands out the copies of her novel."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who writes a novel?", 
+				"question_type": "Person", 
+				"answer": "Rachel.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Chandler.", 
+				"wrong_answer4": "Phoebe." } 
+			} ,
+			{ "qa": { 
+				"question": "Do friends like Rachel's novel?", 
+				"question_type": "Person", 
+				"answer": "No, they don't like it.", 
+				"wrong_answer1": "Yes, they love and want to publish it.", 
+				"wrong_answer2": "Yes, they want to invest in the book.", 
+				"wrong_answer3": "Yes, they prefers her novel to classics.", 
+				"wrong_answer4": "Yes, they want to buy it from her." } 
+				} ,
+			{ "qa": { 
+				"question": "How does Rachel feel about the comments on her novel?", 
+				"question_type": "Method", 
+				"answer": "Rachel feels angry.", 
+				"wrong_answer1": "Rachel is sad.", 
+				"wrong_answer2": "Rachel is nervous.", 
+				"wrong_answer3": "Rachel is excited.", 
+				"wrong_answer4": "Rachel is happy." 
+				} 
+			} 
+		] 
+	}
+	]
+}

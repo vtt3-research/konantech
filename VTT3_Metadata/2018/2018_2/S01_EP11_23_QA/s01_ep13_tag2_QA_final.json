@@ -1,0 +1,772 @@
+{ 
+	"file_name": "s01_ep13_tag2_QA_final.json",
+	"registed_name": "s01_ep13_tag2_QA_final.json", 
+	"qa_results": 
+	[ 
+		{ 
+		"visual_period_num": "1-12", 
+		"period_num": "q1", 
+		"start_time": "00:00:00;00", 
+		"end_time": "00:00:38;21",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Chandler comes in hurriedly and rummages the fridge without knowing that Rachel is coming out of the bathroom. Rachel is shocked to see Chandler. They talk for a while and Chandler gives Rachel excuses. Rachel shouts at him and goes to her room. Chandler feels lucky."}, 
+			{ "description": "Chandler comes in hurriedly and rummages the fridge."}, 
+			{ "description": "Rachel comes out of the bathroom with towels around her."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who comes in the house?", 
+				"question_type": "Person", 
+				"answer": "Chandler.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Phoebe." } 
+			} ,
+			{ "qa": { 
+				"question": "What was Rachel doing?", 
+				"question_type": "Action", 
+				"answer": "Rachel was having a shower.", 
+				"wrong_answer1": "Rachel was eating food.", 
+				"wrong_answer2": "Rachel was preparing food.", 
+				"wrong_answer3": "Rachel was sleeping.", 
+				"wrong_answer4": "Rachel was cleaning the bathroom." } 
+				} ,
+			{ "qa": { 
+				"question": "Why can't Rachel see Chandler?", 
+				"question_type": "Reason", 
+				"answer": "Because Chandler stands behind the fridge door.", 
+				"wrong_answer1": "Because Chandler is hiding behind the sofa.", 
+				"wrong_answer2": "Because Chandler is covered by white sheet.", 
+				"wrong_answer3": "Because Rachel is covered by towels.", 
+				"wrong_answer4": "Because Rachel doesn't wear lenses." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "13-32", 
+		"period_num": "q2", 
+		"start_time": "00:01:28;20", 
+		"end_time": "00:03:01;03",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "In the café, Phoebe, Monica, and Rachel are talking with a man. The man kisses Phoebe's cheek. With a table in the middle, all four of them lean on the table. The man stands between Phoebe and Monica. Opposite of them, Rachel stands. The man leaves and the three women, Monica, Rachel, and Phoebe are talking together. They move to the sofa. Rachel stands next to Chandler. Phoebe sits next to a man. Rachel moves next to Phoebe and sits down on the sofa alone."}, 
+			{ "description": "In the café, Phoebe, Monica, and Rachel are talking with a man."}, 
+			{ "description": "With a table in the middle, all four of them lean on the table."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What does the man do to Phoebe?", 
+				"question_type": "Action", 
+				"answer": "The man kisses Phoebe's cheek.", 
+				"wrong_answer1": "The man sings for Phoebe.", 
+				"wrong_answer2": "The man buys a bag for Phoebe.", 
+				"wrong_answer3": "The man kisses Monica passing Phoebe.", 
+				"wrong_answer4": "The man calls Phoebe." } 
+			} ,
+			{ "qa": { 
+				"question": "Who is standing next to Chandler?", 
+				"question_type": "Person", 
+				"answer": "Rachel.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Joey.", 
+				"wrong_answer3": "Ross.", 
+				"wrong_answer4": "Phoebe." } 
+				} ,
+			{ "qa": { 
+				"question": "Where is Rachel sitting on?", 
+				"question_type": "Location", 
+				"answer": "Rachel is sitting on the sofa.", 
+				"wrong_answer1": "Rachel is sitting on the sofa.", 
+				"wrong_answer2": "Rachel is not sitting.", 
+				"wrong_answer3": "Rachel is sitting on a chair.", 
+				"wrong_answer4": "Rachel is sitting on the table." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "33-53", 
+		"period_num": "q3", 
+		"start_time": "00:03:01;03", 
+		"end_time": "00:04:32;17",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Chandler and Ross are sitting together with a man. Phoebe is sitting next to the man. They are talking together. Rachel is sitting on the sofa alone. Rachel and Chandler are talking. Roger, Phoebe's boyfriend, laughs at Chandler and analyses him psychologically. That makes Chandler uncomfortable. Joey is coming into the cafe with his father. The father greets people, standing behind the sofa. Joey's father makes everyone uncomfortable, not knowing what has happened recently. All feels bad when he talks to them."}, 
+			{ "description": "Chandler and Ross are sitting together with a man."}, 
+			{ "description": "Rachel is sitting on the sofa alone."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is sitting with Chandler?", 
+				"question_type": "Person", 
+				"answer": "Roger and Ross.", 
+				"wrong_answer1": "Monica and Ross.", 
+				"wrong_answer2": "Ross and Joey.", 
+				"wrong_answer3": "Rachel and Monica.", 
+				"wrong_answer4": "Rachel and Joey." } 
+			} ,
+			{ "qa": { 
+				"question": "How does Roger make Chandler uncomfortable?", 
+				"question_type": "Method", 
+				"answer": "Roger analyses Chandler psychologically.", 
+				"wrong_answer1": "Roger calls Chandler.", 
+				"wrong_answer2": "Roger disrepects Chandler.", 
+				"wrong_answer3": "Roger ignores Chandler.", 
+				"wrong_answer4": "Roger tells Chandler's secrets to others." } 
+				} ,
+			{ "qa": { 
+				"question": "Who comes in with Joey?", 
+				"question_type": "Person", 
+				"answer": "Joey's father.", 
+				"wrong_answer1": "Joey's mother.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Chandler.", 
+				"wrong_answer4": "Rachel." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "54-65", 
+		"period_num": "q4", 
+		"start_time": "00:04:32;17", 
+		"end_time": "00:05:59;14",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Joey's father is talking on the phone on the sofa. Joey takes the phone from him. Joey realizes that his father is cheating on mother. Father gives Joey excuses. Joey is chopping food on the board in the kitchen. Father is talking to Joey walking around the living room and kitchen. Father sits at the table and Joey gives him food to taste."}, 
+			{ "description": "Joey's father is talking on the phone on the sofa."}, 
+			{ "description": "Father sits at the table and Joey gives him food to taste."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Joey's father doing?", 
+				"question_type": "Action", 
+				"answer": "Father is talking on the phone.", 
+				"wrong_answer1": "Father is talking to Ross.", 
+				"wrong_answer2": "Father is cooking dinner.", 
+				"wrong_answer3": "Father is reading a book.", 
+				"wrong_answer4": "Father is talking with neighbors." } 
+			} ,
+			{ "qa": { 
+				"question": "How does Joey feel when Joey takes father's call?", 
+				"question_type": "Emotion", 
+				"answer": "Joey is surprised.", 
+				"wrong_answer1": "Joey is happy.", 
+				"wrong_answer2": "Joey is sad.", 
+				"wrong_answer3": "Joey is excited.", 
+				"wrong_answer4": "Joey is pleased." } 
+				} ,
+			{ "qa": { 
+				"question": "What makes Joey angry?", 
+				"question_type": "Reason", 
+				"answer": "Because Joey's father is cheating on mother.", 
+				"wrong_answer1": "Because father lost money.", 
+				"wrong_answer2": "Because father steals money.", 
+				"wrong_answer3": "Because father eats Joey's food.", 
+				"wrong_answer4": "Because father rummages Joey's house without permission." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "66-86", 
+		"period_num": "q5", 
+		"start_time": "00:06:01;21", 
+		"end_time": "00:07:47;02",
+		"related_period": "q1", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Rachel is putting her hand on Joey's shoulder and standing behind the sofa. On the sofa, Joey is sitting alone. Chandler, Monica, and Ross are sitting on the sofa together. Joey is talking and others are listening to Joey. Rachel stands up and walks to Chandler while Monica goes to the kitchen. Rachel stands next to Chandler and finds that Chandler keeps looking at Rachel's breasts. Annoyed by Chandler, Rachel moves away from Chandler and sits next to Joey. Ross is making jokes and Monica in the kitchen looks at them. The doorbell buzzer goes and Monica talks to the intercom. Finding that it is Roger, Chandler on the sofa tells others that he hates Roger."}, 
+			{ "description": "Rachel is putting her hand on Joey's shoulder and standing behind the sofa."}, 
+			{ "description": "Rachel stands next to Chandler and finds that Chandler keeps looking at Rachel's breasts."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is talking about parents?", 
+				"question_type": "Person", 
+				"answer": "Joey.", 
+				"wrong_answer1": "Chandler.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Phoebe.", 
+				"wrong_answer4": "Ross." } 
+			} ,
+			{ "qa": { 
+				"question": "Why is Rachel annoyed by Chandler?", 
+				"question_type": "Reason", 
+				"answer": "Because Chandler keeps looking at Rachel's breasts.", 
+				"wrong_answer1": "Because Chandler laughs at Rachel.", 
+				"wrong_answer2": "Because Chandler hates Rachel.", 
+				"wrong_answer3": "Because Chandler doesn't pay Rachel back.", 
+				"wrong_answer4": "Because Chandler delays working." } 
+				} ,
+			{ "qa": { 
+				"question": "How does Chandler feel about Roger?", 
+				"question_type": "Person", 
+				"answer": "Chandler hates Roger.", 
+				"wrong_answer1": "Chandler likes Roger.", 
+				"wrong_answer2": "Chandler has no opinion about Roger.", 
+				"wrong_answer3": "Chandler wants to know Roger more.", 
+				"wrong_answer4": "Chandler thinks that Roger is boring." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "87-100", 
+		"period_num": "q6", 
+		"start_time": "00:07:47;02", 
+		"end_time": "00:08:53;13",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Chandler, Ross, and Roger are talking together and sitting at the table. Chandler leaves the seat. Ross and Roger are arguing. Monica comes around and stands behind Roger. Monica and Phoebe are standing behind Roger. Phoebe is putting her hands on Roger's shoulders and standing closer to Roger. Monica is holding a bowl."}, 
+			{ "description": "Monica and Phoebe are standing behind Roger."}, 
+			{ "description": "Chandler leaves the seat."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Ross doing?", 
+				"question_type": "Action", 
+				"answer": "Ross is talking with Roger.", 
+				"wrong_answer1": "Ross is cooking.", 
+				"wrong_answer2": "Ross is singing.", 
+				"wrong_answer3": "Ross is talking with Rachel.", 
+				"wrong_answer4": "Ross is talking on the phone." } 
+			} ,
+			{ "qa": { 
+				"question": "Who is standing behind Roger?", 
+				"question_type": "Person", 
+				"answer": "Monica and Phoebe.", 
+				"wrong_answer1": "Monica and Rachel.", 
+				"wrong_answer2": "Rachel and Chandler.", 
+				"wrong_answer3": "Chandler and Ross.", 
+				"wrong_answer4": "Ross and Joey." } 
+				} ,
+			{ "qa": { 
+				"question": "How does Ross feel about Roger's comments?", 
+				"question_type": "Emotion", 
+				"answer": "Ross is confused and annoyed.", 
+				"wrong_answer1": "Ross is happy.", 
+				"wrong_answer2": "Ross is satisfied.", 
+				"wrong_answer3": "Ross is excited.", 
+				"wrong_answer4": "Ross is cheerful." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "101-114", 
+		"period_num": "q7", 
+		"start_time": "00:08:53;13", 
+		"end_time": "00:10:31;18",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "In the living room, Rachel is sitting on the sofa and talking with Roger. Rachel is crying and talking. Phoebe is sitting next to her. Roger leaves and Phoebe follows him. Roger opens the door for Phoebe and says goodbye to others. Monica and Ross are sitting at the table and looking miserable. Roger says and Monica and Ross are annoyed by his comments. Monica and Ross throw cookies."}, 
+			{ "description": "Roger leaves and Phoebe follows him."}, 
+			{ "description": "Monica and Ross are sitting at the table and eating cookies."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How does Rachel feel?", 
+				"question_type": "Emotion", 
+				"answer": "Rachel is sad.", 
+				"wrong_answer1": "Rachel is happy.", 
+				"wrong_answer2": "Rachel is depressed.", 
+				"wrong_answer3": "Rachel is worried.", 
+				"wrong_answer4": "Rachel is excited." } 
+			} ,
+			{ "qa": { 
+				"question": "Who leaves with Roger?", 
+				"question_type": "Person", 
+				"answer": "Phoebe.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Joey.", 
+				"wrong_answer4": "Chandler." } 
+				} ,
+			{ "qa": { 
+				"question": "What do Monica and Ross do when Roger shuts the door?", 
+				"question_type": "Action", 
+				"answer": "Monica and Ross throw cookies.", 
+				"wrong_answer1": "Monica and Ross shout at Roger.", 
+				"wrong_answer2": "Monica and Ross call Roger.", 
+				"wrong_answer3": "Monica and Ross throw apples.", 
+				"wrong_answer4": "Monica and Ross throw papers." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "115-127", 
+		"period_num": "q8", 
+		"start_time": "00:10:31;18", 
+		"end_time": "00:11:56;20",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Chandler and Joey walk to the hallway and find that an old lady is sitting by their door. It is Ronni, Joey's father is having an affair with her. Joey stares at her with a shocking face. Ronni gives food and only Chandler takes it. In Chandler and Joey's apartment, Ronni is talking to Chandler. Joey's dad is not around. Joey is anxiously walking here and there around the living room. Father comes in and goes to Ronni. The three, Ronni, father, Joey, are in a strange and awkward atmosphere. When father and Ronni try to leave the apartment, Joey stops them."}, 
+			{ "description": "Chandler and Joey walk to the hallway and find that an old lady is sitting by their door."}, 
+			{ "description": "Joey is anxiously walking here and there around the living room."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What do Joey and Chandler find in the hallway?", 
+				"question_type": "Visual detail", 
+				"answer": "Joey and Chandler find a woman.", 
+				"wrong_answer1": "Joey and Chandler find a computer.", 
+				"wrong_answer2": "Joey and Chandler an old man.", 
+				"wrong_answer3": "Joey and Chandler find some money.", 
+				"wrong_answer4": "Joey and Chandler find a used desk." } 
+			} ,
+			{ "qa": { 
+				"question": "Who is talking with Ronni?", 
+				"question_type": "Action", 
+				"answer": "Chandler.", 
+				"wrong_answer1": "Joey.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Rachel.", 
+				"wrong_answer4": "Monica." } 
+				} ,
+			{ "qa": { 
+				"question": "What do Joey do when father and Ronni try to leave?", 
+				"question_type": "Action", 
+				"answer": "Joey stop father and Ronni.", 
+				"wrong_answer1": "Joey let father and Ronni go.", 
+				"wrong_answer2": "Joey calls mother.", 
+				"wrong_answer3": "Joeys cooks dinner for father and Ronni.", 
+				"wrong_answer4": "Joey calls Monica and Rachel." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "128-134", 
+		"period_num": "q9", 
+		"start_time": "00:11:58;17", 
+		"end_time": "00:12:56;22",
+		"related_period": "q8", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Joey standing by the door talks to his father. Father and Ronni stand together. Father and Ronni give up leaving. Ronni waves her hand to Joey and Mr. Tribbiani. Chandler shows Ronni his room for her to sleep. Joey shouts at his father and forces him to break up with Ronni. Father reluctantly talks to Joey but Joey points his room. Mr. Tribbiani goes to Joey's room."}, 
+			{ "description": "Joey stands by the door and talks to his father and Ronni."}, 
+			{ "description": "Mr. Tribbiani and Joey are talking continuously by the door."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is talking with Joey?", 
+				"question_type": "Person", 
+				"answer": "Mr. Tribbiani.", 
+				"wrong_answer1": "Ronni.", 
+				"wrong_answer2": "Chandler.", 
+				"wrong_answer3": "Ross.", 
+				"wrong_answer4": "Monica." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Chandler doing?", 
+				"question_type": "Action", 
+				"answer": "Chandler is showing Ronni his room.", 
+				"wrong_answer1": "Chandler is cooking for Ronni.", 
+				"wrong_answer2": "Chandler is singing for Monica.", 
+				"wrong_answer3": "Chandler is talking with Joey.", 
+				"wrong_answer4": "Chandler is talking with Ross." } 
+				} ,
+			{ "qa": { 
+				"question": "How Joey calls Ronni?", 
+				"question_type": "Person", 
+				"answer": "Father's girlfriend.", 
+				"wrong_answer1": "Nanny.", 
+				"wrong_answer2": "Mother.", 
+				"wrong_answer3": "Step mother.", 
+				"wrong_answer4": "Joey never mentions Ronni." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "135-145", 
+		"period_num": "q10", 
+		"start_time": "00:12:56;22", 
+		"end_time": "00:14:19;05",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Chandler and Joey are sleeping together, but Joey keeps tossing and turning to get comfortable. Chandler feels uncomfortable as well. They talk for a while in bed. Joey is worried about him being a womanizer like his father after marriage and Chandler calms him down. They make jokes in bed."}, 
+			{ "description": "Chandler and Joey lie on the bed together."}, 
+			{ "description": "Chandler and Joey talk for a while."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is lying with Joey?", 
+				"question_type": "Person", 
+				"answer": "Chandler.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Rachel.", 
+				"wrong_answer4": "Phoebe." } 
+			} ,
+			{ "qa": { 
+				"question": "How does Joey feel in bed?", 
+				"question_type": "Emotion", 
+				"answer": "Joey feels uncomfortable.", 
+				"wrong_answer1": "Joey feels comfortable.", 
+				"wrong_answer2": "Joey is excited.", 
+				"wrong_answer3": "Joey is sad.", 
+				"wrong_answer4": "Joey is cheerful." } 
+				} ,
+			{ "qa": { 
+				"question": "What is Joey worrying about?", 
+				"question_type": "Person", 
+				"answer": "Joey is worrying about him meeting the right person after marriage.", 
+				"wrong_answer1": "Joey is worrying about a baby.", 
+				"wrong_answer2": "Joey is worrying about his work.", 
+				"wrong_answer3": "Joey is worrying about his career.", 
+				"wrong_answer4": "Joey is worried about Ross." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "146-159", 
+		"period_num": "q11", 
+		"start_time": "00:14:19;05", 
+		"end_time": "00:15:50;21",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "In Monica and Rachel's house, someone knocks on the door. Monica gets the door and finds a woman standing. Ronni introduces herself. Finally, Monica gets who she is, lets her in and lets her use the bathroom. Rachel greets Ronni and asks about Chandler. Rachel finds out some information and decides to go guy's apartment to get revenge on Chandler. Monica holds the door for Rachel. Rachel goes into the guy's apartment and finds Joey's father reading a newspaper leaning on the table. Rachel closes the door and opens the bathroom door. Rachel finds that Joey is in a shower and quickly closes the door. For shouting, Chandler comes out of his room with a bathrobe. Rachel shouts at Chandler."}, 
+			{ "description": "In Monica and Rachel's house, someone knocks on the door."}, 
+			{ "description": "Rachel closes the door and opens the bathroom door."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where is Ronni?", 
+				"question_type": "Location", 
+				"answer": "Monica and Rachel's house.", 
+				"wrong_answer1": "Joey and Chandler's apartment.", 
+				"wrong_answer2": "Ross's house.", 
+				"wrong_answer3": "In the public bath.", 
+				"wrong_answer4": "In Phoebe's house." } 
+			} ,
+			{ "qa": { 
+				"question": "Why is Ronni visiting Monica and Rachel's house?", 
+				"question_type": "Reason", 
+				"answer": "To use the bathroom.", 
+				"wrong_answer1": "To have dinner with Monica.", 
+				"wrong_answer2": "To get some bread.", 
+				"wrong_answer3": "To borrow books.", 
+				"wrong_answer4": "To see Monica and Rachel." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Rachel do to get revenge on Chandler?", 
+				"question_type": "Action", 
+				"answer": "Rachel opens the bathroom door.", 
+				"wrong_answer1": "Rachel goes to Chandler's room.", 
+				"wrong_answer2": "Rachel shouts at Chandler.", 
+				"wrong_answer3": "Rachel calls Chandler.", 
+				"wrong_answer4": "Rachel tells others Chandler's secrets." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "160-176", 
+		"period_num": "q12", 
+		"start_time": "00:15:50;21", 
+		"end_time": "00:16:58;01",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "In the café, Monica, Chandler, and Ross are sitting on the sofa. Phoebe comes in and tells them about Roger's dinner invitation. All looks uncomfortable and soon tells Phoebe that they hate Roger. Phoebe sits on the sofa and listens to them. She refuses their comments. Rachel stands by the sofa and agrees with others. In the apartment, Joey tries to turn the sofa-bed back into a sofa. Someone knocks on the door and it rears up at him. Joey opens the door and finds his mom. Joey's mom gives him a bag of groceries and whacks him around the ear. Mom walks into the apartment and gives the sofa-bed a tiny push and it folds away. They talk for a while about father's cheating."}, 
+			{ "description": "In the café, Monica, Chandler, and Ross are sitting on the sofa."}, 
+			{ "description": "In the apartment, Joey tries to turn the sofa-bed back into a sofa."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How does Ross feel about Roger's invitation?", 
+				"question_type": "Emotion", 
+				"answer": "Ross is uncomfortable.", 
+				"wrong_answer1": "Ross is sad.", 
+				"wrong_answer2": "Ross is excited.", 
+				"wrong_answer3": "Ross is worried.", 
+				"wrong_answer4": "Ross is nervous." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Joey doing?", 
+				"question_type": "Action", 
+				"answer": "Joey tries to turn the sofa-bed back into a sofa.", 
+				"wrong_answer1": "Joey cooks dinner.", 
+				"wrong_answer2": "Joey eats dinner.", 
+				"wrong_answer3": "Joey cleans the house.", 
+				"wrong_answer4": "Joey talks on the phone." } 
+				} ,
+			{ "qa": { 
+				"question": "Who visits Joey?", 
+				"question_type": "Person", 
+				"answer": "Joey's mother.", 
+				"wrong_answer1": "Joey's father.", 
+				"wrong_answer2": "Father's girlfriend.", 
+				"wrong_answer3": "Ross.", 
+				"wrong_answer4": "Monica." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "177-183", 
+		"period_num": "q13", 
+		"start_time": "00:17:01;08", 
+		"end_time": "00:18:02;18",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Mom and Joey are standing in the apartment and talking together. Mom shouts at Joey and blames him for forcing the father to tell the truth. Mom shouts at Joey. They sit and keep talking. Mom puts her hand on Joey's shoulder. She smiles at Joey."}, 
+			{ "description": "Mom and Joey are standing in the apartment and talking together."}, 
+			{ "description": "Joey and mom sit and keep talking."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Joey doing?", 
+				"question_type": "Action", 
+				"answer": "Joey is talking with his mother.", 
+				"wrong_answer1": "Joey is cooking dinner for his mom.", 
+				"wrong_answer2": "Joey is cleaning the house.", 
+				"wrong_answer3": "Joey is talking with his dad.", 
+				"wrong_answer4": "Joey is talking on the phone." } 
+			} ,
+			{ "qa": { 
+				"question": "Does mom like Joey's decision?", 
+				"question_type": "Person", 
+				"answer": "No, mom doesn't like Joey's decision.", 
+				"wrong_answer1": "Yes, mom likes Joey's decision.", 
+				"wrong_answer2": "Yes, mom supports Joey.", 
+				"wrong_answer3": "Mom thinks Joey was right.", 
+				"wrong_answer4": "Mom wants Joey to help her." } 
+				} ,
+			{ "qa": { 
+				"question": "Does mom want dad to break up with his girlfriend?", 
+				"question_type": "Emotion", 
+				"answer": "No, mom wants dad to keep cheating on her.", 
+				"wrong_answer1": "Mom wants dad to break up with Ronni.", 
+				"wrong_answer2": "Mom wants to know Ronni.", 
+				"wrong_answer3": "Mom wants to see Ronni.", 
+				"wrong_answer4": "Mom wants dad to date her instead of Ronni." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "184-188", 
+		"period_num": "q14", 
+		"start_time": "00:18:17;15", 
+		"end_time": "00:19:03;02",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Mom explains why she supports dad cheating on her. She stands up and turns back from Joey. Joey walks towards her and leans on the table. Joey tries to understand her and says sorry. Mom goes to Joey and touches Joey's cheeks. Mom and Joey talk with a table between them. Joey understands her and kisses her hand. Mom smiles at Joey."}, 
+			{ "description": "Joey walks towards her and leans on the table."}, 
+			{ "description": "Joey understands her and kisses her hand."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What does mom want dad to do?", 
+				"question_type": "Person", 
+				"answer": "Mom wants dad to keep cheating on her.", 
+				"wrong_answer1": "Mom wants dad to break up with girlfriend.", 
+				"wrong_answer2": "Mom wants Joey to report dad to her.", 
+				"wrong_answer3": "Mom wants to know what Joey thinks.", 
+				"wrong_answer4": "Mom wants a divorce." } 
+			} ,
+			{ "qa": { 
+				"question": "Who is talking with Joey?", 
+				"question_type": "Person", 
+				"answer": "Joey's mom.", 
+				"wrong_answer1": "Joey's dad.", 
+				"wrong_answer2": "Chandler.", 
+				"wrong_answer3": "Ross.", 
+				"wrong_answer4": "Rachel." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Joey do to his mom as he understand her?", 
+				"question_type": "Action", 
+				"answer": "Joey kisses mom's hand.", 
+				"wrong_answer1": "Joey hugs mom.", 
+				"wrong_answer2": "Joey calls her.", 
+				"wrong_answer3": "Joey cooks for mom.", 
+				"wrong_answer4": "Joey goes after mom." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "189-201", 
+		"period_num": "q15", 
+		"start_time": "00:19:03;02", 
+		"end_time": "00:20:43;21",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "In the café, Phoebe and Roger are talking on the sofa. Phoebe is lying on Roger's laps and telling the truth to him that her friends hate him. She sits straight and tells him his shortcomings. They talk for a while, but suddenly Roger gets emotional. Phoebe looks disappointed. At home, standing at the front, Joey eating a slice of pizza is talking to people on the sofa. Friends console Joey. Joey sits down on the sofa and keeps eating."}, 
+			{ "description": "In the café, Phoebe and Roger are talking on the sofa."}, 
+			{ "description": "At home, standing at the front, Joey eating a slice of pizza is talking to people."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is talking with Roger?", 
+				"question_type": "Person", 
+				"answer": "Phoebe.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Ross.", 
+				"wrong_answer4": "Chandler." } 
+			} ,
+			{ "qa": { 
+				"question": "How is Roger feeling?", 
+				"question_type": "Emotion", 
+				"answer": "Roger is angry.", 
+				"wrong_answer1": "Roger is sad.", 
+				"wrong_answer2": "Roger is happy.", 
+				"wrong_answer3": "Roger is excited.", 
+				"wrong_answer4": "Roger is satisfied." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Phoebe feel about Roger's attitude?", 
+				"question_type": "Emotion", 
+				"answer": "Phoebe is disappointed.", 
+				"wrong_answer1": "Phoebe is depressed.", 
+				"wrong_answer2": "Phoebe is happy.", 
+				"wrong_answer3": "Phoebe is excited.", 
+				"wrong_answer4": "Phoebe is bored." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "202-215", 
+		"period_num": "q16", 
+		"start_time": "00:20:44;12", 
+		"end_time": "00:21:53;01",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Joey is standing at the front and talking about his parents to others on the sofa. Joey sits on the sofa next to Chandler. All give him some comments to console Joey. Phoebe comes in with a bag. She drops the bag and tells that she breaks up with Roger. Phoebe sits on the sofa next to Chandler and explains why she breaks up with Roger. In the end, Phoebe tells others that she hates Roger."}, 
+			{ "description": "Joey is standing at the front and talking about his parents to others on the sofa."}, 
+			{ "description": "Phoebe sits on the sofa next to Chandler."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Joey talking about?", 
+				"question_type": "Person", 
+				"answer": "Joey is talking about his parents.", 
+				"wrong_answer1": "Joey is talking about his career.", 
+				"wrong_answer2": "Joey is talking about acting.", 
+				"wrong_answer3": "Joey is talking about food.", 
+				"wrong_answer4": "Joey is talking about his girlfriend." } 
+			} ,
+			{ "qa": { 
+				"question": "What are people eating?", 
+				"question_type": "Visual detail", 
+				"answer": "Pizza.", 
+				"wrong_answer1": "Spagetti.", 
+				"wrong_answer2": "Soup.", 
+				"wrong_answer3": "Cake.", 
+				"wrong_answer4": "Hamburger." } 
+				} ,
+			{ "qa": { 
+				"question": "What haapens to Phoebe?", 
+				"question_type": "Person", 
+				"answer": "Phoebe breaks up with Roger.", 
+				"wrong_answer1": "Phoebe doesn't get paid at work.", 
+				"wrong_answer2": "Phoebe misses her boyfriend.", 
+				"wrong_answer3": "Phoebe is cheating on her boyfriend.", 
+				"wrong_answer4": "Phoebe lost her wallet." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "216-222", 
+		"period_num": "q17", 
+		"start_time": "00:21:53;01", 
+		"end_time": "00:22:38;21",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Phoebe is sitting at the table alone. Joey comes in to get revenge on Rachel. Joey opens the bathroom door. Surprisingly, it is Monica. She comes out with towels around her and shouts at Joey. To get revenge, Monica goes to Joey and Chandler's apartment, she opens the bathroom door and finds that it is Joey's father."}, 
+			{ "description": "Phoebe is sitting at the table alone."}, 
+			{ "description": "To get revenge, Monica goes to Joey and Chandler's apartment."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is sitting at the table?", 
+				"question_type": "Action", 
+				"answer": "Phoebe.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Ross.", 
+				"wrong_answer4": "Joey." } 
+			} ,
+			{ "qa": { 
+				"question": "Who is in shower when Joey opens the door?", 
+				"question_type": "Person", 
+				"answer": "Monica.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Phoebe.", 
+				"wrong_answer4": "Chandler." } 
+				} ,
+			{ "qa": { 
+				"question": "Who does Monica find in the bathroom?", 
+				"question_type": "Person", 
+				"answer": "Joey's father.", 
+				"wrong_answer1": "Joey.", 
+				"wrong_answer2": "Chandler.", 
+				"wrong_answer3": "Rachel.", 
+				"wrong_answer4": "Ross." 
+				} 
+			} 
+		] 
+	}
+	]
+}

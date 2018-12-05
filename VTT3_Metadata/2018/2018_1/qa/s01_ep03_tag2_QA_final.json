@@ -1,0 +1,647 @@
+{ 
+	"file_name": "s01_ep03_tag2_QA_final",
+	"registed_name": "s01_ep03_tag2_QA_final", 
+	"qa_results": 
+	[ 
+		{ 
+		"visual_period_num": "1,2,3-27", 
+		"period_num": "1", 
+		"start_time": "00:00:02;14", 
+		"end_time": "00:01:23;01",
+		"description_info": 
+		[ 
+			{ "description": "Phoebe comes into the café and walks to the bar. Rachel pours coffee for her. She takes it to the sofa where everyone is sitting. She talks about her date which hasn't been successful. Rachel wonders what she means. Monica sitting on the sofa answers. Joey, Ross, and Phoebe agree to each other. Ross is sitting alone and talking about his dog. He gets surprised and shocked that his friends explain that his parents lied to him."}, 
+			{ "description": "Rachel is at the bar serving coffee."}, 
+			{ "description": "Phoebe takes coffee while talking about her date."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who serves coffee?", 
+				"answer": "Rachel.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Phoebe..", 
+				"wrong_answer3": "Joey.", 
+				"wrong_answer4": "Chandler." } 
+			} ,
+			{ "qa": { 
+				"question": "How was Phoebe's date?", 
+				"answer": "It was not successful.", 
+				"wrong_answer1": "It was successful.", 
+				"wrong_answer2": "She promised to meet him again.", 
+				"wrong_answer3": "She loved him.", 
+				"wrong_answer4": "She had a great time." } 
+				} ,
+			{ "qa": { 
+				"question": "Who gets shocked when heard about parents' lies?", 
+				"answer": "Ross", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Chandler.", 
+				"wrong_answer4": "Joey." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "28-78", 
+		"period_num": "2", 
+		"start_time": "00:01:25;10", 
+		"end_time": "00:03:01;14",
+		"description_info": 
+		[ 
+			{ "description": "At home, Joey and Chandler are acting together. Chandler is sitting on the table and Joey is sitting on the sofa. Joey learns how to smoke with a good posture from Chandler. "}, 
+			{ "description": "Joey is sitting on the sofa with pieces of papers on his hand."}, 
+			{ "description": "Chandler is moving around and sitting on the table."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who helps Joey?", 
+				"answer": "Chandler.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Phoebe.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Rachel." } 
+			} ,
+			{ "qa": { 
+				"question": "What does Chandler teach Joey?", 
+				"answer": "Chandler teaches Joey how to smoke.", 
+				"wrong_answer1": "Chandler teaches Joey how to watch TV.", 
+				"wrong_answer2": "Chandler teaches Joey how to dance.", 
+				"wrong_answer3": "Chandler teaches Joey how to date.", 
+				"wrong_answer4": "Chandler teaches Joey how to cook." } 
+				} ,
+			{ "qa": { 
+				"question": "Where is Chandler sitting on?", 
+				"answer": "On the table.", 
+				"wrong_answer1": "On the sofa.", 
+				"wrong_answer2": "On the floor.", 
+				"wrong_answer3": "On the bar.", 
+				"wrong_answer4": "On Joey's laps." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "79-109", 
+		"period_num": "3", 
+		"start_time": "00:03:04;12", 
+		"end_time": "00:04:41;18",
+		"description_info": 
+		[ 
+			{ "description": "Chandler is showing how to smoke as he stands up from the table and puts his left foot on the table and puts his left hand on the lap. He explains how he feels about smoking. Chandler tries to quit smoking, but as he teaches Joey somking is so attractive to him. As he inhales once, he feels thrilled by the cigarette.In the cafe, Monica, Chandler, Ross, and Joey are sitting together. Monica and Joey are sitting opposite of each other. Chandler and Joey are sitting together on the sofa. Joey is sitting on the chair, holding the back of it. Rachels serves coffee and tea to them and feels satisfied that she doesn't make mistakes. However, All four of them switch their drink after Rachel left, showing that Rachel was wrong."}, 
+			{ "description": "At home, Chandler puts his one foot on the table and smokes."}, 
+			{ "description": "Monica, Chandler, Ross, and Joey are sitting together. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is smoking?", 
+				"answer": "Chandler.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Rachel.", 
+				"wrong_answer4": "Phoebe." } 
+			} ,
+			{ "qa": { 
+				"question": "Who serves coffee?", 
+				"answer": "Rachel.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Joey.", 
+				"wrong_answer4": "Chandler." } 
+				} ,
+			{ "qa": { 
+				"question": "Do people get drink that they ordered from Rachel?", 
+				"answer": "No, they didn't get right drink.", 
+				"wrong_answer1": "Yes, they get cookies as well.", 
+				"wrong_answer2": "Yes, they get their drinks right.", 
+				"wrong_answer3": "Yes, they get two cup for each.", 
+				"wrong_answer4": "Yes, they get free drinks as well." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "110-130", 
+		"period_num": "4", 
+		"start_time": "00:04:46;13", 
+		"end_time": "00:06:06;06",
+		"description_info": 
+		[ 
+			{ "description": "Phoebe walks into the café and sits on the sofa inbetween Chandler and Ross. She is upset because of her bank. Everyone listens to her story. Monica suddenly spots Chandler hiding behind the sofa and smoking. He stops his breath for a moment and spit it out. Cigarette smoke comes out of his mouth and all friends are upset about it. "}, 
+			{ "description": "Phoebe walks into the café and slumped into the sofa."}, 
+			{ "description": "Monica spots Chandler smoking behind the sofa."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who comes into the café?", 
+				"answer": "Phoebe.", 
+				"wrong_answer1": "Racehl.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Chandler.", 
+				"wrong_answer4": "Ross." } 
+			} ,
+			{ "qa": { 
+				"question": "Why is Phoebe upset?", 
+				"answer": "Because her bank mistakenly puts money in her account.", 
+				"wrong_answer1": "Because she lost money.", 
+				"wrong_answer2": "Because she lost her phone.", 
+				"wrong_answer3": "Because she broke up with her boyfriend.", 
+				"wrong_answer4": "Because she failed an exam." } 
+				} ,
+			{ "qa": { 
+				"question": "What is Chandler doing?", 
+				"answer": "He is smoking.", 
+				"wrong_answer1": "He is eating.", 
+				"wrong_answer2": "He is cooking.", 
+				"wrong_answer3": "He is shopping.", 
+				"wrong_answer4": "He is cleaning." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "131-154", 
+		"period_num": "5", 
+		"start_time": "00:06:09;20", 
+		"end_time": "00:07:33;04",
+		"description_info": 
+		[ 
+			{ "description": "Ross and other friends persuade Chandler to put out his cigarette. Reluctantly, he puts it out. Monica tells all that she goes to meet her new boyfriend and everyone wants to see him, but she refuses. In the restaurant, she talks about it to her colleague. They are busy with cooking in front of stove standing side by side. "}, 
+			{ "description": "Chandler puts out his cigarette."}, 
+			{ "description": "Monica leaves the café. At work, she is busy with cooking."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How does Chandler put his cigarette out?", 
+				"answer": "By putting it into Phoebe's coffee.", 
+				"wrong_answer1": "By putting it in a water bottle.", 
+				"wrong_answer2": "By throwing it away.", 
+				"wrong_answer3": "By giving it to another person.", 
+				"wrong_answer4": "He doesn't put it out." } 
+			} ,
+			{ "qa": { 
+				"question": "What Monica is worried about?", 
+				"answer": "She is worried about whether they like her new boyfriend.", 
+				"wrong_answer1": "She is worried about her new car.", 
+				"wrong_answer2": "She is worried about her new boss.", 
+				"wrong_answer3": "She is worried about her new boyfriend.", 
+				"wrong_answer4": "She is worried about car insurance." } 
+				} ,
+			{ "qa": { 
+				"question": "Does Chandler want to put out his cigarette?", 
+				"answer": "No, he doesn't want to.", 
+				"wrong_answer1": "Yes, he hates cigarettes.", 
+				"wrong_answer2": "Yes, he thinks his health.", 
+				"wrong_answer3": "Yes, he doesn't want to smoke.", 
+				"wrong_answer4": "Yes, he put out other people's cigarette as well." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "155-175", 
+		"period_num": "6", 
+		"start_time": "00:07:34;17", 
+		"end_time": "00:09:01;08",
+		"description_info": 
+		[ 
+			{ "description": "At home, Ross and Joey are sitting on the sofa each. Joey is eating with the plate on his hand. Chandler is smoking in the veranda. Monica prepares all the guys for his boyfriend's visit. Phoebe comes out of the room and sits on the sofa next to Joey. She reads letter from her bank and gets upset about it. The bell rings and Monica opens the door. Her boyfriend, Ellen, steps in and says hello to all friends."}, 
+			{ "description": "Ross and Joey are sitting on the sofa each. Joey is eating with the plate on his hand."}, 
+			{ "description": "Chandler is smoking outside the livingroom. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who visits friends?", 
+				"answer": "Monica's boyfriend.", 
+				"wrong_answer1": "Rachel's father.", 
+				"wrong_answer2": "Monica's parents.", 
+				"wrong_answer3": "Monica's friends.", 
+				"wrong_answer4": "Ross's ex-wife." } 
+			} ,
+			{ "qa": { 
+				"question": "Where are  people talking?", 
+				"answer": "In the livingroom.", 
+				"wrong_answer1": "In the café.", 
+				"wrong_answer2": "In the toilet.", 
+				"wrong_answer3": "In Monica's restaurant.", 
+				"wrong_answer4": "In Chandler's office." } 
+				} ,
+			{ "qa": { 
+				"question": "What happens after Phoebe reads the letter?", 
+				"answer": "The door bell rings.", 
+				"wrong_answer1": "Chandler comes in.", 
+				"wrong_answer2": "Monica's parents come in.", 
+				"wrong_answer3": "Someone knocked the walls.", 
+				"wrong_answer4": "The phone rings." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "176-211", 
+		"period_num": "7", 
+		"start_time": "00:09:07;15", 
+		"end_time": "00:10:48;02",
+		"description_info": 
+		[ 
+			{ "description": "At home, Monica lets Ellen out and comes back to her friends. She waits for their comments, but they loves him unexpectedly. Chandler and Rachel stand up and step closer to her. Each one of them makes comments about him. Ross stands up and walks to the kitchen. Rachel holds Monica's hand. Ross draws people's attention standing in the kitchen and hold drnk in his hand."}, 
+			{ "description": "Monica walks to her friends who are sitting on the sofa."}, 
+			{ "description": "Chandler and Rachel stand up and step closer to Monica."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What are friends doing?", 
+				"answer": "They are commneting on Monica's boyfriend.", 
+				"wrong_answer1": "They are enjoying their food.", 
+				"wrong_answer2": "They are commenting about TV show.", 
+				"wrong_answer3": "They are dancing.", 
+				"wrong_answer4": "They are cooking." } 
+			} ,
+			{ "qa": { 
+				"question": "Who walks to the kitchen?", 
+				"answer": "Ross.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Joey.", 
+				"wrong_answer4": "Phoebe" } 
+				} ,
+			{ "qa": { 
+				"question": "Who stands up when Monica walks in?", 
+				"answer": "Chandler and Rachel.", 
+				"wrong_answer1": "Rachel and Ross.", 
+				"wrong_answer2": "Ross and Monica.", 
+				"wrong_answer3": "Nobody stands up.", 
+				"wrong_answer4": "Phoebe and Rachel." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "212-226", 
+		"period_num": "8", 
+		"start_time": "00:10:49;01", 
+		"end_time": "00:11:52;12",
+		"description_info": 
+		[ 
+			{ "description": "Monica is sitting alone at the bar. She looks back and sees that Rachel, Ross, Chandler, and Joey walks into the café. They bring baseball equipment. They are excited about the game because Ellen helped them win the game. Rachel goes to the back of the bar and leans against the bar while the other three guys stand behind the sofa."}, 
+			{ "description": "Monica is sitting at the bar. She looks back to see who's coming into the café."}, 
+			{ "description": "Rachel walks to the bar and leans against it. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is sitting at the bar?", 
+				"answer": "Monica.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Chandler.", 
+				"wrong_answer4": "Phoebe." } 
+			} ,
+			{ "qa": { 
+				"question": "What did Rachel, Ross, Chandler, and Joey play before they come to the café?", 
+				"answer": "They played baseball.", 
+				"wrong_answer1": "They played basketball.", 
+				"wrong_answer2": "They played soccer.", 
+				"wrong_answer3": "They played tennis.", 
+				"wrong_answer4": "They didn't play." } 
+				} ,
+			{ "qa": { 
+				"question": "Where is Rachel?", 
+				"answer": "Rachel is at the bar in the cafe.", 
+				"wrong_answer1": "Rachel is in her office.", 
+				"wrong_answer2": "Rachel is at home.", 
+				"wrong_answer3": "Rachel is in the toilet.", 
+				"wrong_answer4": "Rachel is in shopping mall." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "227-249", 
+		"period_num": "9", 
+		"start_time": "00:12:02;02", 
+		"end_time": "00:13:43;20",
+		"description_info": 
+		[ 
+			{ "description": "Phoebe meets the woman on the street and gives her money to. Her. At work, chandler secretly smokes. He sits in his chair in front of his computer and opens the drawer where he hides cigarettes in order to smoke. After he smokes, he uses handheld fan and air freshener to cover up smoking smell."}, 
+			{ "description": "Phoebe gives her money to another person."}, 
+			{ "description": "Chandler sits in his office and tries to smoke."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What does Phoebe do?", 
+				"answer": "She gives away her money.", 
+				"wrong_answer1": "She works at her office.", 
+				"wrong_answer2": "She works out.", 
+				"wrong_answer3": "She buys a meal for her friend.", 
+				"wrong_answer4": "She takes her for a walk." } 
+			} ,
+			{ "qa": { 
+				"question": "Where does Chandler hide his cigarette?", 
+				"answer": "In his drawer.", 
+				"wrong_answer1": "In his closet.", 
+				"wrong_answer2": "In the toilet.", 
+				"wrong_answer3": "He doesn't hide.", 
+				"wrong_answer4": "At home." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Chandler use to cover up his smoking smell?", 
+				"answer": "He uses handheld fan and air freshener.", 
+				"wrong_answer1": "He uses toothpaste.", 
+				"wrong_answer2": "He uses perfume.", 
+				"wrong_answer3": "He uses computer.", 
+				"wrong_answer4": "He doesn't try to cover up his smoking." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "250-275", 
+		"period_num": "10", 
+		"start_time": "00:13:54;22", 
+		"end_time": "00:14:55;20",
+		"description_info": 
+		[ 
+			{ "description": "Phoebe is in front of street vendor and gets drink from the woman who she gave money to. In the café, Everyone gathers around and phoebe shares her experience that she gets a thumb in her drink. Chandler is trying to smoke and everyon stops him. He gets upset about it and mentions about other's weak points. With big gestures, he strongly opposes all others and tries to smoke. They all listen to him with serious look. Everyone is sitting except Rachel standing behind the sofa with laying her hands on it."}, 
+			{ "description": "Phoebe is standing up and holding a can in her hand. "}, 
+			{ "description": "Chandler lights the cigar in his seat with his leg crossed over on the table."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is holding a can?", 
+				"answer": "Phoebe.", 
+				"wrong_answer1": "Rachle.", 
+				"wrong_answer2": "Chandler.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Joey." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Chandler trying to do?", 
+				"answer": "He is trying to smoke.", 
+				"wrong_answer1": "He is trying to drive.", 
+				"wrong_answer2": "He is trying to cook.", 
+				"wrong_answer3": "He is trying to clean his room.", 
+				"wrong_answer4": "He is trying to make a call." } 
+				} ,
+			{ "qa": { 
+				"question": "What does friends do when chandler tries to smoke?", 
+				"answer": "They try to stop him.", 
+				"wrong_answer1": "They try to help him.", 
+				"wrong_answer2": "They try to give him a car.", 
+				"wrong_answer3": "They try to smack him.", 
+				"wrong_answer4": "They try to call his mom." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "276-303", 
+		"period_num": "11", 
+		"start_time": "00:15:02;16", 
+		"end_time": "00:16:50;18",
+		"description_info": 
+		[ 
+			{ "description": "As friends hear their weak points from Chandler, each one of them does that one by one. All feels disappointed and feels uncomfortable about it. Suddenly, the atmophere feels strange and friends exchanges look and turns their heads from each other. Phoebe chews her hairs, Monica snorts, and Ross overpronounces first word. When Rachel leaves for her work, Phoebe stops it. All starts fighting. At work, Monica is talking about his boyfriend and her friends. She and colleague are cleaning the kitchen with a white cloth. "}, 
+			{ "description": "All friends gather in the cafea and talk to each other."}, 
+			{ "description": "Monica is working in the restaurant ."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How does friends feel about Chandler's comments?", 
+				"answer": "They feel disappointed.", 
+				"wrong_answer1": "They feel great.", 
+				"wrong_answer2": "They feel excited.", 
+				"wrong_answer3": "They feel touched.", 
+				"wrong_answer4": "They feel sad." } 
+			} ,
+			{ "qa": { 
+				"question": "Where is Monica cleaning?", 
+				"answer": "In the restaurant.", 
+				"wrong_answer1": "At home.", 
+				"wrong_answer2": "in her office.", 
+				"wrong_answer3": "In her car.", 
+				"wrong_answer4": "She is not cleaning now." } 
+				} ,
+			{ "qa": { 
+				"question": "What is she using to clean?", 
+				"answer": "She is using a white cloth.", 
+				"wrong_answer1": "She is using a broom.", 
+				"wrong_answer2": "She is using a pink cloth.", 
+				"wrong_answer3": "She is using a duster.", 
+				"wrong_answer4": "She is using a vacuum cleaner." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "304-314", 
+		"period_num": "12", 
+		"start_time": "00:16:52;16", 
+		"end_time": "00:17:53;17",
+		"description_info": 
+		[ 
+			{ "description": "In the café, Chandler is sitting on the sofa alone and talking about smoking to Ross and Joey on his both sides Rachel at the bar calls Chandler and passes the phone call from Ellen. Chandler gets it. He sits by the bar and talks with Ellen and decides to quit smoking as Chandler puts out his cigar. Chandler walks away from the bar and Ross goes to the bar to talk to Rachel."}, 
+			{ "description": "Chandler is sitting alone on the sofa and talking with his friends, Ross and Joey."}, 
+			{ "description": "Rachel at the bar calls Chandler to pass Ellen's call."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is on the phone talking to Chandler?", 
+				"answer": "Ellen.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Chandler's parents.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Ross." } 
+			} ,
+			{ "qa": { 
+				"question": "Do Ross and Joey persuade Chandler to quit smoking?", 
+				"answer": "No, Ellen did.", 
+				"wrong_answer1": "Yes, Chandler listens to them.", 
+				"wrong_answer2": "Yes, they talks to him a lot.", 
+				"wrong_answer3": "Yes, they told Chandler some quotes.", 
+				"wrong_answer4": "Yes, they gave him money." } 
+				} ,
+			{ "qa": { 
+				"question": "After the call with Ellen, what does Chandler do?", 
+				"answer": "He walks away from the bar.", 
+				"wrong_answer1": "He sits at the bar.", 
+				"wrong_answer2": "He walks to home.", 
+				"wrong_answer3": "He drives to the beach.", 
+				"wrong_answer4": "He runs to his office." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "315-344", 
+		"period_num": "13", 
+		"start_time": "00:18:00;04", 
+		"end_time": "00:19:32;20",
+		"description_info": 
+		[ 
+			{ "description": "At home, Chandler and Ross are sitting together and watching TV. Chandler is being grumpy as he suffers from withdrwal symptoms. Ross puts nicotine patches on his arm. In front of them, Phoebe is sitting on the floor. Rachel is sitting on the sofa behind Phoebe. Monica takes Joey to the living room. He looks just finished shower with shower gown on. Monica stands in front of all and  calls everyone's attention."}, 
+			{ "description": "Ross and Chandler are sitting togerther. Monica comes in looking for Joey."}, 
+			{ "description": "Monica brings Joey in and stands in front of all."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Chandler doing?", 
+				"answer": "He is watching TV.", 
+				"wrong_answer1": "He is reading a book.", 
+				"wrong_answer2": "He is riding a bike.", 
+				"wrong_answer3": "He is writing a report.", 
+				"wrong_answer4": "He is walking." } 
+			} ,
+			{ "qa": { 
+				"question": "What is his mood?", 
+				"answer": "He is grumpy.", 
+				"wrong_answer1": "He is happy.", 
+				"wrong_answer2": "He is satisfied.", 
+				"wrong_answer3": "He is sad.", 
+				"wrong_answer4": "He is nervous." } 
+				} ,
+			{ "qa": { 
+				"question": "Why is Chandler feeling bad?", 
+				"answer": "Because he suffers from withdrawal symptoms.", 
+				"wrong_answer1": "Because he is a bad person.", 
+				"wrong_answer2": "Because he hates Ross.", 
+				"wrong_answer3": "Because he had a car accident.", 
+				"wrong_answer4": "Because he failed in his exam." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "345-353", 
+		"period_num": "14", 
+		"start_time": "00:19:34;00", 
+		"end_time": "00:19:55;12",
+		"description_info": 
+		[ 
+			{ "description": "Monica stands in front of all and announces that she decides to break up with Ellen. As they listen, all friends are shocked and disappointed."}, 
+			{ "description": "Joey, Chandler, and Ross are all sitting together."}, 
+			{ "description": "Monica stands up and announces her decision to all."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is speaking?", 
+				"answer": "Monica.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Phoebe.", 
+				"wrong_answer4": "Chandler." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Monica's announcement?", 
+				"answer": "She breaks up with Ellen.", 
+				"wrong_answer1": "She will get married.", 
+				"wrong_answer2": "She got engaged already.", 
+				"wrong_answer3": "She cooks dinner for all.", 
+				"wrong_answer4": "She wants to leave the house." } 
+				} ,
+			{ "qa": { 
+				"question": "What is the reaction when friends hear Monica's announcement?", 
+				"answer": "They are shocked and disappointed. ", 
+				"wrong_answer1": "They are excited. ", 
+				"wrong_answer2": "They are sad.", 
+				"wrong_answer3": "They are satisfied. ", 
+				"wrong_answer4": "They are thrilled." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "354-380", 
+		"period_num": "15", 
+		"start_time": "00:19:57;18", 
+		"end_time": "00:21:36;23",
+		"description_info": 
+		[ 
+			{ "description": "They make their own comments about the situation. Ross stands up and walks towards Monica. Friends all oppose her decision of breaking up and show their disappointment. Rachel tires to cry, and Phoebe chews her hairs. Ross walks away from Monica with his hands on waist. He talks to Monica with angry voice. Monica leaves the room with a big sigh. On the sofa, Monica and Ellen talk together about their relationship. Ellen sighs with his upper body moving back and talks how he has felt about her friends. "}, 
+			{ "description": "Ross walks towards Monica, walks away from her, and turns his back to her. "}, 
+			{ "description": "Ellen and Monica are sitting together on the sofa."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How do the friends feel about Monica's decision?", 
+				"answer": "They feel disappointed.", 
+				"wrong_answer1": "They feel great.", 
+				"wrong_answer2": "They feel excited.", 
+				"wrong_answer3": "They feel touched.", 
+				"wrong_answer4": "They feel sad." } 
+			} ,
+			{ "qa": { 
+				"question": "How does Ellen feel about Monica's decision?", 
+				"answer": "He feels relieved. ", 
+				"wrong_answer1": "He feels annoyed.", 
+				"wrong_answer2": "He feels moved.", 
+				"wrong_answer3": "He feels sad.", 
+				"wrong_answer4": "He feels anxious." } 
+				} ,
+			{ "qa": { 
+				"question": "Why is Ellen's problem with Monica?", 
+				"answer": "Her friends.", 
+				"wrong_answer1": "Monica's characteristic.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Her parents.", 
+				"wrong_answer4": "Monica's cooking." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "381-407", 
+		"period_num": "16", 
+		"start_time": "00:21:38;03", 
+		"end_time": "00:22:43;03",
+		"description_info": 
+		[ 
+			{ "description": "At home, Chandler, Joey, Rachel, and Phoebe are sitting around the kitchen table. Behind Phoebe, Roos is crounching down. Rachel and Phoebe are sharing and eating a carton of ice cream. On the table, there are cheese cake and pieces of papers as well as ice cream. They miss Ellen. The atmosphere is gloomy. Monica comes in, talks with friends about Ellen, and goes to the sofa. Chandler stands up and leaves the table to smoke. To stop him, Phoebe promises him to give money.   "}, 
+			{ "description": "Chandler, Joey, Rachel, and Phoebe are sitting around the kitchen table."}, 
+			{ "description": "Monica comes in and talks about Ellen. She slumps into the sofa."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Rachel and Phoebe eating together?", 
+				"answer": "An ice cream.", 
+				"wrong_answer1": "Dinner.", 
+				"wrong_answer2": "Spagetti.", 
+				"wrong_answer3": "Sushi.", 
+				"wrong_answer4": "Pizza." } 
+			} ,
+			{ "qa": { 
+				"question": "How do the friends feel?", 
+				"answer": "They feel depressed and melancholy.", 
+				"wrong_answer1": "They feel excited.", 
+				"wrong_answer2": "They feel satisfied.", 
+				"wrong_answer3": "They feel nervous.", 
+				"wrong_answer4": "They feel happy." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Phoebe do to stop Chandler from smoking?", 
+				"answer": "Phoebe gives him money.", 
+				"wrong_answer1": "Phoebe gives him a car.", 
+				"wrong_answer2": "Phoebe holds his hands.", 
+				"wrong_answer3": "Phoebe calls Chandler.", 
+				"wrong_answer4": "Phoebe scolds him." 
+				} 
+			} 
+		] 
+	}
+	]
+}

@@ -73,8 +73,9 @@ var player = {
 
             }
         }
+        var jsplayer;
         try {
-            var jsplayer = videojs(id, '',function onPlayerReady() {
+                jsplayer = videojs(id, '',function onPlayerReady() {
                 myPlayer1 = this;
                 if(type == 'video') {
                     myPlayer1.src({ type : "video/mp4", src : streamUrl });
@@ -90,11 +91,14 @@ var player = {
             jsplayer.on('timeupdate', function(){
                 // var currentTime = $("#" + id + " .vjs-duration").text(time2Code("video", jsplayer.currentTime(), 29.97));
                 // $("#currentTime").text(currentTime.text());
-                $("#currentTime").text(jsplayer.currentTime());
+                var nowsec = jsplayer.currentTime();
+                $("#currentTime").text(nowsec);
+                $("#currentTime").val(nowsec);
             });
 
 
         } catch(e) {};
+        return jsplayer;
     }
 }
 
@@ -237,7 +241,7 @@ function time2Code(type, time, fps) {
     var s = Math.floor(time%60);
     var f = Math.floor(((time%1)*fps).toFixed(3));
     if(type == "audio"){
-        return (h<10?"0"+h:h)+":"+(m<10?
+        return (h<10?"0"+h:h) +":"+(m<10?
 
                 "0"+m:m)+":"+(s<10?"0"+s:s) +"."+(f<10?"0"+f:f);
     }else{
@@ -252,6 +256,14 @@ function code2frame( code, fps ) {
     var s = parseInt(t[2],10);
     var f = parseInt(t[3],10);
     return (h*3600)+(m*60)+s+(f/fps);
+}
+
+function code2time( code ) {
+    var t = code.split(":");
+    var h = parseInt(t[0],10);
+    var m = parseInt(t[1],10);
+    var s = parseFloat(t[2]);
+    return (h*3600)+(m*60)+s;
 }
 
 function paginationTotalPage(itemTotal, limit) {
@@ -280,3 +292,122 @@ $(window).resize(function() {
     $("#tree_parent").height($(window).height());
 });
 
+
+/* 플레이어 단축키 */
+var _videoframerate = 29.97;
+function proceedHotkey($T, rate) {
+    if(typeof $T == "undefined") {
+        $T = $(document);
+    }
+    if(rate=='undefined'){
+        rate = _videoframerate;
+    }
+    $T.bind('keydown.alt_comma',function (e) {  /* alt + < = 1초 전 */
+        var curTime = myPlayer1.currentTime() - 1;
+        if (myPlayer1.currentTime() <= 1) {
+            curTime = 0;
+        }
+        myPlayer1.currentTime(curTime);
+        return false;
+    });
+    $T.bind('keydown.alt_dot',function (e) {  /* alt + > = 1초 후  */
+        myPlayer1.currentTime(myPlayer1.currentTime() + 1);
+        return false;
+    });
+    $T.bind('keydown.ctrl_comma',function (e) {  /* ctrl + < = 5초 전 */
+        var curTime = myPlayer1.currentTime() - 5;
+        if (myPlayer1.currentTime() <= 5) {
+            curTime = 0;
+        }
+        myPlayer1.currentTime(curTime);
+        return false;
+    });
+    $T.bind('keydown.ctrl_dot',function (e) {  /* ctrl + > = 5초 후  */
+        myPlayer1.currentTime(myPlayer1.currentTime() + 5);
+        return false;
+    });
+
+
+    $T.bind('keydown.alt_pageup',function (e){  /* alt + page up = 배속재생 빠르게 */
+        customPlaybackRate("up");
+        return false;
+    });
+    $T.bind('keydown.alt_pagedown',function (e){  /* alt + page down = 배속재생 느리게 */
+        customPlaybackRate("down");
+        return false;
+    });
+    $T.bind('keydown.space',function (e){  /* Space  = 일시정지/재생 */
+        if(myPlayer1.paused()) {
+            myPlayer1.play();
+        } else {
+            myPlayer1.pause();
+        }
+        return false;
+    });
+    $T.bind('keydown.down',function (e){ /* Down Arrow = 볼륨다운 */
+        myPlayer1.volume(myPlayer1.volume() - 0.1);
+        return false;
+    });
+    $T.bind('keydown.up',function (e){  /* Up Arrow = 볼륨업 */
+        myPlayer1.volume(myPlayer1.volume() + 0.1);
+        return false;
+    });
+}
+
+/* markIn */
+function markIn(rate) {
+    try {
+        var startframeindex = parseInt(myPlayer1.currentTime() * rate);
+        if(startframeindex > max) {
+            MSG.toast("","시작범위가 너무 큽니다. 다른 샷을 선택하세요");
+            return false;
+        }
+        if(startframeindex < min) {
+            MSG.toast("","시작범위가 너무 작습니다. 다른 샷을 선택하세요");
+            return false;
+        }
+    } catch (e) {}
+}
+/* 배속재생 */
+function customPlaybackRate(rate) {
+    var currentRate = $("#videojs .vjs-playback-rate li.vjs-menu-item.vjs-selected");
+    if(rate == 'up') {
+        if(currentRate.prev("li").length > 0) {
+            var prevRate = currentRate.prev("li");
+            currentRate.attr("aria-selected", false).removeClass("vjs-selected");
+            prevRate.attr("aria-selected", true).addClass("vjs-selected");
+            $(".vjs-playback-rate-value").text(prevRate.text());
+            myPlayer1.playbackRate(prevRate.text().replace(/[x]/g, ''));
+        }
+    }
+
+    if(rate == 'down') {
+        if(currentRate.next("li").length > 0) {
+            var nextRate = currentRate.next("li");
+            currentRate.attr("aria-selected", false).removeClass("vjs-selected");
+            nextRate.attr("aria-selected", true).addClass("vjs-selected");
+            $(".vjs-playback-rate-value").text(nextRate.text());
+            myPlayer1.playbackRate(nextRate.text().replace(/[x]/g, ''));
+        }
+    }
+}
+
+
+function help_hotkey() {
+    $.ajax({
+        url: _home+"section/video/hotkey",
+        async: false,
+        type: "GET",
+        dataType: "html",
+        success: function (response) {
+            $("#videoHotkeyModal .modal-content").html(response);
+            $('#videoHotkeyModal').modal();
+        },
+        error: function(xhr, textStatus, error) {
+            var msg = "오류가 발생했습니다(code:" + xhr.status + ")\n";
+            msg += xhr.responseText;
+            MSG.error(msg);
+            return false;
+        }
+    });
+}

@@ -2,6 +2,7 @@ package com.konantech.spring.util;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.JsonSerializer;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializerProvider;
@@ -66,6 +67,24 @@ public class JSONUtils {
     public static Map jsonFileToMap(File t) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
         return mapper.readValue(t,LinkedHashMap.class);
+    }
+
+    public static List jsonFileToList(File t) throws IOException {
+        ObjectMapper mapper = new ObjectMapper();
+        return mapper.readValue(t,LinkedList.class);
+    }
+
+    public JsonNode jsonFileToNode(String jsonFilePath) throws Exception {
+        jsonFilePath ="Z:\\proxyshot\\2018\\04\\30\\624_1\\S00000\\S00000.json";
+        File jsonFile =new File(jsonFilePath);
+        ObjectMapper mapper = new ObjectMapper();
+        JsonNode jsonNode = mapper.readValue(jsonFile, JsonNode.class);
+        System.out.println(jsonNode);
+        System.out.println("x: " + jsonNode.get(0).get("results").get(0).get("module_result").get(0).get("position").get("x"));
+        System.out.println("y: " + jsonNode.get(0).get("results").get(0).get("module_result").get(0).get("position").get("y"));
+        System.out.println("w: " + jsonNode.get(0).get("results").get(0).get("module_result").get(0).get("position").get("w"));
+        System.out.println("h: " + jsonNode.get(0).get("results").get(0).get("module_result").get(0).get("position").get("h"));
+        return jsonNode;
     }
 
 }

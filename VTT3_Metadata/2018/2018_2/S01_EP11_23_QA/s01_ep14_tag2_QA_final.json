@@ -1,0 +1,637 @@
+{ 
+	"file_name": "s01_ep14_tag2_QA_final.json",
+	"registed_name": "s01_ep14_tag2_QA_final.json", 
+	"qa_results": 
+	[ 
+		{ 
+		"visual_period_num": "1-41", 
+		"period_num": "q1", 
+		"start_time": "00:00:00;00", 
+		"end_time": "00:01:48;02",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross, Joey, Chandler are sitting together on the sofa. There is a woman sitting at the bar in a red dress. Ross and Chandler, Joey are talking about the woman. The woman is drinking coffee and says hello to Ross. Ross stands up from the seat and Joey, Chandler stands up to follow and talk to him. The ree are talking. Joey is asking for an egg to the cafe staff. The staff gives him an egg. Ross takes is from Joey and approaches the woman."}, 
+			{ "description": "Ross, Joey, Chandler are sitting together on the sofa."}, 
+			{ "description": "There is a woman sitting at the bar in a red dress."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is sitting with Ross and Chandler?", 
+				"question_type": "Person", 
+				"answer": "Joey.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "A woman.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Phoebe." } 
+			} ,
+			{ "qa": { 
+				"question": "Who is Ross interested in?", 
+				"question_type": "Emotion", 
+				"answer": "Woman in red dress sitting at the bar.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Carole.", 
+				"wrong_answer3": "Phoebe.", 
+				"wrong_answer4": "Susan." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Joey give to Ross?", 
+				"question_type": "Action", 
+				"answer": "An egg.", 
+				"wrong_answer1": "A cup.", 
+				"wrong_answer2": "A mug.", 
+				"wrong_answer3": "A picture.", 
+				"wrong_answer4": "Cookies." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "42-63", 
+		"period_num": "q2", 
+		"start_time": "00:01:48;20", 
+		"end_time": "00:03:06;11",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "In the café, Monica and Phoebe are coming in the café and talking with Rachel who is working in the café and carrying a dish. Phoebe is talking about Roger and Monica and Rachel stop Phoebe from dating Roger. Phoebe reluctantly goes to the sofa where Joey is sitting. Monica and Rachel follow Phoebe and stand behind the sofa. Joey and Chandler start talking again. Listening to them, Rachel throws a roll at Joey, but Joey picks it up and eats it without noticing Rachel's intention. Ross comes in and tells boys what happened with the woman. With a surprise, Chandler and Ross hug. Something crunches in Ross' shirt pocket. It is the egg, so they both go to the toilet."}, 
+			{ "description": "In the café, Monica and Phoebe are coming in the café."}, 
+			{ "description": "Monica and Rachel follow Phoebe and stand behind the sofa."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is working in the café?", 
+				"question_type": "Person", 
+				"answer": "Rachel.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Phoebe.", 
+				"wrong_answer4": "Chandler." } 
+			} ,
+			{ "qa": { 
+				"question": "What will Phoebe do on Valentine's day?", 
+				"question_type": "Person", 
+				"answer": "Phoebe will date her ex-boyfriends, Roger.", 
+				"wrong_answer1": "Phoebe will stay at home.", 
+				"wrong_answer2": "Phoebe will have dinner with friends.", 
+				"wrong_answer3": "Phoebe will watch a movie.", 
+				"wrong_answer4": "Phoebe will cook for herself." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Rachel do to Joey by listening to Joey's talking?", 
+				"question_type": "Action", 
+				"answer": "Rachel throws a roll at Joey.", 
+				"wrong_answer1": "Rachel shouts at Joey.", 
+				"wrong_answer2": "Rachel calls Joey.", 
+				"wrong_answer3": "Rachel hugs Joey.", 
+				"wrong_answer4": "Rachel talks to Joey." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "64-74", 
+		"period_num": "q3", 
+		"start_time": "00:03:06;11", 
+		"end_time": "00:04:59;20",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "In a restaurant, Joey and Chandler are sitting at the table together. They are waiting for their dates to show up. Joey is looking at himself in the reflection on a knife. Lorraine comes and greets. All three are talking for a moment and Lorraine leaves. Chandler and Joey exchange eye contact as Lorraine mentions Chandler's ex-girlfriend, Janice. Janice comes into the restaurant. Looking at her, Chandler looks angry. In the bathroom at the restaurant, Chandler and Joey are talking. Chandler is angry at Joey and shouts at Joey behind him."}, 
+			{ "description": "In a restaurant, Joey and Chandler are sitting at the table together."}, 
+			{ "description": "All three are talking for a moment and Lorraine leaves."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is waiting in a restaurant?", 
+				"question_type": "Person", 
+				"answer": "Joey and Chandler.", 
+				"wrong_answer1": "Joey and Ross.", 
+				"wrong_answer2": "Joey and Monica.", 
+				"wrong_answer3": "Joey and Rachel.", 
+				"wrong_answer4": "Chandler and Rachel." } 
+			} ,
+			{ "qa": { 
+				"question": "Who appears unexpectedly?", 
+				"question_type": "Person", 
+				"answer": "Janice, Chandler's ex-girlfriend.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Ross.", 
+				"wrong_answer4": "Phobe." } 
+				} ,
+			{ "qa": { 
+				"question": "How does Chandler feel about Janice appearing in the restaurant?", 
+				"question_type": "Emotion", 
+				"answer": "Chandler is angry at Joey.", 
+				"wrong_answer1": "Chandler is sad.", 
+				"wrong_answer2": "Chandler is happy.", 
+				"wrong_answer3": "Chandler is excited.", 
+				"wrong_answer4": "Chandler is cheerful." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "75-94", 
+		"period_num": "q4", 
+		"start_time": "00:04:59;20", 
+		"end_time": "00:06:27;19",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "In Monica and Rachel's apartment, the girls, Monica, Rachel, Phoebe, are talking around the kitchen table. Monica is mixing food with a spoon in a bowl. Rachel is helping Monica by peeling carrots. Phoebe is sitting at the table and talking to Monica and Rachel. Phoebe suggests rituals to Monica and Rachel."}, 
+			{ "description": "The girls, Monica, Rachel, Phoebe, are talking around the kitchen table."}, 
+			{ "description": "Monica is mixing food with a spoon in a bowl."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Monica doing?", 
+				"question_type": "Action", 
+				"answer": "Monica is mixing food with a spoon in a bowl.", 
+				"wrong_answer1": "Monica is singing.", 
+				"wrong_answer2": "Monica is talking on the phone.", 
+				"wrong_answer3": "Monica is talking to Ross.", 
+				"wrong_answer4": "Monica is taking food out from the oven." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Rachel doing?", 
+				"question_type": "Action", 
+				"answer": "Rachel is peeling off carrots.", 
+				"wrong_answer1": "Rachel is talking to Ross.", 
+				"wrong_answer2": "Rachel is dancing.", 
+				"wrong_answer3": "Rachel is cooking spagetti.", 
+				"wrong_answer4": "Rachel is calling Chandler." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Phoebe suggest to Monica and Rachel?", 
+				"question_type": "Statement", 
+				"answer": "Phoebe suggests a ritual.", 
+				"wrong_answer1": "Phoebe suggests more food.", 
+				"wrong_answer2": "Phoebe suggests a party.", 
+				"wrong_answer3": "Phoebe suggests writing emails.", 
+				"wrong_answer4": "Phoebe suggests calling on the phone." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "95-103", 
+		"period_num": "q5", 
+		"start_time": "00:06:27;19", 
+		"end_time": "00:08:01;19",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "In the restaurant, Joey, Lorraine, Chandler, and Janice are at the table. Joey and Lorraine are seated very close, Chandler and Janice have backed their chairs away from one another. Lorraine and Joey are talking. Chandler and Janice are talking as well. Lorraine whispers into Joey's ear. Joey calls Chandler over the other side of the restaurant. Joey and Chandler are talking there only two of them."}, 
+			{ "description": "In the restaurant, Joey, Lorraine, Chandler, and Janice are at the table."}, 
+			{ "description": "Chandler and Janice have backed their chairs away from one another."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who leaves the restaurant with Joey?", 
+				"question_type": "Person", 
+				"answer": "Lorraine.", 
+				"wrong_answer1": "Janice.", 
+				"wrong_answer2": "Chandler.", 
+				"wrong_answer3": "Ross.", 
+				"wrong_answer4": "Rachel." } 
+			} ,
+			{ "qa": { 
+				"question": "Who does Joey call to the corner of a restaurant?", 
+				"question_type": "Statement", 
+				"answer": "Chandler.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Janice.", 
+				"wrong_answer3": "Lorraine.", 
+				"wrong_answer4": "Phoebe." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Joey tell Chandler?", 
+				"question_type": "Person", 
+				"answer": "Joey wants to leave the restaurant wth Lorraine.", 
+				"wrong_answer1": "Joey wants to pay for dinner.", 
+				"wrong_answer2": "Joey wants to go home.", 
+				"wrong_answer3": "Joey wants to leave with Janice.", 
+				"wrong_answer4": "Joey wants to order more food." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "104-115", 
+		"period_num": "q6", 
+		"start_time": "00:08:06;17", 
+		"end_time": "00:09:23;18",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Chandler is angry at Joey. To console him, Joey gives Chandler his card and leaves the restaurant. Chandler goes back to the table where Janice is sitting. Janice lets Chandler know about his zipper, so Chandler gets up, jumps up and down while he zips his zipper up. Other customers look at him. Chandler and Janice talk for a while. Chandler uses Joey's as he likes and calls the waiter to order more."}, 
+			{ "description": "In the corner of the restaurant, Chandler is angry at Joey."}, 
+			{ "description": "To console Chandler, Joey gives Chandler his card and leaves the restaurant."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How does Chandler feel about Joey leaving with Lorraine?", 
+				"question_type": "Emotion", 
+				"answer": "Chandler is angry.", 
+				"wrong_answer1": "Chandler is happy.", 
+				"wrong_answer2": "Chandler is excited.", 
+				"wrong_answer3": "Chandler is nervous.", 
+				"wrong_answer4": "Chandler is cheerful." } 
+			} ,
+			{ "qa": { 
+				"question": "What does Joey give to Chandler to console him?", 
+				"question_type": "Action", 
+				"answer": "Joey gives Chandler a credit card.", 
+				"wrong_answer1": "Joey gives Chandler a cup.", 
+				"wrong_answer2": "Joey gives Chandler some money.", 
+				"wrong_answer3": "Joey gives Chandler a book.", 
+				"wrong_answer4": "Joey gives Chandler more coffee." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Chandler forget?", 
+				"question_type": "Person", 
+				"answer": "Chandler forgets to zip up his zipper.", 
+				"wrong_answer1": "Chandler forgets to bring money.", 
+				"wrong_answer2": "Chandler forgets his order.", 
+				"wrong_answer3": "Chandler forgets his phone.", 
+				"wrong_answer4": "Chandler forgets what to do at home." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "116-128", 
+		"period_num": "q7", 
+		"start_time": "00:09:24;16", 
+		"end_time": "00:11:14;17",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "In the morning, Chandler wakes up on his bed and finds Janice lying next to him. He is surprised. Chandler is trying to get Janice out of his apartment, but Janice is trying to kiss him. Monica opposite of the house finds the two, Chandler and Janice kissing. Monica calls Rachel as well and Rachel comes out of the house and finds them as well. Joey enters from the stairs and Monica comes out with her phone talking about Chandler and Janice and gives it to Janice."}, 
+			{ "description": "In the morning, Chandler wakes up on his bed and finds Janice lying next to him."}, 
+			{ "description": "Monica opposite of the house finds the two, Chandler and Janice kissing."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What does Chandler find out in the morning?", 
+				"question_type": "Person", 
+				"answer": "Chandler finds Janice lying next to him.", 
+				"wrong_answer1": "Chandler finds that he is fired.", 
+				"wrong_answer2": "Chandler finds his parents visit him.", 
+				"wrong_answer3": "Chandler finds Monica lying next to him.", 
+				"wrong_answer4": "Chandler finds Rachel sitting next to him." } 
+			} ,
+			{ "qa": { 
+				"question": "How does Chandler feel about Janice lying next to him?", 
+				"question_type": "Emotion", 
+				"answer": "Chandler is surprised.", 
+				"wrong_answer1": "Chadler is angry.", 
+				"wrong_answer2": "Chandler is sad.", 
+				"wrong_answer3": "Chandler is annoyed.", 
+				"wrong_answer4": "Chandler is excited." } 
+				} ,
+			{ "qa": { 
+				"question": "Out of friends, who finds Janice and Chandler kissing first?", 
+				"question_type": "Person", 
+				"answer": "Monica.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Joey.", 
+				"wrong_answer4": "Phoebe." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "129-136", 
+		"period_num": "q8", 
+		"start_time": "00:11:14;17", 
+		"end_time": "00:12:31;14",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "In a Chinese restaurant, Ross is there with his date. Ross and the woman, Kristin, are sitting together and talking. Ross talks and starts to laugh, and then makes a face like 'Why did I just say that?' Ross' ex-wife, Carole, and her lesbian lover, Susan, enter the restaurant. Ross starts at them and tells his relationship with them to Kristin, hiding behind a menu."}, 
+			{ "description": "In a Chinese restaurant, Ross is there with his date."}, 
+			{ "description": "Ross starts at them and tells his relationship with them to Kristin."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is Ross meeting?", 
+				"question_type": "Person", 
+				"answer": "Ross is meeting Krinstin.", 
+				"wrong_answer1": "Ross is meeting Carole.", 
+				"wrong_answer2": "Ross is meeting Susan.", 
+				"wrong_answer3": "Ross is meeting Rachel.", 
+				"wrong_answer4": "Ross is meeting Chandler." } 
+			} ,
+			{ "qa": { 
+				"question": "What are Ross and Kristin doing?", 
+				"question_type": "Action", 
+				"answer": "Ross and Kristin are dating.", 
+				"wrong_answer1": "Ross and Kristin are cooking dinner.", 
+				"wrong_answer2": "Ross and Kristin are singing together.", 
+				"wrong_answer3": "Ross and Kristin are reading a book.", 
+				"wrong_answer4": "Ross and Kristin are drinking coffee." } 
+				} ,
+			{ "qa": { 
+				"question": "Who comes in suddenly?", 
+				"question_type": "Person", 
+				"answer": "Carole and Susan.", 
+				"wrong_answer1": "Ross and Chandler.", 
+				"wrong_answer2": "Ross and Rachel.", 
+				"wrong_answer3": "Rachel and Monica.", 
+				"wrong_answer4": "Monica and Phoebe." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "137-159", 
+		"period_num": "q9", 
+		"start_time": "00:12:33;14", 
+		"end_time": "00:14:28;00",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "In Monica's apartment, the girls are holding their boyfriend bonfire. Rachel, Monica, and Phoebe are surrounding the table. On the table, there is an aluminum bucket. All three throw memorable belongings in the fire. Rachel throws the alcohol in the fire. A burst of flames shoots up from it. The three are surprised. In the cafe, Chandler and Joey are talking. Janice enters the cafe and kisses Joey all over. Chandler smiles."}, 
+			{ "description": "In Monica's apartment, the girls are holding their boyfriend bonfire."}, 
+			{ "description": "In the cafe, Chandler and Joey are talking."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What are Rachel, Monica, Phoebe doing?", 
+				"question_type": "Action", 
+				"answer": "Rachel, Monica, Phoebe are throwing memorable belongings into the bucket.", 
+				"wrong_answer1": "Rachel, Monica, Phoebe are talking.", 
+				"wrong_answer2": "Rachel, Monica, Phoebe are singing.", 
+				"wrong_answer3": "Rachel, Monica, Phoebe are cleaning the house.", 
+				"wrong_answer4": "Rachel, Monica, Phoebe are talking on the phone." } 
+			} ,
+			{ "qa": { 
+				"question": "What does Rachel throw in the bucket?", 
+				"question_type": "Action", 
+				"answer": "Alcohol.", 
+				"wrong_answer1": "Coffee.", 
+				"wrong_answer2": "Cookies.", 
+				"wrong_answer3": "Water.", 
+				"wrong_answer4": "A phone." } 
+				} ,
+			{ "qa": { 
+				"question": "Who comes into the café?", 
+				"question_type": "Person", 
+				"answer": "Janice.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Chandler.", 
+				"wrong_answer4": "Phoebe." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "160-172", 
+		"period_num": "q10", 
+		"start_time": "00:14:28;00", 
+		"end_time": "00:16:19;18",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "In the Chinese restaurant, Ross and Kristin are talking and having dinner together on the opposite of Carole and Susan. Susan leaves and Ross suggests to sit together with Carole. Kristin reluctantly agrees with the idea, so Carole moves next to Ross with her belongings. Kristin, Ross, and Carole are sitting together."}, 
+			{ "description": "In the Chinese restaurant, Ross and Kristin are talking"}, 
+			{ "description": "Susan leaves and Ross suggests to sit together with Carole."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is sitting with Ross?", 
+				"question_type": "Person", 
+				"answer": "Kristin.", 
+				"wrong_answer1": "Carole.", 
+				"wrong_answer2": "Susan.", 
+				"wrong_answer3": "Phoebe.", 
+				"wrong_answer4": "Rachel." } 
+			} ,
+			{ "qa": { 
+				"question": "What happens to Carole?", 
+				"question_type": "Person", 
+				"answer": "Susan leaves Carole.", 
+				"wrong_answer1": "Carole feels pain.", 
+				"wrong_answer2": "Carole can't finish dinner.", 
+				"wrong_answer3": "Carole doesn't have enough money.", 
+				"wrong_answer4": "Carole gets a call from work." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Carole do after Susan leaves?", 
+				"question_type": "Action", 
+				"answer": "Carole moves next to Ross.", 
+				"wrong_answer1": "Carole stands next to Ross.", 
+				"wrong_answer2": "Carole serves food to Ross.", 
+				"wrong_answer3": "Carole calls Ross.", 
+				"wrong_answer4": "Carole touches Kristin." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "173-188", 
+		"period_num": "q11", 
+		"start_time": "00:16:19;18", 
+		"end_time": "00:17:56;20",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "In the restaurant, Ross and Kristin are talking together. At home, firemen are there to handle the bonfire that got out of control. Firemen are talking with the three. Monica and Rachel are standing next to the firemen. Phoebe is sitting. Firemen are looking at stuff in the bucket. In the cafe, Janice and Chandler are talking on the sofa. Joey is sitting away from them. Chandler tells Janice about breaking up and Janice understands him strangely."}, 
+			{ "description": "In the restaurant, Ross and Kristin are talking together."}, 
+			{ "description": "At home, firemen are there to handle the bonfire that got out of control."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is coming to Monica and Rachel's house?", 
+				"question_type": "Person", 
+				"answer": "Firemen.", 
+				"wrong_answer1": "Chandler.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Joey.", 
+				"wrong_answer4": "Joey's parents." } 
+			} ,
+			{ "qa": { 
+				"question": "Who is talking with Chandler?", 
+				"question_type": "Person", 
+				"answer": "Janice.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Phoebe." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Chandler tell Janice?", 
+				"question_type": "Person", 
+				"answer": "Chandler tells Janice to break up.", 
+				"wrong_answer1": "Chandler tells Janice to visit home.", 
+				"wrong_answer2": "Chandler tells Janice to call him.", 
+				"wrong_answer3": "Chandler tells Janice to come back.", 
+				"wrong_answer4": "Chandler tells Janice to watch TV." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "189-200", 
+		"period_num": "q12", 
+		"start_time": "00:18:05;00", 
+		"end_time": "00:19:23;10",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Chandler and Janice are talking in the café. Janice is talking to Chandler about how she thinks and feels about Chandler telling her to break up. She finishes talking with a kiss. Chandler stands up from the sofa and talks behind her. Joey gives Chandler a sign. In a restaurant, Ross and Carole are talking together. Ross looks at Kristin's seat and realizes that Kristin already left."}, 
+			{ "description": "Chandler and Janice are talking in the café."}, 
+			{ "description": "She finishes talking with a kiss. Chandler stands up from the sofa and talks behind her."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is talking with Chandler?", 
+				"question_type": "Person", 
+				"answer": "Janice.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Ross.", 
+				"wrong_answer4": "Phoebe." } 
+			} ,
+			{ "qa": { 
+				"question": "What does Janice do to Chandler?", 
+				"question_type": "Person", 
+				"answer": "Janice kisses Chandler.", 
+				"wrong_answer1": "Janice shouts at Chandler.", 
+				"wrong_answer2": "Janice calls Chandler.", 
+				"wrong_answer3": "Janice hugs Chandler.", 
+				"wrong_answer4": "Janice gives Chandler coffee." } 
+				} ,
+			{ "qa": { 
+				"question": "Where is Kristin?", 
+				"question_type": "Location", 
+				"answer": "Kristin left.", 
+				"wrong_answer1": "Kristin goes to the toilet.", 
+				"wrong_answer2": "Kristin is eating food.", 
+				"wrong_answer3": "Kristin sits next to Ross.", 
+				"wrong_answer4": "Kristin is in a train." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "201-209", 
+		"period_num": "q13", 
+		"start_time": "00:19:23;10", 
+		"end_time": "00:21:07;23",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "In the Chinese restaurant, Ross is sitting with Kristin and talking together. Ross puts his head down on the grill and he picks his head up. A mushroom sticks to his head. Carole picks it off and eats it. Ross and Carole talk together and they kiss."}, 
+			{ "description": "In the Chinese restaurant, Ross is sitting with Kristin."}, 
+			{ "description": "Ross puts his head down on the grill and he picks his head up."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is sitting with Ross?", 
+				"question_type": "Person", 
+				"answer": "Carole.", 
+				"wrong_answer1": "Janice.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Phoebe." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Carole to Ross?", 
+				"question_type": "Person", 
+				"answer": "Carole is Ross' ex-wife.", 
+				"wrong_answer1": "Carole is Ross' sister.", 
+				"wrong_answer2": "Carole is Ross's brother.", 
+				"wrong_answer3": "Carole is Ross' friend.", 
+				"wrong_answer4": "Carole is Ross' colleague." } 
+				} ,
+			{ "qa": { 
+				"question": "At the end of talking, what do Ross and Carole do?", 
+				"question_type": "Action", 
+				"answer": "Ross and Carole kiss.", 
+				"wrong_answer1": "Ross and Carole hug.", 
+				"wrong_answer2": "Ross and Carole leave the restaurant.", 
+				"wrong_answer3": "Ross and Carole talk on the phone.", 
+				"wrong_answer4": "Ross and Carole eat more food." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "210-217", 
+		"period_num": "q14", 
+		"start_time": "00:21:15;15", 
+		"end_time": "00:22:33;15",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross and Carole are talking together in the restaurant. Carole tells Ross what she thinks about him. Carole holds Ross' hands. A beautiful woman passes Ross. Ross looks at her and gets disappointed. At home again, Monica, Rachel, Phoebe are talking with firemen. Firemen leave the house and the three get excited about the firemen. Out in the hall, the firemen are talking."}, 
+			{ "description": "Ross and Carole are talking together in the restaurant."}, 
+			{ "description": "Carole holds Ross' hands."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is Ross looking at?", 
+				"question_type": "Action", 
+				"answer": "A beautiful woman passing Ross.", 
+				"wrong_answer1": "Carole.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Phoebe." } 
+			} ,
+			{ "qa": { 
+				"question": "Who is with Rachel, Monica, and Phoebe?", 
+				"question_type": "Person", 
+				"answer": "Firemen.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Chandler.", 
+				"wrong_answer3": "Joey.", 
+				"wrong_answer4": "Plumber." } 
+				} ,
+			{ "qa": { 
+				"question": "How do Rachel, Monica, and Phoebe feel after the firemen left?", 
+				"question_type": "Emotion", 
+				"answer": "Rachel, Monica, and Phoebe are excited.", 
+				"wrong_answer1": "Rachel, Monica, and Phoebe are worried.", 
+				"wrong_answer2": "Rachel, Monica, and Phoebe are angry.", 
+				"wrong_answer3": "Rachel, Monica, and Phoebe are annoyed.", 
+				"wrong_answer4": "Rachel, Monica, and Phoebe are nervous." 
+				} 
+			} 
+		] 
+	}
+	]
+}

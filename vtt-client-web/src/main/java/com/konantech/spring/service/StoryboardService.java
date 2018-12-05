@@ -36,15 +36,17 @@ public class StoryboardService {
         return storyboardMapper.getShotList(n);
     }
 
-    public Map<String,Object> getShotItem(ContentQuery n) {
-        return storyboardMapper.getShotItem(n);
-    }
-
     public int putShotItem(ShotTB shotTB) {
         return storyboardMapper.putShotItem(shotTB);
     }
     public int deleteShotItems(int videoid) {
         return storyboardMapper.deleteShotItems(videoid);
+    }
+    public int updateShotItem(Map param) {
+        return storyboardMapper.updateShotItem(param);
+    }
+    public List<ShotTB> getVisualJsonList(Map param) {
+        return storyboardMapper.getVisualJsonList(param);
     }
 
     public Map<String,Object> getShotSize(ShotTB asset) throws Exception {

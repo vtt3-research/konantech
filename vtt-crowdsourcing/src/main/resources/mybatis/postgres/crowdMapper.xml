@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+
+       Copyright 2015-2016 the original author or authors.
+
+       Licensed under the Apache License, Version 2.0 (the "License");
+       you may not use this file except in compliance with the License.
+       You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+       Unless required by applicable law or agreed to in writing, software
+       distributed under the License is distributed on an "AS IS" BASIS,
+       WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+       See the License for the specific language governing permissions and
+       limitations under the License.
+
+-->
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.konantech.spring.mapper.CrowdMapper">
+    <!--
+        객체정보 등록
+        가로세로 50px 이상 객체만 문제로 등록
+    -->
+    <insert id="insertObjectTargetData">
+      insert into crowd_target_tb
+      select
+        (select count(*) from crowd_target_tb)
+         + row_number() over () cnt
+        ,y.vtt_meta_idx
+        ,y.idx
+        ,y.shotid
+        ,COALESCE((select code from vttm_code_tb where code_name = y.object_name and group_code='O0101'),'NONE')
+        ,y.allcnt
+        ,y.chkcnt
+        ,y.imgurl
+        ,y.min_x||','||y.min_y||','||y.max_x||','||y.max_y as rect
+        ,case
+         when y.score is null then 1
+         when y.score = 'null' then 1
+         else cast(y.score as numeric)
+         end as score
+      from (
+             select
+               x.vtt_meta_idx,
+               x.idx,
+               x.shotid,
+               x.content||'/'||REPLACE(image,'.jpg','')||'.jpg' as imgurl,
+               0                                                          as allcnt,
+               0                                                          as chkcnt,
+               json_array_elements(x.object) ->> 'object_name'            as object_name,
+               json_array_elements(x.object) -> 'object_rect' ->> 'min_x' as min_x,
+               json_array_elements(x.object) -> 'object_rect' ->> 'min_y' as min_y,
+               json_array_elements(x.object) -> 'object_rect' ->> 'max_x' as max_x,
+               json_array_elements(x.object) -> 'object_rect' ->> 'max_y' as max_y,
+               json_array_elements(x.object) ->> 'score'                  as score
+             from (
+                    select
+                      m.vtt_meta_idx,
+                      m.idx,
+                      m.shotid,
+                      m.vtt_meta_json,
+                      json_array_elements(m.vtt_meta_json) ->> 'image'    image,
+                      json_array_elements(m.vtt_meta_json) -> 'object' as object,
+                      substr(s.content, 0, length(s.content) - 3)      as content
+                    from
+                      vttm_meta_info_tb m
+                      inner join vttm_shot_tb s
+                        on m.idx = s.videoid
+                           and m.shotid = s.shotid
+                    where
+                      m.shotid is not null
+                      and m.vtt_meta_json is not null
+                      and m.migrationflag = false
+                  ) x
+           )y
+      where
+        y.max_x !='none'
+        and cast(y.max_x as numeric)-cast(y.min_x as numeric)>50
+        and cast(y.max_y as numeric)-cast(y.min_y as numeric)>50
+    </insert>
+
+    <!--배경정보 등록-->
+    <insert id="insertBackgroundTargetData">
+        insert into crowd_target_tb
+        select
+          (select count(*) from crowd_target_tb)+row_number() over()
+          ,x.vtt_meta_idx
+          ,x.idx
+          ,x.shotid
+          ,COALESCE((select code from vttm_code_tb where code_name = x.place and group_code='V0106'),'NONE') as objectcode
+          ,0 as allcnt
+          ,0 as chkcnt
+          ,x.content||'/'||REPLACE(image,'.jpg','')||'.jpg' as imgurl
+          ,null as rect
+          ,case
+           when x.score is null then 1
+           when x.score = '' then 1
+           when x.score = 'null' then 1
+           else cast(x.score as numeric)
+           end as score
+        from (
+               select
+                 m.vtt_meta_idx,
+                 m.idx,
+                 m.shotid,
+                 m.vtt_meta_json,
+                 m.updated_time,
+                 json_array_elements(m.vtt_meta_json) ->> 'place' as place,
+                 json_array_elements(m.vtt_meta_json) ->> 'score' as score,
+                 substr(s.content, 0, length(s.content) - 3)      as content,
+                 json_array_elements(m.vtt_meta_json) ->> 'image' as image
+               from
+                 vttm_meta_info_tb m
+                 inner join vttm_shot_tb s
+                   on m.idx = s.videoid
+                      and m.shotid = s.shotid
+               where
+                 m.shotid is not null
+                 and m.vtt_meta_json is not null
+            and m.migrationflag = false
+             )x
+    </insert>
+
+    <!--등록된 vttm_meta_info_tb row에 완료 플레그 업데이트-->
+    <update id="updateMetaData" >
+        update vttm_meta_info_tb
+        set migrationflag = true
+    </update>
+
+    <!--
+        스코어가 1이 아닌게 두개 이상 이면서
+        스코어가 1인게 null이 아닌
+        출제빈도 낮은 1개
+        정답객체코드
+    -->
+    <select id="getInObjectCode" resultType="java.util.Map" parameterType="map">
+        SELECT
+          X.objectcode
+          ,#{type}::varchar as type
+        FROM
+          (
+            select
+              count(t.*) cnt,
+              t.objectcode,
+              (select targetid
+               from crowd_target_tb
+               where objectcode = t.objectcode
+                 and score =1
+               limit 1) as scoreid --스코어가 1인 객체
+            from crowd_target_tb t
+            where t.score != 1     -- 스코어가 1이 아닌 객체 수
+            <if test = 'type=="object"'>
+              and t.objectcode like 'O0101%'
+            </if>
+            <if test = 'type=="background"'>
+                and t.objectcode like 'V0106%'
+            </if>
+              and t.objectcode not in ('none', 'NONE')
+            group by t.objectcode
+          )X
+        <where>
+          <if test = 'type=="object"'>
+            X.cnt >=2 --스코어가 1이 아닌게 두개 이상 이면서
+          </if>
+          and X.scoreid is not null --스코어가 1인게 null이 아닌
+        </where>
+        order by random()
+        limit 1
+    </select>
+
+    <!--
+        스코어가 1인게 6개 이상인 객체
+        출제빈도 낮은 1개
+        오답객체코드
+     -->
+    <select id="getOutObjectCode" resultType="java.util.Map">
+        select
+          x.objectcode
+        ,#{type}::varchar as type
+        from
+          (
+            select
+              count(*) cnt,
+              objectcode
+            from crowd_target_tb
+            where score = 1
+                <if test = 'type=="object"'>
+                    and objectcode like 'O0101%'
+                </if>
+                <if test = 'type=="background"'>
+                    and objectcode like 'V0106%'
+                </if>
+                  and objectcode not in (#{objectcode},'none', 'NONE')
+            group by objectcode
+          ) x
+        <where>
+            <if test = 'type=="object"'>
+                x.cnt>=6
+            </if>
+            <if test = 'type=="background"'>
+                x.cnt>=2
+            </if>
+        </where>
+        order by random()
+        limit 1
+    </select>
+
+    <!--문제 유형별(object,background), 정답,오답 targetid 조회-->
+    <select id="getTargetData" parameterType="map" resultType="java.util.Map">
+        select
+            targetid
+            ,videoid
+            ,shotid
+            ,(select code_name from vttm_code_tb where code = objectcode) codename
+            ,objectcode
+            ,imgurl
+            ,score
+            ,rect
+            ,#{target}::varchar as target
+            ,#{type}::varchar as type
+            from crowd_target_tb
+        where objectcode=#{objectcode}
+        <if test='target=="target"'>
+          and score != 1
+            order by random()
+            <if test = 'type=="object"'>
+                limit 2
+            </if>
+            <if test = 'type=="background"'>
+                limit 1
+            </if>
+        </if>
+        <if test='target=="answer"'>
+          and score = 1
+            order by random()
+            <if test = 'type=="object"'>
+                limit 1
+            </if>
+            <if test = 'type=="background"'>
+                limit 1
+            </if>
+        </if>
+        <if test='target=="wrong"'>
+            and score = 1
+            order by random()
+            <if test = 'type=="object"'>
+                limit 6
+            </if>
+            <if test = 'type=="background"'>
+                limit 2
+            </if>
+        </if>
+    </select>
+
+    <!--drag문제 확실정보가 있는 객체코드 3개-->
+    <select id="getInDragObjectCode" resultType="map">
+        select
+            count(t.*) cnt,
+            t.objectcode,
+            (select code_name from vttm_code_tb where code = t.objectcode) codename
+        from crowd_target_tb t
+        where t.score = 1     -- 스코어가 1이 아닌 객체 수
+            and t.objectcode like 'O0101%'
+            and t.objectcode not in ('none', 'NONE')
+        group by t.objectcode
+        order by random()
+    limit 3
+    </select>
+
+    <!--drag문제 불확실정보가 3개이상 있는 객체코드 1개-->
+    <select id="getOutDragObjectCode" resultType="map" parameterType="map">
+        select
+          x.*
+        from
+        (
+            select
+                count(t.*) cnt,
+                t.objectcode,
+                (select code_name from vttm_code_tb where code = t.objectcode) codename
+            from crowd_target_tb t
+            where t.score != 1     -- 스코어가 1이 아닌 객체 수
+                and t.objectcode like 'O0101%'
+                and t.objectcode not in ('none', 'NONE', ${objectcode})
+            group by t.objectcode
+        )x
+        where cnt >3
+        order by random()
+        limit 1
+    </select>
+
+    <select id="getDragTarget" parameterType="map" resultType="map">
+        select
+          targetid
+          ,videoid
+          ,shotid
+          ,objectcode
+          ,imgurl
+          ,rect
+          ,score
+          ,#{target}::varchar as target
+        from crowd_target_tb
+        where objectcode in (${objectcode})
+        <if test="target=='answer'">
+            and score =1
+        </if>
+        <if test="target=='target'">
+            and score !=1
+        </if>
+        order by random()
+        limit 3
+    </select>
+
+    <!--출제 횟수및 선택 횟수 업데이트-->
+    <update id = "setTargetData" >
+        update crowd_target_tb
+        <set>
+            allcnt = allcnt+1
+            <if test='ischeck == "true"'>
+            ,chkcnt = chkcnt+1
+            </if>
+        </set>
+        where targetid = #{targetid}
+    </update>
+
+    <!--사용자 신뢰도 업데이트-->
+    <insert id="putUserTrust" parameterType="map">
+        insert into crowd_user_trust_tb
+        (trustid, allcnt, chkcnt, sitecode, userip) VALUES
+        (
+          #{trustid}
+          ,#{allcnt}
+          ,#{chkcnt}
+          ,#{sitecode}
+          ,#{userip}
+        )ON CONFLICT (trustid)
+          DO
+          UPDATE
+          SET allcnt = (
+                        select allcnt
+                        from crowd_user_trust_tb
+                        where trustid=#{trustid}
+                        )+ ${allcnt}
+          , chkcnt = (
+                      select chkcnt
+                      from crowd_user_trust_tb
+                      where trustid=#{trustid}
+                      ) + ${chkcnt}
+    </insert>
+
+    <!--로그테이블 존재 확인-->
+    <select id="checkLogTb" parameterType="map" resultType="int">
+        SELECT COUNT(*) FROM pg_tables WHERE tablename = 'crowd_log_${date}_tb'
+    </select>
+
+
+    <!--로그테이블 생성-->
+    <update id="createLogTb" parameterType="map">
+        create table crowd_log_${date}_tb
+        (
+          logid     numeric not null
+            constraint pk_crowd_log_${date}_tb
+            primary key,
+          sitecode  varchar(30),
+          trustid varchar(30) not null,
+          objectcode   varchar(30),
+          targetid       numeric not null,
+          userip      varchar(30),
+          createtime   timestamp
+        );
+
+        comment on table crowd_log_${date}_tb
+        is '로그';
+
+        comment on column crowd_log_${date}_tb.logid
+        is '로그 ID';
+
+        comment on constraint pk_crowd_log_${date}_tb
+        on crowd_log_${date}_tb
+        is '로그 기본키';
+
+        comment on column crowd_log_${date}_tb.sitecode
+        is '사이트코드';
+
+        comment on column crowd_log_${date}_tb.trustid
+        is '사용자 ID';
+
+        comment on column crowd_log_${date}_tb.objectcode
+        is '객체코드';
+
+        comment on column crowd_log_${date}_tb.targetid
+        is '대상 ID';
+
+        comment on column crowd_log_${date}_tb.userip
+        is '사용자IP';
+
+        comment on column crowd_log_${date}_tb.createtime
+        is '등록일';
+    </update>
+
+
+    <!--로드 등록-->
+    <insert id="putCrowdLog" parameterType="map">
+        insert into crowd_log_${date}_tb
+          (logid, sitecode, trustid, objectcode, targetid,userip,createtime)
+        values(
+           COALESCE((select max(logid) from crowd_log_${date}_tb),0)+1
+          ,#{sitecode}
+          ,#{trustid}
+          ,#{objectcode}
+          ,#{targetid}
+          ,#{userip}
+          ,now()
+        )
+    </insert>
+
+
+    <!--편집도구 DB score값 업데이트 -->
+    <select id="getMetaData" parameterType="map" resultType="java.util.Map">
+        select
+          m.vtt_meta_idx,
+          m.vtt_meta_json,
+          substr(t.imgurl, strpos(t.imgurl, 'F'), 8) as image,
+          (select code_name
+           from vttm_code_tb
+           where code = t.objectcode) as code_name,
+          t.rect,
+          t.score
+        from
+          vttm_meta_info_tb m
+          inner join crowd_target_tb t
+          on m.vtt_meta_idx = t.vtt_meta_idx
+        where t.targetid = #{targetid}
+    </select>
+
+    <update id="putMeataData" parameterType="map">
+        UPDATE vttm_meta_info_tb
+        SET
+          vtt_meta_json = #{vtt_meta_json}
+        ,updated_time= now()
+        where vtt_meta_idx = #{vtt_meta_idx}
+    </update>
+</mapper>

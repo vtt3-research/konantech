@@ -1,0 +1,240 @@
+@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto','NanumSquare', sans-serif,Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    -webkit-touch-callout: none !important;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+html,body{
+    margin:0;
+    color:#4667EA;
+    min-width:340px;
+    overflow:hidden;
+}
+header{
+    line-height:62px;
+    padding:0 20px;
+    border-bottom:1px solid #EAEFF3;
+}
+header h3{
+    margin:0;
+    font-weight:500;
+    display:inline-block;
+}
+header p{
+    display:inline-block;
+    margin: 0;
+    color: #999;
+    font-weight: 400;
+    font-size: 13px;
+    margin-left:20px;
+    letter-spacing: -0.2px;
+}
+header .btn_close{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+header .btn_close::before{
+    display: inline-block;
+    content: '';
+    width: 15px;
+    height: 1px;
+    position: absolute;
+    background: #202020;
+    top: 6px;
+    left: -1px;
+    border-radius:4px;
+}
+header .btn_close::after{
+    display: inline-block;
+    content: '';
+    width: 1px;
+    height: 15px;
+    position: absolute;
+    background: #202020;
+    top: -1px;
+    left: 6px;
+    border-radius:4px;
+}
+footer{
+    clear:both;
+    border-top: 2px solid #EAEDF2;
+    line-height: 60px;
+    background: #F5F6FA;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    font-size: 17px;
+    cursor:pointer;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    margin:0 auto;
+    list-style:none;
+}
+
+.container{
+    padding:14px;
+    text-align:center;
+    display:inline-block;
+    width:100%;
+}
+ul.box-list{
+    display:inline-block;
+    min-width:308px;
+    max-width:462px;
+}
+ul.box-list li{
+    margin:0 10px 20px;
+    float:left;
+}
+.container .image-box{
+    border:2px solid #E8EBF0;
+    width:134px;
+    height:134px;
+    padding:4px;
+    border-radius:5px;
+}
+.container .image-box.active{
+    border:2px solid #4E6FFA;
+    background:#C1CDFA;
+}
+.container .image-box > div{
+    background:#EEE;
+    width:100%;
+    height:100%;
+    border-radius:5px;
+    overflow:hidden;
+    position:relative;
+    margin:auto;
+}
+.container .image-box > div img{
+    position:absolute;
+}
+.container .image-box.active > div{
+    opacity:0.7;
+}
+.container p{
+    margin: 0;
+    color: #AAA;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+
+.multiple{
+    min-width: 520px;
+}
+.container-multiple{
+    padding:0;
+}
+ul.top{
+    /* display: inline-block; */
+    width: 100%;
+    height: 110px;
+    max-width: 100%;
+    background: #F0F9FF;
+    border-top:2px solid #CCDAF5;
+    border-bottom:2px solid #CCDAF5;
+    padding:14px;
+    text-align:left;
+    white-space: nowrap;
+    /* overflow:hidden;
+    overflow-x:auto; */
+}
+ul.top li{
+    /* display: inline-block; */
+    float:left;
+    margin:0;
+    margin-right:10px;
+}
+.container-multiple .image-box{
+    float:left;
+    width:82px;
+    height:82px;
+    background:#FFF;
+}
+ul.drag-area{
+    display: inline-block;
+    width: 100%;
+    padding:10px 15px;
+}
+ul.drag-area > li{
+    padding: 8px 12px 4px;
+    background: #F5F6FA;
+    border: 2px solid #EAEDF2;
+    border-radius: 8px;
+    margin-bottom: 6px;
+    text-align:left;
+}
+ul.drag-area > li > p{
+    color:#121212;
+}
+ul.drag-area > li > ul{
+    /* display: inline-block; */
+    display:block;
+    width: 100%;
+    height:94px;
+    padding-top: 8px;
+}
+ul.drag-area > li > ul > li{
+    display: inline-block;
+    margin-right:8px;
+}
+ul.drag-area > li > ul > li.nothing{
+    width: 100%;
+    color: #BBBBBB;
+    text-align: center;
+    line-height: 60px;
+    height: 83px;
+    font-size: 19px;
+}
+
+.container.background .box-list{
+    max-width:544px;
+    min-width:300px;
+    width:100%;
+}
+.container.background .image-box{
+    width:auto;
+    height:auto;
+}
+.container.background .image-box > div{
+    overflow:initial;
+}
+.container.background .image-box img{
+    position: relative;
+    max-width: 240px;
+    width: calc(50vw - 46px);
+    border-radius: 4px;
+}
+
+
+.drag-area ul:empty::after{
+    content:'Drop image here';
+    color: #BBBBBB;
+    text-align: center;
+    line-height: 60px;
+    height: 83px;
+    font-size: 19px;
+    width: 100%;
+    display: block;
+}
+.container-multiple .ui-sortable-placeholder{
+    width:82px;
+    height:82px;
+    border:2px dashed rgba(0,0,0,0.2);
+}

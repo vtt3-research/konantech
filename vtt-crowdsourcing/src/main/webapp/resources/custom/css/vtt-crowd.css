@@ -1,0 +1,72 @@
+#header {
+    background-image:linear-gradient(to right, #68e0cf 0%, #209cff 100%);
+}
+#content{
+    padding:10px;
+    background:#f0f0f0;
+}
+.content.row {
+    margin-right: -13px;
+    margin-left: -13px;
+}
+.jarviswidget {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.1);
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    background:#fff;
+}
+.jarviswidget>header {
+    border: 0;
+    padding: 15px 10px;
+    height: unset;
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 0;
+    background: #555;
+    color:#fff;
+}
+.jarviswidget>div {
+    border: 0;
+    padding-top: 10px;
+}
+
+.exImg{
+    height:25%;
+    padding:2px;
+}
+.exImg>div{
+    overflow:hidden;
+    margin:auto;
+}
+
+.ui-selected{
+    background:#f00;
+}
+
+.qa{
+    clear:left;
+    text-align: center;
+}
+.buttonarea{
+    padding-top:5px;
+    text-align: center;
+}
+
+.objectarea{
+    border:1px solid;
+    text-align: center;
+}
+.objectarea>div{
+    display:inline-block;
+}
+.ui-state-highlight{
+    background:#fff;
+}
+.ui-state-highlighted{
+    background: #a8ff76;
+}
+.ui-droppable-hover{
+    background:#fffa90;
+}

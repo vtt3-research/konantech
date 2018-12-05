@@ -1,0 +1,2479 @@
+{ 
+	"file_name": "s01_ep15_subtitle_final.json",
+	"registed_name": "s01_ep15_subtitle_final.json", 
+	"subtitle_results": 
+	[ 
+		{ 
+		"start_time": "3.864", 
+		"end_time": "5.072", 
+		"speaker": "Rachel", 
+		"subtitle": "Coffee." 
+		},
+		{ 
+		"start_time": "5.24", 
+		"end_time": "7.491", 
+		"speaker": "Joey", 
+		"subtitle": "Thank you." 
+		},
+		{ 
+		"start_time": "5.24", 
+		"end_time": "7.491", 
+		"speaker": "Rachel", 
+		"subtitle": "Cappuccino." 
+		},
+		{ 
+		"start_time": "8.994", 
+		"end_time": "11.746", 
+		"speaker": "Rachel", 
+		"subtitle": "And a nice hot cider for Monica." 
+		},
+		{ 
+		"start_time": "11.913", 
+		"end_time": "13.748", 
+		"speaker": "Monica", 
+		"subtitle": "Aw, thank you." 
+		},
+		{ 
+		"start_time": "14.082", 
+		"end_time": "15.249", 
+		"speaker": "Monica", 
+		"subtitle": "Rach?" 
+		},
+		{ 
+		"start_time": "14.082", 
+		"end_time": "15.249", 
+		"speaker": "Rachel", 
+		"subtitle": "Yeah?" 
+		},
+		{ 
+		"start_time": "15.417", 
+		"end_time": "18.043", 
+		"speaker": "Monica", 
+		"subtitle": "Why does my cinnamon stick have an eraser?" 
+		},
+		{ 
+		"start_time": "19.337", 
+		"end_time": "20.504", 
+		"speaker": "Rachel", 
+		"subtitle": "Oh." 
+		},
+		{ 
+		"start_time": "20.672", 
+		"end_time": "22.006", 
+		"speaker": "Rachel", 
+		"subtitle": "Oh, heh." 
+		},
+		{ 
+		"start_time": "22.174", 
+		"end_time": "23.883", 
+		"speaker": "Rachel", 
+		"subtitle": "That's why." 
+		},
+		{ 
+		"start_time": "24.634", 
+		"end_time": "26.051", 
+		"speaker": "Rachel", 
+		"subtitle": "Sorry." 
+		},
+		{ 
+		"start_time": "84.903", 
+		"end_time": "86.821", 
+		"speaker": "None", 
+		"subtitle": "Chandler?" 
+		},
+		{ 
+		"start_time": "87.322", 
+		"end_time": "89.698", 
+		"speaker": "Chandler", 
+		"subtitle": "Miss Tedlock, you're looking lovely today." 
+		},
+		{ 
+		"start_time": "89.866", 
+		"end_time": "93.452", 
+		"speaker": "Chandler", 
+		"subtitle": "May I say that is a very flattering sleeve length on you?" 
+		},
+		{ 
+		"start_time": "94.246", 
+		"end_time": "95.287", 
+		"speaker": "None", 
+		"subtitle": "Yes." 
+		},
+		{ 
+		"start_time": "95.455", 
+		"end_time": "99.625", 
+		"speaker": "None", 
+		"subtitle": "Well, Mr. Costilick would like you to stop by his office at the end of the day." 
+		},
+		{ 
+		"start_time": "100.335", 
+		"end_time": "103.796", 
+		"speaker": "Chandler", 
+		"subtitle": "Oh, listen, if this is about those prank memos, I had nothing to do with them." 
+		},
+		{ 
+		"start_time": "103.964", 
+		"end_time": "106.298", 
+		"speaker": "Chandler", 
+		"subtitle": "Really, nothing at all. Really." 
+		},
+		{ 
+		"start_time": "106.633", 
+		"end_time": "107.675", 
+		"speaker": "Chandler", 
+		"subtitle": "Nothing." 
+		},
+		{ 
+		"start_time": "111.513", 
+		"end_time": "113.013", 
+		"speaker": "Phoebe", 
+		"subtitle": "Hey, you guys. You guys." 
+		},
+		{ 
+		"start_time": "113.181", 
+		"end_time": "116.016", 
+		"speaker": "Phoebe", 
+		"subtitle": "Chandler's coming, and he says he has this incredible news." 
+		},
+		{ 
+		"start_time": "116.184", 
+		"end_time": "118.602", 
+		"speaker": "Phoebe", 
+		"subtitle": "So when he gets here, let's all act like, you know..." 
+		},
+		{ 
+		"start_time": "118.77", 
+		"end_time": "120.312", 
+		"speaker": "Chandler", 
+		"subtitle": "Hey." 
+		},
+		{ 
+		"start_time": "118.77", 
+		"end_time": "120.312", 
+		"speaker": "Ross", 
+		"subtitle": "Hey." 
+		},
+		{ 
+		"start_time": "118.77", 
+		"end_time": "120.312", 
+		"speaker": "Monica", 
+		"subtitle": "Hey." 
+		},
+		{ 
+		"start_time": "120.48", 
+		"end_time": "123.107", 
+		"speaker": "Phoebe", 
+		"subtitle": "Never mind. But it was gonna be really good." 
+		},
+		{ 
+		"start_time": "124.109", 
+		"end_time": "125.86", 
+		"speaker": "Ross", 
+		"subtitle": "What's going on? What's up?" 
+		},
+		{ 
+		"start_time": "126.027", 
+		"end_time": "128.529", 
+		"speaker": "Chandler", 
+		"subtitle": "It's a typical day at work. I'm inputting my numbers..." 
+		},
+		{ 
+		"start_time": "128.697", 
+		"end_time": "130.531", 
+		"speaker": "Chandler", 
+		"subtitle": "...and Big Al calls me into his office..." 
+		},
+		{ 
+		"start_time": "130.699", 
+		"end_time": "133.701", 
+		"speaker": "Chandler", 
+		"subtitle": "...and tells me he wants to make me processing supervisor." 
+		},
+		{ 
+		"start_time": "133.869", 
+		"end_time": "136.036", 
+		"speaker": "Monica", 
+		"subtitle": "That is great! Congratulations." 
+		},
+		{ 
+		"start_time": "133.869", 
+		"end_time": "136.036", 
+		"speaker": "Rachel", 
+		"subtitle": "That is great! Congratulations." 
+		},
+		{ 
+		"start_time": "133.869", 
+		"end_time": "136.036", 
+		"speaker": "Ross", 
+		"subtitle": "Congratulations." 
+		},
+		{ 
+		"start_time": "136.204", 
+		"end_time": "138.455", 
+		"speaker": "Chandler", 
+		"subtitle": "So I quit." 
+		},
+		{ 
+		"start_time": "138.915", 
+		"end_time": "140.291", 
+		"speaker": "Monica", 
+		"subtitle": "Why?" 
+		},
+		{ 
+		"start_time": "138.915", 
+		"end_time": "140.291", 
+		"speaker": "Phoebe", 
+		"subtitle": "Why?" 
+		},
+		{ 
+		"start_time": "140.458", 
+		"end_time": "142.71", 
+		"speaker": "Chandler", 
+		"subtitle": "Why? This was supposed to be a temp job." 
+		},
+		{ 
+		"start_time": "142.878", 
+		"end_time": "145.796", 
+		"speaker": "Monica", 
+		"subtitle": "Yeah, Chandler, you've been there for five years." 
+		},
+		{ 
+		"start_time": "145.964", 
+		"end_time": "147.381", 
+		"speaker": "Chandler", 
+		"subtitle": "I know, but if I took it this..." 
+		},
+		{ 
+		"start_time": "147.549", 
+		"end_time": "150.217", 
+		"speaker": "Chandler", 
+		"subtitle": "...it'd be like admitting that this is what l actually do." 
+		},
+		{ 
+		"start_time": "150.385", 
+		"end_time": "151.677", 
+		"speaker": "Monica", 
+		"subtitle": "So was it a lot more money?" 
+		},
+		{ 
+		"start_time": "151.845", 
+		"end_time": "154.471", 
+		"speaker": "Chandler", 
+		"subtitle": "Doesn't matter. I just don't want to be one of those guys..." 
+		},
+		{ 
+		"start_time": "154.639", 
+		"end_time": "158.225", 
+		"speaker": "Chandler", 
+		"subtitle": "...that's in his office until 12:00 at night worrying about the WENUS." 
+		},
+		{ 
+		"start_time": "161.396", 
+		"end_time": "162.688", 
+		"speaker": "Rachel", 
+		"subtitle": "The WENUS?" 
+		},
+		{ 
+		"start_time": "163.023", 
+		"end_time": "166.734", 
+		"speaker": "Chandler", 
+		"subtitle": "Weekly estimated net usage system. It's a processing term." 
+		},
+		{ 
+		"start_time": "167.444", 
+		"end_time": "169.737", 
+		"speaker": "Rachel", 
+		"subtitle": "Oh, that WENUS." 
+		},
+		{ 
+		"start_time": "170.906", 
+		"end_time": "172.114", 
+		"speaker": "Joey", 
+		"subtitle": "So, what are you gonna do?" 
+		},
+		{ 
+		"start_time": "172.282", 
+		"end_time": "174.491", 
+		"speaker": "Chandler", 
+		"subtitle": "I don't know. That's the thing. I don't know." 
+		},
+		{ 
+		"start_time": "174.659", 
+		"end_time": "176.744", 
+		"speaker": "Chandler", 
+		"subtitle": "I'm not gonna figure it out working there." 
+		},
+		{ 
+		"start_time": "176.912", 
+		"end_time": "179.163", 
+		"speaker": "Phoebe", 
+		"subtitle": "Oh! l have something you can do." 
+		},
+		{ 
+		"start_time": "179.331", 
+		"end_time": "181.582", 
+		"speaker": "Phoebe", 
+		"subtitle": "I have this new massage client. Steve." 
+		},
+		{ 
+		"start_time": "183.293", 
+		"end_time": "186.086", 
+		"speaker": "Phoebe", 
+		"subtitle": "Anyway, um, he's opening up a restaurant..." 
+		},
+		{ 
+		"start_time": "186.254", 
+		"end_time": "189.089", 
+		"speaker": "Phoebe", 
+		"subtitle": "...and he's looking for a head chef." 
+		},
+		{ 
+		"start_time": "190.592", 
+		"end_time": "193.052", 
+		"speaker": "Monica", 
+		"subtitle": "Um, hi there." 
+		},
+		{ 
+		"start_time": "193.261", 
+		"end_time": "194.386", 
+		"speaker": "Phoebe", 
+		"subtitle": "Hi." 
+		},
+		{ 
+		"start_time": "194.554", 
+		"end_time": "197.723", 
+		"speaker": "Phoebe", 
+		"subtitle": "Oh, yeah, I know. You're a chef, I know, and I thought of you first." 
+		},
+		{ 
+		"start_time": "197.891", 
+		"end_time": "201.268", 
+		"speaker": "Phoebe", 
+		"subtitle": "But, um, Chandler's the one who needs a job right now, so...." 
+		},
+		{ 
+		"start_time": "203.355", 
+		"end_time": "206.231", 
+		"speaker": "Chandler", 
+		"subtitle": "Yeah, l just don't have a lot of chefing experience." 
+		},
+		{ 
+		"start_time": "206.566", 
+		"end_time": "208.442", 
+		"speaker": "Chandler", 
+		"subtitle": "Unless it's an all-toast restaurant." 
+		},
+		{ 
+		"start_time": "209.527", 
+		"end_time": "212.529", 
+		"speaker": "Phoebe", 
+		"subtitle": "Yeah. Yeah." 
+		},
+		{ 
+		"start_time": "209.527", 
+		"end_time": "212.529", 
+		"speaker": "Monica", 
+		"subtitle": "Well, what kind of food is he looking for?" 
+		},
+		{ 
+		"start_time": "212.697", 
+		"end_time": "215.699", 
+		"speaker": "Phoebe", 
+		"subtitle": "He wants to do something eclectic, so he's looking for someone..." 
+		},
+		{ 
+		"start_time": "215.867", 
+		"end_time": "217.868", 
+		"speaker": "Phoebe", 
+		"subtitle": "...who can, you know, create the entire menu." 
+		},
+		{ 
+		"start_time": "218.036", 
+		"end_time": "219.954", 
+		"speaker": "Monica", 
+		"subtitle": "Oh, my God." 
+		},
+		{ 
+		"start_time": "218.036", 
+		"end_time": "219.954", 
+		"speaker": "Phoebe", 
+		"subtitle": "Yeah, l know." 
+		},
+		{ 
+		"start_time": "220.121", 
+		"end_time": "221.747", 
+		"speaker": "Phoebe", 
+		"subtitle": "So, what do you think?" 
+		},
+		{ 
+		"start_time": "223.375", 
+		"end_time": "226.627", 
+		"speaker": "Chandler", 
+		"subtitle": "Thanks, Pheeb. I just don't really see myself in a big white hat." 
+		},
+		{ 
+		"start_time": "226.795", 
+		"end_time": "227.92", 
+		"speaker": "Phoebe", 
+		"subtitle": "Okay." 
+		},
+		{ 
+		"start_time": "229.839", 
+		"end_time": "231.382", 
+		"speaker": "Phoebe", 
+		"subtitle": "Oh, Monica. Guess what?" 
+		},
+		{ 
+		"start_time": "241.81", 
+		"end_time": "243.978", 
+		"speaker": "Chandler", 
+		"subtitle": "Can you see my nipples through this shirt?" 
+		},
+		{ 
+		"start_time": "246.731", 
+		"end_time": "249.817", 
+		"speaker": "Rachel", 
+		"subtitle": "No, but don't worry. I'm sure they're still there." 
+		},
+		{ 
+		"start_time": "251.277", 
+		"end_time": "252.778", 
+		"speaker": "Phoebe", 
+		"subtitle": "Where you going, Mr. Suit-ey Man?" 
+		},
+		{ 
+		"start_time": "252.946", 
+		"end_time": "255.948", 
+		"speaker": "Chandler", 
+		"subtitle": "Well, I have an appointment to see Dr. Robert Pilman..." 
+		},
+		{ 
+		"start_time": "256.116", 
+		"end_time": "257.741", 
+		"speaker": "Chandler", 
+		"subtitle": "...career counselor-a-go-go." 
+		},
+		{ 
+		"start_time": "259.619", 
+		"end_time": "261.286", 
+		"speaker": "Chandler", 
+		"subtitle": "I added the \"a-go-go.\"" 
+		},
+		{ 
+		"start_time": "261.454", 
+		"end_time": "262.83", 
+		"speaker": "Rachel", 
+		"subtitle": "Career counselor?" 
+		},
+		{ 
+		"start_time": "262.998", 
+		"end_time": "266", 
+		"speaker": "Chandler", 
+		"subtitle": "Hey, you guys all know what you want to do." 
+		},
+		{ 
+		"start_time": "266.167", 
+		"end_time": "267.876", 
+		"speaker": "Rachel", 
+		"subtitle": "I don't." 
+		},
+		{ 
+		"start_time": "268.044", 
+		"end_time": "271.797", 
+		"speaker": "Chandler", 
+		"subtitle": "Hey, you guys in the living room all know what you want to do." 
+		},
+		{ 
+		"start_time": "271.965", 
+		"end_time": "274.216", 
+		"speaker": "Chandler", 
+		"subtitle": "You know, you have goals. You have dreams." 
+		},
+		{ 
+		"start_time": "274.592", 
+		"end_time": "275.718", 
+		"speaker": "Chandler", 
+		"subtitle": "I don't have a dream." 
+		},
+		{ 
+		"start_time": "275.885", 
+		"end_time": "279.304", 
+		"speaker": "Ross", 
+		"subtitle": "Ah, the lesser known \"I Don't Have a Dream\" speech." 
+		},
+		{ 
+		"start_time": "281.057", 
+		"end_time": "283.767", 
+		"speaker": "Monica", 
+		"subtitle": "Oh, l love my life. l love my life." 
+		},
+		{ 
+		"start_time": "283.935", 
+		"end_time": "285.769", 
+		"speaker": "Phoebe", 
+		"subtitle": "Brian's Song." 
+		},
+		{ 
+		"start_time": "288.314", 
+		"end_time": "289.898", 
+		"speaker": "Rachel", 
+		"subtitle": "The meeting with that guy went great?" 
+		},
+		{ 
+		"start_time": "290.066", 
+		"end_time": "292.943", 
+		"speaker": "Monica", 
+		"subtitle": "So great. He showed me where the restaurant's gonna be." 
+		},
+		{ 
+		"start_time": "293.111", 
+		"end_time": "295.195", 
+		"speaker": "Monica", 
+		"subtitle": "It's this cute little place on 10th Street." 
+		},
+		{ 
+		"start_time": "295.363", 
+		"end_time": "298.198", 
+		"speaker": "Monica", 
+		"subtitle": "It's not too big, not too small. It's just right." 
+		},
+		{ 
+		"start_time": "298.366", 
+		"end_time": "301.452", 
+		"speaker": "Chandler", 
+		"subtitle": "Was it formerly owned by a blond woman and some bears?" 
+		},
+		{ 
+		"start_time": "302.495", 
+		"end_time": "306.081", 
+		"speaker": "Monica", 
+		"subtitle": "So anyway, I'm cooking dinner for him Monday night. Kind of like an audition." 
+		},
+		{ 
+		"start_time": "306.249", 
+		"end_time": "309.334", 
+		"speaker": "Monica", 
+		"subtitle": "And Phoebe, he really wants you to be here, which will be great for me." 
+		},
+		{ 
+		"start_time": "309.502", 
+		"end_time": "310.878", 
+		"speaker": "Monica", 
+		"subtitle": "Because you can make yummy noises." 
+		},
+		{ 
+		"start_time": "311.087", 
+		"end_time": "313.338", 
+		"speaker": "Rachel", 
+		"subtitle": "What are you gonna make?" 
+		},
+		{ 
+		"start_time": "311.087", 
+		"end_time": "313.338", 
+		"speaker": "Phoebe", 
+		"subtitle": "Yummy noises." 
+		},
+		{ 
+		"start_time": "315.508", 
+		"end_time": "317.676", 
+		"speaker": "Rachel", 
+		"subtitle": "And, Monica, what are you gonna make?" 
+		},
+		{ 
+		"start_time": "317.844", 
+		"end_time": "320.387", 
+		"speaker": "Monica", 
+		"subtitle": "I don't know. I don't know. It's just gotta be so great." 
+		},
+		{ 
+		"start_time": "320.555", 
+		"end_time": "322.848", 
+		"speaker": "Phoebe", 
+		"subtitle": "Oh! l know what you can make. I know." 
+		},
+		{ 
+		"start_time": "323.016", 
+		"end_time": "325.893", 
+		"speaker": "Phoebe", 
+		"subtitle": "Oh, you should make that thing, you know, with the stuff." 
+		},
+		{ 
+		"start_time": "327.604", 
+		"end_time": "331.523", 
+		"speaker": "Phoebe", 
+		"subtitle": "You know that thing with the stuff?" 
+		},
+		{ 
+		"start_time": "332.609", 
+		"end_time": "334.234", 
+		"speaker": "Phoebe", 
+		"subtitle": "Okay, l don't know." 
+		},
+		{ 
+		"start_time": "335.779", 
+		"end_time": "338.238", 
+		"speaker": "Ross", 
+		"subtitle": "Hey, guys, anyone know a good date place in the neighborhood?" 
+		},
+		{ 
+		"start_time": "338.406", 
+		"end_time": "343.41", 
+		"speaker": "Joey", 
+		"subtitle": "Uh, how about Tony's? If you can finish a 32-ounce steak, it's free." 
+		},
+		{ 
+		"start_time": "345.705", 
+		"end_time": "346.997", 
+		"speaker": "Ross", 
+		"subtitle": "Okay. Ahem." 
+		},
+		{ 
+		"start_time": "347.165", 
+		"end_time": "350.292", 
+		"speaker": "Ross", 
+		"subtitle": "Hey, does anyone know a good place if you're not dating a puma?" 
+		},
+		{ 
+		"start_time": "351.92", 
+		"end_time": "354.88", 
+		"speaker": "Chandler", 
+		"subtitle": "Who are you going out with?" 
+		},
+		{ 
+		"start_time": "351.92", 
+		"end_time": "354.88", 
+		"speaker": "Phoebe", 
+		"subtitle": "Oh, is this the bug lady?" 
+		},
+		{ 
+		"start_time": "355.048", 
+		"end_time": "357.674", 
+		"speaker": "Rachel", 
+		"subtitle": "I love you, Ross." 
+		},
+		{ 
+		"start_time": "359.677", 
+		"end_time": "361.595", 
+		"speaker": "Ross", 
+		"subtitle": "Her name is Celia. She's not a bug lady." 
+		},
+		{ 
+		"start_time": "361.763", 
+		"end_time": "364.181", 
+		"speaker": "Ross", 
+		"subtitle": "She's curator of insects at the museum." 
+		},
+		{ 
+		"start_time": "365.725", 
+		"end_time": "367.351", 
+		"speaker": "Monica", 
+		"subtitle": "So, what are you guys gonna do?" 
+		},
+		{ 
+		"start_time": "367.519", 
+		"end_time": "370.687", 
+		"speaker": "Ross", 
+		"subtitle": "Well, I just thought we'd go to dinner, then bring her back to my place..." 
+		},
+		{ 
+		"start_time": "370.855", 
+		"end_time": "373.398", 
+		"speaker": "Ross", 
+		"subtitle": "...and I'd introduce her to my monkey." 
+		},
+		{ 
+		"start_time": "375.944", 
+		"end_time": "377.903", 
+		"speaker": "Chandler", 
+		"subtitle": "And he's not speaking metaphorically." 
+		},
+		{ 
+		"start_time": "380.949", 
+		"end_time": "383.408", 
+		"speaker": "Joey", 
+		"subtitle": "So back to your place? Uh-huh." 
+		},
+		{ 
+		"start_time": "380.949", 
+		"end_time": "383.408", 
+		"speaker": "Ross", 
+		"subtitle": "Uh-huh." 
+		},
+		{ 
+		"start_time": "383.576", 
+		"end_time": "385.577", 
+		"speaker": "Joey", 
+		"subtitle": "You thinking maybe, heh-heh?" 
+		},
+		{ 
+		"start_time": "386.83", 
+		"end_time": "390.249", 
+		"speaker": "Ross", 
+		"subtitle": "Ahem, well, I don't know, heh-heh." 
+		},
+		{ 
+		"start_time": "390.917", 
+		"end_time": "392.835", 
+		"speaker": "Ross", 
+		"subtitle": "I'm hoping heh-heh." 
+		},
+		{ 
+		"start_time": "393.962", 
+		"end_time": "396.213", 
+		"speaker": "Joey", 
+		"subtitle": "I'm telling you, that monkey's a chick magnet." 
+		},
+		{ 
+		"start_time": "396.381", 
+		"end_time": "400.926", 
+		"speaker": "Joey", 
+		"subtitle": "She's gonna one look at his furry, cute little face and it'll seal the deal." 
+		},
+		{ 
+		"start_time": "403.096", 
+		"end_time": "404.336", 
+		"speaker": "None", 
+		"subtitle": "Aah!" 
+		},
+		{ 
+		"start_time": "403.096", 
+		"end_time": "404.336", 
+		"speaker": "Ross", 
+		"subtitle": "Celia, don't worry." 
+		},
+		{ 
+		"start_time": "404.472", 
+		"end_time": "407.933", 
+		"speaker": "Ross", 
+		"subtitle": "Celia, he's not gonna hurt you. Soothing tones, Celia, soothing tones." 
+		},
+		{ 
+		"start_time": "408.101", 
+		"end_time": "409.893", 
+		"speaker": "Ross", 
+		"subtitle": "Okay, l'm sorry, I'm sorry." 
+		},
+		{ 
+		"start_time": "408.101", 
+		"end_time": "409.893", 
+		"speaker": "Ross", 
+		"subtitle": "Aah!" 
+		},
+		{ 
+		"start_time": "410.103", 
+		"end_time": "413.939", 
+		"speaker": "Ross", 
+		"subtitle": "Here, here. Marcel? Marcel?" 
+		},
+		{ 
+		"start_time": "410.103", 
+		"end_time": "413.939", 
+		"speaker": "None", 
+		"subtitle": "I can't stand this." 
+		},
+		{ 
+		"start_time": "414.107", 
+		"end_time": "417.442", 
+		"speaker": "None", 
+		"subtitle": "He's got his claws on my…" 
+		},
+		{ 
+		"start_time": "414.107", 
+		"end_time": "417.442", 
+		"speaker": "Ross", 
+		"subtitle": "Yeah, all right." 
+		},
+		{ 
+		"start_time": "425.118", 
+		"end_time": "427.953", 
+		"speaker": "Monica", 
+		"subtitle": "Okay, try this salmon mousse." 
+		},
+		{ 
+		"start_time": "428.913", 
+		"end_time": "430.831", 
+		"speaker": "Joey", 
+		"subtitle": "Mm. Good." 
+		},
+		{ 
+		"start_time": "428.913", 
+		"end_time": "430.831", 
+		"speaker": "Monica", 
+		"subtitle": "Yeah?" 
+		},
+		{ 
+		"start_time": "430.999", 
+		"end_time": "433.458", 
+		"speaker": "Monica", 
+		"subtitle": "Is it better than the other salmon mousse?" 
+		},
+		{ 
+		"start_time": "434.21", 
+		"end_time": "435.752", 
+		"speaker": "Joey", 
+		"subtitle": "It's creamier." 
+		},
+		{ 
+		"start_time": "435.92", 
+		"end_time": "438.088", 
+		"speaker": "Monica", 
+		"subtitle": "Yeah? Well, is that better?" 
+		},
+		{ 
+		"start_time": "438.256", 
+		"end_time": "441.675", 
+		"speaker": "Joey", 
+		"subtitle": "I don't know. We're talking about whipped fish, Monica." 
+		},
+		{ 
+		"start_time": "442.552", 
+		"end_time": "444.887", 
+		"speaker": "Joey", 
+		"subtitle": "I'm just happy I'm keeping it down, you know?" 
+		},
+		{ 
+		"start_time": "451.019", 
+		"end_time": "452.686", 
+		"speaker": "Rachel", 
+		"subtitle": "God, what happened to you?" 
+		},
+		{ 
+		"start_time": "452.854", 
+		"end_time": "455.772", 
+		"speaker": "Chandler", 
+		"subtitle": "Eight and a half hours of aptitude tests..." 
+		},
+		{ 
+		"start_time": "455.94", 
+		"end_time": "460.402", 
+		"speaker": "Chandler", 
+		"subtitle": "...intelligence tests, personality tests, and what do I learn?" 
+		},
+		{ 
+		"start_time": "460.987", 
+		"end_time": "463.238", 
+		"speaker": "Chandler", 
+		"subtitle": "You're ideally suited for a career in data processing.....for a large multi-national corporation." 
+		},
+		{ 
+		"start_time": "467.035", 
+		"end_time": "470.454", 
+		"speaker": "Phoebe", 
+		"subtitle": "That's so great, because you already know how to do that." 
+		},
+		{ 
+		"start_time": "471.039", 
+		"end_time": "472.873", 
+		"speaker": "Chandler", 
+		"subtitle": "Can you believe it?" 
+		},
+		{ 
+		"start_time": "473.041", 
+		"end_time": "476.543", 
+		"speaker": "Chandler", 
+		"subtitle": "Don't I seem like somebody who should be doing something really cool?" 
+		},
+		{ 
+		"start_time": "476.711", 
+		"end_time": "480.547", 
+		"speaker": "Chandler", 
+		"subtitle": "You know, I just always pictured myself doing something...." 
+		},
+		{ 
+		"start_time": "480.924", 
+		"end_time": "482.216", 
+		"speaker": "Chandler", 
+		"subtitle": "Something." 
+		},
+		{ 
+		"start_time": "482.383", 
+		"end_time": "485.469", 
+		"speaker": "Rachel", 
+		"subtitle": "Oh, Chandler, l know, I know." 
+		},
+		{ 
+		"start_time": "486.012", 
+		"end_time": "489.223", 
+		"speaker": "Rachel", 
+		"subtitle": "Oh, hey, you can see your nipples through this shirt." 
+		},
+		{ 
+		"start_time": "493.436", 
+		"end_time": "495.646", 
+		"speaker": "Monica", 
+		"subtitle": "Here you go. Maybe this will cheer you up." 
+		},
+		{ 
+		"start_time": "496.564", 
+		"end_time": "499.316", 
+		"speaker": "Chandler", 
+		"subtitle": "Ooh, you know, um, I had a grape about five hours ago..." 
+		},
+		{ 
+		"start_time": "499.484", 
+		"end_time": "500.901", 
+		"speaker": "Chandler", 
+		"subtitle": "...so I better split this with you." 
+		},
+		{ 
+		"start_time": "502.237", 
+		"end_time": "504.988", 
+		"speaker": "Monica", 
+		"subtitle": "It's supposed to be that small. It's a pre-appetizer." 
+		},
+		{ 
+		"start_time": "505.156", 
+		"end_time": "508.242", 
+		"speaker": "Monica", 
+		"subtitle": "The French call it an amuse-bouche." 
+		},
+		{ 
+		"start_time": "511.496", 
+		"end_time": "513.83", 
+		"speaker": "Chandler", 
+		"subtitle": "Well, it is amusing." 
+		},
+		{ 
+		"start_time": "520.421", 
+		"end_time": "523.257", 
+		"speaker": "Monica", 
+		"subtitle": "Hello? Oh, hi, Wendy." 
+		},
+		{ 
+		"start_time": "523.424", 
+		"end_time": "525.259", 
+		"speaker": "Monica", 
+		"subtitle": "Yeah, 8:00." 
+		},
+		{ 
+		"start_time": "525.76", 
+		"end_time": "527.261", 
+		"speaker": "Monica", 
+		"subtitle": "What did we say? Ten dollars an hour?" 
+		},
+		{ 
+		"start_time": "528.68", 
+		"end_time": "529.93", 
+		"speaker": "Monica", 
+		"subtitle": "Okay, great." 
+		},
+		{ 
+		"start_time": "530.098", 
+		"end_time": "532.224", 
+		"speaker": "Monica", 
+		"subtitle": "All right, l'll see you then. Bye." 
+		},
+		{ 
+		"start_time": "532.392", 
+		"end_time": "533.976", 
+		"speaker": "Phoebe", 
+		"subtitle": "Ten dollars an hour for what?" 
+		},
+		{ 
+		"start_time": "534.143", 
+		"end_time": "536.687", 
+		"speaker": "Monica", 
+		"subtitle": "I asked a waitress at work to help me out." 
+		},
+		{ 
+		"start_time": "537.23", 
+		"end_time": "538.73", 
+		"speaker": "Rachel", 
+		"subtitle": "Waitressing?" 
+		},
+		{ 
+		"start_time": "538.94", 
+		"end_time": "540.357", 
+		"speaker": "Joey", 
+		"subtitle": "Uh-oh." 
+		},
+		{ 
+		"start_time": "541.317", 
+		"end_time": "544.82", 
+		"speaker": "Monica", 
+		"subtitle": "Ha, ha. Of course I thought of you." 
+		},
+		{ 
+		"start_time": "544.988", 
+		"end_time": "546.405", 
+		"speaker": "Monica", 
+		"subtitle": "But...." 
+		},
+		{ 
+		"start_time": "546.572", 
+		"end_time": "548.573", 
+		"speaker": "Monica", 
+		"subtitle": "But...." 
+		},
+		{ 
+		"start_time": "546.572", 
+		"end_time": "548.573", 
+		"speaker": "Rachel", 
+		"subtitle": "But, but?" 
+		},
+		{ 
+		"start_time": "550.368", 
+		"end_time": "555.038", 
+		"speaker": "Monica", 
+		"subtitle": "But, you see, it's just this night has to go just perfect, you know..." 
+		},
+		{ 
+		"start_time": "555.206", 
+		"end_time": "559.418", 
+		"speaker": "Monica", 
+		"subtitle": "...and, well, Wendy's more of a professional waitress." 
+		},
+		{ 
+		"start_time": "559.961", 
+		"end_time": "561.42", 
+		"speaker": "Rachel", 
+		"subtitle": "Oh." 
+		},
+		{ 
+		"start_time": "561.838", 
+		"end_time": "564.464", 
+		"speaker": "Rachel", 
+		"subtitle": "I see. Yes. And I've sort of been maintaining my amateur status..." 
+		},
+		{ 
+		"start_time": "564.632", 
+		"end_time": "566.633", 
+		"speaker": "Rachel", 
+		"subtitle": "...so that I can waitress in the Olympics." 
+		},
+		{ 
+		"start_time": "570.471", 
+		"end_time": "574.891", 
+		"speaker": "Chandler", 
+		"subtitle": "You know, I don't mean to brag, but I waited tables at lnnsbruck in '76." 
+		},
+		{ 
+		"start_time": "579.105", 
+		"end_time": "580.939", 
+		"speaker": "Chandler", 
+		"subtitle": "Amuse-bouche?" 
+		},
+		{ 
+		"start_time": "598.124", 
+		"end_time": "599.624", 
+		"speaker": "None", 
+		"subtitle": "Talk to me." 
+		},
+		{ 
+		"start_time": "601.836", 
+		"end_time": "605.756", 
+		"speaker": "Ross", 
+		"subtitle": "Okay, uh, ahem, a weird thing happened to me on the train this morning..." 
+		},
+		{ 
+		"start_time": "605.923", 
+		"end_time": "609.676", 
+		"speaker": "None", 
+		"subtitle": "No, no, no. Talk dirty." 
+		},
+		{ 
+		"start_time": "613.097", 
+		"end_time": "616.308", 
+		"speaker": "Ross", 
+		"subtitle": "Wow. Here?" 
+		},
+		{ 
+		"start_time": "616.476", 
+		"end_time": "617.934", 
+		"speaker": "None", 
+		"subtitle": "Come on." 
+		},
+		{ 
+		"start_time": "618.102", 
+		"end_time": "619.77", 
+		"speaker": "None", 
+		"subtitle": "Say something..." 
+		},
+		{ 
+		"start_time": "619.937", 
+		"end_time": "621.355", 
+		"speaker": "None", 
+		"subtitle": "...hot." 
+		},
+		{ 
+		"start_time": "622.899", 
+		"end_time": "624.649", 
+		"speaker": "None", 
+		"subtitle": "What?" 
+		},
+		{ 
+		"start_time": "622.899", 
+		"end_time": "624.649", 
+		"speaker": "Ross", 
+		"subtitle": "Uh...." 
+		},
+		{ 
+		"start_time": "624.817", 
+		"end_time": "627.152", 
+		"speaker": "None", 
+		"subtitle": "What?" 
+		},
+		{ 
+		"start_time": "624.817", 
+		"end_time": "627.152", 
+		"speaker": "Ross", 
+		"subtitle": "Ooh." 
+		},
+		{ 
+		"start_time": "627.32", 
+		"end_time": "629.738", 
+		"speaker": "None", 
+		"subtitle": "What?" 
+		},
+		{ 
+		"start_time": "627.32", 
+		"end_time": "629.738", 
+		"speaker": "Ross", 
+		"subtitle": "Um...." 
+		},
+		{ 
+		"start_time": "629.906", 
+		"end_time": "631.198", 
+		"speaker": "None", 
+		"subtitle": "What?" 
+		},
+		{ 
+		"start_time": "631.366", 
+		"end_time": "633.2", 
+		"speaker": "None", 
+		"subtitle": "What?" 
+		},
+		{ 
+		"start_time": "631.366", 
+		"end_time": "633.2", 
+		"speaker": "Ross", 
+		"subtitle": "Vulva." 
+		},
+		{ 
+		"start_time": "640.249", 
+		"end_time": "641.458", 
+		"speaker": "Joey", 
+		"subtitle": "Vulva?" 
+		},
+		{ 
+		"start_time": "643.586", 
+		"end_time": "645.879", 
+		"speaker": "Ross", 
+		"subtitle": "All right, l panicked, all right?" 
+		},
+		{ 
+		"start_time": "646.047", 
+		"end_time": "647.798", 
+		"speaker": "Ross", 
+		"subtitle": "She took me by surprise." 
+		},
+		{ 
+		"start_time": "647.965", 
+		"end_time": "651.927", 
+		"speaker": "Ross", 
+		"subtitle": "You know, but it wasn't a total loss. I mean, uh, we ended up cuddling." 
+		},
+		{ 
+		"start_time": "652.095", 
+		"end_time": "654.971", 
+		"speaker": "Joey", 
+		"subtitle": "Whoa, you cuddled? How many times?" 
+		},
+		{ 
+		"start_time": "656.432", 
+		"end_time": "658.6", 
+		"speaker": "Ross", 
+		"subtitle": "Shut up. It was nice. I just..." 
+		},
+		{ 
+		"start_time": "658.768", 
+		"end_time": "661.853", 
+		"speaker": "Ross", 
+		"subtitle": "I just don't think I'm the dirty-talking kind of guy, you know?" 
+		},
+		{ 
+		"start_time": "662.021", 
+		"end_time": "664.606", 
+		"speaker": "Joey", 
+		"subtitle": "What's the big deal? Just say what you want to do to her." 
+		},
+		{ 
+		"start_time": "664.774", 
+		"end_time": "666.817", 
+		"speaker": "Joey", 
+		"subtitle": "Or what you want her to do to you." 
+		},
+		{ 
+		"start_time": "666.984", 
+		"end_time": "670.028", 
+		"speaker": "Joey", 
+		"subtitle": "Or what you think other people might be doing to each other." 
+		},
+		{ 
+		"start_time": "670.571", 
+		"end_time": "673.824", 
+		"speaker": "Joey", 
+		"subtitle": "Look, l tell you what. Try something on me." 
+		},
+		{ 
+		"start_time": "676.327", 
+		"end_time": "677.953", 
+		"speaker": "Ross", 
+		"subtitle": "Please be kidding." 
+		},
+		{ 
+		"start_time": "680.498", 
+		"end_time": "681.832", 
+		"speaker": "Joey", 
+		"subtitle": "Why not? Come on." 
+		},
+		{ 
+		"start_time": "681.999", 
+		"end_time": "685.71", 
+		"speaker": "Joey", 
+		"subtitle": "Just close your eyes and tell me what you'd like to be doing right now." 
+		},
+		{ 
+		"start_time": "690.967", 
+		"end_time": "692.843", 
+		"speaker": "Ross", 
+		"subtitle": "Okay, l'm, uh...." 
+		},
+		{ 
+		"start_time": "693.219", 
+		"end_time": "695.512", 
+		"speaker": "Ross", 
+		"subtitle": "I'm in my apartment...." 
+		},
+		{ 
+		"start_time": "696.013", 
+		"end_time": "697.013", 
+		"speaker": "Joey", 
+		"subtitle": "Yeah, what else?" 
+		},
+		{ 
+		"start_time": "697.181", 
+		"end_time": "699.975", 
+		"speaker": "Ross", 
+		"subtitle": "That's it. You're not there. We're not having this conversation." 
+		},
+		{ 
+		"start_time": "700.476", 
+		"end_time": "702.561", 
+		"speaker": "Joey", 
+		"subtitle": "All right. Look, I'll start, okay?" 
+		},
+		{ 
+		"start_time": "700.476", 
+		"end_time": "702.561", 
+		"speaker": "Ross", 
+		"subtitle": "Joey, please." 
+		},
+		{ 
+		"start_time": "702.728", 
+		"end_time": "705.147", 
+		"speaker": "Joey", 
+		"subtitle": "Come on, come on. All right, ready? Look." 
+		},
+		{ 
+		"start_time": "705.523", 
+		"end_time": "707.274", 
+		"speaker": "Joey", 
+		"subtitle": "Oh, Ross." 
+		},
+		{ 
+		"start_time": "709.152", 
+		"end_time": "713.321", 
+		"speaker": "Joey", 
+		"subtitle": "You get me so hot, I want your lips on me now." 
+		},
+		{ 
+		"start_time": "714.073", 
+		"end_time": "715.49", 
+		"speaker": "Joey", 
+		"subtitle": "See?" 
+		},
+		{ 
+		"start_time": "718.536", 
+		"end_time": "721.788", 
+		"speaker": "Joey", 
+		"subtitle": "All right, now you say something.I," 
+		},
+		{ 
+		"start_time": "718.536", 
+		"end_time": "721.788", 
+		"speaker": "Ross", 
+		"subtitle": "uh... l really don't think so." 
+		},
+		{ 
+		"start_time": "721.956", 
+		"end_time": "723.331", 
+		"speaker": "Joey", 
+		"subtitle": "Come on." 
+		},
+		{ 
+		"start_time": "723.499", 
+		"end_time": "724.958", 
+		"speaker": "Joey", 
+		"subtitle": "You like this woman, right?" 
+		},
+		{ 
+		"start_time": "723.499", 
+		"end_time": "724.958", 
+		"speaker": "Ross", 
+		"subtitle": "Yeah." 
+		},
+		{ 
+		"start_time": "725.126", 
+		"end_time": "726.727", 
+		"speaker": "Joey", 
+		"subtitle": "You wanna see her again, right?" 
+		},
+		{ 
+		"start_time": "725.126", 
+		"end_time": "726.727", 
+		"speaker": "Ross", 
+		"subtitle": "Sure." 
+		},
+		{ 
+		"start_time": "726.836", 
+		"end_time": "729.963", 
+		"speaker": "Joey", 
+		"subtitle": "Well, if you can't talk dirty to me, how are you gonna talk dirty to her?" 
+		},
+		{ 
+		"start_time": "730.131", 
+		"end_time": "732.507", 
+		"speaker": "Joey", 
+		"subtitle": "Now tell me you want to caress my butt." 
+		},
+		{ 
+		"start_time": "737.638", 
+		"end_time": "739.639", 
+		"speaker": "Ross", 
+		"subtitle": "Okay, turn around." 
+		},
+		{ 
+		"start_time": "740.558", 
+		"end_time": "742.976", 
+		"speaker": "Ross", 
+		"subtitle": "I just don't want you staring at me when I'm doing this." 
+		},
+		{ 
+		"start_time": "743.144", 
+		"end_time": "745.937", 
+		"speaker": "Joey", 
+		"subtitle": "All right, all right. I'm not looking. Go ahead." 
+		},
+		{ 
+		"start_time": "746.105", 
+		"end_time": "747.439", 
+		"speaker": "Ross", 
+		"subtitle": "Okay." 
+		},
+		{ 
+		"start_time": "749.525", 
+		"end_time": "751.693", 
+		"speaker": "Ross", 
+		"subtitle": "Ahem, I want, um..." 
+		},
+		{ 
+		"start_time": "751.861", 
+		"end_time": "753.987", 
+		"speaker": "Ross", 
+		"subtitle": "Okay, l want..." 
+		},
+		{ 
+		"start_time": "754.155", 
+		"end_time": "755.405", 
+		"speaker": "Ross", 
+		"subtitle": "...to feel..." 
+		},
+		{ 
+		"start_time": "755.573", 
+		"end_time": "758.617", 
+		"speaker": "Ross", 
+		"subtitle": "...your hot, soft skin with my lips." 
+		},
+		{ 
+		"start_time": "758.784", 
+		"end_time": "760.785", 
+		"speaker": "Joey", 
+		"subtitle": "There you go." 
+		},
+		{ 
+		"start_time": "761.412", 
+		"end_time": "763.413", 
+		"speaker": "Joey", 
+		"subtitle": "Keep going, keep going." 
+		},
+		{ 
+		"start_time": "763.915", 
+		"end_time": "765.415", 
+		"speaker": "Ross", 
+		"subtitle": "I, uh..." 
+		},
+		{ 
+		"start_time": "768.085", 
+		"end_time": "770.795", 
+		"speaker": "Ross", 
+		"subtitle": "I want to take my tongue and...." 
+		},
+		{ 
+		"start_time": "778.513", 
+		"end_time": "779.971", 
+		"speaker": "Ross", 
+		"subtitle": "And...." 
+		},
+		{ 
+		"start_time": "780.139", 
+		"end_time": "781.765", 
+		"speaker": "Joey", 
+		"subtitle": "Say it." 
+		},
+		{ 
+		"start_time": "784.727", 
+		"end_time": "786.353", 
+		"speaker": "Joey", 
+		"subtitle": "Say it!" 
+		},
+		{ 
+		"start_time": "787.146", 
+		"end_time": "789.564", 
+		"speaker": "Ross", 
+		"subtitle": "Run it all over your body..." 
+		},
+		{ 
+		"start_time": "792.235", 
+		"end_time": "794.319", 
+		"speaker": "Ross", 
+		"subtitle": "...until you're trembling with..." 
+		},
+		{ 
+		"start_time": "813.756", 
+		"end_time": "815.465", 
+		"speaker": "Chandler", 
+		"subtitle": "With?" 
+		},
+		{ 
+		"start_time": "817.51", 
+		"end_time": "819.636", 
+		"speaker": "Ross", 
+		"subtitle": "Funny story." 
+		},
+		{ 
+		"start_time": "817.51", 
+		"end_time": "819.636", 
+		"speaker": "Joey", 
+		"subtitle": "You're not gonna believe this." 
+		},
+		{ 
+		"start_time": "819.804", 
+		"end_time": "821.221", 
+		"speaker": "Chandler", 
+		"subtitle": "It's okay. It's okay." 
+		},
+		{ 
+		"start_time": "821.389", 
+		"end_time": "824.766", 
+		"speaker": "Chandler", 
+		"subtitle": "I was always rooting for you two kids to get together." 
+		},
+		{ 
+		"start_time": "826.644", 
+		"end_time": "829.646", 
+		"speaker": "Joey", 
+		"subtitle": "Hey, while you were sleeping, that guy from your old job called again." 
+		},
+		{ 
+		"start_time": "829.814", 
+		"end_time": "830.855", 
+		"speaker": "Chandler", 
+		"subtitle": "Oh. Again?" 
+		},
+		{ 
+		"start_time": "831.023", 
+		"end_time": "833.608", 
+		"speaker": "Joey", 
+		"subtitle": "And again and again and again." 
+		},
+		{ 
+		"start_time": "831.023", 
+		"end_time": "833.608", 
+		"speaker": "Ross", 
+		"subtitle": "And again." 
+		},
+		{ 
+		"start_time": "838.03", 
+		"end_time": "840.115", 
+		"speaker": "Joey", 
+		"subtitle": "Hello? Heh. And again." 
+		},
+		{ 
+		"start_time": "840.283", 
+		"end_time": "841.366", 
+		"speaker": "Chandler", 
+		"subtitle": "Ah." 
+		},
+		{ 
+		"start_time": "841.534", 
+		"end_time": "845.287", 
+		"speaker": "Chandler", 
+		"subtitle": "Hey, Mr. Costilick. How's life on the 15th floor?" 
+		},
+		{ 
+		"start_time": "846.414", 
+		"end_time": "848.164", 
+		"speaker": "Chandler", 
+		"subtitle": "Yeah, l miss you too." 
+		},
+		{ 
+		"start_time": "848.332", 
+		"end_time": "852.46", 
+		"speaker": "Chandler", 
+		"subtitle": "Yeah, it's a lot less satisfying to steal pens from your own home, you know?" 
+		},
+		{ 
+		"start_time": "854.38", 
+		"end_time": "855.63", 
+		"speaker": "Chandler", 
+		"subtitle": "Well, that's very generous." 
+		},
+		{ 
+		"start_time": "856.09", 
+		"end_time": "858.258", 
+		"speaker": "Chandler", 
+		"subtitle": "Uh, but look, this isn't about the money." 
+		},
+		{ 
+		"start_time": "858.426", 
+		"end_time": "860.468", 
+		"speaker": "Chandler", 
+		"subtitle": "You know? l need something that's more than a job." 
+		},
+		{ 
+		"start_time": "860.636", 
+		"end_time": "863.179", 
+		"speaker": "Chandler", 
+		"subtitle": "I need something I really care about..." 
+		},
+		{ 
+		"start_time": "863.347", 
+		"end_time": "866.558", 
+		"speaker": "Chandler", 
+		"subtitle": "And that's on top of the year-end bonus structure you mentioned earlier?" 
+		},
+		{ 
+		"start_time": "866.726", 
+		"end_time": "868.059", 
+		"speaker": "Joey", 
+		"subtitle": "Your dream." 
+		},
+		{ 
+		"start_time": "866.726", 
+		"end_time": "868.059", 
+		"speaker": "Ross", 
+		"subtitle": "Your dream." 
+		},
+		{ 
+		"start_time": "868.227", 
+		"end_time": "871.521", 
+		"speaker": "Chandler", 
+		"subtitle": "Look, Al. Al, l'm not playing hardball here, okay?" 
+		},
+		{ 
+		"start_time": "871.689", 
+		"end_time": "874.899", 
+		"speaker": "Chandler", 
+		"subtitle": "This is not a negotiation. This is a rejection." 
+		},
+		{ 
+		"start_time": "875.067", 
+		"end_time": "876.901", 
+		"speaker": "Chandler", 
+		"subtitle": "No... No, no. No, no." 
+		},
+		{ 
+		"start_time": "877.069", 
+		"end_time": "878.653", 
+		"speaker": "Chandler", 
+		"subtitle": "No, stop saying numbers!" 
+		},
+		{ 
+		"start_time": "878.821", 
+		"end_time": "882.365", 
+		"speaker": "Chandler", 
+		"subtitle": "I'm telling you, you've got the wrong guy! You got the wrong guy!" 
+		},
+		{ 
+		"start_time": "882.533", 
+		"end_time": "884.034", 
+		"speaker": "Chandler", 
+		"subtitle": "I'll see you Monday!" 
+		},
+		{ 
+		"start_time": "887.622", 
+		"end_time": "889.039", 
+		"speaker": "Chandler", 
+		"subtitle": "Ah." 
+		},
+		{ 
+		"start_time": "896.13", 
+		"end_time": "897.672", 
+		"speaker": "Chandler", 
+		"subtitle": "Huh?" 
+		},
+		{ 
+		"start_time": "897.84", 
+		"end_time": "900.175", 
+		"speaker": "Phoebe", 
+		"subtitle": "Wow. lt's huge." 
+		},
+		{ 
+		"start_time": "900.343", 
+		"end_time": "902.719", 
+		"speaker": "Phoebe", 
+		"subtitle": "It's so much bigger than the cubicle." 
+		},
+		{ 
+		"start_time": "902.887", 
+		"end_time": "906.014", 
+		"speaker": "Phoebe", 
+		"subtitle": "Oh, this is a cube." 
+		},
+		{ 
+		"start_time": "906.182", 
+		"end_time": "907.849", 
+		"speaker": "Chandler", 
+		"subtitle": "Look at this." 
+		},
+		{ 
+		"start_time": "911.354", 
+		"end_time": "913.73", 
+		"speaker": "Phoebe", 
+		"subtitle": "You have a window!" 
+		},
+		{ 
+		"start_time": "914.565", 
+		"end_time": "915.899", 
+		"speaker": "Chandler", 
+		"subtitle": "Yes, indeedy." 
+		},
+		{ 
+		"start_time": "916.067", 
+		"end_time": "920.403", 
+		"speaker": "Chandler", 
+		"subtitle": "With a beautiful view of…" 
+		},
+		{ 
+		"start_time": "916.067", 
+		"end_time": "920.403", 
+		"speaker": "Phoebe", 
+		"subtitle": "Oh, look. That guy's peeing." 
+		},
+		{ 
+		"start_time": "921.781", 
+		"end_time": "924.991", 
+		"speaker": "Chandler", 
+		"subtitle": "Okay. That's enough of the view. All right, check this out." 
+		},
+		{ 
+		"start_time": "925.159", 
+		"end_time": "927.744", 
+		"speaker": "Chandler", 
+		"subtitle": "Ahem. Okay, sit down here. Sit down." 
+		},
+		{ 
+		"start_time": "925.159", 
+		"end_time": "927.744", 
+		"speaker": "Phoebe", 
+		"subtitle": "Okay." 
+		},
+		{ 
+		"start_time": "927.912", 
+		"end_time": "930.038", 
+		"speaker": "Chandler", 
+		"subtitle": "Okay, this is great. This is great." 
+		},
+		{ 
+		"start_time": "930.206", 
+		"end_time": "932.499", 
+		"speaker": "Chandler", 
+		"subtitle": "Ahem. You ready?" 
+		},
+		{ 
+		"start_time": "930.206", 
+		"end_time": "932.499", 
+		"speaker": "Phoebe", 
+		"subtitle": "Yeah." 
+		},
+		{ 
+		"start_time": "933.209", 
+		"end_time": "935.418", 
+		"speaker": "Chandler", 
+		"subtitle": "Helen, could you come in here for a moment?" 
+		},
+		{ 
+		"start_time": "940.966", 
+		"end_time": "942.384", 
+		"speaker": "Chandler", 
+		"subtitle": "Thank you, Helen, that'll be all." 
+		},
+		{ 
+		"start_time": "944.929", 
+		"end_time": "946.888", 
+		"speaker": "Chandler", 
+		"subtitle": "Last time I do that. I promise." 
+		},
+		{ 
+		"start_time": "952.436", 
+		"end_time": "954.27", 
+		"speaker": "Monica", 
+		"subtitle": "Wendy, we had a deal." 
+		},
+		{ 
+		"start_time": "954.438", 
+		"end_time": "956.564", 
+		"speaker": "Monica", 
+		"subtitle": "Yeah, you promised." 
+		},
+		{ 
+		"start_time": "956.732", 
+		"end_time": "959.359", 
+		"speaker": "Monica", 
+		"subtitle": "Wendy. Wendy. Wendy!" 
+		},
+		{ 
+		"start_time": "963.656", 
+		"end_time": "965.281", 
+		"speaker": "Monica", 
+		"subtitle": "Hmm," 
+		},
+		{ 
+		"start_time": "963.656", 
+		"end_time": "965.281", 
+		"speaker": "Rachel", 
+		"subtitle": "who was that?" 
+		},
+		{ 
+		"start_time": "967.118", 
+		"end_time": "970.286", 
+		"speaker": "Monica", 
+		"subtitle": "Wendy bailed. I have no waitress." 
+		},
+		{ 
+		"start_time": "972.039", 
+		"end_time": "973.707", 
+		"speaker": "Rachel", 
+		"subtitle": "That's too bad." 
+		},
+		{ 
+		"start_time": "974.458", 
+		"end_time": "976.042", 
+		"speaker": "Rachel", 
+		"subtitle": "Bye-bye." 
+		},
+		{ 
+		"start_time": "977.044", 
+		"end_time": "978.628", 
+		"speaker": "Monica", 
+		"subtitle": "Ten dollars an hour." 
+		},
+		{ 
+		"start_time": "977.044", 
+		"end_time": "978.628", 
+		"speaker": "Rachel", 
+		"subtitle": "Nope." 
+		},
+		{ 
+		"start_time": "979.004", 
+		"end_time": "980.13", 
+		"speaker": "Monica", 
+		"subtitle": "Twelve dollars an hour." 
+		},
+		{ 
+		"start_time": "980.589", 
+		"end_time": "983.925", 
+		"speaker": "Rachel", 
+		"subtitle": "Mon, I wish I could, but I've made plans to walk around." 
+		},
+		{ 
+		"start_time": "985.261", 
+		"end_time": "988.388", 
+		"speaker": "Monica", 
+		"subtitle": "You know, Rachel, when you ran out on your wedding, I was there for you." 
+		},
+		{ 
+		"start_time": "988.556", 
+		"end_time": "992.475", 
+		"speaker": "Monica", 
+		"subtitle": "I put a roof over your head, and if that means nothing to you...." 
+		},
+		{ 
+		"start_time": "993.269", 
+		"end_time": "995.103", 
+		"speaker": "Monica", 
+		"subtitle": "Twenty dollars an hour." 
+		},
+		{ 
+		"start_time": "996.439", 
+		"end_time": "997.731", 
+		"speaker": "Rachel", 
+		"subtitle": "Done." 
+		},
+		{ 
+		"start_time": "1004.363", 
+		"end_time": "1006.239", 
+		"speaker": "Rachel", 
+		"subtitle": "Well, hello. Welcome to Monica's." 
+		},
+		{ 
+		"start_time": "1004.363", 
+		"end_time": "1006.239", 
+		"speaker": "None", 
+		"subtitle": "Hello." 
+		},
+		{ 
+		"start_time": "1006.407", 
+		"end_time": "1008.032", 
+		"speaker": "Rachel", 
+		"subtitle": "May I take your coat?" 
+		},
+		{ 
+		"start_time": "1011.537", 
+		"end_time": "1013.538", 
+		"speaker": "Monica", 
+		"subtitle": "Hi, Steve." 
+		},
+		{ 
+		"start_time": "1011.537", 
+		"end_time": "1013.538", 
+		"speaker": "None", 
+		"subtitle": "Hello, Monica." 
+		},
+		{ 
+		"start_time": "1013.706", 
+		"end_time": "1016.082", 
+		"speaker": "None", 
+		"subtitle": "Hello, greeter girl." 
+		},
+		{ 
+		"start_time": "1016.542", 
+		"end_time": "1019.169", 
+		"speaker": "Monica", 
+		"subtitle": "This is Rachel." 
+		},
+		{ 
+		"start_time": "1016.542", 
+		"end_time": "1019.169", 
+		"speaker": "None", 
+		"subtitle": "Yeah, okay." 
+		},
+		{ 
+		"start_time": "1019.879", 
+		"end_time": "1023.339", 
+		"speaker": "Phoebe", 
+		"subtitle": "Mm, everything smells so delicious." 
+		},
+		{ 
+		"start_time": "1023.507", 
+		"end_time": "1027.844", 
+		"speaker": "Phoebe", 
+		"subtitle": "You know, I can't remember a time I smelled such a delicious combination of..." 
+		},
+		{ 
+		"start_time": "1028.012", 
+		"end_time": "1029.554", 
+		"speaker": "Phoebe", 
+		"subtitle": "Okay, smells." 
+		},
+		{ 
+		"start_time": "1030.806", 
+		"end_time": "1032.348", 
+		"speaker": "None", 
+		"subtitle": "Well, it's a lovely apartment." 
+		},
+		{ 
+		"start_time": "1032.516", 
+		"end_time": "1035.143", 
+		"speaker": "Monica", 
+		"subtitle": "Oh, thank you. Would you like a tour?" 
+		},
+		{ 
+		"start_time": "1035.311", 
+		"end_time": "1038.146", 
+		"speaker": "None", 
+		"subtitle": "I was just being polite, but all right." 
+		},
+		{ 
+		"start_time": "1040.274", 
+		"end_time": "1042.4", 
+		"speaker": "Rachel", 
+		"subtitle": "What? What's up?" 
+		},
+		{ 
+		"start_time": "1042.568", 
+		"end_time": "1046.78", 
+		"speaker": "Phoebe", 
+		"subtitle": "In the cab on the way over, Steve blazed up a doobie." 
+		},
+		{ 
+		"start_time": "1048.157", 
+		"end_time": "1049.532", 
+		"speaker": "Rachel", 
+		"subtitle": "What?" 
+		},
+		{ 
+		"start_time": "1049.7", 
+		"end_time": "1052.285", 
+		"speaker": "Phoebe", 
+		"subtitle": "Smoked a joint, you know? Lit a bone. Weed, hemp, ganja." 
+		},
+		{ 
+		"start_time": "1052.453", 
+		"end_time": "1053.787", 
+		"speaker": "Rachel", 
+		"subtitle": "Okay, okay, okay." 
+		},
+		{ 
+		"start_time": "1055.414", 
+		"end_time": "1058.166", 
+		"speaker": "Rachel", 
+		"subtitle": "Okay, l'm with you, Cheech." 
+		},
+		{ 
+		"start_time": "1055.414", 
+		"end_time": "1058.166", 
+		"speaker": "Rachel", 
+		"subtitle": "Okay." 
+		},
+		{ 
+		"start_time": "1059.293", 
+		"end_time": "1061.586", 
+		"speaker": "None", 
+		"subtitle": "Is it dry in here?" 
+		},
+		{ 
+		"start_time": "1064.632", 
+		"end_time": "1066.883", 
+		"speaker": "Rachel", 
+		"subtitle": "Let me get you some wine." 
+		},
+		{ 
+		"start_time": "1067.051", 
+		"end_time": "1069.719", 
+		"speaker": "Monica", 
+		"subtitle": "Yeah, l think we're ready for our first course too." 
+		},
+		{ 
+		"start_time": "1070.262", 
+		"end_time": "1071.721", 
+		"speaker": "Monica", 
+		"subtitle": "Okay...." 
+		},
+		{ 
+		"start_time": "1072.723", 
+		"end_time": "1075.099", 
+		"speaker": "Monica", 
+		"subtitle": "These are rock shrimp ravioli..." 
+		},
+		{ 
+		"start_time": "1075.267", 
+		"end_time": "1077.435", 
+		"speaker": "Monica", 
+		"subtitle": "...in a cilantro ponzu sauce…" 
+		},
+		{ 
+		"start_time": "1075.267", 
+		"end_time": "1077.435", 
+		"speaker": "None", 
+		"subtitle": "Oh." 
+		},
+		{ 
+		"start_time": "1077.603", 
+		"end_time": "1079.979", 
+		"speaker": "Monica", 
+		"subtitle": "...with just a touch of minced..." 
+		},
+		{ 
+		"start_time": "1085.277", 
+		"end_time": "1086.486", 
+		"speaker": "Monica", 
+		"subtitle": "...ginger." 
+		},
+		{ 
+		"start_time": "1087.321", 
+		"end_time": "1089.739", 
+		"speaker": "None", 
+		"subtitle": "Well, smack my ass and call me Judy." 
+		},
+		{ 
+		"start_time": "1093.577", 
+		"end_time": "1095.078", 
+		"speaker": "None", 
+		"subtitle": "These are fantastic." 
+		},
+		{ 
+		"start_time": "1095.246", 
+		"end_time": "1097.872", 
+		"speaker": "Monica", 
+		"subtitle": "Oh, gosh. I'm so glad you liked them." 
+		},
+		{ 
+		"start_time": "1098.04", 
+		"end_time": "1100.333", 
+		"speaker": "None", 
+		"subtitle": "Like them? I could eat a hundred of them." 
+		},
+		{ 
+		"start_time": "1101.418", 
+		"end_time": "1103.461", 
+		"speaker": "Monica", 
+		"subtitle": "Oh. Well, um...." 
+		},
+		{ 
+		"start_time": "1103.629", 
+		"end_time": "1105.755", 
+		"speaker": "Monica", 
+		"subtitle": "That's all there is of these..." 
+		},
+		{ 
+		"start_time": "1105.923", 
+		"end_time": "1109.342", 
+		"speaker": "Monica", 
+		"subtitle": "...but in about eight and a half minutes, we'll be serving some delicious tartlets." 
+		},
+		{ 
+		"start_time": "1109.885", 
+		"end_time": "1111.511", 
+		"speaker": "None", 
+		"subtitle": "Tartlets? Heh." 
+		},
+		{ 
+		"start_time": "1111.679", 
+		"end_time": "1115.974", 
+		"speaker": "None", 
+		"subtitle": "Tartlets." 
+		},
+		{ 
+		"start_time": "1117.81", 
+		"end_time": "1119.853", 
+		"speaker": "None", 
+		"subtitle": "Word has lost all meaning." 
+		},
+		{ 
+		"start_time": "1126.151", 
+		"end_time": "1129.153", 
+		"speaker": "Rachel", 
+		"subtitle": "Excuse me. Can I help you with anything?" 
+		},
+		{ 
+		"start_time": "1129.321", 
+		"end_time": "1131.739", 
+		"speaker": "None", 
+		"subtitle": "You know, I don't know what l'm looking for." 
+		},
+		{ 
+		"start_time": "1148.132", 
+		"end_time": "1149.799", 
+		"speaker": "None", 
+		"subtitle": "Oh, cool. Taco shells." 
+		},
+		{ 
+		"start_time": "1152.511", 
+		"end_time": "1155.93", 
+		"speaker": "None", 
+		"subtitle": "You know, these are... They are like a little corn envelope, you know?" 
+		},
+		{ 
+		"start_time": "1156.098", 
+		"end_time": "1158.725", 
+		"speaker": "Monica", 
+		"subtitle": "You know what? You don't want to spoil your appetite." 
+		},
+		{ 
+		"start_time": "1158.893", 
+		"end_time": "1161.227", 
+		"speaker": "None", 
+		"subtitle": "Hey. Sugar-O's." 
+		},
+		{ 
+		"start_time": "1161.395", 
+		"end_time": "1164.188", 
+		"speaker": "Monica", 
+		"subtitle": "You know, if you just wait another six and a half minutes..." 
+		},
+		{ 
+		"start_time": "1164.356", 
+		"end_time": "1167.066", 
+		"speaker": "None", 
+		"subtitle": "Oh. Macaroni and cheese. We gotta make this." 
+		},
+		{ 
+		"start_time": "1172.448", 
+		"end_time": "1174.032", 
+		"speaker": "Monica", 
+		"subtitle": "No, we don't." 
+		},
+		{ 
+		"start_time": "1174.742", 
+		"end_time": "1176.326", 
+		"speaker": "None", 
+		"subtitle": "Oh, okay." 
+		},
+		{ 
+		"start_time": "1176.577", 
+		"end_time": "1178.661", 
+		"speaker": "None", 
+		"subtitle": "Oh, sorry." 
+		},
+		{ 
+		"start_time": "1182.833", 
+		"end_time": "1185.126", 
+		"speaker": "Monica", 
+		"subtitle": "Yeah, why don't you just have a seat here?" 
+		},
+		{ 
+		"start_time": "1187.838", 
+		"end_time": "1189.297", 
+		"speaker": "Monica", 
+		"subtitle": "Okay." 
+		},
+		{ 
+		"start_time": "1190.132", 
+		"end_time": "1192.175", 
+		"speaker": "Monica", 
+		"subtitle": "Okay. Give me the Gummy Bears." 
+		},
+		{ 
+		"start_time": "1192.343", 
+		"end_time": "1194.636", 
+		"speaker": "None", 
+		"subtitle": "Yeah, l... No." 
+		},
+		{ 
+		"start_time": "1196.805", 
+		"end_time": "1198.932", 
+		"speaker": "Monica", 
+		"subtitle": "Give them to me." 
+		},
+		{ 
+		"start_time": "1196.805", 
+		"end_time": "1198.932", 
+		"speaker": "None", 
+		"subtitle": "All right, we'll share." 
+		},
+		{ 
+		"start_time": "1199.099", 
+		"end_time": "1201.601", 
+		"speaker": "Monica", 
+		"subtitle": "No. Give me the bears." 
+		},
+		{ 
+		"start_time": "1199.099", 
+		"end_time": "1201.601", 
+		"speaker": "None", 
+		"subtitle": "Well, then you can't have any." 
+		},
+		{ 
+		"start_time": "1201.769", 
+		"end_time": "1203.478", 
+		"speaker": "Monica", 
+		"subtitle": "Give them to me." 
+		},
+		{ 
+		"start_time": "1201.769", 
+		"end_time": "1203.478", 
+		"speaker": "Rachel", 
+		"subtitle": "This is not worth it." 
+		},
+		{ 
+		"start_time": "1203.646", 
+		"end_time": "1208.066", 
+		"speaker": "None", 
+		"subtitle": "Oh, oh! Bears overboard. They're drowning." 
+		},
+		{ 
+		"start_time": "1208.817", 
+		"end_time": "1212.654", 
+		"speaker": "None", 
+		"subtitle": "Hey, fellas. Grab onto a Sugar-O. Save yourselves." 
+		},
+		{ 
+		"start_time": "1212.821", 
+		"end_time": "1217.867", 
+		"speaker": "None", 
+		"subtitle": "Help! Help! l'm drowning. Help! Help!" 
+		},
+		{ 
+		"start_time": "1218.035", 
+		"end_time": "1219.661", 
+		"speaker": "Monica", 
+		"subtitle": "That's it, okay? Dinner is over." 
+		},
+		{ 
+		"start_time": "1219.828", 
+		"end_time": "1220.995", 
+		"speaker": "None", 
+		"subtitle": "What?" 
+		},
+		{ 
+		"start_time": "1219.828", 
+		"end_time": "1220.995", 
+		"speaker": "Monica", 
+		"subtitle": "\"What\"?" 
+		},
+		{ 
+		"start_time": "1221.163", 
+		"end_time": "1222.58", 
+		"speaker": "None", 
+		"subtitle": "Why?" 
+		},
+		{ 
+		"start_time": "1221.163", 
+		"end_time": "1222.58", 
+		"speaker": "Monica", 
+		"subtitle": "\"Why\"?" 
+		},
+		{ 
+		"start_time": "1222.748", 
+		"end_time": "1225.166", 
+		"speaker": "Monica", 
+		"subtitle": "I've waited seven years for an opportunity like this..." 
+		},
+		{ 
+		"start_time": "1225.334", 
+		"end_time": "1228.628", 
+		"speaker": "Monica", 
+		"subtitle": "...and you can't even wait four and a half minutes for a stupid onion tartlet?" 
+		},
+		{ 
+		"start_time": "1230.172", 
+		"end_time": "1231.589", 
+		"speaker": "None", 
+		"subtitle": "Hey...." 
+		},
+		{ 
+		"start_time": "1239.39", 
+		"end_time": "1241.015", 
+		"speaker": "Ross", 
+		"subtitle": "What a tool." 
+		},
+		{ 
+		"start_time": "1242.017", 
+		"end_time": "1244.394", 
+		"speaker": "Rachel", 
+		"subtitle": "You don't want to work for a guy like that." 
+		},
+		{ 
+		"start_time": "1244.561", 
+		"end_time": "1248.69", 
+		"speaker": "Monica", 
+		"subtitle": "I know. It's just... l don't know, I just thought that this was, you know, \"it.\"" 
+		},
+		{ 
+		"start_time": "1248.857", 
+		"end_time": "1250.817", 
+		"speaker": "Ross", 
+		"subtitle": "Look, you'll get there. You're an amazing chef." 
+		},
+		{ 
+		"start_time": "1250.985", 
+		"end_time": "1253.778", 
+		"speaker": "Phoebe", 
+		"subtitle": "Yeah, you know all those yummy noises? I wasn't faking." 
+		},
+		{ 
+		"start_time": "1262.121", 
+		"end_time": "1264.455", 
+		"speaker": "Joey", 
+		"subtitle": "So, uh, how did it go with Celia?" 
+		},
+		{ 
+		"start_time": "1264.623", 
+		"end_time": "1267.917", 
+		"speaker": "Ross", 
+		"subtitle": "Oh, uh, l was unbelievable." 
+		},
+		{ 
+		"start_time": "1268.085", 
+		"end_time": "1270.044", 
+		"speaker": "Joey", 
+		"subtitle": "All right, Ross." 
+		},
+		{ 
+		"start_time": "1270.212", 
+		"end_time": "1273.256", 
+		"speaker": "Ross", 
+		"subtitle": "I was the James Michener of dirty talk." 
+		},
+		{ 
+		"start_time": "1273.424", 
+		"end_time": "1275.925", 
+		"speaker": "Ross", 
+		"subtitle": "It was the most elaborate filth you have ever heard." 
+		},
+		{ 
+		"start_time": "1276.093", 
+		"end_time": "1279.595", 
+		"speaker": "Ross", 
+		"subtitle": "I mean, there were characters, plot lines..." 
+		},
+		{ 
+		"start_time": "1279.763", 
+		"end_time": "1281.389", 
+		"speaker": "Ross", 
+		"subtitle": "...themes, a motif." 
+		},
+		{ 
+		"start_time": "1281.557", 
+		"end_time": "1284.308", 
+		"speaker": "Ross", 
+		"subtitle": "At one point, there were villagers." 
+		},
+		{ 
+		"start_time": "1286.061", 
+		"end_time": "1287.729", 
+		"speaker": "Joey", 
+		"subtitle": "Oh, and, uh...." 
+		},
+		{ 
+		"start_time": "1288.897", 
+		"end_time": "1292.191", 
+		"speaker": "Ross", 
+		"subtitle": "Well, um, you know, by the time we finished with all the dirty talk..." 
+		},
+		{ 
+		"start_time": "1292.359", 
+		"end_time": "1294.944", 
+		"speaker": "Ross", 
+		"subtitle": "...it was kind of late and we were both exhausted, so...." 
+		},
+		{ 
+		"start_time": "1295.112", 
+		"end_time": "1297.739", 
+		"speaker": "Joey", 
+		"subtitle": "You cuddled." 
+		},
+		{ 
+		"start_time": "1295.112", 
+		"end_time": "1297.739", 
+		"speaker": "Ross", 
+		"subtitle": "Yeah, which was nice." 
+		},
+		{ 
+		"start_time": "1298.198", 
+		"end_time": "1300.908", 
+		"speaker": "Phoebe", 
+		"subtitle": "Do you guys want to try to catch a late movie or something?" 
+		},
+		{ 
+		"start_time": "1301.243", 
+		"end_time": "1303.202", 
+		"speaker": "Rachel", 
+		"subtitle": "Maybe, but shouldn't we wait for Chandler?" 
+		},
+		{ 
+		"start_time": "1303.912", 
+		"end_time": "1305.747", 
+		"speaker": "Joey", 
+		"subtitle": "Whoa. Where the hell is he?" 
+		},
+		{ 
+		"start_time": "1306.206", 
+		"end_time": "1308.249", 
+		"speaker": "Chandler", 
+		"subtitle": "Yes, Fran, l know what time it is..." 
+		},
+		{ 
+		"start_time": "1308.417", 
+		"end_time": "1311.544", 
+		"speaker": "Chandler", 
+		"subtitle": "...but I'm looking at the WENUS and I'm not happy." 
+		},
+		{ 
+		"start_time": "1312.796", 
+		"end_time": "1314.922", 
+		"speaker": "Chandler", 
+		"subtitle": "Oh, really? Well, let me tell you something." 
+		},
+		{ 
+		"start_time": "1315.09", 
+		"end_time": "1319.677", 
+		"speaker": "Chandler", 
+		"subtitle": "You will care about it becauseI care about it. Got it? Good!" 
+		},
+		{ 
+		"start_time": "1322.681", 
+		"end_time": "1324.182", 
+		"speaker": "Chandler", 
+		"subtitle": "Whoa." 
+		},
+		{ 
+		"start_time": "1335.319", 
+		"end_time": "1337.153", 
+		"speaker": "Phoebe", 
+		"subtitle": "How's this?" 
+		},
+		{ 
+		"start_time": "1335.319", 
+		"end_time": "1337.153", 
+		"speaker": "None", 
+		"subtitle": "Eek!" 
+		},
+		{ 
+		"start_time": "1337.321", 
+		"end_time": "1339.53", 
+		"speaker": "Phoebe", 
+		"subtitle": "Sorry. How about over here?" 
+		},
+		{ 
+		"start_time": "1337.321", 
+		"end_time": "1339.53", 
+		"speaker": "None", 
+		"subtitle": "Oh!" 
+		},
+		{ 
+		"start_time": "1339.698", 
+		"end_time": "1341.657", 
+		"speaker": "Phoebe", 
+		"subtitle": "See, now, that just means it's working." 
+		},
+		{ 
+		"start_time": "1341.825", 
+		"end_time": "1343.993", 
+		"speaker": "Phoebe", 
+		"subtitle": "Does this hurt?" 
+		},
+		{ 
+		"start_time": "1341.825", 
+		"end_time": "1343.993", 
+		"speaker": "None", 
+		"subtitle": "No." 
+		},
+		{ 
+		"start_time": "1344.161", 
+		"end_time": "1346.662", 
+		"speaker": "Phoebe", 
+		"subtitle": "How about this?" 
+		},
+		{ 
+		"start_time": "1344.161", 
+		"end_time": "1346.662", 
+		"speaker": "None", 
+		"subtitle": "Aah!" 
+		},
+		{ 
+		"start_time": "1346.83", 
+		"end_time": "1348.039", 
+		"speaker": "Phoebe", 
+		"subtitle": "There you go." 
+		},
+		{ 
+		"start_time": "1355.422", 
+		"end_time": "1356.422", 
+		"speaker": "None", 
+		"subtitle": "Oh, l'm gonna throw up." 
+		}
+	]
+}

@@ -10,15 +10,18 @@ import com.konantech.spring.service.ContentService;
 import com.konantech.spring.service.StoryboardService;
 import com.konantech.spring.util.RequestUtils;
 import org.apache.commons.collections.MapUtils;
-import org.postgresql.util.PGobject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContext;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.http.HttpServletRequest;
+import java.security.Principal;
 import java.util.List;
 import java.util.Map;
 
@@ -38,17 +41,17 @@ public class StoryboardController {
     private String shotServerUrl;
 
     @RequestMapping(value = "/storyboard", method = RequestMethod.GET)
-    public String storyboard(ModelMap modelMap, HttpServletRequest request) throws Exception {
+    public String storyboard(ModelMap modelMap, HttpServletRequest request, Principal principal ) throws Exception {
 
         int idx = RequestUtils.getParameterInt(request, "idx", 0);
-
+        Map param = RequestUtils.getParameterMap(request);
+        param.put("userid",principal.getName());
         if(idx > 0) {
             ContentQuery query = new ContentQuery();
             query.setIdx(idx);
-
             ContentField item = contentService.getContentItem(query);
-            int total = storyboardService.getShotCount(query);
-            List<ShotTB> list = storyboardService.getShotList(query);
+            List<ShotTB> list = storyboardService.getVisualJsonList(param);
+            int total = list.size();
             Map<String,Object> shotSize = null;
             if(list != null && list.size() > 0) {
                 ShotTB firstAsset = list.get(0);

@@ -1,0 +1,567 @@
+{ 
+	"file_name": "s01_ep02_tag2_QA_final",
+	"registed_name": "s01_ep02_tag2_QA_final", 
+	"qa_results": 
+	[ 
+		{ 
+		"visual_period_num": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60", 
+		"period_num": "1", 
+		"start_time": "00:00:04;09", 
+		"end_time": "00:01:58;23",
+		"description_info": 
+		[ 
+			{ "description": "All friends are gathering in the cafe and talking about kissing. Three women, Phoebe, Rachel, and Monica, are sitting on one side and three men, Chandler, Ross, and Joey, are sitting  on the other side. Joey shows that he cannot understand what the women are saying with his face. Chandler is sitting on the sofa with his feet on the table and talking about what men think about kissing.  Ross agrees with it. The three women and men are disagreeing each other. Joey can't understand their talking."}, 
+			{ "description": "Three women, Phoebe, Rachel, and Monica, are sitting together on one side. On the other side, there are three men sitting, Chandler, Ross, and Joey."}, 
+			{ "description": "All six friends are talking in the cafe. They are talking about the differences between men and women about kissing."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What are people talking about.", 
+				"answer": "They are talking about kiss.", 
+				"wrong_answer1": "They are talking about relationships.", 
+				"wrong_answer2": "They are talking about their girlfriends.", 
+				"wrong_answer3": "They are talking about dinner menu.", 
+				"wrong_answer4": "They are talking about work." } 
+			} ,
+			{ "qa": { 
+				"question": "Who expresses agreement with Chandler's speaking?", 
+				"answer": "Ross.", 
+				"wrong_answer1": "Joey.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Phoebe." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Joey think about the discussion?", 
+				"answer": "He cannot understand.", 
+				"wrong_answer1": "He thinks Rachel is right.", 
+				"wrong_answer2": "He thinks that kiss is important.", 
+				"wrong_answer3": "He agrees with Monica.", 
+				"wrong_answer4": "He disagrees with Chandler." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102", 
+		"period_num": "2", 
+		"start_time": "00:02:04;16", 
+		"end_time": "00:03:51;15",
+		"description_info": 
+		[ 
+			{ "description": "In the museum, Ross tries to persuade his colleague about the face of dummy that looks angry. His colleague refuses his statement by saying that she is angry because of her husband being a playboy. While they are talking, Carole, his ex-wife, suddenly appears outside the display case. They greet and hug each other. In the display, Ross and Carole are talking together surrounded by prehistoric human shaped dummies. Ross asks the reason for her visiting. Carole answers that she is pregnant."}, 
+			{ "description": "Ross tries to persuade his colleague about the face of dummy."}, 
+			{ "description": "Carole and Ross are talking together in the display case surrounded by dummies."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where is Ross working?", 
+				"answer": "He is working in a museum.", 
+				"wrong_answer1": "He is working in an office.", 
+				"wrong_answer2": "He is working in a theater.", 
+				"wrong_answer3": "He is working in a shop.", 
+				"wrong_answer4": "He is working at home." } 
+			} ,
+			{ "qa": { 
+				"question": "Who comes to visit Ross?", 
+				"answer": "Carole.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Joey.", 
+				"wrong_answer4": "Chandler." } 
+				} ,
+			{ "qa": { 
+				"question": "Why does Carole come to visit Ross?", 
+				"answer": "Carole wants to let Ross know that she is pregnant.", 
+				"wrong_answer1": "Carole wants to tell Ross that she is ill.", 
+				"wrong_answer2": "Carole wants to warn Ross about his bad luck.", 
+				"wrong_answer3": "Carole wants to have dinner with Ross.", 
+				"wrong_answer4": "Carole wants to date Ross." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "103-145", 
+		"period_num": "3", 
+		"start_time": "00:03:56;06", 
+		"end_time": "00:05:46;06",
+		"description_info": 
+		[ 
+			{ "description": "Chandler, Phoebe, and Joey are sitting on the sofa and watching a TV show. Monica on the opposite side of them  is cleaning the floor enthusiastically. She is obsessed with cleaning that she takes the cup from Joey while he drinks it and presses others for notes left on the table. Three of them are afraid of her. Phoebe and Joey try to calm her down, but it doesn't work. Chandler suddenly draws everyone's attention towards the windows to see the neighbor. Rachel comes out of the room asking for her engagement ring. As she notices that she might loose the right, she panics."}, 
+			{ "description": "Chandler, Joey, and Phoebe all are sitting and watching TV together. "}, 
+			{ "description": "Monica is obessed with cleaning. She is cleaning the floor and trying to prvent other friends from throwing away anything. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is cleaning?", 
+				"answer": "Monica.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Chandler.", 
+				"wrong_answer4": "Phoebe." } 
+			} ,
+			{ "qa": { 
+				"question": "How does Phoebe feel about Monica?", 
+				"answer": "Phoebe feels scared.", 
+				"wrong_answer1": "Phoebe feels good.", 
+				"wrong_answer2": "Phoebe feels worried.", 
+				"wrong_answer3": "Phoebe feels happy.", 
+				"wrong_answer4": "Phoebe feels bad." } 
+				} ,
+			{ "qa": { 
+				"question": "What is Rachel looking for?", 
+				"answer": "She is looking for her engagement ring.", 
+				"wrong_answer1": "She is looking for her phone.", 
+				"wrong_answer2": "She is looking for her bag.", 
+				"wrong_answer3": "She is looking for nice clothes.", 
+				"wrong_answer4": "She is looking for her book." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "146-170", 
+		"period_num": "4", 
+		"start_time": "00:05:52;20", 
+		"end_time": "00:07:17;17",
+		"description_info": 
+		[ 
+			{ "description": "Everyone tries to find Rachel's ring. Rachel desperately tries to find her ring from the sofa. She rummages the sofa and thinks what she does before she lost it. She slowly walks to the kitchen and finds the lasagne bowl and realizes that she puts the ring there. Monica dissapointingly takes the lasagne bowl and holds it up over her head to find it. In the end, Monica gives up, puts it on the kitchen table and leaves the job to Chandler and Joey. Both put their fingers in the lasagne to find the ring. Suddenly, someone nokes the door and Monica opens the door. Ross comes in with the news of Carole's pregnancy."}, 
+			{ "description": "Everyone tries to find Rachel's engagement ring."}, 
+			{ "description": "Rachel slowly walks to the lasagne and realizes that she puts her ring in it. Monica dissapointingly puts the lasagne on the kitchen table."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where did Rachel put her ring?", 
+				"answer": "In lasagne.", 
+				"wrong_answer1": "In the sofa.", 
+				"wrong_answer2": "On the TV.", 
+				"wrong_answer3": "In the toilet.", 
+				"wrong_answer4": "In the fridge." } 
+			} ,
+			{ "qa": { 
+				"question": "Who are putting their fingers in lasagne?", 
+				"answer": "Chandler and Joey.", 
+				"wrong_answer1": "Phoebe and Monica.", 
+				"wrong_answer2": "Ross and Monica.", 
+				"wrong_answer3": "Racehl and Ross.", 
+				"wrong_answer4": "Monica and Chandler." } 
+				} ,
+			{ "qa": { 
+				"question": "Who knocks the door?", 
+				"answer": "Ross.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Joey.", 
+				"wrong_answer3": "Chandler.", 
+				"wrong_answer4": "Rachel." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "171-201", 
+		"period_num": "5", 
+		"start_time": "00:07:20;22", 
+		"end_time": "00:09:00;20",
+		"description_info": 
+		[ 
+			{ "description": "Ross slowly walks in and talks about what Carole told him. Everyone gives their ideas and comments to him. He sits on the sofa with empty face. Next to him, Monica sits with him and consoles Ross. Monica and Ross's parents come home and they are sitting on the sofa. Monica is serving food and the parents are complimenting Ross only. "}, 
+			{ "description": "Ross and Monica's parents sit on the sofa taking up space one for each. "}, 
+			{ "description": "Ross is talking with them while Monica serves and prepares food."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who comes to visit Ross and Monica?", 
+				"answer": "Their parents.", 
+				"wrong_answer1": "Their sisters.", 
+				"wrong_answer2": "Their boss at work.", 
+				"wrong_answer3": "Their uncle.", 
+				"wrong_answer4": "Their friends from high school." } 
+			} ,
+			{ "qa": { 
+				"question": "Who is serving food?", 
+				"answer": "Monica.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Ross and Monica's parents.", 
+				"wrong_answer3": "Phoebe.", 
+				"wrong_answer4": "Rachel." } 
+				} ,
+			{ "qa": { 
+				"question": "Who is Ross and Monica's parents complimenting?", 
+				"answer": "Ross.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Carole.", 
+				"wrong_answer4": "Joey." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "202-239", 
+		"period_num": "6", 
+		"start_time": "00:09:02;20", 
+		"end_time": "00:10:35;14",
+		"description_info": 
+		[ 
+			{ "description": "Monica is sick of her mother being rude to her, so she calls Ross to the kitchen asking for his courage to tell their parents about his failed marriage with Carole and Carole's pregnancy. In the kitchen table, the four of them, Monica, Ross, and their parents, sit down and have meal together. On the table, there are four plates of spagettie and tall bule cups. They are talking together. Their father says that wedding was expensive, which prevents Ross from talking them the truth. Monica gets upset by both of ther parents as they mention that she doesn't want to hear or she feel embarassed."}, 
+			{ "description": "Ross, Monica, and their parents all are sitting together around the kitchen table."}, 
+			{ "description": "Monica is upset with their parents speaking."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who are sitting together?", 
+				"answer": "Ross, Monica, and their parents.", 
+				"wrong_answer1": "Joey, Monica, and Phoebe.", 
+				"wrong_answer2": "Rachel, Ross, and Joey.", 
+				"wrong_answer3": "Carole, Monica, and Ross.", 
+				"wrong_answer4": "Ross, Chandler, and Rachel." } 
+			} ,
+			{ "qa": { 
+				"question": "What are Monica, Ross, and their parents eating?", 
+				"answer": "They are eating spagetti.", 
+				"wrong_answer1": "They are eating pizza.", 
+				"wrong_answer2": "They are eating lasagne.", 
+				"wrong_answer3": "They are eating bread.", 
+				"wrong_answer4": "They are eating yogurt." } 
+				} ,
+			{ "qa": { 
+				"question": "What is Monica asking for Ross?", 
+				"answer": "Monica wants Ross to talk about his marriage and Carole's pregnancy.", 
+				"wrong_answer1": "Monica wants Ross to talk about his girlfriend.", 
+				"wrong_answer2": "", 
+				"wrong_answer3": "Monica wants Ross to talk about his fight with friends.", 
+				"wrong_answer4": "Monica wants Ross to talk about his recent promotion." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "240-268", 
+		"period_num": "7", 
+		"start_time": "00:10:41;00", 
+		"end_time": "00:12:01;09",
+		"description_info": 
+		[ 
+			{ "description": "Ross is forced by Monica and stands up from the kitchen table and walks behind their parents and cracks his secrets that he broke up with Carole,but Carole has his baby. In the café,  all friends are sitting together talking about Ross and Monica's parents. Ross is sitting on the sofa alone and talking. Next to Ross, Monica is lying on the sofa with her arms crossed. Phoebe is sitting next to Monica. On the opposite side of them, Chandler is lying and Joey is sitting on the bar. Ross kisses Monica's forehead and goes to the toilet. "}, 
+			{ "description": "Ross is sitting on the sofa alone and talking about his parents."}, 
+			{ "description": "Monica and Phoebe are lying and sitting on the sofa. Joey is sitting on the bar, and Chandler is lying on the bar stool."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is Ross talking about?", 
+				"answer": "His parents.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "His friends.", 
+				"wrong_answer3": "His ex-wife.", 
+				"wrong_answer4": "His girlfriend." } 
+			} ,
+			{ "qa": { 
+				"question": "Where is Joey sitting on?", 
+				"answer": "Joey is sitting on the bar.", 
+				"wrong_answer1": "Joey is sitting on the chair.", 
+				"wrong_answer2": "", 
+				"wrong_answer3": "Joey is sitting on the stool.", 
+				"wrong_answer4": "Joey is sitting on the sofa." } 
+				} ,
+			{ "qa": { 
+				"question": "What are Ross's secrets?", 
+				"answer": "He broke up with Carole and she is pregnant his baby.", 
+				"wrong_answer1": "Ross doesn't love Carole.", 
+				"wrong_answer2": "Ross and Monica fought.", 
+				"wrong_answer3": "Ross hates Monica.", 
+				"wrong_answer4": "Ross lost his job." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "269-292", 
+		"period_num": "8", 
+		"start_time": "00:12:05;00", 
+		"end_time": "00:13:28;22",
+		"description_info": 
+		[ 
+			{ "description": "All finish their talk, turn the light off, and leave the café. When Ross comes back, he finds out that Rachel is cleaning the floor alone and everyone left. He helps her and lets her rest on the sofa. They are talking about their own problems together.  Rachel has to meet her husband to be who she dumped in her wedding. Ross has to meet his ex-wife and her girlfriend about Carole's pregnancy."}, 
+			{ "description": "Rachel is sitting on the sofa with her feet on the table in front of her."}, 
+			{ "description": "Ross is cleaning the floor for Rachel."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who comes back from the toilet?", 
+				"answer": "Ross.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Joey.", 
+				"wrong_answer3": "Rachel.", 
+				"wrong_answer4": "Chandler." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Rachel doing?", 
+				"answer": "She is cleaning the floor.", 
+				"wrong_answer1": "She is drinking coffee.", 
+				"wrong_answer2": "She is cooking.", 
+				"wrong_answer3": "She is calling on the phone.", 
+				"wrong_answer4": "She is preparing tea." } 
+				} ,
+			{ "qa": { 
+				"question": "What are Ross and Rachel talking about?", 
+				"answer": "They are talking about their own problems. ", 
+				"wrong_answer1": "They are talking about their time in high school.", 
+				"wrong_answer2": "", 
+				"wrong_answer3": "They are talking about dinner tonight.", 
+				"wrong_answer4": "They are talking about their future together." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "293-313", 
+		"period_num": "9", 
+		"start_time": "00:13:30;00", 
+		"end_time": "00:15:09;14",
+		"description_info": 
+		[ 
+			{ "description": "Rachel misses high school and thinks about when she and Ross were in high school together without all their current problems. She is tilting her head back and massaging Ross's hand with her head. Ross finds it attracting. In hospital, Carole is waiting for Ross and her girlfriend, susan. Ross comes in the hospital room and susan follows him. Ross and Susan are standing and talking with Carole."}, 
+			{ "description": "Susan and Ross are standing and talking with Carole."}, 
+			{ "description": "Ross comes in the hospital room and Susan follow him. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who misses and talks about high school?", 
+				"answer": "Rachel.", 
+				"wrong_answer1": "Monica.", 
+				"wrong_answer2": "Joey.", 
+				"wrong_answer3": "Chandler.", 
+				"wrong_answer4": "Phoebe." } 
+			} ,
+			{ "qa": { 
+				"question": "What is the relationship between Susan and Carole?", 
+				"answer": "Susan is Carole's girlfriend.", 
+				"wrong_answer1": "Susan is Carole's sister.", 
+				"wrong_answer2": "Susan is Carole's boyfriend.", 
+				"wrong_answer3": "Susan is Carole's friend.", 
+				"wrong_answer4": "Susan is Carole's cousin." } 
+				} ,
+			{ "qa": { 
+				"question": "How many people are talking together in the hospital room?", 
+				"answer": "Three people. ", 
+				"wrong_answer1": "Four people. ", 
+				"wrong_answer2": "Two people. ", 
+				"wrong_answer3": "Five people. ", 
+				"wrong_answer4": "Six people. " 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "314-334", 
+		"period_num": "10", 
+		"start_time": "00:15:11;20", 
+		"end_time": "00:16:26;08",
+		"description_info": 
+		[ 
+			{ "description": "Susan sits and Ross plays with surgical instruments. When Carole tells him what he is playing with, he gets surprised and puts it back. Rachel visits Barry, her ex-fiance. She comes in his room and his patient is lying on the bed, but he lets her in. They greeted each other. Suddenly a call finds Barry, so he leaves the room for the moment. Rachel feels bad that he looks good and tells the patients that she dumped him. "}, 
+			{ "description": "Barry is looking at his patient."}, 
+			{ "description": "Rachel comes in to find Barry and talk with him."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Ross playing with?", 
+				"answer": "He is playing with surgical instrument.", 
+				"wrong_answer1": "He is playing with musical instrument.", 
+				"wrong_answer2": "He is playing with a ball.", 
+				"wrong_answer3": "He is playing with his fingers.", 
+				"wrong_answer4": "He is playing with children." } 
+			} ,
+			{ "qa": { 
+				"question": "Who is Rachel looking for?", 
+				"answer": "Barry, her ex-fiance.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Chandler.", 
+				"wrong_answer4": "Joey." } 
+				} ,
+			{ "qa": { 
+				"question": "How does Rachel feel after she meets Barry?", 
+				"answer": "She feels bad that he looks good.", 
+				"wrong_answer1": "She feels worried. ", 
+				"wrong_answer2": "She feels good.", 
+				"wrong_answer3": "She feels scared.", 
+				"wrong_answer4": "She feels upset." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "335-362", 
+		"period_num": "11", 
+		"start_time": "00:16:31;12", 
+		"end_time": "00:17:53;22",
+		"description_info": 
+		[ 
+			{ "description": "In the hospital room, Ross is nervously walking around. He asks how and who to make decisions about the baby. When it is about the baby's name, the three of them, Carole, Susan, and Ross, disagree. Ross tries to persuade Carole just as Susan tries to persuade her. Before Barry comes in, Rachel tries to put on her makeup to look good. She tries to have a conversation with Barry askin about why he get tanned. "}, 
+			{ "description": "In the hospital room, Ross, Susan, and Carole are arguing about the baby's name. "}, 
+			{ "description": "Rachel is standing in the hospital room waiting for Barry to come back and putting her makeup on."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How does Ross feel about the situation?", 
+				"answer": "He feels nervous.", 
+				"wrong_answer1": "He feels worried.", 
+				"wrong_answer2": "He feels happy.", 
+				"wrong_answer3": "He feels sad.", 
+				"wrong_answer4": "He feels excited." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Rachel doing before Barry comes in?", 
+				"answer": "She is putting her makeup on.", 
+				"wrong_answer1": "She is cleaning the room.", 
+				"wrong_answer2": "She is talking on the phone.", 
+				"wrong_answer3": "She is talking to the patient.", 
+				"wrong_answer4": "She is crying." } 
+				} ,
+			{ "qa": { 
+				"question": "Why is Barry tanned?", 
+				"answer": "Because he went to Aruba with another woman.", 
+				"wrong_answer1": "Because he puts tanning cream on his body.", 
+				"wrong_answer2": "Because he worked outside.", 
+				"wrong_answer3": "Because he liked tanned skin.", 
+				"wrong_answer4": "Because he walked a lot on a sunny day." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "363-385", 
+		"period_num": "12", 
+		"start_time": "00:18:07;08", 
+		"end_time": "00:19:24;05",
+		"description_info": 
+		[ 
+			{ "description": "He explains that he went to Aruba with another woman. From the conversation, Rachel realizes that Barry doesn't care that she has dumped him. He says that he thanks her leaving him at tha altar as he meets his new love. A month ago, he hated her. Now, he thanks her. Barry talks to his patient as well. Rachel gives the engagement ring back to Barry. They greeted each other satisfactorily."}, 
+			{ "description": "Barry and Rachel are talking together. "}, 
+			{ "description": "The patient is lying on the bed in the same room with them."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What did Barry feel about Rachel a month ago?", 
+				"answer": "He hated her.", 
+				"wrong_answer1": "He loved her.", 
+				"wrong_answer2": "He thanked her.", 
+				"wrong_answer3": "He liked her.", 
+				"wrong_answer4": "He missed her." } 
+			} ,
+			{ "qa": { 
+				"question": "How does Barry think about Rachel.", 
+				"answer": "He thanks her.", 
+				"wrong_answer1": "He hates her.", 
+				"wrong_answer2": "He feels disgusted about her.", 
+				"wrong_answer3": "He distrusts her.", 
+				"wrong_answer4": "He loves her." } 
+				} ,
+			{ "qa": { 
+				"question": "Who is in the room together with Barry and Rachel?", 
+				"answer": "A patient is in the room with Barry and Rachel.", 
+				"wrong_answer1": "Monica  is in the room with Barry and Rachel.", 
+				"wrong_answer2": "Rachel's father is in the room with Barry and Rachel.", 
+				"wrong_answer3": "Phoebe is in the room with Barry and Rachel.", 
+				"wrong_answer4": "An actor is in the room with Barry and Rachel." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "386-419", 
+		"period_num": "13", 
+		"start_time": "00:19:29;05", 
+		"end_time": "00:20:57;18",
+		"description_info": 
+		[ 
+			{ "description": "In the hospital room, Ross and Carole are still talking about the baby's name. Now, they are talking about what would be the baby's last name and in which order it would be. All three of them, Ross, Carole, and Susan, want to put their last name in the baby's name. They are aruguing about this. Ross and Susan are standing and surrounding Carole who is sitting on the bed. Doctor comes in and gives an ultrasound. When Ross leaves the room, he heard the baby's heat beating."}, 
+			{ "description": "Ross and Susan are standing around Carole. "}, 
+			{ "description": "Doctor comes in the room and Ross tries to leave. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What are Susan, Ross, and Carole talking about?", 
+				"answer": "The baby's name.", 
+				"wrong_answer1": "The baby's gender.", 
+				"wrong_answer2": "Their future life.", 
+				"wrong_answer3": "Their complicated relationship.", 
+				"wrong_answer4": "Their past. " } 
+			} ,
+			{ "qa": { 
+				"question": "Who comes in the room?", 
+				"answer": "Doctor comes in the room.", 
+				"wrong_answer1": "Phoebe comes in the room.", 
+				"wrong_answer2": "Monica comes in the room.", 
+				"wrong_answer3": "Joey comes in the room.", 
+				"wrong_answer4": "Chandler comes in the room." } 
+				} ,
+			{ "qa": { 
+				"question": "What stops Ross from leaving the room?", 
+				"answer": "The baby's heart beating sound.", 
+				"wrong_answer1": "His phone bell.", 
+				"wrong_answer2": "Susan's calling him name.", 
+				"wrong_answer3": "Carole's shouting.", 
+				"wrong_answer4": "Doctor calling." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "420-466", 
+		"period_num": "14", 
+		"start_time": "00:20:59;13", 
+		"end_time": "00:22:51;17",
+		"description_info": 
+		[ 
+			{ "description": "By the sound of the baby's heart beating sound, Ross, Susan, and Carole hold hands together. At home, Ross is showing the baby's video to all other friends. Phoebe, Chandler, and Joey are watching, but they are not really moved by it. Monica is watching the video standing behind the sofa and is so moved that she cries. On the other hand, Rachel calls Mindy, Barry's new girlfriend, and speaks ill of him. After the call, Rachel feels satisfied. "}, 
+			{ "description": "Ross, Susan, and Carole are holding hands together."}, 
+			{ "description": "Ross is showing the baby's video to his friends."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is showing the video?", 
+				"answer": "Ross.", 
+				"wrong_answer1": "Chandler.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Phoebe.", 
+				"wrong_answer4": "Susan." } 
+			} ,
+			{ "qa": { 
+				"question": "How does Monica feel about the baby?", 
+				"answer": "She feels moved. ", 
+				"wrong_answer1": "She feels worried.", 
+				"wrong_answer2": "She feels nervous.", 
+				"wrong_answer3": "She feels sad.", 
+				"wrong_answer4": "She feels depressed." } 
+				} ,
+			{ "qa": { 
+				"question": "To whom is Rachel calling?", 
+				"answer": "Rachel is calling Mindy, Barry's new girlfriend.", 
+				"wrong_answer1": "Rachel is calling Monica.", 
+				"wrong_answer2": "Rachel is calling Barry.", 
+				"wrong_answer3": "Rachel is calling Phoebe.", 
+				"wrong_answer4": "Rachel is calling Joey." 
+				} 
+			} 
+		] 
+	}
+	]
+}

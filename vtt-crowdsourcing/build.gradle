@@ -1,0 +1,126 @@
+buildscript {
+	ext {
+		springBootVersion = '2.1.0.RELEASE'
+	}
+	repositories {
+		jcenter()
+		mavenCentral()
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+	}
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse-wtp'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'war'
+apply plugin: 'io.spring.dependency-management'
+
+war {
+	baseName = 'vtt-crowdsourcing'
+	version = '1.0'
+	manifest{
+		attributes('Main-Class':'com.konantech.spring.Application')
+	}
+}
+
+tasks.withType(JavaCompile) {
+	options.encoding = "UTF8"
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+	flatDir(dir: 'libs')//, name: 'Local libs'
+	mavenLocal()
+	mavenCentral()
+}
+
+configurations {
+	providedRuntime
+}
+
+
+
+dependencies {
+	compile('org.springframework.boot:spring-boot-starter-security')
+	compile('org.springframework.boot:spring-boot-starter-web')
+	compile("org.springframework.boot:spring-boot-starter-aop")
+	compile("org.springframework.boot:spring-boot-starter-cache")
+
+	compile('org.apache.tomcat.embed:tomcat-embed-jasper')
+	compile('javax.servlet:jstl')
+	compile("io.jsonwebtoken:jjwt:0.6.0")
+	compile("org.springframework.security:spring-security-taglibs")
+	compile("org.springframework.mobile:spring-mobile-device:1.1.5.RELEASE")
+
+	//db
+	compile('org.mybatis.spring.boot:mybatis-spring-boot-starter:1.3.2')
+	compile("org.postgresql:postgresql:42.2.5")
+	compile("org.bgee.log4jdbc-log4j2:log4jdbc-log4j2-jdbc4:1.16")
+
+	//webjars
+	compile("org.webjars:jquery:1.12.4")
+	compile("org.webjars:jquery-ui:1.12.1")
+	compile("org.webjars:jquery-blockui:2.70")
+	compile("org.webjars:bootstrap:3.3.7-1")
+	compile("org.webjars:font-awesome:5.1.0")
+	compile("org.webjars.bower:font-awesome:4.7.0")
+	compile("org.webjars:bootbox:4.4.0")
+	compile("org.webjars:jquery-validation:1.17.0")
+	compile("org.webjars:tooltipster:4.1.4-1")
+	compile("org.webjars.bower:moment:2.22.2")
+	compile("org.webjars.bower:bootpag:1.0.7")
+	compile("org.webjars.bower:jquery.dirtyforms:2.0.0")
+	compile("org.webjars.bower:bootbox.js:4.4.0")
+	compile("org.webjars.bower:jquery.lazyload:1.9.7")
+	compile("org.webjars.bower:jquery-mask-plugin:1.14.15")
+	compile("org.webjars.bower:bootstrap-duallistbox:3.0.6")
+	compile("org.webjars.bower:bootstrap-daterangepicker:2.1.27")
+	compile("org.webjars.bower:font-awesome-animation:0.1.0")
+	compile("org.webjars.bower:github-com-johnculviner-jquery-fileDownload:1.4.6")
+	compile("org.webjars.bower:github-com-macek-jquery-serialize-object:2.5.0")
+	compile("org.webjars.bower:jstree:3.3.5")
+	compile("org.webjars.bower:ion.rangeSlider:2.2.0")
+	compile("org.webjars.bower:mustache:2.3.0")
+	compile("org.webjars:jquery-cookie:1.4.1-1")
+
+	compile("org.webjars.bowergithub.chartjs:chart.js:2.7.2")
+	compile("org.webjars.bower:typeahead.js:0.11.1")
+	compile("org.webjars.bower:moment-duration-format:1.3.0")
+	compile("org.webjars.bower:nouislider:11.0.0")
+	compile("org.webjars:numeral-js:1.5.3-1")
+
+	//common
+	compile("commons-collections:commons-collections:3.2.1")
+	compile("commons-io:commons-io:2.4")
+	compile("org.apache.commons:commons-lang3:3.7")
+	compile("commons-configuration:commons-configuration:1.10")
+	compile("commons-codec:commons-codec:1.11")
+
+	//Jackson JSON Mapper
+	compile 'org.codehaus.jackson:jackson-mapper-asl:1.9.13'
+
+	//json
+	compile 'net.sf.json-lib:json-lib:2.4:jdk15'
+
+	// poi
+	compile('org.apache.poi:poi-ooxml:3.16') // .xlsx
+	compile('org.apache.poi:poi:3.16') // .xls
+
+	// https://mvnrepository.com/artifact/org.springframework.security/spring-security-taglibs
+	compile('org.springframework.security:spring-security-taglibs:4.2.2.RELEASE')
+
+	//swagger2
+	compile("io.springfox:springfox-swagger2:2.8.0")
+	compile("io.springfox:springfox-swagger-ui:2.8.0")
+	compile("org.webjars:swagger-ui:3.12.1")
+
+	runtimeOnly('org.postgresql:postgresql')
+	compileOnly('org.projectlombok:lombok')
+	providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')
+	testImplementation('org.springframework.boot:spring-boot-starter-test')
+	testImplementation('org.springframework.security:spring-security-test')
+}

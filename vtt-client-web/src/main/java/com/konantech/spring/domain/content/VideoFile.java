@@ -12,5 +12,8 @@ public class VideoFile {
     private String filepath;
     private String remoteAddr;
     private MultipartFile file;
+    private String uuid;
+    private int chunks;
+    private int chunk;
 
 }

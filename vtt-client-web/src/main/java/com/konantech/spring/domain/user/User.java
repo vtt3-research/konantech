@@ -1,11 +1,14 @@
 package com.konantech.spring.domain.user;
 
+import lombok.Data;
+
 public class User {
 	
 	private static final long serialVersionUID = -5511115546763673243L;
 
 	private String userId;
 	private String userName;
+	private String passWord;
 	private String realName;
 	private String agentId;
 	private String authorities;
@@ -52,5 +55,13 @@ public class User {
 
 	public void setAuthorities(String authorities) {
 		this.authorities = authorities;
+	}
+
+	public String getPassWord() {
+		return passWord;
+	}
+
+	public void setPassWord(String passWord) {
+		this.passWord = passWord;
 	}
 }

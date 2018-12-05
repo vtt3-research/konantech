@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
 
-    <property name="LogHome" value="${user.home}/.konantech/vtt/server/logs" />
+    <if condition='property("spring.profiles.active").equals("ogq")'>
+        <then>
+            <property name="LogHome" value="${user.home}/.konantech/vtt/server/logs/ogq" />
+        </then>
+        <else>
+            <property name="LogHome" value="${user.home}/.konantech/vtt/server/logs" />
+        </else>
+    </if>
 
     <appender name="FILE-AUDIT" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${LogHome}/debug.log</file>

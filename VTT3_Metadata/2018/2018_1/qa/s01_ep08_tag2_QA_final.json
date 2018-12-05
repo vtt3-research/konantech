@@ -1,0 +1,567 @@
+{ 
+	"file_name": "s01_ep08_tag2_QA_final",
+	"registed_name": "s01_ep08_tag2_QA_final", 
+	"qa_results": 
+	[ 
+		{ 
+		"visual_period_num": "1, 2, 3, 4, 5-35", 
+		"period_num": "1", 
+		"start_time": "00:00:00;00", 
+		"end_time": "00:01:31;07",
+		"description_info": 
+		[ 
+			{ "description": "At work, Chandler is sitting at the table and eating instant cup noodles in a staff lounge. He is stirring the food with a fork . A woman, Shelley, with a mug comes into the louge and finds him. She pours coffee and starts talking with Chandler. She approaches Chandler and asks him whether he wants a date. She presupposes that Chandler is a gay and his date is a man that she explains to Chandler. As he listens to her story, he finds strangely that the gender of his date is a male. They exchange eye contact and Shelley says sorry that she misunderstands him. "}, 
+			{ "description": "Chandler is sitting in the lounge and eating his meal."}, 
+			{ "description": "A woman comes into the lounge with a mug in her hand."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Chandler doing in the lounge?", 
+				"answer": "Chandler is eating instant noodles.", 
+				"wrong_answer1": "Chandler is cooking.", 
+				"wrong_answer2": "Chandler is singing.", 
+				"wrong_answer3": "Chandler is dancing.", 
+				"wrong_answer4": "Chandler is shouting." } 
+			} ,
+			{ "qa": { 
+				"question": "About what does Shelley misunderstand?", 
+				"answer": "Shelley misunderstands that Chandler is a gay.", 
+				"wrong_answer1": "Shelley thinks that Chandler is a woman.", 
+				"wrong_answer2": "shelley thinks that Chandler hates her.", 
+				"wrong_answer3": "Shelley thinks that Chandler loves her.", 
+				"wrong_answer4": "Shelley thinks that Chandler is Asian." } 
+				} ,
+			{ "qa": { 
+				"question": "Is Chandler a gay?", 
+				"answer": "No, Chandler is not a gay.", 
+				"wrong_answer1": "Yes, Chandler is a gay.", 
+				"wrong_answer2": "Yes, Chandles dates a man.", 
+				"wrong_answer3": "Yes, Chandler loves Ross.", 
+				"wrong_answer4": "Yes, Chandler loves Joey." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "36-63", 
+		"period_num": "2", 
+		"start_time": "00:01:32;01", 
+		"end_time": "00:03:06;14",
+		"description_info": 
+		[ 
+			{ "description": "At home, All friends are sitting around in the livingroom together. Monica and Chandler together on the sofa. Rachel is sitting alone, and Phoebe is sitting on the floor next to Rachel. Joey and Ross are together opposite of Monica and Chandler. They are eating their meals. Chandler shares with his friends about what happened at work. Monica, Phoebe, and Rachel also thought Chandler might be a gay when they first saw him. Chandler is blown away and puts down his plate on the table. However, nobody can point out what gives Chandler such an image."}, 
+			{ "description": "Chandler and Monica are sitting together on the sofa."}, 
+			{ "description": "Rachel is sitting on the sofa alone. Phoebe is sitting on the floor next to her."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where are the people?", 
+				"answer": "People are at home.", 
+				"wrong_answer1": "People are at work.", 
+				"wrong_answer2": "People are in a car.", 
+				"wrong_answer3": "People are in a theater.", 
+				"wrong_answer4": "People are in a restaurant." } 
+			} ,
+			{ "qa": { 
+				"question": "Who are people talking about?", 
+				"answer": "Chandler.", 
+				"wrong_answer1": "Phoebe.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Joey.", 
+				"wrong_answer4": "Ross." } 
+				} ,
+			{ "qa": { 
+				"question": "What did Rachel, Monica, and Phoebe think when they first saw Chandler?", 
+				"answer": "Chandler might be a gay.", 
+				"wrong_answer1": "Chandler might be rich.", 
+				"wrong_answer2": "Chandler might be poor.", 
+				"wrong_answer3": "Chandler might be crazy.", 
+				"wrong_answer4": "Chandler might be smelly." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "64-81", 
+		"period_num": "3", 
+		"start_time": "00:03:07;14", 
+		"end_time": "00:04:36;08",
+		"description_info": 
+		[ 
+			{ "description": "Chandler stands up with his plate and leaves the seat angrily. Monica takes a phone and passes it to Rachel. Joey and Ross talk on the sofa, and Joey consoles Ross by patting his shoulder lightly. Rachel finds a call for Monica and gives the phone back to her. Rachel walks to the kitche table where Chandler is sitting at. On the table, there are a lot of noodle boxes. Phoebe is standing by the table and eating one of them. Monica talks on the phone and faces Ross with a blank look. Monica and Ross go to the hospital and greet their parents and aunt Lillian with hungs and kisses. Ross steps on the table to hug his father, Mr. Galler. After greeting, Mr. Galler and Lillian sit down on the bench whereas Mrs. Galler picks on Monica's hairstyle and pisses her off. Monica goes to her brother, Ross, to complain about her mother. To calm her down, Ross holds her shoulders and persuades her. Monica hugs Ross."}, 
+			{ "description": "Monica takes a call and passes the phone to Rachel."}, 
+			{ "description": "Monica and Ross are greeting their parents and aunt Lillian in the hospital."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "For whom is the first phone call?", 
+				"answer": "For Rachel.", 
+				"wrong_answer1": "For Phoebe.", 
+				"wrong_answer2": "For Monica.", 
+				"wrong_answer3": "For Joey.", 
+				"wrong_answer4": "For Ross." } 
+			} ,
+			{ "qa": { 
+				"question": "Why does Rachel give the phone to Monica?", 
+				"answer": "Because Rachel finds a call for Monica.", 
+				"wrong_answer1": "Because Rachel wants Monica to talk to Paolo.", 
+				"wrong_answer2": "Because Rachel finds that connection is bad.", 
+				"wrong_answer3": "Because Rachel hates talking on the phone.", 
+				"wrong_answer4": "Because Rachel loves passing around a phone." } 
+				} ,
+			{ "qa": { 
+				"question": "Who makes Monica pissed off?", 
+				"answer": "Mrs. Galler, Monica's mom.", 
+				"wrong_answer1": "Mr. Galler.", 
+				"wrong_answer2": "Ross.", 
+				"wrong_answer3": "Joey.", 
+				"wrong_answer4": "Aunt Lillian." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "82-98", 
+		"period_num": "4", 
+		"start_time": "00:04:36;08", 
+		"end_time": "00:06:26;20",
+		"description_info": 
+		[ 
+			{ "description": "In the hospital, Mrs. Galler, Monica, Ross, and Mr. Galler are all sitting down and talking about Nana, Ross and Monica's grandmother. Ross is sitting just like his father: both of them putting their left foot on the table and crossing their arms. A nurse comes out of Nana's room to let them know about Nana's death. All stands up by hearing the news. In Nana's room, Monica and Ross are standing by Nana's bed by Nana's bed. Monica kisses Nana on the forehead and stpes back. Ross goes to kiss Nana, but Nana moves suddenly. Ross shouts and stares in disbelief. Monica runs out of the room. Monica runs to find a nurse, and Ross lets his mom and dad know about what happened just now. While Ross is talking, Lillian joins the talking, standing by mom. Monica comes back with a nurse, and they go into Nana's room together, followed by Ross. The nurse checks Nana and confirms her death. Ross and Monica come out and explain the situation to their parents and aunt. Their parents stand up and understand that Nana is dead after all."}, 
+			{ "description": "Monica and Ross are standing by Nana's bed to kiss her goodbye."}, 
+			{ "description": "Nana suddenly moves when Ross approaches her to kiss. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is sitting with Ross?", 
+				"answer": "Mr. Galler.", 
+				"wrong_answer1": "Joey.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Phoebe.", 
+				"wrong_answer4": "Chandler." } 
+			} ,
+			{ "qa": { 
+				"question": "Why is Ross surprised?", 
+				"answer": "Because Nana moves suddenly.", 
+				"wrong_answer1": "Because Rachel kisses hRoss.", 
+				"wrong_answer2": "Because Monica dates Joey.", 
+				"wrong_answer3": "Because Joey shouts at him.", 
+				"wrong_answer4": "Because his car breaks down." } 
+				} ,
+			{ "qa": { 
+				"question": "Is Nana dead or alive?", 
+				"answer": "Yes, Nana is dead.", 
+				"wrong_answer1": "No, Nana is still alive.", 
+				"wrong_answer2": "No, Nana can sit down and talk with Monica.", 
+				"wrong_answer3": "No, Nana wakes up.  ", 
+				"wrong_answer4": "No, Nana comes back to life." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "99-124", 
+		"period_num": "5", 
+		"start_time": "00:06:36;08", 
+		"end_time": "00:08:17;18",
+		"description_info": 
+		[ 
+			{ "description": "In the café, Chandler is standing and talking to his friends, Phoebe and Rachel. Rachel. They answers to his question. Joey, on the other hand, focuses on reading a magazine. Ross and Monica come into the café. They put their coats on the stand and walks to the sofa. Ross sits down and Monica sits down on the armrest next to Ross. Phoebe and Chandler are tiredly sitting together. Phoebe is talking to Monica and Ross about her experience. Joey joins the conversation."}, 
+			{ "description": "Phoebe and Chandler are sitting together. "}, 
+			{ "description": "Joey is sitting alone on the chair and holding the back of it with hands."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where is Chandler?", 
+				"answer": "Chandler is in the café.", 
+				"wrong_answer1": "Chandler is at work.", 
+				"wrong_answer2": "Chandler is in his car.", 
+				"wrong_answer3": "Chandler is in a shopping mall.", 
+				"wrong_answer4": "Chandler is at home." } 
+			} ,
+			{ "qa": { 
+				"question": "Who comes into the café?", 
+				"answer": "Monica and Ross.", 
+				"wrong_answer1": "Monica and Chandler.", 
+				"wrong_answer2": "Chandler and Joey.", 
+				"wrong_answer3": "Joey and Rachel.", 
+				"wrong_answer4": "Rachel and Phoebe." } 
+				} ,
+			{ "qa": { 
+				"question": "How do Monica and Ross feel?", 
+				"answer": "Monica and Ross feel tired.", 
+				"wrong_answer1": "Monica and Ross feel awesome.", 
+				"wrong_answer2": "Monica and Ross feel angry. ", 
+				"wrong_answer3": "Monica and ross feel haapy.", 
+				"wrong_answer4": "Monica and Ross feel excited." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "125-136", 
+		"period_num": "6", 
+		"start_time": "00:08:17;18", 
+		"end_time": "00:09:59;19",
+		"description_info": 
+		[ 
+			{ "description": "Joey expresses his opinion, which is cruel, so Ross glares at him. He changes topic. Ross is in Nana's house with his mother and aunt. Ross and Mrs. Galler leans on the foot of the bed. Ross is holding a box and mom looks at pictures. Aunt is cleaning the sheets on the bed. Mom opens the closet where a big drawer stands and blocks the way in. Mom makes Ross gets insdie. Ross jumps and goes over the drawer. He falls on his head and stand straight. At home, Monica is sitting on a chair and talking with her father by the window. "}, 
+			{ "description": "Ross, mom, and aunt are in Nana's house to clean up."}, 
+			{ "description": "Monica and  dad are sitting by the window and talking together."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where are mom, aunt, and Ross?", 
+				"answer": "Mom, aunt, and Ross are in Nana's house.", 
+				"wrong_answer1": "Mom, aunt, and Ross are in a theater.", 
+				"wrong_answer2": "Mom, aunt, and Ross are in a car.", 
+				"wrong_answer3": "Mom, aunt, and Ross are in a karaoke.", 
+				"wrong_answer4": "Mom, aunt, and Ross are in a restaurant." } 
+			} ,
+			{ "qa": { 
+				"question": "What problem does Ross have?", 
+				"answer": "Ross can't enter the closet because of a drawer.", 
+				"wrong_answer1": "Ross can't get money from Joey.", 
+				"wrong_answer2": "Ross has a car accident.", 
+				"wrong_answer3": "Ross lost his wallet.", 
+				"wrong_answer4": "Ross felt so sad that he can't do anything." } 
+				} ,
+			{ "qa": { 
+				"question": "To enter the closet, what does Ross do?", 
+				"answer": "Ross jumps over the drawer and falls on his head.", 
+				"wrong_answer1": "Ross breaks the drawer.", 
+				"wrong_answer2": "Ross calls a moving company.", 
+				"wrong_answer3": "Ross moves the drawer by himself.", 
+				"wrong_answer4": "Ross doesn't enter the closet." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "137-150", 
+		"period_num": "7", 
+		"start_time": "00:10:02;13", 
+		"end_time": "00:11:51;18",
+		"description_info": 
+		[ 
+			{ "description": "Prepraing coffee, Chandler meets Shelley at work. He slowly walks towards Shelley who takes food from the firdge and sits down at the table. They face each other and talk for a moment. Chandler is incited by emulation and says things that he would've said if he were a gay. Suddenly, Chandler realizes what he says and leaves the lounge hurriedly, feeling embarrassed. In Nana's house, Ross is passing Nana's clothes to his mother and aunt. Mom and aunt select clothes that they want to wear. "}, 
+			{ "description": "Chandler and Shelley are talking together in the lounge."}, 
+			{ "description": "Ross is behind the drawer in the clset to find clothes for his mom and aunt."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is talking with Chandler?", 
+				"answer": "Shelley.", 
+				"wrong_answer1": "Rachel.", 
+				"wrong_answer2": "Phoebe.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Ross." } 
+			} ,
+			{ "qa": { 
+				"question": "What does Chandler feel about his remarks?", 
+				"answer": "Chandler feels embarrassed.", 
+				"wrong_answer1": "Chandler feels excited.", 
+				"wrong_answer2": "Chandler feels happy.", 
+				"wrong_answer3": "Chandler feels angry.", 
+				"wrong_answer4": "Chandler feels proud." } 
+				} ,
+			{ "qa": { 
+				"question": "Whose clothes does Ross take out from the closet?", 
+				"answer": "Nana's clothes.", 
+				"wrong_answer1": "Mom's clothes.", 
+				"wrong_answer2": "Monica's clothes.", 
+				"wrong_answer3": "Joey's clothes.", 
+				"wrong_answer4": "Rachel's clothes." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "151-157", 
+		"period_num": "8", 
+		"start_time": "00:11:53;16", 
+		"end_time": "00:13:08;14",
+		"description_info": 
+		[ 
+			{ "description": "When Ross tries to come out of the closet over the drawer, aunt stops him for shoes. He falls back inside. Ross forages around to meet mom and aunt's demands. He finds a shoe box above him, pulls it down and opens it. It is full of Sweet 'n' Lows which reminds him of time with Nana. He kisses the packet. Ross reaches up higher and knocks down another shoebox lid. Sweet 'n' Lows rain down on him. As he get rained on, he happily smiles."}, 
+			{ "description": "Mom and aunt in the room with a pile of clothes on the bed. "}, 
+			{ "description": "Ross is in the closet to give mom and aunt Nana's clothes."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "In Nana's house, where is Ross?", 
+				"answer": "Ross is in the closet.", 
+				"wrong_answer1": "Ross is in the toilet.", 
+				"wrong_answer2": "Ross is in shower.", 
+				"wrong_answer3": "Ross is in the livingroom.", 
+				"wrong_answer4": "Ross is in the kitchen." } 
+			} ,
+			{ "qa": { 
+				"question": "Who is in the closet?", 
+				"answer": "Ross.", 
+				"wrong_answer1": "Mr. Galler.", 
+				"wrong_answer2": "Mrs. Galler.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Rachel." } 
+				} ,
+			{ "qa": { 
+				"question": "What does Ross find unexpectedly out of a shoebox?", 
+				"answer": "Sweet 'n' Lows.", 
+				"wrong_answer1": "Monica's pictures.", 
+				"wrong_answer2": "Ross's clothes.", 
+				"wrong_answer3": "Monica's shoes.", 
+				"wrong_answer4": "Mr. Galler's pictures." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "158-177", 
+		"period_num": "9", 
+		"start_time": "00:13:10;12", 
+		"end_time": "00:14:45;06",
+		"description_info": 
+		[ 
+			{ "description": "Ross comes into the house Monica and Rachel stand up to go to the funeral. Rachel puts her coat on. Phoebe comes in. Rachels shows off her shoes, a present from Paolo, to others, Monica, Ross, and Phoebe. Joey and Chandler come in. All leaves to the funeral. In the funeral, mom hugs Monica and leaves her irritating comments. Chandler criticized Joey as he catches that Joey is watching a football game on a portable TV. "}, 
+			{ "description": "All gathers at home and leaveas for the funeral together."}, 
+			{ "description": "Chandler catches Joey watching a football game in the funeral."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "In the funeral, who is Chandler talking to?", 
+				"answer": "Joey.", 
+				"wrong_answer1": "Ross.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Phoebe.", 
+				"wrong_answer4": "Monica." } 
+			} ,
+			{ "qa": { 
+				"question": "Why does Chandler criticize Joey?", 
+				"answer": "Because Joey watches a football game in the funeral.", 
+				"wrong_answer1": "Because Joey doesn't pay Chandler back.", 
+				"wrong_answer2": "Because Joey is dating Rachel, Chandler's friend.", 
+				"wrong_answer3": "Because Joey doesn't wash up his clothes.", 
+				"wrong_answer4": "Becausee Joey doesn't work." } 
+				} ,
+			{ "qa": { 
+				"question": "Where is Joey watching a football game?", 
+				"answer": "In a funeral.", 
+				"wrong_answer1": "In a bathroom.", 
+				"wrong_answer2": "At home.", 
+				"wrong_answer3": "In the kitchen.", 
+				"wrong_answer4": "In Chandler's car." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "178-190", 
+		"period_num": "10", 
+		"start_time": "00:14:46;23", 
+		"end_time": "00:16:00;15",
+		"description_info": 
+		[ 
+			{ "description": "In a cemetery, Rachel steps in a patch of mud and worries her shoes. Ross consoles her with sarcastically. They walk together on the site. Ross walks looking at the sky and falls into an open grave. All looks down at him to check his condition. At the Gallers' house, Ross is lying on his back with Phoebe squatting over him, checking to see if he's injured. Mrs. Galler hands Ross a bottle of pills. Then turns to Monica and pats her hair over her ears, making her annoyed."}, 
+			{ "description": "In a cemetery, all walks together enjoying the sunshine."}, 
+			{ "description": "Ross falls into an open grave as he walks without looking at the sky."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What happens to Rachel in a cemetery?", 
+				"answer": "Rachel steps in a patch of mud.", 
+				"wrong_answer1": "Ross shouts at Rachel.", 
+				"wrong_answer2": "Paolo appears suddenly.", 
+				"wrong_answer3": "Rachel falls into an open grave.", 
+				"wrong_answer4": "Rachel's phone rings suddenly." } 
+			} ,
+			{ "qa": { 
+				"question": "Who falls into an open grave?", 
+				"answer": "Ross.", 
+				"wrong_answer1": "Joey.", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Monica.", 
+				"wrong_answer4": "Phoebe." } 
+				} ,
+			{ "qa": { 
+				"question": "What is Phoebe doing?", 
+				"answer": "Phoebe is squatting over him, checking to see if he's injured.", 
+				"wrong_answer1": "Phoebe is cooking food for Ross.", 
+				"wrong_answer2": "Phoebe is running to Ross.", 
+				"wrong_answer3": "Phoebe is lying on her back with Ross.", 
+				"wrong_answer4": "Phoebe is talking to Ross about his girlfriend." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "191-215", 
+		"period_num": "11", 
+		"start_time": "00:16:03;00", 
+		"end_time": "00:17:51;10",
+		"description_info": 
+		[ 
+			{ "description": "Chandler and a woman, Andrea, reaching for the same slice of meat end up talking together. Ross emerges from a hallway, grinning inanely. He is obviously stoned, hugs Monica, and kisses Phoebe. Ross calls Chandler from his back. Chandler turns around and Ross hugs Chandler implying that he is a gay. Shocked, Andrea turns to her friend and they walk off. Ross goes to Rachel and sits down beside her. They sit together on the sofa. Ross confesses his love to Rachel, but she laughes it off. Disappointed, Ross passes down and slumps across Rachel. Joey watches TV in the corner and makes a big gesture of disappointment. Mr. Galler finds it and joins him. As time goes by, a large crowd of men are now watching the game with Joey in the corner. "}, 
+			{ "description": "Chandler and a woman, Andrea, reaches for the same slice of meat and finds each other."}, 
+			{ "description": "Joey is watching TV in the corner and makes a big gesture of disappointment."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "About Chandler, what does Andrea misunderstand?", 
+				"answer": "Andrea thinks Chandler is a gay.", 
+				"wrong_answer1": "Andrea thinks that Chandler is married.", 
+				"wrong_answer2": "Andrea thinks Chandler is a bad guy.", 
+				"wrong_answer3": "Andrea thinks Chandler has a child.", 
+				"wrong_answer4": "Andrea thinks Chandler is rich." } 
+			} ,
+			{ "qa": { 
+				"question": "How is Ross's condition?", 
+				"answer": "Ross is stoned.", 
+				"wrong_answer1": "Ross is in good condition.", 
+				"wrong_answer2": "Ross is perfectly well.", 
+				"wrong_answer3": "Ross is energetic.", 
+				"wrong_answer4": "Ross is healthy and strong." } 
+				} ,
+			{ "qa": { 
+				"question": "How does Ross feel about Rachel?", 
+				"answer": "Ross loves Rachel.", 
+				"wrong_answer1": "Ross hates Rachel.", 
+				"wrong_answer2": "Ross feels uncomfortable with Rachel.", 
+				"wrong_answer3": "Ross indifferent to Rachel.", 
+				"wrong_answer4": "Ross is scared of Rachel." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "216-226", 
+		"period_num": "12", 
+		"start_time": "00:17:51;10", 
+		"end_time": "00:19:35;05",
+		"description_info": 
+		[ 
+			{ "description": "Mrs. Galler approaches Monica and talks with her. She sits down  with Monica on the sofa. Monica is listening to her with a wine glass in her hand and drinking. Mrs. Galler puts the glass on the table as Monica does."}, 
+			{ "description": "Monica is sitting on the sofa alone and her mother apporaches her."}, 
+			{ "description": "Mrs. Galler and Monica are talking gether. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is talking with Monica?", 
+				"answer": "Mrs. Galler, her mother.", 
+				"wrong_answer1": "Ross. ", 
+				"wrong_answer2": "Rachel.", 
+				"wrong_answer3": "Phoebe.", 
+				"wrong_answer4": "Chandler." } 
+			} ,
+			{ "qa": { 
+				"question": "What is Monica holding in her hand?", 
+				"answer": "A wine glass.", 
+				"wrong_answer1": "A mug.", 
+				"wrong_answer2": "A book.", 
+				"wrong_answer3": "A laptop.", 
+				"wrong_answer4": "A camera." } 
+				} ,
+			{ "qa": { 
+				"question": "Where does Monica put the glass on?", 
+				"answer": "Monica puts the glass on the table.", 
+				"wrong_answer1": "Monica puts the glass on the sofa.", 
+				"wrong_answer2": "Monica puts the glass on a chair.", 
+				"wrong_answer3": "Monica puts the glass on a book.", 
+				"wrong_answer4": "Monica puts the glass on the floor." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "227-242", 
+		"period_num": "13", 
+		"start_time": "00:19:36;13", 
+		"end_time": "00:21:28;08",
+		"description_info": 
+		[ 
+			{ "description": "Just when Monica lifts her glass, her mother reaches out to fiddle with Monica's hair and finds her earrings. Suddenly, the crowd of men in the corner gives a cry of disappointment. In the cafe, Rachel, Ross, Monica, and Phoebe are sitting on the sofa, joey on the armrest. Chandler is holding the back of the sofa. All is looking at old photos and talking about them. "}, 
+			{ "description": "Rachel, Ross, Monica, and Phoebe are sitting on the sofa together. "}, 
+			{ "description": "All is looking at old photos and talking about them. "} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What accessory does Mrs. Galler find pretty from Monica?", 
+				"answer": "Monica's earrings.", 
+				"wrong_answer1": "Monica's bracelet.", 
+				"wrong_answer2": "Monica's ring.", 
+				"wrong_answer3": "Monica's watch.", 
+				"wrong_answer4": "Monica's necklace." } 
+			} ,
+			{ "qa": { 
+				"question": "Where are all the friends, Joey, Ross, Chandler, Phoebe, Monica, and Rachel, talking?", 
+				"answer": "In Central Perk.", 
+				"wrong_answer1": "In a theater.", 
+				"wrong_answer2": "In a car.", 
+				"wrong_answer3": "At home.", 
+				"wrong_answer4": "In Chandler's office." } 
+				} ,
+			{ "qa": { 
+				"question": "What are the friends, Joey, Ross, Chandler, Phoebe, Monica, and Rachel, looking at?", 
+				"answer": "Old photos.", 
+				"wrong_answer1": "A camera.", 
+				"wrong_answer2": "TV.", 
+				"wrong_answer3": "A book.", 
+				"wrong_answer4": "A magazine." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "243-248", 
+		"period_num": "14", 
+		"start_time": "00:21:29;22", 
+		"end_time": "00:22:38;11",
+		"description_info": 
+		[ 
+			{ "description": "Chandler is in the lounge again lying on his back on the sofa at work. Chandler is talking to Lowell, one of colleagues.  Preparing coffee, Lowell talks to Chandler about gays and his friends. With coffee, Lowell leaves the place. Satisfied, Chandler is alone in the lounge and talks to himself about his friend, Brian. Brian enters behind him, hears what Chandler says and looks at him. "}, 
+			{ "description": "Chandler and Lowell talk together about gays and Chandler's friends."}, 
+			{ "description": "Brian enter behind Chandler and hears what Chandler says."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is Lowell?", 
+				"answer": "Lowell is Chandler's colleague.", 
+				"wrong_answer1": "Lowell is Chandler's brother.", 
+				"wrong_answer2": "Lowell is Ross's friend.", 
+				"wrong_answer3": "Lowell is Rachel's friend.", 
+				"wrong_answer4": "Lowell is a supervisor in the company." } 
+			} ,
+			{ "qa": { 
+				"question": "Where is Chandler?", 
+				"answer": "Chandler is in the lounge.", 
+				"wrong_answer1": "Chandler is at home.", 
+				"wrong_answer2": "Chandler is in office.", 
+				"wrong_answer3": "Chandler is in a car.", 
+				"wrong_answer4": "Chandler is in a train." } 
+				} ,
+			{ "qa": { 
+				"question": "Who enters the lounge?", 
+				"answer": "Brian.", 
+				"wrong_answer1": "Joey.", 
+				"wrong_answer2": "Monica.", 
+				"wrong_answer3": "Rachel.", 
+				"wrong_answer4": "Ross." 
+				} 
+			} 
+		] 
+	}
+	]
+}

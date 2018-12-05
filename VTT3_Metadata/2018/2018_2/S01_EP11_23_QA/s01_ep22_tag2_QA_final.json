@@ -1,0 +1,637 @@
+{ 
+	"file_name": "s01_ep22_tag2_QA_final.json",
+	"registed_name": "s01_ep22_tag2_QA_final.json", 
+	"qa_results": 
+	[ 
+		{ 
+		"visual_period_num": "1-19", 
+		"period_num": "q1", 
+		"start_time": "00:00:00;00", 
+		"end_time": "00:01:11;23",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross, Chandler, Pheobe, Monica, Rachel, and Monica are chilling by the sofa in the café. Rachel hesitantly shares the story about her dream and how she had sex with Chandler on the table. The whole group is taking it lightly as a joke but Ross takes it personally and is annoyed by it. Ross goes over to the bar to pour more coffee. Chandler, sensing that Ross is not feeling too pleased, apologizes."}, 
+			{ "description": "Everyone is at the café talking about Rachel's funny dream"}, 
+			{ "description": "Ross is not pleased with the plot of Rachel's dream."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Rachel doing in the scene?", 
+				"question_type": "Action", 
+				"answer": "She is serving coffee", 
+				"wrong_answer1": "She is taking orders", 
+				"wrong_answer2": "She is taking the payment", 
+				"wrong_answer3": "She is doing a survey", 
+				"wrong_answer4": "She is inteviewing her friends" } 
+			} ,
+			{ "qa": { 
+				"question": "How does Ross feel about this conversation?", 
+				"question_type": "Emotion", 
+				"answer": "He is not pleased", 
+				"wrong_answer1": "He is excited to hear about it", 
+				"wrong_answer2": "He is curious about it", 
+				"wrong_answer3": "He is feeling sick about it", 
+				"wrong_answer4": "He is indiffrent about it" } 
+				} ,
+			{ "qa": { 
+				"question": "Why is Ross unhappy about Rachel's dream?", 
+				"question_type": "Reason", 
+				"answer": "Because he has feelings for her", 
+				"wrong_answer1": "Because he doesn't like Rachel", 
+				"wrong_answer2": "Because he doesn't like Chandler", 
+				"wrong_answer3": "Because he doesn't like to hear story about sex", 
+				"wrong_answer4": "Because he has feelings about Chandler" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "43-75", 
+		"period_num": "q2", 
+		"start_time": "00:02:06;16", 
+		"end_time": "00:04:15;07",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "The whole gang is still at the café, sitting around the sofa while Rachel is on her shift. Pheobe talks about how she is looking for a temporary job. Joey suggests she should work at Chandler's office for a short term as a secretary. Ross has bought a new beeper, for, in the case of an emergency such as Carol going into labor, she could contact him. Meanwhile, Monica is excited and getting ready to go on a date with Ethan."}, 
+			{ "description": "The group is sitting at the café and Rachel is asking Chandler if she can work at his office for a couple of weeks"}, 
+			{ "description": "Monica is going out for a date with Ethan"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why is Rachel looking for a short-term job?", 
+				"question_type": "Reason", 
+				"answer": "She is short of customers at her massage parlour", 
+				"wrong_answer1": "She wants to get a different job", 
+				"wrong_answer2": "She needs extra money", 
+				"wrong_answer3": "Her massage shop closed down", 
+				"wrong_answer4": "She is annoyed with her clients at the massage parlour" } 
+			} ,
+			{ "qa": { 
+				"question": "How does Chandler feel about Pheobe working as his secretary?", 
+				"question_type": "Emotion", 
+				"answer": "He is unsure", 
+				"wrong_answer1": "He thinks she is perfect for the job", 
+				"wrong_answer2": "He is certain that she is the right person", 
+				"wrong_answer3": "He knows in his heart that she is the right candidate", 
+				"wrong_answer4": "He wants her to work for him" } 
+				} ,
+			{ "qa": { 
+				"question": "How is Pheobe feeling towards this opportunity?", 
+				"question_type": "Emotion", 
+				"answer": "She is excited", 
+				"wrong_answer1": "She is angry", 
+				"wrong_answer2": "She is not sure", 
+				"wrong_answer3": "She is sad", 
+				"wrong_answer4": "She is lacking confidence" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "76-90", 
+		"period_num": "q3", 
+		"start_time": "00:04:15;07", 
+		"end_time": "00:05:31;00",
+		"related_period": "q2", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "It's Pheobe's first day at work as Chandler's secretary. Pheobe and Chandler are at the latter's office fooling around. She answers her first phone call which is from Ross. In an effort to work on his daily workload, Chandler sends Pheobe out, however, he is soon interrupted by a call from Pheobe asking him a silly question."}, 
+			{ "description": "Chandler and Pheobe are sitting in Chandler's office."}, 
+			{ "description": "Pheobe is having fun on her first day at work."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What seems to be Pheobe's mood on her first day at the office?", 
+				"question_type": "Emotion", 
+				"answer": "She is enthusiastic", 
+				"wrong_answer1": "She is nervous", 
+				"wrong_answer2": "She is quite", 
+				"wrong_answer3": "She is gloomy", 
+				"wrong_answer4": "She is sad" } 
+			} ,
+			{ "qa": { 
+				"question": "Why is Pheobe at Chandler's office?", 
+				"question_type": "Reason", 
+				"answer": "She is working as his secretary", 
+				"wrong_answer1": "She is just visiting him", 
+				"wrong_answer2": "She came in to pass on an important message", 
+				"wrong_answer3": "She wanted to say hello", 
+				"wrong_answer4": "She was too bored" } 
+				} ,
+			{ "qa": { 
+				"question": "What does she do when she is about to answer the phone?", 
+				"question_type": "Visual detail", 
+				"answer": "She takes her earring off", 
+				"wrong_answer1": "She clears her throat", 
+				"wrong_answer2": "She straigtens her hair", 
+				"wrong_answer3": "She stretches", 
+				"wrong_answer4": "She stands up" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "91-101", 
+		"period_num": "q4", 
+		"start_time": "00:05:31;00", 
+		"end_time": "00:06:19;22",
+		"related_period": "q2", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Monica is actively moving around trying to prep for a date night at her apartment. She is making sure the windows and the table are clean. She checks in the oven to see how her fish is doing in the oven, only to realize that she had been cooking lasagna. Rachel is sitting on a sofa in the living room. She asks if Monica is prepared for the night with her boyfriend. Monica, a bit embarrassed to answer the question, says she doesn't have anything planned. However, when Rachel asks her if she had shaved her leg, she admits, indirectly implying that she is indeed ready to make out with her boyfriend."}, 
+			{ "description": "Monica is preparing the house for her date while Rachel is calmly sitting in the living room"}, 
+			{ "description": "Monica seems nervous while Rachel watched everything unfold in a calm state of mind."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Monica cooking?", 
+				"question_type": "Action", 
+				"answer": "Lasgna", 
+				"wrong_answer1": "Beef stew", 
+				"wrong_answer2": "Pork chops", 
+				"wrong_answer3": "Salmon", 
+				"wrong_answer4": "Trouts" } 
+			} ,
+			{ "qa": { 
+				"question": "How is Monica acting like in the scene?", 
+				"question_type": "action", 
+				"answer": "Nervous and Hyped", 
+				"wrong_answer1": "Confident and Certain", 
+				"wrong_answer2": "Angry and Lacking motivation", 
+				"wrong_answer3": "Confused and Sad", 
+				"wrong_answer4": "Careless and Indiffrent" } 
+				} ,
+			{ "qa": { 
+				"question": "What is Rachel doing on the sofa?", 
+				"question_type": "Action", 
+				"answer": "She is reading a magazine", 
+				"wrong_answer1": "She is watching tv", 
+				"wrong_answer2": "She is eating a snack", 
+				"wrong_answer3": "She is on the phone", 
+				"wrong_answer4": "She is knitting" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "102-142", 
+		"period_num": "q5", 
+		"start_time": "00:06:19;22", 
+		"end_time": "00:09:04;15",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross and Joey are at the café. Ross is still annoyed with Rachel's dream about having sex with Chandler. Suddenly his beeper starts ringing, however, he is called by a stranger. Chandler and Pheobe walk into the café after their day at the office. The four of them gather around the sofa in the cafe. Pheobe tells the story about how the people at the office hate Chandler for being bossy. Chandler is in disbelief. Ross, Joey, and Pheobe start mimicking Chandler's funny tone. Chandler tries to deny it, however, later speaks out his typical tone."}, 
+			{ "description": "Ross, Joey, Pheobe, and Joey are sitting around the sofa in Central Perks"}, 
+			{ "description": "Pheobe confesses on how everyone at the office hates Chandler"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What does Monica state about Chandler's popularity in his office?", 
+				"question_type": "Statement", 
+				"answer": "He is hated by everyone", 
+				"wrong_answer1": "He is adored by everyone", 
+				"wrong_answer2": "He is respected by everyone", 
+				"wrong_answer3": "He is well received by everyone", 
+				"wrong_answer4": "He is very popular" } 
+			} ,
+			{ "qa": { 
+				"question": "Where are they in the scene?", 
+				"question_type": "Location", 
+				"answer": "At the café", 
+				"wrong_answer1": "At Monica's apartment", 
+				"wrong_answer2": "At the hospital", 
+				"wrong_answer3": "At Joey's apartment", 
+				"wrong_answer4": "At the zoo" } 
+				} ,
+			{ "qa": { 
+				"question": "Who is wearing a tie?", 
+				"question_type": "Visual detail", 
+				"answer": "Ross and Chandler", 
+				"wrong_answer1": "Pheobe and Ross", 
+				"wrong_answer2": "Chandler and Joey", 
+				"wrong_answer3": "Joey and Pheobe", 
+				"wrong_answer4": "Pheobe and Monica" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "143-155", 
+		"period_num": "q6", 
+		"start_time": "00:09:07;15", 
+		"end_time": "00:10:58;00",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Monica is having a great time with her date at her apartment. They are sitting on the sofa and drinking wine. Monica insists that her date stay over for the night and he accepts."}, 
+			{ "description": "Monica and her date are at her apartment conversating"}, 
+			{ "description": "Monica wants to spend the night with her date"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What are they drinking in the scene?", 
+				"question_type": "Visual detail", 
+				"answer": "Wine", 
+				"wrong_answer1": "Beer", 
+				"wrong_answer2": "Cocktail", 
+				"wrong_answer3": "Vodka", 
+				"wrong_answer4": "Tequila" } 
+			} ,
+			{ "qa": { 
+				"question": "What are they doing at the end of their conversation?", 
+				"question_type": "Action", 
+				"answer": "They end up kissing", 
+				"wrong_answer1": "They start to dance", 
+				"wrong_answer2": "They play scrabbles", 
+				"wrong_answer3": "They play a game of cards", 
+				"wrong_answer4": "They start watching tv" } 
+				} ,
+			{ "qa": { 
+				"question": "What do the men state about himself?", 
+				"question_type": "Statement", 
+				"answer": "He confesses he's a virgin", 
+				"wrong_answer1": "He confesses he's gay", 
+				"wrong_answer2": "He confesses he's married", 
+				"wrong_answer3": "He confesses he's not ready", 
+				"wrong_answer4": "He confesses he's not reached puberty yet" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "156-163", 
+		"period_num": "q7", 
+		"start_time": "00:10:58;00", 
+		"end_time": "00:12:22;15",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "After having sex, Monica and her boyfriend have a moment to share some of their secrets. Monica confesses that she is not 22 but 25. Then, her boyfriend unexpectedly confesses that he is actually a high school senior."}, 
+			{ "description": "Monica and her date are on her bed."}, 
+			{ "description": "Her boyfriend confesses that he is a minor"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What does Monica's boyfriend state about himself?", 
+				"question_type": "Statement", 
+				"answer": "He is a minor", 
+				"wrong_answer1": "He is a homosexual", 
+				"wrong_answer2": "He is not in love with her", 
+				"wrong_answer3": "He has aids", 
+				"wrong_answer4": "He is very inexperienced" } 
+			} ,
+			{ "qa": { 
+				"question": "Why is Monica so shocked?", 
+				"question_type": "Reason", 
+				"answer": "She was dating a teenager", 
+				"wrong_answer1": "She thought he loved her", 
+				"wrong_answer2": "She realized he is shorter than her", 
+				"wrong_answer3": "She started having feelings for her", 
+				"wrong_answer4": "She realized it was a mistake" } 
+				} ,
+			{ "qa": { 
+				"question": "How is Monica feeling after her date confessed about his true age?", 
+				"question_type": "Emotion", 
+				"answer": "She was shocked", 
+				"wrong_answer1": "She was glad", 
+				"wrong_answer2": "She was relieved", 
+				"wrong_answer3": "She was joyful", 
+				"wrong_answer4": "She was understanding" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "164-171", 
+		"period_num": "q8", 
+		"start_time": "00:12:22;15", 
+		"end_time": "00:13:39;14",
+		"related_period": "q7", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "After realizing that she had sex with a teenager, Monica is shocked in horror. Ethan is glad that he's finally had this experience. He tells Monica about her feelings but Monica tells him not to fall for her."}, 
+			{ "description": "Monica and Ethan are in Monica's bedroom"}, 
+			{ "description": "Monica is shocked at Ethan's age"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Monica's date's name?", 
+				"question_type": "Statement", 
+				"answer": "Ethan", 
+				"wrong_answer1": "Trevor", 
+				"wrong_answer2": "Joey", 
+				"wrong_answer3": "Ross", 
+				"wrong_answer4": "Jimmy" } 
+			} ,
+			{ "qa": { 
+				"question": "What does Monica do to Ethan's mouth?", 
+				"question_type": "Action", 
+				"answer": "She squeezes it", 
+				"wrong_answer1": "She hits it", 
+				"wrong_answer2": "She shuts it", 
+				"wrong_answer3": "She kisses it", 
+				"wrong_answer4": "She blocks it" } 
+				} ,
+			{ "qa": { 
+				"question": "What does it imply when Ethan asks who Joan Collins is?", 
+				"question_type": "Abstract", 
+				"answer": "That he's too young to know her", 
+				"wrong_answer1": "That he's ignorant", 
+				"wrong_answer2": "That he's not interested in celebrities", 
+				"wrong_answer3": "That he's too focused on his school work", 
+				"wrong_answer4": "That he's too busy" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "172-226", 
+		"period_num": "q9", 
+		"start_time": "00:13:39;14", 
+		"end_time": "00:17:00;10",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross is on the phone and Pheobe is closing the fridge. Meanwhile, Rachel, Chandler, and Joey are in the living room sitting on the sofa. Rachel and Joey are reading magazines while Chandler insists that Rachel tell him about another sexual dream that she had. Rachel speaks about her dream and this time she had Joey in the dream too. Ross is disappointed he is not in her dream. again. Monica comes back from jogging with her headphones on. Rachel tells her about messages left from Ethan but she walks by. The whole group shouts Monica to acknowledge her about Ethan and starts making fun of her. Pheobe decides it's time to go out for a work party and Chandler is shocked that he is not invited. Pheobe suggests to Chandler about attending the party. However, she wants him to go separately."}, 
+			{ "description": "Ross and Pheobe are in the kitchen while Ross, Chandler, and Joey are in the living room"}, 
+			{ "description": "Pheobe is about to hang out at a work party with Chandler not being invited."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Joey doing?", 
+				"question_type": "Action", 
+				"answer": "He is reading a magazine", 
+				"wrong_answer1": "He is watching tv", 
+				"wrong_answer2": "He is eating a chocolate", 
+				"wrong_answer3": "He is on the phone", 
+				"wrong_answer4": "He is smoking" } 
+			} ,
+			{ "qa": { 
+				"question": "What brand is Monica wearing?", 
+				"question_type": "Visual detail", 
+				"answer": "Nike", 
+				"wrong_answer1": "Adidas", 
+				"wrong_answer2": "Puma", 
+				"wrong_answer3": "Reebok", 
+				"wrong_answer4": "Northface" } 
+				} ,
+			{ "qa": { 
+				"question": "Where is Monica going?", 
+				"question_type": "Action", 
+				"answer": "To a staff party", 
+				"wrong_answer1": "To her apartment", 
+				"wrong_answer2": "To Joey's apartment", 
+				"wrong_answer3": "To her work", 
+				"wrong_answer4": "To Chandler's office" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "227-241", 
+		"period_num": "q10", 
+		"start_time": "00:17:00;10", 
+		"end_time": "00:17:48;15",
+		"related_period": "q5", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Chandler and Pheobe are back at work talking about last nights party. Chandler thinks he's done enough to normalize his relationship with his co-workers. However, Pheobe tells him that they still think of him as their boss and not a friend."}, 
+			{ "description": "Pheobe and Chandler are at Chandler's office conversating about the staff party"}, 
+			{ "description": "Chandler is not pleased that his co-workers still don't consider him as a friend."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What did Chandler do to get closer to his co-workers?", 
+				"question_type": "Method", 
+				"answer": "He hung out at the party", 
+				"wrong_answer1": "He bought them gifts", 
+				"wrong_answer2": "He promoted some of his co-workers", 
+				"wrong_answer3": "He fired some of the them", 
+				"wrong_answer4": "He had dinner with his co-workers" } 
+			} ,
+			{ "qa": { 
+				"question": "What is Pheobe drinking?", 
+				"question_type": "Visual detail", 
+				"answer": "Orange Juice", 
+				"wrong_answer1": "Coke", 
+				"wrong_answer2": "Beer", 
+				"wrong_answer3": "Water", 
+				"wrong_answer4": "Apple juice" } 
+				} ,
+			{ "qa": { 
+				"question": "How is Chandler feeling?", 
+				"question_type": "Emotion", 
+				"answer": "He is dissappointed", 
+				"wrong_answer1": "He is happy", 
+				"wrong_answer2": "He is cheerful", 
+				"wrong_answer3": "He is hopeful", 
+				"wrong_answer4": "He is excited" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "242-261", 
+		"period_num": "q11", 
+		"start_time": "00:17:48;15", 
+		"end_time": "00:19:38;20",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross, Rachel, Monica, and Joey are hanging around at the café. Ross gets another beep from Andre but he ignores it. Ethan suddenly walks into the café to see Monica. Rachel asks Ross and Joey to check out the new hand dryer in order to give Monica and Ethan some space. Ethan sits with Monica on the sofa in an effort to convince her that they should keep their relationship. Monica is thankful for his feelings but she is not convinced."}, 
+			{ "description": "Ross, Monica, Joey, and Rachel are at the café"}, 
+			{ "description": "Ethan tries to get Monica back"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Rachel doing?", 
+				"question_type": "Action", 
+				"answer": "She's serving coffee to Ross", 
+				"wrong_answer1": "She's reading a magazine", 
+				"wrong_answer2": "She's sitting down on the sofa", 
+				"wrong_answer3": "She's talking on the phone", 
+				"wrong_answer4": "She's eating a cookie" } 
+			} ,
+			{ "qa": { 
+				"question": "Why does Rachel mention the new hand dryer?", 
+				"question_type": "Reason", 
+				"answer": "To give space for Ethan and Monice", 
+				"wrong_answer1": "To show it off to her friends", 
+				"wrong_answer2": "To ask for people's opinion on it", 
+				"wrong_answer3": "To use it more often", 
+				"wrong_answer4": "To get her friends to try it" } 
+				} ,
+			{ "qa": { 
+				"question": "Why doesn't Monica accept Ethan", 
+				"question_type": "Reason", 
+				"answer": "Because he is too young for her", 
+				"wrong_answer1": "Because he's not her type", 
+				"wrong_answer2": "Because he's too old for her", 
+				"wrong_answer3": "Because he's too boring", 
+				"wrong_answer4": "Because he is too inexperienced" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "262-266", 
+		"period_num": "q12", 
+		"start_time": "00:19:38;20", 
+		"end_time": "00:20:20;14",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Staff members from Chandler's workplace are hanging around the hallway. They are making jokes about Chandler's funny accent. Chandler and Pheobe appear to the scene. Chandler asks them to submit reports by 9'o clock. His co-workers walk off the screen with the grin on their faces."}, 
+			{ "description": "Chandler's co-workers are making jokes about him"}, 
+			{ "description": "Chandler and Pheobe are in the hallway of their office"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What were the co-workers making fun of?", 
+				"question_type": "Abstract", 
+				"answer": "Chandler's accent", 
+				"wrong_answer1": "Chandler's look", 
+				"wrong_answer2": "Pheobe's accent", 
+				"wrong_answer3": "Pheobe' look", 
+				"wrong_answer4": "Chandler's smell" } 
+			} ,
+			{ "qa": { 
+				"question": "Why did Chandler exaggerate his accent in the scene?", 
+				"question_type": "Reason", 
+				"answer": "To give his co-workers something to chew on", 
+				"wrong_answer1": "To show confidence", 
+				"wrong_answer2": "To be friends with them", 
+				"wrong_answer3": "To make sure they don't make fun of him", 
+				"wrong_answer4": "To point out the deadline" } 
+				} ,
+			{ "qa": { 
+				"question": "What is Pheobe holding in her hands?", 
+				"question_type": "Visual detail", 
+				"answer": "A notepad and a pencil", 
+				"wrong_answer1": "A hammer and a nail", 
+				"wrong_answer2": "A calculator and a notepad", 
+				"wrong_answer3": "A pencil and an eraser", 
+				"wrong_answer4": "A water bottle and a lunch box" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "267-268", 
+		"period_num": "q13", 
+		"start_time": "00:20:20;14", 
+		"end_time": "00:20:43;08",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross is with at Monica's apartment watching tv. Rachel has fallen asleep on the sofa. After Ross turns the tv off and puts a blanket over Rachel, she starts dreaming again. Ross waits to see who she is within her dream. Rachel calls out his name and Ross is jumping on the table with joy. However, he missteps his footing and falls on Rachel, waking her up. Suddenly, his beeper starts ringing and this it is actually from Carol. Ross is so shocked that he fell off the sofa and hurt himself."}, 
+			{ "description": "Rachel and Ross are in Monica's apartment. Rachel is having dreams about Ross."}, 
+			{ "description": "Ross' beeper starts beeping and Carol is finally having the baby"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Rachel doing?", 
+				"question_type": "Action", 
+				"answer": "She is dreaming", 
+				"wrong_answer1": "She is pretending to sleep", 
+				"wrong_answer2": "She is being quite", 
+				"wrong_answer3": "She is lying down", 
+				"wrong_answer4": "She is stretchiing" } 
+			} ,
+			{ "qa": { 
+				"question": "Why does Ross start dancing on the table?", 
+				"question_type": "Reason", 
+				"answer": "Because Rachel is finally dreaming about Ross", 
+				"wrong_answer1": "Because he is happy to see Rachel in sleep", 
+				"wrong_answer2": "Because he is going to be a father soon", 
+				"wrong_answer3": "Because he is a great dancer", 
+				"wrong_answer4": "Because he thinks Rachel is too cute" } 
+				} ,
+			{ "qa": { 
+				"question": "What happens to Ross?", 
+				"question_type": "Action", 
+				"answer": "He fell off the sofa", 
+				"wrong_answer1": "He crawled under the sofa", 
+				"wrong_answer2": "He ran to the hospital", 
+				"wrong_answer3": "He kissed Rachel", 
+				"wrong_answer4": "He screamed in Joy with Rachel" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "269-288", 
+		"period_num": "q14", 
+		"start_time": "00:20:43;08", 
+		"end_time": "00:22:35;05",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross is in the hallway of their apartment trying to hurry everyone. Chandler is fidgeting with his hoodie and Rachel is busy doing her makeup. Joey is holding a sandwich and Monica weeping with joy about how she is going to be an aunt. After Ross gets everyone down the stairs, he comes back up to the floor and leans against the wall with a nervous look."}, 
+			{ "description": "Ross, Rachel, Monica, Chandler, and Joey are getting ready to go to the hospital"}, 
+			{ "description": "Ross is in an extremely nervous state"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Joey holding in his hands?", 
+				"question_type": "Visual detail", 
+				"answer": "A sandwich", 
+				"wrong_answer1": "A burger", 
+				"wrong_answer2": "A taco", 
+				"wrong_answer3": "A chicken", 
+				"wrong_answer4": "A banana" } 
+			} ,
+			{ "qa": { 
+				"question": "Why is Rachel putting an effort into her makeup?", 
+				"question_type": "Reason", 
+				"answer": "Because there might be doctors at the hospital that she might like", 
+				"wrong_answer1": "Because she wants to look cute for her newphew", 
+				"wrong_answer2": "Becaue she feels less confident without her makeups", 
+				"wrong_answer3": "Because she feels happy with her make up", 
+				"wrong_answer4": "Because she is bored" } 
+				} ,
+			{ "qa": { 
+				"question": "How does Ross feel?", 
+				"question_type": "Emotion", 
+				"answer": "Extremely nervous", 
+				"wrong_answer1": "Sad", 
+				"wrong_answer2": "Angry", 
+				"wrong_answer3": "Indifferent", 
+				"wrong_answer4": "Shy" 
+				} 
+			} 
+		] 
+	}
+	]
+}

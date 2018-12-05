@@ -114,7 +114,7 @@ public class AnalyzerSogang {
             }
 
         } catch (Exception ignore) {
-            System.out.println(ignore.getMessage());
+            ignore.printStackTrace();
             //ignore
         }
     }

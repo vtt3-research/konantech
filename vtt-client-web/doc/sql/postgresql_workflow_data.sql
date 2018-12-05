@@ -1,31 +1,31 @@
 
-DELETE from DEMO_COMPJOB_TB where jobname='cataloging';
-INSERT INTO DEMO_COMPJOB_TB (jobname, jobtype, jobproperty, startexname, progressexname, endexname,  paramproperty) VALUES (
+DELETE from VTTM_COMPJOB_TB where jobname='cataloging';
+INSERT INTO VTTM_COMPJOB_TB (jobname, jobtype, jobproperty, startexname, progressexname, endexname,  paramproperty) VALUES (
 'cataloging', 'ca',
 '{
 	"select": [{
-		"table": "demo_video_tb",
+		"table": "vttm_video_tb",
 		"alias": "catalogvideosrc",
 		"where": ["idx"],
 		"select": "idx as assetid, assetfilepath || ''/''|| assetfilename as filepath, volumewin || ''video/'' as  volumewin , volumeetc || ''video/'' as volumeetc "
 	},{
-		"table": "demo_video_tb",
+		"table": "vttm_video_tb",
 		"alias": "shotimages",
 		"where": ["idx"],
 		"select": "assetfilepath || ''/'' as filepath, volumewin || ''proxyshot/'' as  volumewin , volumeetc || ''proxyshot/'' as volumeetc "
 	}],
 	"status": [{
-		"table": "demo_video_tb",
+		"table": "vttm_video_tb",
 		"where": ["idx"],
 		"update": "catalogstatus"
 	}],
 	"start": [{
-		"table": "demo_video_tb",
+		"table": "vttm_video_tb",
 		"where": ["idx"],
 		"update": "catalogstarttime"
 	}],
 	"end": [{
-		"table": "demo_video_tb",
+		"table": "vttm_video_tb",
 		"where": ["idx"],
 		"update": "catalogendtime"
 	}]
@@ -39,32 +39,32 @@ INSERT INTO DEMO_COMPJOB_TB (jobname, jobtype, jobproperty, startexname, progres
 
 
 
-DELETE from DEMO_COMPJOB_TB where jobname='transcoding';
-INSERT INTO DEMO_COMPJOB_TB (jobname, jobtype, jobproperty, startexname, progressexname, endexname,  paramproperty) VALUES (
+DELETE from VTTM_COMPJOB_TB where jobname='transcoding';
+INSERT INTO VTTM_COMPJOB_TB (jobname, jobtype, jobproperty, startexname, progressexname, endexname,  paramproperty) VALUES (
 'transcoding', 'tc', '{
 	"select": [{
-		"table": "demo_video_tb",
+		"table": "vttm_video_tb",
 		"alias": "convertvideosrc",
 		"where": ["idx"],
 		"select": "idx as assetid, ''MXF'' as videowrappertype, assetfilepath || ''/''|| assetfilename as filepath, volumewin || ''video/'' as  volumewin , volumeetc || ''video/'' as volumeetc "
 	},{
-		"table": "demo_video_tb",
+		"table": "vttm_video_tb",
 		"alias": "proxyvideos",
 		"where": ["idx"],
 		"select": "idx as idx, assetfilepath || ''/'' || objectid || ''.mp4'' as filepath, ''h264'' as mobtype , volumewin || ''proxyvideo/'' as  volumewin , volumeetc || ''proxyvideo/'' as volumeetc "
 	}],
 	"status": [{
-		"table": "demo_video_tb",
+		"table": "vttm_video_tb",
 		"where": ["idx"],
 		"update": "transcodingstatus"
 	}],
 	"start": [{
-		"table": "demo_video_tb",
+		"table": "vttm_video_tb",
 		"where": ["idx"],
 		"update": "transcodingstarttime"
 	}],
 	"end": [{
-		"table": "demo_video_tb",
+		"table": "vttm_video_tb",
 		"where": ["idx"],
 		"update": "transcodingendtime"
 	}]
@@ -77,32 +77,32 @@ INSERT INTO DEMO_COMPJOB_TB (jobname, jobtype, jobproperty, startexname, progres
 }');
 
 
-DELETE from DEMO_COMPJOB_TB where jobname='convert_video';
-INSERT INTO DEMO_COMPJOB_TB (jobname, jobtype, jobproperty, startexname, progressexname, endexname,  paramproperty) VALUES (
+DELETE from VTTM_COMPJOB_TB where jobname='convert_video';
+INSERT INTO VTTM_COMPJOB_TB (jobname, jobtype, jobproperty, startexname, progressexname, endexname,  paramproperty) VALUES (
 'convert_video', 'tc_video', '{
 	"select": [{
-		"table": "demo_video_tb",
+		"table": "vttm_video_tb",
 		"alias": "convertvideosrc",
 		"where": ["idx"],
 		"select": "idx as assetid, ''MXF'' as videowrappertype, assetfilepath || ''/''|| assetfilename as filepath, volumewin || ''video/'' as  volumewin , volumeetc || ''video/'' as volumeetc "
 	},{
-		"table": "demo_video_tb",
+		"table": "vttm_video_tb",
 		"alias": "proxyvideos",
 		"where": ["idx"],
 		"select": "idx as idx, assetfilepath || ''/'' || objectid || ''.mp4'' as filepath, ''h264'' as mobtype , volumewin || ''proxyvideo/'' as  volumewin , volumeetc || ''proxyvideo/'' as volumeetc "
 	}],
 	"status": [{
-		"table": "demo_video_tb",
+		"table": "vttm_video_tb",
 		"where": ["idx"],
 		"update": "transcodingstatus"
 	}],
 	"start": [{
-		"table": "demo_video_tb",
+		"table": "vttm_video_tb",
 		"where": ["idx"],
 		"update": "transcodingstarttime"
 	}],
 	"end": [{
-		"table": "demo_video_tb",
+		"table": "vttm_video_tb",
 		"where": ["idx"],
 		"update": "transcodingendtime"
 	}]

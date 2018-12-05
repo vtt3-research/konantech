@@ -12,7 +12,7 @@ JAVA 프로젝트로, Gradle 프로젝트로 오픈하면 됩니다.
 개발환경
 >- Intellij IDEA 환경
 >- gradle 프로젝트 열기
->- lombok 라이브러리 사용 ex) @Data 
+>- lombok 라이브러리 사용 ex) @Data
 >- Proferences > Build, Excution, Depoloyment > Compiler > Annotation Processors > Enable annotation processing (체크)
 
 빌드
@@ -25,5 +25,4 @@ $
 ```
 
 DATABASE
-> 1. source > doc > sql > *.sql 파일로 테이블 생성, 기본데이타 구조외
-> 1.  
+> 1. source > doc > sql > *.sql 파일로 테이블 생성, 기본데이타 구조 외

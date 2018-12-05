@@ -2,69 +2,86 @@
 <%@include file="../includes/taglib.jsp" %>
 <c:import url="../includes/header.jsp"/>
 
-
-<div class="container-fluid">
-    <!-- Breadcrumbs-->
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-            <a href="<c:url value='/content'/>">콘텐츠</a>
-        </li>
-        <li class="breadcrumb-item active">객체인식 재생</li>
-    </ol>
-    <div class="row">
-
-        <div class="col-12">
-            <div id="ribbon">
-        <span class="pull-right">
-            <span id="elapsed_time" class="btn btn-ribbon hidden-xs">Press play for HTML5</span>
-            <span id="currentTime" class="btn btn-ribbon hidden-xs">currentTime</span>
-            <span class="left" style="padding-right:10px;">
-                <form class="smart-form" id="search_form" onsubmit="return false;" >
-                    <section>
-                        <label class="input">
-                            <i class="icon-append fa fa-close txt-color-customSky" id="btn_eraser"></i>
-                            <input type="text" placeholder="Search" id="keyword" >
-                        </label>
-                    </section>
-                </form>
-            </span>
-        </span>
+<!-- top navigation -->
+<div class="top_nav">
+    <div class="nav_menu nav_menu-j">
+        <nav>
+            <div class="col-md-5 col-8 align-self-center">
+                <div class="title-txt text-themecolor">
+                    CONTENT
+                </div>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="javascript:void(0)"> 콘텐츠</a>
+                    </li>
+                    <li class="breadcrumb-item active">
+                        객체인식 재생
+                    </li>
+                </ol>
             </div>
-        </div>
+            <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+            </div>
+        </nav>
     </div>
-
-    <div id="content">
-        <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 videobox">
-                <video id="videojs" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto" data-setup='{ "playbackRates" : [0.5, 1.0, 1.5, 2.0] }' style="width: 100%; height: 100%;"></video>
-                <div class="select-video">원본</div>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 videobox" >
-                <div class="videobox-layout">
-                    <canvas id="output1"></canvas>
-                </div>
-                <div class="select-video">얼굴</div>
-            </div>
-        </div>
-
-        <div class="row" style="padding-top:10px;">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 videobox" >
-                <div class="videobox-layout">
-                    <canvas id="output2"></canvas>
-                </div>
-                <div class="select-video">사물</div>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 videobox" >
-                <div class="videobox-layout">
-                    <canvas id="output3"></canvas>
-                </div>
-                <div class="select-video">장소</div>
-            </div>
-        </div>
-    </div>
-
 </div>
+<!-- /top navigation -->
 
+<!-- page content -->
+<div class="right_col" role="main">
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="x_panel">
+                <div id="ribbon">
+                    <span >
+                        <span id="elapsed_time" class="btn btn-ribbon hidden-xs">Press play for HTML5</span>
+                        <span id="currentTime" class="btn btn-ribbon hidden-xs">currentTime</span>
+                        <span class="left" style="padding-right:10px;">
+                            <form class="smart-form" id="search_form" onsubmit="return false;" >
+                                <section>
+                                    <label class="input">
+                                        <i class="icon-append fa fa-close txt-color-customSky" id="btn_eraser"></i>
+                                        <input type="text" placeholder="Search" id="keyword" >
+                                    </label>
+                                </section>
+                            </form>
+                        </span>
+                    </span>
+                </div>
+
+                <div class="x_content superbox" id = "content">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 videobox">
+                            <video id="videojs" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto" data-setup='{ "playbackRates" : [0.5, 1.0, 1.5, 2.0] }' style="width: 100%; height: 100%;"></video>
+                            <div class="select-video">원본</div>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 videobox" >
+                            <div class="videobox-layout">
+                                <canvas id="output1"></canvas>
+                            </div>
+                            <div class="select-video">얼굴</div>
+                        </div>
+                    </div>
+
+                    <div class="row" style="padding-top:10px;">
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 videobox" >
+                            <div class="videobox-layout">
+                                <canvas id="output2"></canvas>
+                            </div>
+                            <div class="select-video">사물</div>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 videobox" >
+                            <div class="videobox-layout">
+                                <canvas id="output3"></canvas>
+                            </div>
+                            <div class="select-video">장소</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <c:import url="../includes/script.jsp"/>
 <script>
@@ -139,7 +156,7 @@
             var sec = code2frame(k, 29.97);
             if(sec <= currentTime) {
                 sel = k;
-                break;
+                break;spdlqj
             }
         }
 
@@ -303,23 +320,35 @@
                 width: frame.width,
                 height: Math.ceil(frame.width * ratio)
             };
+        console.log("ratio : "+ratio);
+        console.log("Math : "+Math.ceil(frame.width * ratio));
+        console.log("video w: "+cover.width);
+        console.log("video h: "+cover.height);
         if (cover.height >= frame.height) {
             cover.height = frame.height;
             cover.width = Math.ceil(frame.height / ratio);
         }
+        console.log("video w: "+cover.width);
+        console.log("video h: "+cover.height);
         return cover;
     }
 
     function resizeVideo() {
         var content_width = $("#content").width() - 30;
         var content_height = $(window).height() - 250;
+        console.log("content_width : "+$("#content").width());
+        console.log("content_height : "+$(window).height());
         var w = content_width / 2;
         var h = content_height / 2;
+        console.log("video w: "+w);
+        console.log("video h: "+h);
         var calcSize = calculateCover({width: w, height: h}, [origin_width,origin_height]);
         $(".videobox").css("height",h);
         $(".videobox-layout").css("height",h);
         $("canvas").attr("width",calcSize.width ).attr("height",calcSize.height );
         $(".select-video").css("margin-top",h * -1);
+        console.log("calcSize w: "+calcSize.width);
+        console.log("calcSize h: "+calcSize.height);
     }
 
 

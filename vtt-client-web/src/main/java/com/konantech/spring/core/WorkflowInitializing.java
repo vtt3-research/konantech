@@ -35,11 +35,11 @@ public class WorkflowInitializing {
                 CompServerTB compServerTB = null;
                 if (compJobQueueTB != null) {
                     compServerTB = workflowMapper.selectAllocServer(compJobQueueTB);
+                    if (compServerTB != null) {
+                        workflowService.updateStatusProc(compJobQueueTB, compServerTB);
+                    }
+                    workflowService.allocJob(compJobQueueTB, compServerTB);
                 }
-                if (compJobQueueTB != null && compServerTB != null) {
-                    workflowService.updateStatusProc(compJobQueueTB, compServerTB);
-                }
-                workflowService.allocJob(compJobQueueTB, compServerTB);
             } catch (Exception e) {
                 log.error(e.getMessage(), e);
             }

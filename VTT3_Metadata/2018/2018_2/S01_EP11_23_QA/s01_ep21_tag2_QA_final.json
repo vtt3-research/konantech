@@ -1,0 +1,592 @@
+{ 
+	"file_name": "s01_ep21_tag2_QA_final.json",
+	"registed_name": "s01_ep21_tag2_QA_final.json", 
+	"qa_results": 
+	[ 
+		{ 
+		"visual_period_num": "1-19", 
+		"period_num": "q1", 
+		"start_time": "00:00:00;00", 
+		"end_time": "00:01:11;23",
+		"related_period": "q3", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Chandler, Ross, Pheobe, Monica, Joey, and Rachel are sitting around the sofa in Monica's apartment. Monica has lost her credit card and everyone is helping Monica check through her credit bill. Marcel the monkey is causing trouble by humping a furniture. The monkey goes into Rachel's room and wrecks Rachel's doll."}, 
+			{ "description": "Everyone is sitting around at Monica's apartment"}, 
+			{ "description": "Monica is checking her credit bill"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How does Monica feel after her credit card has been stolen?", 
+				"question_type": "Emotion", 
+				"answer": "Frustrated", 
+				"wrong_answer1": "Happy", 
+				"wrong_answer2": "Joyful", 
+				"wrong_answer3": "Cheerful", 
+				"wrong_answer4": "Indifferent" } 
+			} ,
+			{ "qa": { 
+				"question": "What is the monkey doing to the lamp?", 
+				"question_type": "Action", 
+				"answer": "Humping it", 
+				"wrong_answer1": "Hugging it", 
+				"wrong_answer2": "Licking it", 
+				"wrong_answer3": "Scratching it", 
+				"wrong_answer4": "Hanging on to it" } 
+				} ,
+			{ "qa": { 
+				"question": "What is Pheobe holding in her hands?", 
+				"question_type": "Visual detail", 
+				"answer": "Cards", 
+				"wrong_answer1": "Credit bill", 
+				"wrong_answer2": "A car key", 
+				"wrong_answer3": "A pencil", 
+				"wrong_answer4": "A wallet" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "42-48", 
+		"period_num": "q2", 
+		"start_time": "00:02:00;15", 
+		"end_time": "00:03:02;07",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Late at night, Monica is still reading through her credit bill in her living room. Rachel comes out of her room to drink water but end up sitting down with her to talk about the bill. Monica is complaining that the woman who stole her credit card is living a more complete life that her by doing and buying the thing that she could only wish for."}, 
+			{ "description": "Monica is still on her sofa having a look at what the person who picked up her card is spending"}, 
+			{ "description": "Rachel joins Monica to discuss the bill"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What color is Monica's sleep gown?", 
+				"question_type": "Visual detail", 
+				"answer": "Red", 
+				"wrong_answer1": "White", 
+				"wrong_answer2": "Black", 
+				"wrong_answer3": "Yellow", 
+				"wrong_answer4": "Blue" } 
+			} ,
+			{ "qa": { 
+				"question": "Who is in the kitchen?", 
+				"question_type": "Person", 
+				"answer": "Rachel and Monica", 
+				"wrong_answer1": "Ross and Joey", 
+				"wrong_answer2": "Chandler and Joey", 
+				"wrong_answer3": "Monica and Pheobe", 
+				"wrong_answer4": "Pheobe and Joey" } 
+				} ,
+			{ "qa": { 
+				"question": "Why did Rachel come out to the kitchen?", 
+				"question_type": "To drink water", 
+				"answer": "To talk to Monica", 
+				"wrong_answer1": "To do some yoga", 
+				"wrong_answer2": "To watch TV", 
+				"wrong_answer3": "To cook", 
+				"wrong_answer4": "To pick up the phone" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "49-61", 
+		"period_num": "q3", 
+		"start_time": "00:03:02;07", 
+		"end_time": "00:04:16;23",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Joey and Chandler are sitting on a sofa in the café. They are brain-storming about what name Joey should use as his acting name. Lacking ideas, Chandler decides to have some fun by suggesting the name \"Joseph Stalin\" to Joey. Joey is satisfied with the name and decides to run with it."}, 
+			{ "description": "Joey and Chandler are at Central perks, trying to come up with Joey's acting name."}, 
+			{ "description": "Chandler recommends a well-known dictator's name for Joey's stage name."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "", 
+				"question_type": "Location", 
+				"answer": "Central Perks", 
+				"wrong_answer1": "Their apartment", 
+				"wrong_answer2": "Ross' apartment", 
+				"wrong_answer3": "Monica's apartment", 
+				"wrong_answer4": "A hospital" } 
+			} ,
+			{ "qa": { 
+				"question": "What are they doing?", 
+				"question_type": "Action", 
+				"answer": "ome up with Joey's acting name", 
+				"wrong_answer1": "Having an argument", 
+				"wrong_answer2": "Choosing what to order", 
+				"wrong_answer3": "Deciding where to go for a trip", 
+				"wrong_answer4": "Waiting for a friend" } 
+				} ,
+			{ "qa": { 
+				"question": "What are the women doing?", 
+				"question_type": "Action", 
+				"answer": "She's serving coffee", 
+				"wrong_answer1": "She's cleaning the table", 
+				"wrong_answer2": "She's joininig the two", 
+				"wrong_answer3": "She's waiting for the payment", 
+				"wrong_answer4": "She's saying hello" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "62-103", 
+		"period_num": "q4", 
+		"start_time": "00:04:16;23", 
+		"end_time": "00:07:49;02",
+		"related_period": "q1", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Monica is sitting in her kitchen. She's calling the dance class that the person who stole her credit card is enrolled to and wants to find out who the person is for herself. Rachel and Pheobe come back from the laundry room to see Monica on the phone. At first, Rachel tries to talk Monica out of the idea, however, decides to go down to the class with her. At the dance class, the three are trying out dancing moves that they are not used to. Later, Rachel and Pheobe become dance partners and Monica is left alone. She is joined by a late student who's name is also Monica."}, 
+			{ "description": "Monica is thinking of going down to the dance class to see her credit card thief"}, 
+			{ "description": "Monica meets another Monica and is partnered with her to dance"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Rachel holding?", 
+				"question_type": "Visual detail", 
+				"answer": "Laundry basket", 
+				"wrong_answer1": "Mobile phone", 
+				"wrong_answer2": "A computer", 
+				"wrong_answer3": "An Ipad", 
+				"wrong_answer4": "A key" } 
+			} ,
+			{ "qa": { 
+				"question": "Why does Monica want to visit the dance class?", 
+				"question_type": "Reason", 
+				"answer": "To see the person who has been living her life with her credit card", 
+				"wrong_answer1": "To learn dancing", 
+				"wrong_answer2": "To spend time with other people", 
+				"wrong_answer3": "To get out of boredom", 
+				"wrong_answer4": "To spend some money" } 
+				} ,
+			{ "qa": { 
+				"question": "Who becomes partners in the dancing class?", 
+				"question_type": "Action", 
+				"answer": "Rachel and Pheobe", 
+				"wrong_answer1": "Monica and Pheobe", 
+				"wrong_answer2": "Monica and Rachel", 
+				"wrong_answer3": "Rachel and Nina", 
+				"wrong_answer4": "Pheobe and Joey" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "104-112", 
+		"period_num": "q5", 
+		"start_time": "00:07:49;02", 
+		"end_time": "00:08:46;17",
+		"related_period": "q7", 
+		"causation&intention": "의도",
+		"description_info": 
+		[ 
+			{ "description": "Joey and Chandler are sitting on the sofa in Central Perks. Ross walks in with a sad look on his face. Ross talks about his trip to the veterinary for his monkey, Marcel, and how it needs to be in a more suitable environment. Ross is told that Marcel's natural instinct to mate will only grow more aggressive, leaving him with no choice but to give him up."}, 
+			{ "description": "Joey, Chandler, and Ross are having a discussion in the café"}, 
+			{ "description": "Ross breaks the news that he might have to give up his monkey"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What state of mind is Ross in?", 
+				"question_type": "Emotion", 
+				"answer": "Devastated", 
+				"wrong_answer1": "Joyful", 
+				"wrong_answer2": "Ecstatic", 
+				"wrong_answer3": "Cheerful", 
+				"wrong_answer4": "Calm" } 
+			} ,
+			{ "qa": { 
+				"question": "Why is Ross sad?", 
+				"question_type": "Reason", 
+				"answer": "He has to give up his monkey", 
+				"wrong_answer1": "He doesn't have enough money to raise his monkey", 
+				"wrong_answer2": "He is fed up with his monkey", 
+				"wrong_answer3": "He lost his monkey", 
+				"wrong_answer4": "He doesn't know what to do with his monkey" } 
+				} ,
+			{ "qa": { 
+				"question": "Where is Ross sitting?", 
+				"question_type": "Visual detail", 
+				"answer": "Between Joey and Chandler", 
+				"wrong_answer1": "Between Rachel and Joey", 
+				"wrong_answer2": "Between Monica and Pheobe", 
+				"wrong_answer3": "Between Joey and Monica", 
+				"wrong_answer4": "Between Rachel and Chandler" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "113-138", 
+		"period_num": "q6", 
+		"start_time": "00:08:46;17", 
+		"end_time": "00:10:44;18",
+		"related_period": "q6", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "The three gather around to talk about the options. Ross mentions a few zoo names to send Marcel to. Rachel, Monica, and Pheobe come into the café to talk about the other \"Monica\" that they met at the dancing class. The girls are in love with the new Monica that they've just met and the boys don't understand how they even got to have lunch together."}, 
+			{ "description": "Everyone is sitting around the sofa in Central Perks."}, 
+			{ "description": "Ross and the boys are contemplating on which zoo to send Marcel, while the girls share the story about lunch with the newly befriended Monica."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Which zoo does Ross state that he might send the monkey to?", 
+				"question_type": "Statement", 
+				"answer": "San Diego zoo", 
+				"wrong_answer1": "Langley zoo", 
+				"wrong_answer2": "Bronx zoo", 
+				"wrong_answer3": "Singapore zoo", 
+				"wrong_answer4": "Toronto zoo" } 
+			} ,
+			{ "qa": { 
+				"question": "Why do the girls take Monica out for lunch?", 
+				"question_type": "Reason", 
+				"answer": "She has an amazing personality", 
+				"wrong_answer1": "She is very rich", 
+				"wrong_answer2": "She is very poor", 
+				"wrong_answer3": "She is very kind", 
+				"wrong_answer4": "She is very sincere" } 
+				} ,
+			{ "qa": { 
+				"question": "Does Rachel like the new Monica?", 
+				"question_type": "Relationship", 
+				"answer": "Yes, very much", 
+				"wrong_answer1": "Yes, but only slightly", 
+				"wrong_answer2": "No, she hates her", 
+				"wrong_answer3": "No, but only slightly", 
+				"wrong_answer4": "Yes, but she is keeping her guards up" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "139-158", 
+		"period_num": "q7", 
+		"start_time": "00:10:44;18", 
+		"end_time": "00:12:50;00",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Rachel and the two Monicas are hanging around the kitchen at Monica's apartment. Monica shares a story of how she was thrown out of a hotel once. Monica is pasting butter on to baguettes while chatting with the group. After Rachel leaves for work, the two Monicas sit around the kitchen table and talk about an audition for the Broadway show \"Cats\". The new Monica suggests Monica join her for the audition."}, 
+			{ "description": "Rachel and the two Monicas are chatting with each other at Monica and Rachel's apartment kitchen."}, 
+			{ "description": "The three are in a very good mood and are loving each other's company"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Monica doing?", 
+				"question_type": "Action", 
+				"answer": "She's putting butter on to the Baguettes", 
+				"wrong_answer1": "None", 
+				"wrong_answer2": "She is pouring coffee in to mug cups", 
+				"wrong_answer3": "She's doing nothing", 
+				"wrong_answer4": "She's watching tv" } 
+			} ,
+			{ "qa": { 
+				"question": "Where is Rachel going?", 
+				"question_type": "Action", 
+				"answer": "To her work", 
+				"wrong_answer1": "To her parent's house", 
+				"wrong_answer2": "To the bathroom", 
+				"wrong_answer3": "To the hallway", 
+				"wrong_answer4": "To the supermarket" } 
+				} ,
+			{ "qa": { 
+				"question": "What does Monica suggest?", 
+				"question_type": "Statement", 
+				"answer": "To join her for a broadway audtion", 
+				"wrong_answer1": "To help her move", 
+				"wrong_answer2": "To go on a date with her", 
+				"wrong_answer3": "To attend the dancing class with her", 
+				"wrong_answer4": "To go out for a lunch" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "159-177", 
+		"period_num": "q8", 
+		"start_time": "00:12:50;00", 
+		"end_time": "00:14:10;02",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross, Rachel, Pheobe and Chandler are sitting around the living room. Ross is reading the replied letters from various zoos and is disappointed that his monkey has not been accepted by the zoos. The monkey is behaving anxiously and humps a chair. Joey walks into the apartment, also let down, after hearing that he would be stage name \"Joseph Stalin\" is actually a name of a real historical figure who slaughtered masses of people."}, 
+			{ "description": "Ross, Chandler, Rachel, and Pheobe are in the living room, going through some letters sent from various zoos"}, 
+			{ "description": "Joey walks into the apartment disappointed that he cannot use his stage name."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Ross doing in the scene?", 
+				"question_type": "Action", 
+				"answer": "He's reading through the letters.", 
+				"wrong_answer1": "He's watching tv", 
+				"wrong_answer2": "He's playing game boy", 
+				"wrong_answer3": "He's dancing to a tune", 
+				"wrong_answer4": "He's writing a letter" } 
+			} ,
+			{ "qa": { 
+				"question": "How is Joey feeling?", 
+				"question_type": "Emotion", 
+				"answer": "Dissapointed", 
+				"wrong_answer1": "Happy", 
+				"wrong_answer2": "Cheerful", 
+				"wrong_answer3": "Hopeful", 
+				"wrong_answer4": "Annoyed" } 
+				} ,
+			{ "qa": { 
+				"question": "What is Pheobe doing?", 
+				"question_type": "Visual detail", 
+				"answer": "She is playing a Game Boy", 
+				"wrong_answer1": "She is playing a card game", 
+				"wrong_answer2": "She is knitting", 
+				"wrong_answer3": "She is reading a book", 
+				"wrong_answer4": "She is cutting her nails." 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "178-193", 
+		"period_num": "q9", 
+		"start_time": "00:14:10;02", 
+		"end_time": "00:15:30;03",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross is having a meeting with a zoo owner, who seems to be a little sketchy. The owner asks him weird questions like how the monkey would react to other animals around and how it would cope with holding tools like blades and hammers. Ross senses something is not right with this particular owner. Soon after, Joey and Chandler run into the cafe with the news that Marcel is accepted to the San Diego zoo. Ross, Chandler, and Joey are ecstatic."}, 
+			{ "description": "Ross is having a meeting with a stranger zoo owner"}, 
+			{ "description": "Joey and Chandler run into the café with the news that Marcel is accepted to the San Diego zoo."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Ross doing at the Café?", 
+				"question_type": "Event", 
+				"answer": "He's having a meeting", 
+				"wrong_answer1": "He's meeting up with an old friend", 
+				"wrong_answer2": "He's out on a date", 
+				"wrong_answer3": "He's doing a job interview", 
+				"wrong_answer4": "He's interviewing someone" } 
+			} ,
+			{ "qa": { 
+				"question": "What does Joey feel about the zoo owner?", 
+				"question_type": "Emotion", 
+				"answer": "Suspicious", 
+				"wrong_answer1": "Trustworthy", 
+				"wrong_answer2": "Sincere", 
+				"wrong_answer3": "Dependent", 
+				"wrong_answer4": "Lovely" } 
+				} ,
+			{ "qa": { 
+				"question": "Why are Chandler, Ross, and Joey so happy in the scene?", 
+				"question_type": "Reason", 
+				"answer": "Because the monkey is off to safe hands now", 
+				"wrong_answer1": "Because thet got rid of the monkey", 
+				"wrong_answer2": "Because their sports team won", 
+				"wrong_answer3": "Because they are getting a day off", 
+				"wrong_answer4": "Because they are selling the monkey" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "194-213", 
+		"period_num": "q10", 
+		"start_time": "00:15:31;02", 
+		"end_time": "00:17:37;06",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Rachel is at home doing some house chores like dusting off the kitchen table. Monica comes into the house in a clownish manner, implying that she is very drunk. Rachel is annoyed that she was not able to get a hold of Monica. Rachel is worried about Monica, as she has missed her shifts lately and that she might get laid off from her work. Monica argues that she is having real fun with the new Monica and that everything is fine. Monica receives the phone call that Monica has been arrested."}, 
+			{ "description": "Rachel is cleaning the table in her kitchen"}, 
+			{ "description": "Monica answers the phone call that Monica has been arrested."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Rachel doing in the scene?", 
+				"question_type": "Action", 
+				"answer": "She is wiping the table", 
+				"wrong_answer1": "She is reading the newspapers", 
+				"wrong_answer2": "She is looking for her keys", 
+				"wrong_answer3": "She is drinking coffee", 
+				"wrong_answer4": "She is waiting for Monica" } 
+			} ,
+			{ "qa": { 
+				"question": "Where are Rachel and Monica?", 
+				"question_type": "Location", 
+				"answer": "In their apartment", 
+				"wrong_answer1": "At the café", 
+				"wrong_answer2": "In their washroom", 
+				"wrong_answer3": "In Joey's apartment", 
+				"wrong_answer4": "At Ross' apartment" } 
+				} ,
+			{ "qa": { 
+				"question": "Why does Monica look so shocked?", 
+				"question_type": "Reason", 
+				"answer": "Because she heard the news that Monica has been arrested", 
+				"wrong_answer1": "Because she realized how drunk she was", 
+				"wrong_answer2": "Because she left her keys somewhere", 
+				"wrong_answer3": "Because she had lost her wallet", 
+				"wrong_answer4": "Because she heard the monkey is off to San Diego" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "214-230", 
+		"period_num": "q11", 
+		"start_time": "00:17:39;05", 
+		"end_time": "00:19:52;03",
+		"related_period": "q3", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Monica visits the correctional complex where Monica is being held captive. She tells the truth about how she is the owner of the credit card that Monica had been using. Monica is feeling uneasy on going back to her daily routine. At the dance studio, Monica is fully dressed in a dance outfit and is standing at the front door. After hesitating, she walks in and does a dance move of her style."}, 
+			{ "description": "Monica visits Monica to the correctional complex in New York City"}, 
+			{ "description": "Monica confesses about her identity"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where is Monica in the scene?", 
+				"question_type": "Location", 
+				"answer": "New York City correctional complex", 
+				"wrong_answer1": "Central Perks", 
+				"wrong_answer2": "Central Park", 
+				"wrong_answer3": "New York City zoo", 
+				"wrong_answer4": "The Empire state building" } 
+			} ,
+			{ "qa": { 
+				"question": "Why is Monica arrested?", 
+				"question_type": "Reason", 
+				"answer": "She stole Monica's credit card", 
+				"wrong_answer1": "She broke in to a house", 
+				"wrong_answer2": "She is wrongly accused", 
+				"wrong_answer3": "She was caught driving under the influence", 
+				"wrong_answer4": "She stole a monkey" } 
+				} ,
+			{ "qa": { 
+				"question": "What color is the new Monica's clothe?", 
+				"question_type": "Visual detail", 
+				"answer": "Blue", 
+				"wrong_answer1": "Black", 
+				"wrong_answer2": "Yellow", 
+				"wrong_answer3": "Orange", 
+				"wrong_answer4": "Red" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "231-248", 
+		"period_num": "q12", 
+		"start_time": "00:19:52;03", 
+		"end_time": "00:22:00;23",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross, Rachel, Pheobe, Chandler, and Joey are at the airport to say goodbye to Marcel the monkey. They each take turns to say they're goodbyes. Rachel gifts Marcel a monkey doll. Ross asks for a private moment with the monkey but Marcel tries to hump his leg, leaving with him with no choice but to take him away. Ross is feeling sad to see Marcel go."}, 
+			{ "description": "Ross, Chandler, Rachel, Pheobe, and Joey are at the airport."}, 
+			{ "description": "The group are at the airport to say goodbye to Marcel"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where are the group at?", 
+				"question_type": "Location", 
+				"answer": "Airport", 
+				"wrong_answer1": "Zoo", 
+				"wrong_answer2": "University", 
+				"wrong_answer3": "Supermarket", 
+				"wrong_answer4": "Pet Land" } 
+			} ,
+			{ "qa": { 
+				"question": "What does Rachel give to Marcel?", 
+				"question_type": "Visual detail", 
+				"answer": "A monkey doll", 
+				"wrong_answer1": "A cigarette", 
+				"wrong_answer2": "A Banana", 
+				"wrong_answer3": "A pillow", 
+				"wrong_answer4": "A kiss" } 
+				} ,
+			{ "qa": { 
+				"question": "What state of mind is Ross in?", 
+				"question_type": "Emotion", 
+				"answer": "Sad", 
+				"wrong_answer1": "Happy", 
+				"wrong_answer2": "Excited", 
+				"wrong_answer3": "Bored", 
+				"wrong_answer4": "Depressed" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "249-249", 
+		"period_num": "q13", 
+		"start_time": "00:22:10;12", 
+		"end_time": "00:22:36;12",
+		"related_period": "q4", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "A man is saying out his lines for an audition on stage. Joey enters the stage when it is his turn. The judges ask what his stage name is. Joey replies \"Holden Mcgrowyn\"."}, 
+			{ "description": "Joey is at an audition for a theatre production"}, 
+			{ "description": "Joey says his new stage name"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What is Joey doing?", 
+				"question_type": "Event", 
+				"answer": "He is getting auditioned by judges", 
+				"wrong_answer1": "He is doing a play", 
+				"wrong_answer2": "He is acting out a role on stage", 
+				"wrong_answer3": "He is competing at a speech competition", 
+				"wrong_answer4": "He is speaking infront of a group of people" } 
+			} ,
+			{ "qa": { 
+				"question": "Where is Joey?", 
+				"question_type": "Location", 
+				"answer": "On a stage", 
+				"wrong_answer1": "At the café", 
+				"wrong_answer2": "At a bathroom", 
+				"wrong_answer3": "At his apartment", 
+				"wrong_answer4": "At Ross' apartment" } 
+				} ,
+			{ "qa": { 
+				"question": "Why is he on a stage?", 
+				"question_type": "Reason", 
+				"answer": "To start an audtion for a theatre play", 
+				"wrong_answer1": "To take pictures", 
+				"wrong_answer2": "To check out the theatre from a better view", 
+				"wrong_answer3": "To meet his fans", 
+				"wrong_answer4": "To run away from the cops" 
+				} 
+			} 
+		] 
+	}
+	]
+}

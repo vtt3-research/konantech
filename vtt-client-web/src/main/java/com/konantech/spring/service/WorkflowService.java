@@ -1,9 +1,11 @@
 package com.konantech.spring.service;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.konantech.spring.domain.content.ContentQuery;
+import com.konantech.spring.domain.storyboard.ShotTB;
 import com.konantech.spring.domain.workflow.*;
+import com.konantech.spring.mapper.StoryboardMapper;
 import com.konantech.spring.mapper.WorkflowMapper;
 import com.konantech.spring.util.JSONUtils;
 import com.konantech.spring.util.RequestUtils;
@@ -14,6 +16,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -22,12 +25,10 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
+import java.io.File;
 import java.io.IOException;
 import java.net.URI;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 @Service
 @Transactional(propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
@@ -36,6 +37,12 @@ public class WorkflowService {
 
     @Autowired
     private WorkflowMapper workflowMapper;
+
+    @Autowired
+    StoryboardMapper storyboardMapper;
+
+    @Value("${darc.proxyShotFolder}")
+    public String proxyShotFolder;
 
     public int checkin(HttpServletRequest request, CheckInRequest checkInRequest) throws Exception {
 
@@ -286,8 +293,22 @@ public class WorkflowService {
         if (workflowHisTB == null) {
             throw new Exception("workflow 데이타가 존재하지 않습니다");
         }
+        if (status == STATUS.SUCCESS) {
+            ObjectMapper mapper = new ObjectMapper();
+            CompJobQueueTB compJob = workflowMapper.selectJobByID(jobId);
+            try {
+                Map param = mapper.readValue(compJob.getParamlist(), HashMap.class);
+                int videoid = (int) param.get("idx");
+                readJson(videoid);
+
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
         DArcWorkflowSchema workflowSchema = new DArcWorkflowSchema(workflowMapper, workflowHisTB.getWorkflowname(), workflowHisTB.getSubtype());
         workflowSchema.reportResult(httpSession, compJobQueueTB, workflowHisTB, status, message);
+
+
 
         DArcCompserverSchema compserverSchema = new DArcCompserverSchema(workflowMapper, compServerTB.getCompservername());
         compserverSchema.setCompserverStatus(status, compServerTB);
@@ -354,5 +375,39 @@ public class WorkflowService {
         }
 
         return true;
+    }
+
+
+
+
+
+    public void readJson(int videoid) throws Exception {
+        ContentQuery param = new ContentQuery();
+        param.setIdx(videoid);
+        List<ShotTB> shotList = storyboardMapper.getShotList(param);
+        Map upParam = new HashMap();
+        ObjectMapper mapper = new ObjectMapper();
+        for(ShotTB shot : shotList){
+            String assetFilePath = shot.getAssetfilepath();
+            String assetFileName = shot.getAssetfilename();
+            assetFileName = assetFileName.substring(0,assetFileName.indexOf("."));
+            File dir = new File(proxyShotFolder+"/"+assetFilePath+assetFileName);
+            if(dir.exists()&&dir.isDirectory()){
+                File[] jsonFils = dir.listFiles((file, name) -> name.toLowerCase().endsWith(".json"));
+                Arrays.sort(jsonFils);
+                System.out.println(dir.getName());
+                if(jsonFils != null && jsonFils.length>0) {
+                    Arrays.sort(jsonFils);
+                    List json = JSONUtils.jsonFileToList(jsonFils[0]);
+                    String jsonString = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(json);
+                    upParam.put("videoid",shot.getVideoid());
+                    upParam.put("shotid",shot.getShotid());
+                    upParam.put("object",jsonString);
+                    System.out.println(jsonFils[0].getName()+"/"+jsonString);
+                    storyboardMapper.updateShotItem(upParam);
+                }
+            }
+
+        }
     }
 }

@@ -2,76 +2,23 @@
 <%@include file="../includes/taglib.jsp" %>
 
 
-<div class="row">
-    <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="" id="wid-id-0" data-widget-editbutton="false">
-            <div>
-                <div class="jarviswidget-editbox">
-                </div>
-                <!-- widget content -->
-                <div class="widget-body">
-                    <%--<p>Adds borders to any table row within <code>&lt;table&gt;</code> by adding the <code>.table-bordered</code> with the base class</p>--%>
-                    <div class="table-responsive">
-
-                        <table class="table table-bordered">
-                            <colgroup>
-                                <col style="width:60px;">
-                                <col style="width:60px;">
-                                <%--<col style="width:100px;">--%>
-                                <col style="width:100px;">
-                                <col style="width:auto;">
-                            </colgroup>
-                            <thead>
-                            <tr>
-                                <th>순번</th>
-                                <th>IDX</th>
-                                <%--<th>트랜스코딩</th>--%>
-                                <th>카탈로깅</th>
-                                <th>제목</th>
-                            </tr>
-                            </thead>
-                            <tbody id="content_assets">
-
-                            <c:forEach var="item" items="${ listResponse.list }" varStatus="index" >
+                        <c:forEach var="item" items="${ listResponse.list }" varStatus="index" >
                             <tr>
                                 <input type="hidden" name="idx" value="${ item.idx }" />
-                                <td>${ listResponse.total - index.count + 1 }</td>
-                                <td>${ item.idx }</td>
-                                <%--<td><c:import url="content_status.jsp"><c:param name="status" value="${item.transcodingstatus}"/></c:import></td>--%>
-                                <td><c:import url="content_status.jsp"><c:param name="status" value="${item.catalogstatus}"/></c:import></td>
+                                <td class="a-center" style="width: 39px;">
+                                    <input type="checkbox" class="flat" name="table_records">
+                                </td>
+
+                                <td class="list-num" style="width: 10%;">
+                                        ${ listResponse.total - index.count + 1 }
+                                </td>
+                                <td style="width: 10%;">${ item.idx }</td>
+                                    <%--<td><c:import url="content_status.jsp"><c:param name="status" value="${item.transcodingstatus}"/></c:import></td>--%>
+                                <td style="width: 20%;"><c:import url="content_status.jsp"><c:param name="status" value="${item.catalogstatus}"/></c:import></td>
                                 <td class="text" >${ fn:replace(item.title, query.keyword, highlight ) }</td>
+
                             </tr>
-                            </c:forEach>
-
-                            </tbody>
-                        </table>
-                        <div class="dt-toolbar-footer">
-                            <div class="row">
-                                <div class="col-sm-12 col-md-5">
-                                    <div class="dataTables_info" id="dt_basic_info" role="status" aria-live="polite"></div>
-                                </div>
-                                <div class="col-sm-12 col-md-7" style="padding-right: 0;">
-                                    <div class="dataTables_paginate paging_simple_numbers" id="dt_basic_paginate">
-                                        <ul class="pagination" style="justify-content: flex-end;"></ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-    </article>
-
-</div>
-
+                        </c:forEach>
 <script>
 
 
@@ -134,7 +81,8 @@
     });
 
     $(".table tbody tr").on("dblclick", "td:gt(0)", function (e) {
-        $("#btn_play").click();
+        console.log(".table tbody tr");
+        $("#btn_vtt_visual_edit").click();
     });
 
 

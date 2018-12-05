@@ -1,0 +1,682 @@
+{ 
+	"file_name": "s01_ep16_tag2_QA_final.json",
+	"registed_name": "s01_ep16_tag2_QA_final.json", 
+	"qa_results": 
+	[ 
+		{ 
+		"visual_period_num": "1-7", 
+		"period_num": "q1", 
+		"start_time": "00:00:05;17", 
+		"end_time": "00:00:40;05",
+		"related_period": "q2", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Chandler and Joey are dining out at the Riff's. Both are frustrated by the absence of a waitress. Both mistakes Ursula for Pheobe. The two ask questions thinking that Ursula is Pheobe."}, 
+			{ "description": "Joey and Chandler are waiting to order food at the Riff's"}, 
+			{ "description": "Pheobe's twin sister Ursula walks in after being called up by the two."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why are Chandler and Joey upset?", 
+				"question_type": "emotion", 
+				"answer": "Because they couldn't find anyone to order food", 
+				"wrong_answer1": "Because they had an argument", 
+				"wrong_answer2": "Because the staff memebers were very rude", 
+				"wrong_answer3": "Because they didn't have any money", 
+				"wrong_answer4": "Because there weren't enough seats available" } 
+			} ,
+			{ "qa": { 
+				"question": "What were the two main reasons for Ursula to work at the Riffs?", 
+				"question_type": "Reason", 
+				"answer": "1. It's close to her place 2. The aprons were cute", 
+				"wrong_answer1": "1.Good wage 2. Good vibe", 
+				"wrong_answer2": "1. Not many cutomers 2. Good tip money", 
+				"wrong_answer3": "1. Delicious food 2. Good Benefits", 
+				"wrong_answer4": "1. Safe environment 2. Familiar customers" } 
+				} ,
+			{ "qa": { 
+				"question": "Who is the girl in the scene?", 
+				"question_type": "Visual detail", 
+				"answer": "Ursula", 
+				"wrong_answer1": "Pheobe", 
+				"wrong_answer2": "Rachel", 
+				"wrong_answer3": "Monica", 
+				"wrong_answer4": "Carol" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "8-44", 
+		"period_num": "q2", 
+		"start_time": "00:01:36;01", 
+		"end_time": "00:03:58;16",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross, Pheobe, Monica, and Rachel are in the Central Perk, sitting around the sofa. Ross is talking about his hardship in relations to his monkey. Joey and Chandler peek through the window of Central Perks from outside, discussing how similar Pheobe and Ursula look alike. The two walks into the cafe and talks to Pheobe about Ursula. Pheobe lets the gang know about her uneasy relationship with her twin sister. Ross ready himself to attend his parenting class. Ross expresses his uncomfortableness with the whole situation in regards to his wife and her partner by mistakenly putting on Monica's jacket."}, 
+			{ "description": "The whole group gathers in on around the café. Joey and Chandler tell the others about Ursula."}, 
+			{ "description": "Ross shares his feelings on attending a Lamaze class"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Where does Pheobe's twin sister work at?", 
+				"question_type": "Location", 
+				"answer": "Riff's", 
+				"wrong_answer1": "Mcdonalds", 
+				"wrong_answer2": "Pizza Hut", 
+				"wrong_answer3": "Dominos", 
+				"wrong_answer4": "KFC" } 
+			} ,
+			{ "qa": { 
+				"question": "Who's attending the Lamaze class?", 
+				"question_type": "Person", 
+				"answer": "Ross, Susan and Carol", 
+				"wrong_answer1": "Joey, Pheobe, Chandler", 
+				"wrong_answer2": "Steve, Rachel, Merkel", 
+				"wrong_answer3": "Ross, Rachel, Joey", 
+				"wrong_answer4": "Carol, Monica, Ross" } 
+				} ,
+			{ "qa": { 
+				"question": "Who's jacket does Ross accidentally put on?", 
+				"question_type": "Visual detail", 
+				"answer": "Monica's", 
+				"wrong_answer1": "Rachel's", 
+				"wrong_answer2": "Joey's", 
+				"wrong_answer3": "Chandler's", 
+				"wrong_answer4": "Pheobe's" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "45-54", 
+		"period_num": "q3", 
+		"start_time": "00:03:58;16", 
+		"end_time": "00:05:08;04",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Ross, Susan, and Carol are at the Lamaze class with other expecting parents. The session begins with couples introducing themselves in a circle. When it is Ross' turn, he has a nervous breakdown and has trouble explaining his relationship complications."}, 
+			{ "description": "Ross and his wife & her girlfriend are at a Lamaze class, sitting in a circle with other parents."}, 
+			{ "description": "The three-membered group seems nervous about what others may think of them."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "How many children are the Rostins expecting?", 
+				"question_type": "Statement", 
+				"answer": "2", 
+				"wrong_answer1": "1", 
+				"wrong_answer2": "3", 
+				"wrong_answer3": "4", 
+				"wrong_answer4": "0" } 
+			} ,
+			{ "qa": { 
+				"question": "Why does Ross stutter when it was his turn?", 
+				"question_type": "Causality", 
+				"answer": "He was afraid people might not be so accepting of his situation.", 
+				"wrong_answer1": "He wanted to act funny on purpose", 
+				"wrong_answer2": "He was angry with something", 
+				"wrong_answer3": "He was feeling tired", 
+				"wrong_answer4": "He wanted to go to the bathroom" } 
+				} ,
+			{ "qa": { 
+				"question": "What is the husband's name of the first couple?", 
+				"question_type": "Person", 
+				"answer": "Michael", 
+				"wrong_answer1": "Ross", 
+				"wrong_answer2": "Ricardo", 
+				"wrong_answer3": "Steve", 
+				"wrong_answer4": "Joey" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "55-63", 
+		"period_num": "q4", 
+		"start_time": "00:05:08;04", 
+		"end_time": "00:06:00;16",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Chandler is in the office reading through reports. Helen, the secretary, buzzes to let him know that Nina is here. Chandler lets Nina in and discusses the mistake that she's made on the Friday's report. The two giggles with fun as Nina picks up the word Weenus."}, 
+			{ "description": "Chandler is in his office doing his work"}, 
+			{ "description": "Nina comes into Chandler's office to discuss the mistakes she made."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who does Chandler talk to before he lets Nina in?", 
+				"question_type": "Action", 
+				"answer": "Helen", 
+				"wrong_answer1": "Ross", 
+				"wrong_answer2": "Rachel", 
+				"wrong_answer3": "Joey", 
+				"wrong_answer4": "Chandler" } 
+			} ,
+			{ "qa": { 
+				"question": "What mistakes did Nina make?", 
+				"question_type": "Action", 
+				"answer": "She postdated the numbers in her reports", 
+				"wrong_answer1": "She was on the phone during work hours", 
+				"wrong_answer2": "She was being loud in her office", 
+				"wrong_answer3": "She was having issues with ther co-workers", 
+				"wrong_answer4": "She was getting laid off" } 
+				} ,
+			{ "qa": { 
+				"question": "What is the color of Chandler's pants?", 
+				"question_type": "Visual detail", 
+				"answer": "Black", 
+				"wrong_answer1": "Red", 
+				"wrong_answer2": "Blue", 
+				"wrong_answer3": "White", 
+				"wrong_answer4": "Yellow" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "64-93", 
+		"period_num": "q5", 
+		"start_time": "00:06:00;16", 
+		"end_time": "00:08:31;01",
+		"related_period": "q4", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Chandler, Ross, Pheobe, Monica, and Rachel are getting ready to eat their Chinese takeout food at Monica's apartment. Chandler expresses that he really likes Nina from work. Meanwhile, Marcel, the monkey, grabs hold of the TV remote and refuses to give it back to Ross. Eventually, Marcel changes the audio option to Spanish and Ross is not sure how to change it back to English. Joey walks in after visiting Riff's for the second time to go talk to Ursula. He is pleased that the feeling is mutual. Joey asks for Pheobe's permission to go out with Ursula and Pheobe reluctantly agrees."}, 
+			{ "description": "Chandler, Ross, Pheobe, Monica, and Rachel are eating dinner at Monica's apartment."}, 
+			{ "description": "Joey is very much into Ursula."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Which language did Marcel change the TV settings to?", 
+				"question_type": "Action", 
+				"answer": "Spanish", 
+				"wrong_answer1": "Korean", 
+				"wrong_answer2": "Chinese", 
+				"wrong_answer3": "French", 
+				"wrong_answer4": "Russian" } 
+			} ,
+			{ "qa": { 
+				"question": "What extra food did Ursula give to Joey?", 
+				"question_type": "Statement", 
+				"answer": "A tuna melt and 4 plates of curly fries", 
+				"wrong_answer1": "A slice of Pizza and an avocado", 
+				"wrong_answer2": "A plate of Yam fries and a cheesecake", 
+				"wrong_answer3": "A box of chocolate", 
+				"wrong_answer4": "A California roll" } 
+				} ,
+			{ "qa": { 
+				"question": "How does Pheobe feel about Joey and Ursula going out?", 
+				"question_type": "Emotion", 
+				"answer": "Reluctant", 
+				"wrong_answer1": "Very happy for them", 
+				"wrong_answer2": "Angry", 
+				"wrong_answer3": "Sad", 
+				"wrong_answer4": "Not interested" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "94-106", 
+		"period_num": "q6", 
+		"start_time": "00:08:36;19", 
+		"end_time": "00:09:59;18",
+		"related_period": "q3", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Ross walks into his Lamaze classroom but only finds Susan. They decide to stay put and Susan flips a coin to have one of them fill in for Carol's place in a breathing exercise. As a result, Ross was chosen as the maternal role and Susan for the paternal role."}, 
+			{ "description": "Susan and Ross meet up at the Lamaze class without Carol."}, 
+			{ "description": "Ross takes the mother role while doing a breathing exercise."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why couldn't Carol make it to the class?", 
+				"question_type": "Causality", 
+				"answer": "She was stuck at scool", 
+				"wrong_answer1": "She was stuck in traffic", 
+				"wrong_answer2": "She slept in bed", 
+				"wrong_answer3": "She forgot about the class", 
+				"wrong_answer4": "She didn't want to be at the class" } 
+			} ,
+			{ "qa": { 
+				"question": "How did they decide who gets to be the mom?", 
+				"question_type": "Method", 
+				"answer": "They flipped a coin", 
+				"wrong_answer1": "They played rock scissors paper", 
+				"wrong_answer2": "They arm wrestled", 
+				"wrong_answer3": "They argued until they found a solution", 
+				"wrong_answer4": "They got someone else to choose for them" } 
+				} ,
+			{ "qa": { 
+				"question": "What is the color of the baby doll that Susan is holding?", 
+				"question_type": "Visual detail", 
+				"answer": "Black", 
+				"wrong_answer1": "Yellow", 
+				"wrong_answer2": "White", 
+				"wrong_answer3": "Blue", 
+				"wrong_answer4": "Ginger" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "107-115", 
+		"period_num": "q7", 
+		"start_time": "00:09:59;18", 
+		"end_time": "00:11:10;14",
+		"related_period": "q4", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Chandler is playing with his toy until Mr.D comes into the room. Chandler is then notified of the news that Nina is to be fired immediately. Then Nina is brought up to the office, however, Chandler fails to deliver the message as he was not used to such a role, asks Nina out on a date instead."}, 
+			{ "description": "At the office, Chandler is put in a position to fire Nina"}, 
+			{ "description": "Chandler asks out Nina instead of firing her"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Why was Chandler mentioning about his sleep patterns and hair looks?", 
+				"question_type": "Causality", 
+				"answer": "He thought he was getting fired", 
+				"wrong_answer1": "He wanted to share his concerns", 
+				"wrong_answer2": "He was excited about something", 
+				"wrong_answer3": "He wanted to express his apologies", 
+				"wrong_answer4": "He was scared that he might have to fire Nina" } 
+			} ,
+			{ "qa": { 
+				"question": "Who does Chandler have to fire?", 
+				"question_type": "Action", 
+				"answer": "Nina", 
+				"wrong_answer1": "Rachel", 
+				"wrong_answer2": "Pheobe", 
+				"wrong_answer3": "Monica", 
+				"wrong_answer4": "Mr.D" } 
+				} ,
+			{ "qa": { 
+				"question": "What does Chandler end up saying to Nina?", 
+				"question_type": "Statement", 
+				"answer": "He asks her out on a date", 
+				"wrong_answer1": "He tells her she's fired", 
+				"wrong_answer2": "He tells her that she's promoted", 
+				"wrong_answer3": "He tells her about his love for sports", 
+				"wrong_answer4": "He tells her he loves her" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "116-126", 
+		"period_num": "q8", 
+		"start_time": "00:11:13;20", 
+		"end_time": "00:12:47;15",
+		"related_period": "q1", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Pheobe is sitting on a bar stool at the café. Rachel asks Pheobe on what kind of gift she would like to receive. Shortly after, two women come into the café and immediately mistaken Pheobe for Ursula. They come up to Pheobe to make an order and Pheobe answers back in a funny way."}, 
+			{ "description": "Pheobe is drinking coffee at the café and is being asked on what gifts she wishes to get for her upcoming birthday."}, 
+			{ "description": "Two customers from Riff's mistakes Phoebe for Ursula."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What kind of birthday gift will Rachel give to Pheobe?", 
+				"question_type": "Statement", 
+				"answer": "Bath salts", 
+				"wrong_answer1": "A pair of heels", 
+				"wrong_answer2": "A tv set", 
+				"wrong_answer3": "DVD player", 
+				"wrong_answer4": "A dress" } 
+			} ,
+			{ "qa": { 
+				"question": "Who is Rachel talking to in the scene?", 
+				"question_type": "Action", 
+				"answer": "Pheobe", 
+				"wrong_answer1": "Joey", 
+				"wrong_answer2": "Ross", 
+				"wrong_answer3": "Chandler", 
+				"wrong_answer4": "Monica" } 
+				} ,
+			{ "qa": { 
+				"question": "Who mistakes Pheobe for Ursala in the scene?", 
+				"question_type": "Action", 
+				"answer": "Two customers from Riff's", 
+				"wrong_answer1": "Nina", 
+				"wrong_answer2": "Ross", 
+				"wrong_answer3": "Chandler", 
+				"wrong_answer4": "Joey" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "127-160", 
+		"period_num": "q9", 
+		"start_time": "00:12:47;15", 
+		"end_time": "00:15:09;09",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Rachel, Chandler, and Monica are sitting around the table in Monica's apartment, while Pheobe is watching tv in the living room. Joey walks in with a gleeful cheer with a gift in his hands. Mr. Heckles comes up to complain about a noise. When Joey asks Pheobe to try on the sweaters he got for Ursula, her disdain towards her twin sister only grows deeper."}, 
+			{ "description": "Monica, Rachel, Chandler, and Phoebe are at Monica's apartment chilling Joey and Phoebe gets into an argument over Ursula."}, 
+			{ "description": "Mr. Heckles comes up to complain about a noise. When Joey asks Pheobe to try on the sweaters he got for Ursula, her disdain towards her twin sister only grows deeper."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is not present in the scene?", 
+				"question_type": "Visual detail", 
+				"answer": "Ross", 
+				"wrong_answer1": "Chandler", 
+				"wrong_answer2": "Joey", 
+				"wrong_answer3": "Rachel", 
+				"wrong_answer4": "Pheobe" } 
+			} ,
+			{ "qa": { 
+				"question": "Why did Mr.Heckle knock on the door?", 
+				"question_type": "Reason", 
+				"answer": "To complain about a noise", 
+				"wrong_answer1": "To say hello", 
+				"wrong_answer2": "To pass an important news", 
+				"wrong_answer3": "To start an argument", 
+				"wrong_answer4": "To apologize" } 
+				} ,
+			{ "qa": { 
+				"question": "Who is the gift intended for?", 
+				"question_type": "Reason", 
+				"answer": "Ursula", 
+				"wrong_answer1": "Pheobe", 
+				"wrong_answer2": "Joey", 
+				"wrong_answer3": "Chandler", 
+				"wrong_answer4": "Rachel" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "161-170", 
+		"period_num": "q10", 
+		"start_time": "00:15:09;09", 
+		"end_time": "00:16:21;02",
+		"related_period": "q7", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Chandler is kissing Nina in his office until Mr.D comes into the office to find out that Nina has not been laid off. Nina walks out of the office, complementing Mr.D's tie. Chandler makes up his excuse for not firing her, saying that Nina has suffered psychologically after receiving the news and that she needs some time to calm down."}, 
+			{ "description": "Chandler is enjoying his time with Nina in his office until Mr.Douglas suddenly comes in."}, 
+			{ "description": "Chandler makes up his reasons to Mr.D for not firing Nina."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What were Nina and Chandler doing in the office?", 
+				"question_type": "Action", 
+				"answer": "Kissing", 
+				"wrong_answer1": "Discussing about reports", 
+				"wrong_answer2": "Working on a new project", 
+				"wrong_answer3": "Eating some food", 
+				"wrong_answer4": "Exercising" } 
+			} ,
+			{ "qa": { 
+				"question": "What word does Chandler use to describe Nina's reaction to the news?", 
+				"question_type": "Statement", 
+				"answer": "Frenzy", 
+				"wrong_answer1": "Crazy", 
+				"wrong_answer2": "Sad", 
+				"wrong_answer3": "Happy", 
+				"wrong_answer4": "Indiffrent" } 
+				} ,
+			{ "qa": { 
+				"question": "What building does Chandler point at when Mr.D comes in?", 
+				"question_type": "Action", 
+				"answer": "Chrysler building", 
+				"wrong_answer1": "Empire State building", 
+				"wrong_answer2": "Space needle", 
+				"wrong_answer3": "CN towe", 
+				"wrong_answer4": "Statue of Liberty" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "171-178", 
+		"period_num": "q11", 
+		"start_time": "00:16:23;21", 
+		"end_time": "00:17:28;22",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Susan, Carol, and Ross are at the Lamaze class, watching an informational video on giving birth to a baby. Carol freaks out after watching the video. Then Susan tries to comfort her saying how the painful day would only last a day and that they would be parents for the rest of their lives. On the other hand, Ross is petrified by the reality of parenthood."}, 
+			{ "description": "Susan, Carol, and Ross are watching a demonstrative video on giving birth to a child"}, 
+			{ "description": "Ross is scared about becoming a father"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Which object does Ross use to joke with Susan?", 
+				"question_type": "Visual detail", 
+				"answer": "A baby doll", 
+				"wrong_answer1": "A shoe", 
+				"wrong_answer2": "A toy", 
+				"wrong_answer3": "A baby shoe", 
+				"wrong_answer4": "A spoon" } 
+			} ,
+			{ "qa": { 
+				"question": "What does Susan try to do when Carol is freaked out?", 
+				"question_type": "Action", 
+				"answer": "She trys to calm her down", 
+				"wrong_answer1": "She stirs her emotions", 
+				"wrong_answer2": "She fires her up", 
+				"wrong_answer3": "She motivates her", 
+				"wrong_answer4": "She blames her for everything" } 
+				} ,
+			{ "qa": { 
+				"question": "How does Ross look like when he realizes that he's going to be a father soon?", 
+				"question_type": "Emotion", 
+				"answer": "He's scared", 
+				"wrong_answer1": "Very excited", 
+				"wrong_answer2": "Sad", 
+				"wrong_answer3": "Angry", 
+				"wrong_answer4": "Livid" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "179-195", 
+		"period_num": "q12", 
+		"start_time": "00:17:24;00", 
+		"end_time": "00:18:36;00",
+		"related_period": "none", 
+		"causation&intention": "none",
+		"description_info": 
+		[ 
+			{ "description": "Everyone is gathered around the café sofa. Ross is being comforted by everyone around him. Ross is unsure whether he is ready to be a father yet. Meanwhile, Joey is getting ready to go out on a date with Ursula. Pheobe stops him to ask if they have had sex yet and Joey replies to say no."}, 
+			{ "description": "The whole group are sitting around the sofa comforting Ross"}, 
+			{ "description": "Joey is being questioned by Pheobe on the relationship between him and Ursula."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who is not sitting down in the scene?", 
+				"question_type": "Visual detail", 
+				"answer": "Rachel", 
+				"wrong_answer1": "Ross", 
+				"wrong_answer2": "Joey", 
+				"wrong_answer3": "Chandler", 
+				"wrong_answer4": "Monica" } 
+			} ,
+			{ "qa": { 
+				"question": "Who is sitting between Monica and Chandler?", 
+				"question_type": "Visual detail", 
+				"answer": "Ross", 
+				"wrong_answer1": "Rachel", 
+				"wrong_answer2": "Joey", 
+				"wrong_answer3": "Pheobe", 
+				"wrong_answer4": "Carol" } 
+				} ,
+			{ "qa": { 
+				"question": "What is Monica doing to Ross?", 
+				"question_type": "Action", 
+				"answer": "Holding his hands and comforting him", 
+				"wrong_answer1": "Massaging him", 
+				"wrong_answer2": "Stirring him up", 
+				"wrong_answer3": "Making him angry", 
+				"wrong_answer4": "Swearing at him" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "196-204", 
+		"period_num": "q13", 
+		"start_time": "00:18:38;00", 
+		"end_time": "00:19:31;17",
+		"related_period": "q7", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Nina knocks on the door to ask if she could come into Chandler's office. She is unsure why everyone around her in the office has been acting very strange. Chandler proposes to give her a raise to save himself."}, 
+			{ "description": "Nina comes into Chandler's office to talk"}, 
+			{ "description": "Nina is confused as to why everyone around her is acting strange"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who came into the office?", 
+				"question_type": "Visual detail", 
+				"answer": "Nina", 
+				"wrong_answer1": "Rachel", 
+				"wrong_answer2": "Ross", 
+				"wrong_answer3": "Monica", 
+				"wrong_answer4": "Pheobe" } 
+			} ,
+			{ "qa": { 
+				"question": "What object does she mention that people keep putting away from her?", 
+				"question_type": "Statement", 
+				"answer": "Scissors", 
+				"wrong_answer1": "Paper", 
+				"wrong_answer2": "Knife", 
+				"wrong_answer3": "Gun", 
+				"wrong_answer4": "Shoes" } 
+				} ,
+			{ "qa": { 
+				"question": "What action did Nina take after she heard the news that she was going to get raised?", 
+				"question_type": "Action", 
+				"answer": "Hugged Chandler", 
+				"wrong_answer1": "Kissed Chandler", 
+				"wrong_answer2": "Pushed away Chandler", 
+				"wrong_answer3": "Tickled Chandler", 
+				"wrong_answer4": "Slapped Chandler" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "205-234", 
+		"period_num": "q14", 
+		"start_time": "00:19:31;17", 
+		"end_time": "00:21:34;20",
+		"related_period": "q13", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Rachel, Chandler, Monica, Ross, and Pheobe are eating popcorns while sitting around a sofa. Chandler is talking about how he told Nina the truth and ended up injuring his hand. Monica is trying hard to read through the manual to fix the audio settings of the tv set back to English. Pheobe confesses why she feels worried and uneasy about Ursula and Joey going out together."}, 
+			{ "description": "Rachel, Chandler, Monica, Ross, and Pheobe are sitting around the sofa at Monica's apartment watching TV"}, 
+			{ "description": "Pheobe decides to go talk to Joey on dating Ursula"} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "What happened to Chandler's hand?", 
+				"question_type": "causality", 
+				"answer": "It got injured by a stapler", 
+				"wrong_answer1": "It got beaten by a dog", 
+				"wrong_answer2": "It got infected", 
+				"wrong_answer3": "It got burnt", 
+				"wrong_answer4": "It got broken" } 
+			} ,
+			{ "qa": { 
+				"question": "What is Monica trying to do with the remote controller?", 
+				"question_type": "Action", 
+				"answer": "She is trying to switch the language option back to English", 
+				"wrong_answer1": "She is trying to switch the channel", 
+				"wrong_answer2": "She is trying to turn the tv off", 
+				"wrong_answer3": "She is trying to raise the volume up", 
+				"wrong_answer4": "She is trying to record the show" } 
+				} ,
+			{ "qa": { 
+				"question": "What is the name of Pheobe's old crush?", 
+				"question_type": "Person", 
+				"answer": "Randy Brown", 
+				"wrong_answer1": "Randy Johnson", 
+				"wrong_answer2": "Rudiger", 
+				"wrong_answer3": "Ricardo Silva", 
+				"wrong_answer4": "Randy Jackson" 
+				} 
+			} 
+		] 
+	},
+		{ 
+		"visual_period_num": "235-239", 
+		"period_num": "q15", 
+		"start_time": "00:21:34;20", 
+		"end_time": "00:22:23;08",
+		"related_period": "q5", 
+		"causation&intention": "Intention",
+		"description_info": 
+		[ 
+			{ "description": "Pheobe is at the doorway and knocks on Joey's door to go talk to him. Ursula comes out of the house to answer her. Pheobe is surprised to find her twin sister. Meanwhile, Rachel is on the balcony trying to take down the christmas light when it is snowing heavily outside. Monica tries to get her back inside but she insists on taking them down herself. Eventually, Rachel falls off the balcony but is tangled up in Christmas light. As she is dangling from above, she knocks on Mr.Heckles' window to call for help."}, 
+			{ "description": "Pheobe knocks on Joey's door"}, 
+			{ "description": "Rachel falls off the balcony while trying to take down the Christmas lights."} 
+		],
+		"qa_info": 
+		[ 
+			{ "qa": { 
+				"question": "Who did Pheobe meet at Joey's doorstep?", 
+				"question_type": "Visual detail", 
+				"answer": "Ursala", 
+				"wrong_answer1": "Chandler", 
+				"wrong_answer2": "Joey", 
+				"wrong_answer3": "Ross", 
+				"wrong_answer4": "Rachel" } 
+			} ,
+			{ "qa": { 
+				"question": "Who fell off the balcony?", 
+				"question_type": "Visual detail", 
+				"answer": "Rachel", 
+				"wrong_answer1": "Nina", 
+				"wrong_answer2": "Ross", 
+				"wrong_answer3": "Chandler", 
+				"wrong_answer4": "Pheobe" } 
+				} ,
+			{ "qa": { 
+				"question": "What is the weather like outside the apartment?", 
+				"question_type": "Event", 
+				"answer": "snowy", 
+				"wrong_answer1": "rainy", 
+				"wrong_answer2": "windy", 
+				"wrong_answer3": "sunny", 
+				"wrong_answer4": "bright" 
+				} 
+			} 
+		] 
+	}
+	]
+}
