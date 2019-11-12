@@ -42,14 +42,13 @@
     }
     .row + .row {
         padding-top: 10px;
-    }
-    .selction-list-Image{
+    }    .selction-list-Image{
         float:left;
         height:100%;
-        width:240px;
+        width:340px;
     }
     .container.visual .section-video-Wrap{
-        width:calc(100% - 700px);
+        width:calc(100% - 900px);
         height:auto;
         float:left;
     }
@@ -71,7 +70,7 @@
     }
     .section-image-Edit{
         float: left;
-        width: 310px;
+        width: 410px;
         height: 100%;
     }
     #nav-objTabContent{
@@ -137,7 +136,7 @@
                         <a href="<c:url value="/content"/>"> 콘텐츠 리스트</a>
                     </li>
                     <li class="breadcrumb-item strong active">
-                        시각정보 편집
+                        시각정보 편집(${contentField.orifilename})
                     </li>
                 </ol>
             </div>
@@ -283,9 +282,8 @@
 
 <script>
 
-    $(document).ready(function(){
 
-
+    //$(document).ready(function(){
         var videoid = ${idx};
         var _param = {videoid: videoid};
         var ImgId = "#vttImg";
@@ -317,9 +315,9 @@
                 }
             });
         }
-
         function setSectionEvt(){
             var arr = [];
+            /* 2019-09-19(bys) 화면 로딩 후 클릭 이벤트 추가 하던 로직
             $('.section_row').each(function(idx){
                 var input_obj = $(this).find('input');
                 var obj = {};
@@ -340,11 +338,22 @@
                     img_data_index = '';
                     getSectionShotList(arr[idx], 1);
                 });
+            });*/
 
-            });
-
+            var input_obj = $('.section_row:first').find('input');
+            var obj = {};
+            for(var i=0;i<input_obj.length;i++){
+                var name = $(input_obj[i]).attr('name');
+                var val = $(input_obj[i]).val();
+                obj[''+name] = val;
+            }
+            var frame_cut = $(".section_row").find("input[name=frame_cut]").val();
+            obj.frame_cut           = frame_cut;
+            obj.pageCnt             = 10;
+            obj.curPage             = 1;
+            obj.assetfilepathorigin = obj.assetfilepath;
             if($("tr[name='secTr'][ delflag='false']:first").length > 0){
-                getSectionShotList(arr[0], 1);
+                getSectionShotList(obj, 1);
             }
             else{
 
@@ -354,11 +363,8 @@
 
                 return false;
             }
-
         }
-
         getSectionList();
-
 
         function getSectionShotList(__data) {
             // console.log("getSectionShotList");
@@ -1293,7 +1299,7 @@
                 var arrayObjData1 = [];
                 for(var i=0;i<jsonResultData.length;i++){
                     var module_name = jsonResultData[i].module_name;
-                    if(module_name == 'friends.face'){
+                    if(module_name == 'missoh.face'){
                         arrayFaceData = jsonResultData[i].module_result;
                     }
                     else if(module_name == 'object'){
@@ -2117,8 +2123,22 @@
             });
         }
 
-    });
-
+    //});
+    function onclickSection(sectionRow){
+        var input_obj = $(sectionRow).find('input');
+        var obj = {};
+        for(var i=0;i<input_obj.length;i++){
+            var name = $(input_obj[i]).attr('name');
+            var val = $(input_obj[i]).val();
+            obj[''+name] = val;
+        }
+        var frame_cut = $(sectionRow).find("input[name=frame_cut]").val();
+        obj.frame_cut           = frame_cut;
+        obj.pageCnt             = 10;
+        obj.curPage             = 1;
+        obj.assetfilepathorigin = obj.assetfilepath;
+        getSectionShotList(obj, 1);
+    }
 
 </script>
 <c:import url="../includes/footer.jsp"/>

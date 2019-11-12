@@ -1,12 +1,22 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@include file="../includes/taglib.jsp" %>
 
-<c:set var="blankHtml" value='
+<c:set var="qaHtml" value='
+<div class="form-group edit-form">
+    <label class="control-label col-md-1 col-sm-1 col-xs-12"> 질문</label>
+    <div class="col-md-11 col-sm-11 col-xs-12">
+        <div class="input-group" style="padding-top:5px;">
+            <input type="hidden" name="questionid" value=""/>
+            <input type="hidden" name="questiontype" value=""/>
+            <input type="radio" class="" placeholder="" id="QNALV1" name="questiontypelv" value="QNALV1" onclick="onCheckQuestType(this);"> <label for="QNALV1" style="margin-left:5px;"> Level 1</label>
+            <input type="radio" class="" placeholder="" id="QNALV2" name="questiontypelv" value="QNALV2" style="margin-left:15px;" onclick="onCheckQuestType(this);"> <label for="QNALV2" style="margin-left:5px;"> Level 2</label>
+        </div>
+    </div>
+</div>
 <div class="form-group edit-form">
     <label class="control-label col-md-1 col-sm-1 col-xs-12"> 질문</label>
     <div class="col-md-11 col-sm-11 col-xs-12">
         <div class="input-group">
-            <input type="hidden" name="questionid" value=""/>
             <input type="text" name="question" class="form-control" placeholder="질문" value="">
         </div>
     </div>
@@ -62,34 +72,17 @@
         </div>
     </div>
 </div>'/>
-<c:set var="qnaLv31" value="${blankHtml}"/>
-<c:set var="qnaLv32" value="${blankHtml}"/>
-<c:set var="qnaLv41" value="${blankHtml}"/>
-<c:set var="qnaLv42" value="${blankHtml}"/>
-<c:set var="qnaLv3Cnt" value="${0}"/>
-<c:set var="qnaLv4Cnt" value="${0}"/>
-
-<input type="hidden" name="sectionid" value="${param.sectionid}"/>
+<input type="hidden" name="shotid" value="${param.shotid}"/>
 <div class="" role="tabpanel" data-example-id="togglable-tabs"  style="height:100%;padding-bottom:10px;">
     <ul id="qaTabs" class="nav nav-tabs qa-tabs" role="tablist">
         <li role="presentation" class="active">
             <a href="#qnaSceneTap1Div" id="qnaSceneTap1" role="tab" data-toggle="tab" aria-expanded="true"> 묘사</a>
         </li>
         <li role="presentation" class="">
-            <a href="#qnaSceneTap2Div" role="tab" id="qnaSceneTap2" data-toggle="tab" aria-expanded="false"> Q&A - Level3</a>
-        </li>
-        <li role="presentation" class="">
-            <a href="#qnaSceneTap3Div" role="tab" id="qnaSceneTap3" data-toggle="tab" aria-expanded="false"> Q&A - Level3</a>
-        </li>
-        <li role="presentation" class="">
-            <a href="#qnaSceneTap4Div" id="qnaSceneTap4" role="tab" data-toggle="tab" aria-expanded="false"> Q&A - Level4 </a>
-        </li>
-        <li role="presentation" class="">
-            <a href="#qnaSceneTap5Div" id="qnaSceneTap5" role="tab" data-toggle="tab" aria-expanded="false"> Q&A - Level4 </a>
+            <a href="#qnaSceneTap2Div" role="tab" id="qnaSceneTap2" data-toggle="tab" aria-expanded="false"> Q&A</a>
         </li>
     </ul>
     <div id="nav-objTabContent" class="layer-edit-wrap tab-content">
-
     </div>
 </div>
 
@@ -108,8 +101,26 @@
     </div>
 </div>'/>
         </c:when>
-        <c:when test="${result.questiontype eq 'QNALV3' or result.questiontype eq 'QNALV4'}">
+        <c:when test="${result.questiontype eq 'QNALV1' or result.questiontype eq 'QNALV2'}">
+            <c:if test="${result.questiontype eq 'QNALV1'}">
+                <c:set var="qnaLv1Checked" value="checked"/>
+                <c:set var="qnaLv2Checked" value=""/>
+            </c:if>
+            <c:if test="${result.questiontype eq 'QNALV2'}">
+                <c:set var="qnaLv1Checked" value=""/>
+                <c:set var="qnaLv2Checked" value="checked"/>
+            </c:if>
             <c:set var="qaHtml" value='
+    <div class="form-group edit-form">
+        <label class="control-label col-md-1 col-sm-1 col-xs-12"> 질문</label>
+        <div class="col-md-11 col-sm-11 col-xs-12">
+            <div class="input-group" style="padding-top:5px;">
+                <input type="hidden" name="questiontype" value="${result.questiontype}" />
+                <input type="radio" class="" placeholder="" name="questiontypelv" id="QNALV1" value="QNALV1" ${qnaLv1Checked} onclick="onCheckQuestType(this);" > <label for="QNALV1" style="margin-left:5px;"> Level 1</label>
+                <input type="radio" class="" placeholder="" name="questiontypelv" id="QNALV2" value="QNALV2" style="margin-left:15px;" ${qnaLv2Checked} onclick="onCheckQuestType(this);"> <label for="QNALV2" style="margin-left:5px;"> Level 2</label>
+            </div>
+        </div>
+    </div>
     <div class="form-group edit-form">
         <label class="control-label col-md-1 col-sm-1 col-xs-12"> 질문</label>
         <div class="col-md-11 col-sm-11 col-xs-12">
@@ -159,30 +170,6 @@
             </div>
         </div>
     </div>'/>
-            <c:choose>
-            <c:when test="${result.questiontype eq 'QNALV3'}">
-                <c:set var="qnaLv3Cnt" value="${qnaLv3Cnt+1}"/>
-                <c:choose>
-                    <c:when test="${qnaLv3Cnt == 1}">
-                        <c:set var="qnaLv31" value="${qaHtml}"/>
-                    </c:when>
-                    <c:when test="${qnaLv3Cnt == 2}">
-                        <c:set var="qnaLv32" value="${qaHtml}"/>
-                    </c:when>
-                </c:choose>
-            </c:when>
-            <c:when test="${result.questiontype eq 'QNALV4'}">
-                <c:set var="qnaLv4Cnt" value="${qnaLv4Cnt+1}"/>
-                <c:choose>
-                    <c:when test="${qnaLv4Cnt == 1}">
-                        <c:set var="qnaLv41" value="${qaHtml}"/>
-                    </c:when>
-                    <c:when test="${qnaLv4Cnt == 2}">
-                        <c:set var="qnaLv42" value="${qaHtml}"/>
-                    </c:when>
-                </c:choose>
-            </c:when>
-            </c:choose>
         </c:when>
     </c:choose>
 </c:forEach>
@@ -197,18 +184,10 @@
     ${descHtml}
 </div>
 <div role="tabpanel" class="tab-pane fade" id="qnaSceneTap2Div" aria-labelledby="qnaSceneTap2">
-    <input type="hidden" name="questiontype" value="QNALV3"/>
-    ${qnaLv31}
+    ${qaHtml}
 </div>
-<div role="tabpanel" class="tab-pane fade" id="qnaSceneTap3Div" aria-labelledby="qnaSceneTap3">
-    <input type="hidden" name="questiontype" value="QNALV3"/>
-    ${qnaLv32}
-</div>
-<div role="tabpanel" class="tab-pane fade" id="qnaSceneTap4Div" aria-labelledby="qnaSceneTap4">
-    <input type="hidden" name="questiontype" value="QNALV4"/>
-    ${qnaLv41}
-</div>
-<div role="tabpanel" class="tab-pane fade" id="qnaSceneTap5Div" aria-labelledby="qnaSceneTap5">
-    <input type="hidden" name="questiontype" value="QNALV4"/>
-    ${qnaLv42}
-</div>
+<script>
+    function onCheckQuestType(obj){
+        $(obj).parent("div").find("input[name=questiontype]").val($(obj).val());
+    }
+</script>

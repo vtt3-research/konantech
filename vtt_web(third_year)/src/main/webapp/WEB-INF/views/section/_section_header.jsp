@@ -23,7 +23,7 @@
                         <a href="<c:url value="/content"/>"> 콘텐츠 리스트</a>
                     </li>
                     <li class="breadcrumb-item strong active">
-                        VTT 구간 편집
+                        VTT 구간 편집(${contentField.orifilename})
                     </li>
                 </ol>
             </div>

@@ -20,6 +20,7 @@ public class ShotTB implements Serializable {
     private String assetfilepath;
     private String object;
     private boolean delflag;
+    private int startno;
 
     //add
     private AnalyzerSogang detect;

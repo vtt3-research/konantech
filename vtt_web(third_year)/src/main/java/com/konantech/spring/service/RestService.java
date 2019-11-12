@@ -35,7 +35,7 @@ public class RestService {
         Resource resource = new FileSystemResource(imgPath);
         parameters.add("Content-Type", "multipart/form-data");
         parameters.add("image", resource);
-        parameters.add("modules", "friends");
+        parameters.add("modules", "missoh.face, object");
 
         HttpEntity<MultiValueMap<String, Object>> requestEntity = new HttpEntity<>(parameters, headers);
 

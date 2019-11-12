@@ -6,6 +6,7 @@ import lombok.Data;
 public class ContentQuery {
 
     private int idx;
+    private int sectionid;
 
     private int limit;
     private int offset;

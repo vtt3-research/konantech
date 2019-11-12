@@ -81,7 +81,7 @@
             <div class="row" id="imgShot">
                 <div class="img-shot-title x_panel">
                     <div class="x_title">
-                        <h2>구간 묘사<small> Section depiction</small></h2>
+                        <h2>구간 묘사<small> Section description</small></h2>
                         <ul class="nav navbar-right panel_toolbox">
                             <li>
                                 <a id="allObjView" class="table-btn" onclick="putDepiction()">

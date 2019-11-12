@@ -456,4 +456,22 @@
         limit 1;
     </select>
 
+    <select id="getVidInfo" parameterType="java.util.TreeMap" resultType="String">
+
+        select tb.vid
+        from (
+                 SELECT CONCAT(substr(V.title,0, position('.' in V.title)),'_',lpad(cast(DENSE_RANK() over (order by  a.sectionid) as varchar),3,'0'),'_',lpad(cast(cast(SUBSTR(A.sectionname, 0, POSITION('-' in A.sectionname)) AS int) + (B.shotid - A.startshotid) as varchar),4,'0')) AS vid
+                 FROM vttm_section_info_tb A
+                          INNER JOIN vttm_video_tb V
+                                     ON A.videoid = V.idx
+                          INNER JOIN vttm_shot_tb B ON B.shotid BETWEEN A.startshotid AND A.endshotid
+                          INNER JOIN VTTM_META_INFO_TB M ON B.VIDEOID = M.IDX AND B.SHOTID = M.SHOTID
+                 WHERE A.videoid = #{idx}
+                   and B.shotid = #{shotid}
+                   and M.USERID = #{userid}
+                   AND B.DELFLAG = FALSE
+             ) tb
+        group by vid
+
+    </select>
 </mapper>

@@ -15,6 +15,8 @@ public interface StoryboardMapper {
 
     int getShotCount(ContentQuery param);
     List<ShotTB> getShotList(ContentQuery param);
+    List<ShotTB> getImgEditShotList(ContentQuery param);
+    List<ShotTB> getSectionOfSceneList(ContentQuery param);
     int putShotItem(ShotTB shotTB);
     int deleteShotItems(int videoid);
     int updateShotItem(Map param);

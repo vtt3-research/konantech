@@ -91,6 +91,12 @@
         <div class="modal-content"></div>
     </div>
 </div>
+
+<div class="modal fade" id="guideModal" tabindex="-1" role="dialog" aria-labelledby="addContentsModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document" style="width:800px;">
+        <div class="modal-content"></div>
+    </div>
+</div>
 <!--/auto tagging  -->
 <div class="modal fade" id="autoTaggingModal" tabindex="-1" role="dialog" aria-labelledby="autoTaggingModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">

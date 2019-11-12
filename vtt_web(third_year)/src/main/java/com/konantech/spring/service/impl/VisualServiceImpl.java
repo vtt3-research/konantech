@@ -344,7 +344,7 @@ public class VisualServiceImpl implements VisualService {
 
     @Override
     public String getJsonData(Map<String, Object> map) throws Exception {
-
+/** 2019.09.30 getJsonData -> getNewJsonData 변경
         List<Map> shotInfoList = visualMapper.getMetaShotInfo(map);
         ObjectMapper mapper = new ObjectMapper();
         List<Object> visualDatalist = new ArrayList<>();
@@ -445,9 +445,139 @@ public class VisualServiceImpl implements VisualService {
 
         String json = mapper.writeValueAsString(visualMap);
 
+ 2019.09.30 getJsonData -> getNewJsonData 변경
+*/
+        String json = "";
         return json;
     }
 
+    @Override
+    public String getNewJsonData(Map<String, Object> map) throws Exception {
+
+        List<Map> shotInfoList = visualMapper.getMetaShotInfo(map);
+        ObjectMapper mapper = new ObjectMapper();
+        List<Object> visualDatalist = new ArrayList<>();
+
+        //대표어 매핑 정의 JSON
+        JSONObject repJson = (JSONObject)JSONSerializer.toJSON("{\"cake\" : \"cakes\",\"chair\" : \"chair(stool)\",\"baby_bed\" : \"bed\",\"computer_keyboard\" : \"computer\",\"computer_mouse\" : \"computer\",\"cup\" : \"glass\",\"cup or mug\" : \"glass\",\"filling_cabinet\" : \"cabinet\",\"milk_can\" : \"can\",\"cards\" : \"card\",\"donut\" : \"donuts\",\"strapless_dress\" : \"dress\",\"electric_fan\" : \"fan\",\"paper\" : \"paper(report)\",\"newspaper\" : \"paper(report)\",\"cell_phone\" : \"phone\",\"swimming_trunks\" : \"swimsuit\",\"dining_table\" : \"table\",\"tv_or_monitor\" : \"TV\",\"vacuum\" : \"vacuum cleaner\",\"washer\" : \"washing machine\",\"pie\" : \"tart\",\"sandwich\" : \"sandwitch\",\"wineglass\" : \"glass\",\"magazine\" : \"book\"}");
+
+        for(Map shotInfoMap: shotInfoList){
+            map.put("shotid", shotInfoMap.get("shotid"));
+
+            List<String> metaData = visualMapper.getShotMetaJsonData(map);
+            String vidInfo = visualMapper.getVidInfo(map);
+            List<Object> list = new ArrayList<>();
+
+            for(String json : metaData){
+                //배열이 아닌 경우 배열로 인식되게 변경
+                if(!json.startsWith("[")){
+                    json = "["+json+"]";
+                }
+
+                List<Map> visualResults = mapper.readValue(json, ArrayList.class);
+
+                for(Map mVisualResult : visualResults){
+
+                    //frame_id FORMAT 변경
+                    String frame_id = (String) mVisualResult.get("frame_id");
+                    frame_id = vidInfo + "_" +  frame_id;
+                    mVisualResult.replace("frame_id", frame_id);
+
+                    //PERSON_INFO FORMAT 변경
+                    ArrayList<Map> persons = (ArrayList<Map>) mVisualResult.get("persons");
+                    ArrayList<Map> newPersons = new ArrayList<>();
+                    for(Map person : persons){
+
+                        HashMap<String, String> person_info = (HashMap<String, String>) person.get("person_info");
+
+                        Object emotion = person_info.get("emotion");
+
+                        if(emotion instanceof Map){
+
+                            HashMap<String, Object> emotionMap = (HashMap<String, Object>) emotion;
+                            person_info.replace("emotion", "");
+
+                            for(String em : emotionMap.keySet()) {
+
+                                if((Integer)emotionMap.get(em) > 0){
+                                    person_info.put("emotion", em);
+                                }
+                            }
+                        }
+
+                        if(!person_info.containsKey("face_rect_score") || !person_info.containsKey("full_rect_score")){
+                            person_info.put("face_rect_score", "");
+                            person_info.put("full_rect_score", "");
+                        }
+
+                        LinkedHashMap<String, String> person_info_new = new LinkedHashMap<>();
+                        person_info_new.put("face_rect", person_info.get("face_rect"));
+                        person_info_new.put("full_rect", person_info.get("full_rect"));
+                        person_info_new.put("behavior", person_info.get("behavior"));
+                        person_info_new.put("predicate", person_info.get("predicate"));
+                        person_info_new.put("emotion", person_info.get("emotion"));
+                        person_info_new.put("face_rect_score", person_info.get("face_rect_score"));
+                        person_info_new.put("full_rect_score", person_info.get("full_rect_score"));
+
+                        person.replace("person_info", person_info_new);
+
+                        ArrayList<Map> related_objects_list = (ArrayList<Map>) person.get("related_objects");
+
+                        for(Map item_list : related_objects_list){
+                            item_list.remove("score");
+                        }
+
+                        newPersons.add(person);
+                    }
+
+                    mVisualResult.replace("persons", newPersons);
+                    mVisualResult.remove("image_id");
+                    mVisualResult.remove("image_descs");
+
+                    String sVisualJson = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(mVisualResult);
+
+                    Set key = repJson.keySet();
+                    Iterator<String> iter = key.iterator();
+
+                    //대표어로 교체
+                    while(iter.hasNext()){
+                        String repKey = iter.next();
+                        sVisualJson = sVisualJson.replace("\""+repKey+"\"", "\""+repJson.getString(repKey)+"\"");
+                    }
+
+                    JSONObject vJson = (JSONObject)JSONSerializer.toJSON(sVisualJson.replace("null", "''"));
+                    list.add(vJson);
+                }
+            }
+
+            shotInfoMap.put("image_info", list);
+
+            LinkedHashMap<String, Object> shotDataMap = new LinkedHashMap<>();
+
+//            shotDataMap.put("shot_id", shotInfoMap.get("shot_id"));
+            shotDataMap.put("start_time", shotInfoMap.get("start_time"));
+            shotDataMap.put("end_time", shotInfoMap.get("end_time"));
+            shotDataMap.put("vid", vidInfo);
+            shotDataMap.put("image_info", shotInfoMap.get("image_info"));
+
+            visualDatalist.add(shotDataMap);
+
+        }
+
+        ContentQuery param = new ContentQuery();
+        param.setIdx(Integer.parseInt((String)map.get("idx")));
+        ContentField video = contentMapper.getContentItem(param);
+
+        LinkedHashMap<String, Object> visualMap = new LinkedHashMap<>();
+
+        visualMap.put("file_name", video.getOrifilename());
+//        visualMap.put("registed_name", video.getTitle());
+        visualMap.put("visual_results", visualDatalist);
+
+        String json = mapper.writeValueAsString(visualMap);
+
+        return json;
+    }
 
     @Override
     public String getShotJsonData(Map<String, Object> map) throws Exception {
@@ -525,22 +655,25 @@ public class VisualServiceImpl implements VisualService {
         }
 
         for(int i=0; i<pageCnt; i++) {
+            int step=(frame_cut/2);
+            int new_idx = (s_idx + step) + ((curPage-1) * calcPageCnt * frame_cut) + (i * frame_cut);
 
-            int new_idx = (s_idx) + ((curPage-1) * calcPageCnt * frame_cut) + (i * frame_cut);
-
+            if(curPage > 1){
             if(curPage > 1){
                 new_idx = new_idx - frame_cut;
             }
-
+            /*해당 샷의 마지막 장 추가 */
             if(new_idx >= e_idx) {
-                new_idx = e_idx;
-                idx_list.add(new_idx);
+                //new_idx = e_idx;
+                //idx_list.add(new_idx);
 
                 break;
             }
             idx_list.add(new_idx);
         }
-
+        if(idx_list.size()<1){
+            idx_list.add((s_idx + e_idx)/2);
+        }
 
         log.debug("idx_list ==> ["+idx_list.toString()+"]");
 

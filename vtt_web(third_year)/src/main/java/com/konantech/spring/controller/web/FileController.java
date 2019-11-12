@@ -170,20 +170,22 @@ public class FileController {
         }
     }
 
-//    @ResponseBody
-//    @RequestMapping(value = "/jsonFileDown", method = RequestMethod.GET)
-//    public void jsonFileDown(HttpServletRequest request, HttpServletResponse response) throws Exception {
-//        Map paramMap = RequestUtils.getParameterMap(request);
-//        String visualJson = visualService.getJsonData(paramMap);
-//        String qaJson = sectionService.getJsonData(paramMap);
-//        String soundJson = soundService.getJsonData(paramMap);
-//        List<Map> fileList = new ArrayList<>();
-//        fileList.add(fileService.createJsonFileStream(paramMap,"visual",visualJson));
-//        fileList.add(fileService.createJsonFileStream(paramMap,"qa",qaJson));
-//        fileList.add(fileService.createJsonFileStream(paramMap,"sound",soundJson));
-//
-//        fileService.downloadZip(response,"json", fileList);
-//    }
+    /*
+    @ResponseBody
+    @RequestMapping(value = "/jsonFileDown", method = RequestMethod.GET)
+    public void jsonFileDown(HttpServletRequest request, HttpServletResponse response) throws Exception {
+        Map paramMap = RequestUtils.getParameterMap(request);
+        String visualJson = visualService.getJsonData(paramMap);
+        String qaJson = sectionService.getJsonData(paramMap);
+        String soundJson = soundService.getJsonData(paramMap);
+        List<Map> fileList = new ArrayList<>();
+        fileList.add(fileService.createJsonFileStream(paramMap,"visual",visualJson));
+        fileList.add(fileService.createJsonFileStream(paramMap,"qa",qaJson));
+        fileList.add(fileService.createJsonFileStream(paramMap,"sound",soundJson));
+
+        fileService.downloadZip(response,"json", fileList);
+    }
+    */
 
     @ResponseBody
     @RequestMapping(value = "/jsonFileDown", method = RequestMethod.GET)
@@ -199,7 +201,8 @@ public class FileController {
             paramMap.replace("userid", userData.get("user_id"));
             if(userData.get("info_type").equals("visual")){
 
-                String visualJson = visualService.getJsonData(paramMap);
+                // String visualJson = visualService.getJsonData(paramMap); 2019.09.30 getJsonData -> getNewJsonData 변경
+                String visualJson = visualService.getNewJsonData(paramMap);
                 fileList.add(fileService.createJsonFileStream(paramMap,"visual",visualJson));
 
                 visualDataCnt++;
@@ -211,7 +214,8 @@ public class FileController {
 
             }else if(userData.get("info_type").equals("section")){
 
-                String qaJson = sectionService.getJsonData(paramMap);
+//                String qaJson = sectionService.getJsonData(paramMap); 2019.09.30 getJsonData -> getJsonDataQa 변경
+                String qaJson = sectionService.getJsonDataQa(paramMap);
                 fileList.add(fileService.createJsonFileStream(paramMap,"qa",qaJson));
             }
         }

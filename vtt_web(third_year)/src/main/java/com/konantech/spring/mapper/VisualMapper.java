@@ -54,4 +54,5 @@ public interface VisualMapper {
 
     List<LinkedHashMap> getShotList(Map map) throws Exception;
 
+    String getVidInfo(Map map) throws Exception;
 }

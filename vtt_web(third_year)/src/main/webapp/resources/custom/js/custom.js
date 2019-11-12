@@ -414,3 +414,21 @@ function help_hotkey() {
         }
     });
 }
+function custModalPopup(url,objid) {
+    $.ajax({
+        url: _home+url,
+        async: false,
+        type: "GET",
+        dataType: "html",
+        success: function (response) {
+            $("#"+objid+" .modal-content").html(response);
+            $("#"+objid).modal();
+        },
+        error: function(xhr, textStatus, error) {
+            var msg = "오류가 발생했습니다(code:" + xhr.status + ")\n";
+            msg += xhr.responseText;
+            MSG.error(msg);
+            return false;
+        }
+    });
+}

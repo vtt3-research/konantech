@@ -119,7 +119,8 @@ public class VisualController {
         Map param = RequestUtils.getParameterMap(request);
         ContentQuery query1 = new ContentQuery();
         query1.setIdx(RequestUtils.getParameterInt(request,"videoid"));
-        List<ShotTB> list = storyboardService.getShotList(query1);
+
+        List<ShotTB> list = storyboardService.getImgEditShotList(query1);
 
         ContentQuery query2 = new ContentQuery();
         query2.setIdx(RequestUtils.getParameterInt(request,"videoid"));

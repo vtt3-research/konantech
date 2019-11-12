@@ -40,6 +40,8 @@ public interface VisualService {
 
     String getJsonData(Map<String, Object> map) throws Exception;
 
+    String getNewJsonData(Map<String, Object> map) throws Exception;
+
     String getShotJsonData(Map<String, Object> map) throws Exception;
 
     int deleteRepImg(Map<String, Object> map) throws Exception;

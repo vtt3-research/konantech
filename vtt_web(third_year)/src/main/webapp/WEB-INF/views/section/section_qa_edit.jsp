@@ -1,13 +1,40 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@include file="../includes/taglib.jsp" %>
 <c:import url="../includes/header.jsp"/>
-<c:import url="./_section_header.jsp"/>
+<style type="text/css">
+    .container.section .section-list-Wrap:not(:first-child){
+        padding-left:10px;
+    }
+</style>
+<!-- top navigation -->
+<div class="top_nav">
+    <div class="nav_menu nav_menu-j">
+        <nav>
+            <div class="col-8 align-self-center">
+                <div class="title-txt text-themecolor">
+                    CONTENT
+                </div>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="javascript:void(0)"> 콘텐츠</a>
+                    </li>
+                    <li class="breadcrumb-item ">
+                        <a href="<c:url value="/content"/>"> 콘텐츠 리스트</a>
+                    </li>
+                    <li class="breadcrumb-item strong active">
+                        묘사 & Q&A 편집(${contentField.orifilename})
+                    </li>
+                </ol>
+            </div>
+        </nav>
+    </div>
+</div>
 
 <!-- page content -->
 <div class="container section" role="main">
 
     <!-- 카드 컨텐츠 시작 -->
-    <div class="row">
+    <%--<div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12 btn-group">
             <div class="x_panel">
                 <!--
@@ -18,23 +45,13 @@
                 -->
             </div>
         </div>
-    </div>
+    </div>--%>
     <div class="row">
-
-        <div class="section-list-Wrap">
-            <div id="section-list" class="x_panel section-list">
-                <div class="x_title">
-                    <h2> 구간 리스트   <small> Section list </small></h2>
-                    <div class="clearfix"></div>
-                </div>
-                <div class="x_content" id="sectionList"> </div>
-            </div>
-        </div>
 
         <div class="section-list-Wrap">
             <div id="qaSection-list" class="x_panel section-list">
                 <div class="x_title">
-                    <h2> QA 구간 리스트 <small> QA Section list </small></h2>
+                    <h2> Scene 리스트 <small> Scene list</small></h2>
                     <div class="clearfix"></div>
                 </div>
                 <div class="x_content">
@@ -53,6 +70,16 @@
                         </table>
                     </form>
                 </div>
+            </div>
+        </div>
+
+        <div class="section-list-Wrap">
+            <div id="section-list" class="x_panel section-list">
+                <div class="x_title">
+                    <h2> Shot 리스트<small> Shot list</small>   <%--<small> Section list </small>--%></h2>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="x_content" id="sectionList"> </div>
             </div>
         </div>
 
@@ -81,19 +108,46 @@
             <div class="row">
                 <div class="img-shot-title x_panel">
                     <div class="x_title">
-                        <h2>QA 등록<small> Section QA</small></h2>
+                        <div id="qaSceneTitle" class="qaTitle" style="display:none;">
+                        <h2>Scene 묘사 QA 등록<small> Scene QA</small></h2>
                         <ul class="nav navbar-right panel_toolbox">
+                            <li>
+                                <a id="btnGuideScene" class="table-btn" onclick="custModalPopup('section/guide/scene','guideModal');">
+                                    <i class="fas fa-file"></i> 가이드라인
+                                </a>
+                            </li>
                             <li>
                                 <a id="allObjView" class="table-btn" onclick="putQuestion()">
                                     <i class="fas fa-file"></i> 저장
                                 </a>
                             </li>
                         </ul>
+                        </div>
+                        <div id="qaShotTitle" class="qaTitle" style="display:none;">
+                            <h2 >Shot 묘사 QA 등록<small> Shot QA</small></h2>
+                            <ul class="nav navbar-right panel_toolbox">
+                                <li>
+                                    <a id="btnGuideShot" class="table-btn" onclick="custModalPopup('section/guide/shot','guideModal');">
+                                        <i class="fas fa-file"></i> 가이드라인
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="allObjViewShot" class="table-btn" onclick="putShotQuestion()">
+                                        <i class="fas fa-file"></i> 저장
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                         <div class="clearfix"></div>
                     </div>
-                    <div class="x_content"  id="relationList">
-                        <form class="needs-validation" id="qaForm" name="qaForm">
-                        </form>
+                    <div class="x_content" id="sceneEdit">
+                        <div class="row fix" style="height:100%;">
+                            <div class="x_content">
+                                <form class="needs-validation" id="qaForm" name="qaForm">
+
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -127,11 +181,19 @@
             myPlayer1.currentTime(_startsec);
         }
         var sectionid = $tr.find("[name=sectionid]").val();
-        getQuestionList(sectionid);
+        if(sectionid != null && sectionid != ""){
+            getQuestionList(sectionid);
+            getSectionOfSceneList('<c:out value="${idx}"/>',sectionid);
+        }else{
+            MSG.alert("getDepictionList </br> 생성된 QA구간이 없습니다.");
+            return;
+        }
     }
 
     /*QA조회*/
     function getQuestionList(sectionid){
+        $(".qaTitle").hide();
+        $("#qaSceneTitle").show();
         if(sectionid==null||sectionid==''){
             MSG.alert("getDepictionList </br> 생성된 QA구간이 없습니다.");
             return;
@@ -152,9 +214,127 @@
             }
         });
     }
-
+    function getShotQuestionList(shotid){
+        $(".qaTitle").hide();
+        $("#qaShotTitle").show();
+        if(shotid==null||shotid==''){
+            MSG.alert("shot 정보가 없습니다.");
+            return;
+        }
+        $.ajax({
+            url: '<c:url value="/section/getShotQuestionList"/>',
+            type: 'POST',
+            data: {"shotid":shotid},
+            async: false,
+            dataType: 'html',
+            // contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+            success: function (html) {
+                $div = html;
+                $("#qaForm").html($div);
+            },
+            error: function (xhr, ajaxOptions, thrownError) {
+                MSG.alert("getShotQuestionList </br> status:"+xhr.status+"</br> message:"+xhr.responseText);
+            }
+        });
+    }
     /*저장*/
     function putQuestion(){
+        var len = $("input[name=questionid]").length;
+        var qaTitle = "";
+        for(var i=0; i<len; i++){
+            if($("input[name=questiontype]").eq(i).val() == "DESC"){
+                if($("input[name=question]").eq(i).val()==""){
+                    MSG.alert("묘사를 입력하여 주새요.");
+                    return false;
+                }
+                if(!checkSpaces($("input[name=question]").eq(i).val())){
+                    MSG.alert("묘사의 공백을 최소 2개 이상 입력하여 주새요.");
+                    return false;
+                }
+            } else {
+                if($("input[name=questiontype]").eq(i).val() == "QNALV3") {
+                    qaTitle = "Q&A Level3";
+                }else{
+                    qaTitle = "Q&A Level4";
+                }
+                if($("input[name=question]").eq(i).val()!="" || $("input[name=answer]").eq(i).val()!="" || $("input[name=wrong_answer1]").eq(i).val()!="" || $("input[name=wrong_answer2]").eq(i).val()!=""
+                    || $("input[name=wrong_answer3]").eq(i).val()!="" || $("input[name=wrong_answer4]").eq(i).val()!=""){
+                    if($("input[name=question]").eq(i).val()==""){
+                        MSG.alert(qaTitle + " 질문을 입력하여 주새요.");
+                        return false;
+                    }
+                    if(!checkSpaces($("input[name=question]").eq(i).val())){
+                        MSG.alert(qaTitle + " 질문의 공백을 최소 2개 이상 입력하여 주새요.");
+                        return false;
+                    }
+                    if(!lastWordChk($("input[name=question]").eq(i).val(),"?")){
+                        MSG.alert(qaTitle + " 질문의 마지막 문자를 '?'로 입력하여 주세요.");
+                        return false;
+                    }
+                    if($("input[name=answer]").eq(i).val()==""){
+                        MSG.alert(qaTitle + " 정답을 입력하여 주새요.");
+                        return false;
+                    }
+                    if(!checkSpaces($("input[name=answer]").eq(i).val())){
+                        MSG.alert(qaTitle + " 정답의 공백을 최소 2개 이상 입력하여 주새요.");
+                        return false;
+                    }
+                    if(!lastWordChk($("input[name=answer]").eq(i).val(),".")){
+                        MSG.alert(qaTitle + " 정답의 마지막 문자를 '.'로 입력하여 주세요.");
+                        return false;
+                    }
+                    if($("input[name=wrong_answer1]").eq(i).val()==""){
+                        MSG.alert(qaTitle + " 오답1를 입력하여 주새요.");
+                        return false;
+                    }
+                    if(!checkSpaces($("input[name=wrong_answer1]").eq(i).val())){
+                        MSG.alert(qaTitle + " 오답1의 공백을 최소 2개 이상 입력하여 주새요.");
+                        return false;
+                    }
+                    if(!lastWordChk($("input[name=wrong_answer1]").eq(i).val(),".")){
+                        MSG.alert(qaTitle + " 오답1의 마지막 문자를 '.'로 입력하여 주세요.");
+                        return false;
+                    }
+                    if($("input[name=wrong_answer2]").eq(i).val()==""){
+                        MSG.alert(qaTitle + " 오답2를 입력하여 주새요.");
+                        return false;
+                    }
+                    if(!checkSpaces($("input[name=wrong_answer2]").eq(i).val())){
+                        MSG.alert(qaTitle + " 오답2의 공백을 최소 2개 이상 입력하여 주새요.");
+                        return false;
+                    }
+                    if(!lastWordChk($("input[name=wrong_answer2]").eq(i).val(),".")){
+                        MSG.alert(qaTitle + " 오답2의 마지막 문자를 '.'로 입력하여 주세요.");
+                        return false;
+                    }
+                    if($("input[name=wrong_answer3]").eq(i).val()==""){
+                        MSG.alert(qaTitle + " 오답3를 입력하여 주새요.");
+                        return false;
+                    }
+                    if(!checkSpaces($("input[name=wrong_answer3]").eq(i).val())){
+                        MSG.alert(qaTitle + " 오답3의 공백을 최소 2개 이상 입력하여 주새요.");
+                        return false;
+                    }
+                    if(!lastWordChk($("input[name=wrong_answer3]").eq(i).val(),".")){
+                        MSG.alert(qaTitle + " 오답3의 마지막 문자를 '.'로 입력하여 주세요.");
+                        return false;
+                    }
+                    if($("input[name=wrong_answer4]").eq(i).val()==""){
+                        MSG.alert(qaTitle + " 오답4를 입력하여 주새요.");
+                        return false;
+                    }
+                    if(!checkSpaces($("input[name=wrong_answer4]").eq(i).val())){
+                        MSG.alert(qaTitle + " 오답4의 공백을 최소 2개 이상 입력하여 주새요.");
+                        return false;
+                    }
+                    if(!lastWordChk($("input[name=wrong_answer4]").eq(i).val(),".")){
+                        MSG.alert(qaTitle + " 오답4의 마지막 문자를 '.'로 입력하여 주세요.");
+                        return false;
+                    }
+                }
+
+            }
+        }
         $.ajax({
             url: '<c:url value="/section/putQuestionList"/>',
             type: 'POST',
@@ -171,6 +351,131 @@
                 MSG.alert("putQuestion </br> status:"+xhr.status+"</br> message:"+xhr.responseText);
             }
         });
+    }
+    /*저장*/
+    function putShotQuestion(){
+        var len = $("input[name=questionid]").length;
+        for(var i=0; i<len; i++){
+            if($("input[name=questiontype]").eq(i).val() == "DESC"){
+                if($("input[name=question]").eq(i).val()==""){
+                    MSG.alert("묘사를 입력하여 주새요.");
+                    return false;
+                }
+                if(!checkSpaces($("input[name=question]").eq(i).val())){
+                    MSG.alert("묘사의 공백을 최소 2개 이상 입력하여 주새요.");
+                    return false;
+                }
+            }else{
+                if($("input[name=questiontype]").eq(i).val()==""){
+                    MSG.alert("Q&A Level를 입력하여 주새요.");
+                    return false;
+                }
+                if($("input[name=question]").eq(i).val()==""){
+                    MSG.alert("Q&A 질문을 입력하여 주새요.");
+                    return false;
+                }
+                if(!checkSpaces($("input[name=question]").eq(i).val())){
+                    MSG.alert("Q&A 질문의 공백을 최소 2개 이상 입력하여 주새요.");
+                    return false;
+                }
+                if(!lastWordChk($("input[name=question]").eq(i).val(),"?")){
+                    MSG.alert("Q&A 질문의 마지막 문자를 '?'로 입력하여 주세요.");
+                    return false;
+                }
+                if($("input[name=answer]").eq(i).val()==""){
+                    MSG.alert("Q&A 정답을 입력하여 주새요.");
+                    return false;
+                }
+                if(!checkSpaces($("input[name=answer]").eq(i).val())){
+                    MSG.alert("Q&A 정답의 공백을 최소 2개 이상 입력하여 주새요.");
+                    return false;
+                }
+                if(!lastWordChk($("input[name=answer]").eq(i).val(),".")){
+                    MSG.alert("Q&A 정답의 마지막 문자를 '.'로 입력하여 주세요.");
+                    return false;
+                }
+                if($("input[name=wrong_answer1]").eq(i).val()==""){
+                    MSG.alert("Q&A 오답1를 입력하여 주새요.");
+                    return false;
+                }
+                if(!checkSpaces($("input[name=wrong_answer1]").eq(i).val())){
+                    MSG.alert("Q&A 오답1의 공백을 최소 2개 이상 입력하여 주새요.");
+                    return false;
+                }
+                if(!lastWordChk($("input[name=wrong_answer1]").eq(i).val(),".")){
+                    MSG.alert("Q&A 오답1의 마지막 문자를 '.'로 입력하여 주세요.");
+                    return false;
+                }
+                if($("input[name=wrong_answer2]").eq(i).val()==""){
+                    MSG.alert("Q&A 오답2를 입력하여 주새요.");
+                    return false;
+                }
+                if(!checkSpaces($("input[name=wrong_answer2]").eq(i).val())){
+                    MSG.alert("Q&A 오답2의 공백을 최소 2개 이상 입력하여 주새요.");
+                    return false;
+                }
+                if(!lastWordChk($("input[name=wrong_answer2]").eq(i).val(),".")){
+                    MSG.alert("Q&A 오답2의 마지막 문자를 '.'로 입력하여 주세요.");
+                    return false;
+                }
+                if($("input[name=wrong_answer3]").eq(i).val()==""){
+                    MSG.alert("Q&A 오답3를 입력하여 주새요.");
+                    return false;
+                }
+                if(!checkSpaces($("input[name=wrong_answer3]").eq(i).val())){
+                    MSG.alert("Q&A 오답3의 공백을 최소 2개 이상 입력하여 주새요.");
+                    return false;
+                }
+                if(!lastWordChk($("input[name=wrong_answer3]").eq(i).val(),".")){
+                    MSG.alert("Q&A 오답3의 마지막 문자를 '.'로 입력하여 주세요.");
+                    return false;
+                }
+                if($("input[name=wrong_answer4]").eq(i).val()==""){
+                    MSG.alert("Q&A 오답4를 입력하여 주새요.");
+                    return false;
+                }
+                if(!checkSpaces($("input[name=wrong_answer4]").eq(i).val())){
+                    MSG.alert("Q&A 오답4의 공백을 최소 2개 이상 입력하여 주새요.");
+                    return false;
+                }
+                if(!lastWordChk($("input[name=wrong_answer4]").eq(i).val(),".")){
+                    MSG.alert("Q&A 오답4의 마지막 문자를 '.'로 입력하여 주세요.");
+                    return false;
+                }
+            }
+        }
+
+        $.ajax({
+            url: '<c:url value="/section/putShotQuestionList"/>',
+            type: 'POST',
+            data: $("#qaForm").serializeArray(),
+            async: false,
+            dataType: 'html',
+            // contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+            success: function (html) {
+                $div = html;
+                $("#qaForm").html($div);
+                MSG.alert("구간QA가 저장되었습니다.");
+            },
+            error: function (xhr, ajaxOptions, thrownError) {
+                MSG.alert("putQuestion </br> status:"+xhr.status+"</br> message:"+xhr.responseText);
+            }
+        });
+    }
+    function lastWordChk(str,word){
+        if(str.substr(str.length-1,str.length) == word){
+            return true;
+        }else{
+            return false;
+        }
+    }
+    function checkSpaces(str){
+        var spaceCnt = (str.match(/ /g) || []).length;
+        if(spaceCnt < 2){
+            return false;
+        }else{
+            return true;
+        }
     }
     $(document).ready(function() {
         var _player = player.init("videojs", "video", "${ videoServerUrl }/${ contentField.assetfilepath }/${ contentField.assetfilename}", "");
@@ -197,7 +502,10 @@
         });
 
         // videojs
-        getSectionList(<c:out value="${idx}"/>); // 리스트 idx 넘겨받음.(ex) 624
+
+        //getSectionList(<c:out value="${idx}"/>); // 리스트 idx 넘겨받음.(ex) 624
+
+        //getSectionOfSceneList(<c:out value="${idx}"/>); // 리스트 idx 넘겨받음.(ex) 624
         getQaSectionList(<c:out value="${idx}"/>); // 리스트 idx 넘겨받음.(ex) 624
         resizeVideo();
         proceedHotkey();

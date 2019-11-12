@@ -457,3 +457,28 @@ nav.navbar.top-navbar.navbar-toggleable-sm.navbar-light{
     text-shadow: 0 0 4px rgba(75, 106, 136, 0.5);
     font-weight: 900;
 }
+
+
+ul#qaTabs {
+    margin-top:3px;
+}
+ul#qaTabs>li{
+    text-align: center;
+    letter-spacing: -1px;
+}
+ul#qaTabs>li a {
+    min-width:50px;
+    padding: 12px 12px;
+    font-weight: 700;
+}
+
+
+#qaForm .tab-pane{
+    display:none;
+}
+#qaForm .tab-pane.active{
+    display:block;
+}
+#qaForm .tab-pane .control-label{
+    padding-right:10px
+}

@@ -13,6 +13,20 @@
         </where>
 
     </select>
+    <select id="getImgEditShotList" parameterType="ContentQuery" resultType="ShotTB">
+        SELECT
+        S.shotid, S.videoid, S.content, S.starttimecode, S.startframeindex,SUBSTR(A.sectionname, 0, POSITION('-' in A.sectionname)) AS startno,
+        S.endtimecode, S.endframeindex, S.assetfilename, S.assetfilepath, S.object, S.delflag, step
+        FROM
+        vttm_section_info_tb A
+        INNER JOIN VTTM_SHOT_TB S ON A.videoid = S.videoid AND S.shotid BETWEEN A.startshotid AND A.endshotid
+        <where>
+            A.videoid = #{idx}
+        </where>
+        ORDER BY S.shotid asc
+        <if test="limit > 0">LIMIT #{limit} </if>
+        <if test="offset > 0">OFFSET #{offset} </if>
+    </select>
 
     <select id="getShotList" parameterType="ContentQuery" resultType="ShotTB">
 
@@ -25,6 +39,22 @@
             videoid = #{idx}
         </where>
         ORDER BY shotid asc
+        <if test="limit > 0">LIMIT #{limit} </if>
+        <if test="offset > 0">OFFSET #{offset} </if>
+    </select>
+
+    <select id="getSectionOfSceneList" parameterType="ContentQuery" resultType="ShotTB">
+
+        SELECT
+        B.shotid, B.videoid, B.content, B.starttimecode, B.startframeindex,
+        B.endtimecode, B.endframeindex, B.assetfilename, B.assetfilepath, B.object, B.delflag,SUBSTR(A.sectionname, 0, POSITION('-' in A.sectionname)) AS startno, step
+        FROM VTTM_SECTION_INFO_TB A
+        INNER JOIN VTTM_SHOT_TB B ON A.videoid = B.videoid AND B.shotid BETWEEN A.startshotid AND A.endshotid
+        <where>
+            A.videoid = #{idx}
+            and A.sectionid = #{sectionid}
+        </where>
+        ORDER BY B.shotid asc
         <if test="limit > 0">LIMIT #{limit} </if>
         <if test="offset > 0">OFFSET #{offset} </if>
 

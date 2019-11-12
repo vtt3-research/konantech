@@ -2,6 +2,7 @@ package com.konantech.spring.service;
 
 import com.konantech.spring.domain.content.ContentField;
 import com.konantech.spring.domain.content.ContentQuery;
+import com.konantech.spring.domain.section.Qa;
 import com.konantech.spring.domain.section.Section;
 import com.konantech.spring.domain.storyboard.ShotTB;
 import com.konantech.spring.mapper.ContentMapper;
@@ -117,6 +118,7 @@ public class SectionService {
     public int putQuestionList(HttpServletRequest request, Principal principal) throws Exception{
         String sectionid = RequestUtils.getParameter(request, "sectionid");
         String[] questionid = RequestUtils.getParameterValues(request,"questionid");
+        String[] questiontype = RequestUtils.getParameterValues(request,"questiontype");
         String[] question = RequestUtils.getParameterValues(request,"question");
         String[] answer = RequestUtils.getParameterValues(request,"answer");
         String[] wrong_answer1 = RequestUtils.getParameterValues(request,"wrong_answer1");
@@ -127,6 +129,7 @@ public class SectionService {
         for(int i = 0; i<questionid.length; i++){
             HashMap<String,String> param = new HashMap<>();
             param.put("questionid" ,questionid[i]);
+            param.put("questiontype" ,questiontype[i]);
             param.put("sectionid"   ,sectionid);
             param.put("question"   ,question[i]);
             param.put("answer"   ,answer[i]);
@@ -135,10 +138,53 @@ public class SectionService {
             param.put("wrong_answer3"   ,wrong_answer3[i]);
             param.put("wrong_answer4"   ,wrong_answer4[i]);
             param.put("userid"      ,principal.getName());
-            if (questionid[i].equals(""))
-                result += sectionMapper.putQuestionItem(param);
-            else
-                result += sectionMapper.setQuestionItem(param);
+            if(!question[i].equals("")) {
+                if (questionid[i].equals(""))
+                    result += sectionMapper.putQuestionItem(param);
+                else
+                    result += sectionMapper.setQuestionItem(param);
+            }
+        }
+        return result;
+    }
+
+    public List<Map> getShotQuestionList(HttpServletRequest request, Principal principal) {
+        String shotid = RequestUtils.getParameter(request, "shotid");
+        HashMap<String,String> param = new HashMap<>();
+        param.put("userid"     ,principal.getName());
+        param.put("shotid"     ,shotid);
+        return sectionMapper.getShotQuestionList(param);
+    }
+
+    public int putShotQuestionList(HttpServletRequest request, Principal principal) throws Exception{
+        String shotid = RequestUtils.getParameter(request, "shotid");
+        String[] questionid = RequestUtils.getParameterValues(request,"questionid");
+        String[] questiontype = RequestUtils.getParameterValues(request,"questiontype");
+        String[] question = RequestUtils.getParameterValues(request,"question");
+        String[] answer = RequestUtils.getParameterValues(request,"answer");
+        String[] wrong_answer1 = RequestUtils.getParameterValues(request,"wrong_answer1");
+        String[] wrong_answer2 = RequestUtils.getParameterValues(request,"wrong_answer2");
+        String[] wrong_answer3 = RequestUtils.getParameterValues(request,"wrong_answer3");
+        String[] wrong_answer4 = RequestUtils.getParameterValues(request,"wrong_answer4");
+        int result = 0;
+        for(int i = 0; i<questionid.length; i++){
+            HashMap<String,String> param = new HashMap<>();
+            if(!question[i].equals("")) {
+            param.put("questionid" ,questionid[i]);
+            param.put("questiontype" ,questiontype[i]);
+            param.put("shotid"   ,shotid);
+            param.put("question"   ,question[i]);
+            param.put("answer"   ,answer[i]);
+            param.put("wrong_answer1"   ,wrong_answer1[i]);
+            param.put("wrong_answer2"   ,wrong_answer2[i]);
+            param.put("wrong_answer3"   ,wrong_answer3[i]);
+            param.put("wrong_answer4"   ,wrong_answer4[i]);
+            param.put("userid"      ,principal.getName());
+                if (questionid[i].equals(""))
+                    result += sectionMapper.putShotQuestionItem(param);
+                else
+                    result += sectionMapper.setShotQuestionItem(param);
+            }
         }
         return result;
     }
@@ -185,7 +231,6 @@ public class SectionService {
 
         Section sectionData = sectionMapper.getSectionJson(paramMap);
 
-
         List<Section.QaResult> qaResultList = sectionMapper.getQaResultsJson(paramMap);
         for(Section.QaResult qaResult : qaResultList){
 
@@ -208,4 +253,63 @@ public class SectionService {
 
         return resultJson;
     }
+
+    public String getJsonDataQa(Map paramMap) throws Exception{
+
+        Section sectionData = sectionMapper.getSectionJson(paramMap);
+        Qa qaData = new Qa();
+        qaData.setFile_name(sectionData.getFile_name());
+
+        List<Qa.QaResult> sectionDataList = new ArrayList<>();
+        List<Qa.QaResultInfo> sectionInfoList = sectionMapper.getSectionInfoJson(paramMap);
+        for(Qa.QaResultInfo  qaInfo : sectionInfoList){
+            Qa.QaResult qr = new Qa.QaResult();
+            qr.setVid(qaInfo.getVid());
+            qr.setVideoType(qaInfo.getVideoType());
+            qr.setDescription(qaInfo.getDescription());
+
+            paramMap.put("sectionid",qaInfo.getPeriod_num());
+            paramMap.put("videoid", qaInfo.getVideoid());
+            paramMap.put("shotid",qaInfo.getShotId());
+
+            List<Qa.QaResult.QnaInfo> sectionInfoQa = new ArrayList<>();
+            List<Qa.QaResult.QnaResult> sectionInfoQaResut = new ArrayList<>();
+
+            if(qaInfo.getIdx() == 1){
+                Integer[] shotContained = sectionMapper.getShotContained(paramMap);
+                qr.setShot_contained(shotContained);
+                sectionInfoQa = sectionMapper.getSectionInfoQa(paramMap);
+            }else if(qaInfo.getIdx() == 2){
+                Integer[] shotContained = {qaInfo.getShot_contained()};
+                qr.setShot_contained(shotContained);
+                sectionInfoQa = sectionMapper.getShotInfoQa(paramMap);
+            }
+
+            for(Qa.QaResult.QnaInfo  qna : sectionInfoQa){
+
+                Qa.QaResult.QnaResult qans = new Qa.QaResult.QnaResult();
+                qans.setQid(qna.getQid());
+                qans.setQa_level(qna.getQa_level());
+                qans.setQ_level_mem(qna.getQ_level_mem());
+                qans.setQ_level_logic(qna.getQ_level_logic());
+                qans.setQue(qna.getQue());
+                qans.setTrue_ans(qna.getTrue_ans());
+
+                String[] falseAns = {qna.getWrong_answer1(),qna.getWrong_answer2(),qna.getWrong_answer3(),qna.wrong_answer4};
+                qans.setFalse_ans(falseAns);
+
+                sectionInfoQaResut.add(qans);
+            }
+            qr.setQa(sectionInfoQaResut);
+
+            System.out.println(qr.toString());
+
+            sectionDataList.add(qr);
+        }
+        qaData.setQa_results(sectionDataList);
+        String resultJson= JSONUtils.jsonStringFromObject(qaData);
+
+        return resultJson;
+    }
+
 }

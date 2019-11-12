@@ -35,6 +35,13 @@ public class StoryboardService {
     public List<ShotTB> getShotList(ContentQuery n) {
         return storyboardMapper.getShotList(n);
     }
+    public List<ShotTB> getImgEditShotList(ContentQuery n) {
+        return storyboardMapper.getImgEditShotList(n);
+    }
+
+    public List<ShotTB> getSectionOfSceneList(ContentQuery n) {
+        return storyboardMapper.getSectionOfSceneList(n);
+    }
 
     public int putShotItem(ShotTB shotTB) {
         return storyboardMapper.putShotItem(shotTB);

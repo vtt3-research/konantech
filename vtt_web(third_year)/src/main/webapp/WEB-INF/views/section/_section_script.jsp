@@ -18,7 +18,11 @@
         var $tr = $('#secTr_'+shotid);
         $tr.addClass('ui-selected');
         var startsec=$tr.find("input[name=startsec]").val();
+        var endsec=$tr.find("input[name=endsec]").val();
+        _startsec = startsec;
+        _endsec = endsec;
         myPlayer1.currentTime(startsec);
+        getShotQuestionList(shotid);
     }
 
     /*구간 조회*/
@@ -37,6 +41,25 @@
             },
             error: function (xhr, ajaxOptions, thrownError) {
                 MSG.alert("getSectionList </br> status:"+xhr.status+"</br> message:"+xhr.responseText);
+            }
+        });
+    }
+    /*구간 조회*/
+    function getSectionOfSceneList(videoid,sectionid) {
+        var $div='';
+        $.ajax({
+            url: '<c:url value="/section/getSectionOfSceneList"/>',
+            type: 'POST',
+            data: {'videoid': videoid, 'sectionid': sectionid, 'rate':_rate},
+            async: false,
+            dataType: 'html',
+            // contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+            success: function (html) {
+                $div = html;
+                $("#sectionList").html($div);
+            },
+            error: function (xhr, ajaxOptions, thrownError) {
+                MSG.alert("getSectionOfSceneList </br> status:"+xhr.status+"</br> message:"+xhr.responseText);
             }
         });
     }

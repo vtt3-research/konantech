@@ -7,7 +7,7 @@
 <div class="container section" role="main">
 
     <!-- 카드 컨텐츠 시작 -->
-    <div class="row">
+   <%-- <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12 btn-group">
             <div class="x_panel">
                 <!--
@@ -19,7 +19,7 @@
             </div>
         </div>
     </div>
-    <div class="row">
+    <div class="row">--%>
 
         <div class="section-list-Wrap">
             <div id="section-list" class="x_panel section-list">

@@ -54,6 +54,12 @@
                                     </a>
                                 </li>
                                 <li>
+                                    <a class="table-btn" id="btn_vtt_qna_edit">
+                                        <i class="fa fa-file-code-o " ></i>
+                                        VTT 묘사 & Q&A 편집
+                                    </a>
+                                </li>
+                                <li>
                                     <a class="table-btn" id="btn_vtt_sound_edit">
                                         <i class="fa fa-file-code-o " ></i>
                                         VTT 소리정보 편집
@@ -219,6 +225,18 @@
             param.idx = $T.find("input[name=idx]").val();
             param.viewChk = 'section';
             location.href = "<c:url value='/section/info' />?" + $.param(param);
+
+        });
+        $("#btn_vtt_qna_edit").on("click", function() {
+            var $T = $("#content_assets .ui-selectee.ui-selected");
+            if($T.length == 0) {
+                toast("Content", "콘텐츠를 선택하세요.!", "info", 5000);
+                return false;
+            }
+            var param = {};
+            param.idx = $T.find("input[name=idx]").val();
+            param.viewChk = 'qna';
+            location.href = "<c:url value='/section/qa' />?" + $.param(param);
 
         });
 
