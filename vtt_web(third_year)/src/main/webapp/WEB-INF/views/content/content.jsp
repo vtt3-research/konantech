@@ -42,25 +42,25 @@
                                 </li>
 </sec:authorize>
                                 <li>
-                                    <a class="table-btn" id="btn_vtt_visual_edit">
+                                    <a class="table-btn" id="btn_vtt_visual">
                                         <i class="fa fa-file-code-o " ></i>
                                         VTT 시각정보 편집
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="table-btn" id="btn_vtt_section_edit">
+                                    <a class="table-btn" id="btn_vtt_section">
                                         <i class="fa fa-file-code-o " ></i>
                                         VTT 구간정보 편집
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="table-btn" id="btn_vtt_qna_edit">
+                                    <a class="table-btn" id="btn_vtt_qna">
                                         <i class="fa fa-file-code-o " ></i>
                                         VTT 묘사 & Q&A 편집
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="table-btn" id="btn_vtt_sound_edit">
+                                    <a class="table-btn" id="btn_vtt_sound">
                                         <i class="fa fa-file-code-o " ></i>
                                         VTT 소리정보 편집
                                     </a>
@@ -138,13 +138,13 @@
 
                         <div class="page-wrap">
                             <div class="col-sm-3">
-                                <div class="dataTables_info" id="example2_info" role="status" aria-live="polite">
+                                <div class="dataTables_info" id="example_info" role="status" aria-live="polite">
                                     Showing 1 to 10 of 57 entries
                                 </div>
                             </div>
 
                             <div class="col-sm-5">
-                                <div class="dataTables_paginate paging_simple_numbers" id="example2_paginate">
+                                <div class="dataTables_paginate paging_simple_numbers" id="example_paginate">
                                     <ul class="pagination"></ul>
                                 </div>
                             </div>
